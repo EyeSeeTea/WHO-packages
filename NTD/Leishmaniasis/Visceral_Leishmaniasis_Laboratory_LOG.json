@@ -1,0 +1,2827 @@
+{
+  "attributes": [
+    {
+      "categoryAttribute": false,
+      "categoryOptionAttribute": false,
+      "categoryOptionComboAttribute": false,
+      "categoryOptionGroupAttribute": false,
+      "categoryOptionGroupSetAttribute": false,
+      "code": "At_Disease",
+      "constantAttribute": false,
+      "created": "2017-01-26T14:12:52.745",
+      "dataElementAttribute": false,
+      "dataElementGroupAttribute": false,
+      "dataElementGroupSetAttribute": false,
+      "dataSetAttribute": true,
+      "documentAttribute": false,
+      "id": "x8YCHCvls4r",
+      "indicatorAttribute": false,
+      "indicatorGroupAttribute": false,
+      "lastUpdated": "2019-04-10T11:08:06.860",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSetAttribute": false,
+      "mandatory": false,
+      "name": "Disease",
+      "optionAttribute": false,
+      "optionSet": {
+        "id": "r0czxkQrRQY"
+      },
+      "optionSetAttribute": false,
+      "organisationUnitAttribute": false,
+      "organisationUnitGroupAttribute": false,
+      "organisationUnitGroupSetAttribute": false,
+      "programAttribute": true,
+      "programIndicatorAttribute": false,
+      "programStageAttribute": false,
+      "publicAccess": "--------",
+      "sectionAttribute": false,
+      "sqlViewAttribute": false,
+      "trackedEntityAttributeAttribute": false,
+      "trackedEntityTypeAttribute": false,
+      "translations": [],
+      "unique": false,
+      "userAccesses": [],
+      "userAttribute": false,
+      "userGroupAccesses": [],
+      "userGroupAttribute": false,
+      "validationRuleAttribute": false,
+      "validationRuleGroupAttribute": false,
+      "valueType": "TEXT"
+    }
+  ],
+  "categories": [
+    {
+      "attributeValues": [],
+      "categoryOptions": [
+        {
+          "id": "Y7fcspgsU43"
+        }
+      ],
+      "code": "default",
+      "created": "2017-05-10T17:53:55.152",
+      "dataDimension": false,
+      "dataDimensionType": "DISAGGREGATION",
+      "id": "DMyxTSpvKOp",
+      "lastUpdated": "2019-04-11T09:01:27.287",
+      "name": "default",
+      "publicAccess": "rw------",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ],
+  "categoryCombos": [
+    {
+      "categories": [
+        {
+          "id": "DMyxTSpvKOp"
+        }
+      ],
+      "code": "default",
+      "created": "2017-05-10T17:53:55.156",
+      "dataDimensionType": "DISAGGREGATION",
+      "id": "JzvGfLYkX17",
+      "lastUpdated": "2019-02-20T16:22:55.336",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "default",
+      "publicAccess": "rw------",
+      "skipTotal": false,
+      "translations": [],
+      "userAccesses": []
+    }
+  ],
+  "categoryOptionCombos": [
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "categoryOptions": [
+        {
+          "id": "Y7fcspgsU43"
+        }
+      ],
+      "code": "default",
+      "created": "2017-05-10T17:53:55.157",
+      "id": "Xr12mI7VPn3",
+      "ignoreApproval": false,
+      "lastUpdated": "2017-05-10T17:53:55.158",
+      "name": "default",
+      "translations": []
+    }
+  ],
+  "categoryOptions": [
+    {
+      "attributeValues": [],
+      "code": "default",
+      "created": "2017-05-10T17:53:55.138",
+      "id": "Y7fcspgsU43",
+      "lastUpdated": "2018-07-27T16:09:07.425",
+      "name": "default",
+      "organisationUnits": [],
+      "publicAccess": "rwrw----",
+      "shortName": "default",
+      "translations": [],
+      "userAccesses": []
+    }
+  ],
+  "dataElements": [
+    {
+      "aggregationLevels": [],
+      "aggregationType": "AVERAGE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "GEN_Age_T",
+      "created": "2016-03-18T12:34:24.376",
+      "description": "Age in years",
+      "domainType": "TRACKER",
+      "formName": "Age (in years)",
+      "id": "Xii6gy92ebp",
+      "lastUpdated": "2019-03-25T13:01:32.722",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "GEN_Age_T",
+      "publicAccess": "--------",
+      "shortName": "Age",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Age en années - Cet élément de données est dynamique, c'est à dire que chaque jour le patient va viellir d'un an."
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Age"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_Age_T"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Age"
+        }
+      ],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "valueType": "NUMBER",
+      "zeroIsSignificant": true
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "NONE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "GEN_Family name_T",
+      "created": "2016-09-13T16:46:09.752",
+      "domainType": "TRACKER",
+      "formName": "Family name",
+      "id": "Q7dOlqe54eh",
+      "lastUpdated": "2019-03-26T12:59:19.136",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "GEN_Family name_T",
+      "publicAccess": "--------",
+      "shortName": "Family name",
+      "translations": [],
+      "valueType": "TEXT",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "NONE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "GEN_FirstName_T",
+      "created": "2016-09-13T16:46:09.752",
+      "domainType": "TRACKER",
+      "formName": "First name",
+      "id": "LJHNsKzZ8Mg",
+      "lastUpdated": "2019-03-26T12:59:19.005",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "GEN_FirstName_T",
+      "publicAccess": "--------",
+      "shortName": "First name",
+      "translations": [],
+      "valueType": "TEXT",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "NONE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "GEN_OutpatientNumber_T",
+      "created": "2016-05-22T22:45:15.692",
+      "description": "Please indicate the Out Patient number of the registry",
+      "domainType": "TRACKER",
+      "formName": "Outpatient No",
+      "id": "l2oZmW8P4kT",
+      "lastUpdated": "2018-12-21T11:04:10.160",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "GEN_OutpatientNumber_T",
+      "publicAccess": "--------",
+      "shortName": "OP NO",
+      "translations": [],
+      "userAccesses": [],
+      "valueType": "TEXT",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "NONE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "GEN_PLACE_Residence_OU_T",
+      "created": "2016-05-22T22:45:16.647",
+      "description": "Please indicate the place of residence of the patient as finest as possible by selecting it in the organisation units tree.",
+      "domainType": "TRACKER",
+      "formName": "Place of residence (as organization unit)",
+      "id": "mwIgH1XXf6p",
+      "lastUpdated": "2019-04-10T11:05:23.685",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "GEN_PLACE_Residence_OU_T",
+      "publicAccess": "--------",
+      "shortName": "Place of residence (as OU)",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Veuillez indiquer le lieu de résidence de la manière la plus fine possible (idéalement le village de résidence), en le sélectionant dans l'arbre des unités d'organisation."
+        },
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Veuillez indiquer le lieu de résidence de la manière la plus fine possible (idéalement le village de résidence), en le sélectionant dans l'arbre des unités d'organisation."
+        },
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Veuillez indiquer le lieu de résidence de la manière la plus fine possible (idéalement le village de résidence), en le sélectionant dans l'arbre des unités d'organisation."
+        },
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Veuillez indiquer le lieu de résidence de la manière la plus fine possible (idéalement le village de résidence), en le sélectionant dans l'arbre des unités d'organisation."
+        },
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Veuillez indiquer le lieu de résidence de la manière la plus fine possible (idéalement le village de résidence), en le sélectionant dans l'arbre des unités d'organisation."
+        },
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Veuillez indiquer le lieu de résidence de la manière la plus fine possible (idéalement le village de résidence), en le sélectionant dans l'arbre des unités d'organisation."
+        },
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Veuillez indiquer le lieu de résidence de la manière la plus fine possible (idéalement le village de résidence), en le sélectionant dans l'arbre des unités d'organisation."
+        },
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Veuillez indiquer le lieu de résidence de la manière la plus fine possible (idéalement le village de résidence), en le sélectionant dans l'arbre des unités d'organisation."
+        },
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Veuillez indiquer le lieu de résidence de la manière la plus fine possible (idéalement le village de résidence), en le sélectionant dans l'arbre des unités d'organisation."
+        },
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Veuillez indiquer le lieu de résidence de la manière la plus fine possible (idéalement le village de résidence), en le sélectionant dans l'arbre des unités d'organisation."
+        },
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Veuillez indiquer le lieu de résidence de la manière la plus fine possible (idéalement le village de résidence), en le sélectionant dans l'arbre des unités d'organisation."
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Lieu de résidence (comme unité d'organisation)"
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Lieu de résidence (comme unité d'organisation)"
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Lieu de résidence (comme unité d'organisation)"
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Lieu de résidence (comme unité d'organisation)"
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Lieu de résidence (comme unité d'organisation)"
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Lieu de résidence (comme unité d'organisation)"
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Lieu de résidence (comme unité d'organisation)"
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Lieu de résidence (comme unité d'organisation)"
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Lieu de résidence (comme unité d'organisation)"
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Lieu de résidence (comme unité d'organisation)"
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Lieu de résidence (comme unité d'organisation)"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_PlaceOU_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_PlaceOU_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_PlaceOU_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_PlaceOU_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_PlaceOU_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_PlaceOU_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_PlaceOU_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_PlaceOU_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_PlaceOU_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_PlaceOU_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_PlaceOU_T"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Lieu de résidence"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Lieu de résidence"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Lieu de résidence"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Lieu de résidence"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Lieu de résidence"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Lieu de résidence"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Lieu de résidence"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Lieu de résidence"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Lieu de résidence"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Lieu de résidence"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Lieu de résidence"
+        }
+      ],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "valueType": "ORGANISATION_UNIT",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "NONE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "GEN_PLACE_VillageOfResidence_Text_T",
+      "created": "2016-02-28T01:06:28.092",
+      "description": "In case you could not find the village neither in the organisation tree, nor in the when trying to capture the coordinates, please indicate the name of the village of residence as free text in this box.",
+      "domainType": "TRACKER",
+      "formName": "Probable village of residence (Free text)",
+      "id": "bTwp4cKNjgZ",
+      "lastUpdated": "2019-04-10T11:05:23.595",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "GEN_PLACE_VillageOfResidence_Text_T",
+      "publicAccess": "--------",
+      "shortName": "Village of residence (Free text)",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "valueType": "TEXT",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "NONE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "GEN_REMARKS",
+      "created": "2017-05-10T10:09:50.792",
+      "domainType": "TRACKER",
+      "formName": "Remarks",
+      "id": "YOfsQvR5dQV",
+      "lastUpdated": "2019-04-10T11:02:18.115",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "GEN_REMARKS",
+      "publicAccess": "--------",
+      "shortName": "GEN_REMARKS",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "valueType": "LONG_TEXT",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "NONE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "GEN_Sexe_T",
+      "created": "2017-08-18T16:15:07.454",
+      "description": "Gender",
+      "domainType": "TRACKER",
+      "formName": "Gender",
+      "id": "Z8W89lDV4IL",
+      "lastUpdated": "2019-04-10T11:05:23.664",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "GEN_Sexe_T",
+      "optionSet": {
+        "id": "apzFCMWeffA"
+      },
+      "publicAccess": "--------",
+      "shortName": "Gender",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Genre"
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Genre"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_Genre_T"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Genre"
+        }
+      ],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "valueType": "TEXT",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "NONE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "VL_Lab_DAT_T",
+      "created": "2016-02-28T01:14:46.912",
+      "description": "DAT",
+      "domainType": "TRACKER",
+      "formName": "DAT",
+      "id": "Smz32lrbfyh",
+      "lastUpdated": "2019-04-10T11:05:23.644",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "VL_Lab_DAT_T",
+      "optionSet": {
+        "id": "s9DphURXyJX"
+      },
+      "publicAccess": "--------",
+      "shortName": "DAT",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "valueType": "TEXT",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "NONE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "VL_Lab_DAT_T_PNBND",
+      "created": "2018-12-03T17:49:10.407",
+      "description": "DAT",
+      "domainType": "TRACKER",
+      "formName": "DAT",
+      "id": "Bg67t8nmrwn",
+      "lastUpdated": "2018-12-21T11:04:10.274",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "VL_Lab_DAT_T_PNBND",
+      "optionSet": {
+        "id": "B1BBW5eGt1j"
+      },
+      "publicAccess": "--------",
+      "shortName": "DAT_PNBND",
+      "translations": [],
+      "userAccesses": [],
+      "valueType": "TEXT",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "NONE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "VL_Lab_Dept",
+      "created": "2017-06-28T16:01:04.714",
+      "domainType": "TRACKER",
+      "formName": "Department",
+      "id": "MOOioCpQAeO",
+      "lastUpdated": "2019-02-20T13:35:21.596",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "VL_Lab_Dept",
+      "publicAccess": "--------",
+      "shortName": "VL_Lab_Dept",
+      "translations": [],
+      "userAccesses": [],
+      "valueType": "TEXT",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "NONE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "VL_Lab_ID",
+      "created": "2017-06-28T16:01:04.714",
+      "domainType": "TRACKER",
+      "formName": "Lab No",
+      "id": "I4PpM2eflrz",
+      "lastUpdated": "2019-02-20T13:35:21.601",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "VL_Lab_ID",
+      "publicAccess": "--------",
+      "shortName": "VL_Lab_IDQ",
+      "translations": [],
+      "userAccesses": [],
+      "valueType": "NUMBER",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "NONE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "VL_Lab_RDT_T (old)",
+      "created": "2016-06-23T08:28:42.582",
+      "domainType": "TRACKER",
+      "formName": "Rapid diagnostic test result",
+      "id": "DeA3q4Uczfz",
+      "lastUpdated": "2019-04-10T11:05:23.612",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "VL_Lab_RDT_T (old)",
+      "optionSet": {
+        "id": "s9DphURXyJX"
+      },
+      "publicAccess": "--------",
+      "shortName": "RDT result (old)",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "valueType": "TEXT",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "NONE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "VL_Lab_SplenicAsspirate_T",
+      "created": "2016-05-23T00:04:01.950",
+      "domainType": "TRACKER",
+      "formName": "Splenic/bone marrow aspirate result",
+      "id": "NWGXBZSCQto",
+      "lastUpdated": "2019-04-10T11:02:18.059",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "VL_Lab_SplenicAsspirate_T",
+      "optionSet": {
+        "id": "s9DphURXyJX"
+      },
+      "publicAccess": "--------",
+      "shortName": "VL_Lab_SplenicAsspirate_T",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "valueType": "TEXT",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "NONE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "VL_Lab_TITRE",
+      "created": "2017-07-08T13:15:51.847",
+      "domainType": "TRACKER",
+      "formName": "Titre",
+      "id": "O7trYnDIDuH",
+      "lastUpdated": "2019-02-20T13:35:21.610",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "VL_Lab_TITRE",
+      "publicAccess": "--------",
+      "shortName": "VL_Lab_TITRE",
+      "translations": [],
+      "userAccesses": [],
+      "valueType": "TEXT",
+      "zeroIsSignificant": false
+    }
+  ],
+  "dataEntryForms": [
+    {
+      "created": "2018-07-24T13:30:29.036",
+      "format": 0,
+      "id": "TiUevg9HE8x",
+      "lastUpdated": "2018-07-27T16:01:37.545",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "h1KVXwrpKKf",
+      "style": "NORMAL",
+      "translations": []
+    }
+  ],
+  "date": "2019-04-11T13:47:22.669",
+  "optionSets": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "code": "OpS_Disease",
+      "created": "2017-01-26T14:09:22.007",
+      "displayName": "Disease",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "https://extranet.who.int/dhis2-dev/api/optionSets/r0czxkQrRQY",
+      "id": "r0czxkQrRQY",
+      "lastUpdated": "2017-09-12T15:20:23.700",
+      "name": "Disease",
+      "options": [
+        {
+          "id": "PsDfyH1s6z0"
+        },
+        {
+          "id": "Ql9HLirUDjN"
+        },
+        {
+          "id": "SAOVtVKc2s5"
+        },
+        {
+          "id": "SYdHr4hp0KW"
+        },
+        {
+          "id": "WnIosGUIQKU"
+        },
+        {
+          "id": "aHSoj6JChiB"
+        },
+        {
+          "id": "gHBKHeDrVXq"
+        },
+        {
+          "id": "iwWj4JG7XdE"
+        },
+        {
+          "id": "v2Ypwqcq04H"
+        }
+      ],
+      "publicAccess": "--------",
+      "translations": [],
+      "valueType": "TEXT",
+      "version": 1
+    },
+    {
+      "attributeValues": [],
+      "code": "OpS_Gender",
+      "created": "2016-05-22T22:20:55.318",
+      "id": "apzFCMWeffA",
+      "lastUpdated": "2019-04-10T11:06:24.820",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "Gender",
+      "options": [
+        {
+          "id": "DL8exJ3mxUX"
+        },
+        {
+          "id": "qmsg1OVBqif"
+        },
+        {
+          "id": "tZftZ03eewT"
+        }
+      ],
+      "publicAccess": "--------",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "valueType": "TEXT",
+      "version": 10
+    },
+    {
+      "attributeValues": [],
+      "created": "2018-12-03T17:41:33.960",
+      "id": "B1BBW5eGt1j",
+      "lastUpdated": "2018-12-21T11:47:05.329",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "Result_PNBND",
+      "options": [
+        {
+          "id": "W6D2oLri0Yz"
+        },
+        {
+          "id": "fIvMjiSg239"
+        },
+        {
+          "id": "jrtw6M8g3gj"
+        },
+        {
+          "id": "jv6uGJgYCOA"
+        }
+      ],
+      "publicAccess": "--------",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "valueType": "TEXT",
+      "version": 9
+    },
+    {
+      "attributeValues": [],
+      "code": "OpS_Result_simple",
+      "created": "2016-09-21T15:56:56.229",
+      "id": "s9DphURXyJX",
+      "lastUpdated": "2019-04-10T11:05:22.036",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "Result_simple",
+      "options": [
+        {
+          "id": "MA7KEkO6Kpe"
+        },
+        {
+          "id": "qBxH3d9jIJk"
+        },
+        {
+          "id": "tGZPAKuvB4t"
+        },
+        {
+          "id": "yDMEl7QeOWI"
+        }
+      ],
+      "publicAccess": "--------",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "valueType": "TEXT",
+      "version": 10
+    }
+  ],
+  "options": [
+    {
+      "attributeValues": [],
+      "code": "Op_Result_borderline",
+      "created": "2018-12-21T11:45:58.346",
+      "id": "jrtw6M8g3gj",
+      "lastUpdated": "2018-12-21T11:45:58.398",
+      "name": "Borderline",
+      "optionSet": {
+        "id": "B1BBW5eGt1j"
+      },
+      "sortOrder": 3,
+      "translations": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "code": "Op_Disease_BU",
+      "created": "2017-01-26T14:09:48.508",
+      "displayName": "Buruli Ulcer",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "id": "WnIosGUIQKU",
+      "lastUpdated": "2017-05-15T15:05:42.024",
+      "name": "Buruli Ulcer",
+      "optionSet": {
+        "id": "r0czxkQrRQY"
+      },
+      "sortOrder": 1,
+      "translations": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "code": "Op_Disease_CD",
+      "created": "2017-01-26T14:10:07.838",
+      "displayName": "Chagas disease",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "id": "v2Ypwqcq04H",
+      "lastUpdated": "2017-05-15T15:05:42.024",
+      "name": "Chagas disease",
+      "optionSet": {
+        "id": "r0czxkQrRQY"
+      },
+      "sortOrder": 2,
+      "translations": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "code": "Op_Disease_Op_Disease_CL",
+      "created": "2017-01-26T14:10:35.095",
+      "displayName": "Cutaneous leishmaniasis",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "id": "SAOVtVKc2s5",
+      "lastUpdated": "2017-05-15T15:05:42.024",
+      "name": "Cutaneous leishmaniasis",
+      "optionSet": {
+        "id": "r0czxkQrRQY"
+      },
+      "sortOrder": 3,
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "code": "Op_Gender_Female",
+      "created": "2016-07-04T14:36:48.721",
+      "id": "tZftZ03eewT",
+      "lastUpdated": "2019-04-10T11:06:23.902",
+      "name": "Female",
+      "optionSet": {
+        "id": "apzFCMWeffA"
+      },
+      "sortOrder": 1,
+      "translations": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "code": "Op_Disease_HAT",
+      "created": "2017-01-26T14:11:07.130",
+      "displayName": "Human African Trypanosomiasis",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "id": "iwWj4JG7XdE",
+      "lastUpdated": "2017-05-15T15:05:42.024",
+      "name": "Human African Trypanosomiasis",
+      "optionSet": {
+        "id": "r0czxkQrRQY"
+      },
+      "sortOrder": 5,
+      "translations": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "code": "Op_Disease_Leish",
+      "created": "2017-01-26T14:27:56.322",
+      "displayName": "Leishmaniasis (both forms)",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "id": "PsDfyH1s6z0",
+      "lastUpdated": "2017-05-15T15:05:42.024",
+      "name": "Leishmaniasis (both forms)",
+      "optionSet": {
+        "id": "r0czxkQrRQY"
+      },
+      "sortOrder": 8,
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "code": "Op_Gender_Male",
+      "created": "2016-07-04T14:36:48.721",
+      "id": "qmsg1OVBqif",
+      "lastUpdated": "2019-04-10T11:06:23.902",
+      "name": "Male",
+      "optionSet": {
+        "id": "apzFCMWeffA"
+      },
+      "sortOrder": 2,
+      "translations": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "code": "Op_Disease_Mycetoma",
+      "created": "2017-01-26T14:11:26.375",
+      "displayName": "Mycetoma",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "id": "aHSoj6JChiB",
+      "lastUpdated": "2017-05-15T15:05:42.024",
+      "name": "Mycetoma",
+      "optionSet": {
+        "id": "r0czxkQrRQY"
+      },
+      "sortOrder": 6,
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "code": "Op_Result_simple_N",
+      "created": "2018-12-21T11:45:45.364",
+      "id": "W6D2oLri0Yz",
+      "lastUpdated": "2018-12-21T11:45:45.421",
+      "name": "Negative",
+      "optionSet": {
+        "id": "B1BBW5eGt1j"
+      },
+      "sortOrder": 2,
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "code": "Op_Result_simple_N",
+      "created": "2016-09-21T16:02:43.504",
+      "id": "MA7KEkO6Kpe",
+      "lastUpdated": "2019-04-10T11:05:21.265",
+      "name": "Negative",
+      "optionSet": {
+        "id": "s9DphURXyJX"
+      },
+      "sortOrder": 2,
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "code": "Op_Result_NotDone",
+      "created": "2018-12-21T11:47:05.050",
+      "id": "jv6uGJgYCOA",
+      "lastUpdated": "2018-12-21T11:47:05.106",
+      "name": "Not Done",
+      "optionSet": {
+        "id": "B1BBW5eGt1j"
+      },
+      "sortOrder": 4,
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "code": "Op_Result_simple_ND",
+      "created": "2017-07-08T12:26:54.870",
+      "id": "yDMEl7QeOWI",
+      "lastUpdated": "2019-04-10T11:05:21.265",
+      "name": "Not done",
+      "optionSet": {
+        "id": "s9DphURXyJX"
+      },
+      "sortOrder": 3,
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "code": "Op_Result_Positive",
+      "created": "2018-12-21T11:45:35.427",
+      "id": "fIvMjiSg239",
+      "lastUpdated": "2018-12-21T11:45:35.485",
+      "name": "Positive",
+      "optionSet": {
+        "id": "B1BBW5eGt1j"
+      },
+      "sortOrder": 1,
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "code": "Op_Result_simple_P",
+      "created": "2016-09-21T16:02:43.504",
+      "id": "qBxH3d9jIJk",
+      "lastUpdated": "2019-04-10T11:05:21.266",
+      "name": "Positive",
+      "optionSet": {
+        "id": "s9DphURXyJX"
+      },
+      "sortOrder": 1,
+      "translations": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "code": "Op_Disease_SkinNTDs",
+      "created": "2017-03-29T11:42:08.683",
+      "displayName": "SkinNTDs",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "id": "gHBKHeDrVXq",
+      "lastUpdated": "2017-05-15T15:05:42.024",
+      "name": "SkinNTDs",
+      "optionSet": {
+        "id": "r0czxkQrRQY"
+      },
+      "sortOrder": 9,
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "code": "Op_Result_simple_U",
+      "created": "2016-09-21T16:02:43.504",
+      "id": "tGZPAKuvB4t",
+      "lastUpdated": "2019-04-10T11:05:21.266",
+      "name": "Unknown",
+      "optionSet": {
+        "id": "s9DphURXyJX"
+      },
+      "sortOrder": 4,
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "code": "Op_Gender_Unknown",
+      "created": "2016-07-04T14:36:48.721",
+      "id": "DL8exJ3mxUX",
+      "lastUpdated": "2019-04-10T11:06:23.902",
+      "name": "Unknown",
+      "optionSet": {
+        "id": "apzFCMWeffA"
+      },
+      "sortOrder": 3,
+      "translations": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "code": "Op_Disease_VL",
+      "created": "2017-01-26T14:10:50.847",
+      "displayName": "Visceral leishmaniasis",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "id": "SYdHr4hp0KW",
+      "lastUpdated": "2017-05-15T15:05:42.024",
+      "name": "Visceral leishmaniasis",
+      "optionSet": {
+        "id": "r0czxkQrRQY"
+      },
+      "sortOrder": 4,
+      "translations": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "code": "Op_Disease_Yaws",
+      "created": "2017-01-26T14:11:37.895",
+      "displayName": "Yaws",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "id": "Ql9HLirUDjN",
+      "lastUpdated": "2017-05-15T15:05:42.024",
+      "name": "Yaws",
+      "optionSet": {
+        "id": "r0czxkQrRQY"
+      },
+      "sortOrder": 7,
+      "translations": []
+    }
+  ],
+  "programIndicators": [
+    {
+      "aggregationType": "SUM",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2019-02-20T16:07:27.355",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "EzNTt8GOwq6",
+          "lastUpdated": "2019-02-20T16:07:27.355",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2019-02-20T16:07:27.354",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "XcX3DdOZqBw",
+          "lastUpdated": "2019-02-20T16:07:27.354",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "code": "PI_VL_K_LabLog_EventCount",
+      "created": "2019-02-20T16:07:27.354",
+      "description": "Counts the number of events recorded in the program \"Visceral Leishmaniasis Laboratory LOG\" with a valid Event date",
+      "displayInForm": false,
+      "expression": "V{event_count}",
+      "filter": "V{event_date}>'01/01/1900'",
+      "id": "bVMzJyKmCjS",
+      "lastUpdated": "2019-02-20T16:07:27.354",
+      "lastUpdatedBy": {
+        "id": "ilJDyuqlwDC"
+      },
+      "legendSets": [],
+      "name": "Number of events in \"Visceral Leishmaniasis Laboratory LOG\"",
+      "program": {
+        "id": "h1KVXwrpKKf"
+      },
+      "publicAccess": "rw------",
+      "shortName": "No. Events",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "aggregationType": "SUM",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-11-02T09:34:37.034",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "HXosTZfgz2B",
+          "lastUpdated": "2018-11-02T09:34:37.034",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-11-02T09:34:37.034",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "dPdDZXpO2bS",
+          "lastUpdated": "2018-11-02T09:34:37.034",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "code": "PI_VL_K_Suspects_F_15",
+      "created": "2017-06-30T11:42:08.030",
+      "decimals": 0,
+      "displayInForm": false,
+      "expression": "V{event_count}",
+      "filter": "#{zbYH78WJM8J.Z8W89lDV4IL} == 'Op_Gender_Female' && #{Zb23998a9oP.Xii6gy92ebp} >= 15",
+      "id": "HrJ45XPZQsk",
+      "lastUpdated": "2018-07-27T16:09:07.644",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "VL Female Suspects +15",
+      "program": {
+        "id": "h1KVXwrpKKf"
+      },
+      "publicAccess": "--------",
+      "shortName": "VL Female Suspects +15",
+      "translations": [],
+      "userAccesses": []
+    },
+    {
+      "aggregationType": "SUM",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-11-02T09:34:37.034",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "vt4bTSRifP3",
+          "lastUpdated": "2018-11-02T09:34:37.034",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-11-02T09:34:37.034",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "wesBZHhWUXX",
+          "lastUpdated": "2018-11-02T09:34:37.034",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "code": "PI_VL_K_Suspects_F_5_14",
+      "created": "2017-06-30T11:42:08.030",
+      "decimals": 0,
+      "displayInForm": false,
+      "expression": "V{event_count}",
+      "filter": "#{zbYH78WJM8J.Z8W89lDV4IL} == 'Op_Gender_Female' && #{Zb23998a9oP.Xii6gy92ebp} >= 5 && #{Zb23998a9oP.Xii6gy92ebp} <= 14",
+      "id": "Xx9MdZ91QMl",
+      "lastUpdated": "2018-07-27T16:09:07.689",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "VL Female Suspects 5-14",
+      "program": {
+        "id": "h1KVXwrpKKf"
+      },
+      "publicAccess": "--------",
+      "shortName": "VL Female Suspects 5-14",
+      "translations": [],
+      "userAccesses": []
+    },
+    {
+      "aggregationType": "SUM",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-11-02T09:34:37.034",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "KB4K4vtlcRu",
+          "lastUpdated": "2018-11-02T09:34:37.034",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-11-02T09:34:37.034",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "hkMHEuMBZ6R",
+          "lastUpdated": "2018-11-02T09:34:37.034",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "code": "PI_VL_K_Suspects_F_5",
+      "created": "2017-06-30T11:42:08.030",
+      "decimals": 0,
+      "displayInForm": false,
+      "expression": "V{event_count}",
+      "filter": "#{zbYH78WJM8J.Z8W89lDV4IL} == 'Op_Gender_Female' && #{Zb23998a9oP.Xii6gy92ebp} < 5",
+      "id": "pMCWjnOXvkD",
+      "lastUpdated": "2018-07-27T16:09:07.663",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "VL Female Suspects < 5",
+      "program": {
+        "id": "h1KVXwrpKKf"
+      },
+      "publicAccess": "--------",
+      "shortName": "VL Female Suspects < 5",
+      "translations": [],
+      "userAccesses": []
+    },
+    {
+      "aggregationType": "SUM",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-11-02T09:34:37.034",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "hm3pEIQqxFN",
+          "lastUpdated": "2018-11-02T09:34:37.034",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-11-02T09:34:37.034",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "pzeF53hiC0s",
+          "lastUpdated": "2018-11-02T09:34:37.034",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "code": "PI_VL_K_Suspects_15",
+      "created": "2017-06-30T11:42:08.030",
+      "decimals": 0,
+      "displayInForm": false,
+      "expression": "V{event_count}",
+      "filter": "#{zbYH78WJM8J.Z8W89lDV4IL} == 'Op_Gender_Male' && #{Zb23998a9oP.Xii6gy92ebp} >= 15",
+      "id": "vMrL4KsxBvl",
+      "lastUpdated": "2018-07-27T16:09:07.662",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "VL Male Suspects +15",
+      "program": {
+        "id": "h1KVXwrpKKf"
+      },
+      "publicAccess": "--------",
+      "shortName": "VL Male Suspects +15",
+      "translations": [],
+      "userAccesses": []
+    },
+    {
+      "aggregationType": "SUM",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-11-02T09:34:37.034",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "HVN4usceImP",
+          "lastUpdated": "2018-11-02T09:34:37.034",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-11-02T09:34:37.034",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "r32ZkXih9yb",
+          "lastUpdated": "2018-11-02T09:34:37.034",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "code": "PI_VL_K_Suspects_5_14",
+      "created": "2017-06-30T11:42:08.030",
+      "decimals": 0,
+      "displayInForm": false,
+      "expression": "V{event_count}",
+      "filter": "#{zbYH78WJM8J.Z8W89lDV4IL} == 'Op_Gender_Male' && #{Zb23998a9oP.Xii6gy92ebp} >= 5 && #{Zb23998a9oP.Xii6gy92ebp} <= 14",
+      "id": "W9p26OHmXtD",
+      "lastUpdated": "2018-07-27T16:09:07.642",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "VL Male Suspects 5-14",
+      "program": {
+        "id": "h1KVXwrpKKf"
+      },
+      "publicAccess": "--------",
+      "shortName": "VL Male Suspects 5-14",
+      "translations": [],
+      "userAccesses": []
+    },
+    {
+      "aggregationType": "SUM",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-11-02T09:34:37.034",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "izYCLjQjVfR",
+          "lastUpdated": "2018-11-02T09:34:37.034",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-11-02T09:34:37.034",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "nbDuKwItyzI",
+          "lastUpdated": "2018-11-02T09:34:37.034",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "code": "PI_VL_K_Suspects_5",
+      "created": "2017-06-30T11:42:08.030",
+      "decimals": 0,
+      "displayInForm": false,
+      "expression": "V{event_count}",
+      "filter": "#{zbYH78WJM8J.Z8W89lDV4IL} == 'Op_Gender_Male' && #{Zb23998a9oP.Xii6gy92ebp} < 5",
+      "id": "uCh7STQLYhv",
+      "lastUpdated": "2018-07-27T16:09:07.464",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "VL Male Suspects < 5",
+      "program": {
+        "id": "h1KVXwrpKKf"
+      },
+      "publicAccess": "--------",
+      "shortName": "VL Male Suspects < 5",
+      "translations": [],
+      "userAccesses": []
+    }
+  ],
+  "programRuleActions": [
+    {
+      "created": "2017-07-08T13:40:10.650",
+      "dataElement": {
+        "id": "O7trYnDIDuH"
+      },
+      "id": "OJYJlMhmGQO",
+      "lastUpdated": "2018-07-27T16:01:38.841",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "programRule": {
+        "id": "LyFAaVQwG21"
+      },
+      "programRuleActionType": "HIDEFIELD"
+    }
+  ],
+  "programRuleVariables": [
+    {
+      "created": "2017-07-08T13:41:06.526",
+      "dataElement": {
+        "id": "Smz32lrbfyh"
+      },
+      "id": "HNGigLgNGtB",
+      "lastUpdated": "2018-07-27T16:01:38.649",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "DATResult",
+      "program": {
+        "id": "h1KVXwrpKKf"
+      },
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT",
+      "useCodeForOptionSet": true
+    }
+  ],
+  "programRules": [
+    {
+      "condition": "#{DATResult} != 'Op_Result_Positive'  && #{DATResult} != 'Op_Result_Borderline'",
+      "created": "2017-07-08T13:39:47.693",
+      "id": "LyFAaVQwG21",
+      "lastUpdated": "2018-07-27T16:01:39.035",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "Show titre for DAT test",
+      "program": {
+        "id": "h1KVXwrpKKf"
+      },
+      "programRuleActions": [
+        {
+          "id": "OJYJlMhmGQO"
+        }
+      ],
+      "translations": []
+    }
+  ],
+  "programStageDataElements": [
+    {
+      "allowFutureDate": false,
+      "allowProvidedElsewhere": false,
+      "compulsory": false,
+      "created": "2017-06-28T16:02:23.241",
+      "dataElement": {
+        "id": "MOOioCpQAeO"
+      },
+      "displayInReports": false,
+      "id": "C2rEXDTiqRR",
+      "lastUpdated": "2019-04-11T12:24:16.887",
+      "programStage": {
+        "id": "Zb23998a9oP"
+      },
+      "renderOptionsAsRadio": false,
+      "skipSynchronization": false,
+      "sortOrder": 8
+    },
+    {
+      "allowFutureDate": false,
+      "allowProvidedElsewhere": false,
+      "compulsory": true,
+      "created": "2018-07-24T13:50:26.660",
+      "dataElement": {
+        "id": "LJHNsKzZ8Mg"
+      },
+      "displayInReports": false,
+      "id": "FOIOfPmpFfh",
+      "lastUpdated": "2019-04-11T12:24:16.888",
+      "programStage": {
+        "id": "Zb23998a9oP"
+      },
+      "renderOptionsAsRadio": false,
+      "skipSynchronization": false,
+      "sortOrder": 2
+    },
+    {
+      "allowFutureDate": false,
+      "allowProvidedElsewhere": false,
+      "compulsory": false,
+      "created": "2017-06-28T15:58:52.512",
+      "dataElement": {
+        "id": "l2oZmW8P4kT"
+      },
+      "displayInReports": false,
+      "id": "HgAMGgTRmNI",
+      "lastUpdated": "2019-04-11T12:24:16.889",
+      "programStage": {
+        "id": "Zb23998a9oP"
+      },
+      "renderOptionsAsRadio": false,
+      "skipSynchronization": false,
+      "sortOrder": 0
+    },
+    {
+      "allowFutureDate": false,
+      "allowProvidedElsewhere": false,
+      "compulsory": true,
+      "created": "2017-06-28T15:34:36.430",
+      "dataElement": {
+        "id": "Smz32lrbfyh"
+      },
+      "displayInReports": true,
+      "id": "HiEjXHKM1H8",
+      "lastUpdated": "2019-04-11T12:24:16.890",
+      "programStage": {
+        "id": "Zb23998a9oP"
+      },
+      "renderOptionsAsRadio": false,
+      "skipSynchronization": false,
+      "sortOrder": 10
+    },
+    {
+      "allowFutureDate": false,
+      "allowProvidedElsewhere": false,
+      "compulsory": true,
+      "created": "2017-06-28T15:34:36.431",
+      "dataElement": {
+        "id": "Xii6gy92ebp"
+      },
+      "displayInReports": true,
+      "id": "KZjxJbWjfXU",
+      "lastUpdated": "2019-04-11T12:24:16.888",
+      "programStage": {
+        "id": "Zb23998a9oP"
+      },
+      "renderOptionsAsRadio": false,
+      "skipSynchronization": false,
+      "sortOrder": 4
+    },
+    {
+      "allowFutureDate": false,
+      "allowProvidedElsewhere": false,
+      "compulsory": false,
+      "created": "2017-06-28T15:38:35.328",
+      "dataElement": {
+        "id": "YOfsQvR5dQV"
+      },
+      "displayInReports": true,
+      "id": "Kq3joaRvOXx",
+      "lastUpdated": "2019-04-11T12:24:16.889",
+      "programStage": {
+        "id": "Zb23998a9oP"
+      },
+      "renderOptionsAsRadio": false,
+      "skipSynchronization": false,
+      "sortOrder": 13
+    },
+    {
+      "allowFutureDate": false,
+      "allowProvidedElsewhere": false,
+      "compulsory": false,
+      "created": "2017-06-28T16:02:23.239",
+      "dataElement": {
+        "id": "I4PpM2eflrz"
+      },
+      "displayInReports": false,
+      "id": "Lu8lqBszfC6",
+      "lastUpdated": "2019-04-11T12:24:16.890",
+      "programStage": {
+        "id": "Zb23998a9oP"
+      },
+      "renderOptionsAsRadio": false,
+      "skipSynchronization": false,
+      "sortOrder": 1
+    },
+    {
+      "allowFutureDate": false,
+      "allowProvidedElsewhere": false,
+      "compulsory": true,
+      "created": "2017-06-28T15:34:36.430",
+      "dataElement": {
+        "id": "DeA3q4Uczfz"
+      },
+      "displayInReports": true,
+      "id": "Ro9FT5tTRiv",
+      "lastUpdated": "2019-04-11T12:24:16.890",
+      "programStage": {
+        "id": "Zb23998a9oP"
+      },
+      "renderOptionsAsRadio": false,
+      "skipSynchronization": false,
+      "sortOrder": 9
+    },
+    {
+      "allowFutureDate": false,
+      "allowProvidedElsewhere": false,
+      "compulsory": false,
+      "created": "2017-06-28T15:34:36.430",
+      "dataElement": {
+        "id": "bTwp4cKNjgZ"
+      },
+      "displayInReports": true,
+      "id": "YIcLKcz78TP",
+      "lastUpdated": "2019-04-11T12:24:16.888",
+      "programStage": {
+        "id": "Zb23998a9oP"
+      },
+      "renderOptionsAsRadio": false,
+      "skipSynchronization": false,
+      "sortOrder": 7
+    },
+    {
+      "allowFutureDate": false,
+      "allowProvidedElsewhere": false,
+      "compulsory": true,
+      "created": "2017-06-28T15:34:36.430",
+      "dataElement": {
+        "id": "NWGXBZSCQto"
+      },
+      "displayInReports": true,
+      "id": "lCAZoaPXfLE",
+      "lastUpdated": "2019-04-11T12:24:16.889",
+      "programStage": {
+        "id": "Zb23998a9oP"
+      },
+      "renderOptionsAsRadio": false,
+      "skipSynchronization": false,
+      "sortOrder": 12
+    },
+    {
+      "allowFutureDate": false,
+      "allowProvidedElsewhere": false,
+      "compulsory": true,
+      "created": "2018-07-24T13:50:26.660",
+      "dataElement": {
+        "id": "Q7dOlqe54eh"
+      },
+      "displayInReports": false,
+      "id": "lx5PgvOem3k",
+      "lastUpdated": "2019-04-11T12:24:16.888",
+      "programStage": {
+        "id": "Zb23998a9oP"
+      },
+      "renderOptionsAsRadio": false,
+      "skipSynchronization": false,
+      "sortOrder": 3
+    },
+    {
+      "allowFutureDate": false,
+      "allowProvidedElsewhere": false,
+      "compulsory": true,
+      "created": "2017-06-28T15:34:36.431",
+      "dataElement": {
+        "id": "Z8W89lDV4IL"
+      },
+      "displayInReports": true,
+      "id": "m25dOAjJA4D",
+      "lastUpdated": "2019-04-11T12:24:16.889",
+      "programStage": {
+        "id": "Zb23998a9oP"
+      },
+      "renderOptionsAsRadio": false,
+      "skipSynchronization": false,
+      "sortOrder": 5
+    },
+    {
+      "allowFutureDate": false,
+      "allowProvidedElsewhere": false,
+      "compulsory": false,
+      "created": "2018-12-11T10:36:25.133",
+      "dataElement": {
+        "id": "Bg67t8nmrwn"
+      },
+      "displayInReports": false,
+      "id": "p5KHEKt0fIB",
+      "lastUpdated": "2019-04-11T12:24:16.890",
+      "programStage": {
+        "id": "Zb23998a9oP"
+      },
+      "renderOptionsAsRadio": false,
+      "skipSynchronization": false,
+      "sortOrder": 15
+    },
+    {
+      "allowFutureDate": false,
+      "allowProvidedElsewhere": false,
+      "compulsory": false,
+      "created": "2017-07-08T13:37:26.672",
+      "dataElement": {
+        "id": "O7trYnDIDuH"
+      },
+      "displayInReports": false,
+      "id": "qvTbFdHl4ht",
+      "lastUpdated": "2019-04-11T12:24:16.887",
+      "programStage": {
+        "id": "Zb23998a9oP"
+      },
+      "renderOptionsAsRadio": false,
+      "skipSynchronization": false,
+      "sortOrder": 11
+    },
+    {
+      "allowFutureDate": false,
+      "allowProvidedElsewhere": false,
+      "compulsory": false,
+      "created": "2017-06-28T15:34:36.431",
+      "dataElement": {
+        "id": "mwIgH1XXf6p"
+      },
+      "displayInReports": true,
+      "id": "uIrokf1z3cF",
+      "lastUpdated": "2019-04-11T12:24:16.890",
+      "programStage": {
+        "id": "Zb23998a9oP"
+      },
+      "renderOptionsAsRadio": false,
+      "skipSynchronization": false,
+      "sortOrder": 6
+    }
+  ],
+  "programStages": [
+    {
+      "allowGenerateNextVisit": false,
+      "attributeValues": [],
+      "autoGenerateEvent": true,
+      "blockEntryForm": false,
+      "created": "2017-06-28T15:31:11.281",
+      "dataEntryForm": {
+        "id": "TiUevg9HE8x"
+      },
+      "displayGenerateEventBox": false,
+      "executionDateLabel": "Date",
+      "featureType": "NONE",
+      "generatedByEnrollmentDate": false,
+      "hideDueDate": false,
+      "id": "Zb23998a9oP",
+      "lastUpdated": "2019-04-11T12:24:16.885",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "minDaysFromStart": 0,
+      "name": "Visceral Leishmaniasis Laboratory LOG",
+      "notificationTemplates": [],
+      "openAfterEnrollment": false,
+      "preGenerateUID": false,
+      "program": {
+        "id": "h1KVXwrpKKf"
+      },
+      "programStageDataElements": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "allowFutureDate": false,
+          "allowProvidedElsewhere": false,
+          "attributeValues": [],
+          "compulsory": false,
+          "created": "2017-06-28T16:02:23.241",
+          "dataElement": {
+            "id": "MOOioCpQAeO"
+          },
+          "displayInReports": false,
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "C2rEXDTiqRR",
+          "lastUpdated": "2019-04-11T12:24:16.887",
+          "programStage": {
+            "id": "Zb23998a9oP"
+          },
+          "renderOptionsAsRadio": false,
+          "skipSynchronization": false,
+          "sortOrder": 8,
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "allowFutureDate": false,
+          "allowProvidedElsewhere": false,
+          "attributeValues": [],
+          "compulsory": true,
+          "created": "2018-07-24T13:50:26.660",
+          "dataElement": {
+            "id": "LJHNsKzZ8Mg"
+          },
+          "displayInReports": false,
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "FOIOfPmpFfh",
+          "lastUpdated": "2019-04-11T12:24:16.888",
+          "programStage": {
+            "id": "Zb23998a9oP"
+          },
+          "renderOptionsAsRadio": false,
+          "skipSynchronization": false,
+          "sortOrder": 2,
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "allowFutureDate": false,
+          "allowProvidedElsewhere": false,
+          "attributeValues": [],
+          "compulsory": false,
+          "created": "2017-06-28T15:58:52.512",
+          "dataElement": {
+            "id": "l2oZmW8P4kT"
+          },
+          "displayInReports": false,
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "HgAMGgTRmNI",
+          "lastUpdated": "2019-04-11T12:24:16.889",
+          "programStage": {
+            "id": "Zb23998a9oP"
+          },
+          "renderOptionsAsRadio": false,
+          "skipSynchronization": false,
+          "sortOrder": 0,
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "allowFutureDate": false,
+          "allowProvidedElsewhere": false,
+          "attributeValues": [],
+          "compulsory": true,
+          "created": "2017-06-28T15:34:36.430",
+          "dataElement": {
+            "id": "Smz32lrbfyh"
+          },
+          "displayInReports": true,
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "HiEjXHKM1H8",
+          "lastUpdated": "2019-04-11T12:24:16.890",
+          "programStage": {
+            "id": "Zb23998a9oP"
+          },
+          "renderOptionsAsRadio": false,
+          "skipSynchronization": false,
+          "sortOrder": 10,
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "allowFutureDate": false,
+          "allowProvidedElsewhere": false,
+          "attributeValues": [],
+          "compulsory": true,
+          "created": "2017-06-28T15:34:36.431",
+          "dataElement": {
+            "id": "Xii6gy92ebp"
+          },
+          "displayInReports": true,
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "KZjxJbWjfXU",
+          "lastUpdated": "2019-04-11T12:24:16.888",
+          "programStage": {
+            "id": "Zb23998a9oP"
+          },
+          "renderOptionsAsRadio": false,
+          "skipSynchronization": false,
+          "sortOrder": 4,
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "allowFutureDate": false,
+          "allowProvidedElsewhere": false,
+          "attributeValues": [],
+          "compulsory": false,
+          "created": "2017-06-28T15:38:35.328",
+          "dataElement": {
+            "id": "YOfsQvR5dQV"
+          },
+          "displayInReports": true,
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "Kq3joaRvOXx",
+          "lastUpdated": "2019-04-11T12:24:16.889",
+          "programStage": {
+            "id": "Zb23998a9oP"
+          },
+          "renderOptionsAsRadio": false,
+          "skipSynchronization": false,
+          "sortOrder": 13,
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "allowFutureDate": false,
+          "allowProvidedElsewhere": false,
+          "attributeValues": [],
+          "compulsory": false,
+          "created": "2017-06-28T16:02:23.239",
+          "dataElement": {
+            "id": "I4PpM2eflrz"
+          },
+          "displayInReports": false,
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "Lu8lqBszfC6",
+          "lastUpdated": "2019-04-11T12:24:16.890",
+          "programStage": {
+            "id": "Zb23998a9oP"
+          },
+          "renderOptionsAsRadio": false,
+          "skipSynchronization": false,
+          "sortOrder": 1,
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "allowFutureDate": false,
+          "allowProvidedElsewhere": false,
+          "attributeValues": [],
+          "compulsory": true,
+          "created": "2017-06-28T15:34:36.430",
+          "dataElement": {
+            "id": "DeA3q4Uczfz"
+          },
+          "displayInReports": true,
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "Ro9FT5tTRiv",
+          "lastUpdated": "2019-04-11T12:24:16.890",
+          "programStage": {
+            "id": "Zb23998a9oP"
+          },
+          "renderOptionsAsRadio": false,
+          "skipSynchronization": false,
+          "sortOrder": 9,
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "allowFutureDate": false,
+          "allowProvidedElsewhere": false,
+          "attributeValues": [],
+          "compulsory": false,
+          "created": "2017-06-28T15:34:36.430",
+          "dataElement": {
+            "id": "bTwp4cKNjgZ"
+          },
+          "displayInReports": true,
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "YIcLKcz78TP",
+          "lastUpdated": "2019-04-11T12:24:16.888",
+          "programStage": {
+            "id": "Zb23998a9oP"
+          },
+          "renderOptionsAsRadio": false,
+          "skipSynchronization": false,
+          "sortOrder": 7,
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "allowFutureDate": false,
+          "allowProvidedElsewhere": false,
+          "attributeValues": [],
+          "compulsory": true,
+          "created": "2017-06-28T15:34:36.430",
+          "dataElement": {
+            "id": "NWGXBZSCQto"
+          },
+          "displayInReports": true,
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "lCAZoaPXfLE",
+          "lastUpdated": "2019-04-11T12:24:16.889",
+          "programStage": {
+            "id": "Zb23998a9oP"
+          },
+          "renderOptionsAsRadio": false,
+          "skipSynchronization": false,
+          "sortOrder": 12,
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "allowFutureDate": false,
+          "allowProvidedElsewhere": false,
+          "attributeValues": [],
+          "compulsory": true,
+          "created": "2018-07-24T13:50:26.660",
+          "dataElement": {
+            "id": "Q7dOlqe54eh"
+          },
+          "displayInReports": false,
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "lx5PgvOem3k",
+          "lastUpdated": "2019-04-11T12:24:16.888",
+          "programStage": {
+            "id": "Zb23998a9oP"
+          },
+          "renderOptionsAsRadio": false,
+          "skipSynchronization": false,
+          "sortOrder": 3,
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "allowFutureDate": false,
+          "allowProvidedElsewhere": false,
+          "attributeValues": [],
+          "compulsory": true,
+          "created": "2017-06-28T15:34:36.431",
+          "dataElement": {
+            "id": "Z8W89lDV4IL"
+          },
+          "displayInReports": true,
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "m25dOAjJA4D",
+          "lastUpdated": "2019-04-11T12:24:16.889",
+          "programStage": {
+            "id": "Zb23998a9oP"
+          },
+          "renderOptionsAsRadio": false,
+          "skipSynchronization": false,
+          "sortOrder": 5,
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "allowFutureDate": false,
+          "allowProvidedElsewhere": false,
+          "attributeValues": [],
+          "compulsory": false,
+          "created": "2018-12-11T10:36:25.133",
+          "dataElement": {
+            "id": "Bg67t8nmrwn"
+          },
+          "displayInReports": false,
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "p5KHEKt0fIB",
+          "lastUpdated": "2019-04-11T12:24:16.890",
+          "programStage": {
+            "id": "Zb23998a9oP"
+          },
+          "renderOptionsAsRadio": false,
+          "skipSynchronization": false,
+          "sortOrder": 15,
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "allowFutureDate": false,
+          "allowProvidedElsewhere": false,
+          "attributeValues": [],
+          "compulsory": false,
+          "created": "2017-07-08T13:37:26.672",
+          "dataElement": {
+            "id": "O7trYnDIDuH"
+          },
+          "displayInReports": false,
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "qvTbFdHl4ht",
+          "lastUpdated": "2019-04-11T12:24:16.887",
+          "programStage": {
+            "id": "Zb23998a9oP"
+          },
+          "renderOptionsAsRadio": false,
+          "skipSynchronization": false,
+          "sortOrder": 11,
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "allowFutureDate": false,
+          "allowProvidedElsewhere": false,
+          "attributeValues": [],
+          "compulsory": false,
+          "created": "2017-06-28T15:34:36.431",
+          "dataElement": {
+            "id": "mwIgH1XXf6p"
+          },
+          "displayInReports": true,
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "uIrokf1z3cF",
+          "lastUpdated": "2019-04-11T12:24:16.890",
+          "programStage": {
+            "id": "Zb23998a9oP"
+          },
+          "renderOptionsAsRadio": false,
+          "skipSynchronization": false,
+          "sortOrder": 6,
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "programStageSections": [],
+      "publicAccess": "--------",
+      "remindCompleted": false,
+      "repeatable": false,
+      "sortOrder": 1,
+      "translations": [],
+      "userAccesses": [],
+      "validCompleteOnly": false
+    }
+  ],
+  "programs": [
+    {
+      "accessLevel": "OPEN",
+      "attributeValues": [
+        {
+          "attribute": {
+            "id": "x8YCHCvls4r"
+          },
+          "created": "2017-06-28T15:31:11.208",
+          "lastUpdated": "2017-06-28T15:31:11.208",
+          "value": "Op_Disease_VL"
+        }
+      ],
+      "captureCoordinates": false,
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "PR_VL_KEN_LAG_LOG",
+      "completeEventsExpiryDays": 0,
+      "created": "2017-06-28T15:31:11.306",
+      "displayFrontPageList": false,
+      "displayIncidentDate": true,
+      "expiryDays": 0,
+      "id": "h1KVXwrpKKf",
+      "ignoreOverdueEvents": false,
+      "lastUpdated": "2019-04-11T12:24:16.996",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "maxTeiCountToReturn": 0,
+      "minAttributesRequiredToSearch": 1,
+      "name": "Visceral Leishmaniasis Laboratory LOG",
+      "notificationTemplates": [],
+      "onlyEnrollOnce": false,
+      "organisationUnits": [
+        {
+          "id": "DRYHZsgOAjz"
+        },
+        {
+          "id": "Dalv39I1sBS"
+        },
+        {
+          "id": "EkP6GJ44RnU"
+        },
+        {
+          "id": "H8RixfF8ugH"
+        },
+        {
+          "id": "IDGEt81zZin"
+        },
+        {
+          "id": "IlemjZlzES6"
+        },
+        {
+          "id": "IwEB1zxjT8m"
+        },
+        {
+          "id": "LBDUxvoZSdI"
+        },
+        {
+          "id": "LXsaR9BQim1"
+        },
+        {
+          "id": "Mvevx0bAZh0"
+        },
+        {
+          "id": "R5Orw0Vtbxq"
+        },
+        {
+          "id": "R8oYDOngoLk"
+        },
+        {
+          "id": "Wj1gBKsF1lB"
+        },
+        {
+          "id": "cCChZaYoLaI"
+        },
+        {
+          "id": "dFc5sVNIz0Q"
+        },
+        {
+          "id": "gvplllzYFPk"
+        },
+        {
+          "id": "lM6jXczT5kj"
+        },
+        {
+          "id": "njnxDUTR6SJ"
+        },
+        {
+          "id": "oGOpu3nlItw"
+        },
+        {
+          "id": "ocD1WxIvGHT"
+        },
+        {
+          "id": "qiW2KOBj6AN"
+        },
+        {
+          "id": "ssY2d9sMYGR"
+        },
+        {
+          "id": "vUatEiL3txf"
+        },
+        {
+          "id": "vqQBFJVL2ov"
+        },
+        {
+          "id": "ycopTf0WqXO"
+        },
+        {
+          "id": "yoExW61ga83"
+        }
+      ],
+      "programSections": [],
+      "programStages": [
+        {
+          "id": "Zb23998a9oP"
+        }
+      ],
+      "programTrackedEntityAttributes": [],
+      "programType": "WITHOUT_REGISTRATION",
+      "publicAccess": "--------",
+      "selectEnrollmentDatesInFuture": false,
+      "selectIncidentDatesInFuture": false,
+      "shortName": "VL-LAB-LOG",
+      "skipOffline": false,
+      "translations": [],
+      "useFirstStageDuringRegistration": false,
+      "userAccesses": [],
+      "version": 10
+    }
+  ]
+}
