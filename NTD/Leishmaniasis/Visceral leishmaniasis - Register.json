@@ -769,6 +769,16 @@
         },
         {
           "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Age en années - Cet élément de données est dynamique, c'est à dire que chaque jour le patient va viellir d'un an."
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Age"
+        },
+        {
+          "locale": "fr",
           "property": "FORM_NAME",
           "value": "Age"
         },
@@ -786,6 +796,16 @@
           "locale": "fr",
           "property": "NAME",
           "value": "GEN_Age_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_Age_T"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Age"
         },
         {
           "locale": "fr",
@@ -1979,6 +1999,16 @@
         },
         {
           "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Sélectionnez le pays de résidence du patient dans la liste déroulante."
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Pays de résidence"
+        },
+        {
+          "locale": "fr",
           "property": "FORM_NAME",
           "value": "Pays de résidence"
         },
@@ -1996,6 +2026,16 @@
           "locale": "fr",
           "property": "NAME",
           "value": "GEN_PLACE_PaysResidence_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_PLACE_PaysResidence_T"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Pays de résidence"
         },
         {
           "locale": "fr",
@@ -2214,6 +2254,16 @@
         },
         {
           "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Veuillez indiquer ici le plus précisément possible comment retrouver la maison du patient. Donnez des repères et des points d'intérêt afin de tenter de localiser le patient."
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Repère/Points d'intérêt"
+        },
+        {
+          "locale": "fr",
           "property": "FORM_NAME",
           "value": "Repère/Points d'intérêt"
         },
@@ -2231,6 +2281,16 @@
           "locale": "fr",
           "property": "NAME",
           "value": "GEN_Landmark_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_Landmark_T"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Repère"
         },
         {
           "locale": "fr",
@@ -2351,6 +2411,11 @@
         },
         {
           "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Lieu de résidence (Coordonnées)"
+        },
+        {
+          "locale": "fr",
           "property": "NAME",
           "value": "GEN_PLACE_Residence_Coordonnees_T"
         },
@@ -2358,6 +2423,16 @@
           "locale": "fr",
           "property": "NAME",
           "value": "GEN_PLACE_Residence_Coordonnees_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_PLACE_Residence_Coordonnees_T"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Coordonnées (Résidence)"
         },
         {
           "locale": "fr",
@@ -2529,6 +2604,16 @@
         },
         {
           "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Veuillez indiquer le lieu de résidence de la manière la plus fine possible (idéalement le village de résidence), en le sélectionant dans l'arbre des unités d'organisation."
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Lieu de résidence (comme unité d'organisation)"
+        },
+        {
+          "locale": "fr",
           "property": "FORM_NAME",
           "value": "Lieu de résidence (comme unité d'organisation)"
         },
@@ -2646,6 +2731,16 @@
           "locale": "fr",
           "property": "NAME",
           "value": "GEN_PlaceOU_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_PlaceOU_T"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Lieu de résidence"
         },
         {
           "locale": "fr",
@@ -3208,6 +3303,16 @@
         },
         {
           "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Genre"
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Genre"
+        },
+        {
+          "locale": "fr",
           "property": "FORM_NAME",
           "value": "Genre"
         },
@@ -3225,6 +3330,16 @@
           "locale": "fr",
           "property": "NAME",
           "value": "GEN_Genre_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_Genre_T"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Genre"
         },
         {
           "locale": "fr",
@@ -4996,106 +5111,6 @@
       "categoryCombo": {
         "id": "JzvGfLYkX17"
       },
-      "code": "VL_Tx_YNU_T",
-      "created": "2018-09-10T00:41:39.926",
-      "description": "Treatment initiated?",
-      "domainType": "TRACKER",
-      "formName": "Treatment initiated?",
-      "id": "XmyEFMGTRsc",
-      "lastUpdatedBy": {
-        "id": "eK26I7dRbC4"
-      },
-      "legendSets": [],
-      "name": "VL_Tx_YNU_T",
-      "optionSet": {
-        "id": "vDeP0h2cO2n"
-      },
-      "publicAccess": "--------",
-      "shortName": "VL_Tx_YNU_T",
-      "translations": [],
-      "user": {
-        "id": "ilJDyuqlwDC"
-      },
-      "userAccesses": [
-        {
-          "access": "r-------",
-          "displayName": "Duplicator Event",
-          "id": "UlXOWwGGx7W",
-          "userUid": "UlXOWwGGx7W"
-        },
-        {
-          "access": "r-------",
-          "displayName": "NTD Check",
-          "id": "xgKMFzwPLs6",
-          "userUid": "xgKMFzwPLs6"
-        }
-      ],
-      "userGroupAccesses": [
-        {
-          "access": "r-------",
-          "displayName": "NTD_VL_Event_Capture",
-          "id": "AKCiUSICdUT",
-          "userGroupUid": "AKCiUSICdUT"
-        },
-        {
-          "access": "r-------",
-          "displayName": "NTD_EMRO",
-          "id": "K40P7b1JFdc",
-          "userGroupUid": "K40P7b1JFdc"
-        },
-        {
-          "access": "rw------",
-          "displayName": "WIDP IT team",
-          "id": "UfhhwZK73Lg",
-          "userGroupUid": "UfhhwZK73Lg"
-        },
-        {
-          "access": "rw------",
-          "displayName": "NTD_Leishmaniasis_Admin",
-          "id": "Un2GLxeuVZ2",
-          "userGroupUid": "Un2GLxeuVZ2"
-        },
-        {
-          "access": "r-------",
-          "displayName": "NTD_VL_Event_View",
-          "id": "YWgdwKzbsnN",
-          "userGroupUid": "YWgdwKzbsnN"
-        },
-        {
-          "access": "rw------",
-          "displayName": "NTD admin team",
-          "id": "irooBniCRle",
-          "userGroupUid": "irooBniCRle"
-        },
-        {
-          "access": "r-------",
-          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
-          "id": "phezIKUxlC2",
-          "userGroupUid": "phezIKUxlC2"
-        },
-        {
-          "access": "r-------",
-          "displayName": "NTD_PHC_VL",
-          "id": "r4gcKCyB5fF",
-          "userGroupUid": "r4gcKCyB5fF"
-        },
-        {
-          "access": "r-------",
-          "displayName": "NTD_Leishmaniasis_HQ",
-          "id": "yBUSIP5IhrF",
-          "userGroupUid": "yBUSIP5IhrF"
-        }
-      ],
-      "valueType": "TEXT",
-      "zeroIsSignificant": false
-    },
-    {
-      "aggregationLevels": [],
-      "aggregationType": "NONE",
-      "attributeValues": [],
-      "categoryCombo": {
-        "id": "JzvGfLYkX17"
-      },
       "code": "VL_Tx_adverseEvent_T",
       "created": "2016-06-23T08:28:43.024",
       "domainType": "TRACKER",
@@ -5597,7 +5612,7 @@
       "translations": []
     }
   ],
-  "date": "2019-04-17T12:55:31.715",
+  "date": "2019-04-17T13:16:40.287",
   "optionSets": [
     {
       "attributeValues": [],
@@ -6430,7 +6445,7 @@
         }
       ],
       "valueType": "TEXT",
-      "version": 10
+      "version": 11
     },
     {
       "attributeValues": [],
@@ -6537,7 +6552,7 @@
         }
       ],
       "valueType": "TEXT",
-      "version": 8
+      "version": 9
     },
     {
       "attributeValues": [],
@@ -6635,7 +6650,7 @@
         }
       ],
       "valueType": "TEXT",
-      "version": 11
+      "version": 12
     },
     {
       "attributeValues": [],
@@ -6733,7 +6748,7 @@
         }
       ],
       "valueType": "TEXT",
-      "version": 5
+      "version": 6
     },
     {
       "attributeValues": [],
@@ -6837,7 +6852,7 @@
         }
       ],
       "valueType": "TEXT",
-      "version": 6
+      "version": 7
     },
     {
       "attributeValues": [],
@@ -6941,7 +6956,7 @@
         }
       ],
       "valueType": "TEXT",
-      "version": 6
+      "version": 7
     },
     {
       "attributeValues": [],
@@ -7042,7 +7057,7 @@
         }
       ],
       "valueType": "TEXT",
-      "version": 9
+      "version": 10
     },
     {
       "attributeValues": [],
@@ -7143,7 +7158,7 @@
         }
       ],
       "valueType": "INTEGER",
-      "version": 9
+      "version": 10
     },
     {
       "attributeValues": [],
@@ -7259,7 +7274,7 @@
         }
       ],
       "valueType": "TEXT",
-      "version": 12
+      "version": 13
     },
     {
       "attributeValues": [],
@@ -7363,7 +7378,7 @@
         }
       ],
       "valueType": "TEXT",
-      "version": 17
+      "version": 18
     },
     {
       "attributeValues": [],
@@ -7464,7 +7479,7 @@
         }
       ],
       "valueType": "TEXT",
-      "version": 9
+      "version": 10
     },
     {
       "attributeValues": [],
@@ -7568,7 +7583,7 @@
         }
       ],
       "valueType": "INTEGER",
-      "version": 9
+      "version": 10
     },
     {
       "attributeValues": [],
@@ -7678,7 +7693,7 @@
         }
       ],
       "valueType": "TEXT",
-      "version": 9
+      "version": 10
     },
     {
       "attributeValues": [],
@@ -7776,7 +7791,7 @@
         }
       ],
       "valueType": "TEXT",
-      "version": 14
+      "version": 15
     },
     {
       "attributeValues": [],
@@ -7877,7 +7892,7 @@
         }
       ],
       "valueType": "TEXT",
-      "version": 5
+      "version": 6
     }
   ],
   "options": [
@@ -34636,23 +34651,6 @@
     },
     {
       "allowFutureDate": false,
-      "allowProvidedElsewhere": false,
-      "compulsory": false,
-      "created": "2019-04-17T12:35:21.693",
-      "dataElement": {
-        "id": "XmyEFMGTRsc"
-      },
-      "displayInReports": false,
-      "id": "mkEKlARa5bx",
-      "programStage": {
-        "id": "J9gyc1kuEIZ"
-      },
-      "renderOptionsAsRadio": false,
-      "skipSynchronization": false,
-      "sortOrder": 42
-    },
-    {
-      "allowFutureDate": false,
       "allowProvidedElsewhere": true,
       "compulsory": false,
       "created": "2017-01-12T07:04:53.540",
@@ -35053,9 +35051,6 @@
         },
         {
           "id": "KaAId0B3eyM"
-        },
-        {
-          "id": "XmyEFMGTRsc"
         },
         {
           "id": "zTlG07vQQ52"
@@ -36137,38 +36132,6 @@
             "write": true
           },
           "allowFutureDate": false,
-          "allowProvidedElsewhere": false,
-          "attributeValues": [],
-          "compulsory": false,
-          "created": "2019-04-17T12:35:21.693",
-          "dataElement": {
-            "id": "XmyEFMGTRsc"
-          },
-          "displayInReports": false,
-          "externalAccess": false,
-          "favorite": false,
-          "favorites": [],
-          "id": "mkEKlARa5bx",
-          "programStage": {
-            "id": "J9gyc1kuEIZ"
-          },
-          "renderOptionsAsRadio": false,
-          "skipSynchronization": false,
-          "sortOrder": 42,
-          "translations": [],
-          "userAccesses": [],
-          "userGroupAccesses": []
-        },
-        {
-          "access": {
-            "delete": true,
-            "externalize": true,
-            "manage": true,
-            "read": true,
-            "update": true,
-            "write": true
-          },
-          "allowFutureDate": false,
           "allowProvidedElsewhere": true,
           "attributeValues": [],
           "compulsory": false,
@@ -36603,6 +36566,27 @@
           },
           "created": "2019-02-14T08:53:17.361",
           "value": "COMMON_PACKAGE_HEALTHCARE"
+        },
+        {
+          "attribute": {
+            "id": "x8YCHCvls4r"
+          },
+          "created": "2017-01-26T16:16:25.737",
+          "value": "Op_Disease_VL"
+        },
+        {
+          "attribute": {
+            "id": "UPAG07xXHMT"
+          },
+          "created": "2019-02-14T08:53:17.361",
+          "value": "COMMON_PACKAGE_HEALTHCARE"
+        },
+        {
+          "attribute": {
+            "id": "zq27hSb6gXo"
+          },
+          "created": "2019-02-14T08:53:17.361",
+          "value": "COMMON_INDIVIDUAL-DATA"
         }
       ],
       "captureCoordinates": false,
@@ -36716,7 +36700,7 @@
           "userGroupUid": "yBUSIP5IhrF"
         }
       ],
-      "version": 14
+      "version": 15
     }
   ]
 }
