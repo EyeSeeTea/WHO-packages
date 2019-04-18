@@ -18,7 +18,7 @@
       "indicatorAttribute": false,
       "indicatorGroupAttribute": false,
       "lastUpdatedBy": {
-        "id": "eK26I7dRbC4"
+        "id": "H8IFYZ4ZkLw"
       },
       "legendSetAttribute": false,
       "mandatory": false,
@@ -39,7 +39,13 @@
       "sqlViewAttribute": false,
       "trackedEntityAttributeAttribute": false,
       "trackedEntityTypeAttribute": false,
-      "translations": [],
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Type de données "
+        }
+      ],
       "unique": false,
       "user": {
         "id": "q9wZgtaDxWn"
@@ -774,6 +780,16 @@
         },
         {
           "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Age en années - Cet élément de données est dynamique, c'est à dire que chaque jour le patient va viellir d'un an."
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Age"
+        },
+        {
+          "locale": "fr",
           "property": "FORM_NAME",
           "value": "Age"
         },
@@ -801,6 +817,16 @@
           "locale": "fr",
           "property": "NAME",
           "value": "GEN_Age_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_Age_T"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Age"
         },
         {
           "locale": "fr",
@@ -2004,6 +2030,16 @@
         },
         {
           "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Sélectionnez le pays de résidence du patient dans la liste déroulante."
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Pays de résidence"
+        },
+        {
+          "locale": "fr",
           "property": "FORM_NAME",
           "value": "Pays de résidence"
         },
@@ -2031,6 +2067,16 @@
           "locale": "fr",
           "property": "NAME",
           "value": "GEN_PLACE_PaysResidence_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_PLACE_PaysResidence_T"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Pays de résidence"
         },
         {
           "locale": "fr",
@@ -2259,6 +2305,16 @@
         },
         {
           "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Veuillez indiquer ici le plus précisément possible comment retrouver la maison du patient. Donnez des repères et des points d'intérêt afin de tenter de localiser le patient."
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Repère/Points d'intérêt"
+        },
+        {
+          "locale": "fr",
           "property": "FORM_NAME",
           "value": "Repère/Points d'intérêt"
         },
@@ -2286,6 +2342,16 @@
           "locale": "fr",
           "property": "NAME",
           "value": "GEN_Landmark_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_Landmark_T"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Repère"
         },
         {
           "locale": "fr",
@@ -2416,6 +2482,16 @@
         },
         {
           "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Lieu de résidence (Coordonnées)"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_PLACE_Residence_Coordonnees_T"
+        },
+        {
+          "locale": "fr",
           "property": "NAME",
           "value": "GEN_PLACE_Residence_Coordonnees_T"
         },
@@ -2428,6 +2504,11 @@
           "locale": "fr",
           "property": "NAME",
           "value": "GEN_PLACE_Residence_Coordonnees_T"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Coordonnées (Résidence)"
         },
         {
           "locale": "fr",
@@ -2609,6 +2690,16 @@
         },
         {
           "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Veuillez indiquer le lieu de résidence de la manière la plus fine possible (idéalement le village de résidence), en le sélectionant dans l'arbre des unités d'organisation."
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Lieu de résidence (comme unité d'organisation)"
+        },
+        {
+          "locale": "fr",
           "property": "FORM_NAME",
           "value": "Lieu de résidence (comme unité d'organisation)"
         },
@@ -2736,6 +2827,16 @@
           "locale": "fr",
           "property": "NAME",
           "value": "GEN_PlaceOU_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_PlaceOU_T"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Lieu de résidence"
         },
         {
           "locale": "fr",
@@ -3308,6 +3409,16 @@
         },
         {
           "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Genre"
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Genre"
+        },
+        {
+          "locale": "fr",
           "property": "FORM_NAME",
           "value": "Genre"
         },
@@ -3335,6 +3446,16 @@
           "locale": "fr",
           "property": "NAME",
           "value": "GEN_Genre_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_Genre_T"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Genre"
         },
         {
           "locale": "fr",
@@ -5612,7 +5733,7 @@
       "translations": []
     }
   ],
-  "date": "2019-04-17T13:16:40.287",
+  "date": "2019-04-18T14:28:03.411",
   "optionSets": [
     {
       "attributeValues": [],
@@ -6445,7 +6566,7 @@
         }
       ],
       "valueType": "TEXT",
-      "version": 11
+      "version": 12
     },
     {
       "attributeValues": [],
@@ -6552,7 +6673,7 @@
         }
       ],
       "valueType": "TEXT",
-      "version": 9
+      "version": 10
     },
     {
       "attributeValues": [],
@@ -6650,7 +6771,7 @@
         }
       ],
       "valueType": "TEXT",
-      "version": 12
+      "version": 13
     },
     {
       "attributeValues": [],
@@ -6748,7 +6869,7 @@
         }
       ],
       "valueType": "TEXT",
-      "version": 6
+      "version": 7
     },
     {
       "attributeValues": [],
@@ -6852,7 +6973,7 @@
         }
       ],
       "valueType": "TEXT",
-      "version": 7
+      "version": 8
     },
     {
       "attributeValues": [],
@@ -6956,7 +7077,7 @@
         }
       ],
       "valueType": "TEXT",
-      "version": 7
+      "version": 8
     },
     {
       "attributeValues": [],
@@ -7057,7 +7178,7 @@
         }
       ],
       "valueType": "TEXT",
-      "version": 10
+      "version": 11
     },
     {
       "attributeValues": [],
@@ -7158,7 +7279,7 @@
         }
       ],
       "valueType": "INTEGER",
-      "version": 10
+      "version": 11
     },
     {
       "attributeValues": [],
@@ -7274,7 +7395,7 @@
         }
       ],
       "valueType": "TEXT",
-      "version": 13
+      "version": 14
     },
     {
       "attributeValues": [],
@@ -7378,7 +7499,7 @@
         }
       ],
       "valueType": "TEXT",
-      "version": 18
+      "version": 19
     },
     {
       "attributeValues": [],
@@ -7479,7 +7600,7 @@
         }
       ],
       "valueType": "TEXT",
-      "version": 10
+      "version": 11
     },
     {
       "attributeValues": [],
@@ -7583,7 +7704,7 @@
         }
       ],
       "valueType": "INTEGER",
-      "version": 10
+      "version": 11
     },
     {
       "attributeValues": [],
@@ -7693,7 +7814,7 @@
         }
       ],
       "valueType": "TEXT",
-      "version": 10
+      "version": 11
     },
     {
       "attributeValues": [],
@@ -7791,7 +7912,7 @@
         }
       ],
       "valueType": "TEXT",
-      "version": 15
+      "version": 16
     },
     {
       "attributeValues": [],
@@ -7892,7 +8013,7 @@
         }
       ],
       "valueType": "TEXT",
-      "version": 6
+      "version": 7
     }
   ],
   "options": [
@@ -23096,7 +23217,7 @@
       "description": "Number of Relapse Cases with HIV status assessed",
       "displayInForm": false,
       "expression": "V{event_count}",
-      "filter": "#{J9gyc1kuEIZ.AMRBmklLli1} == 'Op_VL_Type_Relapse' and  ( #{J9gyc1kuEIZ.AjUBHXF0fU7} ==  'Op_Result_simple_N' or  #{J9gyc1kuEIZ.AjUBHXF0fU7} ==  'Op_Result_simple_P' )",
+      "filter": "#{J9gyc1kuEIZ.AMRBmklLli1} == 'Op_VL_Type_Relapse' and  ( #{J9gyc1kuEIZ.AjUBHXF0fU7} ==  'Negative' or  #{J9gyc1kuEIZ.AjUBHXF0fU7} ==  'Positive' )",
       "id": "wGc4HQzI34t",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
@@ -23237,7 +23358,7 @@
       "description": "Number of Relapse Cases with Negative HIV Status",
       "displayInForm": false,
       "expression": "V{event_count}",
-      "filter": "#{J9gyc1kuEIZ.AjUBHXF0fU7} == 'Op_Result_simple_N' and #{J9gyc1kuEIZ.AMRBmklLli1} == 'Op_VL_Type_Relapse'",
+      "filter": "#{J9gyc1kuEIZ.AjUBHXF0fU7} == 'Negative' and #{J9gyc1kuEIZ.AMRBmklLli1} == 'Op_VL_Type_Relapse'",
       "id": "YYjcCcSsAUC",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
@@ -23378,7 +23499,7 @@
       "description": "Number of Relapse Cases with Positive HIV Status",
       "displayInForm": false,
       "expression": "V{event_count}",
-      "filter": "#{J9gyc1kuEIZ.AjUBHXF0fU7} == 'Op_Result_simple_P' and #{J9gyc1kuEIZ.AMRBmklLli1} == 'Op_VL_Type_Relapse'",
+      "filter": "#{J9gyc1kuEIZ.AjUBHXF0fU7} == 'Positive' and #{J9gyc1kuEIZ.AMRBmklLli1} == 'Op_VL_Type_Relapse'",
       "id": "Ao6p4pds4mD",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
@@ -24083,7 +24204,7 @@
       "description": "Number of Relapse Cases with Negative Aspiration Result",
       "displayInForm": false,
       "expression": "V{event_count}",
-      "filter": "#{J9gyc1kuEIZ.zoECkkkCPdP} == 'Op_Result_Negative' and#{J9gyc1kuEIZ.AMRBmklLli1} == 'Op_VL_Type_Relapse'",
+      "filter": "#{J9gyc1kuEIZ.zoECkkkCPdP} == 'Negative' and#{J9gyc1kuEIZ.AMRBmklLli1} == 'Op_VL_Type_Relapse'",
       "id": "ErzRiKa6OsJ",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
@@ -24224,7 +24345,7 @@
       "description": "Number of Relapse Cases with Positive Aspiration Result",
       "displayInForm": false,
       "expression": "V{event_count}",
-      "filter": "#{J9gyc1kuEIZ.zoECkkkCPdP} == 'Op_Result_Positive' and#{J9gyc1kuEIZ.AMRBmklLli1} == 'Op_VL_Type_Relapse'",
+      "filter": "#{J9gyc1kuEIZ.zoECkkkCPdP} == 'Positive' and#{J9gyc1kuEIZ.AMRBmklLli1} == 'Op_VL_Type_Relapse'",
       "id": "F9ybMPiQoGf",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
@@ -24365,7 +24486,7 @@
       "description": "Number of Relapse Cases with Negative RDT Result",
       "displayInForm": false,
       "expression": "V{event_count}",
-      "filter": "#{J9gyc1kuEIZ.DeA3q4Uczfz} == 'Op_Result_Negative' and#{J9gyc1kuEIZ.AMRBmklLli1} == 'Op_VL_Type_Relapse'",
+      "filter": "#{J9gyc1kuEIZ.DeA3q4Uczfz} == 'Negative' and#{J9gyc1kuEIZ.AMRBmklLli1} == 'Op_VL_Type_Relapse'",
       "id": "bEHWBCoTYVe",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
@@ -24506,7 +24627,7 @@
       "description": "Number of Relapse Cases with Positive RDT Result",
       "displayInForm": false,
       "expression": "V{event_count}",
-      "filter": "#{J9gyc1kuEIZ.DeA3q4Uczfz} == 'Op_Result_Positive' and#{J9gyc1kuEIZ.AMRBmklLli1} == 'Op_VL_Type_Relapse'",
+      "filter": "#{J9gyc1kuEIZ.DeA3q4Uczfz} == 'Positive' and#{J9gyc1kuEIZ.AMRBmklLli1} == 'Op_VL_Type_Relapse'",
       "id": "l3zm5mO4UjF",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
@@ -24788,7 +24909,7 @@
       "description": "Number of Relapse Cases Tested with RDTs",
       "displayInForm": false,
       "expression": "V{event_count}",
-      "filter": "#{J9gyc1kuEIZ.DeA3q4Uczfz} == 'Op_Result_Negative' or #{J9gyc1kuEIZ.DeA3q4Uczfz} == 'Op_Result_Positive' or #{J9gyc1kuEIZ.DeA3q4Uczfz} == 'Op_Result_Inconclusive' and #{J9gyc1kuEIZ.AMRBmklLli1} == 'Op_VL_Type_Relapse'",
+      "filter": "#{J9gyc1kuEIZ.DeA3q4Uczfz} == 'Negative' or #{J9gyc1kuEIZ.DeA3q4Uczfz} == 'Positive' or #{J9gyc1kuEIZ.DeA3q4Uczfz} == 'Inconclusive' and #{J9gyc1kuEIZ.AMRBmklLli1} == 'Op_VL_Type_Relapse'",
       "id": "qxwpW1fMtya",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
@@ -28589,7 +28710,7 @@
       "description": "Total Number of Cases with HIV status assessed",
       "displayInForm": false,
       "expression": "V{event_count}",
-      "filter": "#{J9gyc1kuEIZ.AjUBHXF0fU7} == 'Op_Result_simple_N' or  #{J9gyc1kuEIZ.AjUBHXF0fU7} ==  'Op_Result_simple_P'",
+      "filter": "#{J9gyc1kuEIZ.AjUBHXF0fU7} == 'Negative' or  #{J9gyc1kuEIZ.AjUBHXF0fU7} ==  'Positive'",
       "id": "uCAAbU0pMpd",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
@@ -28730,7 +28851,7 @@
       "description": "Total Number of Cases with Negative HIV Status",
       "displayInForm": false,
       "expression": "V{event_count}",
-      "filter": "#{J9gyc1kuEIZ.AjUBHXF0fU7} == 'Op_Result_simple_N'",
+      "filter": "#{J9gyc1kuEIZ.AjUBHXF0fU7} == 'Negative'",
       "id": "gMmkauA3aKS",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
@@ -28871,7 +28992,7 @@
       "description": "Total Number of Cases with Positive HIV Status",
       "displayInForm": false,
       "expression": "V{event_count}",
-      "filter": "#{J9gyc1kuEIZ.AjUBHXF0fU7} == 'Op_Result_simple_P'",
+      "filter": "#{J9gyc1kuEIZ.AjUBHXF0fU7} == 'Positive'",
       "id": "XHMpm0G9RSv",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
@@ -29576,7 +29697,7 @@
       "description": "Total Number of Cases with Negative Aspiration Result",
       "displayInForm": false,
       "expression": "V{event_count}",
-      "filter": "#{J9gyc1kuEIZ.zoECkkkCPdP} == 'Op_Result_Negative'",
+      "filter": "#{J9gyc1kuEIZ.zoECkkkCPdP} == 'Negative'",
       "id": "EvPHiXHWGUt",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
@@ -29717,7 +29838,7 @@
       "description": "Total Number of Cases with Positive Aspiration Result",
       "displayInForm": false,
       "expression": "V{event_count}",
-      "filter": "#{J9gyc1kuEIZ.zoECkkkCPdP} == 'Op_Result_Positive'",
+      "filter": "#{J9gyc1kuEIZ.zoECkkkCPdP} == 'Positive'",
       "id": "sa90KVdevQ9",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
@@ -29858,7 +29979,7 @@
       "description": "Total Number of Cases Tested with RDTs",
       "displayInForm": false,
       "expression": "V{event_count}",
-      "filter": "#{J9gyc1kuEIZ.DeA3q4Uczfz} == 'Op_Result_Negative' or #{J9gyc1kuEIZ.DeA3q4Uczfz} == 'Op_Result_Positive' or #{J9gyc1kuEIZ.DeA3q4Uczfz} == 'Op_Result_Inconclusive'",
+      "filter": "#{J9gyc1kuEIZ.DeA3q4Uczfz} == 'Negative' or #{J9gyc1kuEIZ.DeA3q4Uczfz} == 'Positive' or #{J9gyc1kuEIZ.DeA3q4Uczfz} == 'Inconclusive'",
       "id": "hk97xrM3wBC",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
@@ -31683,7 +31804,7 @@
       "description": "Total Number of Cases with Negative RDT Result",
       "displayInForm": false,
       "expression": "V{event_count}",
-      "filter": "#{J9gyc1kuEIZ.DeA3q4Uczfz}=='Op_Result_Negative'",
+      "filter": "#{J9gyc1kuEIZ.DeA3q4Uczfz}=='Negative'",
       "id": "omK3cOn81Un",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
@@ -31824,7 +31945,7 @@
       "description": "Total Number of Cases with Positive RDT Result",
       "displayInForm": false,
       "expression": "V{event_count}",
-      "filter": "#{J9gyc1kuEIZ.DeA3q4Uczfz} == 'Op_Result_Positive'",
+      "filter": "#{J9gyc1kuEIZ.DeA3q4Uczfz} == 'Positive'",
       "id": "qvWVkXyS0Qz",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
@@ -35053,6 +35174,9 @@
           "id": "KaAId0B3eyM"
         },
         {
+          "id": "XmyEFMGTRsc"
+        },
+        {
           "id": "zTlG07vQQ52"
         }
       ],
@@ -36527,6 +36651,27 @@
       "attributeValues": [
         {
           "attribute": {
+            "id": "UPAG07xXHMT"
+          },
+          "created": "2019-02-14T08:53:17.361",
+          "value": "COMMON_PACKAGE_HEALTHCARE"
+        },
+        {
+          "attribute": {
+            "id": "x8YCHCvls4r"
+          },
+          "created": "2017-01-26T16:16:25.737",
+          "value": "Op_Disease_VL"
+        },
+        {
+          "attribute": {
+            "id": "x8YCHCvls4r"
+          },
+          "created": "2017-01-26T16:16:25.737",
+          "value": "Op_Disease_VL"
+        },
+        {
+          "attribute": {
             "id": "zq27hSb6gXo"
           },
           "created": "2019-02-14T08:53:17.361",
@@ -36548,38 +36693,10 @@
         },
         {
           "attribute": {
-            "id": "x8YCHCvls4r"
-          },
-          "created": "2017-01-26T16:16:25.737",
-          "value": "Op_Disease_VL"
-        },
-        {
-          "attribute": {
-            "id": "x8YCHCvls4r"
-          },
-          "created": "2017-01-26T16:16:25.737",
-          "value": "Op_Disease_VL"
-        },
-        {
-          "attribute": {
-            "id": "UPAG07xXHMT"
+            "id": "zq27hSb6gXo"
           },
           "created": "2019-02-14T08:53:17.361",
-          "value": "COMMON_PACKAGE_HEALTHCARE"
-        },
-        {
-          "attribute": {
-            "id": "x8YCHCvls4r"
-          },
-          "created": "2017-01-26T16:16:25.737",
-          "value": "Op_Disease_VL"
-        },
-        {
-          "attribute": {
-            "id": "UPAG07xXHMT"
-          },
-          "created": "2019-02-14T08:53:17.361",
-          "value": "COMMON_PACKAGE_HEALTHCARE"
+          "value": "COMMON_INDIVIDUAL-DATA"
         },
         {
           "attribute": {
@@ -36587,6 +36704,34 @@
           },
           "created": "2019-02-14T08:53:17.361",
           "value": "COMMON_INDIVIDUAL-DATA"
+        },
+        {
+          "attribute": {
+            "id": "x8YCHCvls4r"
+          },
+          "created": "2017-01-26T16:16:25.737",
+          "value": "Op_Disease_VL"
+        },
+        {
+          "attribute": {
+            "id": "UPAG07xXHMT"
+          },
+          "created": "2019-02-14T08:53:17.361",
+          "value": "COMMON_PACKAGE_HEALTHCARE"
+        },
+        {
+          "attribute": {
+            "id": "x8YCHCvls4r"
+          },
+          "created": "2017-01-26T16:16:25.737",
+          "value": "Op_Disease_VL"
+        },
+        {
+          "attribute": {
+            "id": "UPAG07xXHMT"
+          },
+          "created": "2019-02-14T08:53:17.361",
+          "value": "COMMON_PACKAGE_HEALTHCARE"
         }
       ],
       "captureCoordinates": false,
@@ -36700,7 +36845,7 @@
           "userGroupUid": "yBUSIP5IhrF"
         }
       ],
-      "version": 15
+      "version": 16
     }
   ]
 }
