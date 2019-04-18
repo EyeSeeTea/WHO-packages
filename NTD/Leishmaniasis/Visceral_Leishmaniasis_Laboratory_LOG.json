@@ -17,7 +17,7 @@
       "id": "x8YCHCvls4r",
       "indicatorAttribute": false,
       "indicatorGroupAttribute": false,
-      "lastUpdated": "2019-04-10T11:08:06.860",
+      "lastUpdated": "2019-04-18T15:35:48.719",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -42,9 +42,110 @@
       "trackedEntityTypeAttribute": false,
       "translations": [],
       "unique": false,
-      "userAccesses": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "Duplicator Event",
+          "id": "UlXOWwGGx7W",
+          "userUid": "UlXOWwGGx7W"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
       "userAttribute": false,
-      "userGroupAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD_VL_Event_Capture",
+          "id": "AKCiUSICdUT",
+          "userGroupUid": "AKCiUSICdUT"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leish_Kenya_VL_Admin",
+          "id": "DHWlFaXI0Sy",
+          "userGroupUid": "DHWlFaXI0Sy"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_EMRO",
+          "id": "K40P7b1JFdc",
+          "userGroupUid": "K40P7b1JFdc"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_Capture",
+          "id": "TbGA9fMJpCR",
+          "userGroupUid": "TbGA9fMJpCR"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_VL_Event_View",
+          "id": "YWgdwKzbsnN",
+          "userGroupUid": "YWgdwKzbsnN"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
+          "id": "ZuT9b32Dhv5",
+          "userGroupUid": "ZuT9b32Dhv5"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_View",
+          "id": "cy0qXsDxzxe",
+          "userGroupUid": "cy0qXsDxzxe"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
+          "id": "phezIKUxlC2",
+          "userGroupUid": "phezIKUxlC2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_PHC_VL",
+          "id": "r4gcKCyB5fF",
+          "userGroupUid": "r4gcKCyB5fF"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ],
       "userGroupAttribute": false,
       "validationRuleAttribute": false,
       "validationRuleGroupAttribute": false,
@@ -68,6 +169,9 @@
       "name": "default",
       "publicAccess": "rw------",
       "translations": [],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
       "userAccesses": [],
       "userGroupAccesses": []
     }
@@ -91,7 +195,156 @@
       "publicAccess": "rw------",
       "skipTotal": false,
       "translations": [],
-      "userAccesses": []
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQ",
+          "id": "BMxt1NZML9e",
+          "userGroupUid": "BMxt1NZML9e"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP",
+          "id": "C0BrlroHnLZ",
+          "userGroupUid": "C0BrlroHnLZ"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_AFRO_Ghana",
+          "id": "CoxTaSDd4Bz",
+          "userGroupUid": "CoxTaSDd4Bz"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leish_Kenya_VL_Admin",
+          "id": "DHWlFaXI0Sy",
+          "userGroupUid": "DHWlFaXI0Sy"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_demo",
+          "id": "Fs9vCVCHjlE",
+          "userGroupUid": "Fs9vCVCHjlE"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_Dispatch_HQ",
+          "id": "I95k8bm5q5J",
+          "userGroupUid": "I95k8bm5q5J"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Mycetoma_HQ",
+          "id": "IPzz6wlkIp0",
+          "userGroupUid": "IPzz6wlkIp0"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EMRO",
+          "id": "K40P7b1JFdc",
+          "userGroupUid": "K40P7b1JFdc"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "HEP Admins",
+          "id": "KU3n9ZHLJBE",
+          "userGroupUid": "KU3n9ZHLJBE"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock",
+          "id": "LCs79RaVi0a",
+          "userGroupUid": "LCs79RaVi0a"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQPublish",
+          "id": "MYa3lh5k0Yq",
+          "userGroupUid": "MYa3lh5k0Yq"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EURO_Armenia",
+          "id": "TNA9oGI43e4",
+          "userGroupUid": "TNA9oGI43e4"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
+          "id": "ZuT9b32Dhv5",
+          "userGroupUid": "ZuT9b32Dhv5"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Yaws_WHO",
+          "id": "ZvxncLTan3w",
+          "userGroupUid": "ZvxncLTan3w"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
+          "id": "phezIKUxlC2",
+          "userGroupUid": "phezIKUxlC2"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EURO",
+          "id": "tEOUdu1ala4",
+          "userGroupUid": "tEOUdu1ala4"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Data Entry (TO BE DELETED - DO NOT USE)",
+          "id": "uEYpW1usu0E",
+          "userGroupUid": "uEYpW1usu0E"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Data Analysis (TO BE DELETED - DO NOT USE)",
+          "id": "xCbfjheBM6t",
+          "userGroupUid": "xCbfjheBM6t"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ]
     }
   ],
   "categoryOptionCombos": [
@@ -122,11 +375,159 @@
       "id": "Y7fcspgsU43",
       "lastUpdated": "2018-07-27T16:09:07.425",
       "name": "default",
-      "organisationUnits": [],
       "publicAccess": "rwrw----",
       "shortName": "default",
       "translations": [],
-      "userAccesses": []
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQ",
+          "id": "BMxt1NZML9e",
+          "userGroupUid": "BMxt1NZML9e"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP",
+          "id": "C0BrlroHnLZ",
+          "userGroupUid": "C0BrlroHnLZ"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_AFRO_Ghana",
+          "id": "CoxTaSDd4Bz",
+          "userGroupUid": "CoxTaSDd4Bz"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leish_Kenya_VL_Admin",
+          "id": "DHWlFaXI0Sy",
+          "userGroupUid": "DHWlFaXI0Sy"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_demo",
+          "id": "Fs9vCVCHjlE",
+          "userGroupUid": "Fs9vCVCHjlE"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_Dispatch_HQ",
+          "id": "I95k8bm5q5J",
+          "userGroupUid": "I95k8bm5q5J"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Mycetoma_HQ",
+          "id": "IPzz6wlkIp0",
+          "userGroupUid": "IPzz6wlkIp0"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EMRO",
+          "id": "K40P7b1JFdc",
+          "userGroupUid": "K40P7b1JFdc"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "HEP Admins",
+          "id": "KU3n9ZHLJBE",
+          "userGroupUid": "KU3n9ZHLJBE"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock",
+          "id": "LCs79RaVi0a",
+          "userGroupUid": "LCs79RaVi0a"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQPublish",
+          "id": "MYa3lh5k0Yq",
+          "userGroupUid": "MYa3lh5k0Yq"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EURO_Armenia",
+          "id": "TNA9oGI43e4",
+          "userGroupUid": "TNA9oGI43e4"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
+          "id": "ZuT9b32Dhv5",
+          "userGroupUid": "ZuT9b32Dhv5"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Yaws_WHO",
+          "id": "ZvxncLTan3w",
+          "userGroupUid": "ZvxncLTan3w"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
+          "id": "phezIKUxlC2",
+          "userGroupUid": "phezIKUxlC2"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EURO",
+          "id": "tEOUdu1ala4",
+          "userGroupUid": "tEOUdu1ala4"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Data Entry (TO BE DELETED - DO NOT USE)",
+          "id": "uEYpW1usu0E",
+          "userGroupUid": "uEYpW1usu0E"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Data Analysis (TO BE DELETED - DO NOT USE)",
+          "id": "xCbfjheBM6t",
+          "userGroupUid": "xCbfjheBM6t"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ]
     }
   ],
   "dataElements": [
@@ -143,19 +544,49 @@
       "domainType": "TRACKER",
       "formName": "Age (in years)",
       "id": "Xii6gy92ebp",
-      "lastUpdated": "2019-03-25T13:01:32.722",
+      "lastUpdated": "2019-04-18T15:36:05.455",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
       "legendSets": [],
       "name": "GEN_Age_T",
-      "publicAccess": "--------",
+      "publicAccess": "rw------",
       "shortName": "Age",
       "translations": [
         {
           "locale": "fr",
           "property": "DESCRIPTION",
           "value": "Age en années - Cet élément de données est dynamique, c'est à dire que chaque jour le patient va viellir d'un an."
+        },
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Age en années - Cet élément de données est dynamique, c'est à dire que chaque jour le patient va viellir d'un an."
+        },
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Age en années - Cet élément de données est dynamique, c'est à dire que chaque jour le patient va viellir d'un an."
+        },
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Age en années - Cet élément de données est dynamique, c'est à dire que chaque jour le patient va viellir d'un an."
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Age"
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Age"
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Age"
         },
         {
           "locale": "fr",
@@ -169,12 +600,143 @@
         },
         {
           "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_Age_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_Age_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_Age_T"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Age"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Age"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Age"
+        },
+        {
+          "locale": "fr",
           "property": "SHORT_NAME",
           "value": "Age"
         }
       ],
-      "userAccesses": [],
-      "userGroupAccesses": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "Duplicator Event",
+          "id": "UlXOWwGGx7W",
+          "userUid": "UlXOWwGGx7W"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD_VL_Event_Capture",
+          "id": "AKCiUSICdUT",
+          "userGroupUid": "AKCiUSICdUT"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leish_Kenya_VL_Admin",
+          "id": "DHWlFaXI0Sy",
+          "userGroupUid": "DHWlFaXI0Sy"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_EMRO",
+          "id": "K40P7b1JFdc",
+          "userGroupUid": "K40P7b1JFdc"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_Capture",
+          "id": "TbGA9fMJpCR",
+          "userGroupUid": "TbGA9fMJpCR"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_VL_Event_View",
+          "id": "YWgdwKzbsnN",
+          "userGroupUid": "YWgdwKzbsnN"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
+          "id": "ZuT9b32Dhv5",
+          "userGroupUid": "ZuT9b32Dhv5"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_View",
+          "id": "cy0qXsDxzxe",
+          "userGroupUid": "cy0qXsDxzxe"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
+          "id": "phezIKUxlC2",
+          "userGroupUid": "phezIKUxlC2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_PHC_VL",
+          "id": "r4gcKCyB5fF",
+          "userGroupUid": "r4gcKCyB5fF"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ],
       "valueType": "NUMBER",
       "zeroIsSignificant": true
     },
@@ -190,15 +752,118 @@
       "domainType": "TRACKER",
       "formName": "Family name",
       "id": "Q7dOlqe54eh",
-      "lastUpdated": "2019-03-26T12:59:19.136",
+      "lastUpdated": "2019-04-18T15:36:05.227",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
       "legendSets": [],
       "name": "GEN_Family name_T",
-      "publicAccess": "--------",
+      "publicAccess": "rw------",
       "shortName": "Family name",
       "translations": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "Duplicator Event",
+          "id": "UlXOWwGGx7W",
+          "userUid": "UlXOWwGGx7W"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD_VL_Event_Capture",
+          "id": "AKCiUSICdUT",
+          "userGroupUid": "AKCiUSICdUT"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leish_Kenya_VL_Admin",
+          "id": "DHWlFaXI0Sy",
+          "userGroupUid": "DHWlFaXI0Sy"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_EMRO",
+          "id": "K40P7b1JFdc",
+          "userGroupUid": "K40P7b1JFdc"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_Capture",
+          "id": "TbGA9fMJpCR",
+          "userGroupUid": "TbGA9fMJpCR"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_VL_Event_View",
+          "id": "YWgdwKzbsnN",
+          "userGroupUid": "YWgdwKzbsnN"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
+          "id": "ZuT9b32Dhv5",
+          "userGroupUid": "ZuT9b32Dhv5"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_View",
+          "id": "cy0qXsDxzxe",
+          "userGroupUid": "cy0qXsDxzxe"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
+          "id": "phezIKUxlC2",
+          "userGroupUid": "phezIKUxlC2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_PHC_VL",
+          "id": "r4gcKCyB5fF",
+          "userGroupUid": "r4gcKCyB5fF"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ],
       "valueType": "TEXT",
       "zeroIsSignificant": false
     },
@@ -214,15 +879,118 @@
       "domainType": "TRACKER",
       "formName": "First name",
       "id": "LJHNsKzZ8Mg",
-      "lastUpdated": "2019-03-26T12:59:19.005",
+      "lastUpdated": "2019-04-18T15:36:05.118",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
       "legendSets": [],
       "name": "GEN_FirstName_T",
-      "publicAccess": "--------",
+      "publicAccess": "rw------",
       "shortName": "First name",
       "translations": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "Duplicator Event",
+          "id": "UlXOWwGGx7W",
+          "userUid": "UlXOWwGGx7W"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD_VL_Event_Capture",
+          "id": "AKCiUSICdUT",
+          "userGroupUid": "AKCiUSICdUT"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leish_Kenya_VL_Admin",
+          "id": "DHWlFaXI0Sy",
+          "userGroupUid": "DHWlFaXI0Sy"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_EMRO",
+          "id": "K40P7b1JFdc",
+          "userGroupUid": "K40P7b1JFdc"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_Capture",
+          "id": "TbGA9fMJpCR",
+          "userGroupUid": "TbGA9fMJpCR"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_VL_Event_View",
+          "id": "YWgdwKzbsnN",
+          "userGroupUid": "YWgdwKzbsnN"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
+          "id": "ZuT9b32Dhv5",
+          "userGroupUid": "ZuT9b32Dhv5"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_View",
+          "id": "cy0qXsDxzxe",
+          "userGroupUid": "cy0qXsDxzxe"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
+          "id": "phezIKUxlC2",
+          "userGroupUid": "phezIKUxlC2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_PHC_VL",
+          "id": "r4gcKCyB5fF",
+          "userGroupUid": "r4gcKCyB5fF"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ],
       "valueType": "TEXT",
       "zeroIsSignificant": false
     },
@@ -239,16 +1007,82 @@
       "domainType": "TRACKER",
       "formName": "Outpatient No",
       "id": "l2oZmW8P4kT",
-      "lastUpdated": "2018-12-21T11:04:10.160",
+      "lastUpdated": "2019-04-18T15:36:05.333",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
       "legendSets": [],
       "name": "GEN_OutpatientNumber_T",
-      "publicAccess": "--------",
+      "publicAccess": "rw------",
       "shortName": "OP NO",
       "translations": [],
-      "userAccesses": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leish_Kenya_VL_Admin",
+          "id": "DHWlFaXI0Sy",
+          "userGroupUid": "DHWlFaXI0Sy"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_Capture",
+          "id": "TbGA9fMJpCR",
+          "userGroupUid": "TbGA9fMJpCR"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
+          "id": "ZuT9b32Dhv5",
+          "userGroupUid": "ZuT9b32Dhv5"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_View",
+          "id": "cy0qXsDxzxe",
+          "userGroupUid": "cy0qXsDxzxe"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ],
       "valueType": "TEXT",
       "zeroIsSignificant": false
     },
@@ -265,13 +1099,13 @@
       "domainType": "TRACKER",
       "formName": "Place of residence (as organization unit)",
       "id": "mwIgH1XXf6p",
-      "lastUpdated": "2019-04-10T11:05:23.685",
+      "lastUpdated": "2019-04-18T15:36:05.497",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
       "legendSets": [],
       "name": "GEN_PLACE_Residence_OU_T",
-      "publicAccess": "--------",
+      "publicAccess": "rw------",
       "shortName": "Place of residence (as OU)",
       "translations": [
         {
@@ -331,6 +1165,36 @@
         },
         {
           "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Veuillez indiquer le lieu de résidence de la manière la plus fine possible (idéalement le village de résidence), en le sélectionant dans l'arbre des unités d'organisation."
+        },
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Veuillez indiquer le lieu de résidence de la manière la plus fine possible (idéalement le village de résidence), en le sélectionant dans l'arbre des unités d'organisation."
+        },
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Veuillez indiquer le lieu de résidence de la manière la plus fine possible (idéalement le village de résidence), en le sélectionant dans l'arbre des unités d'organisation."
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Lieu de résidence (comme unité d'organisation)"
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Lieu de résidence (comme unité d'organisation)"
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Lieu de résidence (comme unité d'organisation)"
+        },
+        {
+          "locale": "fr",
           "property": "FORM_NAME",
           "value": "Lieu de résidence (comme unité d'organisation)"
         },
@@ -438,6 +1302,36 @@
           "locale": "fr",
           "property": "NAME",
           "value": "GEN_PlaceOU_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_PlaceOU_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_PlaceOU_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_PlaceOU_T"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Lieu de résidence"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Lieu de résidence"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Lieu de résidence"
         },
         {
           "locale": "fr",
@@ -495,8 +1389,109 @@
           "value": "Lieu de résidence"
         }
       ],
-      "userAccesses": [],
-      "userGroupAccesses": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "Duplicator Event",
+          "id": "UlXOWwGGx7W",
+          "userUid": "UlXOWwGGx7W"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD_VL_Event_Capture",
+          "id": "AKCiUSICdUT",
+          "userGroupUid": "AKCiUSICdUT"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leish_Kenya_VL_Admin",
+          "id": "DHWlFaXI0Sy",
+          "userGroupUid": "DHWlFaXI0Sy"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_EMRO",
+          "id": "K40P7b1JFdc",
+          "userGroupUid": "K40P7b1JFdc"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_Capture",
+          "id": "TbGA9fMJpCR",
+          "userGroupUid": "TbGA9fMJpCR"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_VL_Event_View",
+          "id": "YWgdwKzbsnN",
+          "userGroupUid": "YWgdwKzbsnN"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
+          "id": "ZuT9b32Dhv5",
+          "userGroupUid": "ZuT9b32Dhv5"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_View",
+          "id": "cy0qXsDxzxe",
+          "userGroupUid": "cy0qXsDxzxe"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
+          "id": "phezIKUxlC2",
+          "userGroupUid": "phezIKUxlC2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_PHC_VL",
+          "id": "r4gcKCyB5fF",
+          "userGroupUid": "r4gcKCyB5fF"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ],
       "valueType": "ORGANISATION_UNIT",
       "zeroIsSignificant": false
     },
@@ -513,17 +1508,118 @@
       "domainType": "TRACKER",
       "formName": "Probable village of residence (Free text)",
       "id": "bTwp4cKNjgZ",
-      "lastUpdated": "2019-04-10T11:05:23.595",
+      "lastUpdated": "2019-04-18T15:36:05.001",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
       "legendSets": [],
       "name": "GEN_PLACE_VillageOfResidence_Text_T",
-      "publicAccess": "--------",
+      "publicAccess": "rw------",
       "shortName": "Village of residence (Free text)",
       "translations": [],
-      "userAccesses": [],
-      "userGroupAccesses": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "Duplicator Event",
+          "id": "UlXOWwGGx7W",
+          "userUid": "UlXOWwGGx7W"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD_VL_Event_Capture",
+          "id": "AKCiUSICdUT",
+          "userGroupUid": "AKCiUSICdUT"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leish_Kenya_VL_Admin",
+          "id": "DHWlFaXI0Sy",
+          "userGroupUid": "DHWlFaXI0Sy"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_EMRO",
+          "id": "K40P7b1JFdc",
+          "userGroupUid": "K40P7b1JFdc"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_Capture",
+          "id": "TbGA9fMJpCR",
+          "userGroupUid": "TbGA9fMJpCR"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_VL_Event_View",
+          "id": "YWgdwKzbsnN",
+          "userGroupUid": "YWgdwKzbsnN"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
+          "id": "ZuT9b32Dhv5",
+          "userGroupUid": "ZuT9b32Dhv5"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_View",
+          "id": "cy0qXsDxzxe",
+          "userGroupUid": "cy0qXsDxzxe"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
+          "id": "phezIKUxlC2",
+          "userGroupUid": "phezIKUxlC2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_PHC_VL",
+          "id": "r4gcKCyB5fF",
+          "userGroupUid": "r4gcKCyB5fF"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ],
       "valueType": "TEXT",
       "zeroIsSignificant": false
     },
@@ -539,17 +1635,82 @@
       "domainType": "TRACKER",
       "formName": "Remarks",
       "id": "YOfsQvR5dQV",
-      "lastUpdated": "2019-04-10T11:02:18.115",
+      "lastUpdated": "2019-04-18T15:36:05.850",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
       "legendSets": [],
       "name": "GEN_REMARKS",
-      "publicAccess": "--------",
+      "publicAccess": "rw------",
       "shortName": "GEN_REMARKS",
       "translations": [],
-      "userAccesses": [],
-      "userGroupAccesses": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leish_Kenya_VL_Admin",
+          "id": "DHWlFaXI0Sy",
+          "userGroupUid": "DHWlFaXI0Sy"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_Capture",
+          "id": "TbGA9fMJpCR",
+          "userGroupUid": "TbGA9fMJpCR"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
+          "id": "ZuT9b32Dhv5",
+          "userGroupUid": "ZuT9b32Dhv5"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_View",
+          "id": "cy0qXsDxzxe",
+          "userGroupUid": "cy0qXsDxzxe"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ],
       "valueType": "LONG_TEXT",
       "zeroIsSignificant": false
     },
@@ -566,7 +1727,7 @@
       "domainType": "TRACKER",
       "formName": "Gender",
       "id": "Z8W89lDV4IL",
-      "lastUpdated": "2019-04-10T11:05:23.664",
+      "lastUpdated": "2019-04-18T15:36:05.352",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -575,12 +1736,42 @@
       "optionSet": {
         "id": "apzFCMWeffA"
       },
-      "publicAccess": "--------",
+      "publicAccess": "rw------",
       "shortName": "Gender",
       "translations": [
         {
           "locale": "fr",
           "property": "DESCRIPTION",
+          "value": "Genre"
+        },
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Genre"
+        },
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Genre"
+        },
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Genre"
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Genre"
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Genre"
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
           "value": "Genre"
         },
         {
@@ -595,12 +1786,143 @@
         },
         {
           "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_Genre_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_Genre_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_Genre_T"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Genre"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Genre"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Genre"
+        },
+        {
+          "locale": "fr",
           "property": "SHORT_NAME",
           "value": "Genre"
         }
       ],
-      "userAccesses": [],
-      "userGroupAccesses": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "Duplicator Event",
+          "id": "UlXOWwGGx7W",
+          "userUid": "UlXOWwGGx7W"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD_VL_Event_Capture",
+          "id": "AKCiUSICdUT",
+          "userGroupUid": "AKCiUSICdUT"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leish_Kenya_VL_Admin",
+          "id": "DHWlFaXI0Sy",
+          "userGroupUid": "DHWlFaXI0Sy"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_EMRO",
+          "id": "K40P7b1JFdc",
+          "userGroupUid": "K40P7b1JFdc"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_Capture",
+          "id": "TbGA9fMJpCR",
+          "userGroupUid": "TbGA9fMJpCR"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_VL_Event_View",
+          "id": "YWgdwKzbsnN",
+          "userGroupUid": "YWgdwKzbsnN"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
+          "id": "ZuT9b32Dhv5",
+          "userGroupUid": "ZuT9b32Dhv5"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_View",
+          "id": "cy0qXsDxzxe",
+          "userGroupUid": "cy0qXsDxzxe"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
+          "id": "phezIKUxlC2",
+          "userGroupUid": "phezIKUxlC2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_PHC_VL",
+          "id": "r4gcKCyB5fF",
+          "userGroupUid": "r4gcKCyB5fF"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ],
       "valueType": "TEXT",
       "zeroIsSignificant": false
     },
@@ -617,7 +1939,7 @@
       "domainType": "TRACKER",
       "formName": "DAT",
       "id": "Smz32lrbfyh",
-      "lastUpdated": "2019-04-10T11:05:23.644",
+      "lastUpdated": "2019-04-18T15:35:48.309",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -629,8 +1951,73 @@
       "publicAccess": "--------",
       "shortName": "DAT",
       "translations": [],
-      "userAccesses": [],
-      "userGroupAccesses": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leish_Kenya_VL_Admin",
+          "id": "DHWlFaXI0Sy",
+          "userGroupUid": "DHWlFaXI0Sy"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_Capture",
+          "id": "TbGA9fMJpCR",
+          "userGroupUid": "TbGA9fMJpCR"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
+          "id": "ZuT9b32Dhv5",
+          "userGroupUid": "ZuT9b32Dhv5"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_View",
+          "id": "cy0qXsDxzxe",
+          "userGroupUid": "cy0qXsDxzxe"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ],
       "valueType": "TEXT",
       "zeroIsSignificant": false
     },
@@ -647,7 +2034,7 @@
       "domainType": "TRACKER",
       "formName": "DAT",
       "id": "Bg67t8nmrwn",
-      "lastUpdated": "2018-12-21T11:04:10.274",
+      "lastUpdated": "2019-04-18T15:35:48.445",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -659,7 +2046,73 @@
       "publicAccess": "--------",
       "shortName": "DAT_PNBND",
       "translations": [],
-      "userAccesses": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leish_Kenya_VL_Admin",
+          "id": "DHWlFaXI0Sy",
+          "userGroupUid": "DHWlFaXI0Sy"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_Capture",
+          "id": "TbGA9fMJpCR",
+          "userGroupUid": "TbGA9fMJpCR"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
+          "id": "ZuT9b32Dhv5",
+          "userGroupUid": "ZuT9b32Dhv5"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_View",
+          "id": "cy0qXsDxzxe",
+          "userGroupUid": "cy0qXsDxzxe"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ],
       "valueType": "TEXT",
       "zeroIsSignificant": false
     },
@@ -675,7 +2128,7 @@
       "domainType": "TRACKER",
       "formName": "Department",
       "id": "MOOioCpQAeO",
-      "lastUpdated": "2019-02-20T13:35:21.596",
+      "lastUpdated": "2019-04-18T15:35:48.185",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -684,7 +2137,73 @@
       "publicAccess": "--------",
       "shortName": "VL_Lab_Dept",
       "translations": [],
-      "userAccesses": [],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leish_Kenya_VL_Admin",
+          "id": "DHWlFaXI0Sy",
+          "userGroupUid": "DHWlFaXI0Sy"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_Capture",
+          "id": "TbGA9fMJpCR",
+          "userGroupUid": "TbGA9fMJpCR"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
+          "id": "ZuT9b32Dhv5",
+          "userGroupUid": "ZuT9b32Dhv5"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_View",
+          "id": "cy0qXsDxzxe",
+          "userGroupUid": "cy0qXsDxzxe"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ],
       "valueType": "TEXT",
       "zeroIsSignificant": false
     },
@@ -700,7 +2219,7 @@
       "domainType": "TRACKER",
       "formName": "Lab No",
       "id": "I4PpM2eflrz",
-      "lastUpdated": "2019-02-20T13:35:21.601",
+      "lastUpdated": "2019-04-18T15:35:48.166",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -709,8 +2228,168 @@
       "publicAccess": "--------",
       "shortName": "VL_Lab_IDQ",
       "translations": [],
-      "userAccesses": [],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leish_Kenya_VL_Admin",
+          "id": "DHWlFaXI0Sy",
+          "userGroupUid": "DHWlFaXI0Sy"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_Capture",
+          "id": "TbGA9fMJpCR",
+          "userGroupUid": "TbGA9fMJpCR"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
+          "id": "ZuT9b32Dhv5",
+          "userGroupUid": "ZuT9b32Dhv5"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_View",
+          "id": "cy0qXsDxzxe",
+          "userGroupUid": "cy0qXsDxzxe"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ],
       "valueType": "NUMBER",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "NONE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "VL_Lab_RDT_PNND",
+      "created": "2018-12-05T14:20:05.528",
+      "domainType": "TRACKER",
+      "formName": "Rapid diagnostic test result",
+      "id": "QpTFVMSBALN",
+      "lastUpdated": "2019-04-18T15:35:48.451",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "VL_Lab_RDT_PNND",
+      "optionSet": {
+        "id": "rBbay5XD36E"
+      },
+      "publicAccess": "--------",
+      "shortName": "RDT result PNND",
+      "translations": [],
+      "user": {
+        "id": "uxrfJ88hrVO"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leish_Kenya_VL_Admin",
+          "id": "DHWlFaXI0Sy",
+          "userGroupUid": "DHWlFaXI0Sy"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_Capture",
+          "id": "TbGA9fMJpCR",
+          "userGroupUid": "TbGA9fMJpCR"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
+          "id": "ZuT9b32Dhv5",
+          "userGroupUid": "ZuT9b32Dhv5"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_View",
+          "id": "cy0qXsDxzxe",
+          "userGroupUid": "cy0qXsDxzxe"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ],
+      "valueType": "TEXT",
       "zeroIsSignificant": false
     },
     {
@@ -725,7 +2404,7 @@
       "domainType": "TRACKER",
       "formName": "Rapid diagnostic test result",
       "id": "DeA3q4Uczfz",
-      "lastUpdated": "2019-04-10T11:05:23.612",
+      "lastUpdated": "2019-04-18T15:35:48.353",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -737,8 +2416,73 @@
       "publicAccess": "--------",
       "shortName": "RDT result (old)",
       "translations": [],
-      "userAccesses": [],
-      "userGroupAccesses": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leish_Kenya_VL_Admin",
+          "id": "DHWlFaXI0Sy",
+          "userGroupUid": "DHWlFaXI0Sy"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_Capture",
+          "id": "TbGA9fMJpCR",
+          "userGroupUid": "TbGA9fMJpCR"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
+          "id": "ZuT9b32Dhv5",
+          "userGroupUid": "ZuT9b32Dhv5"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_View",
+          "id": "cy0qXsDxzxe",
+          "userGroupUid": "cy0qXsDxzxe"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ],
       "valueType": "TEXT",
       "zeroIsSignificant": false
     },
@@ -754,7 +2498,7 @@
       "domainType": "TRACKER",
       "formName": "Splenic/bone marrow aspirate result",
       "id": "NWGXBZSCQto",
-      "lastUpdated": "2019-04-10T11:02:18.059",
+      "lastUpdated": "2019-04-18T15:35:48.302",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -766,8 +2510,167 @@
       "publicAccess": "--------",
       "shortName": "VL_Lab_SplenicAsspirate_T",
       "translations": [],
-      "userAccesses": [],
-      "userGroupAccesses": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leish_Kenya_VL_Admin",
+          "id": "DHWlFaXI0Sy",
+          "userGroupUid": "DHWlFaXI0Sy"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_Capture",
+          "id": "TbGA9fMJpCR",
+          "userGroupUid": "TbGA9fMJpCR"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
+          "id": "ZuT9b32Dhv5",
+          "userGroupUid": "ZuT9b32Dhv5"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_View",
+          "id": "cy0qXsDxzxe",
+          "userGroupUid": "cy0qXsDxzxe"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ],
+      "valueType": "TEXT",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "NONE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "VL_Lab_SplenicAsspirate_T_PNND",
+      "created": "2018-12-03T18:03:52.453",
+      "domainType": "TRACKER",
+      "formName": "Splenic/bone marrow aspirate result",
+      "id": "U1lAnctFNUM",
+      "lastUpdated": "2019-04-18T15:35:48.191",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "VL_Lab_SplenicAsspirate_T_PNND",
+      "optionSet": {
+        "id": "rBbay5XD36E"
+      },
+      "publicAccess": "--------",
+      "shortName": "VL_Lab_SplenicAsspirate_T_PNND",
+      "translations": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leish_Kenya_VL_Admin",
+          "id": "DHWlFaXI0Sy",
+          "userGroupUid": "DHWlFaXI0Sy"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_Capture",
+          "id": "TbGA9fMJpCR",
+          "userGroupUid": "TbGA9fMJpCR"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
+          "id": "ZuT9b32Dhv5",
+          "userGroupUid": "ZuT9b32Dhv5"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_View",
+          "id": "cy0qXsDxzxe",
+          "userGroupUid": "cy0qXsDxzxe"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ],
       "valueType": "TEXT",
       "zeroIsSignificant": false
     },
@@ -783,7 +2686,7 @@
       "domainType": "TRACKER",
       "formName": "Titre",
       "id": "O7trYnDIDuH",
-      "lastUpdated": "2019-02-20T13:35:21.610",
+      "lastUpdated": "2019-04-18T15:35:48.422",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -792,7 +2695,73 @@
       "publicAccess": "--------",
       "shortName": "VL_Lab_TITRE",
       "translations": [],
-      "userAccesses": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leish_Kenya_VL_Admin",
+          "id": "DHWlFaXI0Sy",
+          "userGroupUid": "DHWlFaXI0Sy"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_Capture",
+          "id": "TbGA9fMJpCR",
+          "userGroupUid": "TbGA9fMJpCR"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
+          "id": "ZuT9b32Dhv5",
+          "userGroupUid": "ZuT9b32Dhv5"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_View",
+          "id": "cy0qXsDxzxe",
+          "userGroupUid": "cy0qXsDxzxe"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ],
       "valueType": "TEXT",
       "zeroIsSignificant": false
     }
@@ -811,68 +2780,14 @@
       "translations": []
     }
   ],
-  "date": "2019-04-11T13:47:22.669",
+  "date": "2019-04-18T15:36:15.467",
   "optionSets": [
-    {
-      "access": {
-        "delete": true,
-        "externalize": true,
-        "manage": true,
-        "read": true,
-        "update": true,
-        "write": true
-      },
-      "attributeValues": [],
-      "code": "OpS_Disease",
-      "created": "2017-01-26T14:09:22.007",
-      "displayName": "Disease",
-      "externalAccess": false,
-      "favorite": false,
-      "favorites": [],
-      "href": "https://extranet.who.int/dhis2-dev/api/optionSets/r0czxkQrRQY",
-      "id": "r0czxkQrRQY",
-      "lastUpdated": "2017-09-12T15:20:23.700",
-      "name": "Disease",
-      "options": [
-        {
-          "id": "PsDfyH1s6z0"
-        },
-        {
-          "id": "Ql9HLirUDjN"
-        },
-        {
-          "id": "SAOVtVKc2s5"
-        },
-        {
-          "id": "SYdHr4hp0KW"
-        },
-        {
-          "id": "WnIosGUIQKU"
-        },
-        {
-          "id": "aHSoj6JChiB"
-        },
-        {
-          "id": "gHBKHeDrVXq"
-        },
-        {
-          "id": "iwWj4JG7XdE"
-        },
-        {
-          "id": "v2Ypwqcq04H"
-        }
-      ],
-      "publicAccess": "--------",
-      "translations": [],
-      "valueType": "TEXT",
-      "version": 1
-    },
     {
       "attributeValues": [],
       "code": "OpS_Gender",
       "created": "2016-05-22T22:20:55.318",
       "id": "apzFCMWeffA",
-      "lastUpdated": "2019-04-10T11:06:24.820",
+      "lastUpdated": "2019-04-18T15:36:04.128",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -888,18 +2803,120 @@
           "id": "tZftZ03eewT"
         }
       ],
-      "publicAccess": "--------",
+      "publicAccess": "rw------",
       "translations": [],
-      "userAccesses": [],
-      "userGroupAccesses": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "Duplicator Event",
+          "id": "UlXOWwGGx7W",
+          "userUid": "UlXOWwGGx7W"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD_VL_Event_Capture",
+          "id": "AKCiUSICdUT",
+          "userGroupUid": "AKCiUSICdUT"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leish_Kenya_VL_Admin",
+          "id": "DHWlFaXI0Sy",
+          "userGroupUid": "DHWlFaXI0Sy"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_EMRO",
+          "id": "K40P7b1JFdc",
+          "userGroupUid": "K40P7b1JFdc"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_Capture",
+          "id": "TbGA9fMJpCR",
+          "userGroupUid": "TbGA9fMJpCR"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_VL_Event_View",
+          "id": "YWgdwKzbsnN",
+          "userGroupUid": "YWgdwKzbsnN"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
+          "id": "ZuT9b32Dhv5",
+          "userGroupUid": "ZuT9b32Dhv5"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_View",
+          "id": "cy0qXsDxzxe",
+          "userGroupUid": "cy0qXsDxzxe"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
+          "id": "phezIKUxlC2",
+          "userGroupUid": "phezIKUxlC2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_PHC_VL",
+          "id": "r4gcKCyB5fF",
+          "userGroupUid": "r4gcKCyB5fF"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ],
       "valueType": "TEXT",
-      "version": 10
+      "version": 13
     },
     {
       "attributeValues": [],
+      "code": "OpS_Result_PNBND",
       "created": "2018-12-03T17:41:33.960",
       "id": "B1BBW5eGt1j",
-      "lastUpdated": "2018-12-21T11:47:05.329",
+      "lastUpdated": "2019-04-18T15:35:47.968",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -920,17 +2937,82 @@
       ],
       "publicAccess": "--------",
       "translations": [],
-      "userAccesses": [],
-      "userGroupAccesses": [],
+      "user": {
+        "id": "uxrfJ88hrVO"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leish_Kenya_VL_Admin",
+          "id": "DHWlFaXI0Sy",
+          "userGroupUid": "DHWlFaXI0Sy"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_Capture",
+          "id": "TbGA9fMJpCR",
+          "userGroupUid": "TbGA9fMJpCR"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
+          "id": "ZuT9b32Dhv5",
+          "userGroupUid": "ZuT9b32Dhv5"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_View",
+          "id": "cy0qXsDxzxe",
+          "userGroupUid": "cy0qXsDxzxe"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ],
       "valueType": "TEXT",
-      "version": 9
+      "version": 10
     },
     {
       "attributeValues": [],
       "code": "OpS_Result_simple",
       "created": "2016-09-21T15:56:56.229",
       "id": "s9DphURXyJX",
-      "lastUpdated": "2019-04-10T11:05:22.036",
+      "lastUpdated": "2019-04-18T15:36:04.548",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -949,99 +3031,206 @@
           "id": "yDMEl7QeOWI"
         }
       ],
-      "publicAccess": "--------",
+      "publicAccess": "rw------",
       "translations": [],
-      "userAccesses": [],
-      "userGroupAccesses": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "Duplicator Event",
+          "id": "UlXOWwGGx7W",
+          "userUid": "UlXOWwGGx7W"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leish_Kenya_VL_Admin",
+          "id": "DHWlFaXI0Sy",
+          "userGroupUid": "DHWlFaXI0Sy"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_Capture",
+          "id": "TbGA9fMJpCR",
+          "userGroupUid": "TbGA9fMJpCR"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
+          "id": "ZuT9b32Dhv5",
+          "userGroupUid": "ZuT9b32Dhv5"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_BU_Event",
+          "id": "bzuIPO5zQPV",
+          "userGroupUid": "bzuIPO5zQPV"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_View",
+          "id": "cy0qXsDxzxe",
+          "userGroupUid": "cy0qXsDxzxe"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ],
       "valueType": "TEXT",
-      "version": 10
+      "version": 11
+    },
+    {
+      "attributeValues": [],
+      "code": "OpS_Result_simple_PNND",
+      "created": "2018-11-27T10:23:42.110",
+      "id": "rBbay5XD36E",
+      "lastUpdated": "2019-04-18T15:36:04.509",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "Result_simple_PNND",
+      "options": [
+        {
+          "id": "M8VrOqtFbwH"
+        },
+        {
+          "id": "beB8ITZLzUJ"
+        },
+        {
+          "id": "s7diX9IiwEw"
+        }
+      ],
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "ilJDyuqlwDC"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leish_Kenya_VL_Admin",
+          "id": "DHWlFaXI0Sy",
+          "userGroupUid": "DHWlFaXI0Sy"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_Capture",
+          "id": "TbGA9fMJpCR",
+          "userGroupUid": "TbGA9fMJpCR"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
+          "id": "ZuT9b32Dhv5",
+          "userGroupUid": "ZuT9b32Dhv5"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_View",
+          "id": "cy0qXsDxzxe",
+          "userGroupUid": "cy0qXsDxzxe"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ],
+      "valueType": "TEXT",
+      "version": 11
     }
   ],
   "options": [
     {
       "attributeValues": [],
-      "code": "Op_Result_borderline",
+      "code": "Borderline",
       "created": "2018-12-21T11:45:58.346",
       "id": "jrtw6M8g3gj",
-      "lastUpdated": "2018-12-21T11:45:58.398",
+      "lastUpdated": "2019-04-16T13:01:15.748",
       "name": "Borderline",
       "optionSet": {
         "id": "B1BBW5eGt1j"
-      },
-      "sortOrder": 3,
-      "translations": []
-    },
-    {
-      "access": {
-        "delete": true,
-        "externalize": true,
-        "manage": true,
-        "read": true,
-        "update": true,
-        "write": true
-      },
-      "attributeValues": [],
-      "code": "Op_Disease_BU",
-      "created": "2017-01-26T14:09:48.508",
-      "displayName": "Buruli Ulcer",
-      "externalAccess": false,
-      "favorite": false,
-      "favorites": [],
-      "id": "WnIosGUIQKU",
-      "lastUpdated": "2017-05-15T15:05:42.024",
-      "name": "Buruli Ulcer",
-      "optionSet": {
-        "id": "r0czxkQrRQY"
-      },
-      "sortOrder": 1,
-      "translations": []
-    },
-    {
-      "access": {
-        "delete": true,
-        "externalize": true,
-        "manage": true,
-        "read": true,
-        "update": true,
-        "write": true
-      },
-      "attributeValues": [],
-      "code": "Op_Disease_CD",
-      "created": "2017-01-26T14:10:07.838",
-      "displayName": "Chagas disease",
-      "externalAccess": false,
-      "favorite": false,
-      "favorites": [],
-      "id": "v2Ypwqcq04H",
-      "lastUpdated": "2017-05-15T15:05:42.024",
-      "name": "Chagas disease",
-      "optionSet": {
-        "id": "r0czxkQrRQY"
-      },
-      "sortOrder": 2,
-      "translations": []
-    },
-    {
-      "access": {
-        "delete": true,
-        "externalize": true,
-        "manage": true,
-        "read": true,
-        "update": true,
-        "write": true
-      },
-      "attributeValues": [],
-      "code": "Op_Disease_Op_Disease_CL",
-      "created": "2017-01-26T14:10:35.095",
-      "displayName": "Cutaneous leishmaniasis",
-      "externalAccess": false,
-      "favorite": false,
-      "favorites": [],
-      "id": "SAOVtVKc2s5",
-      "lastUpdated": "2017-05-15T15:05:42.024",
-      "name": "Cutaneous leishmaniasis",
-      "optionSet": {
-        "id": "r0czxkQrRQY"
       },
       "sortOrder": 3,
       "translations": []
@@ -1051,7 +3240,7 @@
       "code": "Op_Gender_Female",
       "created": "2016-07-04T14:36:48.721",
       "id": "tZftZ03eewT",
-      "lastUpdated": "2019-04-10T11:06:23.902",
+      "lastUpdated": "2019-04-17T17:31:02.138",
       "name": "Female",
       "optionSet": {
         "id": "apzFCMWeffA"
@@ -1060,61 +3249,11 @@
       "translations": []
     },
     {
-      "access": {
-        "delete": true,
-        "externalize": true,
-        "manage": true,
-        "read": true,
-        "update": true,
-        "write": true
-      },
-      "attributeValues": [],
-      "code": "Op_Disease_HAT",
-      "created": "2017-01-26T14:11:07.130",
-      "displayName": "Human African Trypanosomiasis",
-      "externalAccess": false,
-      "favorite": false,
-      "favorites": [],
-      "id": "iwWj4JG7XdE",
-      "lastUpdated": "2017-05-15T15:05:42.024",
-      "name": "Human African Trypanosomiasis",
-      "optionSet": {
-        "id": "r0czxkQrRQY"
-      },
-      "sortOrder": 5,
-      "translations": []
-    },
-    {
-      "access": {
-        "delete": true,
-        "externalize": true,
-        "manage": true,
-        "read": true,
-        "update": true,
-        "write": true
-      },
-      "attributeValues": [],
-      "code": "Op_Disease_Leish",
-      "created": "2017-01-26T14:27:56.322",
-      "displayName": "Leishmaniasis (both forms)",
-      "externalAccess": false,
-      "favorite": false,
-      "favorites": [],
-      "id": "PsDfyH1s6z0",
-      "lastUpdated": "2017-05-15T15:05:42.024",
-      "name": "Leishmaniasis (both forms)",
-      "optionSet": {
-        "id": "r0czxkQrRQY"
-      },
-      "sortOrder": 8,
-      "translations": []
-    },
-    {
       "attributeValues": [],
       "code": "Op_Gender_Male",
       "created": "2016-07-04T14:36:48.721",
       "id": "qmsg1OVBqif",
-      "lastUpdated": "2019-04-10T11:06:23.902",
+      "lastUpdated": "2019-04-17T17:31:02.138",
       "name": "Male",
       "optionSet": {
         "id": "apzFCMWeffA"
@@ -1123,49 +3262,11 @@
       "translations": []
     },
     {
-      "access": {
-        "delete": true,
-        "externalize": true,
-        "manage": true,
-        "read": true,
-        "update": true,
-        "write": true
-      },
       "attributeValues": [],
-      "code": "Op_Disease_Mycetoma",
-      "created": "2017-01-26T14:11:26.375",
-      "displayName": "Mycetoma",
-      "externalAccess": false,
-      "favorite": false,
-      "favorites": [],
-      "id": "aHSoj6JChiB",
-      "lastUpdated": "2017-05-15T15:05:42.024",
-      "name": "Mycetoma",
-      "optionSet": {
-        "id": "r0czxkQrRQY"
-      },
-      "sortOrder": 6,
-      "translations": []
-    },
-    {
-      "attributeValues": [],
-      "code": "Op_Result_simple_N",
-      "created": "2018-12-21T11:45:45.364",
-      "id": "W6D2oLri0Yz",
-      "lastUpdated": "2018-12-21T11:45:45.421",
-      "name": "Negative",
-      "optionSet": {
-        "id": "B1BBW5eGt1j"
-      },
-      "sortOrder": 2,
-      "translations": []
-    },
-    {
-      "attributeValues": [],
-      "code": "Op_Result_simple_N",
+      "code": "Negative",
       "created": "2016-09-21T16:02:43.504",
       "id": "MA7KEkO6Kpe",
-      "lastUpdated": "2019-04-10T11:05:21.265",
+      "lastUpdated": "2019-04-16T13:01:15.748",
       "name": "Negative",
       "optionSet": {
         "id": "s9DphURXyJX"
@@ -1175,23 +3276,36 @@
     },
     {
       "attributeValues": [],
-      "code": "Op_Result_NotDone",
-      "created": "2018-12-21T11:47:05.050",
-      "id": "jv6uGJgYCOA",
-      "lastUpdated": "2018-12-21T11:47:05.106",
-      "name": "Not Done",
+      "code": "Negative",
+      "created": "2018-11-27T10:25:21.136",
+      "id": "M8VrOqtFbwH",
+      "lastUpdated": "2019-04-16T13:01:15.748",
+      "name": "Negative",
       "optionSet": {
-        "id": "B1BBW5eGt1j"
+        "id": "rBbay5XD36E"
       },
-      "sortOrder": 4,
+      "sortOrder": 1,
       "translations": []
     },
     {
       "attributeValues": [],
-      "code": "Op_Result_simple_ND",
+      "code": "Negative",
+      "created": "2018-12-21T11:45:45.364",
+      "id": "W6D2oLri0Yz",
+      "lastUpdated": "2019-04-16T13:01:15.748",
+      "name": "Negative",
+      "optionSet": {
+        "id": "B1BBW5eGt1j"
+      },
+      "sortOrder": 2,
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "code": "Not done",
       "created": "2017-07-08T12:26:54.870",
       "id": "yDMEl7QeOWI",
-      "lastUpdated": "2019-04-10T11:05:21.265",
+      "lastUpdated": "2019-04-16T13:01:15.748",
       "name": "Not done",
       "optionSet": {
         "id": "s9DphURXyJX"
@@ -1201,10 +3315,62 @@
     },
     {
       "attributeValues": [],
-      "code": "Op_Result_Positive",
+      "code": "Not done",
+      "created": "2018-12-21T10:00:36.767",
+      "id": "s7diX9IiwEw",
+      "lastUpdated": "2019-04-16T13:01:15.748",
+      "name": "Not done",
+      "optionSet": {
+        "id": "rBbay5XD36E"
+      },
+      "sortOrder": 3,
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "code": "Not done",
+      "created": "2018-12-21T11:47:05.050",
+      "id": "jv6uGJgYCOA",
+      "lastUpdated": "2019-04-16T13:01:15.748",
+      "name": "Not done",
+      "optionSet": {
+        "id": "B1BBW5eGt1j"
+      },
+      "sortOrder": 4,
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "code": "Positive",
+      "created": "2016-09-21T16:02:43.504",
+      "id": "qBxH3d9jIJk",
+      "lastUpdated": "2019-04-16T13:01:15.748",
+      "name": "Positive",
+      "optionSet": {
+        "id": "s9DphURXyJX"
+      },
+      "sortOrder": 1,
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "code": "Positive",
+      "created": "2018-11-27T10:25:07.113",
+      "id": "beB8ITZLzUJ",
+      "lastUpdated": "2019-04-16T13:01:15.748",
+      "name": "Positive",
+      "optionSet": {
+        "id": "rBbay5XD36E"
+      },
+      "sortOrder": 2,
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "code": "Positive",
       "created": "2018-12-21T11:45:35.427",
       "id": "fIvMjiSg239",
-      "lastUpdated": "2018-12-21T11:45:35.485",
+      "lastUpdated": "2019-04-16T13:01:15.748",
       "name": "Positive",
       "optionSet": {
         "id": "B1BBW5eGt1j"
@@ -1214,48 +3380,10 @@
     },
     {
       "attributeValues": [],
-      "code": "Op_Result_simple_P",
-      "created": "2016-09-21T16:02:43.504",
-      "id": "qBxH3d9jIJk",
-      "lastUpdated": "2019-04-10T11:05:21.266",
-      "name": "Positive",
-      "optionSet": {
-        "id": "s9DphURXyJX"
-      },
-      "sortOrder": 1,
-      "translations": []
-    },
-    {
-      "access": {
-        "delete": true,
-        "externalize": true,
-        "manage": true,
-        "read": true,
-        "update": true,
-        "write": true
-      },
-      "attributeValues": [],
-      "code": "Op_Disease_SkinNTDs",
-      "created": "2017-03-29T11:42:08.683",
-      "displayName": "SkinNTDs",
-      "externalAccess": false,
-      "favorite": false,
-      "favorites": [],
-      "id": "gHBKHeDrVXq",
-      "lastUpdated": "2017-05-15T15:05:42.024",
-      "name": "SkinNTDs",
-      "optionSet": {
-        "id": "r0czxkQrRQY"
-      },
-      "sortOrder": 9,
-      "translations": []
-    },
-    {
-      "attributeValues": [],
-      "code": "Op_Result_simple_U",
+      "code": "Unknown",
       "created": "2016-09-21T16:02:43.504",
       "id": "tGZPAKuvB4t",
-      "lastUpdated": "2019-04-10T11:05:21.266",
+      "lastUpdated": "2019-04-16T13:01:15.748",
       "name": "Unknown",
       "optionSet": {
         "id": "s9DphURXyJX"
@@ -1268,62 +3396,12 @@
       "code": "Op_Gender_Unknown",
       "created": "2016-07-04T14:36:48.721",
       "id": "DL8exJ3mxUX",
-      "lastUpdated": "2019-04-10T11:06:23.902",
+      "lastUpdated": "2019-04-17T17:31:02.138",
       "name": "Unknown",
       "optionSet": {
         "id": "apzFCMWeffA"
       },
       "sortOrder": 3,
-      "translations": []
-    },
-    {
-      "access": {
-        "delete": true,
-        "externalize": true,
-        "manage": true,
-        "read": true,
-        "update": true,
-        "write": true
-      },
-      "attributeValues": [],
-      "code": "Op_Disease_VL",
-      "created": "2017-01-26T14:10:50.847",
-      "displayName": "Visceral leishmaniasis",
-      "externalAccess": false,
-      "favorite": false,
-      "favorites": [],
-      "id": "SYdHr4hp0KW",
-      "lastUpdated": "2017-05-15T15:05:42.024",
-      "name": "Visceral leishmaniasis",
-      "optionSet": {
-        "id": "r0czxkQrRQY"
-      },
-      "sortOrder": 4,
-      "translations": []
-    },
-    {
-      "access": {
-        "delete": true,
-        "externalize": true,
-        "manage": true,
-        "read": true,
-        "update": true,
-        "write": true
-      },
-      "attributeValues": [],
-      "code": "Op_Disease_Yaws",
-      "created": "2017-01-26T14:11:37.895",
-      "displayName": "Yaws",
-      "externalAccess": false,
-      "favorite": false,
-      "favorites": [],
-      "id": "Ql9HLirUDjN",
-      "lastUpdated": "2017-05-15T15:05:42.024",
-      "name": "Yaws",
-      "optionSet": {
-        "id": "r0czxkQrRQY"
-      },
-      "sortOrder": 7,
       "translations": []
     }
   ],
@@ -1385,7 +3463,7 @@
       "expression": "V{event_count}",
       "filter": "V{event_date}>'01/01/1900'",
       "id": "bVMzJyKmCjS",
-      "lastUpdated": "2019-02-20T16:07:27.354",
+      "lastUpdated": "2019-04-18T15:35:48.529",
       "lastUpdatedBy": {
         "id": "ilJDyuqlwDC"
       },
@@ -1394,11 +3472,76 @@
       "program": {
         "id": "h1KVXwrpKKf"
       },
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "shortName": "No. Events",
       "translations": [],
-      "userAccesses": [],
-      "userGroupAccesses": []
+      "user": {
+        "id": "ilJDyuqlwDC"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leish_Kenya_VL_Admin",
+          "id": "DHWlFaXI0Sy",
+          "userGroupUid": "DHWlFaXI0Sy"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_Capture",
+          "id": "TbGA9fMJpCR",
+          "userGroupUid": "TbGA9fMJpCR"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
+          "id": "ZuT9b32Dhv5",
+          "userGroupUid": "ZuT9b32Dhv5"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_View",
+          "id": "cy0qXsDxzxe",
+          "userGroupUid": "cy0qXsDxzxe"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ]
     },
     {
       "aggregationType": "SUM",
@@ -1457,7 +3600,7 @@
       "expression": "V{event_count}",
       "filter": "#{zbYH78WJM8J.Z8W89lDV4IL} == 'Op_Gender_Female' && #{Zb23998a9oP.Xii6gy92ebp} >= 15",
       "id": "HrJ45XPZQsk",
-      "lastUpdated": "2018-07-27T16:09:07.644",
+      "lastUpdated": "2019-04-18T15:35:48.533",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -1469,7 +3612,73 @@
       "publicAccess": "--------",
       "shortName": "VL Female Suspects +15",
       "translations": [],
-      "userAccesses": []
+      "user": {
+        "id": "ilJDyuqlwDC"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leish_Kenya_VL_Admin",
+          "id": "DHWlFaXI0Sy",
+          "userGroupUid": "DHWlFaXI0Sy"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_Capture",
+          "id": "TbGA9fMJpCR",
+          "userGroupUid": "TbGA9fMJpCR"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
+          "id": "ZuT9b32Dhv5",
+          "userGroupUid": "ZuT9b32Dhv5"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_View",
+          "id": "cy0qXsDxzxe",
+          "userGroupUid": "cy0qXsDxzxe"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ]
     },
     {
       "aggregationType": "SUM",
@@ -1528,7 +3737,7 @@
       "expression": "V{event_count}",
       "filter": "#{zbYH78WJM8J.Z8W89lDV4IL} == 'Op_Gender_Female' && #{Zb23998a9oP.Xii6gy92ebp} >= 5 && #{Zb23998a9oP.Xii6gy92ebp} <= 14",
       "id": "Xx9MdZ91QMl",
-      "lastUpdated": "2018-07-27T16:09:07.689",
+      "lastUpdated": "2019-04-18T15:35:48.661",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -1540,7 +3749,73 @@
       "publicAccess": "--------",
       "shortName": "VL Female Suspects 5-14",
       "translations": [],
-      "userAccesses": []
+      "user": {
+        "id": "ilJDyuqlwDC"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leish_Kenya_VL_Admin",
+          "id": "DHWlFaXI0Sy",
+          "userGroupUid": "DHWlFaXI0Sy"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_Capture",
+          "id": "TbGA9fMJpCR",
+          "userGroupUid": "TbGA9fMJpCR"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
+          "id": "ZuT9b32Dhv5",
+          "userGroupUid": "ZuT9b32Dhv5"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_View",
+          "id": "cy0qXsDxzxe",
+          "userGroupUid": "cy0qXsDxzxe"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ]
     },
     {
       "aggregationType": "SUM",
@@ -1599,7 +3874,7 @@
       "expression": "V{event_count}",
       "filter": "#{zbYH78WJM8J.Z8W89lDV4IL} == 'Op_Gender_Female' && #{Zb23998a9oP.Xii6gy92ebp} < 5",
       "id": "pMCWjnOXvkD",
-      "lastUpdated": "2018-07-27T16:09:07.663",
+      "lastUpdated": "2019-04-18T15:35:48.665",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -1611,7 +3886,73 @@
       "publicAccess": "--------",
       "shortName": "VL Female Suspects < 5",
       "translations": [],
-      "userAccesses": []
+      "user": {
+        "id": "ilJDyuqlwDC"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leish_Kenya_VL_Admin",
+          "id": "DHWlFaXI0Sy",
+          "userGroupUid": "DHWlFaXI0Sy"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_Capture",
+          "id": "TbGA9fMJpCR",
+          "userGroupUid": "TbGA9fMJpCR"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
+          "id": "ZuT9b32Dhv5",
+          "userGroupUid": "ZuT9b32Dhv5"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_View",
+          "id": "cy0qXsDxzxe",
+          "userGroupUid": "cy0qXsDxzxe"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ]
     },
     {
       "aggregationType": "SUM",
@@ -1670,7 +4011,7 @@
       "expression": "V{event_count}",
       "filter": "#{zbYH78WJM8J.Z8W89lDV4IL} == 'Op_Gender_Male' && #{Zb23998a9oP.Xii6gy92ebp} >= 15",
       "id": "vMrL4KsxBvl",
-      "lastUpdated": "2018-07-27T16:09:07.662",
+      "lastUpdated": "2019-04-18T15:35:48.451",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -1682,7 +4023,73 @@
       "publicAccess": "--------",
       "shortName": "VL Male Suspects +15",
       "translations": [],
-      "userAccesses": []
+      "user": {
+        "id": "ilJDyuqlwDC"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leish_Kenya_VL_Admin",
+          "id": "DHWlFaXI0Sy",
+          "userGroupUid": "DHWlFaXI0Sy"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_Capture",
+          "id": "TbGA9fMJpCR",
+          "userGroupUid": "TbGA9fMJpCR"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
+          "id": "ZuT9b32Dhv5",
+          "userGroupUid": "ZuT9b32Dhv5"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_View",
+          "id": "cy0qXsDxzxe",
+          "userGroupUid": "cy0qXsDxzxe"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ]
     },
     {
       "aggregationType": "SUM",
@@ -1741,7 +4148,7 @@
       "expression": "V{event_count}",
       "filter": "#{zbYH78WJM8J.Z8W89lDV4IL} == 'Op_Gender_Male' && #{Zb23998a9oP.Xii6gy92ebp} >= 5 && #{Zb23998a9oP.Xii6gy92ebp} <= 14",
       "id": "W9p26OHmXtD",
-      "lastUpdated": "2018-07-27T16:09:07.642",
+      "lastUpdated": "2019-04-18T15:35:48.664",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -1753,7 +4160,73 @@
       "publicAccess": "--------",
       "shortName": "VL Male Suspects 5-14",
       "translations": [],
-      "userAccesses": []
+      "user": {
+        "id": "ilJDyuqlwDC"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leish_Kenya_VL_Admin",
+          "id": "DHWlFaXI0Sy",
+          "userGroupUid": "DHWlFaXI0Sy"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_Capture",
+          "id": "TbGA9fMJpCR",
+          "userGroupUid": "TbGA9fMJpCR"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
+          "id": "ZuT9b32Dhv5",
+          "userGroupUid": "ZuT9b32Dhv5"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_View",
+          "id": "cy0qXsDxzxe",
+          "userGroupUid": "cy0qXsDxzxe"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ]
     },
     {
       "aggregationType": "SUM",
@@ -1812,7 +4285,7 @@
       "expression": "V{event_count}",
       "filter": "#{zbYH78WJM8J.Z8W89lDV4IL} == 'Op_Gender_Male' && #{Zb23998a9oP.Xii6gy92ebp} < 5",
       "id": "uCh7STQLYhv",
-      "lastUpdated": "2018-07-27T16:09:07.464",
+      "lastUpdated": "2019-04-18T15:35:48.485",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -1824,7 +4297,73 @@
       "publicAccess": "--------",
       "shortName": "VL Male Suspects < 5",
       "translations": [],
-      "userAccesses": []
+      "user": {
+        "id": "ilJDyuqlwDC"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leish_Kenya_VL_Admin",
+          "id": "DHWlFaXI0Sy",
+          "userGroupUid": "DHWlFaXI0Sy"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_Capture",
+          "id": "TbGA9fMJpCR",
+          "userGroupUid": "TbGA9fMJpCR"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
+          "id": "ZuT9b32Dhv5",
+          "userGroupUid": "ZuT9b32Dhv5"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_LabLog_View",
+          "id": "cy0qXsDxzxe",
+          "userGroupUid": "cy0qXsDxzxe"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ]
     }
   ],
   "programRuleActions": [
@@ -1865,10 +4404,10 @@
   ],
   "programRules": [
     {
-      "condition": "#{DATResult} != 'Op_Result_Positive'  && #{DATResult} != 'Op_Result_Borderline'",
+      "condition": "#{DATResult} != 'Positive'  && #{DATResult} != 'Borderline'",
       "created": "2017-07-08T13:39:47.693",
       "id": "LyFAaVQwG21",
-      "lastUpdated": "2018-07-27T16:01:39.035",
+      "lastUpdated": "2019-04-18T15:25:53.362",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -1895,7 +4434,7 @@
       },
       "displayInReports": false,
       "id": "C2rEXDTiqRR",
-      "lastUpdated": "2019-04-11T12:24:16.887",
+      "lastUpdated": "2019-04-16T14:06:31.316",
       "programStage": {
         "id": "Zb23998a9oP"
       },
@@ -1913,7 +4452,7 @@
       },
       "displayInReports": false,
       "id": "FOIOfPmpFfh",
-      "lastUpdated": "2019-04-11T12:24:16.888",
+      "lastUpdated": "2019-04-16T14:06:31.317",
       "programStage": {
         "id": "Zb23998a9oP"
       },
@@ -1931,7 +4470,7 @@
       },
       "displayInReports": false,
       "id": "HgAMGgTRmNI",
-      "lastUpdated": "2019-04-11T12:24:16.889",
+      "lastUpdated": "2019-04-16T14:06:31.318",
       "programStage": {
         "id": "Zb23998a9oP"
       },
@@ -1949,13 +4488,13 @@
       },
       "displayInReports": true,
       "id": "HiEjXHKM1H8",
-      "lastUpdated": "2019-04-11T12:24:16.890",
+      "lastUpdated": "2019-04-16T14:06:31.318",
       "programStage": {
         "id": "Zb23998a9oP"
       },
       "renderOptionsAsRadio": false,
       "skipSynchronization": false,
-      "sortOrder": 10
+      "sortOrder": 11
     },
     {
       "allowFutureDate": false,
@@ -1967,7 +4506,7 @@
       },
       "displayInReports": true,
       "id": "KZjxJbWjfXU",
-      "lastUpdated": "2019-04-11T12:24:16.888",
+      "lastUpdated": "2019-04-16T14:06:31.317",
       "programStage": {
         "id": "Zb23998a9oP"
       },
@@ -1985,13 +4524,13 @@
       },
       "displayInReports": true,
       "id": "Kq3joaRvOXx",
-      "lastUpdated": "2019-04-11T12:24:16.889",
+      "lastUpdated": "2019-04-16T14:06:31.318",
       "programStage": {
         "id": "Zb23998a9oP"
       },
       "renderOptionsAsRadio": false,
       "skipSynchronization": false,
-      "sortOrder": 13
+      "sortOrder": 16
     },
     {
       "allowFutureDate": false,
@@ -2003,7 +4542,7 @@
       },
       "displayInReports": false,
       "id": "Lu8lqBszfC6",
-      "lastUpdated": "2019-04-11T12:24:16.890",
+      "lastUpdated": "2019-04-16T14:06:31.319",
       "programStage": {
         "id": "Zb23998a9oP"
       },
@@ -2021,7 +4560,7 @@
       },
       "displayInReports": true,
       "id": "Ro9FT5tTRiv",
-      "lastUpdated": "2019-04-11T12:24:16.890",
+      "lastUpdated": "2019-04-16T14:06:31.318",
       "programStage": {
         "id": "Zb23998a9oP"
       },
@@ -2039,7 +4578,7 @@
       },
       "displayInReports": true,
       "id": "YIcLKcz78TP",
-      "lastUpdated": "2019-04-11T12:24:16.888",
+      "lastUpdated": "2019-04-16T14:06:31.317",
       "programStage": {
         "id": "Zb23998a9oP"
       },
@@ -2057,13 +4596,13 @@
       },
       "displayInReports": true,
       "id": "lCAZoaPXfLE",
-      "lastUpdated": "2019-04-11T12:24:16.889",
+      "lastUpdated": "2019-04-16T14:06:31.318",
       "programStage": {
         "id": "Zb23998a9oP"
       },
       "renderOptionsAsRadio": false,
       "skipSynchronization": false,
-      "sortOrder": 12
+      "sortOrder": 14
     },
     {
       "allowFutureDate": false,
@@ -2075,7 +4614,7 @@
       },
       "displayInReports": false,
       "id": "lx5PgvOem3k",
-      "lastUpdated": "2019-04-11T12:24:16.888",
+      "lastUpdated": "2019-04-16T14:06:31.317",
       "programStage": {
         "id": "Zb23998a9oP"
       },
@@ -2093,7 +4632,7 @@
       },
       "displayInReports": true,
       "id": "m25dOAjJA4D",
-      "lastUpdated": "2019-04-11T12:24:16.889",
+      "lastUpdated": "2019-04-16T14:06:31.318",
       "programStage": {
         "id": "Zb23998a9oP"
       },
@@ -2111,13 +4650,13 @@
       },
       "displayInReports": false,
       "id": "p5KHEKt0fIB",
-      "lastUpdated": "2019-04-11T12:24:16.890",
+      "lastUpdated": "2019-04-16T14:06:31.318",
       "programStage": {
         "id": "Zb23998a9oP"
       },
       "renderOptionsAsRadio": false,
       "skipSynchronization": false,
-      "sortOrder": 15
+      "sortOrder": 12
     },
     {
       "allowFutureDate": false,
@@ -2129,13 +4668,13 @@
       },
       "displayInReports": false,
       "id": "qvTbFdHl4ht",
-      "lastUpdated": "2019-04-11T12:24:16.887",
+      "lastUpdated": "2019-04-16T14:06:31.317",
       "programStage": {
         "id": "Zb23998a9oP"
       },
       "renderOptionsAsRadio": false,
       "skipSynchronization": false,
-      "sortOrder": 11
+      "sortOrder": 13
     },
     {
       "allowFutureDate": false,
@@ -2147,13 +4686,49 @@
       },
       "displayInReports": true,
       "id": "uIrokf1z3cF",
-      "lastUpdated": "2019-04-11T12:24:16.890",
+      "lastUpdated": "2019-04-16T14:06:31.318",
       "programStage": {
         "id": "Zb23998a9oP"
       },
       "renderOptionsAsRadio": false,
       "skipSynchronization": false,
       "sortOrder": 6
+    },
+    {
+      "allowFutureDate": false,
+      "allowProvidedElsewhere": false,
+      "compulsory": false,
+      "created": "2019-04-11T15:16:27.758",
+      "dataElement": {
+        "id": "U1lAnctFNUM"
+      },
+      "displayInReports": false,
+      "id": "wmZWBKYHSmU",
+      "lastUpdated": "2019-04-16T14:06:31.318",
+      "programStage": {
+        "id": "Zb23998a9oP"
+      },
+      "renderOptionsAsRadio": false,
+      "skipSynchronization": false,
+      "sortOrder": 15
+    },
+    {
+      "allowFutureDate": false,
+      "allowProvidedElsewhere": false,
+      "compulsory": false,
+      "created": "2019-04-11T15:16:27.758",
+      "dataElement": {
+        "id": "QpTFVMSBALN"
+      },
+      "displayInReports": false,
+      "id": "xbBKfiaVJhh",
+      "lastUpdated": "2019-04-16T14:06:31.318",
+      "programStage": {
+        "id": "Zb23998a9oP"
+      },
+      "renderOptionsAsRadio": false,
+      "skipSynchronization": false,
+      "sortOrder": 10
     }
   ],
   "programStages": [
@@ -2172,9 +4747,9 @@
       "generatedByEnrollmentDate": false,
       "hideDueDate": false,
       "id": "Zb23998a9oP",
-      "lastUpdated": "2019-04-11T12:24:16.885",
+      "lastUpdated": "2019-04-18T15:35:48.709",
       "lastUpdatedBy": {
-        "id": "H4atNsEuKxP"
+        "id": "eK26I7dRbC4"
       },
       "minDaysFromStart": 0,
       "name": "Visceral Leishmaniasis Laboratory LOG",
@@ -2207,7 +4782,7 @@
           "favorite": false,
           "favorites": [],
           "id": "C2rEXDTiqRR",
-          "lastUpdated": "2019-04-11T12:24:16.887",
+          "lastUpdated": "2019-04-16T14:06:31.316",
           "programStage": {
             "id": "Zb23998a9oP"
           },
@@ -2240,7 +4815,7 @@
           "favorite": false,
           "favorites": [],
           "id": "FOIOfPmpFfh",
-          "lastUpdated": "2019-04-11T12:24:16.888",
+          "lastUpdated": "2019-04-16T14:06:31.317",
           "programStage": {
             "id": "Zb23998a9oP"
           },
@@ -2273,7 +4848,7 @@
           "favorite": false,
           "favorites": [],
           "id": "HgAMGgTRmNI",
-          "lastUpdated": "2019-04-11T12:24:16.889",
+          "lastUpdated": "2019-04-16T14:06:31.318",
           "programStage": {
             "id": "Zb23998a9oP"
           },
@@ -2306,13 +4881,13 @@
           "favorite": false,
           "favorites": [],
           "id": "HiEjXHKM1H8",
-          "lastUpdated": "2019-04-11T12:24:16.890",
+          "lastUpdated": "2019-04-16T14:06:31.318",
           "programStage": {
             "id": "Zb23998a9oP"
           },
           "renderOptionsAsRadio": false,
           "skipSynchronization": false,
-          "sortOrder": 10,
+          "sortOrder": 11,
           "translations": [],
           "userAccesses": [],
           "userGroupAccesses": []
@@ -2339,7 +4914,7 @@
           "favorite": false,
           "favorites": [],
           "id": "KZjxJbWjfXU",
-          "lastUpdated": "2019-04-11T12:24:16.888",
+          "lastUpdated": "2019-04-16T14:06:31.317",
           "programStage": {
             "id": "Zb23998a9oP"
           },
@@ -2372,13 +4947,13 @@
           "favorite": false,
           "favorites": [],
           "id": "Kq3joaRvOXx",
-          "lastUpdated": "2019-04-11T12:24:16.889",
+          "lastUpdated": "2019-04-16T14:06:31.318",
           "programStage": {
             "id": "Zb23998a9oP"
           },
           "renderOptionsAsRadio": false,
           "skipSynchronization": false,
-          "sortOrder": 13,
+          "sortOrder": 16,
           "translations": [],
           "userAccesses": [],
           "userGroupAccesses": []
@@ -2405,7 +4980,7 @@
           "favorite": false,
           "favorites": [],
           "id": "Lu8lqBszfC6",
-          "lastUpdated": "2019-04-11T12:24:16.890",
+          "lastUpdated": "2019-04-16T14:06:31.319",
           "programStage": {
             "id": "Zb23998a9oP"
           },
@@ -2438,7 +5013,7 @@
           "favorite": false,
           "favorites": [],
           "id": "Ro9FT5tTRiv",
-          "lastUpdated": "2019-04-11T12:24:16.890",
+          "lastUpdated": "2019-04-16T14:06:31.318",
           "programStage": {
             "id": "Zb23998a9oP"
           },
@@ -2471,7 +5046,7 @@
           "favorite": false,
           "favorites": [],
           "id": "YIcLKcz78TP",
-          "lastUpdated": "2019-04-11T12:24:16.888",
+          "lastUpdated": "2019-04-16T14:06:31.317",
           "programStage": {
             "id": "Zb23998a9oP"
           },
@@ -2504,13 +5079,13 @@
           "favorite": false,
           "favorites": [],
           "id": "lCAZoaPXfLE",
-          "lastUpdated": "2019-04-11T12:24:16.889",
+          "lastUpdated": "2019-04-16T14:06:31.318",
           "programStage": {
             "id": "Zb23998a9oP"
           },
           "renderOptionsAsRadio": false,
           "skipSynchronization": false,
-          "sortOrder": 12,
+          "sortOrder": 14,
           "translations": [],
           "userAccesses": [],
           "userGroupAccesses": []
@@ -2537,7 +5112,7 @@
           "favorite": false,
           "favorites": [],
           "id": "lx5PgvOem3k",
-          "lastUpdated": "2019-04-11T12:24:16.888",
+          "lastUpdated": "2019-04-16T14:06:31.317",
           "programStage": {
             "id": "Zb23998a9oP"
           },
@@ -2570,7 +5145,7 @@
           "favorite": false,
           "favorites": [],
           "id": "m25dOAjJA4D",
-          "lastUpdated": "2019-04-11T12:24:16.889",
+          "lastUpdated": "2019-04-16T14:06:31.318",
           "programStage": {
             "id": "Zb23998a9oP"
           },
@@ -2603,13 +5178,13 @@
           "favorite": false,
           "favorites": [],
           "id": "p5KHEKt0fIB",
-          "lastUpdated": "2019-04-11T12:24:16.890",
+          "lastUpdated": "2019-04-16T14:06:31.318",
           "programStage": {
             "id": "Zb23998a9oP"
           },
           "renderOptionsAsRadio": false,
           "skipSynchronization": false,
-          "sortOrder": 15,
+          "sortOrder": 12,
           "translations": [],
           "userAccesses": [],
           "userGroupAccesses": []
@@ -2636,13 +5211,13 @@
           "favorite": false,
           "favorites": [],
           "id": "qvTbFdHl4ht",
-          "lastUpdated": "2019-04-11T12:24:16.887",
+          "lastUpdated": "2019-04-16T14:06:31.317",
           "programStage": {
             "id": "Zb23998a9oP"
           },
           "renderOptionsAsRadio": false,
           "skipSynchronization": false,
-          "sortOrder": 11,
+          "sortOrder": 13,
           "translations": [],
           "userAccesses": [],
           "userGroupAccesses": []
@@ -2669,13 +5244,79 @@
           "favorite": false,
           "favorites": [],
           "id": "uIrokf1z3cF",
-          "lastUpdated": "2019-04-11T12:24:16.890",
+          "lastUpdated": "2019-04-16T14:06:31.318",
           "programStage": {
             "id": "Zb23998a9oP"
           },
           "renderOptionsAsRadio": false,
           "skipSynchronization": false,
           "sortOrder": 6,
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "allowFutureDate": false,
+          "allowProvidedElsewhere": false,
+          "attributeValues": [],
+          "compulsory": false,
+          "created": "2019-04-11T15:16:27.758",
+          "dataElement": {
+            "id": "U1lAnctFNUM"
+          },
+          "displayInReports": false,
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "wmZWBKYHSmU",
+          "lastUpdated": "2019-04-16T14:06:31.318",
+          "programStage": {
+            "id": "Zb23998a9oP"
+          },
+          "renderOptionsAsRadio": false,
+          "skipSynchronization": false,
+          "sortOrder": 15,
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "allowFutureDate": false,
+          "allowProvidedElsewhere": false,
+          "attributeValues": [],
+          "compulsory": false,
+          "created": "2019-04-11T15:16:27.758",
+          "dataElement": {
+            "id": "QpTFVMSBALN"
+          },
+          "displayInReports": false,
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "xbBKfiaVJhh",
+          "lastUpdated": "2019-04-16T14:06:31.318",
+          "programStage": {
+            "id": "Zb23998a9oP"
+          },
+          "renderOptionsAsRadio": false,
+          "skipSynchronization": false,
+          "sortOrder": 10,
           "translations": [],
           "userAccesses": [],
           "userGroupAccesses": []
@@ -2687,7 +5328,73 @@
       "repeatable": false,
       "sortOrder": 1,
       "translations": [],
-      "userAccesses": [],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [
+        {
+          "access": "r-r-----",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rwrw----",
+          "displayName": "NTD_Leish_Kenya_VL_Admin",
+          "id": "DHWlFaXI0Sy",
+          "userGroupUid": "DHWlFaXI0Sy"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_Leish_LabLog_Capture",
+          "id": "TbGA9fMJpCR",
+          "userGroupUid": "TbGA9fMJpCR"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
+          "id": "ZuT9b32Dhv5",
+          "userGroupUid": "ZuT9b32Dhv5"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leish_LabLog_View",
+          "id": "cy0qXsDxzxe",
+          "userGroupUid": "cy0qXsDxzxe"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ],
       "validCompleteOnly": false
     }
   ],
@@ -2716,95 +5423,15 @@
       "expiryDays": 0,
       "id": "h1KVXwrpKKf",
       "ignoreOverdueEvents": false,
-      "lastUpdated": "2019-04-11T12:24:16.996",
+      "lastUpdated": "2019-04-18T15:35:47.540",
       "lastUpdatedBy": {
-        "id": "H4atNsEuKxP"
+        "id": "uxrfJ88hrVO"
       },
       "maxTeiCountToReturn": 0,
       "minAttributesRequiredToSearch": 1,
       "name": "Visceral Leishmaniasis Laboratory LOG",
       "notificationTemplates": [],
       "onlyEnrollOnce": false,
-      "organisationUnits": [
-        {
-          "id": "DRYHZsgOAjz"
-        },
-        {
-          "id": "Dalv39I1sBS"
-        },
-        {
-          "id": "EkP6GJ44RnU"
-        },
-        {
-          "id": "H8RixfF8ugH"
-        },
-        {
-          "id": "IDGEt81zZin"
-        },
-        {
-          "id": "IlemjZlzES6"
-        },
-        {
-          "id": "IwEB1zxjT8m"
-        },
-        {
-          "id": "LBDUxvoZSdI"
-        },
-        {
-          "id": "LXsaR9BQim1"
-        },
-        {
-          "id": "Mvevx0bAZh0"
-        },
-        {
-          "id": "R5Orw0Vtbxq"
-        },
-        {
-          "id": "R8oYDOngoLk"
-        },
-        {
-          "id": "Wj1gBKsF1lB"
-        },
-        {
-          "id": "cCChZaYoLaI"
-        },
-        {
-          "id": "dFc5sVNIz0Q"
-        },
-        {
-          "id": "gvplllzYFPk"
-        },
-        {
-          "id": "lM6jXczT5kj"
-        },
-        {
-          "id": "njnxDUTR6SJ"
-        },
-        {
-          "id": "oGOpu3nlItw"
-        },
-        {
-          "id": "ocD1WxIvGHT"
-        },
-        {
-          "id": "qiW2KOBj6AN"
-        },
-        {
-          "id": "ssY2d9sMYGR"
-        },
-        {
-          "id": "vUatEiL3txf"
-        },
-        {
-          "id": "vqQBFJVL2ov"
-        },
-        {
-          "id": "ycopTf0WqXO"
-        },
-        {
-          "id": "yoExW61ga83"
-        }
-      ],
       "programSections": [],
       "programStages": [
         {
@@ -2820,8 +5447,74 @@
       "skipOffline": false,
       "translations": [],
       "useFirstStageDuringRegistration": false,
-      "userAccesses": [],
-      "version": 10
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [
+        {
+          "access": "r-r-----",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rwrw----",
+          "displayName": "NTD_Leish_Kenya_VL_Admin",
+          "id": "DHWlFaXI0Sy",
+          "userGroupUid": "DHWlFaXI0Sy"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_Leish_LabLog_Capture",
+          "id": "TbGA9fMJpCR",
+          "userGroupUid": "TbGA9fMJpCR"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
+          "id": "ZuT9b32Dhv5",
+          "userGroupUid": "ZuT9b32Dhv5"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leish_LabLog_View",
+          "id": "cy0qXsDxzxe",
+          "userGroupUid": "cy0qXsDxzxe"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ],
+      "version": 11
     }
   ]
 }
