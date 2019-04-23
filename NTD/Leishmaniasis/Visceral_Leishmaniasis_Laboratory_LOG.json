@@ -17,7 +17,6 @@
       "id": "x8YCHCvls4r",
       "indicatorAttribute": false,
       "indicatorGroupAttribute": false,
-      "lastUpdated": "2019-04-18T15:35:48.719",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -165,9 +164,8 @@
       "dataDimension": false,
       "dataDimensionType": "DISAGGREGATION",
       "id": "DMyxTSpvKOp",
-      "lastUpdated": "2019-04-11T09:01:27.287",
       "name": "default",
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "translations": [],
       "user": {
         "id": "eK26I7dRbC4"
@@ -187,12 +185,11 @@
       "created": "2017-05-10T17:53:55.156",
       "dataDimensionType": "DISAGGREGATION",
       "id": "JzvGfLYkX17",
-      "lastUpdated": "2019-02-20T16:22:55.336",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
       "name": "default",
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "skipTotal": false,
       "translations": [],
       "user": {
@@ -217,7 +214,6 @@
       "created": "2017-05-10T17:53:55.157",
       "id": "Xr12mI7VPn3",
       "ignoreApproval": false,
-      "lastUpdated": "2017-05-10T17:53:55.158",
       "name": "default",
       "translations": []
     }
@@ -228,9 +224,8 @@
       "code": "default",
       "created": "2017-05-10T17:53:55.138",
       "id": "Y7fcspgsU43",
-      "lastUpdated": "2018-07-27T16:09:07.425",
       "name": "default",
-      "publicAccess": "rwrw----",
+      "publicAccess": "--rw----",
       "shortName": "default",
       "translations": [],
       "user": {
@@ -254,13 +249,12 @@
       "domainType": "TRACKER",
       "formName": "Age (in years)",
       "id": "Xii6gy92ebp",
-      "lastUpdated": "2019-04-18T15:36:05.455",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
       "legendSets": [],
       "name": "GEN_Age_T",
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "shortName": "Age",
       "translations": [
         {
@@ -285,6 +279,46 @@
         },
         {
           "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Age en années - Cet élément de données est dynamique, c'est à dire que chaque jour le patient va viellir d'un an."
+        },
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Age en années - Cet élément de données est dynamique, c'est à dire que chaque jour le patient va viellir d'un an."
+        },
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Age en années - Cet élément de données est dynamique, c'est à dire que chaque jour le patient va viellir d'un an."
+        },
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Age en années - Cet élément de données est dynamique, c'est à dire que chaque jour le patient va viellir d'un an."
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Age"
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Age"
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Age"
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Age"
+        },
+        {
+          "locale": "fr",
           "property": "FORM_NAME",
           "value": "Age"
         },
@@ -322,6 +356,46 @@
           "locale": "fr",
           "property": "NAME",
           "value": "GEN_Age_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_Age_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_Age_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_Age_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_Age_T"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Age"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Age"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Age"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Age"
         },
         {
           "locale": "fr",
@@ -462,13 +536,12 @@
       "domainType": "TRACKER",
       "formName": "Family name",
       "id": "Q7dOlqe54eh",
-      "lastUpdated": "2019-04-18T15:36:05.227",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
       "legendSets": [],
       "name": "GEN_Family name_T",
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "shortName": "Family name",
       "translations": [],
       "user": {
@@ -589,13 +662,12 @@
       "domainType": "TRACKER",
       "formName": "First name",
       "id": "LJHNsKzZ8Mg",
-      "lastUpdated": "2019-04-18T15:36:05.118",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
       "legendSets": [],
       "name": "GEN_FirstName_T",
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "shortName": "First name",
       "translations": [],
       "user": {
@@ -717,13 +789,12 @@
       "domainType": "TRACKER",
       "formName": "Outpatient No",
       "id": "l2oZmW8P4kT",
-      "lastUpdated": "2019-04-18T15:36:05.333",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
       "legendSets": [],
       "name": "GEN_OutpatientNumber_T",
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "shortName": "OP NO",
       "translations": [],
       "user": {
@@ -809,13 +880,12 @@
       "domainType": "TRACKER",
       "formName": "Place of residence (as organization unit)",
       "id": "mwIgH1XXf6p",
-      "lastUpdated": "2019-04-18T15:36:05.497",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
       "legendSets": [],
       "name": "GEN_PLACE_Residence_OU_T",
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "shortName": "Place of residence (as OU)",
       "translations": [
         {
@@ -890,6 +960,46 @@
         },
         {
           "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Veuillez indiquer le lieu de résidence de la manière la plus fine possible (idéalement le village de résidence), en le sélectionant dans l'arbre des unités d'organisation."
+        },
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Veuillez indiquer le lieu de résidence de la manière la plus fine possible (idéalement le village de résidence), en le sélectionant dans l'arbre des unités d'organisation."
+        },
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Veuillez indiquer le lieu de résidence de la manière la plus fine possible (idéalement le village de résidence), en le sélectionant dans l'arbre des unités d'organisation."
+        },
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Veuillez indiquer le lieu de résidence de la manière la plus fine possible (idéalement le village de résidence), en le sélectionant dans l'arbre des unités d'organisation."
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Lieu de résidence (comme unité d'organisation)"
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Lieu de résidence (comme unité d'organisation)"
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Lieu de résidence (comme unité d'organisation)"
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Lieu de résidence (comme unité d'organisation)"
+        },
+        {
+          "locale": "fr",
           "property": "FORM_NAME",
           "value": "Lieu de résidence (comme unité d'organisation)"
         },
@@ -1027,6 +1137,46 @@
           "locale": "fr",
           "property": "NAME",
           "value": "GEN_PlaceOU_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_PlaceOU_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_PlaceOU_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_PlaceOU_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_PlaceOU_T"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Lieu de résidence"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Lieu de résidence"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Lieu de résidence"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Lieu de résidence"
         },
         {
           "locale": "fr",
@@ -1218,13 +1368,12 @@
       "domainType": "TRACKER",
       "formName": "Probable village of residence (Free text)",
       "id": "bTwp4cKNjgZ",
-      "lastUpdated": "2019-04-18T15:36:05.001",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
       "legendSets": [],
       "name": "GEN_PLACE_VillageOfResidence_Text_T",
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "shortName": "Village of residence (Free text)",
       "translations": [],
       "user": {
@@ -1345,13 +1494,12 @@
       "domainType": "TRACKER",
       "formName": "Remarks",
       "id": "YOfsQvR5dQV",
-      "lastUpdated": "2019-04-18T15:36:05.850",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
       "legendSets": [],
       "name": "GEN_REMARKS",
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "shortName": "GEN_REMARKS",
       "translations": [],
       "user": {
@@ -1437,7 +1585,6 @@
       "domainType": "TRACKER",
       "formName": "Gender",
       "id": "Z8W89lDV4IL",
-      "lastUpdated": "2019-04-18T15:36:05.352",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -1446,7 +1593,7 @@
       "optionSet": {
         "id": "apzFCMWeffA"
       },
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "shortName": "Gender",
       "translations": [
         {
@@ -1471,6 +1618,46 @@
         },
         {
           "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Genre"
+        },
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Genre"
+        },
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Genre"
+        },
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Genre"
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Genre"
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Genre"
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Genre"
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Genre"
+        },
+        {
+          "locale": "fr",
           "property": "FORM_NAME",
           "value": "Genre"
         },
@@ -1508,6 +1695,46 @@
           "locale": "fr",
           "property": "NAME",
           "value": "GEN_Genre_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_Genre_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_Genre_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_Genre_T"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "GEN_Genre_T"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Genre"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Genre"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Genre"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Genre"
         },
         {
           "locale": "fr",
@@ -1643,108 +1870,12 @@
       "categoryCombo": {
         "id": "JzvGfLYkX17"
       },
-      "code": "VL_Lab_DAT_T",
-      "created": "2016-02-28T01:14:46.912",
-      "description": "DAT",
-      "domainType": "TRACKER",
-      "formName": "DAT",
-      "id": "Smz32lrbfyh",
-      "lastUpdated": "2019-04-18T15:35:48.309",
-      "lastUpdatedBy": {
-        "id": "eK26I7dRbC4"
-      },
-      "legendSets": [],
-      "name": "VL_Lab_DAT_T",
-      "optionSet": {
-        "id": "s9DphURXyJX"
-      },
-      "publicAccess": "--------",
-      "shortName": "DAT",
-      "translations": [],
-      "user": {
-        "id": "q9wZgtaDxWn"
-      },
-      "userAccesses": [
-        {
-          "access": "r-------",
-          "displayName": "NTD Check",
-          "id": "xgKMFzwPLs6",
-          "userUid": "xgKMFzwPLs6"
-        }
-      ],
-      "userGroupAccesses": [
-        {
-          "access": "rw------",
-          "displayName": "NTD_Leish_Kenya_VL_Admin",
-          "id": "DHWlFaXI0Sy",
-          "userGroupUid": "DHWlFaXI0Sy"
-        },
-        {
-          "access": "r-------",
-          "displayName": "NTD_Leish_LabLog_Capture",
-          "id": "TbGA9fMJpCR",
-          "userGroupUid": "TbGA9fMJpCR"
-        },
-        {
-          "access": "rw------",
-          "displayName": "WIDP IT team",
-          "id": "UfhhwZK73Lg",
-          "userGroupUid": "UfhhwZK73Lg"
-        },
-        {
-          "access": "rw------",
-          "displayName": "NTD_Leishmaniasis_Admin",
-          "id": "Un2GLxeuVZ2",
-          "userGroupUid": "Un2GLxeuVZ2"
-        },
-        {
-          "access": "r-------",
-          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
-          "id": "ZuT9b32Dhv5",
-          "userGroupUid": "ZuT9b32Dhv5"
-        },
-        {
-          "access": "r-------",
-          "displayName": "NTD_Leish_LabLog_View",
-          "id": "cy0qXsDxzxe",
-          "userGroupUid": "cy0qXsDxzxe"
-        },
-        {
-          "access": "rw------",
-          "displayName": "NTD admin team",
-          "id": "irooBniCRle",
-          "userGroupUid": "irooBniCRle"
-        },
-        {
-          "access": "r-------",
-          "displayName": "NTD_Leish_Kenya_VL_LabCM",
-          "id": "sXNyAgGyHSK",
-          "userGroupUid": "sXNyAgGyHSK"
-        },
-        {
-          "access": "r-------",
-          "displayName": "NTD_Leishmaniasis_HQ",
-          "id": "yBUSIP5IhrF",
-          "userGroupUid": "yBUSIP5IhrF"
-        }
-      ],
-      "valueType": "TEXT",
-      "zeroIsSignificant": false
-    },
-    {
-      "aggregationLevels": [],
-      "aggregationType": "NONE",
-      "attributeValues": [],
-      "categoryCombo": {
-        "id": "JzvGfLYkX17"
-      },
       "code": "VL_Lab_DAT_T_PNBND",
       "created": "2018-12-03T17:49:10.407",
       "description": "DAT",
       "domainType": "TRACKER",
       "formName": "DAT",
       "id": "Bg67t8nmrwn",
-      "lastUpdated": "2019-04-18T15:35:48.445",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -1838,7 +1969,6 @@
       "domainType": "TRACKER",
       "formName": "Department",
       "id": "MOOioCpQAeO",
-      "lastUpdated": "2019-04-18T15:35:48.185",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -1929,7 +2059,6 @@
       "domainType": "TRACKER",
       "formName": "Lab No",
       "id": "I4PpM2eflrz",
-      "lastUpdated": "2019-04-18T15:35:48.166",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -2020,7 +2149,6 @@
       "domainType": "TRACKER",
       "formName": "Rapid diagnostic test result",
       "id": "QpTFVMSBALN",
-      "lastUpdated": "2019-04-18T15:35:48.451",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -2109,200 +2237,11 @@
       "categoryCombo": {
         "id": "JzvGfLYkX17"
       },
-      "code": "VL_Lab_RDT_T (old)",
-      "created": "2016-06-23T08:28:42.582",
-      "domainType": "TRACKER",
-      "formName": "Rapid diagnostic test result",
-      "id": "DeA3q4Uczfz",
-      "lastUpdated": "2019-04-18T15:35:48.353",
-      "lastUpdatedBy": {
-        "id": "eK26I7dRbC4"
-      },
-      "legendSets": [],
-      "name": "VL_Lab_RDT_T (old)",
-      "optionSet": {
-        "id": "s9DphURXyJX"
-      },
-      "publicAccess": "--------",
-      "shortName": "RDT result (old)",
-      "translations": [],
-      "user": {
-        "id": "q9wZgtaDxWn"
-      },
-      "userAccesses": [
-        {
-          "access": "r-------",
-          "displayName": "NTD Check",
-          "id": "xgKMFzwPLs6",
-          "userUid": "xgKMFzwPLs6"
-        }
-      ],
-      "userGroupAccesses": [
-        {
-          "access": "rw------",
-          "displayName": "NTD_Leish_Kenya_VL_Admin",
-          "id": "DHWlFaXI0Sy",
-          "userGroupUid": "DHWlFaXI0Sy"
-        },
-        {
-          "access": "r-------",
-          "displayName": "NTD_Leish_LabLog_Capture",
-          "id": "TbGA9fMJpCR",
-          "userGroupUid": "TbGA9fMJpCR"
-        },
-        {
-          "access": "rw------",
-          "displayName": "WIDP IT team",
-          "id": "UfhhwZK73Lg",
-          "userGroupUid": "UfhhwZK73Lg"
-        },
-        {
-          "access": "rw------",
-          "displayName": "NTD_Leishmaniasis_Admin",
-          "id": "Un2GLxeuVZ2",
-          "userGroupUid": "Un2GLxeuVZ2"
-        },
-        {
-          "access": "r-------",
-          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
-          "id": "ZuT9b32Dhv5",
-          "userGroupUid": "ZuT9b32Dhv5"
-        },
-        {
-          "access": "r-------",
-          "displayName": "NTD_Leish_LabLog_View",
-          "id": "cy0qXsDxzxe",
-          "userGroupUid": "cy0qXsDxzxe"
-        },
-        {
-          "access": "rw------",
-          "displayName": "NTD admin team",
-          "id": "irooBniCRle",
-          "userGroupUid": "irooBniCRle"
-        },
-        {
-          "access": "r-------",
-          "displayName": "NTD_Leish_Kenya_VL_LabCM",
-          "id": "sXNyAgGyHSK",
-          "userGroupUid": "sXNyAgGyHSK"
-        },
-        {
-          "access": "r-------",
-          "displayName": "NTD_Leishmaniasis_HQ",
-          "id": "yBUSIP5IhrF",
-          "userGroupUid": "yBUSIP5IhrF"
-        }
-      ],
-      "valueType": "TEXT",
-      "zeroIsSignificant": false
-    },
-    {
-      "aggregationLevels": [],
-      "aggregationType": "NONE",
-      "attributeValues": [],
-      "categoryCombo": {
-        "id": "JzvGfLYkX17"
-      },
-      "code": "VL_Lab_SplenicAsspirate_T",
-      "created": "2016-05-23T00:04:01.950",
-      "domainType": "TRACKER",
-      "formName": "Splenic/bone marrow aspirate result",
-      "id": "NWGXBZSCQto",
-      "lastUpdated": "2019-04-18T15:35:48.302",
-      "lastUpdatedBy": {
-        "id": "eK26I7dRbC4"
-      },
-      "legendSets": [],
-      "name": "VL_Lab_SplenicAsspirate_T",
-      "optionSet": {
-        "id": "s9DphURXyJX"
-      },
-      "publicAccess": "--------",
-      "shortName": "VL_Lab_SplenicAsspirate_T",
-      "translations": [],
-      "user": {
-        "id": "q9wZgtaDxWn"
-      },
-      "userAccesses": [
-        {
-          "access": "r-------",
-          "displayName": "NTD Check",
-          "id": "xgKMFzwPLs6",
-          "userUid": "xgKMFzwPLs6"
-        }
-      ],
-      "userGroupAccesses": [
-        {
-          "access": "rw------",
-          "displayName": "NTD_Leish_Kenya_VL_Admin",
-          "id": "DHWlFaXI0Sy",
-          "userGroupUid": "DHWlFaXI0Sy"
-        },
-        {
-          "access": "r-------",
-          "displayName": "NTD_Leish_LabLog_Capture",
-          "id": "TbGA9fMJpCR",
-          "userGroupUid": "TbGA9fMJpCR"
-        },
-        {
-          "access": "rw------",
-          "displayName": "WIDP IT team",
-          "id": "UfhhwZK73Lg",
-          "userGroupUid": "UfhhwZK73Lg"
-        },
-        {
-          "access": "rw------",
-          "displayName": "NTD_Leishmaniasis_Admin",
-          "id": "Un2GLxeuVZ2",
-          "userGroupUid": "Un2GLxeuVZ2"
-        },
-        {
-          "access": "r-------",
-          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
-          "id": "ZuT9b32Dhv5",
-          "userGroupUid": "ZuT9b32Dhv5"
-        },
-        {
-          "access": "r-------",
-          "displayName": "NTD_Leish_LabLog_View",
-          "id": "cy0qXsDxzxe",
-          "userGroupUid": "cy0qXsDxzxe"
-        },
-        {
-          "access": "rw------",
-          "displayName": "NTD admin team",
-          "id": "irooBniCRle",
-          "userGroupUid": "irooBniCRle"
-        },
-        {
-          "access": "r-------",
-          "displayName": "NTD_Leish_Kenya_VL_LabCM",
-          "id": "sXNyAgGyHSK",
-          "userGroupUid": "sXNyAgGyHSK"
-        },
-        {
-          "access": "r-------",
-          "displayName": "NTD_Leishmaniasis_HQ",
-          "id": "yBUSIP5IhrF",
-          "userGroupUid": "yBUSIP5IhrF"
-        }
-      ],
-      "valueType": "TEXT",
-      "zeroIsSignificant": false
-    },
-    {
-      "aggregationLevels": [],
-      "aggregationType": "NONE",
-      "attributeValues": [],
-      "categoryCombo": {
-        "id": "JzvGfLYkX17"
-      },
       "code": "VL_Lab_SplenicAsspirate_T_PNND",
       "created": "2018-12-03T18:03:52.453",
       "domainType": "TRACKER",
       "formName": "Splenic/bone marrow aspirate result",
       "id": "U1lAnctFNUM",
-      "lastUpdated": "2019-04-18T15:35:48.191",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -2396,7 +2335,6 @@
       "domainType": "TRACKER",
       "formName": "Titre",
       "id": "O7trYnDIDuH",
-      "lastUpdated": "2019-04-18T15:35:48.422",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -2481,7 +2419,6 @@
       "created": "2018-07-24T13:30:29.036",
       "format": 0,
       "id": "TiUevg9HE8x",
-      "lastUpdated": "2018-07-27T16:01:37.545",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -2490,14 +2427,13 @@
       "translations": []
     }
   ],
-  "date": "2019-04-18T15:36:15.467",
+  "date": "2019-04-23T18:22:54.573",
   "optionSets": [
     {
       "attributeValues": [],
       "code": "OpS_Gender",
       "created": "2016-05-22T22:20:55.318",
       "id": "apzFCMWeffA",
-      "lastUpdated": "2019-04-18T15:36:04.128",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -2513,7 +2449,7 @@
           "id": "tZftZ03eewT"
         }
       ],
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "translations": [],
       "user": {
         "id": "q9wZgtaDxWn"
@@ -2619,14 +2555,13 @@
         }
       ],
       "valueType": "TEXT",
-      "version": 13
+      "version": 14
     },
     {
       "attributeValues": [],
       "code": "OpS_Result_PNBND",
       "created": "2018-12-03T17:41:33.960",
       "id": "B1BBW5eGt1j",
-      "lastUpdated": "2019-04-18T15:35:47.968",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -2715,126 +2650,6 @@
         }
       ],
       "valueType": "TEXT",
-      "version": 10
-    },
-    {
-      "attributeValues": [],
-      "code": "OpS_Result_simple",
-      "created": "2016-09-21T15:56:56.229",
-      "id": "s9DphURXyJX",
-      "lastUpdated": "2019-04-18T15:36:04.548",
-      "lastUpdatedBy": {
-        "id": "eK26I7dRbC4"
-      },
-      "name": "Result_simple",
-      "options": [
-        {
-          "id": "MA7KEkO6Kpe"
-        },
-        {
-          "id": "qBxH3d9jIJk"
-        },
-        {
-          "id": "tGZPAKuvB4t"
-        },
-        {
-          "id": "yDMEl7QeOWI"
-        }
-      ],
-      "publicAccess": "rw------",
-      "translations": [],
-      "user": {
-        "id": "q9wZgtaDxWn"
-      },
-      "userAccesses": [
-        {
-          "access": "r-------",
-          "displayName": "Duplicator Event",
-          "id": "UlXOWwGGx7W",
-          "userUid": "UlXOWwGGx7W"
-        },
-        {
-          "access": "r-------",
-          "displayName": "NTD Check",
-          "id": "xgKMFzwPLs6",
-          "userUid": "xgKMFzwPLs6"
-        }
-      ],
-      "userGroupAccesses": [
-        {
-          "access": "rw------",
-          "displayName": "NTD_Leish_Kenya_VL_Admin",
-          "id": "DHWlFaXI0Sy",
-          "userGroupUid": "DHWlFaXI0Sy"
-        },
-        {
-          "access": "r-------",
-          "displayName": "NTD_Leish_LabLog_Capture",
-          "id": "TbGA9fMJpCR",
-          "userGroupUid": "TbGA9fMJpCR"
-        },
-        {
-          "access": "rw------",
-          "displayName": "WIDP IT team",
-          "id": "UfhhwZK73Lg",
-          "userGroupUid": "UfhhwZK73Lg"
-        },
-        {
-          "access": "rw------",
-          "displayName": "NTD_Leishmaniasis_Admin",
-          "id": "Un2GLxeuVZ2",
-          "userGroupUid": "Un2GLxeuVZ2"
-        },
-        {
-          "access": "r-------",
-          "displayName": "NTD_Skin NTDs_HQ",
-          "id": "XqznB7ROzB3",
-          "userGroupUid": "XqznB7ROzB3"
-        },
-        {
-          "access": "r-------",
-          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
-          "id": "ZuT9b32Dhv5",
-          "userGroupUid": "ZuT9b32Dhv5"
-        },
-        {
-          "access": "r-------",
-          "displayName": "NTD_SkinNTDs_BU_HQ",
-          "id": "ZyQlPOL3aSD",
-          "userGroupUid": "ZyQlPOL3aSD"
-        },
-        {
-          "access": "r-------",
-          "displayName": "NTD_BU_Event",
-          "id": "bzuIPO5zQPV",
-          "userGroupUid": "bzuIPO5zQPV"
-        },
-        {
-          "access": "r-------",
-          "displayName": "NTD_Leish_LabLog_View",
-          "id": "cy0qXsDxzxe",
-          "userGroupUid": "cy0qXsDxzxe"
-        },
-        {
-          "access": "rw------",
-          "displayName": "NTD admin team",
-          "id": "irooBniCRle",
-          "userGroupUid": "irooBniCRle"
-        },
-        {
-          "access": "r-------",
-          "displayName": "NTD_Leish_Kenya_VL_LabCM",
-          "id": "sXNyAgGyHSK",
-          "userGroupUid": "sXNyAgGyHSK"
-        },
-        {
-          "access": "r-------",
-          "displayName": "NTD_Leishmaniasis_HQ",
-          "id": "yBUSIP5IhrF",
-          "userGroupUid": "yBUSIP5IhrF"
-        }
-      ],
-      "valueType": "TEXT",
       "version": 11
     },
     {
@@ -2842,7 +2657,6 @@
       "code": "OpS_Result_simple_PNND",
       "created": "2018-11-27T10:23:42.110",
       "id": "rBbay5XD36E",
-      "lastUpdated": "2019-04-18T15:36:04.509",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -2858,7 +2672,7 @@
           "id": "s7diX9IiwEw"
         }
       ],
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "translations": [],
       "user": {
         "id": "ilJDyuqlwDC"
@@ -2928,7 +2742,7 @@
         }
       ],
       "valueType": "TEXT",
-      "version": 11
+      "version": 12
     }
   ],
   "options": [
@@ -2937,7 +2751,6 @@
       "code": "Borderline",
       "created": "2018-12-21T11:45:58.346",
       "id": "jrtw6M8g3gj",
-      "lastUpdated": "2019-04-16T13:01:15.748",
       "name": "Borderline",
       "optionSet": {
         "id": "B1BBW5eGt1j"
@@ -2950,7 +2763,6 @@
       "code": "Op_Gender_Female",
       "created": "2016-07-04T14:36:48.721",
       "id": "tZftZ03eewT",
-      "lastUpdated": "2019-04-17T17:31:02.138",
       "name": "Female",
       "optionSet": {
         "id": "apzFCMWeffA"
@@ -2963,7 +2775,6 @@
       "code": "Op_Gender_Male",
       "created": "2016-07-04T14:36:48.721",
       "id": "qmsg1OVBqif",
-      "lastUpdated": "2019-04-17T17:31:02.138",
       "name": "Male",
       "optionSet": {
         "id": "apzFCMWeffA"
@@ -2974,22 +2785,8 @@
     {
       "attributeValues": [],
       "code": "Negative",
-      "created": "2016-09-21T16:02:43.504",
-      "id": "MA7KEkO6Kpe",
-      "lastUpdated": "2019-04-16T13:01:15.748",
-      "name": "Negative",
-      "optionSet": {
-        "id": "s9DphURXyJX"
-      },
-      "sortOrder": 2,
-      "translations": []
-    },
-    {
-      "attributeValues": [],
-      "code": "Negative",
       "created": "2018-11-27T10:25:21.136",
       "id": "M8VrOqtFbwH",
-      "lastUpdated": "2019-04-16T13:01:15.748",
       "name": "Negative",
       "optionSet": {
         "id": "rBbay5XD36E"
@@ -3002,7 +2799,6 @@
       "code": "Negative",
       "created": "2018-12-21T11:45:45.364",
       "id": "W6D2oLri0Yz",
-      "lastUpdated": "2019-04-16T13:01:15.748",
       "name": "Negative",
       "optionSet": {
         "id": "B1BBW5eGt1j"
@@ -3013,22 +2809,8 @@
     {
       "attributeValues": [],
       "code": "Not done",
-      "created": "2017-07-08T12:26:54.870",
-      "id": "yDMEl7QeOWI",
-      "lastUpdated": "2019-04-16T13:01:15.748",
-      "name": "Not done",
-      "optionSet": {
-        "id": "s9DphURXyJX"
-      },
-      "sortOrder": 3,
-      "translations": []
-    },
-    {
-      "attributeValues": [],
-      "code": "Not done",
       "created": "2018-12-21T10:00:36.767",
       "id": "s7diX9IiwEw",
-      "lastUpdated": "2019-04-16T13:01:15.748",
       "name": "Not done",
       "optionSet": {
         "id": "rBbay5XD36E"
@@ -3041,7 +2823,6 @@
       "code": "Not done",
       "created": "2018-12-21T11:47:05.050",
       "id": "jv6uGJgYCOA",
-      "lastUpdated": "2019-04-16T13:01:15.748",
       "name": "Not done",
       "optionSet": {
         "id": "B1BBW5eGt1j"
@@ -3052,22 +2833,8 @@
     {
       "attributeValues": [],
       "code": "Positive",
-      "created": "2016-09-21T16:02:43.504",
-      "id": "qBxH3d9jIJk",
-      "lastUpdated": "2019-04-16T13:01:15.748",
-      "name": "Positive",
-      "optionSet": {
-        "id": "s9DphURXyJX"
-      },
-      "sortOrder": 1,
-      "translations": []
-    },
-    {
-      "attributeValues": [],
-      "code": "Positive",
       "created": "2018-11-27T10:25:07.113",
       "id": "beB8ITZLzUJ",
-      "lastUpdated": "2019-04-16T13:01:15.748",
       "name": "Positive",
       "optionSet": {
         "id": "rBbay5XD36E"
@@ -3080,7 +2847,6 @@
       "code": "Positive",
       "created": "2018-12-21T11:45:35.427",
       "id": "fIvMjiSg239",
-      "lastUpdated": "2019-04-16T13:01:15.748",
       "name": "Positive",
       "optionSet": {
         "id": "B1BBW5eGt1j"
@@ -3090,23 +2856,9 @@
     },
     {
       "attributeValues": [],
-      "code": "Unknown",
-      "created": "2016-09-21T16:02:43.504",
-      "id": "tGZPAKuvB4t",
-      "lastUpdated": "2019-04-16T13:01:15.748",
-      "name": "Unknown",
-      "optionSet": {
-        "id": "s9DphURXyJX"
-      },
-      "sortOrder": 4,
-      "translations": []
-    },
-    {
-      "attributeValues": [],
       "code": "Op_Gender_Unknown",
       "created": "2016-07-04T14:36:48.721",
       "id": "DL8exJ3mxUX",
-      "lastUpdated": "2019-04-17T17:31:02.138",
       "name": "Unknown",
       "optionSet": {
         "id": "apzFCMWeffA"
@@ -3136,7 +2888,6 @@
           "favorite": false,
           "favorites": [],
           "id": "EzNTt8GOwq6",
-          "lastUpdated": "2019-02-20T16:07:27.355",
           "translations": [],
           "userAccesses": [],
           "userGroupAccesses": []
@@ -3158,7 +2909,6 @@
           "favorite": false,
           "favorites": [],
           "id": "XcX3DdOZqBw",
-          "lastUpdated": "2019-02-20T16:07:27.354",
           "translations": [],
           "userAccesses": [],
           "userGroupAccesses": []
@@ -3173,9 +2923,8 @@
       "expression": "V{event_count}",
       "filter": "V{event_date}>'01/01/1900'",
       "id": "bVMzJyKmCjS",
-      "lastUpdated": "2019-04-18T15:35:48.529",
       "lastUpdatedBy": {
-        "id": "ilJDyuqlwDC"
+        "id": "eK26I7dRbC4"
       },
       "legendSets": [],
       "name": "Number of events in \"Visceral Leishmaniasis Laboratory LOG\"",
@@ -3273,7 +3022,6 @@
           "favorite": false,
           "favorites": [],
           "id": "HXosTZfgz2B",
-          "lastUpdated": "2018-11-02T09:34:37.034",
           "translations": [],
           "userAccesses": [],
           "userGroupAccesses": []
@@ -3295,7 +3043,6 @@
           "favorite": false,
           "favorites": [],
           "id": "dPdDZXpO2bS",
-          "lastUpdated": "2018-11-02T09:34:37.034",
           "translations": [],
           "userAccesses": [],
           "userGroupAccesses": []
@@ -3310,7 +3057,6 @@
       "expression": "V{event_count}",
       "filter": "#{zbYH78WJM8J.Z8W89lDV4IL} == 'Op_Gender_Female' && #{Zb23998a9oP.Xii6gy92ebp} >= 15",
       "id": "HrJ45XPZQsk",
-      "lastUpdated": "2019-04-18T15:35:48.533",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -3410,7 +3156,6 @@
           "favorite": false,
           "favorites": [],
           "id": "vt4bTSRifP3",
-          "lastUpdated": "2018-11-02T09:34:37.034",
           "translations": [],
           "userAccesses": [],
           "userGroupAccesses": []
@@ -3432,7 +3177,6 @@
           "favorite": false,
           "favorites": [],
           "id": "wesBZHhWUXX",
-          "lastUpdated": "2018-11-02T09:34:37.034",
           "translations": [],
           "userAccesses": [],
           "userGroupAccesses": []
@@ -3447,7 +3191,6 @@
       "expression": "V{event_count}",
       "filter": "#{zbYH78WJM8J.Z8W89lDV4IL} == 'Op_Gender_Female' && #{Zb23998a9oP.Xii6gy92ebp} >= 5 && #{Zb23998a9oP.Xii6gy92ebp} <= 14",
       "id": "Xx9MdZ91QMl",
-      "lastUpdated": "2019-04-18T15:35:48.661",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -3547,7 +3290,6 @@
           "favorite": false,
           "favorites": [],
           "id": "KB4K4vtlcRu",
-          "lastUpdated": "2018-11-02T09:34:37.034",
           "translations": [],
           "userAccesses": [],
           "userGroupAccesses": []
@@ -3569,7 +3311,6 @@
           "favorite": false,
           "favorites": [],
           "id": "hkMHEuMBZ6R",
-          "lastUpdated": "2018-11-02T09:34:37.034",
           "translations": [],
           "userAccesses": [],
           "userGroupAccesses": []
@@ -3584,7 +3325,6 @@
       "expression": "V{event_count}",
       "filter": "#{zbYH78WJM8J.Z8W89lDV4IL} == 'Op_Gender_Female' && #{Zb23998a9oP.Xii6gy92ebp} < 5",
       "id": "pMCWjnOXvkD",
-      "lastUpdated": "2019-04-18T15:35:48.665",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -3684,7 +3424,6 @@
           "favorite": false,
           "favorites": [],
           "id": "hm3pEIQqxFN",
-          "lastUpdated": "2018-11-02T09:34:37.034",
           "translations": [],
           "userAccesses": [],
           "userGroupAccesses": []
@@ -3706,7 +3445,6 @@
           "favorite": false,
           "favorites": [],
           "id": "pzeF53hiC0s",
-          "lastUpdated": "2018-11-02T09:34:37.034",
           "translations": [],
           "userAccesses": [],
           "userGroupAccesses": []
@@ -3721,7 +3459,6 @@
       "expression": "V{event_count}",
       "filter": "#{zbYH78WJM8J.Z8W89lDV4IL} == 'Op_Gender_Male' && #{Zb23998a9oP.Xii6gy92ebp} >= 15",
       "id": "vMrL4KsxBvl",
-      "lastUpdated": "2019-04-18T15:35:48.451",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -3821,7 +3558,6 @@
           "favorite": false,
           "favorites": [],
           "id": "HVN4usceImP",
-          "lastUpdated": "2018-11-02T09:34:37.034",
           "translations": [],
           "userAccesses": [],
           "userGroupAccesses": []
@@ -3843,7 +3579,6 @@
           "favorite": false,
           "favorites": [],
           "id": "r32ZkXih9yb",
-          "lastUpdated": "2018-11-02T09:34:37.034",
           "translations": [],
           "userAccesses": [],
           "userGroupAccesses": []
@@ -3858,7 +3593,6 @@
       "expression": "V{event_count}",
       "filter": "#{zbYH78WJM8J.Z8W89lDV4IL} == 'Op_Gender_Male' && #{Zb23998a9oP.Xii6gy92ebp} >= 5 && #{Zb23998a9oP.Xii6gy92ebp} <= 14",
       "id": "W9p26OHmXtD",
-      "lastUpdated": "2019-04-18T15:35:48.664",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -3958,7 +3692,6 @@
           "favorite": false,
           "favorites": [],
           "id": "izYCLjQjVfR",
-          "lastUpdated": "2018-11-02T09:34:37.034",
           "translations": [],
           "userAccesses": [],
           "userGroupAccesses": []
@@ -3980,7 +3713,6 @@
           "favorite": false,
           "favorites": [],
           "id": "nbDuKwItyzI",
-          "lastUpdated": "2018-11-02T09:34:37.034",
           "translations": [],
           "userAccesses": [],
           "userGroupAccesses": []
@@ -3995,7 +3727,6 @@
       "expression": "V{event_count}",
       "filter": "#{zbYH78WJM8J.Z8W89lDV4IL} == 'Op_Gender_Male' && #{Zb23998a9oP.Xii6gy92ebp} < 5",
       "id": "uCh7STQLYhv",
-      "lastUpdated": "2019-04-18T15:35:48.485",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -4083,7 +3814,6 @@
         "id": "O7trYnDIDuH"
       },
       "id": "OJYJlMhmGQO",
-      "lastUpdated": "2018-07-27T16:01:38.841",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -4097,10 +3827,9 @@
     {
       "created": "2017-07-08T13:41:06.526",
       "dataElement": {
-        "id": "Smz32lrbfyh"
+        "id": "Bg67t8nmrwn"
       },
       "id": "HNGigLgNGtB",
-      "lastUpdated": "2018-07-27T16:01:38.649",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -4117,7 +3846,6 @@
       "condition": "#{DATResult} != 'Positive'  && #{DATResult} != 'Borderline'",
       "created": "2017-07-08T13:39:47.693",
       "id": "LyFAaVQwG21",
-      "lastUpdated": "2019-04-18T15:25:53.362",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -4144,7 +3872,6 @@
       },
       "displayInReports": false,
       "id": "C2rEXDTiqRR",
-      "lastUpdated": "2019-04-16T14:06:31.316",
       "programStage": {
         "id": "Zb23998a9oP"
       },
@@ -4162,7 +3889,6 @@
       },
       "displayInReports": false,
       "id": "FOIOfPmpFfh",
-      "lastUpdated": "2019-04-16T14:06:31.317",
       "programStage": {
         "id": "Zb23998a9oP"
       },
@@ -4180,7 +3906,6 @@
       },
       "displayInReports": false,
       "id": "HgAMGgTRmNI",
-      "lastUpdated": "2019-04-16T14:06:31.318",
       "programStage": {
         "id": "Zb23998a9oP"
       },
@@ -4192,31 +3917,12 @@
       "allowFutureDate": false,
       "allowProvidedElsewhere": false,
       "compulsory": true,
-      "created": "2017-06-28T15:34:36.430",
-      "dataElement": {
-        "id": "Smz32lrbfyh"
-      },
-      "displayInReports": true,
-      "id": "HiEjXHKM1H8",
-      "lastUpdated": "2019-04-16T14:06:31.318",
-      "programStage": {
-        "id": "Zb23998a9oP"
-      },
-      "renderOptionsAsRadio": false,
-      "skipSynchronization": false,
-      "sortOrder": 11
-    },
-    {
-      "allowFutureDate": false,
-      "allowProvidedElsewhere": false,
-      "compulsory": true,
       "created": "2017-06-28T15:34:36.431",
       "dataElement": {
         "id": "Xii6gy92ebp"
       },
       "displayInReports": true,
       "id": "KZjxJbWjfXU",
-      "lastUpdated": "2019-04-16T14:06:31.317",
       "programStage": {
         "id": "Zb23998a9oP"
       },
@@ -4234,7 +3940,6 @@
       },
       "displayInReports": true,
       "id": "Kq3joaRvOXx",
-      "lastUpdated": "2019-04-16T14:06:31.318",
       "programStage": {
         "id": "Zb23998a9oP"
       },
@@ -4252,31 +3957,12 @@
       },
       "displayInReports": false,
       "id": "Lu8lqBszfC6",
-      "lastUpdated": "2019-04-16T14:06:31.319",
       "programStage": {
         "id": "Zb23998a9oP"
       },
       "renderOptionsAsRadio": false,
       "skipSynchronization": false,
       "sortOrder": 1
-    },
-    {
-      "allowFutureDate": false,
-      "allowProvidedElsewhere": false,
-      "compulsory": true,
-      "created": "2017-06-28T15:34:36.430",
-      "dataElement": {
-        "id": "DeA3q4Uczfz"
-      },
-      "displayInReports": true,
-      "id": "Ro9FT5tTRiv",
-      "lastUpdated": "2019-04-16T14:06:31.318",
-      "programStage": {
-        "id": "Zb23998a9oP"
-      },
-      "renderOptionsAsRadio": false,
-      "skipSynchronization": false,
-      "sortOrder": 9
     },
     {
       "allowFutureDate": false,
@@ -4288,7 +3974,6 @@
       },
       "displayInReports": true,
       "id": "YIcLKcz78TP",
-      "lastUpdated": "2019-04-16T14:06:31.317",
       "programStage": {
         "id": "Zb23998a9oP"
       },
@@ -4300,31 +3985,12 @@
       "allowFutureDate": false,
       "allowProvidedElsewhere": false,
       "compulsory": true,
-      "created": "2017-06-28T15:34:36.430",
-      "dataElement": {
-        "id": "NWGXBZSCQto"
-      },
-      "displayInReports": true,
-      "id": "lCAZoaPXfLE",
-      "lastUpdated": "2019-04-16T14:06:31.318",
-      "programStage": {
-        "id": "Zb23998a9oP"
-      },
-      "renderOptionsAsRadio": false,
-      "skipSynchronization": false,
-      "sortOrder": 14
-    },
-    {
-      "allowFutureDate": false,
-      "allowProvidedElsewhere": false,
-      "compulsory": true,
       "created": "2018-07-24T13:50:26.660",
       "dataElement": {
         "id": "Q7dOlqe54eh"
       },
       "displayInReports": false,
       "id": "lx5PgvOem3k",
-      "lastUpdated": "2019-04-16T14:06:31.317",
       "programStage": {
         "id": "Zb23998a9oP"
       },
@@ -4342,7 +4008,6 @@
       },
       "displayInReports": true,
       "id": "m25dOAjJA4D",
-      "lastUpdated": "2019-04-16T14:06:31.318",
       "programStage": {
         "id": "Zb23998a9oP"
       },
@@ -4360,7 +4025,6 @@
       },
       "displayInReports": false,
       "id": "p5KHEKt0fIB",
-      "lastUpdated": "2019-04-16T14:06:31.318",
       "programStage": {
         "id": "Zb23998a9oP"
       },
@@ -4378,7 +4042,6 @@
       },
       "displayInReports": false,
       "id": "qvTbFdHl4ht",
-      "lastUpdated": "2019-04-16T14:06:31.317",
       "programStage": {
         "id": "Zb23998a9oP"
       },
@@ -4396,7 +4059,6 @@
       },
       "displayInReports": true,
       "id": "uIrokf1z3cF",
-      "lastUpdated": "2019-04-16T14:06:31.318",
       "programStage": {
         "id": "Zb23998a9oP"
       },
@@ -4414,7 +4076,6 @@
       },
       "displayInReports": false,
       "id": "wmZWBKYHSmU",
-      "lastUpdated": "2019-04-16T14:06:31.318",
       "programStage": {
         "id": "Zb23998a9oP"
       },
@@ -4432,7 +4093,6 @@
       },
       "displayInReports": false,
       "id": "xbBKfiaVJhh",
-      "lastUpdated": "2019-04-16T14:06:31.318",
       "programStage": {
         "id": "Zb23998a9oP"
       },
@@ -4457,7 +4117,6 @@
       "generatedByEnrollmentDate": false,
       "hideDueDate": false,
       "id": "Zb23998a9oP",
-      "lastUpdated": "2019-04-18T15:35:48.709",
       "lastUpdatedBy": {
         "id": "eK26I7dRbC4"
       },
@@ -4492,7 +4151,6 @@
           "favorite": false,
           "favorites": [],
           "id": "C2rEXDTiqRR",
-          "lastUpdated": "2019-04-16T14:06:31.316",
           "programStage": {
             "id": "Zb23998a9oP"
           },
@@ -4525,7 +4183,6 @@
           "favorite": false,
           "favorites": [],
           "id": "FOIOfPmpFfh",
-          "lastUpdated": "2019-04-16T14:06:31.317",
           "programStage": {
             "id": "Zb23998a9oP"
           },
@@ -4558,46 +4215,12 @@
           "favorite": false,
           "favorites": [],
           "id": "HgAMGgTRmNI",
-          "lastUpdated": "2019-04-16T14:06:31.318",
           "programStage": {
             "id": "Zb23998a9oP"
           },
           "renderOptionsAsRadio": false,
           "skipSynchronization": false,
           "sortOrder": 0,
-          "translations": [],
-          "userAccesses": [],
-          "userGroupAccesses": []
-        },
-        {
-          "access": {
-            "delete": true,
-            "externalize": true,
-            "manage": true,
-            "read": true,
-            "update": true,
-            "write": true
-          },
-          "allowFutureDate": false,
-          "allowProvidedElsewhere": false,
-          "attributeValues": [],
-          "compulsory": true,
-          "created": "2017-06-28T15:34:36.430",
-          "dataElement": {
-            "id": "Smz32lrbfyh"
-          },
-          "displayInReports": true,
-          "externalAccess": false,
-          "favorite": false,
-          "favorites": [],
-          "id": "HiEjXHKM1H8",
-          "lastUpdated": "2019-04-16T14:06:31.318",
-          "programStage": {
-            "id": "Zb23998a9oP"
-          },
-          "renderOptionsAsRadio": false,
-          "skipSynchronization": false,
-          "sortOrder": 11,
           "translations": [],
           "userAccesses": [],
           "userGroupAccesses": []
@@ -4624,7 +4247,6 @@
           "favorite": false,
           "favorites": [],
           "id": "KZjxJbWjfXU",
-          "lastUpdated": "2019-04-16T14:06:31.317",
           "programStage": {
             "id": "Zb23998a9oP"
           },
@@ -4657,7 +4279,6 @@
           "favorite": false,
           "favorites": [],
           "id": "Kq3joaRvOXx",
-          "lastUpdated": "2019-04-16T14:06:31.318",
           "programStage": {
             "id": "Zb23998a9oP"
           },
@@ -4690,46 +4311,12 @@
           "favorite": false,
           "favorites": [],
           "id": "Lu8lqBszfC6",
-          "lastUpdated": "2019-04-16T14:06:31.319",
           "programStage": {
             "id": "Zb23998a9oP"
           },
           "renderOptionsAsRadio": false,
           "skipSynchronization": false,
           "sortOrder": 1,
-          "translations": [],
-          "userAccesses": [],
-          "userGroupAccesses": []
-        },
-        {
-          "access": {
-            "delete": true,
-            "externalize": true,
-            "manage": true,
-            "read": true,
-            "update": true,
-            "write": true
-          },
-          "allowFutureDate": false,
-          "allowProvidedElsewhere": false,
-          "attributeValues": [],
-          "compulsory": true,
-          "created": "2017-06-28T15:34:36.430",
-          "dataElement": {
-            "id": "DeA3q4Uczfz"
-          },
-          "displayInReports": true,
-          "externalAccess": false,
-          "favorite": false,
-          "favorites": [],
-          "id": "Ro9FT5tTRiv",
-          "lastUpdated": "2019-04-16T14:06:31.318",
-          "programStage": {
-            "id": "Zb23998a9oP"
-          },
-          "renderOptionsAsRadio": false,
-          "skipSynchronization": false,
-          "sortOrder": 9,
           "translations": [],
           "userAccesses": [],
           "userGroupAccesses": []
@@ -4756,46 +4343,12 @@
           "favorite": false,
           "favorites": [],
           "id": "YIcLKcz78TP",
-          "lastUpdated": "2019-04-16T14:06:31.317",
           "programStage": {
             "id": "Zb23998a9oP"
           },
           "renderOptionsAsRadio": false,
           "skipSynchronization": false,
           "sortOrder": 7,
-          "translations": [],
-          "userAccesses": [],
-          "userGroupAccesses": []
-        },
-        {
-          "access": {
-            "delete": true,
-            "externalize": true,
-            "manage": true,
-            "read": true,
-            "update": true,
-            "write": true
-          },
-          "allowFutureDate": false,
-          "allowProvidedElsewhere": false,
-          "attributeValues": [],
-          "compulsory": true,
-          "created": "2017-06-28T15:34:36.430",
-          "dataElement": {
-            "id": "NWGXBZSCQto"
-          },
-          "displayInReports": true,
-          "externalAccess": false,
-          "favorite": false,
-          "favorites": [],
-          "id": "lCAZoaPXfLE",
-          "lastUpdated": "2019-04-16T14:06:31.318",
-          "programStage": {
-            "id": "Zb23998a9oP"
-          },
-          "renderOptionsAsRadio": false,
-          "skipSynchronization": false,
-          "sortOrder": 14,
           "translations": [],
           "userAccesses": [],
           "userGroupAccesses": []
@@ -4822,7 +4375,6 @@
           "favorite": false,
           "favorites": [],
           "id": "lx5PgvOem3k",
-          "lastUpdated": "2019-04-16T14:06:31.317",
           "programStage": {
             "id": "Zb23998a9oP"
           },
@@ -4855,7 +4407,6 @@
           "favorite": false,
           "favorites": [],
           "id": "m25dOAjJA4D",
-          "lastUpdated": "2019-04-16T14:06:31.318",
           "programStage": {
             "id": "Zb23998a9oP"
           },
@@ -4888,7 +4439,6 @@
           "favorite": false,
           "favorites": [],
           "id": "p5KHEKt0fIB",
-          "lastUpdated": "2019-04-16T14:06:31.318",
           "programStage": {
             "id": "Zb23998a9oP"
           },
@@ -4921,7 +4471,6 @@
           "favorite": false,
           "favorites": [],
           "id": "qvTbFdHl4ht",
-          "lastUpdated": "2019-04-16T14:06:31.317",
           "programStage": {
             "id": "Zb23998a9oP"
           },
@@ -4954,7 +4503,6 @@
           "favorite": false,
           "favorites": [],
           "id": "uIrokf1z3cF",
-          "lastUpdated": "2019-04-16T14:06:31.318",
           "programStage": {
             "id": "Zb23998a9oP"
           },
@@ -4987,7 +4535,6 @@
           "favorite": false,
           "favorites": [],
           "id": "wmZWBKYHSmU",
-          "lastUpdated": "2019-04-16T14:06:31.318",
           "programStage": {
             "id": "Zb23998a9oP"
           },
@@ -5020,7 +4567,6 @@
           "favorite": false,
           "favorites": [],
           "id": "xbBKfiaVJhh",
-          "lastUpdated": "2019-04-16T14:06:31.318",
           "programStage": {
             "id": "Zb23998a9oP"
           },
@@ -5117,7 +4663,20 @@
             "id": "x8YCHCvls4r"
           },
           "created": "2017-06-28T15:31:11.208",
-          "lastUpdated": "2017-06-28T15:31:11.208",
+          "value": "Op_Disease_VL"
+        },
+        {
+          "attribute": {
+            "id": "x8YCHCvls4r"
+          },
+          "created": "2017-06-28T15:31:11.208",
+          "value": "Op_Disease_VL"
+        },
+        {
+          "attribute": {
+            "id": "x8YCHCvls4r"
+          },
+          "created": "2017-06-28T15:31:11.208",
           "value": "Op_Disease_VL"
         }
       ],
@@ -5133,9 +4692,8 @@
       "expiryDays": 0,
       "id": "h1KVXwrpKKf",
       "ignoreOverdueEvents": false,
-      "lastUpdated": "2019-04-18T15:35:47.540",
       "lastUpdatedBy": {
-        "id": "uxrfJ88hrVO"
+        "id": "eK26I7dRbC4"
       },
       "maxTeiCountToReturn": 0,
       "minAttributesRequiredToSearch": 1,
@@ -5224,7 +4782,7 @@
           "userGroupUid": "yBUSIP5IhrF"
         }
       ],
-      "version": 11
+      "version": 12
     }
   ]
 }
