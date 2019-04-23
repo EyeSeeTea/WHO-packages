@@ -1,0 +1,417 @@
+{
+  "attributes": [
+    {
+      "categoryAttribute": false,
+      "categoryOptionAttribute": false,
+      "categoryOptionComboAttribute": false,
+      "categoryOptionGroupAttribute": false,
+      "categoryOptionGroupSetAttribute": false,
+      "code": "At_Disease",
+      "constantAttribute": false,
+      "created": "2017-01-26T14:12:52.745",
+      "dataElementAttribute": false,
+      "dataElementGroupAttribute": false,
+      "dataElementGroupSetAttribute": false,
+      "dataSetAttribute": true,
+      "documentAttribute": false,
+      "id": "x8YCHCvls4r",
+      "indicatorAttribute": false,
+      "indicatorGroupAttribute": false,
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSetAttribute": false,
+      "mandatory": false,
+      "name": "Disease",
+      "optionAttribute": false,
+      "optionSet": {
+        "id": "r0czxkQrRQY"
+      },
+      "optionSetAttribute": false,
+      "organisationUnitAttribute": false,
+      "organisationUnitGroupAttribute": false,
+      "organisationUnitGroupSetAttribute": false,
+      "programAttribute": true,
+      "programIndicatorAttribute": false,
+      "programStageAttribute": false,
+      "publicAccess": "--------",
+      "sectionAttribute": false,
+      "sqlViewAttribute": false,
+      "trackedEntityAttributeAttribute": false,
+      "trackedEntityTypeAttribute": false,
+      "translations": [],
+      "unique": false,
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "Duplicator Event",
+          "id": "UlXOWwGGx7W",
+          "userUid": "UlXOWwGGx7W"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userAttribute": false,
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD_VL_Event_Capture",
+          "id": "AKCiUSICdUT",
+          "userGroupUid": "AKCiUSICdUT"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_EMRO",
+          "id": "K40P7b1JFdc",
+          "userGroupUid": "K40P7b1JFdc"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_VL_Event_View",
+          "id": "YWgdwKzbsnN",
+          "userGroupUid": "YWgdwKzbsnN"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
+          "id": "phezIKUxlC2",
+          "userGroupUid": "phezIKUxlC2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_PHC_VL",
+          "id": "r4gcKCyB5fF",
+          "userGroupUid": "r4gcKCyB5fF"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ],
+      "userGroupAttribute": false,
+      "validationRuleAttribute": false,
+      "validationRuleGroupAttribute": false,
+      "valueType": "TEXT"
+    }
+  ],
+  "categories": [
+    {
+      "attributeValues": [],
+      "categoryOptions": [
+        {
+          "id": "Y7fcspgsU43"
+        }
+      ],
+      "code": "default",
+      "created": "2017-05-10T17:53:55.152",
+      "dataDimension": false,
+      "dataDimensionType": "DISAGGREGATION",
+      "id": "DMyxTSpvKOp",
+      "name": "default",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ],
+  "categoryCombos": [
+    {
+      "categories": [
+        {
+          "id": "DMyxTSpvKOp"
+        }
+      ],
+      "code": "default",
+      "created": "2017-05-10T17:53:55.156",
+      "dataDimensionType": "DISAGGREGATION",
+      "id": "JzvGfLYkX17",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "default",
+      "publicAccess": "--------",
+      "skipTotal": false,
+      "translations": [],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ],
+  "categoryOptionCombos": [
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "categoryOptions": [
+        {
+          "id": "Y7fcspgsU43"
+        }
+      ],
+      "code": "default",
+      "created": "2017-05-10T17:53:55.157",
+      "id": "Xr12mI7VPn3",
+      "ignoreApproval": false,
+      "name": "default",
+      "translations": []
+    }
+  ],
+  "categoryOptions": [
+    {
+      "attributeValues": [],
+      "code": "default",
+      "created": "2017-05-10T17:53:55.138",
+      "id": "Y7fcspgsU43",
+      "name": "default",
+      "publicAccess": "--rw----",
+      "shortName": "default",
+      "translations": [],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ],
+  "dataElements": [
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "HAT_EPI_gHAT",
+      "created": "2016-09-13T22:53:40.798",
+      "domainType": "AGGREGATE",
+      "formName": "Number of new reported cases of human African trypanosomiasis (T.b. gambiense)",
+      "id": "mvdE2Sh3M1s",
+      "legendSets": [],
+      "name": "HAT_EPI_gHAT",
+      "publicAccess": "--------",
+      "shortName": "Number of gHAT cases",
+      "translations": [],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": true
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "HAT_EPI_rHAT",
+      "created": "2016-09-13T22:53:42.029",
+      "domainType": "AGGREGATE",
+      "formName": "Number of new reported cases of human African trypanosomiasis (T.b. rhodesiense)",
+      "id": "VBpBuNXA1S2",
+      "legendSets": [],
+      "name": "HAT_EPI_rHAT",
+      "publicAccess": "--------",
+      "shortName": "Number of rHAT cases",
+      "translations": [],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": true
+    }
+  ],
+  "dataSets": [
+    {
+      "attributeValues": [
+        {
+          "attribute": {
+            "id": "x8YCHCvls4r"
+          },
+          "created": "2017-01-26T14:25:53.291",
+          "value": "Op_Disease_HAT"
+        }
+      ],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "DS_HAT_AggCases_annual",
+      "compulsoryDataElementOperands": [],
+      "compulsoryFieldsCompleteOnly": false,
+      "created": "2016-09-13T22:57:12.040",
+      "dataElementDecoration": false,
+      "dataInputPeriods": [],
+      "dataSetElements": [
+        {
+          "dataElement": {
+            "id": "mvdE2Sh3M1s"
+          },
+          "dataSet": {
+            "id": "oVxjBKA1Yzu"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "VBpBuNXA1S2"
+          },
+          "dataSet": {
+            "id": "oVxjBKA1Yzu"
+          }
+        }
+      ],
+      "expiryDays": 0,
+      "fieldCombinationRequired": false,
+      "id": "oVxjBKA1Yzu",
+      "indicators": [],
+      "lastUpdatedBy": {
+        "id": "ilJDyuqlwDC"
+      },
+      "legendSets": [],
+      "mobile": false,
+      "name": "HAT_cases_annual",
+      "noValueRequiresComment": false,
+      "notifyCompletingUser": false,
+      "openFuturePeriods": 0,
+      "periodType": "Yearly",
+      "publicAccess": "--------",
+      "renderAsTabs": false,
+      "renderHorizontally": false,
+      "shortName": "HAT_cases_annual",
+      "skipOffline": false,
+      "timelyDays": 15,
+      "translations": [],
+      "user": {
+        "id": "M5zQapPyTZI"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_HAT_HQ",
+          "id": "rKacF6UkVCM",
+          "userGroupUid": "rKacF6UkVCM"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        }
+      ],
+      "validCompleteOnly": false,
+      "version": 4
+    }
+  ],
+  "date": "2019-04-23T10:48:39.513"
+}
