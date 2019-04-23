@@ -1,0 +1,492 @@
+{
+  "categories": [
+    {
+      "attributeValues": [],
+      "categoryOptions": [
+        {
+          "id": "Y7fcspgsU43"
+        }
+      ],
+      "code": "default",
+      "created": "2017-05-10T17:53:55.152",
+      "dataDimension": false,
+      "dataDimensionType": "DISAGGREGATION",
+      "id": "DMyxTSpvKOp",
+      "name": "default",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ],
+  "categoryCombos": [
+    {
+      "categories": [
+        {
+          "id": "DMyxTSpvKOp"
+        }
+      ],
+      "code": "default",
+      "created": "2017-05-10T17:53:55.156",
+      "dataDimensionType": "DISAGGREGATION",
+      "id": "JzvGfLYkX17",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "default",
+      "publicAccess": "rw------",
+      "skipTotal": false,
+      "translations": [],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ],
+  "categoryOptionCombos": [
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "categoryOptions": [
+        {
+          "id": "Y7fcspgsU43"
+        }
+      ],
+      "code": "default",
+      "created": "2017-05-10T17:53:55.157",
+      "id": "Xr12mI7VPn3",
+      "ignoreApproval": false,
+      "name": "default",
+      "translations": []
+    }
+  ],
+  "categoryOptions": [
+    {
+      "attributeValues": [],
+      "code": "default",
+      "created": "2017-05-10T17:53:55.138",
+      "id": "Y7fcspgsU43",
+      "name": "default",
+      "publicAccess": "rwrw----",
+      "shortName": "default",
+      "translations": [],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ],
+  "date": "2019-04-23T11:59:27.202",
+  "programIndicators": [
+    {
+      "aggregationType": "COUNT",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-11-02T09:34:37.034",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "WJyhtiS9g1w",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-11-02T09:34:37.034",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "YlHU8EwzOTD",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "code": "PI_BU02_Female cases_From village",
+      "created": "2016-11-07T11:13:00.078",
+      "displayInForm": false,
+      "expression": "V{event_count}",
+      "filter": "#{liAVGfuViHl.Z8W89lDV4IL} == 'Female'",
+      "id": "Yi4UXXAxrFW",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "PI BU02_Female cases_From village",
+      "program": {
+        "id": "MECZlaC9Ef6"
+      },
+      "publicAccess": "--------",
+      "shortName": "PI BU02_Female cases_From village",
+      "translations": [],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "Duplicator Event",
+          "id": "UlXOWwGGx7W",
+          "userUid": "UlXOWwGGx7W"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        }
+      ]
+    },
+    {
+      "aggregationType": "COUNT",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-11-02T09:34:37.034",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "pRBDbIsDBUL",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-11-02T09:34:37.034",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "tlvWN7pb15s",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "code": "PI_BU02_Male cases_From village",
+      "created": "2016-11-07T11:13:36.458",
+      "displayInForm": false,
+      "expression": "V{event_count}",
+      "filter": "#{liAVGfuViHl.Z8W89lDV4IL} == 'Male'",
+      "id": "vFqUtCey3Rx",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "PI BU02_Male cases_From village",
+      "program": {
+        "id": "MECZlaC9Ef6"
+      },
+      "publicAccess": "--------",
+      "shortName": "PI BU02_Male cases_From village",
+      "translations": [],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "Duplicator Event",
+          "id": "UlXOWwGGx7W",
+          "userUid": "UlXOWwGGx7W"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        }
+      ]
+    },
+    {
+      "aggregationType": "COUNT",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-11-02T09:34:37.034",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "G3Ms41L4H7y",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-11-02T09:34:37.034",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "RU86Ln7bInL",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "code": "PI_BU02_Total cases_From village",
+      "created": "2016-11-07T11:12:03.908",
+      "displayInForm": false,
+      "expression": "V{event_count}",
+      "id": "HNDcTl0y3Xm",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [
+        {
+          "id": "ni7XZfbGTRu"
+        }
+      ],
+      "name": "PI BU02_Total cases_From village",
+      "program": {
+        "id": "MECZlaC9Ef6"
+      },
+      "publicAccess": "--------",
+      "shortName": "PI BU02_Total cases_From village",
+      "translations": [],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "Duplicator Event",
+          "id": "UlXOWwGGx7W",
+          "userUid": "UlXOWwGGx7W"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        }
+      ]
+    }
+  ],
+  "programStages": [
+    {
+      "allowGenerateNextVisit": false,
+      "attributeValues": [],
+      "autoGenerateEvent": true,
+      "blockEntryForm": false,
+      "created": "2018-04-25T10:56:47.859",
+      "displayGenerateEventBox": true,
+      "featureType": "NONE",
+      "generatedByEnrollmentDate": false,
+      "hideDueDate": false,
+      "id": "liAVGfuViHl",
+      "lastUpdatedBy": {
+        "id": "ilJDyuqlwDC"
+      },
+      "minDaysFromStart": 0,
+      "name": "BU02-fromVillage",
+      "notificationTemplates": [],
+      "openAfterEnrollment": false,
+      "preGenerateUID": false,
+      "program": {
+        "id": "MECZlaC9Ef6"
+      },
+      "programStageDataElements": [],
+      "programStageSections": [],
+      "publicAccess": "--------",
+      "remindCompleted": false,
+      "repeatable": false,
+      "sortOrder": 1,
+      "translations": [],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [
+        {
+          "access": "r-rw----",
+          "displayName": "Duplicator Event",
+          "id": "UlXOWwGGx7W",
+          "userUid": "UlXOWwGGx7W"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        }
+      ],
+      "validCompleteOnly": false
+    }
+  ],
+  "programs": [
+    {
+      "accessLevel": "OPEN",
+      "attributeValues": [],
+      "captureCoordinates": false,
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "PR_BU02_Register_Village",
+      "completeEventsExpiryDays": 0,
+      "created": "2016-10-27T14:59:52.528",
+      "displayFrontPageList": false,
+      "displayIncidentDate": false,
+      "enrollmentDateLabel": "Enrollment Date",
+      "expiryDays": 0,
+      "id": "MECZlaC9Ef6",
+      "ignoreOverdueEvents": false,
+      "incidentDateLabel": "Incident Date",
+      "lastUpdatedBy": {
+        "id": "ilJDyuqlwDC"
+      },
+      "maxTeiCountToReturn": 0,
+      "minAttributesRequiredToSearch": 1,
+      "name": "BU02-fromVillage",
+      "notificationTemplates": [],
+      "onlyEnrollOnce": false,
+      "programSections": [],
+      "programStages": [
+        {
+          "id": "liAVGfuViHl"
+        }
+      ],
+      "programTrackedEntityAttributes": [],
+      "programType": "WITHOUT_REGISTRATION",
+      "publicAccess": "--------",
+      "selectEnrollmentDatesInFuture": false,
+      "selectIncidentDatesInFuture": false,
+      "shortName": "BU02-fromVillage",
+      "skipOffline": false,
+      "translations": [],
+      "useFirstStageDuringRegistration": false,
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [
+        {
+          "access": "r-rw----",
+          "displayName": "Duplicator Event",
+          "id": "UlXOWwGGx7W",
+          "userUid": "UlXOWwGGx7W"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        }
+      ],
+      "version": 6
+    }
+  ]
+}
