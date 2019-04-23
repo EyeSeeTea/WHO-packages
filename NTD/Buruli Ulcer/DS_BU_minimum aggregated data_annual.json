@@ -1,0 +1,4831 @@
+{
+  "attributes": [
+    {
+      "categoryAttribute": false,
+      "categoryOptionAttribute": false,
+      "categoryOptionComboAttribute": false,
+      "categoryOptionGroupAttribute": false,
+      "categoryOptionGroupSetAttribute": false,
+      "code": "At_Disease",
+      "constantAttribute": false,
+      "created": "2017-01-26T14:12:52.745",
+      "dataElementAttribute": false,
+      "dataElementGroupAttribute": false,
+      "dataElementGroupSetAttribute": false,
+      "dataSetAttribute": true,
+      "documentAttribute": false,
+      "id": "x8YCHCvls4r",
+      "indicatorAttribute": false,
+      "indicatorGroupAttribute": false,
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSetAttribute": false,
+      "mandatory": false,
+      "name": "Disease",
+      "optionAttribute": false,
+      "optionSet": {
+        "id": "r0czxkQrRQY"
+      },
+      "optionSetAttribute": false,
+      "organisationUnitAttribute": false,
+      "organisationUnitGroupAttribute": false,
+      "organisationUnitGroupSetAttribute": false,
+      "programAttribute": true,
+      "programIndicatorAttribute": false,
+      "programStageAttribute": false,
+      "publicAccess": "--------",
+      "sectionAttribute": false,
+      "sqlViewAttribute": false,
+      "trackedEntityAttributeAttribute": false,
+      "trackedEntityTypeAttribute": false,
+      "translations": [],
+      "unique": false,
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "Duplicator Event",
+          "id": "UlXOWwGGx7W",
+          "userUid": "UlXOWwGGx7W"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userAttribute": false,
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD_VL_Event_Capture",
+          "id": "AKCiUSICdUT",
+          "userGroupUid": "AKCiUSICdUT"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_EMRO",
+          "id": "K40P7b1JFdc",
+          "userGroupUid": "K40P7b1JFdc"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_VL_Event_View",
+          "id": "YWgdwKzbsnN",
+          "userGroupUid": "YWgdwKzbsnN"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
+          "id": "phezIKUxlC2",
+          "userGroupUid": "phezIKUxlC2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_PHC_VL",
+          "id": "r4gcKCyB5fF",
+          "userGroupUid": "r4gcKCyB5fF"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ],
+      "userGroupAttribute": false,
+      "validationRuleAttribute": false,
+      "validationRuleGroupAttribute": false,
+      "valueType": "TEXT"
+    }
+  ],
+  "categories": [
+    {
+      "attributeValues": [],
+      "categoryOptions": [
+        {
+          "id": "ciFLFA7AiOa"
+        },
+        {
+          "id": "qAeldgH4WMr"
+        },
+        {
+          "id": "vZ0WdHAROAy"
+        },
+        {
+          "id": "w5ItMDKuO20"
+        }
+      ],
+      "code": "Age group",
+      "created": "2016-03-29T21:07:02.275",
+      "dataDimension": true,
+      "dataDimensionType": "DISAGGREGATION",
+      "id": "J2EQ3575tpG",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "Age group",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "Rabies Estimates",
+          "id": "K7VPSVrAYeV",
+          "userGroupUid": "K7VPSVrAYeV"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Rabies_Unofficial",
+          "id": "VONeiGGohxr",
+          "userGroupUid": "VONeiGGohxr"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Rabies_WHO Official",
+          "id": "Zr1fdsbkiAR",
+          "userGroupUid": "Zr1fdsbkiAR"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Rabies_OIE",
+          "id": "pbZna7luFaM",
+          "userGroupUid": "pbZna7luFaM"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "categoryOptions": [
+        {
+          "id": "FMJprslIeSG"
+        },
+        {
+          "id": "OjTZlEq5DU6"
+        },
+        {
+          "id": "msTyBF6xVJI"
+        },
+        {
+          "id": "rduPRxceiXM"
+        }
+      ],
+      "code": "Category (BU)",
+      "created": "2016-09-13T18:48:07.977",
+      "dataDimension": true,
+      "dataDimensionType": "DISAGGREGATION",
+      "id": "RchPsJmL2wA",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "Category (BU)",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "categoryOptions": [
+        {
+          "id": "NuBMsmUyzDA"
+        },
+        {
+          "id": "qmsg1OVBqif"
+        },
+        {
+          "id": "tZftZ03eewT"
+        }
+      ],
+      "code": "Gender",
+      "created": "2016-03-29T21:07:02.329",
+      "dataDimension": true,
+      "dataDimensionType": "DISAGGREGATION",
+      "id": "gvZZplg7PkY",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "name": "Gender",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "Rabies Estimates",
+          "id": "K7VPSVrAYeV",
+          "userGroupUid": "K7VPSVrAYeV"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Yaws_AggDataCapture",
+          "id": "TUL6Ftyw9j6",
+          "userGroupUid": "TUL6Ftyw9j6"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Rabies_Unofficial",
+          "id": "VONeiGGohxr",
+          "userGroupUid": "VONeiGGohxr"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Rabies_WHO Official",
+          "id": "Zr1fdsbkiAR",
+          "userGroupUid": "Zr1fdsbkiAR"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_SkinNTDs_Yaws_WHO",
+          "id": "ZvxncLTan3w",
+          "userGroupUid": "ZvxncLTan3w"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Rabies_OIE",
+          "id": "pbZna7luFaM",
+          "userGroupUid": "pbZna7luFaM"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "categoryOptions": [
+        {
+          "id": "Y7fcspgsU43"
+        }
+      ],
+      "code": "default",
+      "created": "2017-05-10T17:53:55.152",
+      "dataDimension": false,
+      "dataDimensionType": "DISAGGREGATION",
+      "id": "DMyxTSpvKOp",
+      "name": "default",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ],
+  "categoryCombos": [
+    {
+      "categories": [
+        {
+          "id": "J2EQ3575tpG"
+        }
+      ],
+      "code": "CC_AgeGroup",
+      "created": "2016-04-06T00:52:18.593",
+      "dataDimensionType": "DISAGGREGATION",
+      "id": "E0cSdwztY5K",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "CC Age Group",
+      "publicAccess": "--------",
+      "skipTotal": false,
+      "translations": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "Rabies Estimates",
+          "id": "K7VPSVrAYeV",
+          "userGroupUid": "K7VPSVrAYeV"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Rabies_Unofficial",
+          "id": "VONeiGGohxr",
+          "userGroupUid": "VONeiGGohxr"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Rabies_WHO Official",
+          "id": "Zr1fdsbkiAR",
+          "userGroupUid": "Zr1fdsbkiAR"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Rabies_OIE",
+          "id": "pbZna7luFaM",
+          "userGroupUid": "pbZna7luFaM"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "id": "RchPsJmL2wA"
+        }
+      ],
+      "code": "CC_BU_Category",
+      "created": "2016-04-06T00:52:18.593",
+      "dataDimensionType": "DISAGGREGATION",
+      "id": "MeoSuM1SQ1f",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "CC Category (BU)",
+      "publicAccess": "--------",
+      "skipTotal": false,
+      "translations": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "id": "gvZZplg7PkY"
+        }
+      ],
+      "code": "CC_Gender",
+      "created": "2016-04-11T06:05:55.442",
+      "dataDimensionType": "DISAGGREGATION",
+      "id": "VygZ6pni0XS",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "CC Gender",
+      "publicAccess": "--------",
+      "skipTotal": false,
+      "translations": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "Rabies Estimates",
+          "id": "K7VPSVrAYeV",
+          "userGroupUid": "K7VPSVrAYeV"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Rabies_Unofficial",
+          "id": "VONeiGGohxr",
+          "userGroupUid": "VONeiGGohxr"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Rabies_WHO Official",
+          "id": "Zr1fdsbkiAR",
+          "userGroupUid": "Zr1fdsbkiAR"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Rabies_OIE",
+          "id": "pbZna7luFaM",
+          "userGroupUid": "pbZna7luFaM"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "id": "DMyxTSpvKOp"
+        }
+      ],
+      "code": "default",
+      "created": "2017-05-10T17:53:55.156",
+      "dataDimensionType": "DISAGGREGATION",
+      "id": "JzvGfLYkX17",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "default",
+      "publicAccess": "--------",
+      "skipTotal": false,
+      "translations": [],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ],
+  "categoryOptionCombos": [
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "E0cSdwztY5K"
+      },
+      "categoryOptions": [
+        {
+          "id": "qAeldgH4WMr"
+        }
+      ],
+      "created": "2016-04-06T00:52:27.834",
+      "id": "vJEPLhdauF7",
+      "ignoreApproval": false,
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "15 y and over",
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "E0cSdwztY5K"
+      },
+      "categoryOptions": [
+        {
+          "id": "ciFLFA7AiOa"
+        }
+      ],
+      "created": "2016-04-06T00:52:27.832",
+      "id": "DOJartWGuff",
+      "ignoreApproval": false,
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "5 to 14 y",
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "E0cSdwztY5K"
+      },
+      "categoryOptions": [
+        {
+          "id": "w5ItMDKuO20"
+        }
+      ],
+      "created": "2016-04-06T00:52:27.836",
+      "id": "kek1YXjDq70",
+      "ignoreApproval": false,
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "Age Unknwon",
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "MeoSuM1SQ1f"
+      },
+      "categoryOptions": [
+        {
+          "id": "OjTZlEq5DU6"
+        }
+      ],
+      "created": "2016-09-13T18:48:18.727",
+      "id": "rawZ86Q1W1k",
+      "ignoreApproval": false,
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "Cat I",
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "MeoSuM1SQ1f"
+      },
+      "categoryOptions": [
+        {
+          "id": "FMJprslIeSG"
+        }
+      ],
+      "created": "2016-09-13T18:48:18.729",
+      "id": "j5fsvsfsaJ3",
+      "ignoreApproval": false,
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "Cat II",
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "MeoSuM1SQ1f"
+      },
+      "categoryOptions": [
+        {
+          "id": "rduPRxceiXM"
+        }
+      ],
+      "created": "2016-09-13T18:48:18.731",
+      "id": "c7ypRdqByt7",
+      "ignoreApproval": false,
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "Cat III",
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "MeoSuM1SQ1f"
+      },
+      "categoryOptions": [
+        {
+          "id": "msTyBF6xVJI"
+        }
+      ],
+      "created": "2016-09-13T18:48:18.724",
+      "id": "Vcv8owxbxaN",
+      "ignoreApproval": false,
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "Category unknown",
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "VygZ6pni0XS"
+      },
+      "categoryOptions": [
+        {
+          "id": "tZftZ03eewT"
+        }
+      ],
+      "created": "2016-04-11T06:05:55.471",
+      "id": "V2LdgcGgFQt",
+      "ignoreApproval": false,
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "Female",
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "VygZ6pni0XS"
+      },
+      "categoryOptions": [
+        {
+          "id": "NuBMsmUyzDA"
+        }
+      ],
+      "created": "2016-04-11T06:05:55.469",
+      "id": "jNbFhhnUsQv",
+      "ignoreApproval": false,
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "Gender Unknown",
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "VygZ6pni0XS"
+      },
+      "categoryOptions": [
+        {
+          "id": "qmsg1OVBqif"
+        }
+      ],
+      "created": "2016-04-11T06:05:55.472",
+      "id": "Z2hvpF7mhh7",
+      "ignoreApproval": false,
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "Male",
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "E0cSdwztY5K"
+      },
+      "categoryOptions": [
+        {
+          "id": "vZ0WdHAROAy"
+        }
+      ],
+      "created": "2016-04-06T00:52:27.829",
+      "id": "HDXcEOGT2s1",
+      "ignoreApproval": false,
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "Under 5y",
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "categoryOptions": [
+        {
+          "id": "Y7fcspgsU43"
+        }
+      ],
+      "code": "default",
+      "created": "2017-05-10T17:53:55.157",
+      "id": "Xr12mI7VPn3",
+      "ignoreApproval": false,
+      "name": "default",
+      "translations": []
+    }
+  ],
+  "categoryOptions": [
+    {
+      "attributeValues": [],
+      "code": "Op_Age_15over",
+      "created": "2016-03-29T21:07:01.799",
+      "id": "qAeldgH4WMr",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "15 y and over",
+      "publicAccess": "--------",
+      "shortName": "15 y and over",
+      "translations": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-r-----",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQ",
+          "id": "BMxt1NZML9e",
+          "userGroupUid": "BMxt1NZML9e"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_AFRO_Ghana",
+          "id": "CoxTaSDd4Bz",
+          "userGroupUid": "CoxTaSDd4Bz"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_demo",
+          "id": "Fs9vCVCHjlE",
+          "userGroupUid": "Fs9vCVCHjlE"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_Dispatch_HQ",
+          "id": "I95k8bm5q5J",
+          "userGroupUid": "I95k8bm5q5J"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Mycetoma_HQ",
+          "id": "IPzz6wlkIp0",
+          "userGroupUid": "IPzz6wlkIp0"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EMRO",
+          "id": "K40P7b1JFdc",
+          "userGroupUid": "K40P7b1JFdc"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "Rabies Estimates",
+          "id": "K7VPSVrAYeV",
+          "userGroupUid": "K7VPSVrAYeV"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock",
+          "id": "LCs79RaVi0a",
+          "userGroupUid": "LCs79RaVi0a"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQPublish",
+          "id": "MYa3lh5k0Yq",
+          "userGroupUid": "MYa3lh5k0Yq"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EURO_Armenia",
+          "id": "TNA9oGI43e4",
+          "userGroupUid": "TNA9oGI43e4"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_Yaws_AggDataCapture",
+          "id": "TUL6Ftyw9j6",
+          "userGroupUid": "TUL6Ftyw9j6"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_Rabies_Unofficial",
+          "id": "VONeiGGohxr",
+          "userGroupUid": "VONeiGGohxr"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NTD_Rabies_WHO Official",
+          "id": "Zr1fdsbkiAR",
+          "userGroupUid": "Zr1fdsbkiAR"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Yaws_WHO",
+          "id": "ZvxncLTan3w",
+          "userGroupUid": "ZvxncLTan3w"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_OIE",
+          "id": "pbZna7luFaM",
+          "userGroupUid": "pbZna7luFaM"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
+          "id": "phezIKUxlC2",
+          "userGroupUid": "phezIKUxlC2"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EURO",
+          "id": "tEOUdu1ala4",
+          "userGroupUid": "tEOUdu1ala4"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "code": "Op_Age_5-14y",
+      "created": "2016-03-29T21:07:01.747",
+      "id": "ciFLFA7AiOa",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "5 to 14 y",
+      "publicAccess": "--------",
+      "shortName": "5 to 14 y",
+      "translations": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-r-----",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "r-rw----",
+          "displayName": "Rabies Estimates",
+          "id": "K7VPSVrAYeV",
+          "userGroupUid": "K7VPSVrAYeV"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_Rabies_Unofficial",
+          "id": "VONeiGGohxr",
+          "userGroupUid": "VONeiGGohxr"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NTD_Rabies_WHO Official",
+          "id": "Zr1fdsbkiAR",
+          "userGroupUid": "Zr1fdsbkiAR"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_OIE",
+          "id": "pbZna7luFaM",
+          "userGroupUid": "pbZna7luFaM"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "code": "Op_Age_unknown",
+      "created": "2016-03-29T21:07:01.840",
+      "id": "w5ItMDKuO20",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "Age Unknown",
+      "publicAccess": "--------",
+      "shortName": "Age Unknwon",
+      "translations": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-r-----",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQ",
+          "id": "BMxt1NZML9e",
+          "userGroupUid": "BMxt1NZML9e"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_AFRO_Ghana",
+          "id": "CoxTaSDd4Bz",
+          "userGroupUid": "CoxTaSDd4Bz"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_demo",
+          "id": "Fs9vCVCHjlE",
+          "userGroupUid": "Fs9vCVCHjlE"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_Dispatch_HQ",
+          "id": "I95k8bm5q5J",
+          "userGroupUid": "I95k8bm5q5J"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Mycetoma_HQ",
+          "id": "IPzz6wlkIp0",
+          "userGroupUid": "IPzz6wlkIp0"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EMRO",
+          "id": "K40P7b1JFdc",
+          "userGroupUid": "K40P7b1JFdc"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "Rabies Estimates",
+          "id": "K7VPSVrAYeV",
+          "userGroupUid": "K7VPSVrAYeV"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock",
+          "id": "LCs79RaVi0a",
+          "userGroupUid": "LCs79RaVi0a"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQPublish",
+          "id": "MYa3lh5k0Yq",
+          "userGroupUid": "MYa3lh5k0Yq"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EURO_Armenia",
+          "id": "TNA9oGI43e4",
+          "userGroupUid": "TNA9oGI43e4"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_Yaws_AggDataCapture",
+          "id": "TUL6Ftyw9j6",
+          "userGroupUid": "TUL6Ftyw9j6"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_Rabies_Unofficial",
+          "id": "VONeiGGohxr",
+          "userGroupUid": "VONeiGGohxr"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NTD_Rabies_WHO Official",
+          "id": "Zr1fdsbkiAR",
+          "userGroupUid": "Zr1fdsbkiAR"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Yaws_WHO",
+          "id": "ZvxncLTan3w",
+          "userGroupUid": "ZvxncLTan3w"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_OIE",
+          "id": "pbZna7luFaM",
+          "userGroupUid": "pbZna7luFaM"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
+          "id": "phezIKUxlC2",
+          "userGroupUid": "phezIKUxlC2"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EURO",
+          "id": "tEOUdu1ala4",
+          "userGroupUid": "tEOUdu1ala4"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "code": "Op_BU_Cat_I",
+      "created": "2016-06-08T09:07:56.820",
+      "id": "OjTZlEq5DU6",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "Cat I",
+      "publicAccess": "--------",
+      "shortName": "Cat I",
+      "translations": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-r-----",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQ",
+          "id": "BMxt1NZML9e",
+          "userGroupUid": "BMxt1NZML9e"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_AFRO_Ghana",
+          "id": "CoxTaSDd4Bz",
+          "userGroupUid": "CoxTaSDd4Bz"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_demo",
+          "id": "Fs9vCVCHjlE",
+          "userGroupUid": "Fs9vCVCHjlE"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_Dispatch_HQ",
+          "id": "I95k8bm5q5J",
+          "userGroupUid": "I95k8bm5q5J"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Mycetoma_HQ",
+          "id": "IPzz6wlkIp0",
+          "userGroupUid": "IPzz6wlkIp0"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EMRO",
+          "id": "K40P7b1JFdc",
+          "userGroupUid": "K40P7b1JFdc"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "Rabies Estimates",
+          "id": "K7VPSVrAYeV",
+          "userGroupUid": "K7VPSVrAYeV"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock",
+          "id": "LCs79RaVi0a",
+          "userGroupUid": "LCs79RaVi0a"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQPublish",
+          "id": "MYa3lh5k0Yq",
+          "userGroupUid": "MYa3lh5k0Yq"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EURO_Armenia",
+          "id": "TNA9oGI43e4",
+          "userGroupUid": "TNA9oGI43e4"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_Rabies_Unofficial",
+          "id": "VONeiGGohxr",
+          "userGroupUid": "VONeiGGohxr"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NTD_Rabies_WHO Official",
+          "id": "Zr1fdsbkiAR",
+          "userGroupUid": "Zr1fdsbkiAR"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Yaws_WHO",
+          "id": "ZvxncLTan3w",
+          "userGroupUid": "ZvxncLTan3w"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_OIE",
+          "id": "pbZna7luFaM",
+          "userGroupUid": "pbZna7luFaM"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
+          "id": "phezIKUxlC2",
+          "userGroupUid": "phezIKUxlC2"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EURO",
+          "id": "tEOUdu1ala4",
+          "userGroupUid": "tEOUdu1ala4"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "code": "Op_BU_Cat_II",
+      "created": "2016-06-08T09:07:56.983",
+      "id": "FMJprslIeSG",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "Cat II",
+      "publicAccess": "--------",
+      "shortName": "Cat II",
+      "translations": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-r-----",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQ",
+          "id": "BMxt1NZML9e",
+          "userGroupUid": "BMxt1NZML9e"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_AFRO_Ghana",
+          "id": "CoxTaSDd4Bz",
+          "userGroupUid": "CoxTaSDd4Bz"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_demo",
+          "id": "Fs9vCVCHjlE",
+          "userGroupUid": "Fs9vCVCHjlE"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_Dispatch_HQ",
+          "id": "I95k8bm5q5J",
+          "userGroupUid": "I95k8bm5q5J"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Mycetoma_HQ",
+          "id": "IPzz6wlkIp0",
+          "userGroupUid": "IPzz6wlkIp0"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EMRO",
+          "id": "K40P7b1JFdc",
+          "userGroupUid": "K40P7b1JFdc"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "Rabies Estimates",
+          "id": "K7VPSVrAYeV",
+          "userGroupUid": "K7VPSVrAYeV"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock",
+          "id": "LCs79RaVi0a",
+          "userGroupUid": "LCs79RaVi0a"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQPublish",
+          "id": "MYa3lh5k0Yq",
+          "userGroupUid": "MYa3lh5k0Yq"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EURO_Armenia",
+          "id": "TNA9oGI43e4",
+          "userGroupUid": "TNA9oGI43e4"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_Rabies_Unofficial",
+          "id": "VONeiGGohxr",
+          "userGroupUid": "VONeiGGohxr"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NTD_Rabies_WHO Official",
+          "id": "Zr1fdsbkiAR",
+          "userGroupUid": "Zr1fdsbkiAR"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Yaws_WHO",
+          "id": "ZvxncLTan3w",
+          "userGroupUid": "ZvxncLTan3w"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_OIE",
+          "id": "pbZna7luFaM",
+          "userGroupUid": "pbZna7luFaM"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
+          "id": "phezIKUxlC2",
+          "userGroupUid": "phezIKUxlC2"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EURO",
+          "id": "tEOUdu1ala4",
+          "userGroupUid": "tEOUdu1ala4"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "code": "Op_BU_Cat_III",
+      "created": "2016-06-08T09:07:57.152",
+      "id": "rduPRxceiXM",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "Cat III",
+      "publicAccess": "--------",
+      "shortName": "Cat III",
+      "translations": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-r-----",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQ",
+          "id": "BMxt1NZML9e",
+          "userGroupUid": "BMxt1NZML9e"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_AFRO_Ghana",
+          "id": "CoxTaSDd4Bz",
+          "userGroupUid": "CoxTaSDd4Bz"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_demo",
+          "id": "Fs9vCVCHjlE",
+          "userGroupUid": "Fs9vCVCHjlE"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_Dispatch_HQ",
+          "id": "I95k8bm5q5J",
+          "userGroupUid": "I95k8bm5q5J"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Mycetoma_HQ",
+          "id": "IPzz6wlkIp0",
+          "userGroupUid": "IPzz6wlkIp0"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EMRO",
+          "id": "K40P7b1JFdc",
+          "userGroupUid": "K40P7b1JFdc"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "Rabies Estimates",
+          "id": "K7VPSVrAYeV",
+          "userGroupUid": "K7VPSVrAYeV"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock",
+          "id": "LCs79RaVi0a",
+          "userGroupUid": "LCs79RaVi0a"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQPublish",
+          "id": "MYa3lh5k0Yq",
+          "userGroupUid": "MYa3lh5k0Yq"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EURO_Armenia",
+          "id": "TNA9oGI43e4",
+          "userGroupUid": "TNA9oGI43e4"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_Rabies_Unofficial",
+          "id": "VONeiGGohxr",
+          "userGroupUid": "VONeiGGohxr"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NTD_Rabies_WHO Official",
+          "id": "Zr1fdsbkiAR",
+          "userGroupUid": "Zr1fdsbkiAR"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Yaws_WHO",
+          "id": "ZvxncLTan3w",
+          "userGroupUid": "ZvxncLTan3w"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_OIE",
+          "id": "pbZna7luFaM",
+          "userGroupUid": "pbZna7luFaM"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
+          "id": "phezIKUxlC2",
+          "userGroupUid": "phezIKUxlC2"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EURO",
+          "id": "tEOUdu1ala4",
+          "userGroupUid": "tEOUdu1ala4"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "code": "Op_BU_Cat_unknown",
+      "created": "2016-09-13T18:45:25.739",
+      "id": "msTyBF6xVJI",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "Category unknown",
+      "publicAccess": "--------",
+      "shortName": "Category unknown",
+      "translations": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-r-----",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQ",
+          "id": "BMxt1NZML9e",
+          "userGroupUid": "BMxt1NZML9e"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_AFRO_Ghana",
+          "id": "CoxTaSDd4Bz",
+          "userGroupUid": "CoxTaSDd4Bz"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_demo",
+          "id": "Fs9vCVCHjlE",
+          "userGroupUid": "Fs9vCVCHjlE"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_Dispatch_HQ",
+          "id": "I95k8bm5q5J",
+          "userGroupUid": "I95k8bm5q5J"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Mycetoma_HQ",
+          "id": "IPzz6wlkIp0",
+          "userGroupUid": "IPzz6wlkIp0"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EMRO",
+          "id": "K40P7b1JFdc",
+          "userGroupUid": "K40P7b1JFdc"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "Rabies Estimates",
+          "id": "K7VPSVrAYeV",
+          "userGroupUid": "K7VPSVrAYeV"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock",
+          "id": "LCs79RaVi0a",
+          "userGroupUid": "LCs79RaVi0a"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQPublish",
+          "id": "MYa3lh5k0Yq",
+          "userGroupUid": "MYa3lh5k0Yq"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EURO_Armenia",
+          "id": "TNA9oGI43e4",
+          "userGroupUid": "TNA9oGI43e4"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_Rabies_Unofficial",
+          "id": "VONeiGGohxr",
+          "userGroupUid": "VONeiGGohxr"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NTD_Rabies_WHO Official",
+          "id": "Zr1fdsbkiAR",
+          "userGroupUid": "Zr1fdsbkiAR"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Yaws_WHO",
+          "id": "ZvxncLTan3w",
+          "userGroupUid": "ZvxncLTan3w"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_OIE",
+          "id": "pbZna7luFaM",
+          "userGroupUid": "pbZna7luFaM"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
+          "id": "phezIKUxlC2",
+          "userGroupUid": "phezIKUxlC2"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EURO",
+          "id": "tEOUdu1ala4",
+          "userGroupUid": "tEOUdu1ala4"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "code": "Op_Gender_Female",
+      "created": "2016-03-29T21:07:01.625",
+      "id": "tZftZ03eewT",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "name": "Female",
+      "publicAccess": "--------",
+      "shortName": "Female",
+      "translations": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-r-----",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQ",
+          "id": "BMxt1NZML9e",
+          "userGroupUid": "BMxt1NZML9e"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_AFRO_Ghana",
+          "id": "CoxTaSDd4Bz",
+          "userGroupUid": "CoxTaSDd4Bz"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_demo",
+          "id": "Fs9vCVCHjlE",
+          "userGroupUid": "Fs9vCVCHjlE"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_Dispatch_HQ",
+          "id": "I95k8bm5q5J",
+          "userGroupUid": "I95k8bm5q5J"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Mycetoma_HQ",
+          "id": "IPzz6wlkIp0",
+          "userGroupUid": "IPzz6wlkIp0"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EMRO",
+          "id": "K40P7b1JFdc",
+          "userGroupUid": "K40P7b1JFdc"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "Rabies Estimates",
+          "id": "K7VPSVrAYeV",
+          "userGroupUid": "K7VPSVrAYeV"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock",
+          "id": "LCs79RaVi0a",
+          "userGroupUid": "LCs79RaVi0a"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQPublish",
+          "id": "MYa3lh5k0Yq",
+          "userGroupUid": "MYa3lh5k0Yq"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EURO_Armenia",
+          "id": "TNA9oGI43e4",
+          "userGroupUid": "TNA9oGI43e4"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_Yaws_AggDataCapture",
+          "id": "TUL6Ftyw9j6",
+          "userGroupUid": "TUL6Ftyw9j6"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_Rabies_Unofficial",
+          "id": "VONeiGGohxr",
+          "userGroupUid": "VONeiGGohxr"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NTD_Rabies_WHO Official",
+          "id": "Zr1fdsbkiAR",
+          "userGroupUid": "Zr1fdsbkiAR"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Yaws_WHO",
+          "id": "ZvxncLTan3w",
+          "userGroupUid": "ZvxncLTan3w"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_OIE",
+          "id": "pbZna7luFaM",
+          "userGroupUid": "pbZna7luFaM"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
+          "id": "phezIKUxlC2",
+          "userGroupUid": "phezIKUxlC2"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EURO",
+          "id": "tEOUdu1ala4",
+          "userGroupUid": "tEOUdu1ala4"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "code": "Gender_9",
+      "created": "2016-03-29T21:07:01.664",
+      "id": "NuBMsmUyzDA",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "name": "Gender Unknown",
+      "publicAccess": "--------",
+      "shortName": "Gender Unknown",
+      "translations": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-r-----",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQ",
+          "id": "BMxt1NZML9e",
+          "userGroupUid": "BMxt1NZML9e"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_AFRO_Ghana",
+          "id": "CoxTaSDd4Bz",
+          "userGroupUid": "CoxTaSDd4Bz"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_demo",
+          "id": "Fs9vCVCHjlE",
+          "userGroupUid": "Fs9vCVCHjlE"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_Dispatch_HQ",
+          "id": "I95k8bm5q5J",
+          "userGroupUid": "I95k8bm5q5J"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Mycetoma_HQ",
+          "id": "IPzz6wlkIp0",
+          "userGroupUid": "IPzz6wlkIp0"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EMRO",
+          "id": "K40P7b1JFdc",
+          "userGroupUid": "K40P7b1JFdc"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "Rabies Estimates",
+          "id": "K7VPSVrAYeV",
+          "userGroupUid": "K7VPSVrAYeV"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock",
+          "id": "LCs79RaVi0a",
+          "userGroupUid": "LCs79RaVi0a"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQPublish",
+          "id": "MYa3lh5k0Yq",
+          "userGroupUid": "MYa3lh5k0Yq"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EURO_Armenia",
+          "id": "TNA9oGI43e4",
+          "userGroupUid": "TNA9oGI43e4"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_Yaws_AggDataCapture",
+          "id": "TUL6Ftyw9j6",
+          "userGroupUid": "TUL6Ftyw9j6"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_Rabies_Unofficial",
+          "id": "VONeiGGohxr",
+          "userGroupUid": "VONeiGGohxr"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NTD_Rabies_WHO Official",
+          "id": "Zr1fdsbkiAR",
+          "userGroupUid": "Zr1fdsbkiAR"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Yaws_WHO",
+          "id": "ZvxncLTan3w",
+          "userGroupUid": "ZvxncLTan3w"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_OIE",
+          "id": "pbZna7luFaM",
+          "userGroupUid": "pbZna7luFaM"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
+          "id": "phezIKUxlC2",
+          "userGroupUid": "phezIKUxlC2"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EURO",
+          "id": "tEOUdu1ala4",
+          "userGroupUid": "tEOUdu1ala4"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "code": "Op_Gender_Male",
+      "created": "2016-03-29T21:07:01.529",
+      "id": "qmsg1OVBqif",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "name": "Male",
+      "publicAccess": "--------",
+      "shortName": "Male",
+      "translations": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-r-----",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQ",
+          "id": "BMxt1NZML9e",
+          "userGroupUid": "BMxt1NZML9e"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_AFRO_Ghana",
+          "id": "CoxTaSDd4Bz",
+          "userGroupUid": "CoxTaSDd4Bz"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_demo",
+          "id": "Fs9vCVCHjlE",
+          "userGroupUid": "Fs9vCVCHjlE"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_Dispatch_HQ",
+          "id": "I95k8bm5q5J",
+          "userGroupUid": "I95k8bm5q5J"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Mycetoma_HQ",
+          "id": "IPzz6wlkIp0",
+          "userGroupUid": "IPzz6wlkIp0"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EMRO",
+          "id": "K40P7b1JFdc",
+          "userGroupUid": "K40P7b1JFdc"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "Rabies Estimates",
+          "id": "K7VPSVrAYeV",
+          "userGroupUid": "K7VPSVrAYeV"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock",
+          "id": "LCs79RaVi0a",
+          "userGroupUid": "LCs79RaVi0a"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQPublish",
+          "id": "MYa3lh5k0Yq",
+          "userGroupUid": "MYa3lh5k0Yq"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EURO_Armenia",
+          "id": "TNA9oGI43e4",
+          "userGroupUid": "TNA9oGI43e4"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_Yaws_AggDataCapture",
+          "id": "TUL6Ftyw9j6",
+          "userGroupUid": "TUL6Ftyw9j6"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_Rabies_Unofficial",
+          "id": "VONeiGGohxr",
+          "userGroupUid": "VONeiGGohxr"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NTD_Rabies_WHO Official",
+          "id": "Zr1fdsbkiAR",
+          "userGroupUid": "Zr1fdsbkiAR"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Yaws_WHO",
+          "id": "ZvxncLTan3w",
+          "userGroupUid": "ZvxncLTan3w"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_OIE",
+          "id": "pbZna7luFaM",
+          "userGroupUid": "pbZna7luFaM"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
+          "id": "phezIKUxlC2",
+          "userGroupUid": "phezIKUxlC2"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EURO",
+          "id": "tEOUdu1ala4",
+          "userGroupUid": "tEOUdu1ala4"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "code": "Op_Age_under5",
+      "created": "2016-03-29T21:07:01.700",
+      "id": "vZ0WdHAROAy",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "name": "Under 5y",
+      "publicAccess": "--------",
+      "shortName": "Under 5y",
+      "translations": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-r-----",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQ",
+          "id": "BMxt1NZML9e",
+          "userGroupUid": "BMxt1NZML9e"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_AFRO_Ghana",
+          "id": "CoxTaSDd4Bz",
+          "userGroupUid": "CoxTaSDd4Bz"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_demo",
+          "id": "Fs9vCVCHjlE",
+          "userGroupUid": "Fs9vCVCHjlE"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_Dispatch_HQ",
+          "id": "I95k8bm5q5J",
+          "userGroupUid": "I95k8bm5q5J"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Mycetoma_HQ",
+          "id": "IPzz6wlkIp0",
+          "userGroupUid": "IPzz6wlkIp0"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EMRO",
+          "id": "K40P7b1JFdc",
+          "userGroupUid": "K40P7b1JFdc"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "Rabies Estimates",
+          "id": "K7VPSVrAYeV",
+          "userGroupUid": "K7VPSVrAYeV"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock",
+          "id": "LCs79RaVi0a",
+          "userGroupUid": "LCs79RaVi0a"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQPublish",
+          "id": "MYa3lh5k0Yq",
+          "userGroupUid": "MYa3lh5k0Yq"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EURO_Armenia",
+          "id": "TNA9oGI43e4",
+          "userGroupUid": "TNA9oGI43e4"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_Yaws_AggDataCapture",
+          "id": "TUL6Ftyw9j6",
+          "userGroupUid": "TUL6Ftyw9j6"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_Rabies_Unofficial",
+          "id": "VONeiGGohxr",
+          "userGroupUid": "VONeiGGohxr"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NTD_Rabies_WHO Official",
+          "id": "Zr1fdsbkiAR",
+          "userGroupUid": "Zr1fdsbkiAR"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Yaws_WHO",
+          "id": "ZvxncLTan3w",
+          "userGroupUid": "ZvxncLTan3w"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_OIE",
+          "id": "pbZna7luFaM",
+          "userGroupUid": "pbZna7luFaM"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
+          "id": "phezIKUxlC2",
+          "userGroupUid": "phezIKUxlC2"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EURO",
+          "id": "tEOUdu1ala4",
+          "userGroupUid": "tEOUdu1ala4"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "code": "default",
+      "created": "2017-05-10T17:53:55.138",
+      "id": "Y7fcspgsU43",
+      "name": "default",
+      "publicAccess": "--rw----",
+      "shortName": "default",
+      "translations": [],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ],
+  "dataElements": [
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "MeoSuM1SQ1f"
+      },
+      "code": "BU_Cl_Cat",
+      "created": "2018-05-09T22:26:29.218",
+      "description": "Category I: A single lesion 5cm or less / Category II: A single lesion 5-15cm / Category III: A single lesion more than 15 cm or multiple lesions or lesions at critical sites or osteomyelitis",
+      "domainType": "AGGREGATE",
+      "formName": "Number of new BU cases by category",
+      "id": "OG5wWMlhrxv",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "BU_Cl_Cat",
+      "publicAccess": "--------",
+      "shortName": "# BU cases by category",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Nombre de cas d'ulc�re de Buruli par cat�gorie"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Cas d'ulc�re de Buruli par cat�gorie"
+        }
+      ],
+      "user": {
+        "id": "ilJDyuqlwDC"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": true
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "BU_CL_JointLim",
+      "created": "2018-05-09T22:26:29.218",
+      "domainType": "AGGREGATE",
+      "formName": "Number of new BU cases with joint limitation at diagnosis",
+      "id": "uhG3oatUV6j",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "BU_Cl_JointLim",
+      "publicAccess": "--------",
+      "shortName": "# BU cases with joint limitation",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Nombre de cas pr�sentant une limitation articulaire au moment du diagnostique"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Cas pr�sentant une limitation articulaire au moment du diagnostique"
+        }
+      ],
+      "user": {
+        "id": "ilJDyuqlwDC"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": true
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "BU_Cl_Ulcer",
+      "created": "2018-05-09T22:26:29.218",
+      "description": "An ulcer is a painless skin lesion characterized by a necrotic center, undermined edges and oedematous skin. ",
+      "domainType": "AGGREGATE",
+      "formName": "Number of new ulcerative BU cases",
+      "id": "UVEjNoZCtNQ",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "BU_Cl_Ulcer",
+      "publicAccess": "--------",
+      "shortName": "# BU cases with ulcerative cases",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Nombre de cas pr�sentant un ulc�re"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Cas pr�sentant un ulc�re"
+        }
+      ],
+      "user": {
+        "id": "ilJDyuqlwDC"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": true
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "E0cSdwztY5K"
+      },
+      "code": "BU_EPI_Age",
+      "created": "2018-05-09T22:26:29.218",
+      "domainType": "AGGREGATE",
+      "formName": "Number of new BU cases (by age group)",
+      "id": "mBDooPcvqRy",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "BU_EPI_Age",
+      "publicAccess": "--------",
+      "shortName": "# BU cases (by age group)",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Nombre de cas d'ulc�re de Buruli (par groupe d'�ge)"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Cas d'ulc�re de Buruli (par groupe d'�ge)"
+        }
+      ],
+      "user": {
+        "id": "ilJDyuqlwDC"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": true
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "BU_EPI_AnnualCases",
+      "created": "2018-05-09T22:26:29.218",
+      "description": "WHO defines a Buruli ulcer case as any person with painless nodule, papule, plaque or oedema evolving into a painless ulcer with undermined edges, often leading to invalidating sequelae in an endemic area.",
+      "domainType": "AGGREGATE",
+      "formName": "Number of new BU cases diagnosed within reporting year",
+      "id": "tOpVIYrnbhk",
+      "lastUpdatedBy": {
+        "id": "ilJDyuqlwDC"
+      },
+      "legendSets": [],
+      "name": "BU_EPI_AnnualCases",
+      "publicAccess": "--------",
+      "shortName": "# annual new BU cases",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": " OMS définit un cas d'ulcere de  Buruli comme toute personne présentant des nodule, papule, plaque ou oedeme, sans douleur,  evoluant en ulcère avec des bords minces, souvent menant à des séquelles invalidantes, dans une zone d'endémie."
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Nombre annuel de cas d'ulcere de Buruli"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "UB_EPI_Cas_Annuel"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "# annuel de cas d'ulcere de Buruli"
+        }
+      ],
+      "user": {
+        "id": "ilJDyuqlwDC"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": true
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "VygZ6pni0XS"
+      },
+      "code": "BU_EPI_Gender",
+      "created": "2018-05-09T22:26:29.218",
+      "domainType": "AGGREGATE",
+      "formName": "Number of new BU cases (by gender)",
+      "id": "zqv3IsyTYta",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "BU_EPI_Gender",
+      "publicAccess": "--------",
+      "shortName": "# BU cases (by gender)",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Nombre de cas d'ulc�re de Buruli (par genre)"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Cas d'ulc�re de Buruli (par genre)"
+        }
+      ],
+      "user": {
+        "id": "ilJDyuqlwDC"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": true
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "BU_Lab_PCRconfirmation",
+      "created": "2018-05-09T22:26:29.218",
+      "domainType": "AGGREGATE",
+      "formName": "Number of new BU cases confirmed by PCR",
+      "id": "IjrtWEc8Oei",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "BU_Lab_PCRconfirmation",
+      "publicAccess": "--------",
+      "shortName": "# PCR confirmed BU cases",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Nombre de cas confim�s par PCR"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Cas confim�s par PCR"
+        }
+      ],
+      "user": {
+        "id": "ilJDyuqlwDC"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": true
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "BU_Tx_ABcompletion",
+      "created": "2018-05-09T22:26:29.218",
+      "description": "Treatment consists of a combination of antibiotics and complementary treatments (under morbidity management and disability prevention/rehabilitation). Treatment guidance for health workers can be found in the WHO publication \"Treatment of mycobacterium ulcerans disease (Buruli ulcer).\"",
+      "domainType": "AGGREGATE",
+      "formName": "Number of new BU cases completing antibiotics treatment",
+      "id": "uFKSqvGwl21",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "BU_Tx_ABcompletion",
+      "publicAccess": "--------",
+      "shortName": "# BU cases completing antibiotics treatment",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Nombre de patients ayant compl�t� le traitement antibiotique"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Patients ayant compl�t� le traitement antibiotique"
+        }
+      ],
+      "user": {
+        "id": "ilJDyuqlwDC"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": true
+    }
+  ],
+  "dataSets": [
+    {
+      "attributeValues": [
+        {
+          "attribute": {
+            "id": "x8YCHCvls4r"
+          },
+          "created": "2017-01-26T14:23:29.254",
+          "value": "Op_Disease_BU"
+        }
+      ],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "DS_BU_minimum aggregated data_annual",
+      "compulsoryDataElementOperands": [],
+      "compulsoryFieldsCompleteOnly": false,
+      "created": "2016-09-13T18:51:44.713",
+      "dataElementDecoration": false,
+      "dataInputPeriods": [],
+      "dataSetElements": [
+        {
+          "categoryCombo": {
+            "id": "JzvGfLYkX17"
+          },
+          "dataElement": {
+            "id": "uhG3oatUV6j"
+          },
+          "dataSet": {
+            "id": "UFlGxXoBrLN"
+          }
+        },
+        {
+          "categoryCombo": {
+            "id": "JzvGfLYkX17"
+          },
+          "dataElement": {
+            "id": "IjrtWEc8Oei"
+          },
+          "dataSet": {
+            "id": "UFlGxXoBrLN"
+          }
+        },
+        {
+          "categoryCombo": {
+            "id": "JzvGfLYkX17"
+          },
+          "dataElement": {
+            "id": "uFKSqvGwl21"
+          },
+          "dataSet": {
+            "id": "UFlGxXoBrLN"
+          }
+        },
+        {
+          "categoryCombo": {
+            "id": "JzvGfLYkX17"
+          },
+          "dataElement": {
+            "id": "UVEjNoZCtNQ"
+          },
+          "dataSet": {
+            "id": "UFlGxXoBrLN"
+          }
+        },
+        {
+          "categoryCombo": {
+            "id": "JzvGfLYkX17"
+          },
+          "dataElement": {
+            "id": "tOpVIYrnbhk"
+          },
+          "dataSet": {
+            "id": "UFlGxXoBrLN"
+          }
+        },
+        {
+          "categoryCombo": {
+            "id": "MeoSuM1SQ1f"
+          },
+          "dataElement": {
+            "id": "OG5wWMlhrxv"
+          },
+          "dataSet": {
+            "id": "UFlGxXoBrLN"
+          }
+        },
+        {
+          "categoryCombo": {
+            "id": "VygZ6pni0XS"
+          },
+          "dataElement": {
+            "id": "zqv3IsyTYta"
+          },
+          "dataSet": {
+            "id": "UFlGxXoBrLN"
+          }
+        },
+        {
+          "categoryCombo": {
+            "id": "E0cSdwztY5K"
+          },
+          "dataElement": {
+            "id": "mBDooPcvqRy"
+          },
+          "dataSet": {
+            "id": "UFlGxXoBrLN"
+          }
+        }
+      ],
+      "expiryDays": 0,
+      "fieldCombinationRequired": false,
+      "id": "UFlGxXoBrLN",
+      "indicators": [
+        {
+          "id": "D8TeKh05msQ"
+        },
+        {
+          "id": "DjqfJ5nBxlm"
+        },
+        {
+          "id": "KiSlEe9D7SZ"
+        },
+        {
+          "id": "UBHvHs7yeEB"
+        },
+        {
+          "id": "YhT6GxOLv73"
+        },
+        {
+          "id": "fL136P7sU6J"
+        },
+        {
+          "id": "kCS3GHdIcQ9"
+        },
+        {
+          "id": "lBRFDEaxUDi"
+        },
+        {
+          "id": "rRPMIgd7usF"
+        }
+      ],
+      "lastUpdatedBy": {
+        "id": "ilJDyuqlwDC"
+      },
+      "legendSets": [],
+      "mobile": false,
+      "name": "BU_minimum aggregated data_annual",
+      "noValueRequiresComment": false,
+      "notifyCompletingUser": false,
+      "openFuturePeriods": 0,
+      "periodType": "Yearly",
+      "publicAccess": "--------",
+      "renderAsTabs": true,
+      "renderHorizontally": false,
+      "shortName": "BU_AggData_annual",
+      "skipOffline": false,
+      "timelyDays": 15,
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Ce formulaire vise à collecter les données aggrégées minimales concernant les cas d'ulcère de Buruli dans les pays endémiques."
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "UB_Données aggrégées_Annuel"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "UB_Données aggrégées_Annuel"
+        }
+      ],
+      "user": {
+        "id": "M5zQapPyTZI"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ],
+      "validCompleteOnly": false,
+      "version": 21
+    }
+  ],
+  "date": "2019-04-23T10:04:18.407",
+  "indicatorTypes": [
+    {
+      "created": "2016-04-06T03:28:40.088",
+      "factor": 100,
+      "id": "qpi4nN8Wkvl",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "name": "Percent",
+      "number": false,
+      "translations": []
+    }
+  ],
+  "indicators": [
+    {
+      "annualized": false,
+      "attributeValues": [],
+      "code": "BU JointLim%",
+      "created": "2016-11-03T18:25:35.628",
+      "decimals": 1,
+      "denominator": "#{tOpVIYrnbhk.Xr12mI7VPn3}",
+      "denominatorDescription": "Total number of BU cases (summary)",
+      "description": "Proportion of Buruli ulcer cases presenting joint limitation, based on summary data",
+      "id": "D8TeKh05msQ",
+      "indicatorType": {
+        "id": "qpi4nN8Wkvl"
+      },
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "BU Joint Lim% (Annual)",
+      "numerator": "#{uhG3oatUV6j.Xr12mI7VPn3}",
+      "numeratorDescription": "Number of BU cases with joint limitation (summary)",
+      "publicAccess": "--------",
+      "shortName": "BU Joint Lim% (Annual)",
+      "translations": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ]
+    },
+    {
+      "annualized": false,
+      "attributeValues": [],
+      "code": "BU_ABcompleted%",
+      "created": "2016-11-03T18:25:35.628",
+      "decimals": 1,
+      "denominator": "#{tOpVIYrnbhk.Xr12mI7VPn3}",
+      "denominatorDescription": "Total number of BU cases (summary)",
+      "description": "Proportion of Buruli ulcer caseswho completed AB treatment, based on summary data",
+      "id": "fL136P7sU6J",
+      "indicatorType": {
+        "id": "qpi4nN8Wkvl"
+      },
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "BU_ABcompleted%",
+      "numerator": "#{uFKSqvGwl21.Xr12mI7VPn3}",
+      "numeratorDescription": "Number of BU cases who completed AB treatment (summary)",
+      "publicAccess": "--------",
+      "shortName": "BU_Proportion who completed AB treatment",
+      "translations": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ]
+    },
+    {
+      "annualized": false,
+      "attributeValues": [],
+      "created": "2016-11-03T18:25:35.628",
+      "decimals": 1,
+      "denominator": "#{tOpVIYrnbhk.Xr12mI7VPn3}",
+      "denominatorDescription": "Total number of BU cases (summary)",
+      "description": "Proportion of Buruli ulcer cases in category I, based on summary data",
+      "id": "rRPMIgd7usF",
+      "indicatorType": {
+        "id": "qpi4nN8Wkvl"
+      },
+      "legendSets": [],
+      "name": "BU_CatI%",
+      "numerator": "#{OG5wWMlhrxv.rawZ86Q1W1k}",
+      "numeratorDescription": "Number of BU cases in category I (summary)",
+      "publicAccess": "--------",
+      "shortName": "BU_Proportion of category I",
+      "translations": [],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ]
+    },
+    {
+      "annualized": false,
+      "attributeValues": [],
+      "created": "2016-11-03T18:25:35.628",
+      "decimals": 1,
+      "denominator": "#{tOpVIYrnbhk.Xr12mI7VPn3}",
+      "denominatorDescription": "Total number of BU cases (summary)",
+      "description": "Proportion of Buruli ulcer cases in category II, based on summary data",
+      "id": "DjqfJ5nBxlm",
+      "indicatorType": {
+        "id": "qpi4nN8Wkvl"
+      },
+      "legendSets": [],
+      "name": "BU_CatII%",
+      "numerator": "#{OG5wWMlhrxv.j5fsvsfsaJ3}",
+      "numeratorDescription": "Number of BU cases in category II (summary)",
+      "publicAccess": "--------",
+      "shortName": "BU_Proportion of category II",
+      "translations": [],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ]
+    },
+    {
+      "annualized": false,
+      "attributeValues": [],
+      "created": "2016-11-03T18:25:35.628",
+      "decimals": 1,
+      "denominator": "#{tOpVIYrnbhk.Xr12mI7VPn3}",
+      "denominatorDescription": "Total number of BU cases (summary)",
+      "description": "Proportion of Buruli ulcer cases in category III, based on summary data",
+      "id": "KiSlEe9D7SZ",
+      "indicatorType": {
+        "id": "qpi4nN8Wkvl"
+      },
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "BU_CatIII%",
+      "numerator": "#{OG5wWMlhrxv.c7ypRdqByt7}",
+      "numeratorDescription": "Number of BU cases in category III (summary)",
+      "publicAccess": "--------",
+      "shortName": "BU_Proportion of category III",
+      "translations": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ]
+    },
+    {
+      "annualized": false,
+      "attributeValues": [],
+      "created": "2016-11-03T18:25:35.628",
+      "decimals": 1,
+      "denominator": "#{tOpVIYrnbhk.Xr12mI7VPn3}",
+      "denominatorDescription": "Total number of BU cases (summary)",
+      "description": "Proportion of female among the Buruli ulcer cases, based on summary data",
+      "id": "YhT6GxOLv73",
+      "indicatorType": {
+        "id": "qpi4nN8Wkvl"
+      },
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "BU_Female%",
+      "numerator": "#{zqv3IsyTYta.V2LdgcGgFQt}",
+      "numeratorDescription": "Number of female BU cases (summary)",
+      "publicAccess": "--------",
+      "shortName": "BU_Proportion of Female",
+      "translations": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ]
+    },
+    {
+      "annualized": false,
+      "attributeValues": [],
+      "code": "BU_PCR%",
+      "created": "2016-11-03T18:25:35.628",
+      "decimals": 1,
+      "denominator": "#{tOpVIYrnbhk.Xr12mI7VPn3}",
+      "denominatorDescription": "Total number of BU cases (summary)",
+      "description": "Proportion of Buruli ulcer cases confirmed by PCR, based on summary data",
+      "id": "UBHvHs7yeEB",
+      "indicatorType": {
+        "id": "qpi4nN8Wkvl"
+      },
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "BU_PCR%",
+      "numerator": "#{IjrtWEc8Oei.Xr12mI7VPn3}",
+      "numeratorDescription": "Number of BU cases confirmed by PCR (summary)",
+      "publicAccess": "--------",
+      "shortName": "BU_Proportion of BU cases confirmed by PCR",
+      "translations": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ]
+    },
+    {
+      "annualized": false,
+      "attributeValues": [],
+      "code": "BU_Ulcer%",
+      "created": "2016-11-03T18:25:35.628",
+      "decimals": 1,
+      "denominator": "#{tOpVIYrnbhk.Xr12mI7VPn3}",
+      "denominatorDescription": "Total number of BU cases (summary)",
+      "description": "Proportion of Buruli ulcer cases presenting at least on ulcerative lesion, based on summary data",
+      "id": "kCS3GHdIcQ9",
+      "indicatorType": {
+        "id": "qpi4nN8Wkvl"
+      },
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "BU_Ulcer%",
+      "numerator": "#{UVEjNoZCtNQ.Xr12mI7VPn3}",
+      "numeratorDescription": "Number of BU cases with ulcerative lesions (summary)",
+      "publicAccess": "--------",
+      "shortName": "BU_Proportion of ulcerative lesions",
+      "translations": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ]
+    },
+    {
+      "annualized": false,
+      "attributeValues": [],
+      "created": "2016-11-03T18:25:35.628",
+      "decimals": 1,
+      "denominator": "#{tOpVIYrnbhk.Xr12mI7VPn3}",
+      "denominatorDescription": "Total number of BU cases (summary)",
+      "description": "Proportion of children under 15 years of age among the Buruli ulcer cases, based on summary data",
+      "id": "lBRFDEaxUDi",
+      "indicatorType": {
+        "id": "qpi4nN8Wkvl"
+      },
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "BU_under15y_%",
+      "numerator": "#{mBDooPcvqRy.HDXcEOGT2s1} + #{mBDooPcvqRy.DOJartWGuff}",
+      "numeratorDescription": "Number of BU cases under 15y (summary)",
+      "publicAccess": "--------",
+      "shortName": "BU_Proportion under 15 years",
+      "translations": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "attributeValues": [],
+      "created": "2016-09-13T19:00:03.549",
+      "dataElements": [
+        {
+          "id": "mBDooPcvqRy"
+        }
+      ],
+      "dataSet": {
+        "id": "UFlGxXoBrLN"
+      },
+      "greyedFields": [],
+      "id": "Kezjqdh1jTo",
+      "indicators": [
+        {
+          "id": "lBRFDEaxUDi"
+        }
+      ],
+      "lastUpdatedBy": {
+        "id": "ilJDyuqlwDC"
+      },
+      "name": "Age distribution",
+      "showColumnTotals": false,
+      "showRowTotals": true,
+      "sortOrder": 3,
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Age"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2016-09-13T18:59:01.131",
+      "dataElements": [
+        {
+          "id": "tOpVIYrnbhk"
+        }
+      ],
+      "dataSet": {
+        "id": "UFlGxXoBrLN"
+      },
+      "greyedFields": [],
+      "id": "BeeDF5zVOMx",
+      "indicators": [],
+      "lastUpdatedBy": {
+        "id": "ilJDyuqlwDC"
+      },
+      "name": "Annual cases",
+      "showColumnTotals": false,
+      "showRowTotals": false,
+      "sortOrder": 1,
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Cas annuels"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2016-09-13T19:00:38.443",
+      "dataElements": [
+        {
+          "id": "OG5wWMlhrxv"
+        }
+      ],
+      "dataSet": {
+        "id": "UFlGxXoBrLN"
+      },
+      "greyedFields": [],
+      "id": "lHLpE7qxWn0",
+      "indicators": [
+        {
+          "id": "DjqfJ5nBxlm"
+        },
+        {
+          "id": "KiSlEe9D7SZ"
+        },
+        {
+          "id": "rRPMIgd7usF"
+        }
+      ],
+      "lastUpdatedBy": {
+        "id": "ilJDyuqlwDC"
+      },
+      "name": "Category",
+      "showColumnTotals": false,
+      "showRowTotals": true,
+      "sortOrder": 9,
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Catégorie"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2016-09-13T18:59:23.529",
+      "dataElements": [
+        {
+          "id": "UVEjNoZCtNQ"
+        },
+        {
+          "id": "uhG3oatUV6j"
+        }
+      ],
+      "dataSet": {
+        "id": "UFlGxXoBrLN"
+      },
+      "greyedFields": [],
+      "id": "r4oHhOkUHAC",
+      "indicators": [
+        {
+          "id": "D8TeKh05msQ"
+        },
+        {
+          "id": "kCS3GHdIcQ9"
+        }
+      ],
+      "lastUpdatedBy": {
+        "id": "ilJDyuqlwDC"
+      },
+      "name": "Clinical presentation",
+      "showColumnTotals": false,
+      "showRowTotals": false,
+      "sortOrder": 7,
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Présentation clinique"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2016-09-13T19:00:26.656",
+      "dataElements": [
+        {
+          "id": "zqv3IsyTYta"
+        }
+      ],
+      "dataSet": {
+        "id": "UFlGxXoBrLN"
+      },
+      "greyedFields": [],
+      "id": "jbaDBc7dlSF",
+      "indicators": [
+        {
+          "id": "YhT6GxOLv73"
+        }
+      ],
+      "lastUpdatedBy": {
+        "id": "ilJDyuqlwDC"
+      },
+      "name": "Gender distribution",
+      "showColumnTotals": false,
+      "showRowTotals": true,
+      "sortOrder": 5,
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Genre"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2016-09-13T18:59:35.891",
+      "dataElements": [
+        {
+          "id": "IjrtWEc8Oei"
+        }
+      ],
+      "dataSet": {
+        "id": "UFlGxXoBrLN"
+      },
+      "greyedFields": [],
+      "id": "DJvf2FRfLtR",
+      "indicators": [
+        {
+          "id": "UBHvHs7yeEB"
+        }
+      ],
+      "lastUpdatedBy": {
+        "id": "ilJDyuqlwDC"
+      },
+      "name": "Lab",
+      "showColumnTotals": false,
+      "showRowTotals": false,
+      "sortOrder": 11,
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Laboratoire"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2016-09-13T18:59:44.619",
+      "dataElements": [
+        {
+          "id": "uFKSqvGwl21"
+        }
+      ],
+      "dataSet": {
+        "id": "UFlGxXoBrLN"
+      },
+      "greyedFields": [],
+      "id": "U0o85pTAXUl",
+      "indicators": [
+        {
+          "id": "fL136P7sU6J"
+        }
+      ],
+      "lastUpdatedBy": {
+        "id": "ilJDyuqlwDC"
+      },
+      "name": "Treatment",
+      "showColumnTotals": false,
+      "showRowTotals": false,
+      "sortOrder": 13,
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Traitement"
+        }
+      ]
+    }
+  ]
+}

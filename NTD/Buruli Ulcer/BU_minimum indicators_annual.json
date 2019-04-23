@@ -1,0 +1,1728 @@
+{
+  "attributes": [
+    {
+      "categoryAttribute": false,
+      "categoryOptionAttribute": false,
+      "categoryOptionComboAttribute": false,
+      "categoryOptionGroupAttribute": false,
+      "categoryOptionGroupSetAttribute": false,
+      "code": "At_Disease",
+      "constantAttribute": false,
+      "created": "2017-01-26T14:12:52.745",
+      "dataElementAttribute": false,
+      "dataElementGroupAttribute": false,
+      "dataElementGroupSetAttribute": false,
+      "dataSetAttribute": true,
+      "documentAttribute": false,
+      "id": "x8YCHCvls4r",
+      "indicatorAttribute": false,
+      "indicatorGroupAttribute": false,
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSetAttribute": false,
+      "mandatory": false,
+      "name": "Disease",
+      "optionAttribute": false,
+      "optionSet": {
+        "id": "r0czxkQrRQY"
+      },
+      "optionSetAttribute": false,
+      "organisationUnitAttribute": false,
+      "organisationUnitGroupAttribute": false,
+      "organisationUnitGroupSetAttribute": false,
+      "programAttribute": true,
+      "programIndicatorAttribute": false,
+      "programStageAttribute": false,
+      "publicAccess": "--------",
+      "sectionAttribute": false,
+      "sqlViewAttribute": false,
+      "trackedEntityAttributeAttribute": false,
+      "trackedEntityTypeAttribute": false,
+      "translations": [],
+      "unique": false,
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "Duplicator Event",
+          "id": "UlXOWwGGx7W",
+          "userUid": "UlXOWwGGx7W"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userAttribute": false,
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD_VL_Event_Capture",
+          "id": "AKCiUSICdUT",
+          "userGroupUid": "AKCiUSICdUT"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_EMRO",
+          "id": "K40P7b1JFdc",
+          "userGroupUid": "K40P7b1JFdc"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_VL_Event_View",
+          "id": "YWgdwKzbsnN",
+          "userGroupUid": "YWgdwKzbsnN"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
+          "id": "phezIKUxlC2",
+          "userGroupUid": "phezIKUxlC2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_PHC_VL",
+          "id": "r4gcKCyB5fF",
+          "userGroupUid": "r4gcKCyB5fF"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ],
+      "userGroupAttribute": false,
+      "validationRuleAttribute": false,
+      "validationRuleGroupAttribute": false,
+      "valueType": "TEXT"
+    }
+  ],
+  "categories": [
+    {
+      "attributeValues": [],
+      "categoryOptions": [
+        {
+          "id": "Y7fcspgsU43"
+        }
+      ],
+      "code": "default",
+      "created": "2017-05-10T17:53:55.152",
+      "dataDimension": false,
+      "dataDimensionType": "DISAGGREGATION",
+      "id": "DMyxTSpvKOp",
+      "name": "default",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ],
+  "categoryCombos": [
+    {
+      "categories": [
+        {
+          "id": "DMyxTSpvKOp"
+        }
+      ],
+      "code": "default",
+      "created": "2017-05-10T17:53:55.156",
+      "dataDimensionType": "DISAGGREGATION",
+      "id": "JzvGfLYkX17",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "default",
+      "publicAccess": "--------",
+      "skipTotal": false,
+      "translations": [],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ],
+  "categoryOptionCombos": [
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "categoryOptions": [
+        {
+          "id": "Y7fcspgsU43"
+        }
+      ],
+      "code": "default",
+      "created": "2017-05-10T17:53:55.157",
+      "id": "Xr12mI7VPn3",
+      "ignoreApproval": false,
+      "name": "default",
+      "translations": []
+    }
+  ],
+  "categoryOptions": [
+    {
+      "attributeValues": [],
+      "code": "default",
+      "created": "2017-05-10T17:53:55.138",
+      "id": "Y7fcspgsU43",
+      "name": "default",
+      "publicAccess": "--rw----",
+      "shortName": "default",
+      "translations": [],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ],
+  "dataApprovalWorkflows": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "created": "2019-03-19T09:14:53.112",
+      "dataApprovalLevels": [
+        {
+          "id": "Hj302uMNMIX"
+        },
+        {
+          "id": "i5ITkaPzxBU"
+        }
+      ],
+      "dataSets": [
+        {
+          "id": "ZO0DQJePIEH"
+        }
+      ],
+      "displayName": "BU Data Flow",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "https://extranet.who.int/dhis2-dev/api/dataApprovalWorkflows/Li5owPOqVoe",
+      "id": "Li5owPOqVoe",
+      "lastUpdatedBy": {
+        "id": "ilJDyuqlwDC"
+      },
+      "name": "BU Data Flow",
+      "periodType": "Yearly",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "ilJDyuqlwDC"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ],
+  "dataElements": [
+    {
+      "aggregationLevels": [],
+      "aggregationType": "AVERAGE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "BU_Cl_CatIII_%",
+      "created": "2017-03-12T21:49:03.997",
+      "description": "Category III: A single lesion more than 15 cm or multiple lesions or lesions at critical sites or osteomyelitis",
+      "domainType": "AGGREGATE",
+      "formName": "% category III",
+      "id": "z2JQOIDlZUn",
+      "lastUpdatedBy": {
+        "id": "ilJDyuqlwDC"
+      },
+      "legendSets": [],
+      "name": "BU_Cl_CatIII_%",
+      "publicAccess": "--------",
+      "shortName": "% category III",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Catégorie III: Une lésion unique de plus de 15 cm ou mulltiple lésions ou lésions au niveau d'un site critique ou ostéomyélite"
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "% catégorie II"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "UB_Cl_CatIII_%"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "% catégorie III"
+        }
+      ],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ],
+      "valueType": "PERCENTAGE",
+      "zeroIsSignificant": true
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "AVERAGE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "BU_Cl_CatII_%",
+      "created": "2017-03-12T21:49:03.997",
+      "description": "Category II: A single lesion 5-15cm",
+      "domainType": "AGGREGATE",
+      "formName": "% category II",
+      "id": "ckHbEc6qoyV",
+      "lastUpdatedBy": {
+        "id": "ilJDyuqlwDC"
+      },
+      "legendSets": [],
+      "name": "BU_Cl_CatII_%",
+      "publicAccess": "--------",
+      "shortName": "% category II",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Catégorie II: Une lésion unique de 5 à 15 cm"
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "% catégorie II"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "UB_Cl_CatII_%"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "% catégorie II"
+        }
+      ],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ],
+      "valueType": "PERCENTAGE",
+      "zeroIsSignificant": true
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "AVERAGE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "BU_Cl_CatI_%",
+      "created": "2017-03-12T21:49:03.997",
+      "description": "Category I: A single lesion 5cm or less",
+      "domainType": "AGGREGATE",
+      "formName": "% category I",
+      "id": "lff6zDTvFi8",
+      "lastUpdatedBy": {
+        "id": "ilJDyuqlwDC"
+      },
+      "legendSets": [],
+      "name": "BU_Cl_CatI_%",
+      "publicAccess": "--------",
+      "shortName": "% category I",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Catégorie I: Une lésion unique de 5cm ou moins"
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "% catégorie I"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "UB_Cl_CatI_%"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "% catégorie I"
+        }
+      ],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ],
+      "valueType": "PERCENTAGE",
+      "zeroIsSignificant": true
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "AVERAGE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "BU_Cl_JointLim_%",
+      "created": "2017-03-12T21:49:03.997",
+      "domainType": "AGGREGATE",
+      "formName": "% limitation of movement",
+      "id": "gUqE2t4L5UU",
+      "lastUpdatedBy": {
+        "id": "ilJDyuqlwDC"
+      },
+      "legendSets": [],
+      "name": "BU_Cl_JointLim_%",
+      "publicAccess": "--------",
+      "shortName": "% limitation of movement",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "% limitation de mouvement"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "UB_Cl_JointLim_%"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "% limitation de mouvement"
+        }
+      ],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ],
+      "valueType": "PERCENTAGE",
+      "zeroIsSignificant": true
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "AVERAGE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "BU_Cl_LowLimb_%",
+      "created": "2017-03-12T21:49:03.997",
+      "domainType": "AGGREGATE",
+      "formName": "% location on lower limbs",
+      "id": "tMY0YnV1PHQ",
+      "lastUpdatedBy": {
+        "id": "ilJDyuqlwDC"
+      },
+      "legendSets": [],
+      "name": "BU_Cl_LowLimb_%",
+      "publicAccess": "--------",
+      "shortName": "% location on lower limbs",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "% localisation membres inférieurs"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "UB_Cl_MbreInf_%"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "% membres inférieurs"
+        }
+      ],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ],
+      "valueType": "PERCENTAGE",
+      "zeroIsSignificant": true
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "AVERAGE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "BU_Cl_Ulcer_%",
+      "created": "2017-03-12T21:49:03.997",
+      "domainType": "AGGREGATE",
+      "formName": "% ulcers",
+      "id": "AD4v3ACiiXX",
+      "lastUpdatedBy": {
+        "id": "ilJDyuqlwDC"
+      },
+      "legendSets": [],
+      "name": "BU_Cl_Ulcer_%",
+      "publicAccess": "--------",
+      "shortName": "% ulcers",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "% ulcères"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "UB_Cl_Ulcere_%"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "% ulcères"
+        }
+      ],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ],
+      "valueType": "PERCENTAGE",
+      "zeroIsSignificant": true
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "BU_EPI_AnnualCases",
+      "created": "2018-05-09T22:26:29.218",
+      "description": "WHO defines a Buruli ulcer case as any person with painless nodule, papule, plaque or oedema evolving into a painless ulcer with undermined edges, often leading to invalidating sequelae in an endemic area.",
+      "domainType": "AGGREGATE",
+      "formName": "Number of new BU cases diagnosed within reporting year",
+      "id": "tOpVIYrnbhk",
+      "lastUpdatedBy": {
+        "id": "ilJDyuqlwDC"
+      },
+      "legendSets": [],
+      "name": "BU_EPI_AnnualCases",
+      "publicAccess": "--------",
+      "shortName": "# annual new BU cases",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": " OMS définit un cas d'ulcere de  Buruli comme toute personne présentant des nodule, papule, plaque ou oedeme, sans douleur,  evoluant en ulcère avec des bords minces, souvent menant à des séquelles invalidantes, dans une zone d'endémie."
+        },
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "Nombre annuel de cas d'ulcere de Buruli"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "UB_EPI_Cas_Annuel"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "# annuel de cas d'ulcere de Buruli"
+        }
+      ],
+      "user": {
+        "id": "ilJDyuqlwDC"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": true
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "AVERAGE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "BU_EPI_Female_%",
+      "created": "2017-03-12T21:49:03.996",
+      "domainType": "AGGREGATE",
+      "formName": "% females",
+      "id": "pjd3beNHprb",
+      "lastUpdatedBy": {
+        "id": "ilJDyuqlwDC"
+      },
+      "legendSets": [],
+      "name": "BU_EPI_Female_%",
+      "publicAccess": "--------",
+      "shortName": "% females",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "% femmes"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "UB_EPI_Femme_%"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "% femmes"
+        }
+      ],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ],
+      "valueType": "PERCENTAGE",
+      "zeroIsSignificant": true
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "AVERAGE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "BU_EPI_U15y_%",
+      "created": "2017-03-12T21:49:03.996",
+      "domainType": "AGGREGATE",
+      "formName": "% children under 15 years",
+      "id": "hnihvm6kXLX",
+      "lastUpdatedBy": {
+        "id": "ilJDyuqlwDC"
+      },
+      "legendSets": [],
+      "name": "BU_EPI_U15y_%",
+      "publicAccess": "--------",
+      "shortName": "% children under 15 years",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "% enfants de moins de 15 ans"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "UB_EPI_<15a_%"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "% moins de 15 ans"
+        }
+      ],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ],
+      "valueType": "PERCENTAGE",
+      "zeroIsSignificant": true
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "AVERAGE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "BU_Lab_PCRconfirmation_%",
+      "created": "2017-03-12T21:49:03.996",
+      "domainType": "AGGREGATE",
+      "formName": "% PCR confirmation",
+      "id": "ijKH3KK0Etn",
+      "lastUpdatedBy": {
+        "id": "ilJDyuqlwDC"
+      },
+      "legendSets": [],
+      "name": "BU_Lab_PCRconfirmation_%",
+      "publicAccess": "--------",
+      "shortName": "% PCR confirmation",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "% des cas confirmés par PCR"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "UB_Lab_PCRconfirmation_%"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "% confirmés par PCR"
+        }
+      ],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ],
+      "valueType": "PERCENTAGE",
+      "zeroIsSignificant": true
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "AVERAGE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "BU_Tx_ABcompletion_%",
+      "created": "2017-03-12T21:49:03.996",
+      "domainType": "AGGREGATE",
+      "formName": "% completing antibiotic treatment",
+      "id": "fCOiZOvhlYU",
+      "lastUpdatedBy": {
+        "id": "ilJDyuqlwDC"
+      },
+      "legendSets": [],
+      "name": "BU_Tx_ABcompletion_%",
+      "publicAccess": "--------",
+      "shortName": "% completing antibiotic treatment",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "FORM_NAME",
+          "value": "% des patients suivant un traitement antibiotique"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "UB_Tx_ABcompletude_%"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "% traitement AB complété"
+        }
+      ],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ],
+      "valueType": "PERCENTAGE",
+      "zeroIsSignificant": true
+    }
+  ],
+  "dataSets": [
+    {
+      "attributeValues": [
+        {
+          "attribute": {
+            "id": "x8YCHCvls4r"
+          },
+          "created": "2017-03-12T21:26:27.879",
+          "value": "Op_Disease_BU"
+        }
+      ],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "BU_minimum indicators_annual",
+      "compulsoryDataElementOperands": [],
+      "compulsoryFieldsCompleteOnly": false,
+      "created": "2017-03-12T21:26:28.325",
+      "dataElementDecoration": false,
+      "dataInputPeriods": [],
+      "dataSetElements": [
+        {
+          "categoryCombo": {
+            "id": "JzvGfLYkX17"
+          },
+          "dataElement": {
+            "id": "AD4v3ACiiXX"
+          },
+          "dataSet": {
+            "id": "ZO0DQJePIEH"
+          }
+        },
+        {
+          "categoryCombo": {
+            "id": "JzvGfLYkX17"
+          },
+          "dataElement": {
+            "id": "hnihvm6kXLX"
+          },
+          "dataSet": {
+            "id": "ZO0DQJePIEH"
+          }
+        },
+        {
+          "categoryCombo": {
+            "id": "JzvGfLYkX17"
+          },
+          "dataElement": {
+            "id": "fCOiZOvhlYU"
+          },
+          "dataSet": {
+            "id": "ZO0DQJePIEH"
+          }
+        },
+        {
+          "categoryCombo": {
+            "id": "JzvGfLYkX17"
+          },
+          "dataElement": {
+            "id": "ijKH3KK0Etn"
+          },
+          "dataSet": {
+            "id": "ZO0DQJePIEH"
+          }
+        },
+        {
+          "categoryCombo": {
+            "id": "JzvGfLYkX17"
+          },
+          "dataElement": {
+            "id": "z2JQOIDlZUn"
+          },
+          "dataSet": {
+            "id": "ZO0DQJePIEH"
+          }
+        },
+        {
+          "categoryCombo": {
+            "id": "JzvGfLYkX17"
+          },
+          "dataElement": {
+            "id": "pjd3beNHprb"
+          },
+          "dataSet": {
+            "id": "ZO0DQJePIEH"
+          }
+        },
+        {
+          "categoryCombo": {
+            "id": "JzvGfLYkX17"
+          },
+          "dataElement": {
+            "id": "tMY0YnV1PHQ"
+          },
+          "dataSet": {
+            "id": "ZO0DQJePIEH"
+          }
+        },
+        {
+          "categoryCombo": {
+            "id": "JzvGfLYkX17"
+          },
+          "dataElement": {
+            "id": "lff6zDTvFi8"
+          },
+          "dataSet": {
+            "id": "ZO0DQJePIEH"
+          }
+        },
+        {
+          "categoryCombo": {
+            "id": "JzvGfLYkX17"
+          },
+          "dataElement": {
+            "id": "gUqE2t4L5UU"
+          },
+          "dataSet": {
+            "id": "ZO0DQJePIEH"
+          }
+        },
+        {
+          "categoryCombo": {
+            "id": "JzvGfLYkX17"
+          },
+          "dataElement": {
+            "id": "tOpVIYrnbhk"
+          },
+          "dataSet": {
+            "id": "ZO0DQJePIEH"
+          }
+        },
+        {
+          "categoryCombo": {
+            "id": "JzvGfLYkX17"
+          },
+          "dataElement": {
+            "id": "ckHbEc6qoyV"
+          },
+          "dataSet": {
+            "id": "ZO0DQJePIEH"
+          }
+        }
+      ],
+      "expiryDays": 0,
+      "fieldCombinationRequired": false,
+      "id": "ZO0DQJePIEH",
+      "indicators": [],
+      "lastUpdatedBy": {
+        "id": "ilJDyuqlwDC"
+      },
+      "legendSets": [],
+      "mobile": false,
+      "name": "BU_minimum indicators_annual",
+      "noValueRequiresComment": false,
+      "notifyCompletingUser": false,
+      "openFuturePeriods": 0,
+      "periodType": "Yearly",
+      "publicAccess": "--------",
+      "renderAsTabs": true,
+      "renderHorizontally": false,
+      "shortName": "BU_minimum indicators_annual",
+      "skipOffline": false,
+      "timelyDays": 60,
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "DESCRIPTION",
+          "value": "Ce formulaire vise à collecter les indicateurs minimaux concernant l'ulcère de Buruli dans les pays endémiques. "
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "UB_Indicateurs_Annuel"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "UB_Indicateurs_Annuel"
+        }
+      ],
+      "user": {
+        "id": "M5zQapPyTZI"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD Web Portal",
+          "id": "vjGluCqWr25",
+          "userGroupUid": "vjGluCqWr25"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "NTD_BU_AggDataCapture",
+          "id": "ztM3xGja5IQ",
+          "userGroupUid": "ztM3xGja5IQ"
+        }
+      ],
+      "validCompleteOnly": false,
+      "version": 12,
+      "workflow": {
+        "id": "Li5owPOqVoe"
+      }
+    }
+  ],
+  "date": "2019-04-23T10:03:13.668",
+  "sections": [
+    {
+      "attributeValues": [],
+      "created": "2017-03-13T15:27:27.788",
+      "dataElements": [
+        {
+          "id": "hnihvm6kXLX"
+        }
+      ],
+      "dataSet": {
+        "id": "ZO0DQJePIEH"
+      },
+      "greyedFields": [],
+      "id": "yuOz1ToZ7mR",
+      "indicators": [],
+      "lastUpdatedBy": {
+        "id": "ilJDyuqlwDC"
+      },
+      "name": "Age distribution",
+      "showColumnTotals": false,
+      "showRowTotals": false,
+      "sortOrder": 2,
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Age"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2017-03-13T15:21:34.091",
+      "dataElements": [
+        {
+          "id": "tOpVIYrnbhk"
+        }
+      ],
+      "dataSet": {
+        "id": "ZO0DQJePIEH"
+      },
+      "greyedFields": [],
+      "id": "lCu0Onx9YBZ",
+      "indicators": [],
+      "lastUpdatedBy": {
+        "id": "ilJDyuqlwDC"
+      },
+      "name": "Annual cases",
+      "showColumnTotals": false,
+      "showRowTotals": false,
+      "sortOrder": 1,
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Cas annuels"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2017-03-13T15:25:48.973",
+      "dataElements": [
+        {
+          "id": "ckHbEc6qoyV"
+        },
+        {
+          "id": "lff6zDTvFi8"
+        },
+        {
+          "id": "z2JQOIDlZUn"
+        }
+      ],
+      "dataSet": {
+        "id": "ZO0DQJePIEH"
+      },
+      "greyedFields": [],
+      "id": "aEjB04cV1Wn",
+      "indicators": [],
+      "name": "Category",
+      "showColumnTotals": false,
+      "showRowTotals": false,
+      "sortOrder": 5,
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "created": "2017-03-13T15:25:25.396",
+      "dataElements": [
+        {
+          "id": "AD4v3ACiiXX"
+        },
+        {
+          "id": "gUqE2t4L5UU"
+        },
+        {
+          "id": "tMY0YnV1PHQ"
+        }
+      ],
+      "dataSet": {
+        "id": "ZO0DQJePIEH"
+      },
+      "greyedFields": [],
+      "id": "cKWt05KOBMm",
+      "indicators": [],
+      "lastUpdatedBy": {
+        "id": "ilJDyuqlwDC"
+      },
+      "name": "Clinical presentation",
+      "showColumnTotals": false,
+      "showRowTotals": false,
+      "sortOrder": 4,
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Présentation clinique"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2017-03-13T15:24:46.137",
+      "dataElements": [
+        {
+          "id": "pjd3beNHprb"
+        }
+      ],
+      "dataSet": {
+        "id": "ZO0DQJePIEH"
+      },
+      "greyedFields": [],
+      "id": "QBA9xJy694a",
+      "indicators": [],
+      "lastUpdatedBy": {
+        "id": "ilJDyuqlwDC"
+      },
+      "name": "Gender distribution",
+      "showColumnTotals": false,
+      "showRowTotals": false,
+      "sortOrder": 3,
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Genre"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2017-03-13T15:26:11.163",
+      "dataElements": [
+        {
+          "id": "ijKH3KK0Etn"
+        }
+      ],
+      "dataSet": {
+        "id": "ZO0DQJePIEH"
+      },
+      "greyedFields": [],
+      "id": "gGk9TLyXQZO",
+      "indicators": [],
+      "lastUpdatedBy": {
+        "id": "ilJDyuqlwDC"
+      },
+      "name": "Lab",
+      "showColumnTotals": false,
+      "showRowTotals": false,
+      "sortOrder": 6,
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Laboratoire"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2017-03-13T15:26:42.175",
+      "dataElements": [
+        {
+          "id": "fCOiZOvhlYU"
+        }
+      ],
+      "dataSet": {
+        "id": "ZO0DQJePIEH"
+      },
+      "greyedFields": [],
+      "id": "VeERzaIGC16",
+      "indicators": [],
+      "lastUpdatedBy": {
+        "id": "ilJDyuqlwDC"
+      },
+      "name": "Treatment",
+      "showColumnTotals": false,
+      "showRowTotals": false,
+      "sortOrder": 7,
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Traitement"
+        }
+      ]
+    }
+  ]
+}
