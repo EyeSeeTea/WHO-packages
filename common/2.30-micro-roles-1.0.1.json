@@ -8809,6 +8809,80 @@
       },
       "attributeValues": [],
       "authorities": [
+        "F_CATEGORY_OPTION_GROUP_PUBLIC_ADD",
+        "F_CATEGORY_OPTION_GROUP_SET_PUBLIC_ADD",
+        "F_CATEGORY_OPTION_PUBLIC_ADD",
+        "F_DATAELEMENTGROUPSET_DELETE",
+        "F_DATAELEMENTGROUPSET_PRIVATE_ADD",
+        "F_DATAELEMENTGROUP_DELETE",
+        "F_DATAELEMENTGROUP_PRIVATE_ADD",
+        "F_DATAELEMENT_DELETE",
+        "F_DATAELEMENT_PRIVATE_ADD",
+        "F_OPTIONGROUPSET_PUBLIC_ADD",
+        "F_OPTIONGROUP_PUBLIC_ADD",
+        "F_OPTIONSET_PUBLIC_ADD"
+      ],
+      "created": "2019-04-24T11:07:00.481",
+      "description": "AUTHORITIES - WIDP admin only - This role enables to perform all maintenance tasks on dataElements - WIDP admin only",
+      "displayName": "Maintenance - dataElements - WIDP admin only",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "https://extranet.who.int/dhis2-dev/api/userRoles/U8OjNkfq18q",
+      "id": "U8OjNkfq18q",
+      "lastUpdated": "2019-04-24T11:07:00.481",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "Maintenance - dataElements - WIDP admin only",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "ASvY0d2p71a"
+        },
+        {
+          "id": "CpULLs5qNSu"
+        },
+        {
+          "id": "FzooOCf7ZFl"
+        },
+        {
+          "id": "WbMQEvEcmwy"
+        },
+        {
+          "id": "XaCeEDJxc26"
+        },
+        {
+          "id": "jhvULdB6aJ7"
+        },
+        {
+          "id": "nCoqeqrUuUk"
+        },
+        {
+          "id": "rjqURGgOShK"
+        },
+        {
+          "id": "s9gwJuRfyQB"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "authorities": [
         "F_DATA_MART_ADMIN",
         "F_SCHEDULING_ADMIN",
         "M_dhis-web-scheduler"
