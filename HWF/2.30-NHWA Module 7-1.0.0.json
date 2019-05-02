@@ -1,0 +1,4559 @@
+{
+  "categories": [
+    {
+      "attributeValues": [],
+      "categoryOptions": [
+        {
+          "id": "GgfNQGbi829"
+        },
+        {
+          "id": "sheLJvWR2SR"
+        },
+        {
+          "id": "sv2AClFDPLT"
+        }
+      ],
+      "created": "2017-07-06T11:01:18.369",
+      "dataDimension": false,
+      "dataDimensionType": "DISAGGREGATION",
+      "id": "RYw2XIJoAKz",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Compensation",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "categoryOptions": [
+        {
+          "id": "VGIZddtJG2Z"
+        },
+        {
+          "id": "jCcVZyWQcWO"
+        },
+        {
+          "id": "sheLJvWR2SR"
+        }
+      ],
+      "created": "2017-07-06T10:55:36.098",
+      "dataDimension": false,
+      "dataDimensionType": "DISAGGREGATION",
+      "id": "taijU5iI2sj",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Expenditure on HWF",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "categoryOptions": [
+        {
+          "id": "JE2f9V3NIFL"
+        },
+        {
+          "id": "dFzLXEnIAvJ"
+        },
+        {
+          "id": "hs3mR0ZYVTY"
+        }
+      ],
+      "created": "2019-01-17T06:00:07.587",
+      "dataDimension": false,
+      "dataDimensionType": "DISAGGREGATION",
+      "id": "ac1IouPLQqe",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "HF Ownership",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "categoryOptions": [
+        {
+          "id": "CpV0L0Y9i9h"
+        },
+        {
+          "id": "K5u7PTVJDz9"
+        },
+        {
+          "id": "Snhh7MxvJ09"
+        },
+        {
+          "id": "XiMIOSJ0d3c"
+        },
+        {
+          "id": "ncopO2Sj2RB"
+        },
+        {
+          "id": "pL6jJhifUxq"
+        },
+        {
+          "id": "yp7OM2HDp2q"
+        }
+      ],
+      "created": "2017-07-05T19:11:56.055",
+      "dataDimension": false,
+      "dataDimensionType": "DISAGGREGATION",
+      "id": "phnE76RjYz8",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Key Occupations",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "categoryOptions": [
+        {
+          "id": "Ai5BPQQvz1k"
+        },
+        {
+          "id": "eUq1frRqp4E"
+        },
+        {
+          "id": "lkkfEeCynHP"
+        },
+        {
+          "id": "sheLJvWR2SR"
+        }
+      ],
+      "created": "2017-07-05T18:52:36.985",
+      "dataDimension": false,
+      "dataDimensionType": "DISAGGREGATION",
+      "id": "Vfcyfxgs9DR",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "Ownership",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "attributeValues": [],
+      "categoryOptions": [
+        {
+          "id": "Y7fcspgsU43"
+        }
+      ],
+      "code": "default",
+      "created": "2017-05-10T17:53:55.152",
+      "dataDimension": false,
+      "dataDimensionType": "DISAGGREGATION",
+      "id": "DMyxTSpvKOp",
+      "name": "default",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ],
+  "categoryCombos": [
+    {
+      "categories": [
+        {
+          "id": "RYw2XIJoAKz"
+        }
+      ],
+      "created": "2017-07-06T11:01:39.759",
+      "dataDimensionType": "DISAGGREGATION",
+      "id": "MRePCCbesqK",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Compensation",
+      "publicAccess": "--------",
+      "skipTotal": false,
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "id": "taijU5iI2sj"
+        }
+      ],
+      "created": "2017-07-06T10:55:55.907",
+      "dataDimensionType": "DISAGGREGATION",
+      "id": "RFbWNJC9bKa",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Expenditure on HWF",
+      "publicAccess": "--------",
+      "skipTotal": false,
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "id": "ac1IouPLQqe"
+        }
+      ],
+      "created": "2019-01-17T06:00:19.275",
+      "dataDimensionType": "DISAGGREGATION",
+      "id": "swjTZ93dg4h",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "HF Ownership",
+      "publicAccess": "--------",
+      "skipTotal": false,
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "id": "phnE76RjYz8"
+        }
+      ],
+      "created": "2017-07-05T19:12:08.284",
+      "dataDimensionType": "DISAGGREGATION",
+      "id": "CVlyw498LdE",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Key Occupations",
+      "publicAccess": "--------",
+      "skipTotal": true,
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "id": "Vfcyfxgs9DR"
+        }
+      ],
+      "created": "2017-07-05T18:57:02.841",
+      "dataDimensionType": "DISAGGREGATION",
+      "id": "h93FZvJnB12",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "Ownership",
+      "publicAccess": "--------",
+      "skipTotal": false,
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "categories": [
+        {
+          "id": "DMyxTSpvKOp"
+        }
+      ],
+      "code": "default",
+      "created": "2017-05-10T17:53:55.156",
+      "dataDimensionType": "DISAGGREGATION",
+      "id": "JzvGfLYkX17",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "default",
+      "publicAccess": "rw------",
+      "skipTotal": false,
+      "translations": [],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ],
+  "categoryOptionCombos": [
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "RFbWNJC9bKa"
+      },
+      "categoryOptions": [
+        {
+          "id": "VGIZddtJG2Z"
+        }
+      ],
+      "created": "2017-07-06T10:55:55.932",
+      "id": "cFkpPfqFrJW",
+      "ignoreApproval": false,
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Compensation",
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "CVlyw498LdE"
+      },
+      "categoryOptions": [
+        {
+          "id": "XiMIOSJ0d3c"
+        }
+      ],
+      "created": "2017-07-05T19:40:52.094",
+      "id": "ALBRKpJsddQ",
+      "ignoreApproval": false,
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Dentist",
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "CVlyw498LdE"
+      },
+      "categoryOptions": [
+        {
+          "id": "yp7OM2HDp2q"
+        }
+      ],
+      "created": "2017-07-05T19:40:52.087",
+      "id": "LHbCtHlZr3Y",
+      "ignoreApproval": false,
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Generalist Medical Practitioner",
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "h93FZvJnB12"
+      },
+      "categoryOptions": [
+        {
+          "id": "Ai5BPQQvz1k"
+        }
+      ],
+      "created": "2017-07-05T18:57:02.866",
+      "id": "HQPWV8cT7li",
+      "ignoreApproval": false,
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "Government",
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "CVlyw498LdE"
+      },
+      "categoryOptions": [
+        {
+          "id": "K5u7PTVJDz9"
+        }
+      ],
+      "created": "2017-07-05T19:40:52.084",
+      "id": "aBpbcEgtzgw",
+      "ignoreApproval": false,
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Medical Doctors",
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "CVlyw498LdE"
+      },
+      "categoryOptions": [
+        {
+          "id": "CpV0L0Y9i9h"
+        }
+      ],
+      "created": "2017-07-05T19:40:52.091",
+      "id": "MPzyVWiSFF2",
+      "ignoreApproval": false,
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Midwifery Professional",
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "CVlyw498LdE"
+      },
+      "categoryOptions": [
+        {
+          "id": "ncopO2Sj2RB"
+        }
+      ],
+      "created": "2017-07-05T19:40:52.093",
+      "id": "fGOgbIqsxDn",
+      "ignoreApproval": false,
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Nursing Professional",
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "h93FZvJnB12"
+      },
+      "categoryOptions": [
+        {
+          "id": "eUq1frRqp4E"
+        }
+      ],
+      "created": "2017-07-05T18:57:02.871",
+      "id": "QKhM7ublqzd",
+      "ignoreApproval": false,
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "Official Development Assistance",
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "MRePCCbesqK"
+      },
+      "categoryOptions": [
+        {
+          "id": "sheLJvWR2SR"
+        }
+      ],
+      "created": "2017-07-06T11:27:25.329",
+      "id": "VWIQFya88eZ",
+      "ignoreApproval": false,
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Others",
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "RFbWNJC9bKa"
+      },
+      "categoryOptions": [
+        {
+          "id": "sheLJvWR2SR"
+        }
+      ],
+      "created": "2017-07-06T10:55:55.938",
+      "id": "dVpd180cEmo",
+      "ignoreApproval": false,
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Others",
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "h93FZvJnB12"
+      },
+      "categoryOptions": [
+        {
+          "id": "sheLJvWR2SR"
+        }
+      ],
+      "created": "2017-07-05T18:57:02.873",
+      "id": "txxKPnVUGvV",
+      "ignoreApproval": false,
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "Others",
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "h93FZvJnB12"
+      },
+      "categoryOptions": [
+        {
+          "id": "lkkfEeCynHP"
+        }
+      ],
+      "created": "2017-07-05T18:57:02.869",
+      "id": "FiRcnmXF1Yg",
+      "ignoreApproval": false,
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "Out of Pocket",
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "CVlyw498LdE"
+      },
+      "categoryOptions": [
+        {
+          "id": "pL6jJhifUxq"
+        }
+      ],
+      "created": "2017-07-05T19:40:52.096",
+      "id": "iWRW6jXAzvP",
+      "ignoreApproval": false,
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Pharmacist",
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "swjTZ93dg4h"
+      },
+      "categoryOptions": [
+        {
+          "id": "hs3mR0ZYVTY"
+        }
+      ],
+      "created": "2019-01-17T06:00:19.297",
+      "id": "UKbfaRlqkpY",
+      "ignoreApproval": false,
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Private for profit",
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "swjTZ93dg4h"
+      },
+      "categoryOptions": [
+        {
+          "id": "dFzLXEnIAvJ"
+        }
+      ],
+      "created": "2019-01-17T06:00:19.295",
+      "id": "N3nYJ6ScaYx",
+      "ignoreApproval": false,
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Private not for profit",
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "swjTZ93dg4h"
+      },
+      "categoryOptions": [
+        {
+          "id": "JE2f9V3NIFL"
+        }
+      ],
+      "created": "2019-01-17T06:00:19.292",
+      "id": "IMqululFzhP",
+      "ignoreApproval": false,
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Public",
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "MRePCCbesqK"
+      },
+      "categoryOptions": [
+        {
+          "id": "GgfNQGbi829"
+        }
+      ],
+      "created": "2017-07-06T11:27:25.327",
+      "id": "hL8lKfXNzln",
+      "ignoreApproval": false,
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Social contribution",
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "CVlyw498LdE"
+      },
+      "categoryOptions": [
+        {
+          "id": "Snhh7MxvJ09"
+        }
+      ],
+      "created": "2017-07-05T19:40:52.089",
+      "id": "VtVkbvygJnm",
+      "ignoreApproval": false,
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Specialist Medical Practitioner",
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "RFbWNJC9bKa"
+      },
+      "categoryOptions": [
+        {
+          "id": "jCcVZyWQcWO"
+        }
+      ],
+      "created": "2017-07-06T10:55:55.935",
+      "id": "TQ5H1Za7ZMR",
+      "ignoreApproval": false,
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Training",
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "MRePCCbesqK"
+      },
+      "categoryOptions": [
+        {
+          "id": "sv2AClFDPLT"
+        }
+      ],
+      "created": "2017-07-06T11:27:25.323",
+      "id": "LfoJLP7BbDk",
+      "ignoreApproval": false,
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Wages and Salary",
+      "translations": []
+    },
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "categoryOptions": [
+        {
+          "id": "Y7fcspgsU43"
+        }
+      ],
+      "code": "default",
+      "created": "2017-05-10T17:53:55.157",
+      "id": "Xr12mI7VPn3",
+      "ignoreApproval": false,
+      "name": "default",
+      "translations": []
+    }
+  ],
+  "categoryOptions": [
+    {
+      "attributeValues": [],
+      "created": "2017-07-06T10:54:34.696",
+      "id": "VGIZddtJG2Z",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Compensation",
+      "organisationUnits": [],
+      "publicAccess": "--------",
+      "shortName": "Compensation",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "Ramón José JIMENEZ POMARETA",
+          "id": "eK26I7dRbC4",
+          "userUid": "eK26I7dRbC4"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQ",
+          "id": "BMxt1NZML9e",
+          "userGroupUid": "BMxt1NZML9e"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_AFRO_Ghana",
+          "id": "CoxTaSDd4Bz",
+          "userGroupUid": "CoxTaSDd4Bz"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_demo",
+          "id": "Fs9vCVCHjlE",
+          "userGroupUid": "Fs9vCVCHjlE"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_Dispatch_HQ",
+          "id": "I95k8bm5q5J",
+          "userGroupUid": "I95k8bm5q5J"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Mycetoma_HQ",
+          "id": "IPzz6wlkIp0",
+          "userGroupUid": "IPzz6wlkIp0"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EMRO",
+          "id": "K40P7b1JFdc",
+          "userGroupUid": "K40P7b1JFdc"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Rabies Estimates",
+          "id": "K7VPSVrAYeV",
+          "userGroupUid": "K7VPSVrAYeV"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock",
+          "id": "LCs79RaVi0a",
+          "userGroupUid": "LCs79RaVi0a"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQPublish",
+          "id": "MYa3lh5k0Yq",
+          "userGroupUid": "MYa3lh5k0Yq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_AggrDataEntry_Simple",
+          "id": "QUaeS1tdoLx",
+          "userGroupUid": "QUaeS1tdoLx"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EURO_Armenia",
+          "id": "TNA9oGI43e4",
+          "userGroupUid": "TNA9oGI43e4"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_Unofficial",
+          "id": "VONeiGGohxr",
+          "userGroupUid": "VONeiGGohxr"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_WHO Official",
+          "id": "Zr1fdsbkiAR",
+          "userGroupUid": "Zr1fdsbkiAR"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Yaws_WHO",
+          "id": "ZvxncLTan3w",
+          "userGroupUid": "ZvxncLTan3w"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_AggrDataEntry_Detailed",
+          "id": "aAGXWv0GkMo",
+          "userGroupUid": "aAGXWv0GkMo"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_BU_Event",
+          "id": "bzuIPO5zQPV",
+          "userGroupUid": "bzuIPO5zQPV"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_Public",
+          "id": "orn5lTGFMve",
+          "userGroupUid": "orn5lTGFMve"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_OIE",
+          "id": "pbZna7luFaM",
+          "userGroupUid": "pbZna7luFaM"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
+          "id": "phezIKUxlC2",
+          "userGroupUid": "phezIKUxlC2"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EURO",
+          "id": "tEOUdu1ala4",
+          "userGroupUid": "tEOUdu1ala4"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2017-06-21T21:31:56.507",
+      "id": "XiMIOSJ0d3c",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Dentist",
+      "organisationUnits": [],
+      "publicAccess": "--------",
+      "shortName": "Dentist",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "Ramón José JIMENEZ POMARETA",
+          "id": "eK26I7dRbC4",
+          "userUid": "eK26I7dRbC4"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQ",
+          "id": "BMxt1NZML9e",
+          "userGroupUid": "BMxt1NZML9e"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_AFRO_Ghana",
+          "id": "CoxTaSDd4Bz",
+          "userGroupUid": "CoxTaSDd4Bz"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_demo",
+          "id": "Fs9vCVCHjlE",
+          "userGroupUid": "Fs9vCVCHjlE"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_Dispatch_HQ",
+          "id": "I95k8bm5q5J",
+          "userGroupUid": "I95k8bm5q5J"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Mycetoma_HQ",
+          "id": "IPzz6wlkIp0",
+          "userGroupUid": "IPzz6wlkIp0"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EMRO",
+          "id": "K40P7b1JFdc",
+          "userGroupUid": "K40P7b1JFdc"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Rabies Estimates",
+          "id": "K7VPSVrAYeV",
+          "userGroupUid": "K7VPSVrAYeV"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock",
+          "id": "LCs79RaVi0a",
+          "userGroupUid": "LCs79RaVi0a"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQPublish",
+          "id": "MYa3lh5k0Yq",
+          "userGroupUid": "MYa3lh5k0Yq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_AggrDataEntry_Simple",
+          "id": "QUaeS1tdoLx",
+          "userGroupUid": "QUaeS1tdoLx"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EURO_Armenia",
+          "id": "TNA9oGI43e4",
+          "userGroupUid": "TNA9oGI43e4"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_Unofficial",
+          "id": "VONeiGGohxr",
+          "userGroupUid": "VONeiGGohxr"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_WHO Official",
+          "id": "Zr1fdsbkiAR",
+          "userGroupUid": "Zr1fdsbkiAR"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Yaws_WHO",
+          "id": "ZvxncLTan3w",
+          "userGroupUid": "ZvxncLTan3w"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_AggrDataEntry_Detailed",
+          "id": "aAGXWv0GkMo",
+          "userGroupUid": "aAGXWv0GkMo"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_BU_Event",
+          "id": "bzuIPO5zQPV",
+          "userGroupUid": "bzuIPO5zQPV"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_Public",
+          "id": "orn5lTGFMve",
+          "userGroupUid": "orn5lTGFMve"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_OIE",
+          "id": "pbZna7luFaM",
+          "userGroupUid": "pbZna7luFaM"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
+          "id": "phezIKUxlC2",
+          "userGroupUid": "phezIKUxlC2"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EURO",
+          "id": "tEOUdu1ala4",
+          "userGroupUid": "tEOUdu1ala4"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2017-06-21T21:31:56.507",
+      "id": "yp7OM2HDp2q",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "General Medical Practitioner",
+      "organisationUnits": [],
+      "publicAccess": "--------",
+      "shortName": "General Medical Practitioner",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "Ramón José JIMENEZ POMARETA",
+          "id": "eK26I7dRbC4",
+          "userUid": "eK26I7dRbC4"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQ",
+          "id": "BMxt1NZML9e",
+          "userGroupUid": "BMxt1NZML9e"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_AFRO_Ghana",
+          "id": "CoxTaSDd4Bz",
+          "userGroupUid": "CoxTaSDd4Bz"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_demo",
+          "id": "Fs9vCVCHjlE",
+          "userGroupUid": "Fs9vCVCHjlE"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_Dispatch_HQ",
+          "id": "I95k8bm5q5J",
+          "userGroupUid": "I95k8bm5q5J"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Mycetoma_HQ",
+          "id": "IPzz6wlkIp0",
+          "userGroupUid": "IPzz6wlkIp0"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EMRO",
+          "id": "K40P7b1JFdc",
+          "userGroupUid": "K40P7b1JFdc"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Rabies Estimates",
+          "id": "K7VPSVrAYeV",
+          "userGroupUid": "K7VPSVrAYeV"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock",
+          "id": "LCs79RaVi0a",
+          "userGroupUid": "LCs79RaVi0a"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQPublish",
+          "id": "MYa3lh5k0Yq",
+          "userGroupUid": "MYa3lh5k0Yq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_AggrDataEntry_Simple",
+          "id": "QUaeS1tdoLx",
+          "userGroupUid": "QUaeS1tdoLx"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EURO_Armenia",
+          "id": "TNA9oGI43e4",
+          "userGroupUid": "TNA9oGI43e4"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_Unofficial",
+          "id": "VONeiGGohxr",
+          "userGroupUid": "VONeiGGohxr"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_WHO Official",
+          "id": "Zr1fdsbkiAR",
+          "userGroupUid": "Zr1fdsbkiAR"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Yaws_WHO",
+          "id": "ZvxncLTan3w",
+          "userGroupUid": "ZvxncLTan3w"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_AggrDataEntry_Detailed",
+          "id": "aAGXWv0GkMo",
+          "userGroupUid": "aAGXWv0GkMo"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_BU_Event",
+          "id": "bzuIPO5zQPV",
+          "userGroupUid": "bzuIPO5zQPV"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_Public",
+          "id": "orn5lTGFMve",
+          "userGroupUid": "orn5lTGFMve"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_OIE",
+          "id": "pbZna7luFaM",
+          "userGroupUid": "pbZna7luFaM"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
+          "id": "phezIKUxlC2",
+          "userGroupUid": "phezIKUxlC2"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EURO",
+          "id": "tEOUdu1ala4",
+          "userGroupUid": "tEOUdu1ala4"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2017-07-05T18:46:58.122",
+      "id": "Ai5BPQQvz1k",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "Government",
+      "organisationUnits": [],
+      "publicAccess": "--------",
+      "shortName": "Government",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "attributeValues": [],
+      "created": "2017-06-21T21:31:56.507",
+      "id": "K5u7PTVJDz9",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Medical Doctors",
+      "organisationUnits": [],
+      "publicAccess": "--------",
+      "shortName": "Medical Doctors",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "Ramón José JIMENEZ POMARETA",
+          "id": "eK26I7dRbC4",
+          "userUid": "eK26I7dRbC4"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQ",
+          "id": "BMxt1NZML9e",
+          "userGroupUid": "BMxt1NZML9e"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_AFRO_Ghana",
+          "id": "CoxTaSDd4Bz",
+          "userGroupUid": "CoxTaSDd4Bz"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_demo",
+          "id": "Fs9vCVCHjlE",
+          "userGroupUid": "Fs9vCVCHjlE"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_Dispatch_HQ",
+          "id": "I95k8bm5q5J",
+          "userGroupUid": "I95k8bm5q5J"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Mycetoma_HQ",
+          "id": "IPzz6wlkIp0",
+          "userGroupUid": "IPzz6wlkIp0"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EMRO",
+          "id": "K40P7b1JFdc",
+          "userGroupUid": "K40P7b1JFdc"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Rabies Estimates",
+          "id": "K7VPSVrAYeV",
+          "userGroupUid": "K7VPSVrAYeV"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock",
+          "id": "LCs79RaVi0a",
+          "userGroupUid": "LCs79RaVi0a"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQPublish",
+          "id": "MYa3lh5k0Yq",
+          "userGroupUid": "MYa3lh5k0Yq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_AggrDataEntry_Simple",
+          "id": "QUaeS1tdoLx",
+          "userGroupUid": "QUaeS1tdoLx"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EURO_Armenia",
+          "id": "TNA9oGI43e4",
+          "userGroupUid": "TNA9oGI43e4"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_Unofficial",
+          "id": "VONeiGGohxr",
+          "userGroupUid": "VONeiGGohxr"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_WHO Official",
+          "id": "Zr1fdsbkiAR",
+          "userGroupUid": "Zr1fdsbkiAR"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Yaws_WHO",
+          "id": "ZvxncLTan3w",
+          "userGroupUid": "ZvxncLTan3w"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_AggrDataEntry_Detailed",
+          "id": "aAGXWv0GkMo",
+          "userGroupUid": "aAGXWv0GkMo"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_BU_Event",
+          "id": "bzuIPO5zQPV",
+          "userGroupUid": "bzuIPO5zQPV"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_Public",
+          "id": "orn5lTGFMve",
+          "userGroupUid": "orn5lTGFMve"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_OIE",
+          "id": "pbZna7luFaM",
+          "userGroupUid": "pbZna7luFaM"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
+          "id": "phezIKUxlC2",
+          "userGroupUid": "phezIKUxlC2"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EURO",
+          "id": "tEOUdu1ala4",
+          "userGroupUid": "tEOUdu1ala4"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2017-06-21T21:31:56.507",
+      "id": "CpV0L0Y9i9h",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Midwifery Professional",
+      "organisationUnits": [],
+      "publicAccess": "--------",
+      "shortName": "Midwifery Professional",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "Ramón José JIMENEZ POMARETA",
+          "id": "eK26I7dRbC4",
+          "userUid": "eK26I7dRbC4"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQ",
+          "id": "BMxt1NZML9e",
+          "userGroupUid": "BMxt1NZML9e"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_AFRO_Ghana",
+          "id": "CoxTaSDd4Bz",
+          "userGroupUid": "CoxTaSDd4Bz"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_demo",
+          "id": "Fs9vCVCHjlE",
+          "userGroupUid": "Fs9vCVCHjlE"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_Dispatch_HQ",
+          "id": "I95k8bm5q5J",
+          "userGroupUid": "I95k8bm5q5J"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Mycetoma_HQ",
+          "id": "IPzz6wlkIp0",
+          "userGroupUid": "IPzz6wlkIp0"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EMRO",
+          "id": "K40P7b1JFdc",
+          "userGroupUid": "K40P7b1JFdc"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Rabies Estimates",
+          "id": "K7VPSVrAYeV",
+          "userGroupUid": "K7VPSVrAYeV"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock",
+          "id": "LCs79RaVi0a",
+          "userGroupUid": "LCs79RaVi0a"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQPublish",
+          "id": "MYa3lh5k0Yq",
+          "userGroupUid": "MYa3lh5k0Yq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_AggrDataEntry_Simple",
+          "id": "QUaeS1tdoLx",
+          "userGroupUid": "QUaeS1tdoLx"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EURO_Armenia",
+          "id": "TNA9oGI43e4",
+          "userGroupUid": "TNA9oGI43e4"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_Unofficial",
+          "id": "VONeiGGohxr",
+          "userGroupUid": "VONeiGGohxr"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_WHO Official",
+          "id": "Zr1fdsbkiAR",
+          "userGroupUid": "Zr1fdsbkiAR"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Yaws_WHO",
+          "id": "ZvxncLTan3w",
+          "userGroupUid": "ZvxncLTan3w"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_AggrDataEntry_Detailed",
+          "id": "aAGXWv0GkMo",
+          "userGroupUid": "aAGXWv0GkMo"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_BU_Event",
+          "id": "bzuIPO5zQPV",
+          "userGroupUid": "bzuIPO5zQPV"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_Public",
+          "id": "orn5lTGFMve",
+          "userGroupUid": "orn5lTGFMve"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_OIE",
+          "id": "pbZna7luFaM",
+          "userGroupUid": "pbZna7luFaM"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
+          "id": "phezIKUxlC2",
+          "userGroupUid": "phezIKUxlC2"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EURO",
+          "id": "tEOUdu1ala4",
+          "userGroupUid": "tEOUdu1ala4"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2017-06-21T21:31:56.507",
+      "id": "ncopO2Sj2RB",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Nursing Professional",
+      "organisationUnits": [],
+      "publicAccess": "--------",
+      "shortName": "Nursing Professional",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "Ramón José JIMENEZ POMARETA",
+          "id": "eK26I7dRbC4",
+          "userUid": "eK26I7dRbC4"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQ",
+          "id": "BMxt1NZML9e",
+          "userGroupUid": "BMxt1NZML9e"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_AFRO_Ghana",
+          "id": "CoxTaSDd4Bz",
+          "userGroupUid": "CoxTaSDd4Bz"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_demo",
+          "id": "Fs9vCVCHjlE",
+          "userGroupUid": "Fs9vCVCHjlE"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_Dispatch_HQ",
+          "id": "I95k8bm5q5J",
+          "userGroupUid": "I95k8bm5q5J"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Mycetoma_HQ",
+          "id": "IPzz6wlkIp0",
+          "userGroupUid": "IPzz6wlkIp0"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EMRO",
+          "id": "K40P7b1JFdc",
+          "userGroupUid": "K40P7b1JFdc"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Rabies Estimates",
+          "id": "K7VPSVrAYeV",
+          "userGroupUid": "K7VPSVrAYeV"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock",
+          "id": "LCs79RaVi0a",
+          "userGroupUid": "LCs79RaVi0a"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQPublish",
+          "id": "MYa3lh5k0Yq",
+          "userGroupUid": "MYa3lh5k0Yq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_AggrDataEntry_Simple",
+          "id": "QUaeS1tdoLx",
+          "userGroupUid": "QUaeS1tdoLx"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EURO_Armenia",
+          "id": "TNA9oGI43e4",
+          "userGroupUid": "TNA9oGI43e4"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_Unofficial",
+          "id": "VONeiGGohxr",
+          "userGroupUid": "VONeiGGohxr"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_WHO Official",
+          "id": "Zr1fdsbkiAR",
+          "userGroupUid": "Zr1fdsbkiAR"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Yaws_WHO",
+          "id": "ZvxncLTan3w",
+          "userGroupUid": "ZvxncLTan3w"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_AggrDataEntry_Detailed",
+          "id": "aAGXWv0GkMo",
+          "userGroupUid": "aAGXWv0GkMo"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_BU_Event",
+          "id": "bzuIPO5zQPV",
+          "userGroupUid": "bzuIPO5zQPV"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_Public",
+          "id": "orn5lTGFMve",
+          "userGroupUid": "orn5lTGFMve"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_OIE",
+          "id": "pbZna7luFaM",
+          "userGroupUid": "pbZna7luFaM"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
+          "id": "phezIKUxlC2",
+          "userGroupUid": "phezIKUxlC2"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EURO",
+          "id": "tEOUdu1ala4",
+          "userGroupUid": "tEOUdu1ala4"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2017-07-05T18:51:37.106",
+      "id": "eUq1frRqp4E",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "Official Development Assistance",
+      "organisationUnits": [],
+      "publicAccess": "--------",
+      "shortName": "Official Development Assistance",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "attributeValues": [],
+      "created": "2017-07-05T18:47:38.708",
+      "id": "sheLJvWR2SR",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "Others",
+      "organisationUnits": [],
+      "publicAccess": "--------",
+      "shortName": "Others",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "attributeValues": [],
+      "created": "2017-07-05T18:47:18.903",
+      "id": "lkkfEeCynHP",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "name": "Out of Pocket",
+      "organisationUnits": [],
+      "publicAccess": "--------",
+      "shortName": "OoP",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "attributeValues": [],
+      "created": "2017-06-21T21:31:56.507",
+      "id": "pL6jJhifUxq",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Pharmacist",
+      "organisationUnits": [],
+      "publicAccess": "--------",
+      "shortName": "Pharmacist",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "Ramón José JIMENEZ POMARETA",
+          "id": "eK26I7dRbC4",
+          "userUid": "eK26I7dRbC4"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQ",
+          "id": "BMxt1NZML9e",
+          "userGroupUid": "BMxt1NZML9e"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_AFRO_Ghana",
+          "id": "CoxTaSDd4Bz",
+          "userGroupUid": "CoxTaSDd4Bz"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_demo",
+          "id": "Fs9vCVCHjlE",
+          "userGroupUid": "Fs9vCVCHjlE"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_Dispatch_HQ",
+          "id": "I95k8bm5q5J",
+          "userGroupUid": "I95k8bm5q5J"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Mycetoma_HQ",
+          "id": "IPzz6wlkIp0",
+          "userGroupUid": "IPzz6wlkIp0"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EMRO",
+          "id": "K40P7b1JFdc",
+          "userGroupUid": "K40P7b1JFdc"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Rabies Estimates",
+          "id": "K7VPSVrAYeV",
+          "userGroupUid": "K7VPSVrAYeV"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock",
+          "id": "LCs79RaVi0a",
+          "userGroupUid": "LCs79RaVi0a"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQPublish",
+          "id": "MYa3lh5k0Yq",
+          "userGroupUid": "MYa3lh5k0Yq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_AggrDataEntry_Simple",
+          "id": "QUaeS1tdoLx",
+          "userGroupUid": "QUaeS1tdoLx"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EURO_Armenia",
+          "id": "TNA9oGI43e4",
+          "userGroupUid": "TNA9oGI43e4"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_Unofficial",
+          "id": "VONeiGGohxr",
+          "userGroupUid": "VONeiGGohxr"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_WHO Official",
+          "id": "Zr1fdsbkiAR",
+          "userGroupUid": "Zr1fdsbkiAR"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Yaws_WHO",
+          "id": "ZvxncLTan3w",
+          "userGroupUid": "ZvxncLTan3w"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_AggrDataEntry_Detailed",
+          "id": "aAGXWv0GkMo",
+          "userGroupUid": "aAGXWv0GkMo"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_BU_Event",
+          "id": "bzuIPO5zQPV",
+          "userGroupUid": "bzuIPO5zQPV"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_Public",
+          "id": "orn5lTGFMve",
+          "userGroupUid": "orn5lTGFMve"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_OIE",
+          "id": "pbZna7luFaM",
+          "userGroupUid": "pbZna7luFaM"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
+          "id": "phezIKUxlC2",
+          "userGroupUid": "phezIKUxlC2"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EURO",
+          "id": "tEOUdu1ala4",
+          "userGroupUid": "tEOUdu1ala4"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2017-06-07T09:45:16.197",
+      "id": "hs3mR0ZYVTY",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Private for profit",
+      "organisationUnits": [],
+      "publicAccess": "--------",
+      "shortName": "Private for profit",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rwrw----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2017-06-07T09:45:16.197",
+      "id": "dFzLXEnIAvJ",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Private not for profit",
+      "organisationUnits": [],
+      "publicAccess": "--------",
+      "shortName": "Private not for profit",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rwrw----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2017-06-07T09:45:16.197",
+      "id": "JE2f9V3NIFL",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Public",
+      "organisationUnits": [],
+      "publicAccess": "rwr-----",
+      "shortName": "Public",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rwrw----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2017-07-06T10:59:35.934",
+      "id": "GgfNQGbi829",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Social contribution",
+      "organisationUnits": [],
+      "publicAccess": "--------",
+      "shortName": "Social contribution",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "Ramón José JIMENEZ POMARETA",
+          "id": "eK26I7dRbC4",
+          "userUid": "eK26I7dRbC4"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQ",
+          "id": "BMxt1NZML9e",
+          "userGroupUid": "BMxt1NZML9e"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_AFRO_Ghana",
+          "id": "CoxTaSDd4Bz",
+          "userGroupUid": "CoxTaSDd4Bz"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_demo",
+          "id": "Fs9vCVCHjlE",
+          "userGroupUid": "Fs9vCVCHjlE"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_Dispatch_HQ",
+          "id": "I95k8bm5q5J",
+          "userGroupUid": "I95k8bm5q5J"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Mycetoma_HQ",
+          "id": "IPzz6wlkIp0",
+          "userGroupUid": "IPzz6wlkIp0"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EMRO",
+          "id": "K40P7b1JFdc",
+          "userGroupUid": "K40P7b1JFdc"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Rabies Estimates",
+          "id": "K7VPSVrAYeV",
+          "userGroupUid": "K7VPSVrAYeV"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock",
+          "id": "LCs79RaVi0a",
+          "userGroupUid": "LCs79RaVi0a"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQPublish",
+          "id": "MYa3lh5k0Yq",
+          "userGroupUid": "MYa3lh5k0Yq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_AggrDataEntry_Simple",
+          "id": "QUaeS1tdoLx",
+          "userGroupUid": "QUaeS1tdoLx"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EURO_Armenia",
+          "id": "TNA9oGI43e4",
+          "userGroupUid": "TNA9oGI43e4"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_Unofficial",
+          "id": "VONeiGGohxr",
+          "userGroupUid": "VONeiGGohxr"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_WHO Official",
+          "id": "Zr1fdsbkiAR",
+          "userGroupUid": "Zr1fdsbkiAR"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Yaws_WHO",
+          "id": "ZvxncLTan3w",
+          "userGroupUid": "ZvxncLTan3w"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_AggrDataEntry_Detailed",
+          "id": "aAGXWv0GkMo",
+          "userGroupUid": "aAGXWv0GkMo"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_BU_Event",
+          "id": "bzuIPO5zQPV",
+          "userGroupUid": "bzuIPO5zQPV"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_Public",
+          "id": "orn5lTGFMve",
+          "userGroupUid": "orn5lTGFMve"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_OIE",
+          "id": "pbZna7luFaM",
+          "userGroupUid": "pbZna7luFaM"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
+          "id": "phezIKUxlC2",
+          "userGroupUid": "phezIKUxlC2"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EURO",
+          "id": "tEOUdu1ala4",
+          "userGroupUid": "tEOUdu1ala4"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2017-06-21T21:31:56.507",
+      "id": "Snhh7MxvJ09",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Specialist Medical Practitioner",
+      "organisationUnits": [],
+      "publicAccess": "--------",
+      "shortName": "Specialist Medical Practitioner",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "Ramón José JIMENEZ POMARETA",
+          "id": "eK26I7dRbC4",
+          "userUid": "eK26I7dRbC4"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQ",
+          "id": "BMxt1NZML9e",
+          "userGroupUid": "BMxt1NZML9e"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_AFRO_Ghana",
+          "id": "CoxTaSDd4Bz",
+          "userGroupUid": "CoxTaSDd4Bz"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_demo",
+          "id": "Fs9vCVCHjlE",
+          "userGroupUid": "Fs9vCVCHjlE"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_Dispatch_HQ",
+          "id": "I95k8bm5q5J",
+          "userGroupUid": "I95k8bm5q5J"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Mycetoma_HQ",
+          "id": "IPzz6wlkIp0",
+          "userGroupUid": "IPzz6wlkIp0"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EMRO",
+          "id": "K40P7b1JFdc",
+          "userGroupUid": "K40P7b1JFdc"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Rabies Estimates",
+          "id": "K7VPSVrAYeV",
+          "userGroupUid": "K7VPSVrAYeV"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock",
+          "id": "LCs79RaVi0a",
+          "userGroupUid": "LCs79RaVi0a"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQPublish",
+          "id": "MYa3lh5k0Yq",
+          "userGroupUid": "MYa3lh5k0Yq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_AggrDataEntry_Simple",
+          "id": "QUaeS1tdoLx",
+          "userGroupUid": "QUaeS1tdoLx"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EURO_Armenia",
+          "id": "TNA9oGI43e4",
+          "userGroupUid": "TNA9oGI43e4"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_Unofficial",
+          "id": "VONeiGGohxr",
+          "userGroupUid": "VONeiGGohxr"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_WHO Official",
+          "id": "Zr1fdsbkiAR",
+          "userGroupUid": "Zr1fdsbkiAR"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Yaws_WHO",
+          "id": "ZvxncLTan3w",
+          "userGroupUid": "ZvxncLTan3w"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_AggrDataEntry_Detailed",
+          "id": "aAGXWv0GkMo",
+          "userGroupUid": "aAGXWv0GkMo"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_BU_Event",
+          "id": "bzuIPO5zQPV",
+          "userGroupUid": "bzuIPO5zQPV"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_Public",
+          "id": "orn5lTGFMve",
+          "userGroupUid": "orn5lTGFMve"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_OIE",
+          "id": "pbZna7luFaM",
+          "userGroupUid": "pbZna7luFaM"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
+          "id": "phezIKUxlC2",
+          "userGroupUid": "phezIKUxlC2"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EURO",
+          "id": "tEOUdu1ala4",
+          "userGroupUid": "tEOUdu1ala4"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2017-07-06T10:54:50.202",
+      "id": "jCcVZyWQcWO",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Training",
+      "organisationUnits": [],
+      "publicAccess": "--------",
+      "shortName": "Training",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "Ramón José JIMENEZ POMARETA",
+          "id": "eK26I7dRbC4",
+          "userUid": "eK26I7dRbC4"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQ",
+          "id": "BMxt1NZML9e",
+          "userGroupUid": "BMxt1NZML9e"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_AFRO_Ghana",
+          "id": "CoxTaSDd4Bz",
+          "userGroupUid": "CoxTaSDd4Bz"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_demo",
+          "id": "Fs9vCVCHjlE",
+          "userGroupUid": "Fs9vCVCHjlE"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_Dispatch_HQ",
+          "id": "I95k8bm5q5J",
+          "userGroupUid": "I95k8bm5q5J"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Mycetoma_HQ",
+          "id": "IPzz6wlkIp0",
+          "userGroupUid": "IPzz6wlkIp0"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EMRO",
+          "id": "K40P7b1JFdc",
+          "userGroupUid": "K40P7b1JFdc"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Rabies Estimates",
+          "id": "K7VPSVrAYeV",
+          "userGroupUid": "K7VPSVrAYeV"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock",
+          "id": "LCs79RaVi0a",
+          "userGroupUid": "LCs79RaVi0a"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQPublish",
+          "id": "MYa3lh5k0Yq",
+          "userGroupUid": "MYa3lh5k0Yq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_AggrDataEntry_Simple",
+          "id": "QUaeS1tdoLx",
+          "userGroupUid": "QUaeS1tdoLx"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EURO_Armenia",
+          "id": "TNA9oGI43e4",
+          "userGroupUid": "TNA9oGI43e4"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_Unofficial",
+          "id": "VONeiGGohxr",
+          "userGroupUid": "VONeiGGohxr"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_WHO Official",
+          "id": "Zr1fdsbkiAR",
+          "userGroupUid": "Zr1fdsbkiAR"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Yaws_WHO",
+          "id": "ZvxncLTan3w",
+          "userGroupUid": "ZvxncLTan3w"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_AggrDataEntry_Detailed",
+          "id": "aAGXWv0GkMo",
+          "userGroupUid": "aAGXWv0GkMo"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_BU_Event",
+          "id": "bzuIPO5zQPV",
+          "userGroupUid": "bzuIPO5zQPV"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_Public",
+          "id": "orn5lTGFMve",
+          "userGroupUid": "orn5lTGFMve"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_OIE",
+          "id": "pbZna7luFaM",
+          "userGroupUid": "pbZna7luFaM"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
+          "id": "phezIKUxlC2",
+          "userGroupUid": "phezIKUxlC2"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EURO",
+          "id": "tEOUdu1ala4",
+          "userGroupUid": "tEOUdu1ala4"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2017-07-06T10:59:21.705",
+      "id": "sv2AClFDPLT",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Wages and Salary",
+      "organisationUnits": [],
+      "publicAccess": "--------",
+      "shortName": "Wages and Salary",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "Ramón José JIMENEZ POMARETA",
+          "id": "eK26I7dRbC4",
+          "userUid": "eK26I7dRbC4"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD Check",
+          "id": "xgKMFzwPLs6",
+          "userUid": "xgKMFzwPLs6"
+        }
+      ],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQ",
+          "id": "BMxt1NZML9e",
+          "userGroupUid": "BMxt1NZML9e"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_AFRO_Ghana",
+          "id": "CoxTaSDd4Bz",
+          "userGroupUid": "CoxTaSDd4Bz"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_demo",
+          "id": "Fs9vCVCHjlE",
+          "userGroupUid": "Fs9vCVCHjlE"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_Dispatch_HQ",
+          "id": "I95k8bm5q5J",
+          "userGroupUid": "I95k8bm5q5J"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Mycetoma_HQ",
+          "id": "IPzz6wlkIp0",
+          "userGroupUid": "IPzz6wlkIp0"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EMRO",
+          "id": "K40P7b1JFdc",
+          "userGroupUid": "K40P7b1JFdc"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Rabies Estimates",
+          "id": "K7VPSVrAYeV",
+          "userGroupUid": "K7VPSVrAYeV"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock",
+          "id": "LCs79RaVi0a",
+          "userGroupUid": "LCs79RaVi0a"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQPublish",
+          "id": "MYa3lh5k0Yq",
+          "userGroupUid": "MYa3lh5k0Yq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_AggrDataEntry_Simple",
+          "id": "QUaeS1tdoLx",
+          "userGroupUid": "QUaeS1tdoLx"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EURO_Armenia",
+          "id": "TNA9oGI43e4",
+          "userGroupUid": "TNA9oGI43e4"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_Unofficial",
+          "id": "VONeiGGohxr",
+          "userGroupUid": "VONeiGGohxr"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_WHO Official",
+          "id": "Zr1fdsbkiAR",
+          "userGroupUid": "Zr1fdsbkiAR"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Yaws_WHO",
+          "id": "ZvxncLTan3w",
+          "userGroupUid": "ZvxncLTan3w"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NTD_Leish_AggrDataEntry_Detailed",
+          "id": "aAGXWv0GkMo",
+          "userGroupUid": "aAGXWv0GkMo"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_BU_Event",
+          "id": "bzuIPO5zQPV",
+          "userGroupUid": "bzuIPO5zQPV"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_RO",
+          "id": "n7TwFEDHiw6",
+          "userGroupUid": "n7TwFEDHiw6"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_Public",
+          "id": "orn5lTGFMve",
+          "userGroupUid": "orn5lTGFMve"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Rabies_OIE",
+          "id": "pbZna7luFaM",
+          "userGroupUid": "pbZna7luFaM"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
+          "id": "phezIKUxlC2",
+          "userGroupUid": "phezIKUxlC2"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EURO",
+          "id": "tEOUdu1ala4",
+          "userGroupUid": "tEOUdu1ala4"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "code": "default",
+      "created": "2017-05-10T17:53:55.138",
+      "id": "Y7fcspgsU43",
+      "name": "default",
+      "organisationUnits": [],
+      "publicAccess": "rwrw----",
+      "shortName": "default",
+      "translations": [],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ],
+  "dataElements": [
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "CVlyw498LdE"
+      },
+      "created": "2019-02-24T11:13:44.666",
+      "domainType": "AGGREGATE",
+      "id": "H6pdAoosHWN",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "Average of Entry-level wages and salaries excluding Social Contributions in Private Facilities",
+      "publicAccess": "--------",
+      "shortName": "Average Entry-level wages and salaries in private",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "NUMBER",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "CVlyw498LdE"
+      },
+      "created": "2019-02-24T11:15:17.312",
+      "domainType": "AGGREGATE",
+      "id": "BOsqct4iCpa",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "Average of Entry-level wages and salaries excluding Social Contributions in Private not for profit Facilities",
+      "publicAccess": "--------",
+      "shortName": "Entry-level wages private not 4 profit",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "NUMBER",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "CVlyw498LdE"
+      },
+      "created": "2017-06-20T16:36:38.458",
+      "domainType": "AGGREGATE",
+      "id": "FVANVRToxVF",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "Average of Entry-level wages and salaries excluding Social Contributions in Public Facilities",
+      "publicAccess": "--------",
+      "shortName": "Average Entry-level wages and salaries in public",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "NUMBER",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "COUNT",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "created": "2017-06-21T22:16:28.117",
+      "domainType": "AGGREGATE",
+      "id": "M7R7LVsXlAN",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "Existence of national/subnational policies or standards on public sector wage ceiling",
+      "publicAccess": "--------",
+      "shortName": "Existence of a national policy on wage ceiling",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "BOOLEAN",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "swjTZ93dg4h"
+      },
+      "created": "2017-06-20T16:36:38.458",
+      "domainType": "AGGREGATE",
+      "id": "gNDFctqpNyv",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "Expenditure on health workforce",
+      "publicAccess": "--------",
+      "shortName": "expenditure on health workforce",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "created": "2017-08-09T15:17:24.909",
+      "domainType": "AGGREGATE",
+      "id": "Wgfv9IaDiWM",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "Financial income received from official development assistance and allocated to HWF",
+      "publicAccess": "--------",
+      "shortName": "Financial income receivef from ODA",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "NUMBER",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "created": "2017-08-08T05:57:11.615",
+      "domainType": "AGGREGATE",
+      "id": "X2FXsNBTisV",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "HWF Module 7 File upload",
+      "publicAccess": "--------",
+      "shortName": "HWF Module 7 File upload",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "FILE_RESOURCE",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "MRePCCbesqK"
+      },
+      "created": "2017-06-20T16:36:38.458",
+      "domainType": "AGGREGATE",
+      "id": "l5RPrypr3Wg",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "Public expenditure on compensation of employees",
+      "publicAccess": "--------",
+      "shortName": "Public expenditure on compensation of employees",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "RFbWNJC9bKa"
+      },
+      "created": "2017-06-20T16:36:38.458",
+      "domainType": "AGGREGATE",
+      "id": "xWfKWoc4ggg",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "Public expenditure on health workforce",
+      "publicAccess": "--------",
+      "shortName": "public expenditure on health workforce",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "h93FZvJnB12"
+      },
+      "created": "2017-06-20T16:36:38.458",
+      "domainType": "AGGREGATE",
+      "id": "CvaGFNVhuQl",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "Total expenditure on compensation of employees",
+      "publicAccess": "--------",
+      "shortName": "Expenditure on compensation of employees",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "CVlyw498LdE"
+      },
+      "created": "2017-08-10T21:23:48.062",
+      "domainType": "AGGREGATE",
+      "id": "kOWad32u5xr",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "median earnings of female HWF",
+      "publicAccess": "--------",
+      "shortName": "median earnings of female HWF",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "NUMBER",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "CVlyw498LdE"
+      },
+      "created": "2017-08-10T21:23:20.112",
+      "domainType": "AGGREGATE",
+      "id": "oTcSBrUk1hs",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "median earnings of men HWF",
+      "publicAccess": "--------",
+      "shortName": "median earnings of men HWF",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "NUMBER",
+      "zeroIsSignificant": false
+    }
+  ],
+  "dataEntryForms": [
+    {
+      "created": "2017-06-21T21:22:03.625",
+      "format": 2,
+      "htmlCode": "<script type=\"text/javascript\">\n        $(document).ready(function(){\n        $(function() {\n        $( \"#mod2_tabs\" ).tabs();\n        });\n        });\n        \n        </script>\n<style type=\"text/css\">#cde table { border-collapse: collapse; } #cde table, #cde th, #cde td { border: 1px solid #c0c0c0; } #cde td, #cde th { height: 30px; padding: 10px; margin: 10px; } .cde-greyfield { background-color: #e0e0e0; } .multiselect { width: 650px; } .selectBox { position: relative; } .selectBox select { width: 100%; font-weight: bold; } .overSelect { position: absolute; left: 0; right: 0; top: 0; bottom: 0; } .hwf{ display: none; border: 1px #dadada solid; } label { display: block; text-align: left; }\n        /* Tooltip container */\n        .tooltip {\n        position: relative;\n        display: inline-block;\n        border-bottom: 1px dotted black; /* If you want dots under the hoverable text */\n        }\n        \n        /* Tooltip text */\n        .tooltip .tooltiptext {\n        visibility: hidden;\n        width: 220px;\n        background-color: #555;\n        color: #fff;\n        text-align: center;\n        padding: 5px 0;\n        border-radius: 6px;\n        \n        /* Position the tooltip text */\n        position: absolute;\n        z-index: 1;\n        bottom: 125%;\n        left: 50%;\n        margin-left: -60px;\n        \n        /* Fade in tooltip */\n        opacity: 0;\n        transition: opacity 1s;\n        }\n        \n        /* Tooltip arrow */\n        .tooltip .tooltiptext::after {\n        content: \"\";\n        position: absolute;\n        top: 100%;\n        left: 50%;\n        margin-left: -5px;\n        border-width: 5px;\n        border-style: solid;\n        border-color: #555 transparent transparent transparent;\n        }\n        \n        /* Show the tooltip text when you mouse over the tooltip container */\n        .tooltip:hover .tooltiptext {\n        visibility: visible;\n        opacity: 1;\n        }\n</style>\n<h3 style=\"text-align: center;\"><strong>Health Workforce Spending and Remuneration</strong></h3>\n\n<h4 style=\"text-align: right;\"><a href=\"../api/documents/p6IINqTYv2f/data\" target=\"_blank\">Access the NHWA HANDBOOK</a><br />\n<br />\n<a href=\"../api/documents/OCoAAGYwapP/data\" target=\"_blank\">Access the NHWA USER GUIDE</a></h4>\n\n<div id=\"mod2_tabs\">\n<ul>\n\t<li><a href=\"#tab0\">Expenditure</a></li>\n\t<li><a href=\"#tab1\">Remuneration</a></li>\n\t<li><a href=\"#tab2\">Other Resources</a></li>\n</ul>\n\n<div id=\"tab0\">\n<h2>SECTION 1: HWF Remuneration</h2>\n\n<div id=\"cde\">&nbsp;\n<table cellpadding=\"0\" cellspacing=\"0\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th>SN</th>\n\t\t\t<th>Item</th>\n\t\t\t<th style=\"text-align: center;\">Value</th>\n\t\t</tr>\n\t\t<tr>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th scope=\"row\">1</th>\n\t\t\t<th style=\"text-align: left;\">\n\t\t\t<p lang=\"en-US\">Incoming financial support received from official development assistance allocated to health workforce&nbsp;(7-02)</p>\n\t\t\t</th>\n\t\t\t<td style=\"text-align: center;\"><input id=\"Wgfv9IaDiWM-Xr12mI7VPn3-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t</tbody>\n</table>\n</div>\n\n<div id=\"cde\">&nbsp;\n<table cellpadding=\"0\" cellspacing=\"0\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th colspan=\"1\" rowspan=\"2\">SN</th>\n\t\t\t<th colspan=\"1\" rowspan=\"2\">Item</th>\n\t\t\t<th colspan=\"3\" rowspan=\"1\" style=\"text-align: center;\">Value (USD)</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th style=\"text-align: center;\">Public</th>\n\t\t\t<th style=\"text-align: center;\">Private not for Profit</th>\n\t\t\t<th style=\"text-align: center;\">Private for Profit</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th scope=\"row\">1</th>\n\t\t\t<th style=\"text-align: left;\">Total expenditure on health workforce (7-01)</th>\n\t\t\t<td style=\"text-align: center;\"><input id=\"gNDFctqpNyv-IMqululFzhP-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"gNDFctqpNyv-N3nYJ6ScaYx-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"gNDFctqpNyv-UKbfaRlqkpY-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t</tbody>\n</table>\n</div>\n\n<div id=\"cde\">&nbsp;\n<table cellpadding=\"0\" cellspacing=\"0\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th>SN</th>\n\t\t\t<th>Item</th>\n\t\t\t<th style=\"text-align: center;\">Compensation&nbsp;(USD)</th>\n\t\t\t<th style=\"text-align: center;\">Training&nbsp;(USD)</th>\n\t\t\t<th style=\"text-align: center;\">Others&nbsp;(USD)</th>\n\t\t</tr>\n\t\t<tr>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th scope=\"row\">1</th>\n\t\t\t<th style=\"text-align: left;\">\n\t\t\t<p lang=\"en-US\">Public expenditure on health workforce&nbsp;</p>\n\t\t\t</th>\n\t\t\t<td style=\"text-align: center;\"><input id=\"xWfKWoc4ggg-cFkpPfqFrJW-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"xWfKWoc4ggg-TQ5H1Za7ZMR-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"xWfKWoc4ggg-dVpd180cEmo-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t</tbody>\n</table>\n</div>\n\n<div id=\"cde\">&nbsp;\n<table cellpadding=\"0\" cellspacing=\"0\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th>SN</th>\n\t\t\t<th>Item</th>\n\t\t\t<th style=\"text-align: center;\">Wages and Salary (USD)</th>\n\t\t\t<th style=\"text-align: center;\">Social Contribution (USD)</th>\n\t\t\t<th style=\"text-align: center;\">Others&nbsp;(USD)</th>\n\t\t</tr>\n\t\t<tr>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th scope=\"row\">1</th>\n\t\t\t<th style=\"text-align: left;\">\n\t\t\t<p lang=\"en-US\">Public expenditure on compensation of employees&nbsp;(7-04)</p>\n\t\t\t</th>\n\t\t\t<td style=\"text-align: center;\"><input id=\"l5RPrypr3Wg-LfoJLP7BbDk-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"l5RPrypr3Wg-hL8lKfXNzln-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"l5RPrypr3Wg-VWIQFya88eZ-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t</tbody>\n</table>\n</div>\n\n<div id=\"cde\">&nbsp;\n<table cellpadding=\"0\" cellspacing=\"0\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th>SN</th>\n\t\t\t<th>Item</th>\n\t\t\t<th style=\"text-align: center;\">\n\t\t\t<div class=\"tooltip\">Government (USD) <span class=\"tooltiptext\">Government schemes and compulsory contributory health care financing schemes</span></div>\n\t\t\t</th>\n\t\t\t<th style=\"text-align: center;\">\n\t\t\t<div class=\"tooltip\">Voluntary (USD)<span class=\"tooltiptext\">Voluntary health care payment schemes (other than Out of pocket)</span></div>\n\t\t\t</th>\n\t\t\t<th style=\"text-align: center;\">\n\t\t\t<div class=\"tooltip\">Household (USD)<span class=\"tooltiptext\">Household out-of-pocket payment</span></div>\n\t\t\t</th>\n\t\t\t<th style=\"text-align: center;\">Others&nbsp;(USD)</th>\n\t\t</tr>\n\t\t<tr>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th scope=\"row\">1</th>\n\t\t\t<th style=\"text-align: left;\">\n\t\t\t<p lang=\"en-US\">Total expenditure on compensation of employees</p>\n\t\t\t</th>\n\t\t\t<td style=\"text-align: center;\"><input id=\"CvaGFNVhuQl-HQPWV8cT7li-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"CvaGFNVhuQl-FiRcnmXF1Yg-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"CvaGFNVhuQl-QKhM7ublqzd-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"CvaGFNVhuQl-txxKPnVUGvV-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t</tbody>\n</table>\n</div>\n</div>\n\n<div id=\"tab1\">\n<h2>SECTION 2: HWF Entry Wages</h2>\n\n<div id=\"cde\">\n<table cellpadding=\"0\" cellspacing=\"0\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th colspan=\"1\" rowspan=\"2\">SN</th>\n\t\t\t<th colspan=\"1\" rowspan=\"2\">Occupation</th>\n\t\t\t<th colspan=\"3\" rowspan=\"1\" style=\"text-align: center;\">\n\t\t\t<p lang=\"en-US\">Average of Entry-level wages and<br />\n\t\t\tsalaries excluding Social Contributions&nbsp;(USD)&nbsp;(7-05)</p>\n\t\t\t</th>\n\t\t\t<th colspan=\"1\" rowspan=\"2\" style=\"text-align: center;\">Median earning-men</th>\n\t\t\t<th colspan=\"1\" rowspan=\"2\" style=\"text-align: center;\">Median earning -women</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th style=\"text-align: center;\">Public</th>\n\t\t\t<th style=\"text-align: center;\">Private not for Profit</th>\n\t\t\t<th style=\"text-align: center;\">Private for Profit</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th scope=\"row\">1</th>\n\t\t\t<th style=\"text-align: left;\">Medical Doctors</th>\n\t\t\t<td style=\"text-align: center;\"><input id=\"FVANVRToxVF-aBpbcEgtzgw-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"BOsqct4iCpa-aBpbcEgtzgw-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"H6pdAoosHWN-aBpbcEgtzgw-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"oTcSBrUk1hs-aBpbcEgtzgw-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"kOWad32u5xr-aBpbcEgtzgw-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th scope=\"row\">2</th>\n\t\t\t<th>\n\t\t\t<p style=\"margin-left: 20px; text-align: left;\">General Medical Practitioner</p>\n\t\t\t</th>\n\t\t\t<td style=\"text-align: center;\"><input id=\"FVANVRToxVF-LHbCtHlZr3Y-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"BOsqct4iCpa-LHbCtHlZr3Y-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"H6pdAoosHWN-LHbCtHlZr3Y-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"oTcSBrUk1hs-LHbCtHlZr3Y-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"kOWad32u5xr-LHbCtHlZr3Y-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th scope=\"row\">3</th>\n\t\t\t<th>\n\t\t\t<p style=\"margin-left: 20px; text-align: left;\">Specialist Medical Practitioner</p>\n\t\t\t</th>\n\t\t\t<td style=\"text-align: center;\"><input id=\"FVANVRToxVF-VtVkbvygJnm-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"BOsqct4iCpa-VtVkbvygJnm-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"H6pdAoosHWN-VtVkbvygJnm-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"oTcSBrUk1hs-VtVkbvygJnm-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"kOWad32u5xr-VtVkbvygJnm-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th scope=\"row\">4</th>\n\t\t\t<th style=\"text-align: left;\">Nursing Professional</th>\n\t\t\t<td style=\"text-align: center;\"><input id=\"FVANVRToxVF-fGOgbIqsxDn-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"BOsqct4iCpa-fGOgbIqsxDn-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"H6pdAoosHWN-fGOgbIqsxDn-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"oTcSBrUk1hs-fGOgbIqsxDn-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"kOWad32u5xr-fGOgbIqsxDn-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th scope=\"row\">5</th>\n\t\t\t<th style=\"text-align: left;\">Midwifery Professional</th>\n\t\t\t<td style=\"text-align: center;\"><input id=\"FVANVRToxVF-MPzyVWiSFF2-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"BOsqct4iCpa-MPzyVWiSFF2-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"H6pdAoosHWN-MPzyVWiSFF2-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"oTcSBrUk1hs-MPzyVWiSFF2-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"kOWad32u5xr-MPzyVWiSFF2-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th scope=\"row\">6</th>\n\t\t\t<th style=\"text-align: left;\">Dentist</th>\n\t\t\t<td style=\"text-align: center;\"><input id=\"FVANVRToxVF-ALBRKpJsddQ-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"BOsqct4iCpa-ALBRKpJsddQ-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"H6pdAoosHWN-ALBRKpJsddQ-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"oTcSBrUk1hs-ALBRKpJsddQ-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"kOWad32u5xr-ALBRKpJsddQ-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th scope=\"row\">7</th>\n\t\t\t<th style=\"text-align: left;\">Pharmacist</th>\n\t\t\t<td style=\"text-align: center;\"><input id=\"FVANVRToxVF-iWRW6jXAzvP-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"BOsqct4iCpa-iWRW6jXAzvP-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"H6pdAoosHWN-iWRW6jXAzvP-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"oTcSBrUk1hs-iWRW6jXAzvP-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"kOWad32u5xr-iWRW6jXAzvP-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t</tbody>\n</table>\n</div>\n\n<div id=\"cde\">&nbsp;\n<table cellpadding=\"0\" cellspacing=\"0\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th>SN</th>\n\t\t\t<th>Item</th>\n\t\t\t<th style=\"text-align: center;\">Exitence</th>\n\t\t</tr>\n\t\t<tr>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th scope=\"row\">1</th>\n\t\t\t<th style=\"text-align: left;\">\n\t\t\t<p lang=\"en-US\">Existence of national/subnational policies or standards on public sector wage ceiling&nbsp;(7-06)</p>\n\t\t\t</th>\n\t\t\t<td style=\"text-align: center;\"><input id=\"M7R7LVsXlAN-Xr12mI7VPn3-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t</tbody>\n</table>\n</div>\n</div>\n\n<div id=\"tab2\">\n<h2>SECTION 3: HWF OTHER RESOURCES</h2>\n\n<div id=\"cde\">\n<table cellpadding=\"0\" cellspacing=\"0\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th>SN</th>\n\t\t\t<th>Item</th>\n\t\t\t<th>Value</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td style=\"text-align: Left;\">Upload other resources</td>\n\t\t\t<td><input id=\"X2FXsNBTisV-Xr12mI7VPn3-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t</tbody>\n</table>\n</div>\n</div>\n</div>\n",
+      "id": "Vvb0gbFH9IO",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "HWF Module 7",
+      "style": "NORMAL",
+      "translations": []
+    }
+  ],
+  "dataSets": [
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "compulsoryDataElementOperands": [],
+      "compulsoryFieldsCompleteOnly": false,
+      "created": "2017-06-20T16:49:34.628",
+      "dataElementDecoration": false,
+      "dataEntryForm": {
+        "id": "Vvb0gbFH9IO"
+      },
+      "dataInputPeriods": [],
+      "dataSetElements": [
+        {
+          "dataElement": {
+            "id": "X2FXsNBTisV"
+          },
+          "dataSet": {
+            "id": "ZRsZdd2AvAR"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "BOsqct4iCpa"
+          },
+          "dataSet": {
+            "id": "ZRsZdd2AvAR"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "H6pdAoosHWN"
+          },
+          "dataSet": {
+            "id": "ZRsZdd2AvAR"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "M7R7LVsXlAN"
+          },
+          "dataSet": {
+            "id": "ZRsZdd2AvAR"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "Wgfv9IaDiWM"
+          },
+          "dataSet": {
+            "id": "ZRsZdd2AvAR"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "gNDFctqpNyv"
+          },
+          "dataSet": {
+            "id": "ZRsZdd2AvAR"
+          }
+        },
+        {
+          "categoryCombo": {
+            "id": "MRePCCbesqK"
+          },
+          "dataElement": {
+            "id": "l5RPrypr3Wg"
+          },
+          "dataSet": {
+            "id": "ZRsZdd2AvAR"
+          }
+        },
+        {
+          "categoryCombo": {
+            "id": "CVlyw498LdE"
+          },
+          "dataElement": {
+            "id": "FVANVRToxVF"
+          },
+          "dataSet": {
+            "id": "ZRsZdd2AvAR"
+          }
+        },
+        {
+          "categoryCombo": {
+            "id": "RFbWNJC9bKa"
+          },
+          "dataElement": {
+            "id": "xWfKWoc4ggg"
+          },
+          "dataSet": {
+            "id": "ZRsZdd2AvAR"
+          }
+        },
+        {
+          "categoryCombo": {
+            "id": "h93FZvJnB12"
+          },
+          "dataElement": {
+            "id": "CvaGFNVhuQl"
+          },
+          "dataSet": {
+            "id": "ZRsZdd2AvAR"
+          }
+        },
+        {
+          "categoryCombo": {
+            "id": "CVlyw498LdE"
+          },
+          "dataElement": {
+            "id": "oTcSBrUk1hs"
+          },
+          "dataSet": {
+            "id": "ZRsZdd2AvAR"
+          }
+        },
+        {
+          "categoryCombo": {
+            "id": "CVlyw498LdE"
+          },
+          "dataElement": {
+            "id": "kOWad32u5xr"
+          },
+          "dataSet": {
+            "id": "ZRsZdd2AvAR"
+          }
+        }
+      ],
+      "expiryDays": 0,
+      "fieldCombinationRequired": false,
+      "id": "ZRsZdd2AvAR",
+      "indicators": [],
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "mobile": false,
+      "name": "NHWA Module 7",
+      "noValueRequiresComment": false,
+      "notificationRecipients": {
+        "id": "z6TJVUnop02"
+      },
+      "notifyCompletingUser": true,
+      "openFuturePeriods": 0,
+      "organisationUnits": [
+        {
+          "id": "ACalScnrl2I"
+        },
+        {
+          "id": "AJBfDthkySs"
+        },
+        {
+          "id": "AUStREIxT4s"
+        },
+        {
+          "id": "AYWCbVecRKQ"
+        },
+        {
+          "id": "AZdPnw0b1lm"
+        },
+        {
+          "id": "AjeCGGb8H76"
+        },
+        {
+          "id": "Ajnw1b8m6eL"
+        },
+        {
+          "id": "Bc3mYAhlY1a"
+        },
+        {
+          "id": "BlC8wOVHBlb"
+        },
+        {
+          "id": "BmTVMvJHVBO"
+        },
+        {
+          "id": "CCl7hAqlrmE"
+        },
+        {
+          "id": "D4JnxOsqwE4"
+        },
+        {
+          "id": "DVnpk4xiXGJ"
+        },
+        {
+          "id": "DzAOqCf0ots"
+        },
+        {
+          "id": "EB4aSZN0eQr"
+        },
+        {
+          "id": "EDHO4qOyY88"
+        },
+        {
+          "id": "EGLpIMSAWhx"
+        },
+        {
+          "id": "ElwEWppmGgv"
+        },
+        {
+          "id": "EubjsxqlA4d"
+        },
+        {
+          "id": "FNduj2N3e8s"
+        },
+        {
+          "id": "FOJUXD6f6lB"
+        },
+        {
+          "id": "FUieyovDec8"
+        },
+        {
+          "id": "Fi5lLVwe1Th"
+        },
+        {
+          "id": "G037PAPU5dO"
+        },
+        {
+          "id": "G3thRWUQAX9"
+        },
+        {
+          "id": "G8FCnT37gyb"
+        },
+        {
+          "id": "G9o5ad4oJJX"
+        },
+        {
+          "id": "GWQBgBHdbbp"
+        },
+        {
+          "id": "Gan3VYicAWe"
+        },
+        {
+          "id": "Gnz4lqrVEMf"
+        },
+        {
+          "id": "GrU8zQv510v"
+        },
+        {
+          "id": "HDN85xUGB65"
+        },
+        {
+          "id": "HX7fBSMCCbL"
+        },
+        {
+          "id": "HfVjCurKxh2"
+        },
+        {
+          "id": "HwqfuL9pQz5"
+        },
+        {
+          "id": "I3NxIqG7bD4"
+        },
+        {
+          "id": "IFAb1JUZ0Fz"
+        },
+        {
+          "id": "IZSm5iPKkDg"
+        },
+        {
+          "id": "IbGbsybdeou"
+        },
+        {
+          "id": "JEHwU064LAj"
+        },
+        {
+          "id": "JI5lagoUJR4"
+        },
+        {
+          "id": "JIr15Xt3EQn"
+        },
+        {
+          "id": "JQ5qF3mRCMe"
+        },
+        {
+          "id": "JX7HJfPfbog"
+        },
+        {
+          "id": "KAUSOoBq5Ft"
+        },
+        {
+          "id": "KqaTbKanCG3"
+        },
+        {
+          "id": "KwgjnBBpe5b"
+        },
+        {
+          "id": "LAPR4Iu2NVS"
+        },
+        {
+          "id": "LbWpsX1FJcC"
+        },
+        {
+          "id": "MJEntShoQVK"
+        },
+        {
+          "id": "Mb9IYOFZYCv"
+        },
+        {
+          "id": "Mk7P920hkBa"
+        },
+        {
+          "id": "N9i1v07Ro0E"
+        },
+        {
+          "id": "Nlv8oKkoAwp"
+        },
+        {
+          "id": "Nrnay4JA8Ga"
+        },
+        {
+          "id": "O0hWoXlHhIS"
+        },
+        {
+          "id": "OFXJXWnOG0R"
+        },
+        {
+          "id": "PJS910L8KtX"
+        },
+        {
+          "id": "PY4aKgi30fr"
+        },
+        {
+          "id": "PevCwH17M73"
+        },
+        {
+          "id": "PpjdOoVUc7k"
+        },
+        {
+          "id": "Pz0LCggcqES"
+        },
+        {
+          "id": "QkOClVdLto1"
+        },
+        {
+          "id": "QqAzWHtJ8VC"
+        },
+        {
+          "id": "RDiXMdNXg16"
+        },
+        {
+          "id": "RTdjvXHJdnH"
+        },
+        {
+          "id": "Ri2tb7LBVtP"
+        },
+        {
+          "id": "Rmy6DbwekE1"
+        },
+        {
+          "id": "RyAd6laKg3U"
+        },
+        {
+          "id": "S52uSY3lb8V"
+        },
+        {
+          "id": "SAsS1Kwc4iW"
+        },
+        {
+          "id": "ST86paYjRHP"
+        },
+        {
+          "id": "SnYHrnchKjL"
+        },
+        {
+          "id": "SsAjVE1S87E"
+        },
+        {
+          "id": "T1irZBQ9gNW"
+        },
+        {
+          "id": "T7tKHiW1Db1"
+        },
+        {
+          "id": "TIhakAVsQwM"
+        },
+        {
+          "id": "TldYkeCwb5r"
+        },
+        {
+          "id": "Tr4i6jeDDqj"
+        },
+        {
+          "id": "UlQiEogy3wG"
+        },
+        {
+          "id": "VGOzFKfSazN"
+        },
+        {
+          "id": "VJrTuNXAg9G"
+        },
+        {
+          "id": "VPesUmegQpP"
+        },
+        {
+          "id": "VbbSe7wgS9s"
+        },
+        {
+          "id": "VnTycSnraEY"
+        },
+        {
+          "id": "WApLDd37Yj2"
+        },
+        {
+          "id": "WC5rU5fLMzY"
+        },
+        {
+          "id": "WXGcnQWJ0Qd"
+        },
+        {
+          "id": "Wpzccx0vjIP"
+        },
+        {
+          "id": "WtcZBCTspgM"
+        },
+        {
+          "id": "WuQvgvXKamv"
+        },
+        {
+          "id": "XKKI1hhyFxk"
+        },
+        {
+          "id": "XYpsN5j30R9"
+        },
+        {
+          "id": "XeWqwCw9G5s"
+        },
+        {
+          "id": "XebDUbuPqVx"
+        },
+        {
+          "id": "Xz7rnovuiOx"
+        },
+        {
+          "id": "YOL13ptz4ef"
+        },
+        {
+          "id": "Yg9QkNQk9p7"
+        },
+        {
+          "id": "Zav7juzGmEo"
+        },
+        {
+          "id": "ZcrjvJaYQb7"
+        },
+        {
+          "id": "Zdl3ad7PayF"
+        },
+        {
+          "id": "ZgsdoEiTlLq"
+        },
+        {
+          "id": "aNIrqpwcKXv"
+        },
+        {
+          "id": "av3fkpFxEXj"
+        },
+        {
+          "id": "bGWaeVBrOcc"
+        },
+        {
+          "id": "bcy4159FETR"
+        },
+        {
+          "id": "bhkJDAiqVKX"
+        },
+        {
+          "id": "bnQX2QIuIY9"
+        },
+        {
+          "id": "buSEeeViTo3"
+        },
+        {
+          "id": "bvyjEfI0d2V"
+        },
+        {
+          "id": "c82mDnhUQly"
+        },
+        {
+          "id": "cJU4qStc9QT"
+        },
+        {
+          "id": "cWrL45je7mw"
+        },
+        {
+          "id": "cZ8823L0fLJ"
+        },
+        {
+          "id": "cfBaKMnsXd1"
+        },
+        {
+          "id": "cpmmPDsQ3uG"
+        },
+        {
+          "id": "dNLjKwsVjod"
+        },
+        {
+          "id": "dpcvWc01CeN"
+        },
+        {
+          "id": "dscgTvwyCw8"
+        },
+        {
+          "id": "e9IoKRAkYLO"
+        },
+        {
+          "id": "eVEK7djdWqV"
+        },
+        {
+          "id": "er7MPiN3tdH"
+        },
+        {
+          "id": "eyvitcZL4ex"
+        },
+        {
+          "id": "fHXW26zg2U6"
+        },
+        {
+          "id": "fYeClLy8K2x"
+        },
+        {
+          "id": "fg8TSIHSGHX"
+        },
+        {
+          "id": "fkrzFaeuYDn"
+        },
+        {
+          "id": "g49fuSiB623"
+        },
+        {
+          "id": "gb7vWtO7Wjp"
+        },
+        {
+          "id": "gg9DH7dvdeD"
+        },
+        {
+          "id": "gxi9jcBYyrL"
+        },
+        {
+          "id": "hG1CNbw8wSF"
+        },
+        {
+          "id": "hmZE3mVAZFf"
+        },
+        {
+          "id": "hpXoMVtJpT3"
+        },
+        {
+          "id": "i3v8r9XNls2"
+        },
+        {
+          "id": "iFaKKDtb7nf"
+        },
+        {
+          "id": "iNT35p3jsEM"
+        },
+        {
+          "id": "ibGsqmiVkoU"
+        },
+        {
+          "id": "ipe4pT2TW7G"
+        },
+        {
+          "id": "jCtFxm8aADJ"
+        },
+        {
+          "id": "jFOZHDZpjPL"
+        },
+        {
+          "id": "jVqoXv7rFns"
+        },
+        {
+          "id": "jXQq22U4Y2e"
+        },
+        {
+          "id": "jkyBvNzcTLl"
+        },
+        {
+          "id": "juBxu3AprlM"
+        },
+        {
+          "id": "kpFgAwwSjCZ"
+        },
+        {
+          "id": "lVPoUAKCdmU"
+        },
+        {
+          "id": "lbMrRSBsXh3"
+        },
+        {
+          "id": "lnvESj20mWZ"
+        },
+        {
+          "id": "mDSuyD9lOM5"
+        },
+        {
+          "id": "mNa42CHbkO7"
+        },
+        {
+          "id": "mhWSEv79IJW"
+        },
+        {
+          "id": "mmJUi0PpvGi"
+        },
+        {
+          "id": "n8iofJiiX4T"
+        },
+        {
+          "id": "oWNF4d3PK8C"
+        },
+        {
+          "id": "oofyLUJJ6Vy"
+        },
+        {
+          "id": "oroMC4mMzMq"
+        },
+        {
+          "id": "oy494aJtjTB"
+        },
+        {
+          "id": "pMukkUmnnkh"
+        },
+        {
+          "id": "pZZriU4sY0l"
+        },
+        {
+          "id": "pbH6bmcioGw"
+        },
+        {
+          "id": "pfhvgmllA9M"
+        },
+        {
+          "id": "q23bFLr2E5D"
+        },
+        {
+          "id": "q2HqXV5OO3z"
+        },
+        {
+          "id": "qbqrFLCJewu"
+        },
+        {
+          "id": "quQpOfBIDFC"
+        },
+        {
+          "id": "rEQqufy2KNi"
+        },
+        {
+          "id": "rb6V38jgfFc"
+        },
+        {
+          "id": "rtLnlu4GUI2"
+        },
+        {
+          "id": "s1mzBU7YOaZ"
+        },
+        {
+          "id": "sSIYRwB1r74"
+        },
+        {
+          "id": "shRXArPWh8H"
+        },
+        {
+          "id": "tDFavWinSwr"
+        },
+        {
+          "id": "tV0rWhHr9cj"
+        },
+        {
+          "id": "tnTRnfd2aVs"
+        },
+        {
+          "id": "uvTw0Kus5KZ"
+        },
+        {
+          "id": "vboedbUs1As"
+        },
+        {
+          "id": "vkXlj7ZPkGi"
+        },
+        {
+          "id": "vnbnnSZXGTv"
+        },
+        {
+          "id": "wMTP4GblKr8"
+        },
+        {
+          "id": "wUBWZEHJm6Q"
+        },
+        {
+          "id": "wimH12ukPK5"
+        },
+        {
+          "id": "wj7iV08dvFq"
+        },
+        {
+          "id": "wnuoeS9sVZR"
+        },
+        {
+          "id": "x6DVvicRjYC"
+        },
+        {
+          "id": "xB6nQN5Wtpg"
+        },
+        {
+          "id": "xb2ezJcUoSR"
+        },
+        {
+          "id": "xqjIL1cGrl1"
+        },
+        {
+          "id": "yBqy4nxuOCA"
+        },
+        {
+          "id": "yzAMOdV0Pmr"
+        },
+        {
+          "id": "z51rgcc5R8V"
+        },
+        {
+          "id": "zEYrsiNUGIo"
+        },
+        {
+          "id": "zFInPJBZVbN"
+        },
+        {
+          "id": "zYQqFxQw5jj"
+        },
+        {
+          "id": "zaluKz5Llai"
+        }
+      ],
+      "periodType": "Yearly",
+      "publicAccess": "--------",
+      "renderAsTabs": false,
+      "renderHorizontally": false,
+      "shortName": "NHWA Module 7",
+      "skipOffline": false,
+      "timelyDays": 15,
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rwrw----",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ],
+      "validCompleteOnly": true,
+      "version": 52,
+      "workflow": {
+        "id": "QNOQUZfEJE5"
+      }
+    }
+  ],
+  "date": "2019-05-01T10:32:08.010"
+}
