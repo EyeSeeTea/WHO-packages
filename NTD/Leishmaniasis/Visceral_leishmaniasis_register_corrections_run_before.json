@@ -1,0 +1,290 @@
+{
+  "dataElements": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationLevels": [],
+      "aggregationType": "NONE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "VL_Lab_Micro_result_T (old)",
+      "created": "2016-05-23T00:02:14.771",
+      "dataElementGroups": [],
+      "dataSetElements": [],
+      "dimensionItem": "zoECkkkCPdP",
+      "dimensionItemType": "DATA_ELEMENT",
+      "displayFormName": "Microscopy result (old)",
+      "displayName": "VL_Lab_Micro_result_T (old)",
+      "displayShortName": "Microscopy result (old)",
+      "domainType": "TRACKER",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "formName": "Microscopy result (old)",
+      "href": "https://extranet-uat.who.int/dhis2/api/dataElements/zoECkkkCPdP",
+      "id": "zoECkkkCPdP",
+      "lastUpdated": "2019-02-20T13:39:10.099",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "VL_Lab_Micro_result_T (old)",
+      "optionSet": {
+        "id": "s9DphURXyJX"
+      },
+      "optionSetValue": true,
+      "publicAccess": "--------",
+      "shortName": "Microscopy result (old)",
+      "translations": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQ",
+          "id": "BMxt1NZML9e",
+          "userGroupUid": "BMxt1NZML9e"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP",
+          "id": "C0BrlroHnLZ",
+          "userGroupUid": "C0BrlroHnLZ"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_AFRO_Ghana",
+          "id": "CoxTaSDd4Bz",
+          "userGroupUid": "CoxTaSDd4Bz"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leish_Kenya_VL_Admin",
+          "id": "DHWlFaXI0Sy",
+          "userGroupUid": "DHWlFaXI0Sy"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_demo",
+          "id": "Fs9vCVCHjlE",
+          "userGroupUid": "Fs9vCVCHjlE"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "Leishmaniasis_Dispatch_HQ",
+          "id": "I95k8bm5q5J",
+          "userGroupUid": "I95k8bm5q5J"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Mycetoma_HQ",
+          "id": "IPzz6wlkIp0",
+          "userGroupUid": "IPzz6wlkIp0"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EMRO",
+          "id": "K40P7b1JFdc",
+          "userGroupUid": "K40P7b1JFdc"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "HEP Admins",
+          "id": "KU3n9ZHLJBE",
+          "userGroupUid": "KU3n9ZHLJBE"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock",
+          "id": "LCs79RaVi0a",
+          "userGroupUid": "LCs79RaVi0a"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Leishmaniasis_MonthlyStock_HQPublish",
+          "id": "MYa3lh5k0Yq",
+          "userGroupUid": "MYa3lh5k0Yq"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EURO_Armenia",
+          "id": "TNA9oGI43e4",
+          "userGroupUid": "TNA9oGI43e4"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Skin NTDs_HQ",
+          "id": "XqznB7ROzB3",
+          "userGroupUid": "XqznB7ROzB3"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
+          "id": "ZuT9b32Dhv5",
+          "userGroupUid": "ZuT9b32Dhv5"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_SkinNTDs_Yaws_WHO",
+          "id": "ZvxncLTan3w",
+          "userGroupUid": "ZvxncLTan3w"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD_SkinNTDs_BU_HQ",
+          "id": "ZyQlPOL3aSD",
+          "userGroupUid": "ZyQlPOL3aSD"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leish_Kenya_VL_ViewOU",
+          "id": "kuhCnpy2iM6",
+          "userGroupUid": "kuhCnpy2iM6"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
+          "id": "phezIKUxlC2",
+          "userGroupUid": "phezIKUxlC2"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_EURO",
+          "id": "tEOUdu1ala4",
+          "userGroupUid": "tEOUdu1ala4"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Data Entry",
+          "id": "uEYpW1usu0E",
+          "userGroupUid": "uEYpW1usu0E"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Data Analysis",
+          "id": "xCbfjheBM6t",
+          "userGroupUid": "xCbfjheBM6t"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ],
+      "valueType": "TEXT",
+      "zeroIsSignificant": false
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationLevels": [],
+      "aggregationType": "NONE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "VL_Lab_RDT_T (old)",
+      "created": "2016-06-23T08:28:42.582",
+      "dataElementGroups": [],
+      "dataSetElements": [],
+      "dimensionItem": "DeA3q4Uczfz",
+      "dimensionItemType": "DATA_ELEMENT",
+      "displayFormName": "Rapid diagnostic test result (old)",
+      "displayName": "VL_Lab_RDT_T (old)",
+      "displayShortName": "RDT result (old)",
+      "domainType": "TRACKER",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "formName": "Rapid diagnostic test result (old)",
+      "href": "https://extranet-uat.who.int/dhis2/api/dataElements/DeA3q4Uczfz",
+      "id": "DeA3q4Uczfz",
+      "lastUpdated": "2018-12-19T15:33:49.171",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "VL_Lab_RDT_T (old)",
+      "optionSet": {
+        "id": "s9DphURXyJX"
+      },
+      "optionSetValue": true,
+      "publicAccess": "--------",
+      "shortName": "RDT result (old)",
+      "translations": [],
+      "user": {
+        "id": "q9wZgtaDxWn"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leish_Kenya_VL_Admin",
+          "id": "DHWlFaXI0Sy",
+          "userGroupUid": "DHWlFaXI0Sy"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_Admin",
+          "id": "Un2GLxeuVZ2",
+          "userGroupUid": "Un2GLxeuVZ2"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
+          "id": "ZuT9b32Dhv5",
+          "userGroupUid": "ZuT9b32Dhv5"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leish_Kenya_VL_LabCM",
+          "id": "sXNyAgGyHSK",
+          "userGroupUid": "sXNyAgGyHSK"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "NTD_Leishmaniasis_HQ",
+          "id": "yBUSIP5IhrF",
+          "userGroupUid": "yBUSIP5IhrF"
+        }
+      ],
+      "valueType": "TEXT",
+      "zeroIsSignificant": false
+    }
+  ]
+}

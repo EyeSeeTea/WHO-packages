@@ -1,0 +1,168 @@
+{
+  "dataElements": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "CVlyw498LdE"
+      },
+      "created": "2017-08-12T23:09:14.789",
+      "dataElementGroups": [
+        {
+          "id": "vcj8DxRCtvt"
+        }
+      ],
+      "dataSetElements": [
+        {
+          "categoryCombo": {
+            "id": "CVlyw498LdE"
+          },
+          "dataElement": {
+            "id": "qNRERx0Icjw"
+          },
+          "dataSet": {
+            "id": "cxfAcMbSZe1"
+          }
+        }
+      ],
+      "dimensionItem": "qNRERx0Icjw",
+      "dimensionItemType": "DATA_ELEMENT",
+      "displayFormName": "Male Health workforce Started practicing within one year of graduation",
+      "displayName": "Male Health workforce Started practicing within one year of graduation",
+      "displayShortName": "Male HWF practicing within one year of graduation",
+      "domainType": "AGGREGATE",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "https://extranet.who.int/dhis2-dev/api/dataElements/qNRERx0Icjw",
+      "id": "qNRERx0Icjw",
+      "lastUpdated": "2019-05-01T16:06:03.455",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "Male Health workforce Started practicing within one year of graduation",
+      "optionSetValue": false,
+      "publicAccess": "--------",
+      "shortName": "Male HWF practicing within one year of graduation",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "CVlyw498LdE"
+      },
+      "created": "2017-08-12T23:09:14.789",
+      "dataElementGroups": [
+        {
+          "id": "vcj8DxRCtvt"
+        }
+      ],
+      "dataSetElements": [
+        {
+          "categoryCombo": {
+            "id": "CVlyw498LdE"
+          },
+          "dataElement": {
+            "id": "h1S7GCkmvVn"
+          },
+          "dataSet": {
+            "id": "cxfAcMbSZe1"
+          }
+        }
+      ],
+      "dimensionItem": "h1S7GCkmvVn",
+      "dimensionItemType": "DATA_ELEMENT",
+      "displayFormName": "Male newly active foreign trained Health Workforce",
+      "displayName": "Male newly active foreign trained Health Workforce",
+      "displayShortName": "Male newly active foreign trained Health Workforce",
+      "domainType": "AGGREGATE",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "https://extranet.who.int/dhis2-dev/api/dataElements/h1S7GCkmvVn",
+      "id": "h1S7GCkmvVn",
+      "lastUpdated": "2019-05-01T16:06:03.455",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "Male newly active foreign trained Health Workforce",
+      "optionSetValue": false,
+      "publicAccess": "--------",
+      "shortName": "Male newly active foreign trained Health Workforce",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    }
+  ]
+}

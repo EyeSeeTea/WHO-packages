@@ -1,0 +1,65 @@
+{
+  "date": "2019-05-03T14:04:29.935Z",
+  "userGroups": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "code": "UG_NTD_Leish_LabLog_Capture",
+      "created": "2019-04-15T19:15:24.993",
+      "displayName": "NTD_Leish_LabLog_Capture",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "id": "TbGA9fMJpCR",
+      "lastUpdated": "2019-04-15T19:15:24.993",
+      "lastUpdatedBy": {},
+      "managedByGroups": [],
+      "managedGroups": [],
+      "metadataType": "userGroups",
+      "name": "NTD_Leish_LabLog_Capture",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {},
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "code": "UG_NTD_Leish_LabLog_View",
+      "created": "2019-04-15T19:16:17.272",
+      "displayName": "NTD_Leish_LabLog_View",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "id": "cy0qXsDxzxe",
+      "lastUpdated": "2019-04-15T19:16:17.272",
+      "lastUpdatedBy": {},
+      "managedByGroups": [],
+      "managedGroups": [],
+      "metadataType": "userGroups",
+      "name": "NTD_Leish_LabLog_View",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {},
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": []
+    }
+  ]
+}
