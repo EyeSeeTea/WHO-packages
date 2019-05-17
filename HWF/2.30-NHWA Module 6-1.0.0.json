@@ -4515,16 +4515,16 @@
       "userAccesses": [],
       "userGroupAccesses": [
         {
+          "access": "rwrw----",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
           "access": "rwr-----",
           "displayName": "NHWA Team (formerly health workforce team)",
           "id": "fxyLXZ10TXC",
           "userGroupUid": "fxyLXZ10TXC"
-        },
-        {
-          "access": "rwrw----",
-          "displayName": "NHWA _DATA Capture Module 6",
-          "id": "vP9XN5kQOUS",
-          "userGroupUid": "vP9XN5kQOUS"
         }
       ],
       "validCompleteOnly": true,
