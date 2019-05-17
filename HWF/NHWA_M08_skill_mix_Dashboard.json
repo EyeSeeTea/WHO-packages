@@ -1,0 +1,847 @@
+{
+  "charts": [
+    {
+      "aggregationType": "DEFAULT",
+      "category": "pe",
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "completedOnly": false,
+      "created": "2017-08-21T00:43:38.627",
+      "cumulativeValues": false,
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "DATA_ELEMENT",
+          "dataElement": {
+            "id": "LW954y3FqL8"
+          }
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "description": "A report showing the % of HWF at the Primary health care level",
+      "externalAccess": false,
+      "filterDimensions": [
+        "ou"
+      ],
+      "hideEmptyRowItems": "NONE",
+      "hideLegend": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "id": "FuTlOh6YQZO",
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2018-07-12T16:30:09.726",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "name": "Module 8: % of HWF at the Primary health care level",
+      "noSpaceBetweenColumns": false,
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [],
+      "percentStackedValues": false,
+      "periods": [
+        {
+          "id": "2010"
+        },
+        {
+          "id": "2011"
+        },
+        {
+          "id": "2012"
+        },
+        {
+          "id": "2013"
+        },
+        {
+          "id": "2014"
+        },
+        {
+          "id": "2015"
+        }
+      ],
+      "publicAccess": "--------",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": false,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "series": "dx",
+      "showData": true,
+      "sortOrder": 0,
+      "translations": [],
+      "type": "BAR",
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Global Team",
+          "id": "MVWS4lpbPo2",
+          "userGroupUid": "MVWS4lpbPo2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Regional Team",
+          "id": "ZWeEK9iBnEi",
+          "userGroupUid": "ZWeEK9iBnEi"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Country Team",
+          "id": "vNDwT7P6thq",
+          "userGroupUid": "vNDwT7P6thq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Data Completion",
+          "id": "z6TJVUnop02",
+          "userGroupUid": "z6TJVUnop02"
+        }
+      ],
+      "userOrganisationUnit": true,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "aggregationType": "DEFAULT",
+      "category": "pe",
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "completedOnly": false,
+      "created": "2017-08-21T00:40:43.638",
+      "cumulativeValues": false,
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "hOnZ8LIHw2l"
+          }
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "description": "A report showing the Density of Specialist surgical workers",
+      "externalAccess": false,
+      "filterDimensions": [
+        "ou"
+      ],
+      "hideEmptyRowItems": "NONE",
+      "hideLegend": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "id": "aJHzbUHFBEC",
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2018-07-12T16:30:09.902",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "name": "Module 8: Density of Specialist surgical workers",
+      "noSpaceBetweenColumns": false,
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [],
+      "percentStackedValues": false,
+      "periods": [
+        {
+          "id": "2010"
+        },
+        {
+          "id": "2011"
+        },
+        {
+          "id": "2012"
+        },
+        {
+          "id": "2013"
+        },
+        {
+          "id": "2014"
+        },
+        {
+          "id": "2015"
+        }
+      ],
+      "publicAccess": "--------",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": false,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "series": "dx",
+      "showData": true,
+      "sortOrder": 0,
+      "translations": [],
+      "type": "COLUMN",
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Global Team",
+          "id": "MVWS4lpbPo2",
+          "userGroupUid": "MVWS4lpbPo2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Regional Team",
+          "id": "ZWeEK9iBnEi",
+          "userGroupUid": "ZWeEK9iBnEi"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Country Team",
+          "id": "vNDwT7P6thq",
+          "userGroupUid": "vNDwT7P6thq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Data Completion",
+          "id": "z6TJVUnop02",
+          "userGroupUid": "z6TJVUnop02"
+        }
+      ],
+      "userOrganisationUnit": true,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "aggregationType": "DEFAULT",
+      "category": "pe",
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "completedOnly": false,
+      "created": "2017-08-21T00:31:58.925",
+      "cumulativeValues": false,
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "DATA_ELEMENT",
+          "dataElement": {
+            "id": "tKr3k3lbnJJ"
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT",
+          "dataElement": {
+            "id": "EVairjAiRv6"
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT",
+          "dataElement": {
+            "id": "u6F6nBWeomT"
+          }
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "description": "A report showing the trend of the countries' Skill mix composition ",
+      "externalAccess": false,
+      "filterDimensions": [
+        "ou"
+      ],
+      "hideEmptyRowItems": "NONE",
+      "hideLegend": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "id": "EnG1862PEuO",
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2018-07-12T16:30:09.891",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "name": "Module 8: Trend of the Skill mix composition ",
+      "noSpaceBetweenColumns": false,
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [],
+      "percentStackedValues": false,
+      "periods": [
+        {
+          "id": "2010"
+        },
+        {
+          "id": "2011"
+        },
+        {
+          "id": "2012"
+        },
+        {
+          "id": "2013"
+        },
+        {
+          "id": "2014"
+        },
+        {
+          "id": "2015"
+        }
+      ],
+      "publicAccess": "--------",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": false,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "series": "dx",
+      "showData": true,
+      "sortOrder": 0,
+      "translations": [],
+      "type": "LINE",
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Global Team",
+          "id": "MVWS4lpbPo2",
+          "userGroupUid": "MVWS4lpbPo2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Regional Team",
+          "id": "ZWeEK9iBnEi",
+          "userGroupUid": "ZWeEK9iBnEi"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Country Team",
+          "id": "vNDwT7P6thq",
+          "userGroupUid": "vNDwT7P6thq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Data Completion",
+          "id": "z6TJVUnop02",
+          "userGroupUid": "z6TJVUnop02"
+        }
+      ],
+      "userOrganisationUnit": true,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    }
+  ],
+  "dashboards": [
+    {
+      "created": "2017-08-21T00:43:51.241",
+      "dashboardItems": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "aJHzbUHFBEC"
+          },
+          "contentCount": 1,
+          "created": "2017-08-21T00:43:56.076",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "I1xwneqJ8sN",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2017-10-12T10:58:38.909",
+          "lastUpdatedBy": {
+            "id": "dKttJLRSiIl"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "DOUBLE_WIDTH",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "EnG1862PEuO"
+          },
+          "contentCount": 1,
+          "created": "2017-08-21T00:44:02.706",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "kWUMP70tB81",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2017-10-12T10:58:38.909",
+          "lastUpdatedBy": {
+            "id": "dKttJLRSiIl"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "DOUBLE_WIDTH",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2017-08-21T00:44:06.574",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "nku30YJoIZY",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2017-10-12T10:58:38.909",
+          "lastUpdatedBy": {
+            "id": "dKttJLRSiIl"
+          },
+          "reportTable": {
+            "id": "AmzGhw0TcMU"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "DOUBLE_WIDTH",
+          "translations": [],
+          "type": "REPORT_TABLE",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "FuTlOh6YQZO"
+          },
+          "contentCount": 1,
+          "created": "2017-08-21T00:43:59.451",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "tWuyrYvfn3s",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2017-10-12T10:58:38.909",
+          "lastUpdatedBy": {
+            "id": "dKttJLRSiIl"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        }
+      ],
+      "externalAccess": false,
+      "id": "S3oJCbRT5HN",
+      "lastUpdated": "2018-12-14T17:13:52.451",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Mod 08: Skill Mix",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Global Team",
+          "id": "MVWS4lpbPo2",
+          "userGroupUid": "MVWS4lpbPo2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Regional Team",
+          "id": "ZWeEK9iBnEi",
+          "userGroupUid": "ZWeEK9iBnEi"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Country Team",
+          "id": "vNDwT7P6thq",
+          "userGroupUid": "vNDwT7P6thq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Data Completion",
+          "id": "z6TJVUnop02",
+          "userGroupUid": "z6TJVUnop02"
+        }
+      ]
+    }
+  ],
+  "date": "2019-05-15T00:11:33.252",
+  "reportTables": [
+    {
+      "aggregationType": "DEFAULT",
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "colSubTotals": true,
+      "colTotals": true,
+      "columnDimensions": [
+        "pe"
+      ],
+      "completedOnly": false,
+      "created": "2017-08-21T00:28:00.717",
+      "cumulative": false,
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "DATA_ELEMENT",
+          "dataElement": {
+            "id": "tKr3k3lbnJJ"
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT",
+          "dataElement": {
+            "id": "EVairjAiRv6"
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT",
+          "dataElement": {
+            "id": "u6F6nBWeomT"
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT",
+          "dataElement": {
+            "id": "LW954y3FqL8"
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT",
+          "dataElement": {
+            "id": "zozZbvSo4Bz"
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT",
+          "dataElement": {
+            "id": "XEj0ILIlbWO"
+          }
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "description": "A Report containing Skill mix composition for the countries",
+      "digitGroupSeparator": "SPACE",
+      "displayDensity": "NORMAL",
+      "externalAccess": false,
+      "filterDimensions": [
+        "ou"
+      ],
+      "fontSize": "NORMAL",
+      "hideEmptyColumns": false,
+      "hideEmptyRows": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "id": "AmzGhw0TcMU",
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2018-07-12T16:30:09.902",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "legendDisplayStrategy": "FIXED",
+      "legendDisplayStyle": "FILL",
+      "name": "Module 8: Assessment of Skill mix composition",
+      "numberType": "VALUE",
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [],
+      "periods": [
+        {
+          "id": "2010"
+        },
+        {
+          "id": "2011"
+        },
+        {
+          "id": "2012"
+        },
+        {
+          "id": "2013"
+        },
+        {
+          "id": "2014"
+        },
+        {
+          "id": "2015"
+        }
+      ],
+      "publicAccess": "--------",
+      "regression": false,
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": false,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "reportParams": {
+        "paramGrandParentOrganisationUnit": false,
+        "paramOrganisationUnit": false,
+        "paramParentOrganisationUnit": false,
+        "paramReportingPeriod": false
+      },
+      "rowDimensions": [
+        "dx"
+      ],
+      "rowSubTotals": true,
+      "rowTotals": true,
+      "showDimensionLabels": true,
+      "showHierarchy": false,
+      "skipRounding": false,
+      "sortOrder": 0,
+      "topLimit": 0,
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Global Team",
+          "id": "MVWS4lpbPo2",
+          "userGroupUid": "MVWS4lpbPo2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Regional Team",
+          "id": "ZWeEK9iBnEi",
+          "userGroupUid": "ZWeEK9iBnEi"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Country Team",
+          "id": "vNDwT7P6thq",
+          "userGroupUid": "vNDwT7P6thq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Data Completion",
+          "id": "z6TJVUnop02",
+          "userGroupUid": "z6TJVUnop02"
+        }
+      ],
+      "userOrganisationUnit": true,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    }
+  ]
+}

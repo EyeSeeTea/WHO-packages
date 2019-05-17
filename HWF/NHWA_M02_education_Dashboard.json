@@ -1,0 +1,1358 @@
+{
+  "charts": [
+    {
+      "aggregationType": "DEFAULT",
+      "category": "pe",
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "completedOnly": false,
+      "created": "2017-08-22T17:49:34.995",
+      "cumulativeValues": false,
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "eieei9VePou"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "Hkq0oI7uYzG"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "Cx4OFx4lHsx"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "uWsDRpsInQT"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "B5e6mBClDJb"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "GGD0HZtTdsN"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "SUgXni4o7rE"
+          }
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "description": "A report showing the Ratio of admission and enrollment",
+      "externalAccess": false,
+      "filterDimensions": [
+        "ou"
+      ],
+      "hideEmptyRowItems": "ALL",
+      "hideLegend": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "id": "SIInDI0J7fR",
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2018-07-12T16:27:01.313",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "name": "Module 2: Ratio of admission and enrollment",
+      "noSpaceBetweenColumns": false,
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [],
+      "percentStackedValues": true,
+      "periods": [],
+      "publicAccess": "--------",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": false,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": true,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "series": "dx",
+      "showData": true,
+      "sortOrder": 0,
+      "translations": [],
+      "type": "STACKED_COLUMN",
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Global Team",
+          "id": "MVWS4lpbPo2",
+          "userGroupUid": "MVWS4lpbPo2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Regional Team",
+          "id": "ZWeEK9iBnEi",
+          "userGroupUid": "ZWeEK9iBnEi"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Country Team",
+          "id": "vNDwT7P6thq",
+          "userGroupUid": "vNDwT7P6thq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Data Completion",
+          "id": "z6TJVUnop02",
+          "userGroupUid": "z6TJVUnop02"
+        }
+      ],
+      "userOrganisationUnit": true,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "aggregationType": "DEFAULT",
+      "category": "pe",
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "completedOnly": false,
+      "created": "2017-08-22T17:47:55.916",
+      "cumulativeValues": false,
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "G100V3aE907"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "wj8hfkx27Jf"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "c1RXoZm6Ilz"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "OQ5xOKdkGI7"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "tKxEubWM2db"
+          }
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "description": "A report showing the Ratio of entrants to educators",
+      "externalAccess": false,
+      "filterDimensions": [
+        "ou"
+      ],
+      "hideEmptyRowItems": "ALL",
+      "hideLegend": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "id": "wNkElDHhfW6",
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2018-07-12T16:27:01.448",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "name": "Module 2: Ratio of entrants to educators",
+      "noSpaceBetweenColumns": false,
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [],
+      "percentStackedValues": true,
+      "periods": [],
+      "publicAccess": "--------",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": false,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": true,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "series": "dx",
+      "showData": true,
+      "sortOrder": 0,
+      "translations": [],
+      "type": "STACKED_BAR",
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Global Team",
+          "id": "MVWS4lpbPo2",
+          "userGroupUid": "MVWS4lpbPo2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Regional Team",
+          "id": "ZWeEK9iBnEi",
+          "userGroupUid": "ZWeEK9iBnEi"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Country Team",
+          "id": "vNDwT7P6thq",
+          "userGroupUid": "vNDwT7P6thq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Data Completion",
+          "id": "z6TJVUnop02",
+          "userGroupUid": "z6TJVUnop02"
+        }
+      ],
+      "userOrganisationUnit": true,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "aggregationType": "DEFAULT",
+      "category": "pe",
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "completedOnly": false,
+      "created": "2017-08-22T17:51:57.748",
+      "cumulativeValues": false,
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "MZCRnvOAM6V"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "d8mrBRsNEmL"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "NGs7AjKXIIo"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "rPRBETRGE3d"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "Sbz9LJAx1SY"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "xvpY5OY5X9S"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "JHmI49IPbvU"
+          }
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "description": "A report showing the Ratio of students graduating",
+      "externalAccess": false,
+      "filterDimensions": [
+        "ou"
+      ],
+      "hideEmptyRowItems": "ALL",
+      "hideLegend": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "id": "yKachFZK7bA",
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2018-07-12T16:27:01.447",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "name": "Module 2: Ratio of students graduating",
+      "noSpaceBetweenColumns": false,
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [],
+      "percentStackedValues": true,
+      "periods": [],
+      "publicAccess": "--------",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": false,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": true,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "series": "dx",
+      "showData": true,
+      "sortOrder": 0,
+      "translations": [],
+      "type": "STACKED_BAR",
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Global Team",
+          "id": "MVWS4lpbPo2",
+          "userGroupUid": "MVWS4lpbPo2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Regional Team",
+          "id": "ZWeEK9iBnEi",
+          "userGroupUid": "ZWeEK9iBnEi"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Country Team",
+          "id": "vNDwT7P6thq",
+          "userGroupUid": "vNDwT7P6thq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Data Completion",
+          "id": "z6TJVUnop02",
+          "userGroupUid": "z6TJVUnop02"
+        }
+      ],
+      "userOrganisationUnit": true,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    }
+  ],
+  "dashboards": [
+    {
+      "created": "2017-08-22T17:53:17.498",
+      "dashboardItems": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "wNkElDHhfW6"
+          },
+          "contentCount": 1,
+          "created": "2017-08-22T17:53:36.335",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "Mydri3V4Chn",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2017-10-12T10:57:31.239",
+          "lastUpdatedBy": {
+            "id": "dKttJLRSiIl"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "DOUBLE_WIDTH",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2017-08-22T17:53:50.956",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "PBPbBxPNcPn",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2017-10-12T10:57:31.239",
+          "lastUpdatedBy": {
+            "id": "dKttJLRSiIl"
+          },
+          "reportTable": {
+            "id": "zYTbSzm0zwL"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "REPORT_TABLE",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2017-08-22T17:53:46.589",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "UnPZwNzoRQI",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2017-10-12T10:57:31.239",
+          "lastUpdatedBy": {
+            "id": "dKttJLRSiIl"
+          },
+          "reportTable": {
+            "id": "TSaOQQNwaH9"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "REPORT_TABLE",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "SIInDI0J7fR"
+          },
+          "contentCount": 1,
+          "created": "2017-08-22T17:53:28.785",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "bVrRl7LCeKZ",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2017-10-12T10:57:31.239",
+          "lastUpdatedBy": {
+            "id": "dKttJLRSiIl"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "DOUBLE_WIDTH",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2017-08-22T17:53:55.175",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "cgYDepe9iKz",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2017-10-12T10:57:31.239",
+          "lastUpdatedBy": {
+            "id": "dKttJLRSiIl"
+          },
+          "reportTable": {
+            "id": "xzMCurbQnZA"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "REPORT_TABLE",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "yKachFZK7bA"
+          },
+          "contentCount": 1,
+          "created": "2017-08-22T17:53:40.650",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "xfOvFNv3sdB",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2017-10-12T10:57:31.239",
+          "lastUpdatedBy": {
+            "id": "dKttJLRSiIl"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "DOUBLE_WIDTH",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        }
+      ],
+      "externalAccess": false,
+      "id": "dNZ71t21B9J",
+      "lastUpdated": "2018-12-14T17:12:03.922",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Mod 02: Education",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Global Team",
+          "id": "MVWS4lpbPo2",
+          "userGroupUid": "MVWS4lpbPo2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Regional Team",
+          "id": "ZWeEK9iBnEi",
+          "userGroupUid": "ZWeEK9iBnEi"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Country Team",
+          "id": "vNDwT7P6thq",
+          "userGroupUid": "vNDwT7P6thq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Data Completion",
+          "id": "z6TJVUnop02",
+          "userGroupUid": "z6TJVUnop02"
+        }
+      ]
+    }
+  ],
+  "date": "2019-05-15T00:11:11.900",
+  "reportTables": [
+    {
+      "aggregationType": "DEFAULT",
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "colSubTotals": true,
+      "colTotals": true,
+      "columnDimensions": [
+        "pe"
+      ],
+      "completedOnly": false,
+      "created": "2017-08-22T16:33:54.828",
+      "cumulative": false,
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "vrEfQ3B1huu"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "UurRd99Yjsz"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "SmtsoTCIfQv"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "Rcqbigt9HnQ"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "PQICBTDD7ZJ"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "ahXRjl98Jej"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "olqOmD4lXfF"
+          }
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "description": "A Report containing Percentage of female admission to training programmes",
+      "digitGroupSeparator": "SPACE",
+      "displayDensity": "NORMAL",
+      "externalAccess": false,
+      "filterDimensions": [
+        "ou"
+      ],
+      "fontSize": "NORMAL",
+      "hideEmptyColumns": false,
+      "hideEmptyRows": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "id": "TSaOQQNwaH9",
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2018-07-12T16:27:01.458",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "legendDisplayStrategy": "FIXED",
+      "legendDisplayStyle": "FILL",
+      "name": "Module 2: Percentage of female admission to training programmes",
+      "numberType": "VALUE",
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [],
+      "periods": [
+        {
+          "id": "2010"
+        },
+        {
+          "id": "2011"
+        },
+        {
+          "id": "2012"
+        },
+        {
+          "id": "2013"
+        },
+        {
+          "id": "2014"
+        },
+        {
+          "id": "2015"
+        }
+      ],
+      "publicAccess": "--------",
+      "regression": false,
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": false,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "reportParams": {
+        "paramGrandParentOrganisationUnit": false,
+        "paramOrganisationUnit": false,
+        "paramParentOrganisationUnit": false,
+        "paramReportingPeriod": false
+      },
+      "rowDimensions": [
+        "dx"
+      ],
+      "rowSubTotals": true,
+      "rowTotals": true,
+      "showDimensionLabels": true,
+      "showHierarchy": false,
+      "skipRounding": false,
+      "sortOrder": 0,
+      "topLimit": 0,
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Global Team",
+          "id": "MVWS4lpbPo2",
+          "userGroupUid": "MVWS4lpbPo2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Regional Team",
+          "id": "ZWeEK9iBnEi",
+          "userGroupUid": "ZWeEK9iBnEi"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Country Team",
+          "id": "vNDwT7P6thq",
+          "userGroupUid": "vNDwT7P6thq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Data Completion",
+          "id": "z6TJVUnop02",
+          "userGroupUid": "z6TJVUnop02"
+        }
+      ],
+      "userOrganisationUnit": true,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "aggregationType": "DEFAULT",
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "colSubTotals": true,
+      "colTotals": true,
+      "columnDimensions": [
+        "pe"
+      ],
+      "completedOnly": false,
+      "created": "2017-08-22T16:41:18.116",
+      "cumulative": false,
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "RPyXbifGwQd"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "y9IhWahlBti"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "lnRuaDBs39D"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "uHSTH5fhpNL"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "bPnN8MjshkD"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "vqtEAbEn4mU"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "iKJJ3M1Mwfh"
+          }
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "description": "A Report containing Percentage of female applications to training programmes",
+      "digitGroupSeparator": "SPACE",
+      "displayDensity": "NORMAL",
+      "externalAccess": false,
+      "filterDimensions": [
+        "ou"
+      ],
+      "fontSize": "NORMAL",
+      "hideEmptyColumns": false,
+      "hideEmptyRows": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "id": "zYTbSzm0zwL",
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2018-07-12T16:27:01.473",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "legendDisplayStrategy": "FIXED",
+      "legendDisplayStyle": "FILL",
+      "name": "Module 2: Percentage of female applications to training programmes",
+      "numberType": "VALUE",
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [],
+      "periods": [
+        {
+          "id": "2010"
+        },
+        {
+          "id": "2011"
+        },
+        {
+          "id": "2012"
+        },
+        {
+          "id": "2013"
+        },
+        {
+          "id": "2014"
+        },
+        {
+          "id": "2015"
+        }
+      ],
+      "publicAccess": "--------",
+      "regression": false,
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": false,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "reportParams": {
+        "paramGrandParentOrganisationUnit": false,
+        "paramOrganisationUnit": false,
+        "paramParentOrganisationUnit": false,
+        "paramReportingPeriod": false
+      },
+      "rowDimensions": [
+        "dx"
+      ],
+      "rowSubTotals": true,
+      "rowTotals": true,
+      "showDimensionLabels": true,
+      "showHierarchy": false,
+      "skipRounding": false,
+      "sortOrder": 0,
+      "topLimit": 0,
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Global Team",
+          "id": "MVWS4lpbPo2",
+          "userGroupUid": "MVWS4lpbPo2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Regional Team",
+          "id": "ZWeEK9iBnEi",
+          "userGroupUid": "ZWeEK9iBnEi"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Country Team",
+          "id": "vNDwT7P6thq",
+          "userGroupUid": "vNDwT7P6thq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Data Completion",
+          "id": "z6TJVUnop02",
+          "userGroupUid": "z6TJVUnop02"
+        }
+      ],
+      "userOrganisationUnit": true,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "aggregationType": "DEFAULT",
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "colSubTotals": true,
+      "colTotals": true,
+      "columnDimensions": [
+        "pe"
+      ],
+      "completedOnly": false,
+      "created": "2017-08-22T16:43:19.489",
+      "cumulative": false,
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "eieei9VePou"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "GGD0HZtTdsN"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "Hkq0oI7uYzG"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "Cx4OFx4lHsx"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "uWsDRpsInQT"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "B5e6mBClDJb"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "SUgXni4o7rE"
+          }
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "description": "A Report containing Ratio of admission and enrolment ",
+      "digitGroupSeparator": "SPACE",
+      "displayDensity": "NORMAL",
+      "externalAccess": false,
+      "filterDimensions": [
+        "ou"
+      ],
+      "fontSize": "NORMAL",
+      "hideEmptyColumns": false,
+      "hideEmptyRows": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "id": "xzMCurbQnZA",
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2018-12-14T17:13:01.170",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "legendDisplayStrategy": "FIXED",
+      "legendDisplayStyle": "FILL",
+      "name": "Module 2: Ratio of admission and enrolment ",
+      "numberType": "VALUE",
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [],
+      "periods": [
+        {
+          "id": "2010"
+        },
+        {
+          "id": "2011"
+        },
+        {
+          "id": "2012"
+        },
+        {
+          "id": "2013"
+        },
+        {
+          "id": "2014"
+        },
+        {
+          "id": "2015"
+        }
+      ],
+      "publicAccess": "--------",
+      "regression": false,
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": false,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "reportParams": {
+        "paramGrandParentOrganisationUnit": false,
+        "paramOrganisationUnit": false,
+        "paramParentOrganisationUnit": false,
+        "paramReportingPeriod": false
+      },
+      "rowDimensions": [
+        "dx"
+      ],
+      "rowSubTotals": true,
+      "rowTotals": true,
+      "showDimensionLabels": true,
+      "showHierarchy": false,
+      "skipRounding": false,
+      "sortOrder": 0,
+      "topLimit": 0,
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Global Team",
+          "id": "MVWS4lpbPo2",
+          "userGroupUid": "MVWS4lpbPo2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Regional Team",
+          "id": "ZWeEK9iBnEi",
+          "userGroupUid": "ZWeEK9iBnEi"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Country Team",
+          "id": "vNDwT7P6thq",
+          "userGroupUid": "vNDwT7P6thq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Data Completion",
+          "id": "z6TJVUnop02",
+          "userGroupUid": "z6TJVUnop02"
+        }
+      ],
+      "userOrganisationUnit": true,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    }
+  ]
+}

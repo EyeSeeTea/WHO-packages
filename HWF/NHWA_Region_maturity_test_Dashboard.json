@@ -1,0 +1,1431 @@
+{
+  "charts": [
+    {
+      "aggregationType": "DEFAULT",
+      "category": "dx",
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "completedOnly": false,
+      "created": "2018-06-20T14:29:27.321",
+      "cumulativeValues": false,
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "rGnLwIx4X9a"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "RebADTT5XCD"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "j0WpPkWJRH0"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "C6JITWAmQYP"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "Ig1EAnLTw9r"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "ZBUKR9agL8e"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "MiRwNWs7OAu"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "KshFlGK57cK"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "x2W9QMKz92D"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "z8m54KSuUVg"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "hiA2IqS0zEU"
+          }
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "externalAccess": false,
+      "filterDimensions": [
+        "pe"
+      ],
+      "hideEmptyRowItems": "NONE",
+      "hideLegend": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "id": "xKecxtGQuYR",
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2018-12-14T17:21:58.217",
+      "lastUpdatedBy": {
+        "id": "H8IFYZ4ZkLw"
+      },
+      "name": "Maturity score by Module",
+      "noSpaceBetweenColumns": false,
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [],
+      "percentStackedValues": false,
+      "periods": [
+        {
+          "id": "2015"
+        }
+      ],
+      "publicAccess": "--------",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": false,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "series": "ou",
+      "showData": true,
+      "sortOrder": 0,
+      "translations": [],
+      "type": "BAR",
+      "user": {
+        "id": "yikGEcqMkHw"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Global Team",
+          "id": "MVWS4lpbPo2",
+          "userGroupUid": "MVWS4lpbPo2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Regional Team",
+          "id": "ZWeEK9iBnEi",
+          "userGroupUid": "ZWeEK9iBnEi"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Country Team",
+          "id": "vNDwT7P6thq",
+          "userGroupUid": "vNDwT7P6thq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Data Completion",
+          "id": "z6TJVUnop02",
+          "userGroupUid": "z6TJVUnop02"
+        }
+      ],
+      "userOrganisationUnit": true,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "aggregationType": "DEFAULT",
+      "category": "ou",
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "completedOnly": false,
+      "created": "2017-07-25T10:17:03.058",
+      "cumulativeValues": false,
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "rGnLwIx4X9a"
+          }
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "externalAccess": false,
+      "filterDimensions": [
+        "pe"
+      ],
+      "hideEmptyRowItems": "NONE",
+      "hideLegend": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "id": "JZcCNNLNKzf",
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2018-12-14T17:21:58.219",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "name": "Maturity score on Active HWF",
+      "noSpaceBetweenColumns": false,
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [],
+      "percentStackedValues": false,
+      "periods": [
+        {
+          "id": "2015"
+        }
+      ],
+      "publicAccess": "--------",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": false,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "series": "dx",
+      "showData": true,
+      "sortOrder": 0,
+      "translations": [],
+      "type": "GAUGE",
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Global Team",
+          "id": "MVWS4lpbPo2",
+          "userGroupUid": "MVWS4lpbPo2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Regional Team",
+          "id": "ZWeEK9iBnEi",
+          "userGroupUid": "ZWeEK9iBnEi"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Country Team",
+          "id": "vNDwT7P6thq",
+          "userGroupUid": "vNDwT7P6thq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Data Completion",
+          "id": "z6TJVUnop02",
+          "userGroupUid": "z6TJVUnop02"
+        }
+      ],
+      "userOrganisationUnit": true,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "aggregationType": "DEFAULT",
+      "category": "ou",
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "completedOnly": false,
+      "created": "2017-07-25T09:23:44.705",
+      "cumulativeValues": false,
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "hiA2IqS0zEU"
+          }
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "externalAccess": false,
+      "filterDimensions": [
+        "pe"
+      ],
+      "hideEmptyRowItems": "ALL",
+      "hideLegend": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "id": "nh6Rst3q2kO",
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2018-12-14T17:21:58.058",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "name": "Regional Maturity report",
+      "noSpaceBetweenColumns": false,
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [],
+      "percentStackedValues": false,
+      "periods": [
+        {
+          "id": "2015"
+        }
+      ],
+      "publicAccess": "--------",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": false,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "series": "dx",
+      "showData": true,
+      "sortOrder": 0,
+      "translations": [],
+      "type": "COLUMN",
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Global Team",
+          "id": "MVWS4lpbPo2",
+          "userGroupUid": "MVWS4lpbPo2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Regional Team",
+          "id": "ZWeEK9iBnEi",
+          "userGroupUid": "ZWeEK9iBnEi"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Country Team",
+          "id": "vNDwT7P6thq",
+          "userGroupUid": "vNDwT7P6thq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Data Completion",
+          "id": "z6TJVUnop02",
+          "userGroupUid": "z6TJVUnop02"
+        }
+      ],
+      "userOrganisationUnit": true,
+      "userOrganisationUnitChildren": true,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "aggregationType": "DEFAULT",
+      "category": "ou",
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "completedOnly": false,
+      "created": "2017-08-02T22:41:12.541",
+      "cumulativeValues": false,
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "rGnLwIx4X9a"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "RebADTT5XCD"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "hiA2IqS0zEU"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "C6JITWAmQYP"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "j0WpPkWJRH0"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "ZBUKR9agL8e"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "z8m54KSuUVg"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "x2W9QMKz92D"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "MiRwNWs7OAu"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "Ig1EAnLTw9r"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "KshFlGK57cK"
+          }
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "externalAccess": false,
+      "filterDimensions": [
+        "pe"
+      ],
+      "hideEmptyRowItems": "ALL",
+      "hideLegend": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "id": "lK5m5eAwvUo",
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2018-10-16T07:56:30.093",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "name": "Regional Maturity score by Module",
+      "noSpaceBetweenColumns": false,
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [],
+      "percentStackedValues": false,
+      "periods": [
+        {
+          "id": "2015"
+        }
+      ],
+      "publicAccess": "--------",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": false,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "series": "dx",
+      "showData": true,
+      "sortOrder": 0,
+      "translations": [],
+      "type": "COLUMN",
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Global Team",
+          "id": "MVWS4lpbPo2",
+          "userGroupUid": "MVWS4lpbPo2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Regional Team",
+          "id": "ZWeEK9iBnEi",
+          "userGroupUid": "ZWeEK9iBnEi"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Country Team",
+          "id": "vNDwT7P6thq",
+          "userGroupUid": "vNDwT7P6thq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Data Completion",
+          "id": "z6TJVUnop02",
+          "userGroupUid": "z6TJVUnop02"
+        }
+      ],
+      "userOrganisationUnit": false,
+      "userOrganisationUnitChildren": true,
+      "userOrganisationUnitGrandChildren": false
+    }
+  ],
+  "dashboards": [
+    {
+      "created": "2017-07-25T09:21:17.681",
+      "dashboardItems": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2017-07-25T10:24:17.154",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "AbiyzqGAINK",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2017-10-12T10:59:36.997",
+          "lastUpdatedBy": {
+            "id": "dKttJLRSiIl"
+          },
+          "reportTable": {
+            "id": "islEi1sIIMi"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "REPORT_TABLE",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "JZcCNNLNKzf"
+          },
+          "contentCount": 1,
+          "created": "2017-08-12T22:07:13.985",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "BoLD13fBHfj",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2017-10-12T10:59:36.997",
+          "lastUpdatedBy": {
+            "id": "dKttJLRSiIl"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "nh6Rst3q2kO"
+          },
+          "contentCount": 1,
+          "created": "2017-07-25T09:28:41.204",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "NfvdjsdU6yi",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2017-10-12T10:59:36.997",
+          "lastUpdatedBy": {
+            "id": "dKttJLRSiIl"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2017-08-12T22:13:05.432",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "mFwAz43ojxK",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2017-10-12T10:59:36.997",
+          "lastUpdatedBy": {
+            "id": "dKttJLRSiIl"
+          },
+          "reportTable": {
+            "id": "ErPMVNA8AEL"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "REPORT_TABLE",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "xKecxtGQuYR"
+          },
+          "contentCount": 1,
+          "created": "2017-08-12T22:13:31.021",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "mSEOTPkprqU",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2017-10-12T10:59:36.997",
+          "lastUpdatedBy": {
+            "id": "dKttJLRSiIl"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "lK5m5eAwvUo"
+          },
+          "contentCount": 1,
+          "created": "2017-07-25T10:24:09.557",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "qgGYY5A255Z",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2017-10-12T10:59:36.997",
+          "lastUpdatedBy": {
+            "id": "dKttJLRSiIl"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2017-08-17T14:23:41.438",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "wdCcrTn9VZf",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2017-10-12T10:59:36.997",
+          "lastUpdatedBy": {
+            "id": "dKttJLRSiIl"
+          },
+          "map": {
+            "id": "KUYJlmPpCqt"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        }
+      ],
+      "externalAccess": false,
+      "id": "ypvbupoKJiX",
+      "lastUpdated": "2018-12-14T17:21:57.799",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Region Maturity Test",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Global Team",
+          "id": "MVWS4lpbPo2",
+          "userGroupUid": "MVWS4lpbPo2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Regional Team",
+          "id": "ZWeEK9iBnEi",
+          "userGroupUid": "ZWeEK9iBnEi"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Country Team",
+          "id": "vNDwT7P6thq",
+          "userGroupUid": "vNDwT7P6thq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Data Completion",
+          "id": "z6TJVUnop02",
+          "userGroupUid": "z6TJVUnop02"
+        }
+      ]
+    }
+  ],
+  "date": "2019-05-15T00:11:48.391",
+  "maps": [
+    {
+      "basemap": "osmLight",
+      "created": "2017-08-17T14:20:29.343",
+      "externalAccess": false,
+      "id": "KUYJlmPpCqt",
+      "lastUpdated": "2018-12-14T17:21:58.055",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "latitude": 10.746969318460001,
+      "longitude": 16.567382812500004,
+      "mapViews": [],
+      "name": "Maturity Module Score",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "H4atNsEuKxP"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Global Team",
+          "id": "MVWS4lpbPo2",
+          "userGroupUid": "MVWS4lpbPo2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Regional Team",
+          "id": "ZWeEK9iBnEi",
+          "userGroupUid": "ZWeEK9iBnEi"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Country Team",
+          "id": "vNDwT7P6thq",
+          "userGroupUid": "vNDwT7P6thq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Data Completion",
+          "id": "z6TJVUnop02",
+          "userGroupUid": "z6TJVUnop02"
+        }
+      ],
+      "zoom": 4
+    }
+  ],
+  "reportTables": [
+    {
+      "aggregationType": "DEFAULT",
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "colSubTotals": false,
+      "colTotals": false,
+      "columnDimensions": [
+        "ou",
+        "pe"
+      ],
+      "completedOnly": false,
+      "created": "2017-08-12T21:47:47.758",
+      "cumulative": false,
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "DATA_ELEMENT",
+          "dataElement": {
+            "id": "DW5FnYghMpC"
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT",
+          "dataElement": {
+            "id": "MZJvCAWDZT8"
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT",
+          "dataElement": {
+            "id": "C84PanlvtYk"
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT",
+          "dataElement": {
+            "id": "IuOJYFZ5IN4"
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT",
+          "dataElement": {
+            "id": "Xg7QtcUbOkV"
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT",
+          "dataElement": {
+            "id": "XSVLb8H6gdG"
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT",
+          "dataElement": {
+            "id": "czpt5tWFnzi"
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT",
+          "dataElement": {
+            "id": "Vz4Ap01IjCE"
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT",
+          "dataElement": {
+            "id": "EO7D5Dw22Lo"
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT",
+          "dataElement": {
+            "id": "CXe0NLZCSaT"
+          }
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "digitGroupSeparator": "SPACE",
+      "displayDensity": "NORMAL",
+      "externalAccess": false,
+      "filterDimensions": [],
+      "fontSize": "NORMAL",
+      "hideEmptyColumns": true,
+      "hideEmptyRows": true,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "id": "ErPMVNA8AEL",
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2018-10-16T07:56:30.112",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "legendDisplayStrategy": "FIXED",
+      "legendDisplayStyle": "FILL",
+      "name": "Maturity Score Report on Active health workforce stock",
+      "numberType": "VALUE",
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [],
+      "periods": [
+        {
+          "id": "2015"
+        }
+      ],
+      "publicAccess": "--------",
+      "regression": false,
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": false,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "reportParams": {
+        "paramGrandParentOrganisationUnit": false,
+        "paramOrganisationUnit": false,
+        "paramParentOrganisationUnit": false,
+        "paramReportingPeriod": false
+      },
+      "rowDimensions": [
+        "dx"
+      ],
+      "rowSubTotals": false,
+      "rowTotals": false,
+      "showDimensionLabels": true,
+      "showHierarchy": false,
+      "skipRounding": false,
+      "sortOrder": 0,
+      "topLimit": 0,
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Global Team",
+          "id": "MVWS4lpbPo2",
+          "userGroupUid": "MVWS4lpbPo2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Regional Team",
+          "id": "ZWeEK9iBnEi",
+          "userGroupUid": "ZWeEK9iBnEi"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Country Team",
+          "id": "vNDwT7P6thq",
+          "userGroupUid": "vNDwT7P6thq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Data Completion",
+          "id": "z6TJVUnop02",
+          "userGroupUid": "z6TJVUnop02"
+        }
+      ],
+      "userOrganisationUnit": true,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "aggregationType": "DEFAULT",
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "colSubTotals": false,
+      "colTotals": false,
+      "columnDimensions": [
+        "ou",
+        "pe"
+      ],
+      "completedOnly": false,
+      "created": "2017-08-12T22:04:47.228",
+      "cumulative": false,
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "rGnLwIx4X9a"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "RebADTT5XCD"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "j0WpPkWJRH0"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "C6JITWAmQYP"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "Ig1EAnLTw9r"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "ZBUKR9agL8e"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "MiRwNWs7OAu"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "KshFlGK57cK"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "x2W9QMKz92D"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "z8m54KSuUVg"
+          }
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "digitGroupSeparator": "SPACE",
+      "displayDensity": "NORMAL",
+      "externalAccess": false,
+      "filterDimensions": [],
+      "fontSize": "NORMAL",
+      "hideEmptyColumns": true,
+      "hideEmptyRows": true,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "id": "islEi1sIIMi",
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2018-12-07T11:31:32.084",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "legendDisplayStrategy": "FIXED",
+      "legendDisplayStyle": "FILL",
+      "legendSet": {
+        "id": "bXYVT5aq6fL"
+      },
+      "name": "Regional NHWA Maturity Score by Modules",
+      "numberType": "VALUE",
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [],
+      "periods": [
+        {
+          "id": "2015"
+        }
+      ],
+      "publicAccess": "--------",
+      "regression": false,
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": false,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "reportParams": {
+        "paramGrandParentOrganisationUnit": false,
+        "paramOrganisationUnit": false,
+        "paramParentOrganisationUnit": false,
+        "paramReportingPeriod": false
+      },
+      "rowDimensions": [
+        "dx"
+      ],
+      "rowSubTotals": false,
+      "rowTotals": false,
+      "showDimensionLabels": false,
+      "showHierarchy": false,
+      "skipRounding": false,
+      "sortOrder": 0,
+      "topLimit": 0,
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Global Team",
+          "id": "MVWS4lpbPo2",
+          "userGroupUid": "MVWS4lpbPo2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Regional Team",
+          "id": "ZWeEK9iBnEi",
+          "userGroupUid": "ZWeEK9iBnEi"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Country Team",
+          "id": "vNDwT7P6thq",
+          "userGroupUid": "vNDwT7P6thq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Data Completion",
+          "id": "z6TJVUnop02",
+          "userGroupUid": "z6TJVUnop02"
+        }
+      ],
+      "userOrganisationUnit": true,
+      "userOrganisationUnitChildren": true,
+      "userOrganisationUnitGrandChildren": false
+    }
+  ]
+}

@@ -1,0 +1,2990 @@
+{
+  "charts": [
+    {
+      "aggregationType": "DEFAULT",
+      "category": "pe",
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "completedOnly": false,
+      "created": "2017-06-26T13:57:32.241",
+      "cumulativeValues": false,
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "es3EkwvqD0r"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "yphxxWYMnnc"
+          }
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "externalAccess": false,
+      "filterDimensions": [
+        "ou"
+      ],
+      "hideEmptyRowItems": "NONE",
+      "hideLegend": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "id": "OWwJ9YmA6wy",
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2018-12-14T17:19:39.619",
+      "lastUpdatedBy": {
+        "id": "H8IFYZ4ZkLw"
+      },
+      "name": "Mod 1: Verification of Doctors and Dentists data",
+      "noSpaceBetweenColumns": false,
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [],
+      "percentStackedValues": false,
+      "periods": [
+        {
+          "id": "2007"
+        },
+        {
+          "id": "2008"
+        },
+        {
+          "id": "2009"
+        },
+        {
+          "id": "2010"
+        },
+        {
+          "id": "2011"
+        },
+        {
+          "id": "2012"
+        },
+        {
+          "id": "2013"
+        },
+        {
+          "id": "2014"
+        },
+        {
+          "id": "2015"
+        }
+      ],
+      "publicAccess": "--------",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": false,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "series": "dx",
+      "showData": true,
+      "sortOrder": 0,
+      "translations": [],
+      "type": "COLUMN",
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Global Team",
+          "id": "MVWS4lpbPo2",
+          "userGroupUid": "MVWS4lpbPo2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Regional Team",
+          "id": "ZWeEK9iBnEi",
+          "userGroupUid": "ZWeEK9iBnEi"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Country Team",
+          "id": "vNDwT7P6thq",
+          "userGroupUid": "vNDwT7P6thq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Data Completion",
+          "id": "z6TJVUnop02",
+          "userGroupUid": "z6TJVUnop02"
+        }
+      ],
+      "userOrganisationUnit": true,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "aggregationType": "DEFAULT",
+      "category": "pe",
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "completedOnly": false,
+      "created": "2017-06-26T13:59:50.424",
+      "cumulativeValues": false,
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "LXyeZMdZ5OK"
+          }
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "externalAccess": false,
+      "filterDimensions": [
+        "ou"
+      ],
+      "hideEmptyRowItems": "NONE",
+      "hideLegend": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "id": "W0AwEhgwMCY",
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2018-12-14T17:19:39.623",
+      "lastUpdatedBy": {
+        "id": "H8IFYZ4ZkLw"
+      },
+      "name": "Mod 1: Verification of Midwife data",
+      "noSpaceBetweenColumns": false,
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [],
+      "percentStackedValues": false,
+      "periods": [
+        {
+          "id": "2007"
+        },
+        {
+          "id": "2008"
+        },
+        {
+          "id": "2009"
+        },
+        {
+          "id": "2010"
+        },
+        {
+          "id": "2011"
+        },
+        {
+          "id": "2012"
+        },
+        {
+          "id": "2013"
+        },
+        {
+          "id": "2014"
+        },
+        {
+          "id": "2015"
+        }
+      ],
+      "publicAccess": "--------",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": false,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "series": "dx",
+      "showData": true,
+      "sortOrder": 0,
+      "translations": [],
+      "type": "COLUMN",
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Global Team",
+          "id": "MVWS4lpbPo2",
+          "userGroupUid": "MVWS4lpbPo2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Regional Team",
+          "id": "ZWeEK9iBnEi",
+          "userGroupUid": "ZWeEK9iBnEi"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Country Team",
+          "id": "vNDwT7P6thq",
+          "userGroupUid": "vNDwT7P6thq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Data Completion",
+          "id": "z6TJVUnop02",
+          "userGroupUid": "z6TJVUnop02"
+        }
+      ],
+      "userOrganisationUnit": true,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "aggregationType": "DEFAULT",
+      "category": "pe",
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "completedOnly": false,
+      "created": "2017-08-17T06:57:40.733",
+      "cumulativeValues": false,
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "u2600STVOzU"
+          }
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "externalAccess": false,
+      "filterDimensions": [
+        "ou"
+      ],
+      "hideEmptyRowItems": "NONE",
+      "hideLegend": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "id": "pUtC0pXxJQ8",
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2018-12-14T17:19:39.683",
+      "lastUpdatedBy": {
+        "id": "H8IFYZ4ZkLw"
+      },
+      "name": "Mod 1: Verification of Nurse data",
+      "noSpaceBetweenColumns": false,
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [],
+      "percentStackedValues": false,
+      "periods": [
+        {
+          "id": "2007"
+        },
+        {
+          "id": "2008"
+        },
+        {
+          "id": "2009"
+        },
+        {
+          "id": "2010"
+        },
+        {
+          "id": "2011"
+        },
+        {
+          "id": "2012"
+        },
+        {
+          "id": "2013"
+        },
+        {
+          "id": "2014"
+        },
+        {
+          "id": "2015"
+        }
+      ],
+      "publicAccess": "--------",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": false,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "series": "dx",
+      "showData": true,
+      "sortOrder": 0,
+      "translations": [],
+      "type": "RADAR",
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Global Team",
+          "id": "MVWS4lpbPo2",
+          "userGroupUid": "MVWS4lpbPo2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Regional Team",
+          "id": "ZWeEK9iBnEi",
+          "userGroupUid": "ZWeEK9iBnEi"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Country Team",
+          "id": "vNDwT7P6thq",
+          "userGroupUid": "vNDwT7P6thq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Data Completion",
+          "id": "z6TJVUnop02",
+          "userGroupUid": "z6TJVUnop02"
+        }
+      ],
+      "userOrganisationUnit": true,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "aggregationType": "DEFAULT",
+      "category": "pe",
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "completedOnly": false,
+      "created": "2017-06-26T14:00:20.514",
+      "cumulativeValues": false,
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "yVHH7r7sOUO"
+          }
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "externalAccess": false,
+      "filterDimensions": [
+        "ou"
+      ],
+      "hideEmptyRowItems": "NONE",
+      "hideLegend": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "id": "bPZEwGg6HAR",
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2018-12-14T17:19:39.622",
+      "lastUpdatedBy": {
+        "id": "H8IFYZ4ZkLw"
+      },
+      "name": "Mod 1: Verification of Pharmacists data",
+      "noSpaceBetweenColumns": false,
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [],
+      "percentStackedValues": false,
+      "periods": [
+        {
+          "id": "2007"
+        },
+        {
+          "id": "2008"
+        },
+        {
+          "id": "2009"
+        },
+        {
+          "id": "2010"
+        },
+        {
+          "id": "2011"
+        },
+        {
+          "id": "2012"
+        },
+        {
+          "id": "2013"
+        },
+        {
+          "id": "2014"
+        },
+        {
+          "id": "2015"
+        }
+      ],
+      "publicAccess": "--------",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": false,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "series": "dx",
+      "showData": true,
+      "sortOrder": 0,
+      "translations": [],
+      "type": "BAR",
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Global Team",
+          "id": "MVWS4lpbPo2",
+          "userGroupUid": "MVWS4lpbPo2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Regional Team",
+          "id": "ZWeEK9iBnEi",
+          "userGroupUid": "ZWeEK9iBnEi"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Country Team",
+          "id": "vNDwT7P6thq",
+          "userGroupUid": "vNDwT7P6thq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Data Completion",
+          "id": "z6TJVUnop02",
+          "userGroupUid": "z6TJVUnop02"
+        }
+      ],
+      "userOrganisationUnit": true,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    }
+  ],
+  "dashboards": [
+    {
+      "created": "2017-06-26T06:39:12.907",
+      "dashboardItems": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2017-06-26T06:39:20.256",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "WKd3uc0FqTw",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2017-10-12T10:53:08.639",
+          "lastUpdatedBy": {
+            "id": "dKttJLRSiIl"
+          },
+          "reportTable": {
+            "id": "mElD0yiuFpU"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "DOUBLE_WIDTH",
+          "translations": [],
+          "type": "REPORT_TABLE",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "W0AwEhgwMCY"
+          },
+          "contentCount": 1,
+          "created": "2017-06-26T14:00:50.796",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "byaPngWuoP9",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2017-10-12T10:53:08.639",
+          "lastUpdatedBy": {
+            "id": "dKttJLRSiIl"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "pUtC0pXxJQ8"
+          },
+          "contentCount": 1,
+          "created": "2017-06-26T14:00:54.631",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "ccK3GasqBh9",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2017-10-12T10:53:08.639",
+          "lastUpdatedBy": {
+            "id": "dKttJLRSiIl"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "bPZEwGg6HAR"
+          },
+          "contentCount": 1,
+          "created": "2017-06-26T14:00:58.137",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "oDgjA3eHagA",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2017-10-12T10:53:08.639",
+          "lastUpdatedBy": {
+            "id": "dKttJLRSiIl"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "OWwJ9YmA6wy"
+          },
+          "contentCount": 1,
+          "created": "2017-06-26T14:00:45.819",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "sQMBoVFGgvT",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2017-10-12T10:53:08.639",
+          "lastUpdatedBy": {
+            "id": "dKttJLRSiIl"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "DOUBLE_WIDTH",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        }
+      ],
+      "externalAccess": false,
+      "id": "XWVNU4COIz2",
+      "lastUpdated": "2018-12-14T17:19:39.400",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "Data Validation",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Global Team",
+          "id": "MVWS4lpbPo2",
+          "userGroupUid": "MVWS4lpbPo2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Regional Team",
+          "id": "ZWeEK9iBnEi",
+          "userGroupUid": "ZWeEK9iBnEi"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Country Team",
+          "id": "vNDwT7P6thq",
+          "userGroupUid": "vNDwT7P6thq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Data Completion",
+          "id": "z6TJVUnop02",
+          "userGroupUid": "z6TJVUnop02"
+        }
+      ]
+    }
+  ],
+  "date": "2019-05-15T00:10:51.652",
+  "reportTables": [
+    {
+      "aggregationType": "DEFAULT",
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "colSubTotals": false,
+      "colTotals": false,
+      "columnDimensions": [
+        "pe"
+      ],
+      "completedOnly": false,
+      "created": "2018-03-07T10:40:46.724",
+      "cumulative": false,
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "mxdCGM6msAR"
+            },
+            "dimensionItem": "mxdCGM6msAR.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Medical Doctors Stock Total",
+            "displayShortName": "Medical Doctors stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "mxdCGM6msAR.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Medical Doctors Stock Total",
+            "shortName": "Medical Doctors stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "y67a0RW6wUa"
+            },
+            "dimensionItem": "y67a0RW6wUa.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "General Medical Practitioners Stock Total",
+            "displayShortName": "General Medical Practitioners stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "y67a0RW6wUa.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "General Medical Practitioners Stock Total",
+            "shortName": "General Medical Practitioners stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "SeU3FMqECnf"
+            },
+            "dimensionItem": "SeU3FMqECnf.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Specialist Medical Practitioners Stock Total",
+            "displayShortName": "Specialist Medical Practitioners stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "SeU3FMqECnf.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Specialist Medical Practitioners Stock Total",
+            "shortName": "Specialist Medical Practitioners stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "caegWa7kQkh"
+            },
+            "dimensionItem": "caegWa7kQkh.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "General Paediatricians Practitioners Stock Total",
+            "displayShortName": "General Paediatricians Practitioners stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "caegWa7kQkh.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "General Paediatricians Practitioners Stock Total",
+            "shortName": "General Paediatricians Practitioners stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "gNfIYju3TGx"
+            },
+            "dimensionItem": "gNfIYju3TGx.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Obstetricians and Gynaecologists Practitioners Stock Total",
+            "displayShortName": "Obstetricians  Practitioners stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "gNfIYju3TGx.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Obstetricians and Gynaecologists Practitioners Stock Total",
+            "shortName": "Obstetricians  Practitioners stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "c1RM22xq3EV"
+            },
+            "dimensionItem": "c1RM22xq3EV.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Psychiatrists Practitioners Stock Total",
+            "displayShortName": "Psychiatrists Practitioners stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "c1RM22xq3EV.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Psychiatrists Practitioners Stock Total",
+            "shortName": "Psychiatrists Practitioners stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "szTSFmcna7O"
+            },
+            "dimensionItem": "szTSFmcna7O.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Medical group of Specialists Practitioners Stock Total",
+            "displayShortName": "PP stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "szTSFmcna7O.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Medical group of Specialists Practitioners Stock Total",
+            "shortName": "PP stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "rzSycgkn9X0"
+            },
+            "dimensionItem": "rzSycgkn9X0.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Surgical group of Specialists Practitioners Stock Total",
+            "displayShortName": "SSP stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "rzSycgkn9X0.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Surgical group of Specialists Practitioners Stock Total",
+            "shortName": "SSP stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "gArgUMQ0JUa"
+            },
+            "dimensionItem": "gArgUMQ0JUa.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Other Specialists Practitioners Stock Total",
+            "displayShortName": "OSP stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "gArgUMQ0JUa.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Other Specialists Practitioners Stock Total",
+            "shortName": "OSP stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "bGv5noQTa4j"
+            },
+            "dimensionItem": "bGv5noQTa4j.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Nursing  Personnel Stock Total",
+            "displayShortName": "Nursing personnel stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "bGv5noQTa4j.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Nursing  Personnel Stock Total",
+            "shortName": "Nursing personnel stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "mED3GxEO9og"
+            },
+            "dimensionItem": "mED3GxEO9og.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Nursing Professionals Stock Total",
+            "displayShortName": "Nursing Professionals stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "mED3GxEO9og.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Nursing Professionals Stock Total",
+            "shortName": "Nursing Professionals stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "WAoZKKHmAcj"
+            },
+            "dimensionItem": "WAoZKKHmAcj.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Nursing Associate Professionals Stock Total",
+            "displayShortName": "Nursing Associate stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "WAoZKKHmAcj.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Nursing Associate Professionals Stock Total",
+            "shortName": "Nursing Associate stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "L1afctF08GD"
+            },
+            "dimensionItem": "L1afctF08GD.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Midwifery personnel Stock Total",
+            "displayShortName": "Midwifery personnel stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "L1afctF08GD.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Midwifery personnel Stock Total",
+            "shortName": "Midwifery personnel stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "oFFxlqJwPh9"
+            },
+            "dimensionItem": "oFFxlqJwPh9.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Midwifery Professionals Stock Total",
+            "displayShortName": "Midwifery Professionals stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "oFFxlqJwPh9.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Midwifery Professionals Stock Total",
+            "shortName": "Midwifery Professionals stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "cbKXNee3ph3"
+            },
+            "dimensionItem": "cbKXNee3ph3.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Midwifery Associate Professionals Stock Total",
+            "displayShortName": "Midwifery Associate Professionals stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "cbKXNee3ph3.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Midwifery Associate Professionals Stock Total",
+            "shortName": "Midwifery Associate Professionals stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "Fu7dDl4ppl7"
+            },
+            "dimensionItem": "Fu7dDl4ppl7.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Dentists Stock Total",
+            "displayShortName": "Dentists stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "Fu7dDl4ppl7.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Dentists Stock Total",
+            "shortName": "Dentists stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "VSGJ4q08rpF"
+            },
+            "dimensionItem": "VSGJ4q08rpF.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Dental Assistants and Therapists Stock Total",
+            "displayShortName": "Dental Assistants and Therapists stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "VSGJ4q08rpF.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Dental Assistants and Therapists Stock Total",
+            "shortName": "Dental Assistants and Therapists stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "yxxg9fnb8Wn"
+            },
+            "dimensionItem": "yxxg9fnb8Wn.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Dental Prosthetic Technicians Stock Total",
+            "displayShortName": "Dental Prosthetic Technicians stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "yxxg9fnb8Wn.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Dental Prosthetic Technicians Stock Total",
+            "shortName": "Dental Prosthetic Technicians stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "u6TBGqwClnr"
+            },
+            "dimensionItem": "u6TBGqwClnr.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Pharmacists Stock Total",
+            "displayShortName": "Pharmacists stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "u6TBGqwClnr.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Pharmacists Stock Total",
+            "shortName": "Pharmacists stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "LDcUDhFFhPE"
+            },
+            "dimensionItem": "LDcUDhFFhPE.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Pharmaceutical Technicians and Assistants Stock Total",
+            "displayShortName": "Pharmaceutical Technicians stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "LDcUDhFFhPE.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Pharmaceutical Technicians and Assistants Stock Total",
+            "shortName": "Pharmaceutical Technicians stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "rC0WqacbfQH"
+            },
+            "dimensionItem": "rC0WqacbfQH.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Paramedical Practitioners Stock Total",
+            "displayShortName": "Paramedical Practitioners stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "rC0WqacbfQH.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Paramedical Practitioners Stock Total",
+            "shortName": "Paramedical Practitioners stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "ZCSyNruyHGx"
+            },
+            "dimensionItem": "ZCSyNruyHGx.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Medical and Pathology Laboratory scientists Stock Total",
+            "displayShortName": "Medical Laboratory scientists stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "ZCSyNruyHGx.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Medical and Pathology Laboratory scientists Stock Total",
+            "shortName": "Medical Laboratory scientists stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "HB5zWlG33mm"
+            },
+            "dimensionItem": "HB5zWlG33mm.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Medical Imaging and Therapeutic Equipment Technicians Stock Total",
+            "displayShortName": "Medical Imaging Technicians stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "HB5zWlG33mm.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Medical Imaging and Therapeutic Equipment Technicians Stock Total",
+            "shortName": "Medical Imaging Technicians stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "ODDLeZOcCSb"
+            },
+            "dimensionItem": "ODDLeZOcCSb.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Medical and Pathology Laboratory Technicians  Stock Total",
+            "displayShortName": "Medical Technicians  stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "ODDLeZOcCSb.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Medical and Pathology Laboratory Technicians  Stock Total",
+            "shortName": "Medical Technicians  stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "Txswej5dG2x"
+            },
+            "dimensionItem": "Txswej5dG2x.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Environmental and Occupational Health and Hygiene Professionals Stock Total",
+            "displayShortName": "Environmental Professionals stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "Txswej5dG2x.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Environmental and Occupational Health and Hygiene Professionals Stock Total",
+            "shortName": "Environmental Professionals stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "TxLHP8S50Fn"
+            },
+            "dimensionItem": "TxLHP8S50Fn.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Environmental and Occupational Health Inspectors and Associates Stock Total",
+            "displayShortName": "Environmental Health Inspectors stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "TxLHP8S50Fn.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Environmental and Occupational Health Inspectors and Associates Stock Total",
+            "shortName": "Environmental Health Inspectors stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "jVLDy3aFtFT"
+            },
+            "dimensionItem": "jVLDy3aFtFT.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Traditional and Complementary Medicine Professionals Stock Total",
+            "displayShortName": "Traditional Medicine Professionals stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "jVLDy3aFtFT.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Traditional and Complementary Medicine Professionals Stock Total",
+            "shortName": "Traditional Medicine Professionals stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "opYyTkO07JI"
+            },
+            "dimensionItem": "opYyTkO07JI.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Traditional and Complementary Medicine Associate Professionals Stock Total",
+            "displayShortName": "Traditional Medicine Associate stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "opYyTkO07JI.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Traditional and Complementary Medicine Associate Professionals Stock Total",
+            "shortName": "Traditional Medicine Associate stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "xhYksqRC3Mq"
+            },
+            "dimensionItem": "xhYksqRC3Mq.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Community Health Workers Stock Total",
+            "displayShortName": "Community Health Workers stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "xhYksqRC3Mq.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Community Health Workers Stock Total",
+            "shortName": "Community Health Workers stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "TwMqJkdt6AV"
+            },
+            "dimensionItem": "TwMqJkdt6AV.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Personal care workers  Stock Total",
+            "displayShortName": "Personal care workers  stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "TwMqJkdt6AV.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Personal care workers  Stock Total",
+            "shortName": "Personal care workers  stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "JyiJRmOLy5X"
+            },
+            "dimensionItem": "JyiJRmOLy5X.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Health Care Assistants Stock Total",
+            "displayShortName": "Health Care Assistants stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "JyiJRmOLy5X.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Health Care Assistants Stock Total",
+            "shortName": "Health Care Assistants stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "ggvVrPZWZkH"
+            },
+            "dimensionItem": "ggvVrPZWZkH.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Home-based Personal Care Workers Stock Total",
+            "displayShortName": "HB Personal Care Workers stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "ggvVrPZWZkH.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Home-based Personal Care Workers Stock Total",
+            "shortName": "HB Personal Care Workers stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "MPXGGAuhL0X"
+            },
+            "dimensionItem": "MPXGGAuhL0X.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Personal care workers in health services n.e.c Stock Total",
+            "displayShortName": "Personal care workers stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "MPXGGAuhL0X.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Personal care workers in health services n.e.c Stock Total",
+            "shortName": "Personal care workers stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "a8439elcS8L"
+            },
+            "dimensionItem": "a8439elcS8L.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Physiotherapists Stock Total",
+            "displayShortName": "Physiotherapists stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "a8439elcS8L.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Physiotherapists Stock Total",
+            "shortName": "Physiotherapists stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "OZJdy5ZrHQA"
+            },
+            "dimensionItem": "OZJdy5ZrHQA.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Physiotherapy Technicians and Assistants Stock Total",
+            "displayShortName": "Physiotherapy Technicians stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "OZJdy5ZrHQA.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Physiotherapy Technicians and Assistants Stock Total",
+            "shortName": "Physiotherapy Technicians stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "oxd7sTFC9BS"
+            },
+            "dimensionItem": "oxd7sTFC9BS.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Dieticians  Stock Total",
+            "displayShortName": "Dieticians  stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "oxd7sTFC9BS.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Dieticians  Stock Total",
+            "shortName": "Dieticians  stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "vgh8zEz1WpS"
+            },
+            "dimensionItem": "vgh8zEz1WpS.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Nutritionists Stock Total",
+            "displayShortName": "Nutritionists stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "vgh8zEz1WpS.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Nutritionists Stock Total",
+            "shortName": "Nutritionists stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "FhXwIMSsSe6"
+            },
+            "dimensionItem": "FhXwIMSsSe6.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Audiologists and Speech Therapists Stock Total",
+            "displayShortName": "Audiologists stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "FhXwIMSsSe6.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Audiologists and Speech Therapists Stock Total",
+            "shortName": "Audiologists stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "UsC3BMF3UfH"
+            },
+            "dimensionItem": "UsC3BMF3UfH.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Optometrists and Ophthalmic Opticians Stock Total",
+            "displayShortName": "Optometrists stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "UsC3BMF3UfH.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Optometrists and Ophthalmic Opticians Stock Total",
+            "shortName": "Optometrists stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "zTdT8BRGwE2"
+            },
+            "dimensionItem": "zTdT8BRGwE2.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Dispensing Opticians Stock Total",
+            "displayShortName": "Dispensing Opticians stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "zTdT8BRGwE2.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Dispensing Opticians Stock Total",
+            "shortName": "Dispensing Opticians stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "WbKGNRLpmwG"
+            },
+            "dimensionItem": "WbKGNRLpmwG.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Medical Prosthetic Technicians Stock Total",
+            "displayShortName": "Medical Prosthetic Technicians stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "WbKGNRLpmwG.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Medical Prosthetic Technicians Stock Total",
+            "shortName": "Medical Prosthetic Technicians stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "PDaxfrOTNbP"
+            },
+            "dimensionItem": "PDaxfrOTNbP.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Medical Records and Health Information Technicians Stock Total",
+            "displayShortName": "Medical Records Technicians stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "PDaxfrOTNbP.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Medical Records and Health Information Technicians Stock Total",
+            "shortName": "Medical Records Technicians stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "AdDFDID6k9W"
+            },
+            "dimensionItem": "AdDFDID6k9W.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Medical Assistants Stock Total",
+            "displayShortName": "Medical Assistants stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "AdDFDID6k9W.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Medical Assistants Stock Total",
+            "shortName": "Medical Assistants stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "AwitV0Jocja"
+            },
+            "dimensionItem": "AwitV0Jocja.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Ambulance Workers Stock Total",
+            "displayShortName": "Ambulance Workers stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "AwitV0Jocja.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Ambulance Workers Stock Total",
+            "shortName": "Ambulance Workers stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "PYdi9KKaylg"
+            },
+            "dimensionItem": "PYdi9KKaylg.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Social work and counselling professionals Stock Total",
+            "displayShortName": "Social work stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "PYdi9KKaylg.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Social work and counselling professionals Stock Total",
+            "shortName": "Social work stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "FjX1rlm2TtA"
+            },
+            "dimensionItem": "FjX1rlm2TtA.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Social work associate professionals Stock Total",
+            "displayShortName": "Social work associate stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "FjX1rlm2TtA.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Social work associate professionals Stock Total",
+            "shortName": "Social work associate stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "o6gD9w1myBu"
+            },
+            "dimensionItem": "o6gD9w1myBu.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Biomedical engineer Stock Total",
+            "displayShortName": "Biomedical engineer stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "o6gD9w1myBu.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Biomedical engineer Stock Total",
+            "shortName": "Biomedical engineer stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "BGrgjrIX5Ri"
+            },
+            "dimensionItem": "BGrgjrIX5Ri.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Managerial staff Stock Total",
+            "displayShortName": "Managerial staff stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "BGrgjrIX5Ri.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Managerial staff Stock Total",
+            "shortName": "Managerial staff stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "SVNenUYsHL8"
+            },
+            "dimensionItem": "SVNenUYsHL8.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Administrative staff Stock Total",
+            "displayShortName": "Administrative staff stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "SVNenUYsHL8.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Administrative staff Stock Total",
+            "shortName": "Administrative staff stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "NARmt1jLp0H"
+            },
+            "dimensionItem": "NARmt1jLp0H.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Health information systems personnel Stock Total",
+            "displayShortName": "Health information systems personnel stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "NARmt1jLp0H.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Health information systems personnel Stock Total",
+            "shortName": "Health information systems personnel stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "xJURWgPOCWP"
+            },
+            "dimensionItem": "xJURWgPOCWP.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Engineering and maintenance staff Stock Total",
+            "displayShortName": "Engineering staff stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "xJURWgPOCWP.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Engineering and maintenance staff Stock Total",
+            "shortName": "Engineering staff stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "U9S9LefGuER"
+            },
+            "dimensionItem": "U9S9LefGuER.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Other non-medical professional staff Stock Total",
+            "displayShortName": "Other non-medical professional stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "U9S9LefGuER.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Other non-medical professional staff Stock Total",
+            "shortName": "Other non-medical professional stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        },
+        {
+          "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
+          "dataElementOperand": {
+            "access": {
+              "delete": true,
+              "externalize": true,
+              "manage": true,
+              "read": true,
+              "update": true,
+              "write": true
+            },
+            "attributeValues": [],
+            "categoryOptionCombo": {
+              "id": "eHaz9Q3lZLd"
+            },
+            "created": "2019-05-15T00:10:51.722",
+            "dataElement": {
+              "id": "ZP7hy3u68BE"
+            },
+            "dimensionItem": "ZP7hy3u68BE.eHaz9Q3lZLd",
+            "dimensionItemType": "DATA_ELEMENT_OPERAND",
+            "displayName": "Other non-medical support staff Stock Total",
+            "displayShortName": "Other non-medical support staff stock Total",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "ZP7hy3u68BE.eHaz9Q3lZLd",
+            "lastUpdated": "2019-05-15T00:10:51.722",
+            "legendSets": [],
+            "name": "Other non-medical support staff Stock Total",
+            "shortName": "Other non-medical support staff stock Total",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+          }
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "digitGroupSeparator": "SPACE",
+      "displayDensity": "NORMAL",
+      "externalAccess": false,
+      "filterDimensions": [
+        "ou"
+      ],
+      "fontSize": "NORMAL",
+      "hideEmptyColumns": true,
+      "hideEmptyRows": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "id": "mElD0yiuFpU",
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2018-12-14T17:19:39.455",
+      "lastUpdatedBy": {
+        "id": "H8IFYZ4ZkLw"
+      },
+      "legendDisplayStrategy": "FIXED",
+      "legendDisplayStyle": "FILL",
+      "name": "Stock : data validation table",
+      "numberType": "VALUE",
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [],
+      "periods": [
+        {
+          "id": "2000"
+        },
+        {
+          "id": "2001"
+        },
+        {
+          "id": "2002"
+        },
+        {
+          "id": "2003"
+        },
+        {
+          "id": "2004"
+        },
+        {
+          "id": "2005"
+        },
+        {
+          "id": "2006"
+        },
+        {
+          "id": "2007"
+        },
+        {
+          "id": "2008"
+        },
+        {
+          "id": "2009"
+        },
+        {
+          "id": "2010"
+        },
+        {
+          "id": "2011"
+        },
+        {
+          "id": "2012"
+        },
+        {
+          "id": "2013"
+        },
+        {
+          "id": "2014"
+        },
+        {
+          "id": "2015"
+        },
+        {
+          "id": "2016"
+        },
+        {
+          "id": "2017"
+        }
+      ],
+      "publicAccess": "--------",
+      "regression": false,
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": false,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "reportParams": {
+        "paramGrandParentOrganisationUnit": false,
+        "paramOrganisationUnit": false,
+        "paramParentOrganisationUnit": false,
+        "paramReportingPeriod": false
+      },
+      "rowDimensions": [
+        "dx"
+      ],
+      "rowSubTotals": false,
+      "rowTotals": false,
+      "showDimensionLabels": true,
+      "showHierarchy": false,
+      "skipRounding": false,
+      "sortOrder": 0,
+      "topLimit": 0,
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Global Team",
+          "id": "MVWS4lpbPo2",
+          "userGroupUid": "MVWS4lpbPo2"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Regional Team",
+          "id": "ZWeEK9iBnEi",
+          "userGroupUid": "ZWeEK9iBnEi"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Country Team",
+          "id": "vNDwT7P6thq",
+          "userGroupUid": "vNDwT7P6thq"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Data Completion",
+          "id": "z6TJVUnop02",
+          "userGroupUid": "z6TJVUnop02"
+        }
+      ],
+      "userOrganisationUnit": true,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    }
+  ]
+}
