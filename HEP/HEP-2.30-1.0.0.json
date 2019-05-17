@@ -184,7 +184,7 @@
         "id": "H4atNsEuKxP"
       },
       "name": "Reported year",
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "shortName": "Reported year",
       "translations": [],
       "type": "categories",
@@ -2103,7 +2103,7 @@
           "id": "2017"
         }
       ],
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "regressionType": "NONE",
       "relativePeriods": {
         "biMonthsThisYear": false,
@@ -2544,7 +2544,7 @@
           "id": "2017"
         }
       ],
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "regressionType": "NONE",
       "relativePeriods": {
         "biMonthsThisYear": false,
@@ -2898,7 +2898,7 @@
           "id": "2017"
         }
       ],
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "regressionType": "NONE",
       "relativePeriods": {
         "biMonthsThisYear": false,
@@ -3251,7 +3251,7 @@
           "id": "2017"
         }
       ],
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "regressionType": "NONE",
       "relativePeriods": {
         "biMonthsThisYear": false,
@@ -3908,7 +3908,7 @@
           "id": "2017"
         }
       ],
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "regressionType": "NONE",
       "relativePeriods": {
         "biMonthsThisYear": false,
@@ -4310,7 +4310,7 @@
           "id": "2017"
         }
       ],
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "regressionType": "NONE",
       "relativePeriods": {
         "biMonthsThisYear": false,
@@ -4694,7 +4694,7 @@
           "id": "2017"
         }
       ],
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "regressionType": "NONE",
       "relativePeriods": {
         "biMonthsThisYear": false,
@@ -6124,7 +6124,7 @@
           "id": "2017"
         }
       ],
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "regressionType": "NONE",
       "relativePeriods": {
         "biMonthsThisYear": false,
@@ -17000,7 +17000,7 @@
       "organisationUnit": {
         "id": "oofyLUJJ6Vy"
       },
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "text": "0 %",
       "user": {
         "id": "wujltVHLGo8"
@@ -17040,7 +17040,7 @@
       "organisationUnit": {
         "id": "oofyLUJJ6Vy"
       },
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "text": "No",
       "user": {
         "id": "wujltVHLGo8"
@@ -17118,7 +17118,7 @@
       "organisationUnit": {
         "id": "ST86paYjRHP"
       },
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "text": "50 PEAP",
       "user": {
         "id": "mvo5Wtnhwzw"
@@ -17192,7 +17192,7 @@
       "organisationUnit": {
         "id": "oofyLUJJ6Vy"
       },
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "text": "No",
       "user": {
         "id": "wujltVHLGo8"
@@ -17232,7 +17232,7 @@
       "organisationUnit": {
         "id": "Zdl3ad7PayF"
       },
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "text": "In Cuba the cases diagnosed of hepatitis B in 2017 were 121, of the previous years we have 741 which gives a total of 862 cases diagnosed and treated there are 291 cases of the previous years and 104 of the year 2017, which totals 395 cases in treatment therefore the graphic that appears is different because it has more cases in treatment than diagnosed and we verify the data that I entered in the survey and they are the ones that I refer and however the graph goes in reverse in the bars it is less diagnosed than treated, however in the cascade of hepatitis C if the bars of the cascade go well, please evaluate that because there is a mistake that I can not repair from here.",
       "user": {
         "id": "j1gjrR2TSjc"
@@ -17272,7 +17272,7 @@
       "organisationUnit": {
         "id": "oofyLUJJ6Vy"
       },
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "text": "Yes- drafted",
       "user": {
         "id": "wujltVHLGo8"
@@ -17312,7 +17312,7 @@
       "organisationUnit": {
         "id": "wP2zKq0dDpw"
       },
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "text": "???",
       "user": {
         "id": "siLL382427Y"
@@ -17380,7 +17380,7 @@
       "organisationUnit": {
         "id": "oofyLUJJ6Vy"
       },
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "text": "No",
       "user": {
         "id": "wujltVHLGo8"
@@ -17420,7 +17420,7 @@
       "organisationUnit": {
         "id": "oofyLUJJ6Vy"
       },
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "text": "Yes- There are anti discrimination policies or lows, but they are no/specific to hepatitis B or C",
       "user": {
         "id": "wujltVHLGo8"
@@ -17460,7 +17460,7 @@
       "organisationUnit": {
         "id": "oofyLUJJ6Vy"
       },
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "text": "Yes-Not a member of the STAG/official working group, but civil society have been consulted",
       "user": {
         "id": "wujltVHLGo8"
@@ -17500,7 +17500,7 @@
       "organisationUnit": {
         "id": "oofyLUJJ6Vy"
       },
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "text": "No",
       "user": {
         "id": "wujltVHLGo8"
@@ -17540,7 +17540,7 @@
       "organisationUnit": {
         "id": "oofyLUJJ6Vy"
       },
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "text": "Yes\nNational budget is allocated in 2018",
       "user": {
         "id": "wujltVHLGo8"
@@ -24634,7 +24634,7 @@
           "id": "2017"
         }
       ],
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "regression": false,
       "relativePeriods": {
         "biMonthsThisYear": false,
@@ -24823,7 +24823,7 @@
           "id": "2017"
         }
       ],
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "regression": false,
       "relativePeriods": {
         "biMonthsThisYear": false,
@@ -25024,7 +25024,7 @@
           "id": "2017"
         }
       ],
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "regression": false,
       "relativePeriods": {
         "biMonthsThisYear": false,
@@ -25225,7 +25225,7 @@
           "id": "2017"
         }
       ],
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "regression": false,
       "relativePeriods": {
         "biMonthsThisYear": false,
@@ -25420,7 +25420,7 @@
           "id": "2017"
         }
       ],
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "regression": false,
       "relativePeriods": {
         "biMonthsThisYear": false,
@@ -25656,7 +25656,7 @@
           "id": "2017"
         }
       ],
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "regression": false,
       "relativePeriods": {
         "biMonthsThisYear": false,
@@ -25865,7 +25865,7 @@
           "id": "2017"
         }
       ],
-      "publicAccess": "rw------",
+      "publicAccess": "--------",
       "regression": false,
       "relativePeriods": {
         "biMonthsThisYear": false,
