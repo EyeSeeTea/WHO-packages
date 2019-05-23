@@ -1,0 +1,405 @@
+{
+  "dataElementGroups": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "NONE",
+      "attributeValues": [],
+      "code": "GEN_dataElements",
+      "created": "2019-04-16T14:42:35.487",
+      "dataElements": [
+        {
+          "id": "A1J0Nj1oS7l"
+        },
+        {
+          "id": "AjUBHXF0fU7"
+        },
+        {
+          "id": "AxPuYh4zGHj"
+        },
+        {
+          "id": "BRw9DablIRl"
+        },
+        {
+          "id": "BYPbyk5W7SL"
+        },
+        {
+          "id": "CeGlVwpu00u"
+        },
+        {
+          "id": "DAPNB0WxKMH"
+        },
+        {
+          "id": "DOhl0I9dW80"
+        },
+        {
+          "id": "EgtyRlEp4Ur"
+        },
+        {
+          "id": "Es00XdAwOGq"
+        },
+        {
+          "id": "EzYMZMWjD0l"
+        },
+        {
+          "id": "F6Fzdt813lV"
+        },
+        {
+          "id": "FMrXrRRmrG0"
+        },
+        {
+          "id": "GDhVA3OnBWM"
+        },
+        {
+          "id": "GNApNgxXg3g"
+        },
+        {
+          "id": "Hm721R9kB7J"
+        },
+        {
+          "id": "HmOdgRvQYLT"
+        },
+        {
+          "id": "IaB1BzvziD3"
+        },
+        {
+          "id": "IcCc2qu4DnR"
+        },
+        {
+          "id": "Ild8Cxmtp6F"
+        },
+        {
+          "id": "J19avh4dgzs"
+        },
+        {
+          "id": "JglyEmZ3WjH"
+        },
+        {
+          "id": "JivufaG2BWG"
+        },
+        {
+          "id": "JxrDdZIjkIJ"
+        },
+        {
+          "id": "KPEjqvU8oah"
+        },
+        {
+          "id": "KnqjRBCTTH0"
+        },
+        {
+          "id": "LJHNsKzZ8Mg"
+        },
+        {
+          "id": "LT1KHuDE5AX"
+        },
+        {
+          "id": "LzFSfT6dl5V"
+        },
+        {
+          "id": "MKwJrQVphkI"
+        },
+        {
+          "id": "N3T3xEG8XV3"
+        },
+        {
+          "id": "OIuR1Oq0CYO"
+        },
+        {
+          "id": "OjlIywwexRY"
+        },
+        {
+          "id": "P9o1bMxwLkd"
+        },
+        {
+          "id": "PSVNJY95Jvm"
+        },
+        {
+          "id": "Q7dOlqe54eh"
+        },
+        {
+          "id": "Rte5siKK9DL"
+        },
+        {
+          "id": "S0O5jj1Qe69"
+        },
+        {
+          "id": "SnmxHXRyUbr"
+        },
+        {
+          "id": "TotSFBZh0aI"
+        },
+        {
+          "id": "Tzmau35U82u"
+        },
+        {
+          "id": "UT3SYOk5cVG"
+        },
+        {
+          "id": "UbRRz5Ep0rk"
+        },
+        {
+          "id": "V4Kxl73h3N4"
+        },
+        {
+          "id": "VBiZTaZYFPh"
+        },
+        {
+          "id": "VP1Gf0lugIe"
+        },
+        {
+          "id": "WFXrtgmLFe9"
+        },
+        {
+          "id": "Ww6zzskNgMp"
+        },
+        {
+          "id": "WxBHaqC9538"
+        },
+        {
+          "id": "Xii6gy92ebp"
+        },
+        {
+          "id": "XtkzVwPsNzO"
+        },
+        {
+          "id": "YOfsQvR5dQV"
+        },
+        {
+          "id": "YbXCUq9hK6i"
+        },
+        {
+          "id": "Z8W89lDV4IL"
+        },
+        {
+          "id": "ZGCDiz5fZhb"
+        },
+        {
+          "id": "ZXyg6OY0Kc5"
+        },
+        {
+          "id": "Ziaed5aYi14"
+        },
+        {
+          "id": "ZvwXgNUHCqi"
+        },
+        {
+          "id": "ab8G8EOgwdM"
+        },
+        {
+          "id": "b8EyWysHhaS"
+        },
+        {
+          "id": "bTwp4cKNjgZ"
+        },
+        {
+          "id": "bYdsnN7h4A0"
+        },
+        {
+          "id": "boSWuQK3RM6"
+        },
+        {
+          "id": "bqnIT0Jc1dA"
+        },
+        {
+          "id": "dVYloiY2uaK"
+        },
+        {
+          "id": "eDMtlUM2uZN"
+        },
+        {
+          "id": "eSqFJHgNEVI"
+        },
+        {
+          "id": "f2bb4TqRjGt"
+        },
+        {
+          "id": "ffvtB32AWOF"
+        },
+        {
+          "id": "gSSwxHq8rni"
+        },
+        {
+          "id": "gVL6zWK1Wdq"
+        },
+        {
+          "id": "gZFzimBF3IA"
+        },
+        {
+          "id": "i5ZNEcuAYWB"
+        },
+        {
+          "id": "iOvqf6tee6k"
+        },
+        {
+          "id": "j86ipduQ5Uj"
+        },
+        {
+          "id": "jDf8tHhJ8c7"
+        },
+        {
+          "id": "jyVg4EZmlm6"
+        },
+        {
+          "id": "l2oZmW8P4kT"
+        },
+        {
+          "id": "m9vCqXQ50tx"
+        },
+        {
+          "id": "mFwqVq8r6yf"
+        },
+        {
+          "id": "mwIgH1XXf6p"
+        },
+        {
+          "id": "np2BhTTeiuk"
+        },
+        {
+          "id": "o3F666LPvuM"
+        },
+        {
+          "id": "o6TH5OMes3s"
+        },
+        {
+          "id": "oQYDURuNP5u"
+        },
+        {
+          "id": "pKE92ittvkl"
+        },
+        {
+          "id": "pYxLqoXtrej"
+        },
+        {
+          "id": "qKlcw0DQOca"
+        },
+        {
+          "id": "qM1oZ1TKz96"
+        },
+        {
+          "id": "qVScs3FWcGg"
+        },
+        {
+          "id": "r5NELO1jv5F"
+        },
+        {
+          "id": "rl5bLVug4B4"
+        },
+        {
+          "id": "sPadHOO4SQY"
+        },
+        {
+          "id": "silWE44JpaQ"
+        },
+        {
+          "id": "snsOY1I1rnR"
+        },
+        {
+          "id": "t2VcaQr4WGK"
+        },
+        {
+          "id": "tdsHaWtFaEX"
+        },
+        {
+          "id": "u5jlwLcXi3y"
+        },
+        {
+          "id": "ufRAeFnrmyf"
+        },
+        {
+          "id": "v5hOE1gOEiw"
+        },
+        {
+          "id": "x1mN8h5rmLJ"
+        },
+        {
+          "id": "x9rDzTxKtCN"
+        },
+        {
+          "id": "xMXQ02xEvfY"
+        },
+        {
+          "id": "xgUOUgzteZX"
+        },
+        {
+          "id": "xlclGIOjeG6"
+        },
+        {
+          "id": "yZjhqNgz078"
+        },
+        {
+          "id": "z2LDhpvqM6g"
+        },
+        {
+          "id": "zFs9ippEjBv"
+        },
+        {
+          "id": "zUDpA1EyHPY"
+        },
+        {
+          "id": "zliXEyR6sid"
+        }
+      ],
+      "dimensionItem": "lBIpGlLjLrQ",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "GEN_dataElements",
+      "displayShortName": "GEN_dataElements",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "href": "https://extranet-uat.who.int/dhis2/api/dataElementGroups/lBIpGlLjLrQ",
+      "id": "lBIpGlLjLrQ",
+      "lastUpdated": "2019-05-23T16:02:44.392",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "legendSets": [],
+      "name": "GEN_dataElements",
+      "publicAccess": "r-------",
+      "shortName": "GEN_dataElements",
+      "translations": [],
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "HEP Admins",
+          "id": "KU3n9ZHLJBE",
+          "userGroupUid": "KU3n9ZHLJBE"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "ETA administrators",
+          "id": "Urx6COfeLkm",
+          "userGroupUid": "Urx6COfeLkm"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NTD admin team",
+          "id": "irooBniCRle",
+          "userGroupUid": "irooBniCRle"
+        }
+      ]
+    }
+  ]
+}
