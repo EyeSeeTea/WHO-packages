@@ -1,0 +1,90 @@
+{
+  "users": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-11-15T10:45:32.074",
+      "dataViewOrganisationUnits": [
+        {
+          "id": "H8RixfF8ugH"
+        }
+      ],
+      "displayName": "Duplicator Event",
+      "email": "pomaretar@who.int",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "firstName": "Duplicator",
+      "href": "https://extranet.who.int/dhis2-dev/api/users/UlXOWwGGx7W",
+      "id": "UlXOWwGGx7W",
+      "lastUpdated": "2018-11-15T10:45:32.074",
+      "name": "Duplicator Event",
+      "organisationUnits": [
+        {
+          "id": "H8RixfF8ugH"
+        }
+      ],
+      "surname": "Event",
+      "teiSearchOrganisationUnits": [
+        {
+          "id": "H8RixfF8ugH"
+        }
+      ],
+      "translations": [],
+      "userAccesses": [],
+      "userCredentials": {
+        "access": {
+          "delete": true,
+          "externalize": true,
+          "manage": true,
+          "read": true,
+          "update": true,
+          "write": true
+        },
+        "attributeValues": [],
+        "catDimensionConstraints": [],
+        "cogsDimensionConstraints": [],
+        "created": "2018-11-15T10:45:31.970",
+        "disabled": false,
+        "displayName": "Duplicator Event",
+        "externalAccess": false,
+        "externalAuth": false,
+        "favorite": false,
+        "favorites": [],
+        "id": "YBQvVco4iZ3",
+        "invitation": false,
+        "lastLogin": "2018-11-15T16:41:30.231",
+        "lastUpdated": "2018-11-15T10:45:31.970",
+        "name": "Duplicator Event",
+        "passwordLastUpdated": "2018-11-15T10:45:32.093",
+        "selfRegistered": false,
+        "translations": [],
+        "twoFA": false,
+        "userAccesses": [],
+        "userGroupAccesses": [],
+        "userInfo": {
+          "id": "UlXOWwGGx7W"
+        },
+        "userRoles": [
+          {
+            "id": "StLtKT6pTrK"
+          }
+        ],
+        "username": "eventDuplicationScript"
+      },
+      "userGroupAccesses": [],
+      "userGroups": [
+        {
+          "id": "bzuIPO5zQPV"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2070 @@
+{
+  "dataElements": [
+    {
+      "aggregationLevels": [],
+      "aggregationType": "AVERAGE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "sNmNyudrFxw"
+      },
+      "created": "2019-02-28T16:16:26.573",
+      "domainType": "AGGREGATE",
+      "id": "I5m9Dl43XO2",
+      "lastUpdated": "2019-05-16T16:09:37.361",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "Existence of national law on regulating working hours and conditions for Dentist",
+      "publicAccess": "--------",
+      "shortName": "national law on Dentist",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "TRUE_ONLY",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "AVERAGE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "sNmNyudrFxw"
+      },
+      "created": "2019-02-28T16:08:49.648",
+      "domainType": "AGGREGATE",
+      "id": "gGSJZCN2L8C",
+      "lastUpdated": "2019-05-16T16:09:37.558",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "Existence of national law on regulating working hours and conditions for General Medical Practitioner",
+      "publicAccess": "--------",
+      "shortName": "national law on General Medical Practitioner",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "TRUE_ONLY",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "AVERAGE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "sNmNyudrFxw"
+      },
+      "created": "2019-02-28T16:15:20.904",
+      "domainType": "AGGREGATE",
+      "id": "Uyxr85SOJiI",
+      "lastUpdated": "2019-05-16T16:09:37.008",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "Existence of national law on regulating working hours and conditions for Midwifery Professional",
+      "publicAccess": "--------",
+      "shortName": "national law on Midwifery Professional",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "TRUE_ONLY",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "AVERAGE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "sNmNyudrFxw"
+      },
+      "created": "2019-02-28T16:14:13.920",
+      "domainType": "AGGREGATE",
+      "id": "DVyhvgkJrXg",
+      "lastUpdated": "2019-05-16T16:09:37.353",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "Existence of national law on regulating working hours and conditions for Nursing Professional",
+      "publicAccess": "--------",
+      "shortName": "national law on Nursing Professional",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "TRUE_ONLY",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "AVERAGE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "sNmNyudrFxw"
+      },
+      "created": "2019-02-28T16:17:31.521",
+      "domainType": "AGGREGATE",
+      "id": "gDinmRT6Pqb",
+      "lastUpdated": "2019-05-16T16:09:37.591",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "Existence of national law on regulating working hours and conditions for Pharmacist",
+      "publicAccess": "--------",
+      "shortName": "national law on Pharmacist",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "TRUE_ONLY",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "AVERAGE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "sNmNyudrFxw"
+      },
+      "created": "2019-02-28T16:12:36.941",
+      "domainType": "AGGREGATE",
+      "id": "FDUFnJmPb2t",
+      "lastUpdated": "2019-05-16T16:09:37.348",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "Existence of national law on regulating working hours and conditions for Specialist Medical Practitioner",
+      "publicAccess": "--------",
+      "shortName": "national law on Specialist Medical Practitioner",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "TRUE_ONLY",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "AVERAGE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "sNmNyudrFxw"
+      },
+      "created": "2017-08-12T23:09:14.790",
+      "domainType": "AGGREGATE",
+      "id": "LYjT01KiTTw",
+      "lastUpdated": "2019-05-16T16:09:37.696",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "Existence of national law on regulating working hours and conditions for medical doctors",
+      "publicAccess": "--------",
+      "shortName": "national law on regulating working hours",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "TRUE_ONLY",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "AVERAGE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "sNmNyudrFxw"
+      },
+      "created": "2017-06-21T20:50:09.687",
+      "domainType": "AGGREGATE",
+      "id": "LUVRqQq2NLE",
+      "lastUpdated": "2019-05-16T16:09:37.761",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "Existence of national/sub-national policies/laws for prevention of attacks on health workers",
+      "publicAccess": "--------",
+      "shortName": "Existence of policy on prevention of attacks",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "TRUE_ONLY",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "AVERAGE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "created": "2017-06-21T20:53:14.067",
+      "domainType": "AGGREGATE",
+      "id": "cV7DhKFPk3R",
+      "lastUpdated": "2019-05-16T16:09:37.557",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "Existence of national/sub-national policies/laws regulating dual practice",
+      "publicAccess": "--------",
+      "shortName": "Existence of a policy on dual practice",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "BOOLEAN",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "AVERAGE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "created": "2017-08-10T20:28:00.115",
+      "domainType": "AGGREGATE",
+      "id": "di91e0qZijs",
+      "lastUpdated": "2019-05-16T16:09:37.159",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "Existence of national/sub-national policies/laws regulating minimum wages",
+      "publicAccess": "--------",
+      "shortName": "regulations on minimum wages",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "BOOLEAN",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "AVERAGE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "sNmNyudrFxw"
+      },
+      "created": "2017-08-10T20:28:33.086",
+      "domainType": "AGGREGATE",
+      "id": "lvs1RCQOOp4",
+      "lastUpdated": "2019-05-16T16:09:37.147",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "Existence of national/sub-national policies/laws regulating social protection",
+      "publicAccess": "--------",
+      "shortName": "Regulation on social protection",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "TRUE_ONLY",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "AVERAGE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "created": "2017-06-21T20:51:52.082",
+      "domainType": "AGGREGATE",
+      "id": "Ii26DODuUbB",
+      "lastUpdated": "2019-05-16T16:09:37.297",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "Existence of national/subnational policies for regulating compulsory service",
+      "publicAccess": "--------",
+      "shortName": "Existence of policy on compulsory service",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "BOOLEAN",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "created": "2017-08-08T05:57:11.615",
+      "domainType": "AGGREGATE",
+      "id": "YpvMwP4LgpH",
+      "lastUpdated": "2019-05-16T16:09:37.762",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "HWF Module 6 File upload",
+      "publicAccess": "--------",
+      "shortName": "HWF Module 6 File upload",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "FILE_RESOURCE",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "CVlyw498LdE"
+      },
+      "created": "2017-08-12T23:09:14.790",
+      "domainType": "AGGREGATE",
+      "id": "N6VNhZ2PCG7",
+      "lastUpdated": "2019-05-16T16:09:37.772",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "Health workforce Self employed",
+      "publicAccess": "--------",
+      "shortName": "Health workforce Self employed",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "CVlyw498LdE"
+      },
+      "created": "2019-01-21T09:06:10.861",
+      "domainType": "AGGREGATE",
+      "id": "KlsBVkjtkkV",
+      "lastUpdated": "2019-05-16T16:09:37.361",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "Health workforce with Part Time Contract in a For-profit privately owned owned facilities",
+      "publicAccess": "--------",
+      "shortName": "HWF Part Time Contract private for profit facility",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "CVlyw498LdE"
+      },
+      "created": "2019-01-21T09:05:40.283",
+      "domainType": "AGGREGATE",
+      "id": "wsmvhizfctg",
+      "lastUpdated": "2019-05-16T16:09:37.150",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "Health workforce with Part Time Contract in a Not-for-profit privately owned facilities",
+      "publicAccess": "--------",
+      "shortName": "HWF Part Time Contract not for profit facility",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "CVlyw498LdE"
+      },
+      "created": "2017-08-12T23:09:14.790",
+      "domainType": "AGGREGATE",
+      "id": "C8MvR5CNwpG",
+      "lastUpdated": "2019-05-16T16:09:37.096",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "Health workforce with Part Time Contract in a public owned facilities",
+      "publicAccess": "--------",
+      "shortName": "HWF with Part Time Contract public facility",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "AVERAGE",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "CVlyw498LdE"
+      },
+      "created": "2017-08-12T23:09:14.790",
+      "domainType": "AGGREGATE",
+      "id": "GeY6o2BMvp1",
+      "lastUpdated": "2019-05-16T16:09:37.550",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "Standard Working Hours in a week",
+      "publicAccess": "--------",
+      "shortName": "Standard Working Hours in a week",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "created": "2017-08-09T21:01:24.947",
+      "domainType": "AGGREGATE",
+      "id": "iM5NIZBqAUL",
+      "lastUpdated": "2019-05-16T16:09:37.390",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "Standard working hours as per the national law",
+      "publicAccess": "--------",
+      "shortName": "Standard working hours as per the national law",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "O8QO4P3YZhH"
+      },
+      "created": "2019-01-21T09:18:48.894",
+      "domainType": "AGGREGATE",
+      "id": "fNWDIhx3ZQO",
+      "lastUpdated": "2019-05-16T16:09:37.488",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "Violent attacks on health care worker by attack type",
+      "publicAccess": "--------",
+      "shortName": "Violent attacks on HC worker by attack type",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "created": "2017-08-09T21:16:59.777",
+      "domainType": "AGGREGATE",
+      "id": "qqVKuhK0RgY",
+      "lastUpdated": "2019-05-16T16:09:37.547",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "Violent attacks on health workers",
+      "publicAccess": "--------",
+      "shortName": "Violent attacks on health workers",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "SMvtEojhImh"
+      },
+      "created": "2019-01-21T09:18:03.216",
+      "domainType": "AGGREGATE",
+      "id": "iS6Vzt6PPjr",
+      "lastUpdated": "2019-05-16T16:09:37.147",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "Violent attacks on health workers by primary object of attack",
+      "publicAccess": "--------",
+      "shortName": "Violent attacks on health workers by attack object",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "O8QO4P3YZhH"
+      },
+      "created": "2019-01-21T09:36:51.604",
+      "domainType": "AGGREGATE",
+      "id": "ViuQB9CLltC",
+      "lastUpdated": "2019-05-16T16:09:37.207",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "name": "Violent attacks on patient by attack type",
+      "publicAccess": "--------",
+      "shortName": "Violent attacks on patient by attack type",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA checker",
+          "id": "ypluz7jgVRe",
+          "userGroupUid": "ypluz7jgVRe"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    }
+  ],
+  "dataEntryForms": [
+    {
+      "created": "2017-06-21T08:07:55.215",
+      "format": 2,
+      "htmlCode": "<script type=\"text/javascript\">\n    $(document).ready(function(){\n        $(function() {\n            $( \"#mod2_tabs\" ).tabs();\n        });\n        var yespartialno = ['lvs1RCQOOp4','LYjT01KiTTw','gGSJZCN2L8C', 'FDUFnJmPb2t', 'DVyhvgkJrXg', 'Uyxr85SOJiI', 'I5m9Dl43XO2', 'gDinmRT6Pqb','LUVRqQq2NLE'];\n        var categoryIssues = ['I93t0K7b1oN','Xgr3PJxcWfJ','Y7EAGQA1bfv'];\n        function changeListener(element,category, object){\n            if (object.is(':checked')) {\n                console.log(object.attr('id'));\n                var dataValues = [];\n                var sel = dhis2.de.api.getSelections();\n                categoryIssues.forEach(function(id){\n                    if(id !== category){\n                        //var str = \"input[name='\" + dv.de +'-' + id + \"-val'][value='false']\";\n                        var str = \"#\" + element +'-' + id + \"-val\";\n                        console.log('str:', str);\n                        $(str).prop('checked',false);\n                        dataValues.push({ \"dataElement\": element, \"categoryOptionCombo\":id, \"period\": sel[\"pe\"], \"orgUnit\": sel[\"ou\"]})\n                    }\n                })\n                $.ajax({\n                    type: \"POST\",\n                    url: '../api/dataValueSets',\n                    contentType: 'application/json',\n                    data: JSON.stringify({\n                        \"dataValues\": dataValues\n                    }),\n                    success: function(data1){\n                        console.log(\"COunt:\", data1[0].count);\n                        total = data1[0].count;\n\n                    }\n                });\n            } else {\n                console.log(\"Not Checked\")\n            }\n        }\n        yespartialno.forEach(function(element){\n            categoryIssues.forEach(function(category){\n                $('#' + element +\"-\" +category + '-val').change(\n                    function(){\n                        console.log('Changes taken place')\n                        changeListener(element,category, $(this));\n\n                    });\n            })\n        })\n    });\n\n</script>\n<style type=\"text/css\">#cde table { border-collapse: collapse; } #cde table, #cde th, #cde td { border: 1px solid #c0c0c0; } #cde td, #cde th { height: 30px; padding: 10px; margin: 10px; } .cde-greyfield { background-color: #e0e0e0; }\n</style>\n<h3 style=\"text-align: center;\"><strong>Health Workforce Employment characteristics and working conditions</strong></h3>\n\n<h4 style=\"text-align: right;\"><a href=\"../api/documents/p6IINqTYv2f/data\" target=\"_blank\">Access the NHWA HANDBOOK</a><br />\n<br />\n<a href=\"../api/documents/OCoAAGYwapP/data\" target=\"_blank\">Access the NHWA USER GUIDE</a></h4>\n\n<div id=\"mod2_tabs\">\n<ul>\n\t<li><a href=\"#tab0\">Characteristics</a></li>\n\t<li><a href=\"#tab1\">Conditions</a></li>\n\t<li><a href=\"#tab2\">Regulations</a></li>\n\t<li><a href=\"#tab3\">Other Resources</a></li>\n</ul>\n\n<div id=\"tab0\">\n<h2>SECTION 1: HWF Working CharacteristicsYes</h2>\n\n<div id=\"cde\">\n<table cellpadding=\"0\" cellspacing=\"0\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th>SN</th>\n\t\t\t<th style=\"text-align: center;\">Item</th>\n\t\t\t<th style=\"text-align: center;\">Value</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>Standard working hours as per the national law</td>\n\t\t\t<td><input id=\"iM5NIZBqAUL-Xr12mI7VPn3-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t</tbody>\n</table>\n</div>\n\n<div id=\"cde\">&nbsp;\n<table cellpadding=\"0\" cellspacing=\"0\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th colspan=\"1\" rowspan=\"3\">SN</th>\n\t\t\t<th colspan=\"1\" rowspan=\"3\" style=\"text-align: center;\">Occupation</th>\n\t\t\t<th colspan=\"1\" rowspan=\"3\" style=\"text-align: center;\">Standard Working<br />\n\t\t\tHours in a week</th>\n\t\t\t<th colspan=\"3\" style=\"text-align: center;\">Health Work Force with Part<br />\n\t\t\tTime Contract</th>\n\t\t\t<th colspan=\"1\" rowspan=\"3\" style=\"text-align: center;\">Self employed<br />\n\t\t\tworkers</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th rowspan=\"2\" style=\"text-align: center;\">Public Owned Facilities</th>\n\t\t\t<th rowspan=\"2\" style=\"text-align: center;\">Not for Profit Private Facilities</th>\n\t\t\t<th rowspan=\"2\" style=\"text-align: center;\">For Profit Private Facilities</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>Medical Doctors</td>\n\t\t\t<td><input id=\"GeY6o2BMvp1-aBpbcEgtzgw-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"C8MvR5CNwpG-aBpbcEgtzgw-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"wsmvhizfctg-aBpbcEgtzgw-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"KlsBVkjtkkV-aBpbcEgtzgw-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"N6VNhZ2PCG7-aBpbcEgtzgw-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>2</td>\n\t\t\t<td>\n\t\t\t<p style=\"margin-left: 20px; text-align: left;\">General Medical Practitioner</p>\n\t\t\t</td>\n\t\t\t<td><input id=\"GeY6o2BMvp1-LHbCtHlZr3Y-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"C8MvR5CNwpG-LHbCtHlZr3Y-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"wsmvhizfctg-LHbCtHlZr3Y-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"KlsBVkjtkkV-LHbCtHlZr3Y-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"N6VNhZ2PCG7-LHbCtHlZr3Y-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>3</td>\n\t\t\t<td>\n\t\t\t<p style=\"margin-left: 20px; text-align: left;\">Specialist Medical Practitioner</p>\n\t\t\t</td>\n\t\t\t<td><input id=\"GeY6o2BMvp1-VtVkbvygJnm-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"C8MvR5CNwpG-VtVkbvygJnm-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"wsmvhizfctg-VtVkbvygJnm-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"KlsBVkjtkkV-VtVkbvygJnm-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"N6VNhZ2PCG7-VtVkbvygJnm-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>4</td>\n\t\t\t<td>Nursing Professional</td>\n\t\t\t<td><input id=\"GeY6o2BMvp1-fGOgbIqsxDn-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"C8MvR5CNwpG-fGOgbIqsxDn-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"wsmvhizfctg-fGOgbIqsxDn-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"KlsBVkjtkkV-fGOgbIqsxDn-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"N6VNhZ2PCG7-fGOgbIqsxDn-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>5</td>\n\t\t\t<td>Midwifery Professional</td>\n\t\t\t<td><input id=\"GeY6o2BMvp1-MPzyVWiSFF2-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"C8MvR5CNwpG-MPzyVWiSFF2-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"wsmvhizfctg-MPzyVWiSFF2-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"KlsBVkjtkkV-MPzyVWiSFF2-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"N6VNhZ2PCG7-MPzyVWiSFF2-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>6</td>\n\t\t\t<td>Dentist</td>\n\t\t\t<td><input id=\"GeY6o2BMvp1-ALBRKpJsddQ-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"C8MvR5CNwpG-ALBRKpJsddQ-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"wsmvhizfctg-ALBRKpJsddQ-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"KlsBVkjtkkV-ALBRKpJsddQ-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"N6VNhZ2PCG7-ALBRKpJsddQ-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>7</td>\n\t\t\t<td>Pharmacist</td>\n\t\t\t<td><input id=\"GeY6o2BMvp1-iWRW6jXAzvP-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"C8MvR5CNwpG-iWRW6jXAzvP-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"wsmvhizfctg-iWRW6jXAzvP-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"KlsBVkjtkkV-iWRW6jXAzvP-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"N6VNhZ2PCG7-iWRW6jXAzvP-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t</tbody>\n</table>\n</div>\n</div>\n\n<div id=\"tab1\">\n<h2>SECTION 2: HWF Working Conditions</h2>\n\n<div id=\"cde\">&nbsp;\n<table cellpadding=\"0\" cellspacing=\"0\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th>SN</th>\n\t\t\t<th style=\"text-align: center;\">Item</th>\n\t\t\t<th style=\"text-align: center;\">Exitence</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>Existence of national/sub-national policies/laws for prevention of attacks on health workers</td>\n\t\t\t<td><!--<input id=\"LUVRqQq2NLE-Xr12mI7VPn3-val\" name=\"entryfield\" style=\"width:3.5em;///////////////////////////////////////\" title=\"\" value=\"\" />--><input id=\"LUVRqQq2NLE-I93t0K7b1oN-val\" name=\"entryfield\" title=\"\" value=\"\" /> Yes <input id=\"LUVRqQq2NLE-Xgr3PJxcWfJ-val\" name=\"entryfield\" title=\"\" value=\"\" /> Partial <input id=\"LUVRqQq2NLE-Y7EAGQA1bfv-val\" name=\"entryfield\" title=\"\" value=\"\" /> No</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>2</td>\n\t\t\t<td>Existence of national/subnational policies for regulating compulsory service</td>\n\t\t\t<td><input id=\"Ii26DODuUbB-Xr12mI7VPn3-val\" name=\"entryfield\" style=\"width:3.5em;///////////////////////////////////////\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>3</td>\n\t\t\t<td>Existence of national/sub-national policies/laws regulating dual practice</td>\n\t\t\t<td><input id=\"cV7DhKFPk3R-Xr12mI7VPn3-val\" name=\"entryfield\" style=\"width:3.5em;///////////////////////////////////////\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:500px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<th colspan=\"1\" rowspan=\"2\">SN</th>\n\t\t\t<th colspan=\"1\" rowspan=\"2\">Item</th>\n\t\t\t<th colspan=\"1\" rowspan=\"2\">Total</th>\n\t\t\t<th colspan=\"4\" rowspan=\"1\">Primary object of attack</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th>Facility</th>\n\t\t\t<th>Health care Provider</th>\n\t\t\t<th>Transport</th>\n\t\t\t<th>Patient</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th>1</th>\n\t\t\t<th style=\"text-align: left;\">Number of violent attacks on health workers</th>\n\t\t\t<td><input id=\"qqVKuhK0RgY-Xr12mI7VPn3-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"iS6Vzt6PPjr-OYOzRJlu3B5-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"iS6Vzt6PPjr-JfxMvAwKsR7-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"iS6Vzt6PPjr-MfcVRlA41v6-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"iS6Vzt6PPjr-xeQGICllTPa-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td colspan=\"2\" rowspan=\"1\">&nbsp;</td>\n\t\t\t<th colspan=\"2\" rowspan=\"1\">Physical attacks</th>\n\t\t\t<th colspan=\"2\" rowspan=\"1\">Psychological attacks</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th>2</th>\n\t\t\t<th colspan=\"2\" rowspan=\"1\" style=\"text-align: left;\">Number of violent attacks on health care providers</th>\n\t\t\t<td colspan=\"2\" rowspan=\"1\"><input id=\"fNWDIhx3ZQO-AcYy9PESCS4-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td colspan=\"2\" rowspan=\"1\"><input id=\"fNWDIhx3ZQO-tVlGzmqqeWo-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th>3</th>\n\t\t\t<th colspan=\"2\" rowspan=\"1\" style=\"text-align: left;\">Number of violent attacks on patients</th>\n\t\t\t<td colspan=\"2\" rowspan=\"1\"><input id=\"ViuQB9CLltC-AcYy9PESCS4-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td colspan=\"2\" rowspan=\"1\"><input id=\"ViuQB9CLltC-tVlGzmqqeWo-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n</div>\n</div>\n\n<div id=\"tab2\">\n<h2>SECTION 3:Regulations</h2>\n\n<div id=\"cde\">&nbsp;\n<table cellpadding=\"0\" cellspacing=\"0\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th colspan=\"1\" rowspan=\"2\">SN</th>\n\t\t\t<th colspan=\"1\" rowspan=\"2\" style=\"text-align: center;\">Occupation</th>\n\t\t\t<th colspan=\"1\" rowspan=\"2\" style=\"text-align: center;\">Existence of national law on regulating&nbsp;<br />\n\t\t\tWorking hours<br />\n\t\t\tand conditions</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>Medical Doctors</td>\n\t\t\t<td style=\"text-align: center;\"><!--<input id=\"LYjT01KiTTw-aBpbcEgtzgw-val\" name=\"entryfield\" title=\"\" value=\"\"/>--><input id=\"LYjT01KiTTw-I93t0K7b1oN-val\" name=\"entryfield\" title=\"\" value=\"\" />Yes <input id=\"LYjT01KiTTw-Xgr3PJxcWfJ-val\" name=\"entryfield\" title=\"\" value=\"\" />Partial <input id=\"LYjT01KiTTw-Y7EAGQA1bfv-val\" name=\"entryfield\" title=\"\" value=\"\" />No</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>2</td>\n\t\t\t<td>\n\t\t\t<p style=\"margin-left: 20px; text-align: left;\">General Medical Practitioner</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"gGSJZCN2L8C-I93t0K7b1oN-val\" name=\"entryfield\" title=\"\" value=\"\" />Yes <input id=\"gGSJZCN2L8C-Xgr3PJxcWfJ-val\" name=\"entryfield\" title=\"\" value=\"\" />Partial <input id=\"gGSJZCN2L8C-Y7EAGQA1bfv-val\" name=\"entryfield\" title=\"\" value=\"\" />No</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>3</td>\n\t\t\t<td>\n\t\t\t<p style=\"margin-left: 20px; text-align: left;\">Specialist Medical Practitioner</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"FDUFnJmPb2t-I93t0K7b1oN-val\" name=\"entryfield\" title=\"\" value=\"\" />Yes <input id=\"FDUFnJmPb2t-Xgr3PJxcWfJ-val\" name=\"entryfield\" title=\"\" value=\"\" />Partial <input id=\"FDUFnJmPb2t-Y7EAGQA1bfv-val\" name=\"entryfield\" title=\"\" value=\"\" />No</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>4</td>\n\t\t\t<td>Nursing Professional</td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"DVyhvgkJrXg-I93t0K7b1oN-val\" name=\"entryfield\" title=\"\" value=\"\" />Yes <input id=\"DVyhvgkJrXg-Xgr3PJxcWfJ-val\" name=\"entryfield\" title=\"\" value=\"\" />Partial <input id=\"DVyhvgkJrXg-Y7EAGQA1bfv-val\" name=\"entryfield\" title=\"\" value=\"\" />No</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>5</td>\n\t\t\t<td>Midwifery Professional</td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"Uyxr85SOJiI-I93t0K7b1oN-val\" name=\"entryfield\" title=\"\" value=\"\" />Yes <input id=\"Uyxr85SOJiI-Xgr3PJxcWfJ-val\" name=\"entryfield\" title=\"\" value=\"\" />Partial <input id=\"Uyxr85SOJiI-Y7EAGQA1bfv-val\" name=\"entryfield\" title=\"\" value=\"\" />No</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>6</td>\n\t\t\t<td>Dentist</td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"I5m9Dl43XO2-I93t0K7b1oN-val\" name=\"entryfield\" title=\"\" value=\"\" />Yes <input id=\"I5m9Dl43XO2-Xgr3PJxcWfJ-val\" name=\"entryfield\" title=\"\" value=\"\" />Partial <input id=\"I5m9Dl43XO2-Y7EAGQA1bfv-val\" name=\"entryfield\" title=\"\" value=\"\" />No</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>7</td>\n\t\t\t<td>Pharmacist</td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"gDinmRT6Pqb-I93t0K7b1oN-val\" name=\"entryfield\" title=\"\" value=\"\" />Yes <input id=\"gDinmRT6Pqb-Xgr3PJxcWfJ-val\" name=\"entryfield\" title=\"\" value=\"\" />Partial <input id=\"gDinmRT6Pqb-Y7EAGQA1bfv-val\" name=\"entryfield\" title=\"\" value=\"\" />No</td>\n\t\t</tr>\n\t</tbody>\n</table>\n</div>\n\n<div id=\"cde\">&nbsp;\n<table cellpadding=\"0\" cellspacing=\"0\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th>SN</th>\n\t\t\t<th style=\"text-align: center;\">Item</th>\n\t\t\t<th style=\"text-align: center;\">Exitence</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>Existence of national/sub-national policies/laws regulating minimum wages</td>\n\t\t\t<td><input id=\"di91e0qZijs-Xr12mI7VPn3-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>2</td>\n\t\t\t<td>Existence of national/sub-national policies/laws regulating social protection</td>\n\t\t\t<td><!--<input id=\"lvs1RCQOOp4-Xr12mI7VPn3-val\" name=\"entryfield\" title=\"\" value=\"\"/>--><input id=\"lvs1RCQOOp4-I93t0K7b1oN-val\" name=\"entryfield\" title=\"\" value=\"\" /> Yes<input id=\"lvs1RCQOOp4-Xgr3PJxcWfJ-val\" name=\"entryfield\" title=\"\" value=\"\" />Partial <input id=\"lvs1RCQOOp4-Y7EAGQA1bfv-val\" name=\"entryfield\" title=\"\" value=\"\" />No</td>\n\t\t</tr>\n\t</tbody>\n</table>\n</div>\n</div>\n\n<div id=\"tab3\">\n<h2>SECTION 4: HWF OTHER RESOURCES</h2>\n\n<div id=\"cde\">\n<table cellpadding=\"0\" cellspacing=\"0\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th>SN</th>\n\t\t\t<th>Item</th>\n\t\t\t<th>Value</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td style=\"text-align: Left;\">Upload other resources</td>\n\t\t\t<td><input id=\"YpvMwP4LgpH-Xr12mI7VPn3-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t</tbody>\n</table>\n</div>\n</div>\n</div>\n",
+      "id": "U2K47T8nDgj",
+      "lastUpdated": "2019-03-25T09:08:03.110",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "name": "HWF Module 6",
+      "style": "NORMAL",
+      "translations": []
+    }
+  ],
+  "dataSets": [
+    {
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "compulsoryDataElementOperands": [],
+      "compulsoryFieldsCompleteOnly": false,
+      "created": "2017-06-20T16:47:33.263",
+      "dataElementDecoration": false,
+      "dataEntryForm": {
+        "id": "U2K47T8nDgj"
+      },
+      "dataInputPeriods": [],
+      "dataSetElements": [
+        {
+          "dataElement": {
+            "id": "ViuQB9CLltC"
+          },
+          "dataSet": {
+            "id": "WDyQKfAvY3V"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "DVyhvgkJrXg"
+          },
+          "dataSet": {
+            "id": "WDyQKfAvY3V"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "Uyxr85SOJiI"
+          },
+          "dataSet": {
+            "id": "WDyQKfAvY3V"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "qqVKuhK0RgY"
+          },
+          "dataSet": {
+            "id": "WDyQKfAvY3V"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "LUVRqQq2NLE"
+          },
+          "dataSet": {
+            "id": "WDyQKfAvY3V"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "FDUFnJmPb2t"
+          },
+          "dataSet": {
+            "id": "WDyQKfAvY3V"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "gDinmRT6Pqb"
+          },
+          "dataSet": {
+            "id": "WDyQKfAvY3V"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "wsmvhizfctg"
+          },
+          "dataSet": {
+            "id": "WDyQKfAvY3V"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "KlsBVkjtkkV"
+          },
+          "dataSet": {
+            "id": "WDyQKfAvY3V"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "iM5NIZBqAUL"
+          },
+          "dataSet": {
+            "id": "WDyQKfAvY3V"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "lvs1RCQOOp4"
+          },
+          "dataSet": {
+            "id": "WDyQKfAvY3V"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "di91e0qZijs"
+          },
+          "dataSet": {
+            "id": "WDyQKfAvY3V"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "I5m9Dl43XO2"
+          },
+          "dataSet": {
+            "id": "WDyQKfAvY3V"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "gGSJZCN2L8C"
+          },
+          "dataSet": {
+            "id": "WDyQKfAvY3V"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "Ii26DODuUbB"
+          },
+          "dataSet": {
+            "id": "WDyQKfAvY3V"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "fNWDIhx3ZQO"
+          },
+          "dataSet": {
+            "id": "WDyQKfAvY3V"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "iS6Vzt6PPjr"
+          },
+          "dataSet": {
+            "id": "WDyQKfAvY3V"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "YpvMwP4LgpH"
+          },
+          "dataSet": {
+            "id": "WDyQKfAvY3V"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "cV7DhKFPk3R"
+          },
+          "dataSet": {
+            "id": "WDyQKfAvY3V"
+          }
+        },
+        {
+          "categoryCombo": {
+            "id": "CVlyw498LdE"
+          },
+          "dataElement": {
+            "id": "N6VNhZ2PCG7"
+          },
+          "dataSet": {
+            "id": "WDyQKfAvY3V"
+          }
+        },
+        {
+          "categoryCombo": {
+            "id": "CVlyw498LdE"
+          },
+          "dataElement": {
+            "id": "LYjT01KiTTw"
+          },
+          "dataSet": {
+            "id": "WDyQKfAvY3V"
+          }
+        },
+        {
+          "categoryCombo": {
+            "id": "CVlyw498LdE"
+          },
+          "dataElement": {
+            "id": "GeY6o2BMvp1"
+          },
+          "dataSet": {
+            "id": "WDyQKfAvY3V"
+          }
+        },
+        {
+          "categoryCombo": {
+            "id": "CVlyw498LdE"
+          },
+          "dataElement": {
+            "id": "C8MvR5CNwpG"
+          },
+          "dataSet": {
+            "id": "WDyQKfAvY3V"
+          }
+        }
+      ],
+      "expiryDays": 0,
+      "fieldCombinationRequired": false,
+      "id": "WDyQKfAvY3V",
+      "indicators": [],
+      "lastUpdated": "2019-05-16T16:09:36.460",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "mobile": false,
+      "name": "NHWA Module 6",
+      "noValueRequiresComment": false,
+      "notificationRecipients": {
+        "id": "z6TJVUnop02"
+      },
+      "notifyCompletingUser": true,
+      "openFuturePeriods": 0,
+      "organisationUnits": [
+        {
+          "id": "ACalScnrl2I"
+        },
+        {
+          "id": "AJBfDthkySs"
+        },
+        {
+          "id": "AUStREIxT4s"
+        },
+        {
+          "id": "AYWCbVecRKQ"
+        },
+        {
+          "id": "AZdPnw0b1lm"
+        },
+        {
+          "id": "AjeCGGb8H76"
+        },
+        {
+          "id": "Ajnw1b8m6eL"
+        },
+        {
+          "id": "Bc3mYAhlY1a"
+        },
+        {
+          "id": "BlC8wOVHBlb"
+        },
+        {
+          "id": "BmTVMvJHVBO"
+        },
+        {
+          "id": "CCl7hAqlrmE"
+        },
+        {
+          "id": "D4JnxOsqwE4"
+        },
+        {
+          "id": "DVnpk4xiXGJ"
+        },
+        {
+          "id": "DzAOqCf0ots"
+        },
+        {
+          "id": "EB4aSZN0eQr"
+        },
+        {
+          "id": "EDHO4qOyY88"
+        },
+        {
+          "id": "EGLpIMSAWhx"
+        },
+        {
+          "id": "ElwEWppmGgv"
+        },
+        {
+          "id": "EubjsxqlA4d"
+        },
+        {
+          "id": "FNduj2N3e8s"
+        },
+        {
+          "id": "FOJUXD6f6lB"
+        },
+        {
+          "id": "FUieyovDec8"
+        },
+        {
+          "id": "Fi5lLVwe1Th"
+        },
+        {
+          "id": "G037PAPU5dO"
+        },
+        {
+          "id": "G3thRWUQAX9"
+        },
+        {
+          "id": "G8FCnT37gyb"
+        },
+        {
+          "id": "G9o5ad4oJJX"
+        },
+        {
+          "id": "GWQBgBHdbbp"
+        },
+        {
+          "id": "Gan3VYicAWe"
+        },
+        {
+          "id": "Gnz4lqrVEMf"
+        },
+        {
+          "id": "GrU8zQv510v"
+        },
+        {
+          "id": "HDN85xUGB65"
+        },
+        {
+          "id": "HX7fBSMCCbL"
+        },
+        {
+          "id": "HfVjCurKxh2"
+        },
+        {
+          "id": "HwqfuL9pQz5"
+        },
+        {
+          "id": "I3NxIqG7bD4"
+        },
+        {
+          "id": "IFAb1JUZ0Fz"
+        },
+        {
+          "id": "IZSm5iPKkDg"
+        },
+        {
+          "id": "IbGbsybdeou"
+        },
+        {
+          "id": "JEHwU064LAj"
+        },
+        {
+          "id": "JI5lagoUJR4"
+        },
+        {
+          "id": "JIr15Xt3EQn"
+        },
+        {
+          "id": "JQ5qF3mRCMe"
+        },
+        {
+          "id": "JX7HJfPfbog"
+        },
+        {
+          "id": "KAUSOoBq5Ft"
+        },
+        {
+          "id": "KqaTbKanCG3"
+        },
+        {
+          "id": "KwgjnBBpe5b"
+        },
+        {
+          "id": "LAPR4Iu2NVS"
+        },
+        {
+          "id": "LbWpsX1FJcC"
+        },
+        {
+          "id": "MJEntShoQVK"
+        },
+        {
+          "id": "Mb9IYOFZYCv"
+        },
+        {
+          "id": "Mk7P920hkBa"
+        },
+        {
+          "id": "N9i1v07Ro0E"
+        },
+        {
+          "id": "Nlv8oKkoAwp"
+        },
+        {
+          "id": "Nrnay4JA8Ga"
+        },
+        {
+          "id": "O0hWoXlHhIS"
+        },
+        {
+          "id": "OFXJXWnOG0R"
+        },
+        {
+          "id": "PJS910L8KtX"
+        },
+        {
+          "id": "PY4aKgi30fr"
+        },
+        {
+          "id": "PevCwH17M73"
+        },
+        {
+          "id": "PpjdOoVUc7k"
+        },
+        {
+          "id": "Pz0LCggcqES"
+        },
+        {
+          "id": "QkOClVdLto1"
+        },
+        {
+          "id": "QqAzWHtJ8VC"
+        },
+        {
+          "id": "RDiXMdNXg16"
+        },
+        {
+          "id": "RTdjvXHJdnH"
+        },
+        {
+          "id": "Ri2tb7LBVtP"
+        },
+        {
+          "id": "Rmy6DbwekE1"
+        },
+        {
+          "id": "RyAd6laKg3U"
+        },
+        {
+          "id": "S52uSY3lb8V"
+        },
+        {
+          "id": "SAsS1Kwc4iW"
+        },
+        {
+          "id": "ST86paYjRHP"
+        },
+        {
+          "id": "SnYHrnchKjL"
+        },
+        {
+          "id": "SsAjVE1S87E"
+        },
+        {
+          "id": "T1irZBQ9gNW"
+        },
+        {
+          "id": "T7tKHiW1Db1"
+        },
+        {
+          "id": "TIhakAVsQwM"
+        },
+        {
+          "id": "TldYkeCwb5r"
+        },
+        {
+          "id": "Tr4i6jeDDqj"
+        },
+        {
+          "id": "UlQiEogy3wG"
+        },
+        {
+          "id": "VGOzFKfSazN"
+        },
+        {
+          "id": "VJrTuNXAg9G"
+        },
+        {
+          "id": "VPesUmegQpP"
+        },
+        {
+          "id": "VbbSe7wgS9s"
+        },
+        {
+          "id": "VnTycSnraEY"
+        },
+        {
+          "id": "WApLDd37Yj2"
+        },
+        {
+          "id": "WC5rU5fLMzY"
+        },
+        {
+          "id": "WXGcnQWJ0Qd"
+        },
+        {
+          "id": "Wpzccx0vjIP"
+        },
+        {
+          "id": "WtcZBCTspgM"
+        },
+        {
+          "id": "WuQvgvXKamv"
+        },
+        {
+          "id": "XKKI1hhyFxk"
+        },
+        {
+          "id": "XYpsN5j30R9"
+        },
+        {
+          "id": "XeWqwCw9G5s"
+        },
+        {
+          "id": "XebDUbuPqVx"
+        },
+        {
+          "id": "Xz7rnovuiOx"
+        },
+        {
+          "id": "YOL13ptz4ef"
+        },
+        {
+          "id": "Yg9QkNQk9p7"
+        },
+        {
+          "id": "Zav7juzGmEo"
+        },
+        {
+          "id": "ZcrjvJaYQb7"
+        },
+        {
+          "id": "Zdl3ad7PayF"
+        },
+        {
+          "id": "ZgsdoEiTlLq"
+        },
+        {
+          "id": "aNIrqpwcKXv"
+        },
+        {
+          "id": "av3fkpFxEXj"
+        },
+        {
+          "id": "bGWaeVBrOcc"
+        },
+        {
+          "id": "bcy4159FETR"
+        },
+        {
+          "id": "bhkJDAiqVKX"
+        },
+        {
+          "id": "bnQX2QIuIY9"
+        },
+        {
+          "id": "buSEeeViTo3"
+        },
+        {
+          "id": "bvyjEfI0d2V"
+        },
+        {
+          "id": "c82mDnhUQly"
+        },
+        {
+          "id": "cJU4qStc9QT"
+        },
+        {
+          "id": "cWrL45je7mw"
+        },
+        {
+          "id": "cZ8823L0fLJ"
+        },
+        {
+          "id": "cfBaKMnsXd1"
+        },
+        {
+          "id": "cpmmPDsQ3uG"
+        },
+        {
+          "id": "dNLjKwsVjod"
+        },
+        {
+          "id": "dpcvWc01CeN"
+        },
+        {
+          "id": "dscgTvwyCw8"
+        },
+        {
+          "id": "e9IoKRAkYLO"
+        },
+        {
+          "id": "eVEK7djdWqV"
+        },
+        {
+          "id": "er7MPiN3tdH"
+        },
+        {
+          "id": "eyvitcZL4ex"
+        },
+        {
+          "id": "fHXW26zg2U6"
+        },
+        {
+          "id": "fYeClLy8K2x"
+        },
+        {
+          "id": "fg8TSIHSGHX"
+        },
+        {
+          "id": "fkrzFaeuYDn"
+        },
+        {
+          "id": "g49fuSiB623"
+        },
+        {
+          "id": "gb7vWtO7Wjp"
+        },
+        {
+          "id": "gg9DH7dvdeD"
+        },
+        {
+          "id": "gxi9jcBYyrL"
+        },
+        {
+          "id": "hG1CNbw8wSF"
+        },
+        {
+          "id": "hmZE3mVAZFf"
+        },
+        {
+          "id": "hpXoMVtJpT3"
+        },
+        {
+          "id": "i3v8r9XNls2"
+        },
+        {
+          "id": "iFaKKDtb7nf"
+        },
+        {
+          "id": "iNT35p3jsEM"
+        },
+        {
+          "id": "ibGsqmiVkoU"
+        },
+        {
+          "id": "ipe4pT2TW7G"
+        },
+        {
+          "id": "jCtFxm8aADJ"
+        },
+        {
+          "id": "jFOZHDZpjPL"
+        },
+        {
+          "id": "jVqoXv7rFns"
+        },
+        {
+          "id": "jXQq22U4Y2e"
+        },
+        {
+          "id": "jkyBvNzcTLl"
+        },
+        {
+          "id": "juBxu3AprlM"
+        },
+        {
+          "id": "kpFgAwwSjCZ"
+        },
+        {
+          "id": "lVPoUAKCdmU"
+        },
+        {
+          "id": "lbMrRSBsXh3"
+        },
+        {
+          "id": "lnvESj20mWZ"
+        },
+        {
+          "id": "mDSuyD9lOM5"
+        },
+        {
+          "id": "mNa42CHbkO7"
+        },
+        {
+          "id": "mhWSEv79IJW"
+        },
+        {
+          "id": "mmJUi0PpvGi"
+        },
+        {
+          "id": "n8iofJiiX4T"
+        },
+        {
+          "id": "oWNF4d3PK8C"
+        },
+        {
+          "id": "oofyLUJJ6Vy"
+        },
+        {
+          "id": "oroMC4mMzMq"
+        },
+        {
+          "id": "oy494aJtjTB"
+        },
+        {
+          "id": "pMukkUmnnkh"
+        },
+        {
+          "id": "pZZriU4sY0l"
+        },
+        {
+          "id": "pbH6bmcioGw"
+        },
+        {
+          "id": "pfhvgmllA9M"
+        },
+        {
+          "id": "q23bFLr2E5D"
+        },
+        {
+          "id": "q2HqXV5OO3z"
+        },
+        {
+          "id": "qbqrFLCJewu"
+        },
+        {
+          "id": "quQpOfBIDFC"
+        },
+        {
+          "id": "rEQqufy2KNi"
+        },
+        {
+          "id": "rb6V38jgfFc"
+        },
+        {
+          "id": "rtLnlu4GUI2"
+        },
+        {
+          "id": "s1mzBU7YOaZ"
+        },
+        {
+          "id": "sSIYRwB1r74"
+        },
+        {
+          "id": "shRXArPWh8H"
+        },
+        {
+          "id": "tDFavWinSwr"
+        },
+        {
+          "id": "tV0rWhHr9cj"
+        },
+        {
+          "id": "tnTRnfd2aVs"
+        },
+        {
+          "id": "uvTw0Kus5KZ"
+        },
+        {
+          "id": "vboedbUs1As"
+        },
+        {
+          "id": "vkXlj7ZPkGi"
+        },
+        {
+          "id": "vnbnnSZXGTv"
+        },
+        {
+          "id": "wMTP4GblKr8"
+        },
+        {
+          "id": "wUBWZEHJm6Q"
+        },
+        {
+          "id": "wimH12ukPK5"
+        },
+        {
+          "id": "wj7iV08dvFq"
+        },
+        {
+          "id": "wnuoeS9sVZR"
+        },
+        {
+          "id": "x6DVvicRjYC"
+        },
+        {
+          "id": "xB6nQN5Wtpg"
+        },
+        {
+          "id": "xb2ezJcUoSR"
+        },
+        {
+          "id": "xqjIL1cGrl1"
+        },
+        {
+          "id": "yBqy4nxuOCA"
+        },
+        {
+          "id": "yzAMOdV0Pmr"
+        },
+        {
+          "id": "z51rgcc5R8V"
+        },
+        {
+          "id": "zEYrsiNUGIo"
+        },
+        {
+          "id": "zFInPJBZVbN"
+        },
+        {
+          "id": "zYQqFxQw5jj"
+        },
+        {
+          "id": "zaluKz5Llai"
+        }
+      ],
+      "periodType": "Yearly",
+      "publicAccess": "--------",
+      "renderAsTabs": false,
+      "renderHorizontally": false,
+      "shortName": "NHWA Module 6",
+      "skipOffline": false,
+      "timelyDays": 15,
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-rw----",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
+          "access": "rwr-----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
+        }
+      ],
+      "validCompleteOnly": true,
+      "version": 64,
+      "workflow": {
+        "id": "QNOQUZfEJE5"
+      }
+    }
+  ]
+}

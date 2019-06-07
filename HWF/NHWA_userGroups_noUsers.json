@@ -382,38 +382,6 @@
         "write": true
       },
       "attributeValues": [],
-      "created": "2019-01-24T14:01:50.573",
-      "displayName": "NHWA _DATA Capture Module 6",
-      "externalAccess": false,
-      "favorite": false,
-      "favorites": [],
-      "href": "https://extranet.who.int/dhis2-dev/api/userGroups/vP9XN5kQOUS",
-      "id": "vP9XN5kQOUS",
-      "lastUpdated": "2019-04-25T12:01:39.606",
-      "lastUpdatedBy": {
-        "id": "kD52FGwJgDF"
-      },
-      "managedByGroups": [],
-      "managedGroups": [],
-      "name": "NHWA _DATA Capture Module 6",
-      "publicAccess": "rw------",
-      "translations": [],
-      "user": {
-        "id": "kD52FGwJgDF"
-      },
-      "userAccesses": [],
-      "userGroupAccesses": []
-    },
-    {
-      "access": {
-        "delete": true,
-        "externalize": true,
-        "manage": true,
-        "read": true,
-        "update": true,
-        "write": true
-      },
-      "attributeValues": [],
       "created": "2019-01-16T05:45:49.025",
       "displayName": "NHWA _DATA Capture Module 8-10",
       "externalAccess": false,

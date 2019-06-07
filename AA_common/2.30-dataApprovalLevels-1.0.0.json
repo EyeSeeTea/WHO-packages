@@ -1,0 +1,112 @@
+{
+  "dataApprovalLevels": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2017-08-17T04:24:41.533",
+      "displayName": "Global",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "https://extranet-uat.who.int/dhis2/api/dataApprovalLevels/Hj302uMNMIX",
+      "id": "Hj302uMNMIX",
+      "lastUpdated": "2019-04-23T10:18:11.723",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "level": 1,
+      "name": "Global",
+      "orgUnitLevel": 1,
+      "publicAccess": "rw------",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Mondial"
+        }
+      ],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2017-08-17T04:27:40.220",
+      "displayName": "Member States",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "https://extranet-uat.who.int/dhis2/api/dataApprovalLevels/i5ITkaPzxBU",
+      "id": "i5ITkaPzxBU",
+      "lastUpdated": "2019-04-23T10:18:11.720",
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "level": 3,
+      "name": "Member States",
+      "orgUnitLevel": 3,
+      "publicAccess": "rw------",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Etats membres"
+        }
+      ],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2017-08-17T04:26:33.555",
+      "displayName": "Regions",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "https://extranet-uat.who.int/dhis2/api/dataApprovalLevels/Ep5NjlWX3Xw",
+      "id": "Ep5NjlWX3Xw",
+      "lastUpdated": "2017-10-12T10:01:38.967",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "level": 2,
+      "name": "Regions",
+      "orgUnitLevel": 2,
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ]
+}
