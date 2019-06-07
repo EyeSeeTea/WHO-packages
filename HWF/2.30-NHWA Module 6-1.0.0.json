@@ -10,6 +10,7 @@
       "created": "2019-02-28T16:16:26.573",
       "domainType": "AGGREGATE",
       "id": "I5m9Dl43XO2",
+      "lastUpdated": "2019-05-16T16:09:37.361",
       "lastUpdatedBy": {
         "id": "dKttJLRSiIl"
       },
@@ -24,10 +25,22 @@
       "userAccesses": [],
       "userGroupAccesses": [
         {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
           "access": "rw------",
           "displayName": "NHWA Team (formerly health workforce team)",
           "id": "fxyLXZ10TXC",
           "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
         },
         {
           "access": "r-------",
@@ -49,6 +62,7 @@
       "created": "2019-02-28T16:08:49.648",
       "domainType": "AGGREGATE",
       "id": "gGSJZCN2L8C",
+      "lastUpdated": "2019-05-16T16:09:37.558",
       "lastUpdatedBy": {
         "id": "dKttJLRSiIl"
       },
@@ -63,10 +77,22 @@
       "userAccesses": [],
       "userGroupAccesses": [
         {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
           "access": "rw------",
           "displayName": "NHWA Team (formerly health workforce team)",
           "id": "fxyLXZ10TXC",
           "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
         },
         {
           "access": "r-------",
@@ -88,6 +114,7 @@
       "created": "2019-02-28T16:15:20.904",
       "domainType": "AGGREGATE",
       "id": "Uyxr85SOJiI",
+      "lastUpdated": "2019-05-16T16:09:37.008",
       "lastUpdatedBy": {
         "id": "dKttJLRSiIl"
       },
@@ -102,10 +129,22 @@
       "userAccesses": [],
       "userGroupAccesses": [
         {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
           "access": "rw------",
           "displayName": "NHWA Team (formerly health workforce team)",
           "id": "fxyLXZ10TXC",
           "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
         },
         {
           "access": "r-------",
@@ -127,6 +166,7 @@
       "created": "2019-02-28T16:14:13.920",
       "domainType": "AGGREGATE",
       "id": "DVyhvgkJrXg",
+      "lastUpdated": "2019-05-16T16:09:37.353",
       "lastUpdatedBy": {
         "id": "dKttJLRSiIl"
       },
@@ -141,10 +181,22 @@
       "userAccesses": [],
       "userGroupAccesses": [
         {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
           "access": "rw------",
           "displayName": "NHWA Team (formerly health workforce team)",
           "id": "fxyLXZ10TXC",
           "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
         },
         {
           "access": "r-------",
@@ -166,6 +218,7 @@
       "created": "2019-02-28T16:17:31.521",
       "domainType": "AGGREGATE",
       "id": "gDinmRT6Pqb",
+      "lastUpdated": "2019-05-16T16:09:37.591",
       "lastUpdatedBy": {
         "id": "dKttJLRSiIl"
       },
@@ -180,10 +233,22 @@
       "userAccesses": [],
       "userGroupAccesses": [
         {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
           "access": "rw------",
           "displayName": "NHWA Team (formerly health workforce team)",
           "id": "fxyLXZ10TXC",
           "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
         },
         {
           "access": "r-------",
@@ -205,6 +270,7 @@
       "created": "2019-02-28T16:12:36.941",
       "domainType": "AGGREGATE",
       "id": "FDUFnJmPb2t",
+      "lastUpdated": "2019-05-16T16:09:37.348",
       "lastUpdatedBy": {
         "id": "dKttJLRSiIl"
       },
@@ -219,10 +285,22 @@
       "userAccesses": [],
       "userGroupAccesses": [
         {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
           "access": "rw------",
           "displayName": "NHWA Team (formerly health workforce team)",
           "id": "fxyLXZ10TXC",
           "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
         },
         {
           "access": "r-------",
@@ -244,6 +322,7 @@
       "created": "2017-08-12T23:09:14.790",
       "domainType": "AGGREGATE",
       "id": "LYjT01KiTTw",
+      "lastUpdated": "2019-05-16T16:09:37.696",
       "lastUpdatedBy": {
         "id": "dKttJLRSiIl"
       },
@@ -258,10 +337,22 @@
       "userAccesses": [],
       "userGroupAccesses": [
         {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
           "access": "rw------",
           "displayName": "NHWA Team (formerly health workforce team)",
           "id": "fxyLXZ10TXC",
           "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
         },
         {
           "access": "r-------",
@@ -283,6 +374,7 @@
       "created": "2017-06-21T20:50:09.687",
       "domainType": "AGGREGATE",
       "id": "LUVRqQq2NLE",
+      "lastUpdated": "2019-05-16T16:09:37.761",
       "lastUpdatedBy": {
         "id": "dKttJLRSiIl"
       },
@@ -297,10 +389,22 @@
       "userAccesses": [],
       "userGroupAccesses": [
         {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
           "access": "rw------",
           "displayName": "NHWA Team (formerly health workforce team)",
           "id": "fxyLXZ10TXC",
           "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
         },
         {
           "access": "r-------",
@@ -322,6 +426,7 @@
       "created": "2017-06-21T20:53:14.067",
       "domainType": "AGGREGATE",
       "id": "cV7DhKFPk3R",
+      "lastUpdated": "2019-05-16T16:09:37.557",
       "lastUpdatedBy": {
         "id": "dKttJLRSiIl"
       },
@@ -336,10 +441,22 @@
       "userAccesses": [],
       "userGroupAccesses": [
         {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
           "access": "rw------",
           "displayName": "NHWA Team (formerly health workforce team)",
           "id": "fxyLXZ10TXC",
           "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
         },
         {
           "access": "r-------",
@@ -361,6 +478,7 @@
       "created": "2017-08-10T20:28:00.115",
       "domainType": "AGGREGATE",
       "id": "di91e0qZijs",
+      "lastUpdated": "2019-05-16T16:09:37.159",
       "lastUpdatedBy": {
         "id": "dKttJLRSiIl"
       },
@@ -375,10 +493,22 @@
       "userAccesses": [],
       "userGroupAccesses": [
         {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
           "access": "rw------",
           "displayName": "NHWA Team (formerly health workforce team)",
           "id": "fxyLXZ10TXC",
           "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
         },
         {
           "access": "r-------",
@@ -400,6 +530,7 @@
       "created": "2017-08-10T20:28:33.086",
       "domainType": "AGGREGATE",
       "id": "lvs1RCQOOp4",
+      "lastUpdated": "2019-05-16T16:09:37.147",
       "lastUpdatedBy": {
         "id": "dKttJLRSiIl"
       },
@@ -414,10 +545,22 @@
       "userAccesses": [],
       "userGroupAccesses": [
         {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
           "access": "rw------",
           "displayName": "NHWA Team (formerly health workforce team)",
           "id": "fxyLXZ10TXC",
           "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
         },
         {
           "access": "r-------",
@@ -439,6 +582,7 @@
       "created": "2017-06-21T20:51:52.082",
       "domainType": "AGGREGATE",
       "id": "Ii26DODuUbB",
+      "lastUpdated": "2019-05-16T16:09:37.297",
       "lastUpdatedBy": {
         "id": "dKttJLRSiIl"
       },
@@ -453,10 +597,22 @@
       "userAccesses": [],
       "userGroupAccesses": [
         {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
           "access": "rw------",
           "displayName": "NHWA Team (formerly health workforce team)",
           "id": "fxyLXZ10TXC",
           "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
         },
         {
           "access": "r-------",
@@ -478,6 +634,7 @@
       "created": "2017-08-08T05:57:11.615",
       "domainType": "AGGREGATE",
       "id": "YpvMwP4LgpH",
+      "lastUpdated": "2019-05-16T16:09:37.762",
       "lastUpdatedBy": {
         "id": "dKttJLRSiIl"
       },
@@ -492,10 +649,22 @@
       "userAccesses": [],
       "userGroupAccesses": [
         {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
           "access": "rw------",
           "displayName": "NHWA Team (formerly health workforce team)",
           "id": "fxyLXZ10TXC",
           "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
         },
         {
           "access": "r-------",
@@ -517,6 +686,7 @@
       "created": "2017-08-12T23:09:14.790",
       "domainType": "AGGREGATE",
       "id": "N6VNhZ2PCG7",
+      "lastUpdated": "2019-05-16T16:09:37.772",
       "lastUpdatedBy": {
         "id": "dKttJLRSiIl"
       },
@@ -531,10 +701,22 @@
       "userAccesses": [],
       "userGroupAccesses": [
         {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
           "access": "rw------",
           "displayName": "NHWA Team (formerly health workforce team)",
           "id": "fxyLXZ10TXC",
           "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
         },
         {
           "access": "r-------",
@@ -556,6 +738,7 @@
       "created": "2019-01-21T09:06:10.861",
       "domainType": "AGGREGATE",
       "id": "KlsBVkjtkkV",
+      "lastUpdated": "2019-05-16T16:09:37.361",
       "lastUpdatedBy": {
         "id": "dKttJLRSiIl"
       },
@@ -570,10 +753,22 @@
       "userAccesses": [],
       "userGroupAccesses": [
         {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
           "access": "rw------",
           "displayName": "NHWA Team (formerly health workforce team)",
           "id": "fxyLXZ10TXC",
           "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
         },
         {
           "access": "r-------",
@@ -595,6 +790,7 @@
       "created": "2019-01-21T09:05:40.283",
       "domainType": "AGGREGATE",
       "id": "wsmvhizfctg",
+      "lastUpdated": "2019-05-16T16:09:37.150",
       "lastUpdatedBy": {
         "id": "dKttJLRSiIl"
       },
@@ -609,10 +805,22 @@
       "userAccesses": [],
       "userGroupAccesses": [
         {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
           "access": "rw------",
           "displayName": "NHWA Team (formerly health workforce team)",
           "id": "fxyLXZ10TXC",
           "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
         },
         {
           "access": "r-------",
@@ -634,6 +842,7 @@
       "created": "2017-08-12T23:09:14.790",
       "domainType": "AGGREGATE",
       "id": "C8MvR5CNwpG",
+      "lastUpdated": "2019-05-16T16:09:37.096",
       "lastUpdatedBy": {
         "id": "dKttJLRSiIl"
       },
@@ -648,10 +857,22 @@
       "userAccesses": [],
       "userGroupAccesses": [
         {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
           "access": "rw------",
           "displayName": "NHWA Team (formerly health workforce team)",
           "id": "fxyLXZ10TXC",
           "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
         },
         {
           "access": "r-------",
@@ -673,6 +894,7 @@
       "created": "2017-08-12T23:09:14.790",
       "domainType": "AGGREGATE",
       "id": "GeY6o2BMvp1",
+      "lastUpdated": "2019-05-16T16:09:37.550",
       "lastUpdatedBy": {
         "id": "dKttJLRSiIl"
       },
@@ -687,10 +909,22 @@
       "userAccesses": [],
       "userGroupAccesses": [
         {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
           "access": "rw------",
           "displayName": "NHWA Team (formerly health workforce team)",
           "id": "fxyLXZ10TXC",
           "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
         },
         {
           "access": "r-------",
@@ -712,6 +946,7 @@
       "created": "2017-08-09T21:01:24.947",
       "domainType": "AGGREGATE",
       "id": "iM5NIZBqAUL",
+      "lastUpdated": "2019-05-16T16:09:37.390",
       "lastUpdatedBy": {
         "id": "dKttJLRSiIl"
       },
@@ -726,10 +961,22 @@
       "userAccesses": [],
       "userGroupAccesses": [
         {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
           "access": "rw------",
           "displayName": "NHWA Team (formerly health workforce team)",
           "id": "fxyLXZ10TXC",
           "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
         },
         {
           "access": "r-------",
@@ -751,6 +998,7 @@
       "created": "2019-01-21T09:18:48.894",
       "domainType": "AGGREGATE",
       "id": "fNWDIhx3ZQO",
+      "lastUpdated": "2019-05-16T16:09:37.488",
       "lastUpdatedBy": {
         "id": "dKttJLRSiIl"
       },
@@ -765,10 +1013,22 @@
       "userAccesses": [],
       "userGroupAccesses": [
         {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
           "access": "rw------",
           "displayName": "NHWA Team (formerly health workforce team)",
           "id": "fxyLXZ10TXC",
           "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
         },
         {
           "access": "r-------",
@@ -790,6 +1050,7 @@
       "created": "2017-08-09T21:16:59.777",
       "domainType": "AGGREGATE",
       "id": "qqVKuhK0RgY",
+      "lastUpdated": "2019-05-16T16:09:37.547",
       "lastUpdatedBy": {
         "id": "dKttJLRSiIl"
       },
@@ -804,10 +1065,22 @@
       "userAccesses": [],
       "userGroupAccesses": [
         {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
           "access": "rw------",
           "displayName": "NHWA Team (formerly health workforce team)",
           "id": "fxyLXZ10TXC",
           "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
         },
         {
           "access": "r-------",
@@ -829,6 +1102,7 @@
       "created": "2019-01-21T09:18:03.216",
       "domainType": "AGGREGATE",
       "id": "iS6Vzt6PPjr",
+      "lastUpdated": "2019-05-16T16:09:37.147",
       "lastUpdatedBy": {
         "id": "dKttJLRSiIl"
       },
@@ -843,10 +1117,22 @@
       "userAccesses": [],
       "userGroupAccesses": [
         {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
           "access": "rw------",
           "displayName": "NHWA Team (formerly health workforce team)",
           "id": "fxyLXZ10TXC",
           "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
         },
         {
           "access": "r-------",
@@ -868,6 +1154,7 @@
       "created": "2019-01-21T09:36:51.604",
       "domainType": "AGGREGATE",
       "id": "ViuQB9CLltC",
+      "lastUpdated": "2019-05-16T16:09:37.207",
       "lastUpdatedBy": {
         "id": "dKttJLRSiIl"
       },
@@ -882,10 +1169,22 @@
       "userAccesses": [],
       "userGroupAccesses": [
         {
+          "access": "r-------",
+          "displayName": "NHWA _DATA Capture Module 5-7",
+          "id": "D7hWY1YuAy5",
+          "userGroupUid": "D7hWY1YuAy5"
+        },
+        {
           "access": "rw------",
           "displayName": "NHWA Team (formerly health workforce team)",
           "id": "fxyLXZ10TXC",
           "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
         },
         {
           "access": "r-------",
@@ -904,6 +1203,7 @@
       "format": 2,
       "htmlCode": "<script type=\"text/javascript\">\n    $(document).ready(function(){\n        $(function() {\n            $( \"#mod2_tabs\" ).tabs();\n        });\n        var yespartialno = ['lvs1RCQOOp4','LYjT01KiTTw','gGSJZCN2L8C', 'FDUFnJmPb2t', 'DVyhvgkJrXg', 'Uyxr85SOJiI', 'I5m9Dl43XO2', 'gDinmRT6Pqb','LUVRqQq2NLE'];\n        var categoryIssues = ['I93t0K7b1oN','Xgr3PJxcWfJ','Y7EAGQA1bfv'];\n        function changeListener(element,category, object){\n            if (object.is(':checked')) {\n                console.log(object.attr('id'));\n                var dataValues = [];\n                var sel = dhis2.de.api.getSelections();\n                categoryIssues.forEach(function(id){\n                    if(id !== category){\n                        //var str = \"input[name='\" + dv.de +'-' + id + \"-val'][value='false']\";\n                        var str = \"#\" + element +'-' + id + \"-val\";\n                        console.log('str:', str);\n                        $(str).prop('checked',false);\n                        dataValues.push({ \"dataElement\": element, \"categoryOptionCombo\":id, \"period\": sel[\"pe\"], \"orgUnit\": sel[\"ou\"]})\n                    }\n                })\n                $.ajax({\n                    type: \"POST\",\n                    url: '../api/dataValueSets',\n                    contentType: 'application/json',\n                    data: JSON.stringify({\n                        \"dataValues\": dataValues\n                    }),\n                    success: function(data1){\n                        console.log(\"COunt:\", data1[0].count);\n                        total = data1[0].count;\n\n                    }\n                });\n            } else {\n                console.log(\"Not Checked\")\n            }\n        }\n        yespartialno.forEach(function(element){\n            categoryIssues.forEach(function(category){\n                $('#' + element +\"-\" +category + '-val').change(\n                    function(){\n                        console.log('Changes taken place')\n                        changeListener(element,category, $(this));\n\n                    });\n            })\n        })\n    });\n\n</script>\n<style type=\"text/css\">#cde table { border-collapse: collapse; } #cde table, #cde th, #cde td { border: 1px solid #c0c0c0; } #cde td, #cde th { height: 30px; padding: 10px; margin: 10px; } .cde-greyfield { background-color: #e0e0e0; }\n</style>\n<h3 style=\"text-align: center;\"><strong>Health Workforce Employment characteristics and working conditions</strong></h3>\n\n<h4 style=\"text-align: right;\"><a href=\"../api/documents/p6IINqTYv2f/data\" target=\"_blank\">Access the NHWA HANDBOOK</a><br />\n<br />\n<a href=\"../api/documents/OCoAAGYwapP/data\" target=\"_blank\">Access the NHWA USER GUIDE</a></h4>\n\n<div id=\"mod2_tabs\">\n<ul>\n\t<li><a href=\"#tab0\">Characteristics</a></li>\n\t<li><a href=\"#tab1\">Conditions</a></li>\n\t<li><a href=\"#tab2\">Regulations</a></li>\n\t<li><a href=\"#tab3\">Other Resources</a></li>\n</ul>\n\n<div id=\"tab0\">\n<h2>SECTION 1: HWF Working CharacteristicsYes</h2>\n\n<div id=\"cde\">\n<table cellpadding=\"0\" cellspacing=\"0\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th>SN</th>\n\t\t\t<th style=\"text-align: center;\">Item</th>\n\t\t\t<th style=\"text-align: center;\">Value</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>Standard working hours as per the national law</td>\n\t\t\t<td><input id=\"iM5NIZBqAUL-Xr12mI7VPn3-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t</tbody>\n</table>\n</div>\n\n<div id=\"cde\">&nbsp;\n<table cellpadding=\"0\" cellspacing=\"0\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th colspan=\"1\" rowspan=\"3\">SN</th>\n\t\t\t<th colspan=\"1\" rowspan=\"3\" style=\"text-align: center;\">Occupation</th>\n\t\t\t<th colspan=\"1\" rowspan=\"3\" style=\"text-align: center;\">Standard Working<br />\n\t\t\tHours in a week</th>\n\t\t\t<th colspan=\"3\" style=\"text-align: center;\">Health Work Force with Part<br />\n\t\t\tTime Contract</th>\n\t\t\t<th colspan=\"1\" rowspan=\"3\" style=\"text-align: center;\">Self employed<br />\n\t\t\tworkers</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th rowspan=\"2\" style=\"text-align: center;\">Public Owned Facilities</th>\n\t\t\t<th rowspan=\"2\" style=\"text-align: center;\">Not for Profit Private Facilities</th>\n\t\t\t<th rowspan=\"2\" style=\"text-align: center;\">For Profit Private Facilities</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>Medical Doctors</td>\n\t\t\t<td><input id=\"GeY6o2BMvp1-aBpbcEgtzgw-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"C8MvR5CNwpG-aBpbcEgtzgw-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"wsmvhizfctg-aBpbcEgtzgw-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"KlsBVkjtkkV-aBpbcEgtzgw-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"N6VNhZ2PCG7-aBpbcEgtzgw-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>2</td>\n\t\t\t<td>\n\t\t\t<p style=\"margin-left: 20px; text-align: left;\">General Medical Practitioner</p>\n\t\t\t</td>\n\t\t\t<td><input id=\"GeY6o2BMvp1-LHbCtHlZr3Y-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"C8MvR5CNwpG-LHbCtHlZr3Y-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"wsmvhizfctg-LHbCtHlZr3Y-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"KlsBVkjtkkV-LHbCtHlZr3Y-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"N6VNhZ2PCG7-LHbCtHlZr3Y-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>3</td>\n\t\t\t<td>\n\t\t\t<p style=\"margin-left: 20px; text-align: left;\">Specialist Medical Practitioner</p>\n\t\t\t</td>\n\t\t\t<td><input id=\"GeY6o2BMvp1-VtVkbvygJnm-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"C8MvR5CNwpG-VtVkbvygJnm-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"wsmvhizfctg-VtVkbvygJnm-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"KlsBVkjtkkV-VtVkbvygJnm-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"N6VNhZ2PCG7-VtVkbvygJnm-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>4</td>\n\t\t\t<td>Nursing Professional</td>\n\t\t\t<td><input id=\"GeY6o2BMvp1-fGOgbIqsxDn-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"C8MvR5CNwpG-fGOgbIqsxDn-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"wsmvhizfctg-fGOgbIqsxDn-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"KlsBVkjtkkV-fGOgbIqsxDn-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"N6VNhZ2PCG7-fGOgbIqsxDn-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>5</td>\n\t\t\t<td>Midwifery Professional</td>\n\t\t\t<td><input id=\"GeY6o2BMvp1-MPzyVWiSFF2-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"C8MvR5CNwpG-MPzyVWiSFF2-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"wsmvhizfctg-MPzyVWiSFF2-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"KlsBVkjtkkV-MPzyVWiSFF2-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"N6VNhZ2PCG7-MPzyVWiSFF2-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>6</td>\n\t\t\t<td>Dentist</td>\n\t\t\t<td><input id=\"GeY6o2BMvp1-ALBRKpJsddQ-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"C8MvR5CNwpG-ALBRKpJsddQ-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"wsmvhizfctg-ALBRKpJsddQ-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"KlsBVkjtkkV-ALBRKpJsddQ-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"N6VNhZ2PCG7-ALBRKpJsddQ-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>7</td>\n\t\t\t<td>Pharmacist</td>\n\t\t\t<td><input id=\"GeY6o2BMvp1-iWRW6jXAzvP-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"C8MvR5CNwpG-iWRW6jXAzvP-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"wsmvhizfctg-iWRW6jXAzvP-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"KlsBVkjtkkV-iWRW6jXAzvP-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"N6VNhZ2PCG7-iWRW6jXAzvP-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t</tbody>\n</table>\n</div>\n</div>\n\n<div id=\"tab1\">\n<h2>SECTION 2: HWF Working Conditions</h2>\n\n<div id=\"cde\">&nbsp;\n<table cellpadding=\"0\" cellspacing=\"0\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th>SN</th>\n\t\t\t<th style=\"text-align: center;\">Item</th>\n\t\t\t<th style=\"text-align: center;\">Exitence</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>Existence of national/sub-national policies/laws for prevention of attacks on health workers</td>\n\t\t\t<td><!--<input id=\"LUVRqQq2NLE-Xr12mI7VPn3-val\" name=\"entryfield\" style=\"width:3.5em;///////////////////////////////////////\" title=\"\" value=\"\" />--><input id=\"LUVRqQq2NLE-I93t0K7b1oN-val\" name=\"entryfield\" title=\"\" value=\"\" /> Yes <input id=\"LUVRqQq2NLE-Xgr3PJxcWfJ-val\" name=\"entryfield\" title=\"\" value=\"\" /> Partial <input id=\"LUVRqQq2NLE-Y7EAGQA1bfv-val\" name=\"entryfield\" title=\"\" value=\"\" /> No</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>2</td>\n\t\t\t<td>Existence of national/subnational policies for regulating compulsory service</td>\n\t\t\t<td><input id=\"Ii26DODuUbB-Xr12mI7VPn3-val\" name=\"entryfield\" style=\"width:3.5em;///////////////////////////////////////\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>3</td>\n\t\t\t<td>Existence of national/sub-national policies/laws regulating dual practice</td>\n\t\t\t<td><input id=\"cV7DhKFPk3R-Xr12mI7VPn3-val\" name=\"entryfield\" style=\"width:3.5em;///////////////////////////////////////\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:500px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<th colspan=\"1\" rowspan=\"2\">SN</th>\n\t\t\t<th colspan=\"1\" rowspan=\"2\">Item</th>\n\t\t\t<th colspan=\"1\" rowspan=\"2\">Total</th>\n\t\t\t<th colspan=\"4\" rowspan=\"1\">Primary object of attack</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th>Facility</th>\n\t\t\t<th>Health care Provider</th>\n\t\t\t<th>Transport</th>\n\t\t\t<th>Patient</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th>1</th>\n\t\t\t<th style=\"text-align: left;\">Number of violent attacks on health workers</th>\n\t\t\t<td><input id=\"qqVKuhK0RgY-Xr12mI7VPn3-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"iS6Vzt6PPjr-OYOzRJlu3B5-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"iS6Vzt6PPjr-JfxMvAwKsR7-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"iS6Vzt6PPjr-MfcVRlA41v6-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td><input id=\"iS6Vzt6PPjr-xeQGICllTPa-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td colspan=\"2\" rowspan=\"1\">&nbsp;</td>\n\t\t\t<th colspan=\"2\" rowspan=\"1\">Physical attacks</th>\n\t\t\t<th colspan=\"2\" rowspan=\"1\">Psychological attacks</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th>2</th>\n\t\t\t<th colspan=\"2\" rowspan=\"1\" style=\"text-align: left;\">Number of violent attacks on health care providers</th>\n\t\t\t<td colspan=\"2\" rowspan=\"1\"><input id=\"fNWDIhx3ZQO-AcYy9PESCS4-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td colspan=\"2\" rowspan=\"1\"><input id=\"fNWDIhx3ZQO-tVlGzmqqeWo-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th>3</th>\n\t\t\t<th colspan=\"2\" rowspan=\"1\" style=\"text-align: left;\">Number of violent attacks on patients</th>\n\t\t\t<td colspan=\"2\" rowspan=\"1\"><input id=\"ViuQB9CLltC-AcYy9PESCS4-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t\t<td colspan=\"2\" rowspan=\"1\"><input id=\"ViuQB9CLltC-tVlGzmqqeWo-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n</div>\n</div>\n\n<div id=\"tab2\">\n<h2>SECTION 3:Regulations</h2>\n\n<div id=\"cde\">&nbsp;\n<table cellpadding=\"0\" cellspacing=\"0\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th colspan=\"1\" rowspan=\"2\">SN</th>\n\t\t\t<th colspan=\"1\" rowspan=\"2\" style=\"text-align: center;\">Occupation</th>\n\t\t\t<th colspan=\"1\" rowspan=\"2\" style=\"text-align: center;\">Existence of national law on regulating&nbsp;<br />\n\t\t\tWorking hours<br />\n\t\t\tand conditions</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>Medical Doctors</td>\n\t\t\t<td style=\"text-align: center;\"><!--<input id=\"LYjT01KiTTw-aBpbcEgtzgw-val\" name=\"entryfield\" title=\"\" value=\"\"/>--><input id=\"LYjT01KiTTw-I93t0K7b1oN-val\" name=\"entryfield\" title=\"\" value=\"\" />Yes <input id=\"LYjT01KiTTw-Xgr3PJxcWfJ-val\" name=\"entryfield\" title=\"\" value=\"\" />Partial <input id=\"LYjT01KiTTw-Y7EAGQA1bfv-val\" name=\"entryfield\" title=\"\" value=\"\" />No</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>2</td>\n\t\t\t<td>\n\t\t\t<p style=\"margin-left: 20px; text-align: left;\">General Medical Practitioner</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"gGSJZCN2L8C-I93t0K7b1oN-val\" name=\"entryfield\" title=\"\" value=\"\" />Yes <input id=\"gGSJZCN2L8C-Xgr3PJxcWfJ-val\" name=\"entryfield\" title=\"\" value=\"\" />Partial <input id=\"gGSJZCN2L8C-Y7EAGQA1bfv-val\" name=\"entryfield\" title=\"\" value=\"\" />No</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>3</td>\n\t\t\t<td>\n\t\t\t<p style=\"margin-left: 20px; text-align: left;\">Specialist Medical Practitioner</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"FDUFnJmPb2t-I93t0K7b1oN-val\" name=\"entryfield\" title=\"\" value=\"\" />Yes <input id=\"FDUFnJmPb2t-Xgr3PJxcWfJ-val\" name=\"entryfield\" title=\"\" value=\"\" />Partial <input id=\"FDUFnJmPb2t-Y7EAGQA1bfv-val\" name=\"entryfield\" title=\"\" value=\"\" />No</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>4</td>\n\t\t\t<td>Nursing Professional</td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"DVyhvgkJrXg-I93t0K7b1oN-val\" name=\"entryfield\" title=\"\" value=\"\" />Yes <input id=\"DVyhvgkJrXg-Xgr3PJxcWfJ-val\" name=\"entryfield\" title=\"\" value=\"\" />Partial <input id=\"DVyhvgkJrXg-Y7EAGQA1bfv-val\" name=\"entryfield\" title=\"\" value=\"\" />No</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>5</td>\n\t\t\t<td>Midwifery Professional</td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"Uyxr85SOJiI-I93t0K7b1oN-val\" name=\"entryfield\" title=\"\" value=\"\" />Yes <input id=\"Uyxr85SOJiI-Xgr3PJxcWfJ-val\" name=\"entryfield\" title=\"\" value=\"\" />Partial <input id=\"Uyxr85SOJiI-Y7EAGQA1bfv-val\" name=\"entryfield\" title=\"\" value=\"\" />No</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>6</td>\n\t\t\t<td>Dentist</td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"I5m9Dl43XO2-I93t0K7b1oN-val\" name=\"entryfield\" title=\"\" value=\"\" />Yes <input id=\"I5m9Dl43XO2-Xgr3PJxcWfJ-val\" name=\"entryfield\" title=\"\" value=\"\" />Partial <input id=\"I5m9Dl43XO2-Y7EAGQA1bfv-val\" name=\"entryfield\" title=\"\" value=\"\" />No</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>7</td>\n\t\t\t<td>Pharmacist</td>\n\t\t\t<td style=\"text-align: center;\"><input id=\"gDinmRT6Pqb-I93t0K7b1oN-val\" name=\"entryfield\" title=\"\" value=\"\" />Yes <input id=\"gDinmRT6Pqb-Xgr3PJxcWfJ-val\" name=\"entryfield\" title=\"\" value=\"\" />Partial <input id=\"gDinmRT6Pqb-Y7EAGQA1bfv-val\" name=\"entryfield\" title=\"\" value=\"\" />No</td>\n\t\t</tr>\n\t</tbody>\n</table>\n</div>\n\n<div id=\"cde\">&nbsp;\n<table cellpadding=\"0\" cellspacing=\"0\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th>SN</th>\n\t\t\t<th style=\"text-align: center;\">Item</th>\n\t\t\t<th style=\"text-align: center;\">Exitence</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>Existence of national/sub-national policies/laws regulating minimum wages</td>\n\t\t\t<td><input id=\"di91e0qZijs-Xr12mI7VPn3-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>2</td>\n\t\t\t<td>Existence of national/sub-national policies/laws regulating social protection</td>\n\t\t\t<td><!--<input id=\"lvs1RCQOOp4-Xr12mI7VPn3-val\" name=\"entryfield\" title=\"\" value=\"\"/>--><input id=\"lvs1RCQOOp4-I93t0K7b1oN-val\" name=\"entryfield\" title=\"\" value=\"\" /> Yes<input id=\"lvs1RCQOOp4-Xgr3PJxcWfJ-val\" name=\"entryfield\" title=\"\" value=\"\" />Partial <input id=\"lvs1RCQOOp4-Y7EAGQA1bfv-val\" name=\"entryfield\" title=\"\" value=\"\" />No</td>\n\t\t</tr>\n\t</tbody>\n</table>\n</div>\n</div>\n\n<div id=\"tab3\">\n<h2>SECTION 4: HWF OTHER RESOURCES</h2>\n\n<div id=\"cde\">\n<table cellpadding=\"0\" cellspacing=\"0\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th>SN</th>\n\t\t\t<th>Item</th>\n\t\t\t<th>Value</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td style=\"text-align: Left;\">Upload other resources</td>\n\t\t\t<td><input id=\"YpvMwP4LgpH-Xr12mI7VPn3-val\" name=\"entryfield\" title=\"\" value=\"\" /></td>\n\t\t</tr>\n\t</tbody>\n</table>\n</div>\n</div>\n</div>\n",
       "id": "U2K47T8nDgj",
+      "lastUpdated": "2019-03-25T09:08:03.110",
       "lastUpdatedBy": {
         "id": "dKttJLRSiIl"
       },
@@ -929,7 +1229,7 @@
       "dataSetElements": [
         {
           "dataElement": {
-            "id": "Uyxr85SOJiI"
+            "id": "ViuQB9CLltC"
           },
           "dataSet": {
             "id": "WDyQKfAvY3V"
@@ -945,7 +1245,15 @@
         },
         {
           "dataElement": {
-            "id": "KlsBVkjtkkV"
+            "id": "Uyxr85SOJiI"
+          },
+          "dataSet": {
+            "id": "WDyQKfAvY3V"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "qqVKuhK0RgY"
           },
           "dataSet": {
             "id": "WDyQKfAvY3V"
@@ -961,7 +1269,7 @@
         },
         {
           "dataElement": {
-            "id": "iS6Vzt6PPjr"
+            "id": "FDUFnJmPb2t"
           },
           "dataSet": {
             "id": "WDyQKfAvY3V"
@@ -977,7 +1285,7 @@
         },
         {
           "dataElement": {
-            "id": "FDUFnJmPb2t"
+            "id": "wsmvhizfctg"
           },
           "dataSet": {
             "id": "WDyQKfAvY3V"
@@ -985,7 +1293,15 @@
         },
         {
           "dataElement": {
-            "id": "di91e0qZijs"
+            "id": "KlsBVkjtkkV"
+          },
+          "dataSet": {
+            "id": "WDyQKfAvY3V"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "iM5NIZBqAUL"
           },
           "dataSet": {
             "id": "WDyQKfAvY3V"
@@ -1001,7 +1317,15 @@
         },
         {
           "dataElement": {
-            "id": "ViuQB9CLltC"
+            "id": "di91e0qZijs"
+          },
+          "dataSet": {
+            "id": "WDyQKfAvY3V"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "I5m9Dl43XO2"
           },
           "dataSet": {
             "id": "WDyQKfAvY3V"
@@ -1010,14 +1334,6 @@
         {
           "dataElement": {
             "id": "gGSJZCN2L8C"
-          },
-          "dataSet": {
-            "id": "WDyQKfAvY3V"
-          }
-        },
-        {
-          "dataElement": {
-            "id": "cV7DhKFPk3R"
           },
           "dataSet": {
             "id": "WDyQKfAvY3V"
@@ -1041,23 +1357,7 @@
         },
         {
           "dataElement": {
-            "id": "wsmvhizfctg"
-          },
-          "dataSet": {
-            "id": "WDyQKfAvY3V"
-          }
-        },
-        {
-          "dataElement": {
-            "id": "qqVKuhK0RgY"
-          },
-          "dataSet": {
-            "id": "WDyQKfAvY3V"
-          }
-        },
-        {
-          "dataElement": {
-            "id": "I5m9Dl43XO2"
+            "id": "iS6Vzt6PPjr"
           },
           "dataSet": {
             "id": "WDyQKfAvY3V"
@@ -1073,29 +1373,7 @@
         },
         {
           "dataElement": {
-            "id": "iM5NIZBqAUL"
-          },
-          "dataSet": {
-            "id": "WDyQKfAvY3V"
-          }
-        },
-        {
-          "categoryCombo": {
-            "id": "CVlyw498LdE"
-          },
-          "dataElement": {
-            "id": "GeY6o2BMvp1"
-          },
-          "dataSet": {
-            "id": "WDyQKfAvY3V"
-          }
-        },
-        {
-          "categoryCombo": {
-            "id": "CVlyw498LdE"
-          },
-          "dataElement": {
-            "id": "C8MvR5CNwpG"
+            "id": "cV7DhKFPk3R"
           },
           "dataSet": {
             "id": "WDyQKfAvY3V"
@@ -1122,12 +1400,35 @@
           "dataSet": {
             "id": "WDyQKfAvY3V"
           }
+        },
+        {
+          "categoryCombo": {
+            "id": "CVlyw498LdE"
+          },
+          "dataElement": {
+            "id": "GeY6o2BMvp1"
+          },
+          "dataSet": {
+            "id": "WDyQKfAvY3V"
+          }
+        },
+        {
+          "categoryCombo": {
+            "id": "CVlyw498LdE"
+          },
+          "dataElement": {
+            "id": "C8MvR5CNwpG"
+          },
+          "dataSet": {
+            "id": "WDyQKfAvY3V"
+          }
         }
       ],
       "expiryDays": 0,
       "fieldCombinationRequired": false,
       "id": "WDyQKfAvY3V",
       "indicators": [],
+      "lastUpdated": "2019-05-16T16:09:36.460",
       "lastUpdatedBy": {
         "id": "dKttJLRSiIl"
       },
@@ -1741,7 +2042,7 @@
       "userAccesses": [],
       "userGroupAccesses": [
         {
-          "access": "rwrw----",
+          "access": "r-rw----",
           "displayName": "NHWA _DATA Capture Module 5-7",
           "id": "D7hWY1YuAy5",
           "userGroupUid": "D7hWY1YuAy5"
@@ -1751,6 +2052,12 @@
           "displayName": "NHWA Team (formerly health workforce team)",
           "id": "fxyLXZ10TXC",
           "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rwrw----",
+          "displayName": "NHWA _DATA Capture Module 6",
+          "id": "vP9XN5kQOUS",
+          "userGroupUid": "vP9XN5kQOUS"
         }
       ],
       "validCompleteOnly": true,
@@ -1759,6 +2066,5 @@
         "id": "QNOQUZfEJE5"
       }
     }
-  ],
-  "date": "2019-05-01T10:31:56.850"
+  ]
 }
