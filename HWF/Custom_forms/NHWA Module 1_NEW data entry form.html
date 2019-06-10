@@ -397,7 +397,72 @@
 		{
 			id: "ZPgTreSg9Xd-xIJxneZjiWm-val",
 			children: ["aOYOo12rVAs-xIJxneZjiWm-val","uoqUo1n2Bbr-xIJxneZjiWm-val","PRFVamHB0VQ-xIJxneZjiWm-val"]
-        }
+        },
+		//Place of Birth and training
+
+		//1 - Medical Doctors
+		{
+			id: "ifKISqV6PJh-XTvbzm2HwCZ-val",
+			children: ["tjT8FgtoZmV-XTvbzm2HwCZ-val","eWlZ0JPdgiX-XTvbzm2HwCZ-val","JRLY2XBpopS-XTvbzm2HwCZ-val"]
+        },
+		{
+			id: "ifKISqV6PJh-uBsAlWtPLFK-val",
+			children: ["tjT8FgtoZmV-uBsAlWtPLFK-val","eWlZ0JPdgiX-uBsAlWtPLFK-val","JRLY2XBpopS-uBsAlWtPLFK-val"]
+        },
+		{
+			id: "P7NeDYkZMDT-VxD9oa7UFFY-val",
+			children: ["pS9QqWeC7OO-VxD9oa7UFFY-val","cTz9crtzdvU-VxD9oa7UFFY-val","EKWgav1YgFc-VxD9oa7UFFY-val"]
+        },
+		{
+			id: "P7NeDYkZMDT-GSHgapGzSnl-val",
+			children: ["pS9QqWeC7OO-GSHgapGzSnl-val","cTz9crtzdvU-GSHgapGzSnl-val","EKWgav1YgFc-GSHgapGzSnl-val"]
+        },
+		{
+			id: "P7NeDYkZMDT-Ot71GbygcHf-val",
+			children: ["pS9QqWeC7OO-Ot71GbygcHf-val","cTz9crtzdvU-Ot71GbygcHf-val","EKWgav1YgFc-Ot71GbygcHf-val"]
+        },
+		//2 - Nursing Personnel
+		{
+			id: "HmD6AHanlbO-XTvbzm2HwCZ-val",
+			children: ["oNyG3X3DPbz-XTvbzm2HwCZ-val","ABy98AXLIvi-XTvbzm2HwCZ-val","d3IcPgQbeH5-XTvbzm2HwCZ-val"]
+        },
+		{
+			id: "HmD6AHanlbO-uBsAlWtPLFK-val",
+			children: ["oNyG3X3DPbz-uBsAlWtPLFK-val","ABy98AXLIvi-uBsAlWtPLFK-val","d3IcPgQbeH5-uBsAlWtPLFK-val"]
+        },
+		{
+			id: "qfVp6vFGOpZ-VxD9oa7UFFY-val",
+			children: ["aVL32L9ycAJ-VxD9oa7UFFY-val","Xya97JPAwJP-VxD9oa7UFFY-val","lTZshHjGQEe-VxD9oa7UFFY-val"]
+        },
+		{
+			id: "qfVp6vFGOpZ-GSHgapGzSnl-val",
+			children: ["aVL32L9ycAJ-GSHgapGzSnl-val","Xya97JPAwJP-GSHgapGzSnl-val","lTZshHjGQEe-GSHgapGzSnl-val"]
+        },
+		{
+			id: "qfVp6vFGOpZ-Ot71GbygcHf-val",
+			children: ["aVL32L9ycAJ-Ot71GbygcHf-val","Xya97JPAwJP-Ot71GbygcHf-val","lTZshHjGQEe-Ot71GbygcHf-val"]
+        },
+		//3 - Midwifery personnel
+		{
+			id: "qE7bXo1gdhI-XTvbzm2HwCZ-val",
+			children: ["EnoivPEWUMM-XTvbzm2HwCZ-val","mEaeC6W4Oga-XTvbzm2HwCZ-val","u1aymSGFTqA-XTvbzm2HwCZ-val"]
+        },
+		{
+			id: "qE7bXo1gdhI-uBsAlWtPLFK-val",
+			children: ["EnoivPEWUMM-uBsAlWtPLFK-val","mEaeC6W4Oga-uBsAlWtPLFK-val","u1aymSGFTqA-uBsAlWtPLFK-val"]
+        },
+		{
+			id: "Xw3tkU97nlR-VxD9oa7UFFY-val",
+			children: ["yelUZHtyQ3J-VxD9oa7UFFY-val","UTEeOMyhBoY-VxD9oa7UFFY-val","ChqxKtGrHVA-VxD9oa7UFFY-val"]
+        },
+		{
+			id: "Xw3tkU97nlR-GSHgapGzSnl-val",
+			children: ["yelUZHtyQ3J-GSHgapGzSnl-val","UTEeOMyhBoY-GSHgapGzSnl-val","ChqxKtGrHVA-GSHgapGzSnl-val"]
+        },
+		{
+			id: "Xw3tkU97nlR-Ot71GbygcHf-val",
+			children: ["yelUZHtyQ3J-Ot71GbygcHf-val","UTEeOMyhBoY-Ot71GbygcHf-val","ChqxKtGrHVA-Ot71GbygcHf-val"]
+        },
 	];
 
 	var calculatedCheckboxCells = [
@@ -558,14 +623,12 @@
     }
 
 	function calculateCheckboxCells() {
-		debugger;
 		calculatedCheckboxCells.forEach(function(calculatedCheckboxCell){
 			calculateCheckboxCell(calculatedCheckboxCell.id);
         });
     }
 
 	function calculateNumericCell(inputId) {
-		debugger;
 		var total = 0;
 
 		var calculateNumericCell = calculatedNumericCells.find(function(cell) {
@@ -584,7 +647,6 @@
     }
 
 	function calculateCheckboxCell(inputId) {
-		debugger;
 
 		var isChecked = false;
 
@@ -3460,15 +3522,15 @@ button[disabled], html input[disabled] {color: graytext !important;}
 		</tr>
 	</thead>
 	<tbody>
-		<tr>
+		<tr class="read-only">
 			<th scope="row">1</th>
 			<th colspan="4" scope="row" style="text-align: left;">Medical Doctors</th>
 			<th scope="row" style="text-align: left;">&nbsp;</th>
-			<td scope="row" style="text-align: left;"><input id="JRLY2XBpopS-XTvbzm2HwCZ-val" name="entryfield" title="Medical Doctors Stock By Place of Birth National Born" value="[ Medical Doctors Stock By Place of Birth National Born ]" /></td>
-			<td scope="row" style="text-align: left;"><input id="JRLY2XBpopS-uBsAlWtPLFK-val" name="entryfield" title="Medical Doctors Stock By Place of Birth Foreign Born" value="[ Medical Doctors Stock By Place of Birth Foreign Born ]" /></td>
-			<td scope="row" style="text-align: left;"><input id="EKWgav1YgFc-VxD9oa7UFFY-val" name="entryfield" title="Medical Doctors Stock By Place of Training Domestic" value="[ Medical Doctors Stock By Place of Training Domestic ]" /></td>
-			<td scope="row" style="text-align: left;"><input id="EKWgav1YgFc-GSHgapGzSnl-val" name="entryfield" title="Medical Doctors Stock By Place of Training Foreign" value="[ Medical Doctors Stock By Place of Training Foreign ]" /></td>
-			<td scope="row" style="text-align: left;"><input id="EKWgav1YgFc-Ot71GbygcHf-val" name="entryfield" title="Medical Doctors Stock By Place of Training Unknown" value="[ Medical Doctors Stock By Place of Training Unknown ]" /></td>
+			<td scope="row" style="text-align: left;"><input id="ifKISqV6PJh-XTvbzm2HwCZ-val" name="entryfield" title="Medical Doctors Stock By Place of Birth National Born" value="[ Medical Doctors Stock By Place of Birth National Born ]" /></td>
+			<td scope="row" style="text-align: left;"><input id="ifKISqV6PJh-uBsAlWtPLFK-val" name="entryfield" title="Medical Doctors Stock By Place of Birth Foreign Born" value="[ Medical Doctors Stock By Place of Birth Foreign Born ]" /></td>
+			<td scope="row" style="text-align: left;"><input id="P7NeDYkZMDT-VxD9oa7UFFY-val" name="entryfield" title="Medical Doctors Stock By Place of Training Domestic" value="[ Medical Doctors Stock By Place of Training Domestic ]" /></td>
+			<td scope="row" style="text-align: left;"><input id="P7NeDYkZMDT-GSHgapGzSnl-val" name="entryfield" title="Medical Doctors Stock By Place of Training Foreign" value="[ Medical Doctors Stock By Place of Training Foreign ]" /></td>
+			<td scope="row" style="text-align: left;"><input id="P7NeDYkZMDT-Ot71GbygcHf-val" name="entryfield" title="Medical Doctors Stock By Place of Training Unknown" value="[ Medical Doctors Stock By Place of Training Unknown ]" /></td>
 		</tr>
 		<tr>
 			<th scope="row">1.1</th>
@@ -3567,14 +3629,26 @@ button[disabled], html input[disabled] {color: graytext !important;}
 			<th rowspan="1" scope="row"><input id="e0qvyzapmu3-Ot71GbygcHf-val" name="entryfield" title="Other Specialists Practitioners Stock By Place of Training Unknown" value="[ Other Specialists Practitioners Stock By Place of Training Unknown ]" /></th>
 		</tr>
 		<tr>
+			<th scope="row">1.3</th>
+			<th colspan="4" rowspan="1" scope="row">
+			<p style="text-align: left; margin-left: 20px;">Medical doctors not further defined</p>
+			</th>
+			<th scope="row" style="text-align: left;">&nbsp;</th>
+			<td scope="row" style="text-align: left;"><input id="JRLY2XBpopS-XTvbzm2HwCZ-val" name="entryfield" title="Medical doctors not further defined Stock By Place of Birth National Born" value="[ Medical doctors not further defined Stock By Place of Birth National Born ]" /></td>
+			<td scope="row" style="text-align: left;"><input id="JRLY2XBpopS-uBsAlWtPLFK-val" name="entryfield" title="Medical doctors not further defined Stock By Place of Birth Foreign Born" value="[ Medical doctors not further defined Stock By Place of Birth Foreign Born ]" /></td>
+			<td scope="row" style="text-align: left;"><input id="EKWgav1YgFc-VxD9oa7UFFY-val" name="entryfield" title="Medical doctors not further defined Stock By Place of Training Domestic" value="[ Medical doctors not further defined Stock By Place of Training Domestic ]" /></td>
+			<td scope="row" style="text-align: left;"><input id="EKWgav1YgFc-GSHgapGzSnl-val" name="entryfield" title="Medical doctors not further defined Stock By Place of Training Foreign" value="[ Medical doctors not further defined Stock By Place of Training Foreign ]" /></td>
+			<td scope="row" style="text-align: left;"><input id="EKWgav1YgFc-Ot71GbygcHf-val" name="entryfield" title="Medical doctors not further defined Stock By Place of Training Unknown" value="[ Medical doctors not further defined Stock By Place of Training Unknown ]" /></td>
+		</tr>
+		<tr class="read-only">
 			<th scope="row">2</th>
 			<th colspan="4" scope="row" style="text-align: left;">Nursing Personnel</th>
 			<th scope="row" style="text-align: left;">&nbsp;</th>
-			<td scope="row" style="text-align: left;"><input id="d3IcPgQbeH5-XTvbzm2HwCZ-val" name="entryfield" title="Nursing  Personnel Stock By Place of Birth National Born" value="[ Nursing  Personnel Stock By Place of Birth National Born ]" /></td>
-			<td scope="row" style="text-align: left;"><input id="d3IcPgQbeH5-uBsAlWtPLFK-val" name="entryfield" title="Nursing  Personnel Stock By Place of Birth Foreign Born" value="[ Nursing  Personnel Stock By Place of Birth Foreign Born ]" /></td>
-			<td scope="row" style="text-align: left;"><input id="lTZshHjGQEe-VxD9oa7UFFY-val" name="entryfield" title="Nursing  Personnel Stock By Place of Training Domestic" value="[ Nursing  Personnel Stock By Place of Training Domestic ]" /></td>
-			<td scope="row" style="text-align: left;"><input id="lTZshHjGQEe-GSHgapGzSnl-val" name="entryfield" title="Nursing  Personnel Stock By Place of Training Foreign" value="[ Nursing  Personnel Stock By Place of Training Foreign ]" /></td>
-			<td scope="row" style="text-align: left;"><input id="lTZshHjGQEe-Ot71GbygcHf-val" name="entryfield" title="Nursing  Personnel Stock By Place of Training Unknown" value="[ Nursing  Personnel Stock By Place of Training Unknown ]" /></td>
+			<td scope="row" style="text-align: left;"><input id="HmD6AHanlbO-XTvbzm2HwCZ-val" name="entryfield" title="Nursing  Personnel Stock By Place of Birth National Born" value="[ Nursing  Personnel Stock By Place of Birth National Born ]" /></td>
+			<td scope="row" style="text-align: left;"><input id="HmD6AHanlbO-uBsAlWtPLFK-val" name="entryfield" title="Nursing  Personnel Stock By Place of Birth Foreign Born" value="[ Nursing  Personnel Stock By Place of Birth Foreign Born ]" /></td>
+			<td scope="row" style="text-align: left;"><input id="qfVp6vFGOpZ-VxD9oa7UFFY-val" name="entryfield" title="Nursing  Personnel Stock By Place of Training Domestic" value="[ Nursing  Personnel Stock By Place of Training Domestic ]" /></td>
+			<td scope="row" style="text-align: left;"><input id="qfVp6vFGOpZ-GSHgapGzSnl-val" name="entryfield" title="Nursing  Personnel Stock By Place of Training Foreign" value="[ Nursing  Personnel Stock By Place of Training Foreign ]" /></td>
+			<td scope="row" style="text-align: left;"><input id="qfVp6vFGOpZ-Ot71GbygcHf-val" name="entryfield" title="Nursing  Personnel Stock By Place of Training Unknown" value="[ Nursing  Personnel Stock By Place of Training Unknown ]" /></td>
 		</tr>
 		<tr>
 			<th scope="row">2.1</th>
@@ -3625,14 +3699,26 @@ button[disabled], html input[disabled] {color: graytext !important;}
 			<td scope="row" style="text-align: left;"><input id="cSqX4ymZmHA-Ot71GbygcHf-val" name="entryfield" title="Nursing Associate Professionals Stock with additional midwifery training By Place of Training Unknown" value="[ Nursing Associate Professionals Stock with additional midwifery training By Place of Training Unknown ]" /></td>
 		</tr>
 		<tr>
+			<th scope="row">2.3</th>
+			<th colspan="4" scope="row" style="text-align: left;">
+			<p style="text-align: left; margin-left: 20px;">Nurses not further defined</p>
+			</th>
+			<th scope="row" style="text-align: left;">&nbsp;</th>
+			<td scope="row" style="text-align: left;"><input id="d3IcPgQbeH5-XTvbzm2HwCZ-val" name="entryfield" title="Nurses not further defined Stock By Place of Birth National Born" value="[ Nurses not further defined Stock By Place of Birth National Born ]" /></td>
+			<td scope="row" style="text-align: left;"><input id="d3IcPgQbeH5-uBsAlWtPLFK-val" name="entryfield" title="Nurses not further defined Stock By Place of Birth Foreign Born" value="[ Nurses not further defined Stock By Place of Birth Foreign Born ]" /></td>
+			<td scope="row" style="text-align: left;"><input id="lTZshHjGQEe-VxD9oa7UFFY-val" name="entryfield" title="Nurses not further defined Stock By Place of Training Domestic" value="[ Nurses not further defined Stock By Place of Training Domestic ]" /></td>
+			<td scope="row" style="text-align: left;"><input id="lTZshHjGQEe-GSHgapGzSnl-val" name="entryfield" title="Nurses not further defined Stock By Place of Training Foreign" value="[ Nurses not further defined Stock By Place of Training Foreign ]" /></td>
+			<td scope="row" style="text-align: left;"><input id="lTZshHjGQEe-Ot71GbygcHf-val" name="entryfield" title="Nurses not further defined Stock By Place of Training Unknown" value="[ Nurses not further defined Stock By Place of Training Unknown ]" /></td>
+		</tr>
+		<tr class="read-only">
 			<th scope="row">3</th>
 			<th colspan="4" scope="row" style="text-align: left;">Midwifery personnel</th>
 			<th scope="row" style="text-align: left;">&nbsp;</th>
-			<td scope="row" style="text-align: left;"><input id="u1aymSGFTqA-XTvbzm2HwCZ-val" name="entryfield" title="Midwifery personnel Stock By Place of Birth National Born" value="[ Midwifery personnel Stock By Place of Birth National Born ]" /></td>
-			<td scope="row" style="text-align: left;"><input id="u1aymSGFTqA-uBsAlWtPLFK-val" name="entryfield" title="Midwifery personnel Stock By Place of Birth Foreign Born" value="[ Midwifery personnel Stock By Place of Birth Foreign Born ]" /></td>
-			<td scope="row" style="text-align: left;"><input id="ChqxKtGrHVA-VxD9oa7UFFY-val" name="entryfield" title="Midwifery personnel Stock By Place of Training Domestic" value="[ Midwifery personnel Stock By Place of Training Domestic ]" /></td>
-			<td scope="row" style="text-align: left;"><input id="ChqxKtGrHVA-GSHgapGzSnl-val" name="entryfield" title="Midwifery personnel Stock By Place of Training Foreign" value="[ Midwifery personnel Stock By Place of Training Foreign ]" /></td>
-			<td scope="row" style="text-align: left;"><input id="ChqxKtGrHVA-Ot71GbygcHf-val" name="entryfield" title="Midwifery personnel Stock By Place of Training Unknown" value="[ Midwifery personnel Stock By Place of Training Unknown ]" /></td>
+			<td scope="row" style="text-align: left;"><input id="qE7bXo1gdhI-XTvbzm2HwCZ-val" name="entryfield" title="Midwifery personnel Stock By Place of Birth National Born" value="[ Midwifery personnel Stock By Place of Birth National Born ]" /></td>
+			<td scope="row" style="text-align: left;"><input id="qE7bXo1gdhI-uBsAlWtPLFK-val" name="entryfield" title="Midwifery personnel Stock By Place of Birth Foreign Born" value="[ Midwifery personnel Stock By Place of Birth Foreign Born ]" /></td>
+			<td scope="row" style="text-align: left;"><input id="Xw3tkU97nlR-VxD9oa7UFFY-val" name="entryfield" title="Midwifery personnel Stock By Place of Training Domestic" value="[ Midwifery personnel Stock By Place of Training Domestic ]" /></td>
+			<td scope="row" style="text-align: left;"><input id="Xw3tkU97nlR-GSHgapGzSnl-val" name="entryfield" title="Midwifery personnel Stock By Place of Training Foreign" value="[ Midwifery personnel Stock By Place of Training Foreign ]" /></td>
+			<td scope="row" style="text-align: left;"><input id="Xw3tkU97nlR-Ot71GbygcHf-val" name="entryfield" title="Midwifery personnel Stock By Place of Training Unknown" value="[ Midwifery personnel Stock By Place of Training Unknown ]" /></td>
 		</tr>
 		<tr>
 			<th scope="row">3.1</th>
@@ -3657,6 +3743,18 @@ button[disabled], html input[disabled] {color: graytext !important;}
 			<td scope="row" style="text-align: left;"><input id="UTEeOMyhBoY-VxD9oa7UFFY-val" name="entryfield" title="Midwifery Associate Professionals Stock By Place of Training Domestic" value="[ Midwifery Associate Professionals Stock By Place of Training Domestic ]" /></td>
 			<td scope="row" style="text-align: left;"><input id="UTEeOMyhBoY-GSHgapGzSnl-val" name="entryfield" title="Midwifery Associate Professionals Stock By Place of Training Foreign" value="[ Midwifery Associate Professionals Stock By Place of Training Foreign ]" /></td>
 			<td scope="row" style="text-align: left;"><input id="UTEeOMyhBoY-Ot71GbygcHf-val" name="entryfield" title="Midwifery Associate Professionals Stock By Place of Training Unknown" value="[ Midwifery Associate Professionals Stock By Place of Training Unknown ]" /></td>
+		</tr>
+		<tr>
+			<th scope="row">3.3</th>
+			<th colspan="4" scope="row" style="text-align: left;">
+			<p style="text-align: left; margin-left: 20px;">Midwives not further defined</p>
+			</th>
+			<th scope="row" style="text-align: left;">&nbsp;</th>
+			<td scope="row" style="text-align: left;"><input id="u1aymSGFTqA-XTvbzm2HwCZ-val" name="entryfield" title="Midwives not further defined Stock By Place of Birth National Born" value="[ Midwives not further defined Stock By Place of Birth National Born ]" /></td>
+			<td scope="row" style="text-align: left;"><input id="u1aymSGFTqA-uBsAlWtPLFK-val" name="entryfield" title="Midwives not further defined Stock By Place of Birth Foreign Born" value="[ Midwives not further defined Stock By Place of Birth Foreign Born ]" /></td>
+			<td scope="row" style="text-align: left;"><input id="ChqxKtGrHVA-VxD9oa7UFFY-val" name="entryfield" title="Midwives not further defined Stock By Place of Training Domestic" value="[ Midwives not further defined Stock By Place of Training Domestic ]" /></td>
+			<td scope="row" style="text-align: left;"><input id="ChqxKtGrHVA-GSHgapGzSnl-val" name="entryfield" title="Midwives not further defined Stock By Place of Training Foreign" value="[ Midwives not further defined Stock By Place of Training Foreign ]" /></td>
+			<td scope="row" style="text-align: left;"><input id="ChqxKtGrHVA-Ot71GbygcHf-val" name="entryfield" title="Midwives not further defined Stock By Place of Training Unknown" value="[ Midwives not further defined Stock By Place of Training Unknown ]" /></td>
 		</tr>
 		<tr>
 			<th scope="row">4</th>
