@@ -757,6 +757,7 @@
         });
 
 		$('#' + inputId).val(total);
+		$('#' + inputId).trigger( "change" );
     }
 
 	function calculateCheckboxCell(inputId) {
