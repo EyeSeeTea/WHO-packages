@@ -1,8 +1,531 @@
 <script type="text/javascript">
-    var values = [{"name":"Medical Doctors Stock Total","id":"ePgUyGHxJuI"},{"name":"Specialist Medical Practitioners Stock Total","id":"qMdjQN91JDi"},{"name":"Generalist Medical Practitioners Stock Total","id":"mHFT8rZ6ksz"},{"name":"Nursing Associate Professionals Stock Total","id":"mHD3Efts57E"},{"name":"Nursing General Personnel Stock Total","id":"T58TEnz6WgZ"},{"name":"Nursing Professionals Stock Total","id":"Rnuo4SphAdV"},{"name":"Midwifery Associate Professionals Stock Total","id":"rfqaKzMPEdf"},{"name":"Midwifery personnel Stock Total","id":"QC2yRZy5Fn7"},{"name":"Midwifery Professionals Stock Total","id":"EqDGfdOIX9a"},{"name":"Dental Assistants and Therapists Stock Total","id":"UPfQopzBdyx"},{"name":"Dental Prosthetic Technicians Stock Total","id":"f1tdQ6FNHl3"},{"name":"Dentists Stock Total","id":"B6boWAxO6T4"},{"name":"Pharmaceutical Technicians and Assistants Stock Total","id":"kLVRrIrdx4o"},{"name":"Pharmacists Stock Total","id":"lHfsZY4fyv4"}];
+    var values = [
+        {"name":"Medical Doctors Stock Total","id":"qcDKkL7Xkl4"},
+        {"name":"Medical doctors not further defined Stock Total","id":"ePgUyGHxJuI"},
+        {"name":"Specialist Medical Practitioners Stock Total","id":"qMdjQN91JDi"},
+        {"name":"Generalist Medical Practitioners Stock Total","id":"mHFT8rZ6ksz"},
+        {"name":"Nursing Associate Professionals Stock Total","id":"mHD3Efts57E"},
+        {"name":"Nursing General Personnel Stock Total","id":"ok6yvzSABcU"},
+        {"name":"Nurses not further defined Stock Total","id":"T58TEnz6WgZ"},
+        {"name":"Nursing Professionals Stock Total","id":"Rnuo4SphAdV"},
+        {"name":"Midwifery Associate Professionals Stock Total","id":"rfqaKzMPEdf"},
+        {"name":"Midwifery personnel Stock Total","id":"bDQt7HaZCu9"},
+        {"name":"Midwives not further defined Stock Total","id":"QC2yRZy5Fn7"},
+        {"name":"Midwifery Professionals Stock Total","id":"EqDGfdOIX9a"},
+        {"name":"Dental Assistants and Therapists Stock Total","id":"UPfQopzBdyx"},
+        {"name":"Dental Prosthetic Technicians Stock Total","id":"f1tdQ6FNHl3"},
+        {"name":"Dentists Stock Total","id":"B6boWAxO6T4"},
+        {"name":"Pharmaceutical Technicians and Assistants Stock Total","id":"kLVRrIrdx4o"},
+        {"name":"Pharmacists Stock Total","id":"lHfsZY4fyv4"}];
+
+        var values = [
+        {
+            "name": "Administrative staff Stock Total",
+            "id": "lT2PXXEtNc0"
+        },
+        {
+            "name": "Ambulance Workers Stock Total",
+            "id": "qr8RGsOOdXn"
+        },
+        {
+            "name": "Audiologists and Speech Therapists Stock Total",
+            "id": "sbIyFRN4j0N"
+        },
+        {
+            "name": "Biomedical engineer Stock Total",
+            "id": "ec8BXAwrBTh"
+        },
+        {
+            "name": "Community Health Workers Stock Total",
+            "id": "maFtwxdHWuZ"
+        },
+        {
+            "name": "Dental Assistants and Therapists Stock Total",
+            "id": "VIMlhSMF1Yl"
+        },
+        {
+            "name": "Dental Prosthetic Technicians Stock Total",
+            "id": "w9b8i3HljgB"
+        },
+        {
+            "name": "Dentists Stock Total",
+            "id": "tqciYTsRsV1"
+        },
+        {
+            "name": "Dieticians Stock Total",
+            "id": "fqPqYs1WW22"
+        },
+        {
+            "name": "Dispensing Opticians Stock Total",
+            "id": "Tu64Vt7gv8M"
+        },
+        {
+            "name": "Engineering and maintenance staff Stock Total",
+            "id": "DCAJyToy1TA"
+        },
+        {
+            "name": "Environmental and Occupational Health and Hygiene Professionals Stock Total",
+            "id": "W1OgOlx2UPS"
+        },
+        {
+            "name": "Environmental and Occupational Health Inspectors and Associates Stock Total",
+            "id": "nkvvH6QuQ8t"
+        },
+        {
+            "name": "Medical doctors not further defined Stock Total",
+            "id": "jj5ZtVGdcwd"
+        },
+		{
+            "name": "General Medical Practitioners Stock Total",
+            "id": "Yxkvq7nmosQ"
+        },
+        {
+            "name": "General Paediatricians Practitioners Stock Total",
+            "id": "mzBQp5cOihy"
+        },
+        {
+            "name": "Health Care Assistants Stock Total",
+            "id": "UN1GGvFlETF"
+        },
+        {
+            "name": "Health information systems personnel Stock Total",
+            "id": "u4evyxHktVP"
+        },
+        {
+            "name": "Home-based Personal Care Workers Stock Total",
+            "id": "m5NFJ1IxYaq"
+        },
+        {
+            "name": "Managerial staff Stock Total",
+            "id": "oFXCMBtu71f"
+        },
+        {
+            "name": "Medical and Pathology Laboratory scientists Stock Total",
+            "id": "Fm2HakleZ27"
+        },
+        {
+            "name": "Medical and Pathology Laboratory Technicians Stock Total",
+            "id": "RNCFRfcGsEq"
+        },
+        {
+            "name": "Medical Assistants Stock Total",
+            "id": "dvNINMJZS3V"
+        },
+        {
+            "name": "Medical Doctors Stock Total",
+            "id": "h6VJJu0W8U7"
+        },
+        {
+            "name": "Medical group of Specialists Practitioners Stock Total",
+            "id": "nNmvfTuUhng"
+        },
+        {
+            "name": "Medical Imaging and Therapeutic Equipment Technicians Stock Total",
+            "id": "NC58vY6UBEk"
+        },
+        {
+            "name": "Medical Prosthetic Technicians Stock Total",
+            "id": "yKNKfokBA9x"
+        },
+        {
+            "name": "Medical Records and Health Information Technicians Stock Total",
+            "id": "dYKAIYSnLue"
+        },
+        {
+            "name": "Medical secretaries stock Total",
+            "id": "I5C27Tsoc8I"
+        },
+        {
+            "name": "Midwifery Associate Professionals Stock Total",
+            "id": "uHCDEltKEA6"
+        },
+        {
+            "name": "Midwifery personnel Stock Total",
+            "id": "t5jOlOCqSr3"
+        },
+		{
+            "name": "Midwifery Professionals Stock Total",
+            "id": "nBLlavpOdkF"
+        },
+        {
+            "name": "Midwives not further defined Stock Total",
+            "id": "LPTrylkVM4Q"
+        },
+        {
+            "name": "Nursing  Personnel Stock Total",
+            "id": "sYJkQfzW1BG"
+        },
+        {
+            "name": "Nursing Associate Professionals Stock Total",
+            "id": "eEQkLvHHoSU"
+        },
+		{
+            "name": "Nursing Professionals Stock Total",
+            "id": "CpUti69L5aW"
+        },
+		{
+            "name": "Nurses not further defined Stock Total",
+            "id": "LrG8CqG0mhV"
+        },
+        {
+            "name": "Nutritionists Stock Total",
+            "id": "GKnY5V4PkhM"
+        },
+        {
+            "name": "Obstetricians and Gynaecologists Practitioners Stock Total",
+            "id": "cyNh11xykuJ"
+        },
+        {
+            "name": "Optometrists and Ophthalmic Opticians Stock Total",
+            "id": "vDp3u0DJlrK"
+        },
+        {
+            "name": "Other non-medical professional staff Stock Total",
+            "id": "bUGq4WaBHUD"
+        },
+        {
+            "name": "Other non-medical support staff Stock Total",
+            "id": "v8Xnaigda7O"
+        },
+        {
+            "name": "Other Specialists Practitioners Stock Total",
+            "id": "pWXXIlhZ8PI"
+        },
+        {
+            "name": "Paramedical Practitioners Stock Total",
+            "id": "Yz371d8I7vi"
+        },
+        {
+            "name": "Personal care workers in health services n.e.c Stock Total",
+            "id": "It06Qq2EzsF"
+        },
+        {
+            "name": "Personal care workers Stock Total",
+            "id": "TxYXq9qqMJt"
+        },
+        {
+            "name": "Pharmaceutical Technicians and Assistants Stock Total",
+            "id": "SOU2X25z1dq"
+        },
+        {
+            "name": "Pharmacists Stock Total",
+            "id": "iDHwJraJp3Y"
+        },
+        {
+            "name": "Physiotherapists Stock Total",
+            "id": "cg1DEEIeZ9N"
+        },
+        {
+            "name": "Physiotherapy Technicians and Assistants Stock Total",
+            "id": "zs2x5LAeI3t"
+        },
+        {
+            "name": "Psychiatrists Practitioners Stock Total",
+            "id": "QxPGLy2DUhG"
+        },
+        {
+            "name": "Psychologists Stock Total",
+            "id": "jY9ia5NLA77"
+        },
+        {
+            "name": "Social work and counselling professionals Stock Total",
+            "id": "uzy03WEvMkk"
+        },
+        {
+            "name": "Social work associate professionals Stock Total",
+            "id": "qg3FIv25BEt"
+        },
+        {
+            "name": "Specialist Medical Practitioners Stock Total",
+            "id": "Ta8ifRxwOmP"
+        },
+        {
+            "name": "Surgical group of Specialists Practitioners Stock Total",
+            "id": "VDeI2btrNih"
+        },
+        {
+            "name": "Traditional and Complementary Medicine Associate Professionals Stock Total",
+            "id": "dTCOMljlITC"
+        },
+        {
+            "name": "Traditional and Complementary Medicine Professionals Stock Total",
+            "id": "g9WyLxpr1E2"
+        },
+        {
+            "name": "Nursing Professionals Stock with additional midwifery training Total",
+            "id": "qKf4eMvqKqq"
+        },
+        {
+            "name": "Nursing Associate Professionals Stock with additional midwifery training Total ",
+            "id": "KwIlxiiBBjV"
+        }
+    ];
+
+	var calculatedNumericCells = [
+		//Working Details
+
+		//1 - Medical Doctors
+		{
+			id: "qcDKkL7Xkl4-Xr12mI7VPn3-val",
+			children: ["mHFT8rZ6ksz-Xr12mI7VPn3-val","qMdjQN91JDi-Xr12mI7VPn3-val","ePgUyGHxJuI-Xr12mI7VPn3-val"]
+        },
+		//2 - Nursing Personnel
+		{
+			id: "ok6yvzSABcU-Xr12mI7VPn3-val",
+			children: ["Rnuo4SphAdV-Xr12mI7VPn3-val","mHD3Efts57E-Xr12mI7VPn3-val","T58TEnz6WgZ-Xr12mI7VPn3-val"]
+        },
+		//3 - Midwifery personnel
+		{
+			id: "bDQt7HaZCu9-Xr12mI7VPn3-val",
+			children: ["EqDGfdOIX9a-Xr12mI7VPn3-val","rfqaKzMPEdf-Xr12mI7VPn3-val","QC2yRZy5Fn7-Xr12mI7VPn3-val"]
+        }
+	];
+
+	var calculatedCheckboxCells = [
+		//Working Details
+		//1 - Medical Doctors
+		{
+			id: "TVBVT6naFjQ-bj9TvyIDtwi-val",
+			children: ["t8Oxv1y44wM-bj9TvyIDtwi-val","BhkUnrfLZ1F-bj9TvyIDtwi-val","y8MA1BOZ3OO-bj9TvyIDtwi-val"]
+        },
+        {
+			id: "TVBVT6naFjQ-lcB0UtS4nuB-val",
+			children: ["t8Oxv1y44wM-lcB0UtS4nuB-val","BhkUnrfLZ1F-lcB0UtS4nuB-val","y8MA1BOZ3OO-lcB0UtS4nuB-val"]
+        },
+        {
+			id: "TVBVT6naFjQ-LvGn3KFEzvA-val",
+			children: ["t8Oxv1y44wM-LvGn3KFEzvA-val","BhkUnrfLZ1F-LvGn3KFEzvA-val","y8MA1BOZ3OO-LvGn3KFEzvA-val"]
+        },
+        {
+			id: "TVBVT6naFjQ-wcnRf5LJrnK-val",
+			children: ["t8Oxv1y44wM-wcnRf5LJrnK-val","BhkUnrfLZ1F-wcnRf5LJrnK-val","y8MA1BOZ3OO-wcnRf5LJrnK-val"]
+        },
+        {
+			id: "TVBVT6naFjQ-MXfWGD11wLh-val",
+			children: ["t8Oxv1y44wM-MXfWGD11wLh-val","BhkUnrfLZ1F-MXfWGD11wLh-val","y8MA1BOZ3OO-MXfWGD11wLh-val"]
+        },
+        {
+			id: "TVBVT6naFjQ-P5jMO9Y0SRn-val",
+			children: ["t8Oxv1y44wM-P5jMO9Y0SRn-val","BhkUnrfLZ1F-P5jMO9Y0SRn-val","y8MA1BOZ3OO-P5jMO9Y0SRn-val"]
+        },
+        {
+			id: "TVBVT6naFjQ-eWjpUQpzWKX-val",
+			children: ["t8Oxv1y44wM-eWjpUQpzWKX-val","BhkUnrfLZ1F-eWjpUQpzWKX-val","y8MA1BOZ3OO-eWjpUQpzWKX-val"]
+        },
+        {
+			id: "TVBVT6naFjQ-hC2N9T8F5JD-val",
+			children: ["t8Oxv1y44wM-hC2N9T8F5JD-val","BhkUnrfLZ1F-hC2N9T8F5JD-val","y8MA1BOZ3OO-hC2N9T8F5JD-val"]
+        },
+        {
+			id: "TVBVT6naFjQ-xgbBSeyiDWp-val",
+			children: ["t8Oxv1y44wM-xgbBSeyiDWp-val","BhkUnrfLZ1F-xgbBSeyiDWp-val","y8MA1BOZ3OO-xgbBSeyiDWp-val"]
+        },
+        {
+			id: "TVBVT6naFjQ-IhnQTXo2sCi-val",
+			children: ["t8Oxv1y44wM-IhnQTXo2sCi-val","BhkUnrfLZ1F-IhnQTXo2sCi-val","y8MA1BOZ3OO-IhnQTXo2sCi-val"]
+        },
+        {
+			id: "TVBVT6naFjQ-rEUC186wftQ-val",
+			children: ["t8Oxv1y44wM-rEUC186wftQ-val","BhkUnrfLZ1F-rEUC186wftQ-val","y8MA1BOZ3OO-rEUC186wftQ-val"]
+        },
+        {
+			id: "TVBVT6naFjQ-s5mo8EjeKiY-val",
+			children: ["t8Oxv1y44wM-s5mo8EjeKiY-val","BhkUnrfLZ1F-s5mo8EjeKiY-val","y8MA1BOZ3OO-s5mo8EjeKiY-val"]
+        },
+        {
+			id: "TVBVT6naFjQ-ADfCJWnnU2O-val",
+			children: ["t8Oxv1y44wM-ADfCJWnnU2O-val","BhkUnrfLZ1F-ADfCJWnnU2O-val","y8MA1BOZ3OO-ADfCJWnnU2O-val"]
+        },
+        //2 - Nursing Personnel
+        {
+			id: "SV71PdZSkmd-bj9TvyIDtwi-val",
+			children: ["TdwikGCtQ2F-bj9TvyIDtwi-val","WGJxTIBFQK2-bj9TvyIDtwi-val","OgG8wQ6Zajq-bj9TvyIDtwi-val"]
+        },
+        {
+			id: "SV71PdZSkmd-lcB0UtS4nuB-val",
+			children: ["TdwikGCtQ2F-lcB0UtS4nuB-val","WGJxTIBFQK2-lcB0UtS4nuB-val","OgG8wQ6Zajq-lcB0UtS4nuB-val"]
+        },
+        {
+			id: "SV71PdZSkmd-LvGn3KFEzvA-val",
+			children: ["TdwikGCtQ2F-LvGn3KFEzvA-val","WGJxTIBFQK2-LvGn3KFEzvA-val","OgG8wQ6Zajq-LvGn3KFEzvA-val"]
+        },
+        {
+			id: "SV71PdZSkmd-wcnRf5LJrnK-val",
+			children: ["TdwikGCtQ2F-wcnRf5LJrnK-val","WGJxTIBFQK2-wcnRf5LJrnK-val","OgG8wQ6Zajq-wcnRf5LJrnK-val"]
+        },
+        {
+			id: "SV71PdZSkmd-MXfWGD11wLh-val",
+			children: ["TdwikGCtQ2F-MXfWGD11wLh-val","WGJxTIBFQK2-MXfWGD11wLh-val","OgG8wQ6Zajq-MXfWGD11wLh-val"]
+        },
+        {
+			id: "SV71PdZSkmd-P5jMO9Y0SRn-val",
+			children: ["TdwikGCtQ2F-P5jMO9Y0SRn-val","WGJxTIBFQK2-P5jMO9Y0SRn-val","OgG8wQ6Zajq-P5jMO9Y0SRn-val"]
+        },
+        {
+			id: "SV71PdZSkmd-eWjpUQpzWKX-val",
+			children: ["TdwikGCtQ2F-eWjpUQpzWKX-val","WGJxTIBFQK2-eWjpUQpzWKX-val","OgG8wQ6Zajq-eWjpUQpzWKX-val"]
+        },
+        {
+			id: "SV71PdZSkmd-hC2N9T8F5JD-val",
+			children: ["TdwikGCtQ2F-hC2N9T8F5JD-val","WGJxTIBFQK2-hC2N9T8F5JD-val","OgG8wQ6Zajq-hC2N9T8F5JD-val"]
+        },
+        {
+			id: "SV71PdZSkmd-xgbBSeyiDWp-val",
+			children: ["TdwikGCtQ2F-xgbBSeyiDWp-val","WGJxTIBFQK2-xgbBSeyiDWp-val","OgG8wQ6Zajq-xgbBSeyiDWp-val"]
+        },
+        {
+			id: "SV71PdZSkmd-IhnQTXo2sCi-val",
+			children: ["TdwikGCtQ2F-IhnQTXo2sCi-val","WGJxTIBFQK2-IhnQTXo2sCi-val","OgG8wQ6Zajq-IhnQTXo2sCi-val"]
+        },
+        {
+			id: "SV71PdZSkmd-rEUC186wftQ-val",
+			children: ["TdwikGCtQ2F-rEUC186wftQ-val","WGJxTIBFQK2-rEUC186wftQ-val","OgG8wQ6Zajq-rEUC186wftQ-val"]
+        },
+        {
+			id: "SV71PdZSkmd-s5mo8EjeKiY-val",
+			children: ["TdwikGCtQ2F-s5mo8EjeKiY-val","WGJxTIBFQK2-s5mo8EjeKiY-val","OgG8wQ6Zajq-s5mo8EjeKiY-val"]
+        },
+        {
+			id: "SV71PdZSkmd-ADfCJWnnU2O-val",
+			children: ["TdwikGCtQ2F-ADfCJWnnU2O-val","WGJxTIBFQK2-ADfCJWnnU2O-val","OgG8wQ6Zajq-ADfCJWnnU2O-val"]
+        },
+		//3 - Midwifery personnel
+        {
+			id: "V8OUvPiHabT-bj9TvyIDtwi-val",
+			children: ["RSMht6Qosgc-bj9TvyIDtwi-val","oLW42C1cyO6-bj9TvyIDtwi-val","lJEqAtOXtsG-bj9TvyIDtwi-val"]
+        },
+        {
+			id: "V8OUvPiHabT-lcB0UtS4nuB-val",
+			children: ["RSMht6Qosgc-lcB0UtS4nuB-val","oLW42C1cyO6-lcB0UtS4nuB-val","lJEqAtOXtsG-lcB0UtS4nuB-val"]
+        },
+        {
+			id: "V8OUvPiHabT-LvGn3KFEzvA-val",
+			children: ["RSMht6Qosgc-LvGn3KFEzvA-val","oLW42C1cyO6-LvGn3KFEzvA-val","lJEqAtOXtsG-LvGn3KFEzvA-val"]
+        },
+        {
+			id: "V8OUvPiHabT-wcnRf5LJrnK-val",
+			children: ["RSMht6Qosgc-wcnRf5LJrnK-val","oLW42C1cyO6-wcnRf5LJrnK-val","lJEqAtOXtsG-wcnRf5LJrnK-val"]
+        },
+        {
+			id: "V8OUvPiHabT-MXfWGD11wLh-val",
+			children: ["RSMht6Qosgc-MXfWGD11wLh-val","oLW42C1cyO6-MXfWGD11wLh-val","lJEqAtOXtsG-MXfWGD11wLh-val"]
+        },
+        {
+			id: "V8OUvPiHabT-P5jMO9Y0SRn-val",
+			children: ["RSMht6Qosgc-P5jMO9Y0SRn-val","oLW42C1cyO6-P5jMO9Y0SRn-val","lJEqAtOXtsG-P5jMO9Y0SRn-val"]
+        },
+        {
+			id: "V8OUvPiHabT-eWjpUQpzWKX-val",
+			children: ["RSMht6Qosgc-eWjpUQpzWKX-val","oLW42C1cyO6-eWjpUQpzWKX-val","lJEqAtOXtsG-eWjpUQpzWKX-val"]
+        },
+        {
+			id: "V8OUvPiHabT-hC2N9T8F5JD-val",
+			children: ["RSMht6Qosgc-hC2N9T8F5JD-val","oLW42C1cyO6-hC2N9T8F5JD-val","lJEqAtOXtsG-hC2N9T8F5JD-val"]
+        },
+        {
+			id: "V8OUvPiHabT-xgbBSeyiDWp-val",
+			children: ["RSMht6Qosgc-IhnQTXo2sCi-val","oLW42C1cyO6-xgbBSeyiDWp-val","lJEqAtOXtsG-xgbBSeyiDWp-val"]
+        },
+        {
+			id: "V8OUvPiHabT-IhnQTXo2sCi-val",
+			children: ["RSMht6Qosgc-xgbBSeyiDWp-val","oLW42C1cyO6-IhnQTXo2sCi-val","lJEqAtOXtsG-IhnQTXo2sCi-val"]
+        },
+        {
+			id: "V8OUvPiHabT-rEUC186wftQ-val",
+			children: ["RSMht6Qosgc-rEUC186wftQ-val","oLW42C1cyO6-rEUC186wftQ-val","lJEqAtOXtsG-rEUC186wftQ-val"]
+        },
+        {
+			id: "V8OUvPiHabT-s5mo8EjeKiY-val",
+			children: ["RSMht6Qosgc-s5mo8EjeKiY-val","oLW42C1cyO6-s5mo8EjeKiY-val","lJEqAtOXtsG-s5mo8EjeKiY-val"]
+        },
+        {
+			id: "V8OUvPiHabT-ADfCJWnnU2O-val",
+			children: ["RSMht6Qosgc-ADfCJWnnU2O-val","oLW42C1cyO6-ADfCJWnnU2O-val","lJEqAtOXtsG-ADfCJWnnU2O-val"]
+        }
+	];
+
+	function calculateNumericCells() {
+		calculatedNumericCells.forEach(function(calculatedNumericCell){
+			calculateNumericCell(calculatedNumericCell.id);
+        });
+    }
+
+	function calculateCheckboxCells() {
+		calculatedCheckboxCells.forEach(function(calculatedCheckboxCell){
+			calculateCheckboxCell(calculatedCheckboxCell.id);
+        });
+    }
+
+	function calculateNumericCell(inputId) {
+		var total = 0;
+
+		var calculateNumericCell = calculatedNumericCells.find(function(cell) {
+			return cell.id == inputId;
+		});
+
+		calculateNumericCell.children.forEach(function(childId){
+			var value = $('#' + childId).val();
+
+			if (value != "" && !isNaN(value)){
+				total = total + parseInt(value);
+			}
+        });
+
+		$('#' + inputId).val(total);
+		$('#' + inputId).trigger( "change" );
+    }
+
+	function calculateCheckboxCell(inputId) {
+
+		var isChecked = false;
+
+		var calculateCheckboxCell = calculatedCheckboxCells.find(function(cell) {
+			return cell.id == inputId;
+		});
+
+		calculateCheckboxCell.children.forEach(function(childId){
+			var childIsChecked = $('#' + childId).is(':checked');
+
+			if (childIsChecked == true){
+				isChecked = true;
+			}
+        });
+
+		$('#' + inputId).prop("checked", isChecked);
+    }
+
+	function onNumericInputChange(changedInputId) {
+		calculatedNumericCells.forEach(function(calculatedNumericCell){
+			calculatedNumericCell.children.forEach(function(childId){
+				if (changedInputId == childId){
+					calculateNumericCell(calculatedNumericCell.id);
+					return;
+				}
+			});
+        });
+    }
+
+	function onCheckboxInputChange(changedInputId) {
+		calculatedCheckboxCells.forEach(function(calculatedCheckboxCell){
+			calculatedCheckboxCell.children.forEach(function(childId){
+				if (changedInputId == childId){
+					calculateCheckboxCell(calculatedCheckboxCell.id);
+					return;
+				}
+			});
+        });
+    }
+
     $(document).ready(function(){
         $(function() {
             $( "#mod2_tabs" ).tabs();
+
+            $('.read-only input').each(function() {
+				$(this).attr("disabled", "disabled");
+			});
+
+			$('input[type=text]').on('input', function(e){ onNumericInputChange(e.target.id); });
+			$('input[type=checkbox]').on('change', function(e){ onCheckboxInputChange(e.target.id); });
         });
     });
       var expanded = false;
@@ -24,7 +547,7 @@
                 $('#alert-error').hide();
             });
         });
-       
+
         if($('#newCompleteButton').length == 0){
             $('#newCompleteButton').removeAttr("disabled");
             var inn = "input";
@@ -47,6 +570,9 @@
                 clearInterval(interval);
             }
         },100)
+
+        calculateNumericCells();
+		calculateCheckboxCells();
     })
 
     dhis2.util.on( 'dhis2.de.event.completed', function( event, ds ) {
@@ -111,23 +637,23 @@
 		</tr>
 	</thead>
 	<tbody>
-		<tr>
+		<tr class="read-only">
 			<th scope="row">1</th>
 			<th colspan="3" scope="row" style="text-align: left;">Medical Doctors</th>
-			<th style="text-align: center;"><input id="ePgUyGHxJuI-Xr12mI7VPn3-val" name="entryfield" title="Medical Doctors Stock (Subnational)" value="[ Medical Doctors Stock (Subnational) ]" /></th>
+			<th style="text-align: center;"><input id="qcDKkL7Xkl4-Xr12mI7VPn3-val" name="entryfield" title="Medical Doctors Stock (Subnational)" value="[ Medical Doctors Stock (Subnational) ]" /></th>
 			<td style="text-align: left;">
 			<div class="multiselect">
-			<div class="selectBox" onclick="showCheckboxes('checkboxes1')"><select><option>Select an option</option></select>
+			<div class="selectBox" onclick="showCheckboxes('checkboxes56')"><select><option>Select an option</option></select>
 			<div class="overSelect">&nbsp;</div>
 			</div>
 
-			<div class="hwf" id="checkboxes1">
+			<div class="hwf" id="checkboxes56">
 			<table border="0" cellpadding="0" cellspacing="0">
 				<tbody>
 					<tr style="text-align: left;">
-						<td><label><input id="y8MA1BOZ3OO-bj9TvyIDtwi-val" name="entryfield" title="Medical Doctors composition and distribution source type  (Subnational) Academia" value="[ Medical Doctors composition and distribution source type  (Subnational) Academia ]" />Academia</label><label><input id="y8MA1BOZ3OO-lcB0UtS4nuB-val" name="entryfield" title="Medical Doctors composition and distribution source type  (Subnational) International organisations" value="[ Medical Doctors composition and distribution source type  (Subnational) International organisations ]" />International organisation</label> <label for="two"><input id="y8MA1BOZ3OO-LvGn3KFEzvA-val" name="entryfield" title="Medical Doctors composition and distribution source type  (Subnational) Ministry of Health" value="[ Medical Doctors composition and distribution source type  (Subnational) Ministry of Health ]" />Ministry of Health</label> <label for="three"><input id="y8MA1BOZ3OO-wcnRf5LJrnK-val" name="entryfield" title="Medical Doctors composition and distribution source type  (Subnational) Ministry of Internal or External Affairs" value="[ Medical Doctors composition and distribution source type  (Subnational) Ministry of Internal or External Affairs ]" />Ministry of Internal or External Affairs</label> <label for="four"><input id="y8MA1BOZ3OO-MXfWGD11wLh-val" name="entryfield" title="Medical Doctors composition and distribution source type  (Subnational) Ministry of Labour" value="[ Medical Doctors composition and distribution source type  (Subnational) Ministry of Labour ]" />Ministry of Labour</label></td>
-						<td><label><input id="y8MA1BOZ3OO-P5jMO9Y0SRn-val" name="entryfield" title="Medical Doctors composition and distribution source type  (Subnational) Multi Agency organisations" value="[ Medical Doctors composition and distribution source type  (Subnational) Multi Agency organisations ]" />Multi Agency organisations</label> <label for="six"><input id="y8MA1BOZ3OO-eWjpUQpzWKX-val" name="entryfield" title="Medical Doctors composition and distribution source type  (Subnational) National HRH Observatory" value="[ Medical Doctors composition and distribution source type  (Subnational) National HRH Observatory ]" />National HRH Observatory</label> <label for="seven"><input id="y8MA1BOZ3OO-hC2N9T8F5JD-val" name="entryfield" title="Medical Doctors composition and distribution source type  (Subnational) National/Central Statistical Office" value="[ Medical Doctors composition and distribution source type  (Subnational) National/Central Statistical Office ]" />National/Central Statistical Office</label> <label for="eight"><input id="y8MA1BOZ3OO-xgbBSeyiDWp-val" name="entryfield" title="Medical Doctors composition and distribution source type  (Subnational) Other multi Agency databases" value="[ Medical Doctors composition and distribution source type  (Subnational) Other multi Agency databases ]" />Other multi Agency databases</label></td>
-						<td><label><input id="y8MA1BOZ3OO-IhnQTXo2sCi-val" name="entryfield" title="Medical Doctors composition and distribution source type  (Subnational) Other WHO Regional databases" value="[ Medical Doctors composition and distribution source type  (Subnational) Other WHO Regional databases ]" />Other WHO Regional databases</label> <label for="ten"><input id="y8MA1BOZ3OO-rEUC186wftQ-val" name="entryfield" title="Medical Doctors composition and distribution source type  (Subnational) Professional association" value="[ Medical Doctors composition and distribution source type  (Subnational) Professional association ]" />Professional association</label><label for="eleven"><input id="y8MA1BOZ3OO-s5mo8EjeKiY-val" name="entryfield" title="Medical Doctors composition and distribution source type  (Subnational) Regional HRH Observatory" value="[ Medical Doctors composition and distribution source type  (Subnational) Regional HRH Observatory ]" />Regional HRH Observatory</label> <label for="tweleve"><input id="y8MA1BOZ3OO-ADfCJWnnU2O-val" name="entryfield" title="Medical Doctors composition and distribution source type  (Subnational) Regulatory bodies" value="[ Medical Doctors composition and distribution source type  (Subnational) Regulatory bodies ]" />Regulatory bodies</label></td>
+						<td><label><input id="TVBVT6naFjQ-bj9TvyIDtwi-val" name="entryfield" title="Medical Doctors composition and distribution source type  (Subnational) Academia" value="[ Medical Doctors composition and distribution source type  (Subnational) Academia ]" />Academia</label><label><input id="TVBVT6naFjQ-lcB0UtS4nuB-val" name="entryfield" title="Medical Doctors composition and distribution source type  (Subnational) International organisations" value="[ Medical Doctors composition and distribution source type  (Subnational) International organisations ]" />International organisation</label> <label for="two"><input id="TVBVT6naFjQ-LvGn3KFEzvA-val" name="entryfield" title="Medical Doctors composition and distribution source type  (Subnational) Ministry of Health" value="[ Medical Doctors composition and distribution source type  (Subnational) Ministry of Health ]" />Ministry of Health</label> <label for="three"><input id="TVBVT6naFjQ-wcnRf5LJrnK-val" name="entryfield" title="Medical Doctors composition and distribution source type  (Subnational) Ministry of Internal or External Affairs" value="[ Medical Doctors composition and distribution source type  (Subnational) Ministry of Internal or External Affairs ]" />Ministry of Internal or External Affairs</label> <label for="four"><input id="TVBVT6naFjQ-MXfWGD11wLh-val" name="entryfield" title="Medical Doctors composition and distribution source type  (Subnational) Ministry of Labour" value="[ Medical Doctors composition and distribution source type  (Subnational) Ministry of Labour ]" />Ministry of Labour</label></td>
+						<td><label><input id="TVBVT6naFjQ-P5jMO9Y0SRn-val" name="entryfield" title="Medical Doctors composition and distribution source type  (Subnational) Multi Agency organisations" value="[ Medical Doctors composition and distribution source type  (Subnational) Multi Agency organisations ]" />Multi Agency organisations</label> <label for="six"><input id="TVBVT6naFjQ-eWjpUQpzWKX-val" name="entryfield" title="Medical Doctors composition and distribution source type  (Subnational) National HRH Observatory" value="[ Medical Doctors composition and distribution source type  (Subnational) National HRH Observatory ]" />National HRH Observatory</label> <label for="seven"><input id="TVBVT6naFjQ-hC2N9T8F5JD-val" name="entryfield" title="Medical Doctors composition and distribution source type  (Subnational) National/Central Statistical Office" value="[ Medical Doctors composition and distribution source type  (Subnational) National/Central Statistical Office ]" />National/Central Statistical Office</label> <label for="eight"><input id="TVBVT6naFjQ-xgbBSeyiDWp-val" name="entryfield" title="Medical Doctors composition and distribution source type  (Subnational) Other multi Agency databases" value="[ Medical Doctors composition and distribution source type  (Subnational) Other multi Agency databases ]" />Other multi Agency databases</label></td>
+						<td><label><input id="TVBVT6naFjQ-IhnQTXo2sCi-val" name="entryfield" title="Medical Doctors composition and distribution source type  (Subnational) Other WHO Regional databases" value="[ Medical Doctors composition and distribution source type  (Subnational) Other WHO Regional databases ]" />Other WHO Regional databases</label> <label for="ten"><input id="TVBVT6naFjQ-rEUC186wftQ-val" name="entryfield" title="Medical Doctors composition and distribution source type  (Subnational) Professional association" value="[ Medical Doctors composition and distribution source type  (Subnational) Professional association ]" />Professional association</label><label for="eleven"><input id="TVBVT6naFjQ-s5mo8EjeKiY-val" name="entryfield" title="Medical Doctors composition and distribution source type  (Subnational) Regional HRH Observatory" value="[ Medical Doctors composition and distribution source type  (Subnational) Regional HRH Observatory ]" />Regional HRH Observatory</label> <label for="tweleve"><input id="TVBVT6naFjQ-ADfCJWnnU2O-val" name="entryfield" title="Medical Doctors composition and distribution source type  (Subnational) Regulatory bodies" value="[ Medical Doctors composition and distribution source type  (Subnational) Regulatory bodies ]" />Regulatory bodies</label></td>
 					</tr>
 				</tbody>
 			</table>
@@ -342,24 +868,50 @@
 			</div>
 			</div>
 			</td>
-		</tr>
-		<tr>
-			<th scope="row">2</th>
-			<th colspan="3" scope="row" style="text-align: left;">Nursing Personnel</th>
-			<th style="text-align: center;"><input id="T58TEnz6WgZ-Xr12mI7VPn3-val" name="entryfield" title="Nursing General Personnel Stock (Subnational)" value="[ Nursing General Personnel Stock (Subnational) ]" /></th>
-			<td colspan="3" style="text-align: left;">
+        </tr>
+        <tr>
+		<th scope="row">1.3</th>
+            <th colspan="3" rowspan="1" scope="row">
+                <p style="text-align: left; margin-left: 20px;">Medical doctors not further defined</p>
+                </th>
+			<th style="text-align: center;"><input id="ePgUyGHxJuI-Xr12mI7VPn3-val" name="entryfield" title="Medical doctors not further defined Stock (Subnational)" value="[ Medical doctors not further defined Stock (Subnational) ]" /></th>
+			<td style="text-align: left;">
 			<div class="multiselect">
-			<div class="selectBox" onclick="showCheckboxes('checkboxes10')"><select><option>Select an option</option> </select>
+			<div class="selectBox" onclick="showCheckboxes('checkboxes1')"><select><option>Select an option</option></select>
 			<div class="overSelect">&nbsp;</div>
 			</div>
 
-			<div class="hwf" id="checkboxes10">
+			<div class="hwf" id="checkboxes1">
+			<table border="0" cellpadding="0" cellspacing="0">
+				<tbody>
+					<tr style="text-align: left;">
+						<td><label><input id="y8MA1BOZ3OO-bj9TvyIDtwi-val" name="entryfield" title="Medical doctors not further defined composition and distribution source type  (Subnational) Academia" value="[ Medical doctors not further defined composition and distribution source type  (Subnational) Academia ]" />Academia</label><label><input id="y8MA1BOZ3OO-lcB0UtS4nuB-val" name="entryfield" title="Medical doctors not further defined composition and distribution source type  (Subnational) International organisations" value="[ Medical doctors not further defined composition and distribution source type  (Subnational) International organisations ]" />International organisation</label> <label for="two"><input id="y8MA1BOZ3OO-LvGn3KFEzvA-val" name="entryfield" title="Medical doctors not further defined composition and distribution source type  (Subnational) Ministry of Health" value="[ Medical doctors not further defined composition and distribution source type  (Subnational) Ministry of Health ]" />Ministry of Health</label> <label for="three"><input id="y8MA1BOZ3OO-wcnRf5LJrnK-val" name="entryfield" title="Medical doctors not further defined composition and distribution source type  (Subnational) Ministry of Internal or External Affairs" value="[ Medical doctors not further defined composition and distribution source type  (Subnational) Ministry of Internal or External Affairs ]" />Ministry of Internal or External Affairs</label> <label for="four"><input id="y8MA1BOZ3OO-MXfWGD11wLh-val" name="entryfield" title="Medical doctors not further defined composition and distribution source type  (Subnational) Ministry of Labour" value="[ Medical doctors not further defined composition and distribution source type  (Subnational) Ministry of Labour ]" />Ministry of Labour</label></td>
+						<td><label><input id="y8MA1BOZ3OO-P5jMO9Y0SRn-val" name="entryfield" title="Medical doctors not further defined composition and distribution source type  (Subnational) Multi Agency organisations" value="[Medical doctors not further defined composition and distribution source type  (Subnational) Multi Agency organisations ]" />Multi Agency organisations</label> <label for="six"><input id="y8MA1BOZ3OO-eWjpUQpzWKX-val" name="entryfield" title="Medical doctors not further defined composition and distribution source type  (Subnational) National HRH Observatory" value="[ Medical doctors not further defined composition and distribution source type  (Subnational) National HRH Observatory ]" />National HRH Observatory</label> <label for="seven"><input id="y8MA1BOZ3OO-hC2N9T8F5JD-val" name="entryfield" title="Medical doctors not further defined composition and distribution source type  (Subnational) National/Central Statistical Office" value="[ Medical doctors not further defined composition and distribution source type  (Subnational) National/Central Statistical Office ]" />National/Central Statistical Office</label> <label for="eight"><input id="y8MA1BOZ3OO-xgbBSeyiDWp-val" name="entryfield" title="Medical doctors not further defined composition and distribution source type  (Subnational) Other multi Agency databases" value="[ Medical doctors not further defined composition and distribution source type  (Subnational) Other multi Agency databases ]" />Other multi Agency databases</label></td>
+						<td><label><input id="y8MA1BOZ3OO-IhnQTXo2sCi-val" name="entryfield" title="Medical doctors not further defined composition and distribution source type  (Subnational) Other WHO Regional databases" value="[ Medical doctors not further defined composition and distribution source type  (Subnational) Other WHO Regional databases ]" />Other WHO Regional databases</label> <label for="ten"><input id="y8MA1BOZ3OO-rEUC186wftQ-val" name="entryfield" title="Medical doctors not further defined composition and distribution source type  (Subnational) Professional association" value="[ Medical doctors not further defined composition and distribution source type  (Subnational) Professional association ]" />Professional association</label><label for="eleven"><input id="y8MA1BOZ3OO-s5mo8EjeKiY-val" name="entryfield" title="Medical doctors not further defined composition and distribution source type  (Subnational) Regional HRH Observatory" value="[ Medical doctors not further defined composition and distribution source type  (Subnational) Regional HRH Observatory ]" />Regional HRH Observatory</label> <label for="tweleve"><input id="y8MA1BOZ3OO-ADfCJWnnU2O-val" name="entryfield" title="Medical doctors not further defined composition and distribution source type  (Subnational) Regulatory bodies" value="[ Medical doctors not further defined composition and distribution source type  (Subnational) Regulatory bodies ]" />Regulatory bodies</label></td>
+					</tr>
+				</tbody>
+			</table>
+			</div>
+			</div>
+			</td>
+		</tr>
+		<tr class="read-only">
+			<th scope="row">2</th>
+			<th colspan="3" scope="row" style="text-align: left;">Nursing Personnel</th>
+			<th style="text-align: center;"><input id="ok6yvzSABcU-Xr12mI7VPn3-val" name="entryfield" title="Nursing General Personnel Stock (Subnational)" value="[ Nursing General Personnel Stock (Subnational) ]" /></th>
+			<td colspan="3" style="text-align: left;">
+			<div class="multiselect">
+			<div class="selectBox" onclick="showCheckboxes('checkboxes57')"><select><option>Select an option</option> </select>
+			<div class="overSelect">&nbsp;</div>
+			</div>
+
+			<div class="hwf" id="checkboxes57">
 			<table border="0">
 				<tbody>
 					<tr style="text-align: left;">
-						<td><label><input id="OgG8wQ6Zajq-bj9TvyIDtwi-val" name="entryfield" title="Nursing General Personnel composition and distribution source type (Subnational) Academia" value="[ Nursing General Personnel composition and distribution source type (Subnational) Academia ]" />Academia</label><label><input id="OgG8wQ6Zajq-lcB0UtS4nuB-val" name="entryfield" title="Nursing General Personnel composition and distribution source type (Subnational) International organisations" value="[ Nursing General Personnel composition and distribution source type (Subnational) International organisations ]" />International organisations</label><label><input id="OgG8wQ6Zajq-LvGn3KFEzvA-val" name="entryfield" title="Nursing General Personnel composition and distribution source type (Subnational) Ministry of Health" value="[ Nursing General Personnel composition and distribution source type (Subnational) Ministry of Health ]" />Ministry of Health</label><label><input id="OgG8wQ6Zajq-wcnRf5LJrnK-val" name="entryfield" title="Nursing General Personnel composition and distribution source type (Subnational) Ministry of Internal or External Affairs" value="[ Nursing General Personnel composition and distribution source type (Subnational) Ministry of Internal or External Affairs ]" />Ministry of Internal or External Affairs</label><label><input id="OgG8wQ6Zajq-MXfWGD11wLh-val" name="entryfield" title="Nursing General Personnel composition and distribution source type (Subnational) Ministry of Labour" value="[ Nursing General Personnel composition and distribution source type (Subnational) Ministry of Labour ]" />Ministry of Labour</label></td>
-						<td><label><input id="OgG8wQ6Zajq-P5jMO9Y0SRn-val" name="entryfield" title="Nursing General Personnel composition and distribution source type (Subnational) Multi Agency organisations" value="[ Nursing General Personnel composition and distribution source type (Subnational) Multi Agency organisations ]" />Multi Agency organisations</label><label><input id="OgG8wQ6Zajq-eWjpUQpzWKX-val" name="entryfield" title="Nursing General Personnel composition and distribution source type (Subnational) National HRH Observatory" value="[ Nursing General Personnel composition and distribution source type (Subnational) National HRH Observatory ]" />National HRH Observatory</label><label><input id="OgG8wQ6Zajq-hC2N9T8F5JD-val" name="entryfield" title="Nursing General Personnel composition and distribution source type (Subnational) National/Central Statistical Office" value="[ Nursing General Personnel composition and distribution source type (Subnational) National/Central Statistical Office ]" />National/Central Statistical Office</label><label><input id="OgG8wQ6Zajq-xgbBSeyiDWp-val" name="entryfield" title="Nursing General Personnel composition and distribution source type (Subnational) Other multi Agency databases" value="[ Nursing General Personnel composition and distribution source type (Subnational) Other multi Agency databases ]" />Other multi Agency databases</label></td>
-						<td><label><input id="OgG8wQ6Zajq-IhnQTXo2sCi-val" name="entryfield" title="Nursing General Personnel composition and distribution source type (Subnational) Other WHO Regional databases" value="[ Nursing General Personnel composition and distribution source type (Subnational) Other WHO Regional databases ]" />Other WHO Regional databases</label><label><input id="OgG8wQ6Zajq-rEUC186wftQ-val" name="entryfield" title="Nursing General Personnel composition and distribution source type (Subnational) Professional association" value="[ Nursing General Personnel composition and distribution source type (Subnational) Professional association ]" />Professional association</label><label><input id="OgG8wQ6Zajq-s5mo8EjeKiY-val" name="entryfield" title="Nursing General Personnel composition and distribution source type (Subnational) Regional HRH Observatory" value="[ Nursing General Personnel composition and distribution source type (Subnational) Regional HRH Observatory ]" />Regional HRH Observatory</label><label><input id="OgG8wQ6Zajq-ADfCJWnnU2O-val" name="entryfield" title="Nursing General Personnel composition and distribution source type (Subnational) Regulatory bodies" value="[ Nursing General Personnel composition and distribution source type (Subnational) Regulatory bodies ]" />Regulatory bodies</label></td>
+						<td><label><input id="SV71PdZSkmd-bj9TvyIDtwi-val" name="entryfield" title="Nursing General Personnel composition and distribution source type (Subnational) Academia" value="[ Nursing General Personnel composition and distribution source type (Subnational) Academia ]" />Academia</label><label><input id="SV71PdZSkmd-lcB0UtS4nuB-val" name="entryfield" title="Nursing General Personnel composition and distribution source type (Subnational) International organisations" value="[ Nursing General Personnel composition and distribution source type (Subnational) International organisations ]" />International organisations</label><label><input id="SV71PdZSkmd-LvGn3KFEzvA-val" name="entryfield" title="Nursing General Personnel composition and distribution source type (Subnational) Ministry of Health" value="[ Nursing General Personnel composition and distribution source type (Subnational) Ministry of Health ]" />Ministry of Health</label><label><input id="SV71PdZSkmd-wcnRf5LJrnK-val" name="entryfield" title="Nursing General Personnel composition and distribution source type (Subnational) Ministry of Internal or External Affairs" value="[ Nursing General Personnel composition and distribution source type (Subnational) Ministry of Internal or External Affairs ]" />Ministry of Internal or External Affairs</label><label><input id="SV71PdZSkmd-MXfWGD11wLh-val" name="entryfield" title="Nursing General Personnel composition and distribution source type (Subnational) Ministry of Labour" value="[ Nursing General Personnel composition and distribution source type (Subnational) Ministry of Labour ]" />Ministry of Labour</label></td>
+						<td><label><input id="SV71PdZSkmd-P5jMO9Y0SRn-val" name="entryfield" title="Nursing General Personnel composition and distribution source type (Subnational) Multi Agency organisations" value="[ Nursing General Personnel composition and distribution source type (Subnational) Multi Agency organisations ]" />Multi Agency organisations</label><label><input id="SV71PdZSkmd-eWjpUQpzWKX-val" name="entryfield" title="Nursing General Personnel composition and distribution source type (Subnational) National HRH Observatory" value="[ Nursing General Personnel composition and distribution source type (Subnational) National HRH Observatory ]" />National HRH Observatory</label><label><input id="SV71PdZSkmd-hC2N9T8F5JD-val" name="entryfield" title="Nursing General Personnel composition and distribution source type (Subnational) National/Central Statistical Office" value="[ Nursing General Personnel composition and distribution source type (Subnational) National/Central Statistical Office ]" />National/Central Statistical Office</label><label><input id="SV71PdZSkmd-xgbBSeyiDWp-val" name="entryfield" title="Nursing General Personnel composition and distribution source type (Subnational) Other multi Agency databases" value="[ Nursing General Personnel composition and distribution source type (Subnational) Other multi Agency databases ]" />Other multi Agency databases</label></td>
+						<td><label><input id="SV71PdZSkmd-IhnQTXo2sCi-val" name="entryfield" title="Nursing General Personnel composition and distribution source type (Subnational) Other WHO Regional databases" value="[ Nursing General Personnel composition and distribution source type (Subnational) Other WHO Regional databases ]" />Other WHO Regional databases</label><label><input id="SV71PdZSkmd-rEUC186wftQ-val" name="entryfield" title="Nursing General Personnel composition and distribution source type (Subnational) Professional association" value="[ Nursing General Personnel composition and distribution source type (Subnational) Professional association ]" />Professional association</label><label><input id="SV71PdZSkmd-s5mo8EjeKiY-val" name="entryfield" title="Nursing General Personnel composition and distribution source type (Subnational) Regional HRH Observatory" value="[ Nursing General Personnel composition and distribution source type (Subnational) Regional HRH Observatory ]" />Regional HRH Observatory</label><label><input id="SV71PdZSkmd-ADfCJWnnU2O-val" name="entryfield" title="Nursing General Personnel composition and distribution source type (Subnational) Regulatory bodies" value="[ Nursing General Personnel composition and distribution source type (Subnational) Regulatory bodies ]" />Regulatory bodies</label></td>
 					</tr>
 				</tbody>
 			</table>
@@ -418,24 +970,50 @@
 			</div>
 			</div>
 			</td>
-		</tr>
-		<tr>
-			<th scope="row">3</th>
-			<th colspan="3" scope="row" style="text-align: left;">Midwifery personnel</th>
-			<th style="text-align: center;"><input id="QC2yRZy5Fn7-Xr12mI7VPn3-val" name="entryfield" title="Midwifery personnel Stock (Subnational)" value="[ Midwifery personnel Stock (Subnational) ]" /></th>
+        </tr>
+        <tr>
+		<th scope="row">2.3</th>
+            <th colspan="3" scope="row" style="text-align: left;">
+                <p style="text-align: left; margin-left: 20px;">Nurses not further defined</p>
+                </th>
+			<th style="text-align: center;"><input id="T58TEnz6WgZ-Xr12mI7VPn3-val" name="entryfield" title="Nurses not further defined Stock (Subnational)" value="[ Nurses not further defined Stock (Subnational) ]" /></th>
 			<td colspan="3" style="text-align: left;">
 			<div class="multiselect">
-			<div class="selectBox" onclick="showCheckboxes('checkboxes13')"><select><option>Select an option</option> </select>
+			<div class="selectBox" onclick="showCheckboxes('checkboxes10')"><select><option>Select an option</option> </select>
 			<div class="overSelect">&nbsp;</div>
 			</div>
 
-			<div class="hwf" id="checkboxes13">
+			<div class="hwf" id="checkboxes10">
 			<table border="0">
 				<tbody>
 					<tr style="text-align: left;">
-						<td><label><input id="lJEqAtOXtsG-bj9TvyIDtwi-val" name="entryfield" title="Midwifery personnel composition and distribution source type (Subnational) Academia" value="[ Midwifery personnel composition and distribution source type (Subnational) Academia ]" />Academia</label><label><input id="lJEqAtOXtsG-lcB0UtS4nuB-val" name="entryfield" title="Midwifery personnel composition and distribution source type (Subnational) International organisations" value="[ Midwifery personnel composition and distribution source type (Subnational) International organisations ]" />International organisations</label><label><input id="lJEqAtOXtsG-LvGn3KFEzvA-val" name="entryfield" title="Midwifery personnel composition and distribution source type (Subnational) Ministry of Health" value="[ Midwifery personnel composition and distribution source type (Subnational) Ministry of Health ]" />Ministry of Internal or External Affairs</label><label><input id="lJEqAtOXtsG-wcnRf5LJrnK-val" name="entryfield" title="Midwifery personnel composition and distribution source type (Subnational) Ministry of Internal or External Affairs" value="[ Midwifery personnel composition and distribution source type (Subnational) Ministry of Internal or External Affairs ]" />Ministry of Internal or External Affairs</label><label><input id="lJEqAtOXtsG-MXfWGD11wLh-val" name="entryfield" title="Midwifery personnel composition and distribution source type (Subnational) Ministry of Labour" value="[ Midwifery personnel composition and distribution source type (Subnational) Ministry of Labour ]" />Ministry of Labour</label></td>
-						<td><label><input id="lJEqAtOXtsG-P5jMO9Y0SRn-val" name="entryfield" title="Midwifery personnel composition and distribution source type (Subnational) Multi Agency organisations" value="[ Midwifery personnel composition and distribution source type (Subnational) Multi Agency organisations ]" />Multi Agency organisations</label><label><input id="lJEqAtOXtsG-eWjpUQpzWKX-val" name="entryfield" title="Midwifery personnel composition and distribution source type (Subnational) National HRH Observatory" value="[ Midwifery personnel composition and distribution source type (Subnational) National HRH Observatory ]" />National HRH Observatory</label><label><input id="lJEqAtOXtsG-hC2N9T8F5JD-val" name="entryfield" title="Midwifery personnel composition and distribution source type (Subnational) National/Central Statistical Office" value="[ Midwifery personnel composition and distribution source type (Subnational) National/Central Statistical Office ]" />National/Central Statistical Office</label><label><input id="lJEqAtOXtsG-xgbBSeyiDWp-val" name="entryfield" title="Midwifery personnel composition and distribution source type (Subnational) Other multi Agency databases" value="[ Midwifery personnel composition and distribution source type (Subnational) Other multi Agency databases ]" />Other multi Agency databases</label></td>
-						<td><label><input id="lJEqAtOXtsG-IhnQTXo2sCi-val" name="entryfield" title="Midwifery personnel composition and distribution source type (Subnational) Other WHO Regional databases" value="[ Midwifery personnel composition and distribution source type (Subnational) Other WHO Regional databases ]" />Other WHO Regional databases</label><label><input id="lJEqAtOXtsG-rEUC186wftQ-val" name="entryfield" title="Midwifery personnel composition and distribution source type (Subnational) Professional association" value="[ Midwifery personnel composition and distribution source type (Subnational) Professional association ]" />Professional association</label><label><input id="lJEqAtOXtsG-s5mo8EjeKiY-val" name="entryfield" title="Midwifery personnel composition and distribution source type (Subnational) Regional HRH Observatory" value="[ Midwifery personnel composition and distribution source type (Subnational) Regional HRH Observatory ]" />Regional HRH Observatory</label><label><input id="lJEqAtOXtsG-ADfCJWnnU2O-val" name="entryfield" title="Midwifery personnel composition and distribution source type (Subnational) Regulatory bodies" value="[ Midwifery personnel composition and distribution source type (Subnational) Regulatory bodies ]" />Regulatory bodies</label></td>
+						<td><label><input id="OgG8wQ6Zajq-bj9TvyIDtwi-val" name="entryfield" title="Nurses not further defined composition and distribution source type (Subnational) Academia" value="[ Nurses not further defined composition and distribution source type (Subnational) Academia ]" />Academia</label><label><input id="OgG8wQ6Zajq-lcB0UtS4nuB-val" name="entryfield" title="Nurses not further defined composition and distribution source type (Subnational) International organisations" value="[ Nurses not further defined composition and distribution source type (Subnational) International organisations ]" />International organisations</label><label><input id="OgG8wQ6Zajq-LvGn3KFEzvA-val" name="entryfield" title="Nurses not further defined composition and distribution source type (Subnational) Ministry of Health" value="[ Nurses not further defined composition and distribution source type (Subnational) Ministry of Health ]" />Ministry of Health</label><label><input id="OgG8wQ6Zajq-wcnRf5LJrnK-val" name="entryfield" title="Nurses not further defined composition and distribution source type (Subnational) Ministry of Internal or External Affairs" value="[ Nurses not further defined composition and distribution source type (Subnational) Ministry of Internal or External Affairs ]" />Ministry of Internal or External Affairs</label><label><input id="OgG8wQ6Zajq-MXfWGD11wLh-val" name="entryfield" title="Nurses not further defined composition and distribution source type (Subnational) Ministry of Labour" value="[ Nurses not further defined composition and distribution source type (Subnational) Ministry of Labour ]" />Ministry of Labour</label></td>
+						<td><label><input id="OgG8wQ6Zajq-P5jMO9Y0SRn-val" name="entryfield" title="Nurses not further defined composition and distribution source type (Subnational) Multi Agency organisations" value="[ Nurses not further defined composition and distribution source type (Subnational) Multi Agency organisations ]" />Multi Agency organisations</label><label><input id="OgG8wQ6Zajq-eWjpUQpzWKX-val" name="entryfield" title="Nurses not further defined composition and distribution source type (Subnational) National HRH Observatory" value="[ Nurses not further defined composition and distribution source type (Subnational) National HRH Observatory ]" />National HRH Observatory</label><label><input id="OgG8wQ6Zajq-hC2N9T8F5JD-val" name="entryfield" title="Nurses not further defined composition and distribution source type (Subnational) National/Central Statistical Office" value="[ Nurses not further defined composition and distribution source type (Subnational) National/Central Statistical Office ]" />National/Central Statistical Office</label><label><input id="OgG8wQ6Zajq-xgbBSeyiDWp-val" name="entryfield" title="Nurses not further defined composition and distribution source type (Subnational) Other multi Agency databases" value="[ Nurses not further defined composition and distribution source type (Subnational) Other multi Agency databases ]" />Other multi Agency databases</label></td>
+						<td><label><input id="OgG8wQ6Zajq-IhnQTXo2sCi-val" name="entryfield" title="Nurses not further defined composition and distribution source type (Subnational) Other WHO Regional databases" value="[ Nurses not further defined composition and distribution source type (Subnational) Other WHO Regional databases ]" />Other WHO Regional databases</label><label><input id="OgG8wQ6Zajq-rEUC186wftQ-val" name="entryfield" title="Nurses not further defined composition and distribution source type (Subnational) Professional association" value="[ Nurses not further defined composition and distribution source type (Subnational) Professional association ]" />Professional association</label><label><input id="OgG8wQ6Zajq-s5mo8EjeKiY-val" name="entryfield" title="Nurses not further defined composition and distribution source type (Subnational) Regional HRH Observatory" value="[ Nurses not further defined composition and distribution source type (Subnational) Regional HRH Observatory ]" />Regional HRH Observatory</label><label><input id="OgG8wQ6Zajq-ADfCJWnnU2O-val" name="entryfield" title="Nurses not further defined composition and distribution source type (Subnational) Regulatory bodies" value="[ Nurses not further defined composition and distribution source type (Subnational) Regulatory bodies ]" />Regulatory bodies</label></td>
+					</tr>
+				</tbody>
+			</table>
+			</div>
+			</div>
+			</td>
+		</tr>
+		<tr class="read-only">
+			<th scope="row">3</th>
+			<th colspan="3" scope="row" style="text-align: left;">Midwifery personnel</th>
+			<th style="text-align: center;"><input id="bDQt7HaZCu9-Xr12mI7VPn3-val" name="entryfield" title="Midwifery personnel Stock (Subnational)" value="[ Midwifery personnel Stock (Subnational) ]" /></th>
+			<td colspan="3" style="text-align: left;">
+			<div class="multiselect">
+			<div class="selectBox" onclick="showCheckboxes('checkboxes58')"><select><option>Select an option</option> </select>
+			<div class="overSelect">&nbsp;</div>
+			</div>
+
+			<div class="hwf" id="checkboxes58">
+			<table border="0">
+				<tbody>
+					<tr style="text-align: left;">
+						<td><label><input id="V8OUvPiHabT-bj9TvyIDtwi-val" name="entryfield" title="Midwifery personnel composition and distribution source type (Subnational) Academia" value="[ Midwifery personnel composition and distribution source type (Subnational) Academia ]" />Academia</label><label><input id="V8OUvPiHabT-lcB0UtS4nuB-val" name="entryfield" title="Midwifery personnel composition and distribution source type (Subnational) International organisations" value="[ Midwifery personnel composition and distribution source type (Subnational) International organisations ]" />International organisations</label><label><input id="V8OUvPiHabT-LvGn3KFEzvA-val" name="entryfield" title="Midwifery personnel composition and distribution source type (Subnational) Ministry of Health" value="[ Midwifery personnel composition and distribution source type (Subnational) Ministry of Health ]" />Ministry of Internal or External Affairs</label><label><input id="V8OUvPiHabT-wcnRf5LJrnK-val" name="entryfield" title="Midwifery personnel composition and distribution source type (Subnational) Ministry of Internal or External Affairs" value="[ Midwifery personnel composition and distribution source type (Subnational) Ministry of Internal or External Affairs ]" />Ministry of Internal or External Affairs</label><label><input id="V8OUvPiHabT-MXfWGD11wLh-val" name="entryfield" title="Midwifery personnel composition and distribution source type (Subnational) Ministry of Labour" value="[ Midwifery personnel composition and distribution source type (Subnational) Ministry of Labour ]" />Ministry of Labour</label></td>
+						<td><label><input id="V8OUvPiHabT-P5jMO9Y0SRn-val" name="entryfield" title="Midwifery personnel composition and distribution source type (Subnational) Multi Agency organisations" value="[ Midwifery personnel composition and distribution source type (Subnational) Multi Agency organisations ]" />Multi Agency organisations</label><label><input id="V8OUvPiHabT-eWjpUQpzWKX-val" name="entryfield" title="Midwifery personnel composition and distribution source type (Subnational) National HRH Observatory" value="[ Midwifery personnel composition and distribution source type (Subnational) National HRH Observatory ]" />National HRH Observatory</label><label><input id="V8OUvPiHabT-hC2N9T8F5JD-val" name="entryfield" title="Midwifery personnel composition and distribution source type (Subnational) National/Central Statistical Office" value="[ Midwifery personnel composition and distribution source type (Subnational) National/Central Statistical Office ]" />National/Central Statistical Office</label><label><input id="V8OUvPiHabT-xgbBSeyiDWp-val" name="entryfield" title="Midwifery personnel composition and distribution source type (Subnational) Other multi Agency databases" value="[ Midwifery personnel composition and distribution source type (Subnational) Other multi Agency databases ]" />Other multi Agency databases</label></td>
+						<td><label><input id="V8OUvPiHabT-IhnQTXo2sCi-val" name="entryfield" title="Midwifery personnel composition and distribution source type (Subnational) Other WHO Regional databases" value="[ Midwifery personnel composition and distribution source type (Subnational) Other WHO Regional databases ]" />Other WHO Regional databases</label><label><input id="V8OUvPiHabT-rEUC186wftQ-val" name="entryfield" title="Midwifery personnel composition and distribution source type (Subnational) Professional association" value="[ Midwifery personnel composition and distribution source type (Subnational) Professional association ]" />Professional association</label><label><input id="V8OUvPiHabT-s5mo8EjeKiY-val" name="entryfield" title="Midwifery personnel composition and distribution source type (Subnational) Regional HRH Observatory" value="[ Midwifery personnel composition and distribution source type (Subnational) Regional HRH Observatory ]" />Regional HRH Observatory</label><label><input id="V8OUvPiHabT-ADfCJWnnU2O-val" name="entryfield" title="Midwifery personnel composition and distribution source type (Subnational) Regulatory bodies" value="[ Midwifery personnel composition and distribution source type (Subnational) Regulatory bodies ]" />Regulatory bodies</label></td>
 					</tr>
 				</tbody>
 			</table>
@@ -488,6 +1066,32 @@
 						<td><label><input id="oLW42C1cyO6-bj9TvyIDtwi-val" name="entryfield" title="Midwifery Associate Professionals composition and distribution source type (Subnational) Academia" value="[ Midwifery Associate Professionals composition and distribution source type (Subnational) Academia ]" />Academia</label><label><input id="oLW42C1cyO6-lcB0UtS4nuB-val" name="entryfield" title="Midwifery Associate Professionals composition and distribution source type (Subnational) International organisations" value="[ Midwifery Associate Professionals composition and distribution source type (Subnational) International organisations ]" />International organisations</label><label><input id="oLW42C1cyO6-LvGn3KFEzvA-val" name="entryfield" title="Midwifery Associate Professionals composition and distribution source type (Subnational) Ministry of Health" value="[ Midwifery Associate Professionals composition and distribution source type (Subnational) Ministry of Health ]" />Ministry of Health</label><label><input id="oLW42C1cyO6-wcnRf5LJrnK-val" name="entryfield" title="Midwifery Associate Professionals composition and distribution source type (Subnational) Ministry of Internal or External Affairs" value="[ Midwifery Associate Professionals composition and distribution source type (Subnational) Ministry of Internal or External Affairs ]" />Ministry of Internal or External Affairs</label><label><input id="oLW42C1cyO6-MXfWGD11wLh-val" name="entryfield" title="Midwifery Associate Professionals composition and distribution source type (Subnational) Ministry of Labour" value="[ Midwifery Associate Professionals composition and distribution source type (Subnational) Ministry of Labour ]" />Ministry of Labour</label></td>
 						<td><label><input id="oLW42C1cyO6-P5jMO9Y0SRn-val" name="entryfield" title="Midwifery Associate Professionals composition and distribution source type (Subnational) Multi Agency organisations" value="[ Midwifery Associate Professionals composition and distribution source type (Subnational) Multi Agency organisations ]" />Multi Agency organisations</label><label><input id="oLW42C1cyO6-eWjpUQpzWKX-val" name="entryfield" title="Midwifery Associate Professionals composition and distribution source type (Subnational) National HRH Observatory" value="[ Midwifery Associate Professionals composition and distribution source type (Subnational) National HRH Observatory ]" />National HRH Observatory</label><label><input id="oLW42C1cyO6-hC2N9T8F5JD-val" name="entryfield" title="Midwifery Associate Professionals composition and distribution source type (Subnational) National/Central Statistical Office" value="[ Midwifery Associate Professionals composition and distribution source type (Subnational) National/Central Statistical Office ]" />National/Central Statistical Office</label><label><input id="oLW42C1cyO6-xgbBSeyiDWp-val" name="entryfield" title="Midwifery Associate Professionals composition and distribution source type (Subnational) Other multi Agency databases" value="[ Midwifery Associate Professionals composition and distribution source type (Subnational) Other multi Agency databases ]" />Other multi Agency databases</label></td>
 						<td><label><input id="oLW42C1cyO6-IhnQTXo2sCi-val" name="entryfield" title="Midwifery Associate Professionals composition and distribution source type (Subnational) Other WHO Regional databases" value="[ Midwifery Associate Professionals composition and distribution source type (Subnational) Other WHO Regional databases ]" />Other WHO Regional databases</label><label><input id="oLW42C1cyO6-rEUC186wftQ-val" name="entryfield" title="Midwifery Associate Professionals composition and distribution source type (Subnational) Professional association" value="[ Midwifery Associate Professionals composition and distribution source type (Subnational) Professional association ]" />Professional association</label><label><input id="oLW42C1cyO6-s5mo8EjeKiY-val" name="entryfield" title="Midwifery Associate Professionals composition and distribution source type (Subnational) Regional HRH Observatory" value="[ Midwifery Associate Professionals composition and distribution source type (Subnational) Regional HRH Observatory ]" />Regional HRH Observatory</label><label><input id="oLW42C1cyO6-ADfCJWnnU2O-val" name="entryfield" title="Midwifery Associate Professionals composition and distribution source type (Subnational) Regulatory bodies" value="[ Midwifery Associate Professionals composition and distribution source type (Subnational) Regulatory bodies ]" />Regulatory bodies</label></td>
+					</tr>
+				</tbody>
+			</table>
+			</div>
+			</div>
+			</td>
+        </tr>
+        <tr>
+        <th scope="row">3.3</th>
+        <th colspan="3" scope="row" style="text-align: left;">
+			<p style="text-align: left; margin-left: 20px;">Midwives not further defined</p>
+			</th>
+			<th style="text-align: center;"><input id="QC2yRZy5Fn7-Xr12mI7VPn3-val" name="entryfield" title="Midwives not further defined Stock (Subnational)" value="[ Midwives not further defined Stock (Subnational) ]" /></th>
+			<td colspan="3" style="text-align: left;">
+			<div class="multiselect">
+			<div class="selectBox" onclick="showCheckboxes('checkboxes13')"><select><option>Select an option</option> </select>
+			<div class="overSelect">&nbsp;</div>
+			</div>
+
+			<div class="hwf" id="checkboxes13">
+			<table border="0">
+				<tbody>
+					<tr style="text-align: left;">
+						<td><label><input id="lJEqAtOXtsG-bj9TvyIDtwi-val" name="entryfield" title="Midwives not further defined composition and distribution source type (Subnational) Academia" value="[ Midwives not further defined composition and distribution source type (Subnational) Academia ]" />Academia</label><label><input id="lJEqAtOXtsG-lcB0UtS4nuB-val" name="entryfield" title="Midwives not further defined composition and distribution source type (Subnational) International organisations" value="[ Midwives not further defined composition and distribution source type (Subnational) International organisations ]" />International organisations</label><label><input id="lJEqAtOXtsG-LvGn3KFEzvA-val" name="entryfield" title="Midwives not further defined composition and distribution source type (Subnational) Ministry of Health" value="[ Midwives not further defined composition and distribution source type (Subnational) Ministry of Health ]" />Ministry of Internal or External Affairs</label><label><input id="lJEqAtOXtsG-wcnRf5LJrnK-val" name="entryfield" title="Midwives not further defined composition and distribution source type (Subnational) Ministry of Internal or External Affairs" value="[ Midwives not further defined composition and distribution source type (Subnational) Ministry of Internal or External Affairs ]" />Ministry of Internal or External Affairs</label><label><input id="lJEqAtOXtsG-MXfWGD11wLh-val" name="entryfield" title="Midwives not further defined composition and distribution source type (Subnational) Ministry of Labour" value="[ Midwives not further defined composition and distribution source type (Subnational) Ministry of Labour ]" />Ministry of Labour</label></td>
+						<td><label><input id="lJEqAtOXtsG-P5jMO9Y0SRn-val" name="entryfield" title="Midwives not further defined composition and distribution source type (Subnational) Multi Agency organisations" value="[ Midwives not further defined composition and distribution source type (Subnational) Multi Agency organisations ]" />Multi Agency organisations</label><label><input id="lJEqAtOXtsG-eWjpUQpzWKX-val" name="entryfield" title="Midwives not further defined composition and distribution source type (Subnational) National HRH Observatory" value="[ Midwives not further defined composition and distribution source type (Subnational) National HRH Observatory ]" />National HRH Observatory</label><label><input id="lJEqAtOXtsG-hC2N9T8F5JD-val" name="entryfield" title="Midwives not further defined composition and distribution source type (Subnational) National/Central Statistical Office" value="[ Midwives not further defined composition and distribution source type (Subnational) National/Central Statistical Office ]" />National/Central Statistical Office</label><label><input id="lJEqAtOXtsG-xgbBSeyiDWp-val" name="entryfield" title="Midwives not further defined composition and distribution source type (Subnational) Other multi Agency databases" value="[ Midwives not further defined composition and distribution source type (Subnational) Other multi Agency databases ]" />Other multi Agency databases</label></td>
+						<td><label><input id="lJEqAtOXtsG-IhnQTXo2sCi-val" name="entryfield" title="Midwives not further defined composition and distribution source type (Subnational) Other WHO Regional databases" value="[ Midwives not further defined composition and distribution source type (Subnational) Other WHO Regional databases ]" />Other WHO Regional databases</label><label><input id="lJEqAtOXtsG-rEUC186wftQ-val" name="entryfield" title="Midwives not further defined composition and distribution source type (Subnational) Professional association" value="[ Midwives not further defined composition and distribution source type (Subnational) Professional association ]" />Professional association</label><label><input id="lJEqAtOXtsG-s5mo8EjeKiY-val" name="entryfield" title="Midwives not further defined composition and distribution source type (Subnational) Regional HRH Observatory" value="[ Midwives not further defined composition and distribution source type (Subnational) Regional HRH Observatory ]" />Regional HRH Observatory</label><label><input id="lJEqAtOXtsG-ADfCJWnnU2O-val" name="entryfield" title="Midwives not further defined composition and distribution source type (Subnational) Regulatory bodies" value="[ Midwives not further defined composition and distribution source type (Subnational) Regulatory bodies ]" />Regulatory bodies</label></td>
 					</tr>
 				</tbody>
 			</table>
