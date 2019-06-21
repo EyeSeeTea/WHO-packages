@@ -1,0 +1,986 @@
+{
+  "dataElements": [
+
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "ihsAfRE2H0G"
+      },
+      "code": "221o-Level",
+      "created": "2019-01-21T05:28:58.108",
+      "domainType": "AGGREGATE",
+      "id": "J1gsCnLV1C6",
+      "lastUpdated": "2019-06-06T07:30:35.507",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "legendSets": [],
+      "name": "Medical doctors not further defined Stock By Activity Level",
+      "publicAccess": "--------",
+      "shortName": "MD not further defined Stock By Activity Level",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 1",
+          "id": "gucuWTSL91y",
+          "userGroupUid": "gucuWTSL91y"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "b4XQdI8eqUZ"
+      },
+      "code": "221o-Age",
+      "created": "2019-01-21T05:28:58.109",
+      "domainType": "AGGREGATE",
+      "id": "jD7f0DfCi3d",
+      "lastUpdated": "2019-06-09T08:51:48.354",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "legendSets": [],
+      "name": "Medical doctors not further defined Stock By Age Group",
+      "publicAccess": "--------",
+      "shortName": "Medical doctors not further defined Stock By Age",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 1",
+          "id": "gucuWTSL91y",
+          "userGroupUid": "gucuWTSL91y"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "swjTZ93dg4h"
+      },
+      "code": "221o-HF_owner",
+      "created": "2019-01-21T05:28:58.110",
+      "domainType": "AGGREGATE",
+      "id": "qScWuUGR5yF",
+      "lastUpdated": "2019-06-09T11:34:39.286",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "legendSets": [],
+      "name": "Medical doctors not further defined Stock By HF Ownership",
+      "publicAccess": "--------",
+      "shortName": "Medical doctors not further defined Stock HF owner",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 1",
+          "id": "gucuWTSL91y",
+          "userGroupUid": "gucuWTSL91y"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "A5bhyAmcZKV"
+      },
+      "code": "221o-birth_loc",
+      "created": "2019-01-21T05:28:58.109",
+      "domainType": "AGGREGATE",
+      "id": "JRLY2XBpopS",
+      "lastUpdated": "2019-06-09T10:21:17.426",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "legendSets": [],
+      "name": "Medical doctors not further defined Stock By Place of Birth",
+      "publicAccess": "--------",
+      "shortName": "Medical doctors NFD Stock birth loc.",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 1",
+          "id": "gucuWTSL91y",
+          "userGroupUid": "gucuWTSL91y"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "pTF4zHINsQO"
+      },
+      "code": "221o-traing_loc",
+      "created": "2019-01-21T05:28:58.109",
+      "domainType": "AGGREGATE",
+      "id": "EKWgav1YgFc",
+      "lastUpdated": "2019-06-09T10:23:13.295",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "legendSets": [],
+      "name": "Medical doctors not further defined Stock By Place of Training",
+      "publicAccess": "--------",
+      "shortName": "Medical doctors NFD Stock traing loc.",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 1",
+          "id": "gucuWTSL91y",
+          "userGroupUid": "gucuWTSL91y"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "uAB8kfk7I3z"
+      },
+      "code": "221o-Sex",
+      "created": "2019-01-21T05:28:58.108",
+      "domainType": "AGGREGATE",
+      "id": "tPCE4uhj0hy",
+      "lastUpdated": "2019-06-09T08:48:33.908",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "legendSets": [],
+      "name": "Medical doctors not further defined Stock By Sex",
+      "publicAccess": "--------",
+      "shortName": "Medical doctors not further defined Stock By Sex",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 1",
+          "id": "gucuWTSL91y",
+          "userGroupUid": "gucuWTSL91y"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "U5QaBXGsFlJ"
+      },
+      "code": "221o-HF_type",
+      "created": "2019-01-21T05:28:58.110",
+      "domainType": "AGGREGATE",
+      "id": "tnPO3Tkofqr",
+      "lastUpdated": "2019-06-09T11:36:51.722",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "legendSets": [],
+      "name": "Medical doctors not further defined Stock By Working Facility Type",
+      "publicAccess": "--------",
+      "shortName": "Medical doctors not further defined Stock HF type",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 1",
+          "id": "gucuWTSL91y",
+          "userGroupUid": "gucuWTSL91y"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "221o-Total",
+      "created": "2019-01-21T05:28:58.108",
+      "domainType": "AGGREGATE",
+      "id": "jj5ZtVGdcwd",
+      "lastUpdated": "2019-06-06T07:22:56.508",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "legendSets": [],
+      "name": "Medical doctors not further defined Stock Total",
+      "publicAccess": "--------",
+      "shortName": "Medical doctors not further defined Stock Total",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 1",
+          "id": "gucuWTSL91y",
+          "userGroupUid": "gucuWTSL91y"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "wywD4cOewZX"
+      },
+      "created": "2017-06-15T08:43:02.204",
+      "domainType": "AGGREGATE",
+      "id": "pSRNRBuOBi8",
+      "lastUpdated": "2019-06-06T07:34:11.792",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "legendSets": [],
+      "name": "Medical doctors not further defined composition and distribution source type",
+      "publicAccess": "--------",
+      "shortName": "MDNFD composition and distribution source type",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 1",
+          "id": "gucuWTSL91y",
+          "userGroupUid": "gucuWTSL91y"
+        }
+      ],
+      "valueType": "TRUE_ONLY",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "ihsAfRE2H0G"
+      },
+      "code": "222m-Level",
+      "created": "2019-01-21T05:28:58.108",
+      "domainType": "AGGREGATE",
+      "id": "uTwQaiIEDk6",
+      "lastUpdated": "2019-06-06T08:33:18.697",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "legendSets": [],
+      "name": "Midwives not further defined Stock By Activity Level",
+      "publicAccess": "--------",
+      "shortName": "Midwives NFD Stock By Level",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 1",
+          "id": "gucuWTSL91y",
+          "userGroupUid": "gucuWTSL91y"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "b4XQdI8eqUZ"
+      },
+      "code": "222m-Age",
+      "created": "2019-01-21T05:28:58.109",
+      "domainType": "AGGREGATE",
+      "id": "PRFVamHB0VQ",
+      "lastUpdated": "2019-06-09T09:44:32.183",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "legendSets": [],
+      "name": "Midwives not further defined Stock By Age Group",
+      "publicAccess": "--------",
+      "shortName": "Midwives not further defined Stock By Age",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 1",
+          "id": "gucuWTSL91y",
+          "userGroupUid": "gucuWTSL91y"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "swjTZ93dg4h"
+      },
+      "code": "222m-HF_owner",
+      "created": "2019-01-21T05:28:58.110",
+      "domainType": "AGGREGATE",
+      "id": "GeB8aO0VMdh",
+      "lastUpdated": "2019-06-09T12:37:09.865",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "legendSets": [],
+      "name": "Midwives not further defined Stock By HF Ownership",
+      "publicAccess": "--------",
+      "shortName": "Midwives not further defined Stock HF owner",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 1",
+          "id": "gucuWTSL91y",
+          "userGroupUid": "gucuWTSL91y"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "A5bhyAmcZKV"
+      },
+      "code": "222m-birth_loc",
+      "created": "2019-01-21T05:28:58.109",
+      "domainType": "AGGREGATE",
+      "id": "u1aymSGFTqA",
+      "lastUpdated": "2019-06-09T11:00:38.465",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "legendSets": [],
+      "name": "Midwives not further defined Stock By Place of Birth",
+      "publicAccess": "--------",
+      "shortName": "Midwives not further defined Stock birth loc.",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 1",
+          "id": "gucuWTSL91y",
+          "userGroupUid": "gucuWTSL91y"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "pTF4zHINsQO"
+      },
+      "code": "222m-traing_loc",
+      "created": "2019-01-21T05:28:58.110",
+      "domainType": "AGGREGATE",
+      "id": "ChqxKtGrHVA",
+      "lastUpdated": "2019-06-09T11:02:17.786",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "legendSets": [],
+      "name": "Midwives not further defined Stock By Place of Training",
+      "publicAccess": "--------",
+      "shortName": "Midwives not further defined Stock traing loc.",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 1",
+          "id": "gucuWTSL91y",
+          "userGroupUid": "gucuWTSL91y"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "uAB8kfk7I3z"
+      },
+      "code": "222m-Sex",
+      "created": "2019-01-21T05:28:58.108",
+      "domainType": "AGGREGATE",
+      "id": "arZWO8Ag3iO",
+      "lastUpdated": "2019-06-09T09:43:15.816",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "legendSets": [],
+      "name": "Midwives not further defined Stock By Sex",
+      "publicAccess": "--------",
+      "shortName": "Midwives not further defined Stock By Sex",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 1",
+          "id": "gucuWTSL91y",
+          "userGroupUid": "gucuWTSL91y"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "U5QaBXGsFlJ"
+      },
+      "code": "222m-HF_type",
+      "created": "2019-01-21T05:28:58.110",
+      "domainType": "AGGREGATE",
+      "id": "ezAgi6u5Qta",
+      "lastUpdated": "2019-06-09T12:38:22.908",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "legendSets": [],
+      "name": "Midwives not further defined Stock By Working Facility Type",
+      "publicAccess": "--------",
+      "shortName": "Midwives not further defined Stock HF type",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 1",
+          "id": "gucuWTSL91y",
+          "userGroupUid": "gucuWTSL91y"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "uAB8kfk7I3z"
+      },
+      "code": "222n-Sex",
+      "created": "2019-01-21T05:28:58.108",
+      "domainType": "AGGREGATE",
+      "id": "VIWOOPfPUnX",
+      "lastUpdated": "2019-06-09T09:25:33.719",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "legendSets": [],
+      "name": "Nurses not further defined Stock By Sex",
+      "publicAccess": "--------",
+      "shortName": "Nurses not further defined Stock By Sex",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 1",
+          "id": "gucuWTSL91y",
+          "userGroupUid": "gucuWTSL91y"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "swjTZ93dg4h"
+      },
+      "code": "222n-HF_owner",
+      "created": "2019-01-21T05:28:58.110",
+      "domainType": "AGGREGATE",
+      "id": "YvRkyv7LXzq",
+      "lastUpdated": "2019-06-09T12:10:58.681",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "legendSets": [],
+      "name": "Nurses not further defined Stock By HF Ownership",
+      "publicAccess": "--------",
+      "shortName": "Nurses not further defined  Stock HF owner",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 1",
+          "id": "gucuWTSL91y",
+          "userGroupUid": "gucuWTSL91y"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "ihsAfRE2H0G"
+      },
+      "code": "222n-Level",
+      "created": "2019-01-21T05:28:58.108",
+      "domainType": "AGGREGATE",
+      "id": "Osqz2NJoO0h",
+      "lastUpdated": "2019-06-06T08:02:07.726",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "legendSets": [],
+      "name": "Nurses not further defined Stock By Activity Level",
+      "publicAccess": "--------",
+      "shortName": "Nurses not further defined Stock By Level",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 1",
+          "id": "gucuWTSL91y",
+          "userGroupUid": "gucuWTSL91y"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "wywD4cOewZX"
+      },
+      "created": "2017-06-15T08:43:02.204",
+      "domainType": "AGGREGATE",
+      "id": "vnulYqEDjxA",
+      "lastUpdated": "2019-06-06T08:35:18.216",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "legendSets": [],
+      "name": "Midwives not further defined composition and distribution source type",
+      "publicAccess": "--------",
+      "shortName": "Midwives NFD composition source type",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 1",
+          "id": "gucuWTSL91y",
+          "userGroupUid": "gucuWTSL91y"
+        }
+      ],
+      "valueType": "TRUE_ONLY",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "222m-Total",
+      "created": "2019-01-21T05:28:58.108",
+      "domainType": "AGGREGATE",
+      "id": "LPTrylkVM4Q",
+      "lastUpdated": "2019-06-06T08:30:08.553",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "legendSets": [],
+      "name": "Midwives not further defined Stock Total",
+      "publicAccess": "--------",
+      "shortName": "Midwives not further defined Stock Total",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 1",
+          "id": "gucuWTSL91y",
+          "userGroupUid": "gucuWTSL91y"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "U5QaBXGsFlJ"
+      },
+      "code": "222n-HF_type",
+      "created": "2019-01-21T05:28:58.110",
+      "domainType": "AGGREGATE",
+      "id": "e7mFNsyiTtQ",
+      "lastUpdated": "2019-06-09T12:13:54.633",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "legendSets": [],
+      "name": "Nurses not further defined Stock By Working Facility Type",
+      "publicAccess": "--------",
+      "shortName": "Nurses not further defined Stock HF type",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 1",
+          "id": "gucuWTSL91y",
+          "userGroupUid": "gucuWTSL91y"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "wywD4cOewZX"
+      },
+      "created": "2017-06-15T08:43:02.204",
+      "domainType": "AGGREGATE",
+      "id": "MFUxfSaYW2e",
+      "lastUpdated": "2019-06-06T08:05:31.272",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "legendSets": [],
+      "name": "Nurses not further defined composition and distribution source type",
+      "publicAccess": "--------",
+      "shortName": "NNFD composition and distribution source type",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 1",
+          "id": "gucuWTSL91y",
+          "userGroupUid": "gucuWTSL91y"
+        }
+      ],
+      "valueType": "TRUE_ONLY",
+      "zeroIsSignificant": false
+    },
+    {
+      "aggregationLevels": [],
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "categoryCombo": {
+        "id": "JzvGfLYkX17"
+      },
+      "code": "222n-Total",
+      "created": "2019-01-21T05:28:58.108",
+      "domainType": "AGGREGATE",
+      "id": "CpUti69L5aW",
+      "lastUpdated": "2019-06-06T07:59:26.465",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "legendSets": [],
+      "name": "Nurses not further defined Stock Total",
+      "publicAccess": "--------",
+      "shortName": "Nurses not further defined Stock Total",
+      "translations": [],
+      "user": {
+        "id": "dKttJLRSiIl"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        },
+        {
+          "access": "rw------",
+          "displayName": "NHWA _DATA Capture Module 1",
+          "id": "gucuWTSL91y",
+          "userGroupUid": "gucuWTSL91y"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "zeroIsSignificant": false
+    }
+  ]
+}
