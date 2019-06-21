@@ -1,6 +1,421 @@
 {
   "dataElements": [
-
+    {
+            "metadataType": "dataElements",
+            "lastUpdated": "2019-06-21T12:53:09.240",
+            "id": "ePgUyGHxJuI",
+            "created": "2018-08-29T06:45:25.077",
+            "name": "Medical doctors not further defined Stock (Subnational)",
+            "shortName": "Medical doctors NFD stock (Subnational)",
+            "aggregationType": "SUM",
+            "domainType": "AGGREGATE",
+            "displayName": "Medical doctors not further defined Stock (Subnational)",
+            "publicAccess": "--------",
+            "displayShortName": "Medical doctors NFD stock (Subnational)",
+            "externalAccess": false,
+            "valueType": "INTEGER_ZERO_OR_POSITIVE",
+            "dimensionItem": "ePgUyGHxJuI",
+            "displayFormName": "Medical doctors not further defined Stock (Subnational)",
+            "zeroIsSignificant": true,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "user": {
+                "id": "dKttJLRSiIl"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "ePgUyGHxJuI"
+                    },
+                    "dataSet": {
+                        "id": "Humg4HbkmJg"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "gucuWTSL91y",
+                    "displayName": "NHWA _DATA Capture Module 1",
+                    "id": "gucuWTSL91y"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "fxyLXZ10TXC",
+                    "displayName": "NHWA Team (formerly health workforce team)",
+                    "id": "fxyLXZ10TXC"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+    {
+            "metadataType": "dataElements",
+            "lastUpdated": "2019-06-21T12:58:03.599",
+            "id": "y8MA1BOZ3OO",
+            "created": "2018-08-29T06:48:06.267",
+            "name": "Medical doctors not further defined composition and distribution source type  (Subnational)",
+            "shortName": "Medical doctors NFD Comp src type  (Subnational)",
+            "aggregationType": "SUM",
+            "domainType": "AGGREGATE",
+            "displayName": "Medical doctors not further defined composition and distribution source type  (Subnational)",
+            "publicAccess": "--------",
+            "displayShortName": "Medical doctors NFD Comp src type  (Subnational)",
+            "externalAccess": false,
+            "valueType": "TRUE_ONLY",
+            "dimensionItem": "y8MA1BOZ3OO",
+            "displayFormName": "Medical doctors not further defined composition and distribution source type  (Subnational)",
+            "zeroIsSignificant": true,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "wywD4cOewZX"
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "user": {
+                "id": "dKttJLRSiIl"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "categoryCombo": {
+                        "id": "wywD4cOewZX"
+                    },
+                    "dataElement": {
+                        "id": "y8MA1BOZ3OO"
+                    },
+                    "dataSet": {
+                        "id": "Humg4HbkmJg"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "gucuWTSL91y",
+                    "displayName": "NHWA _DATA Capture Module 1",
+                    "id": "gucuWTSL91y"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "fxyLXZ10TXC",
+                    "displayName": "NHWA Team (formerly health workforce team)",
+                    "id": "fxyLXZ10TXC"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+    {
+            "metadataType": "dataElements",
+            "code": "M01_2221 (Subnational)",
+            "lastUpdated": "2019-06-21T13:20:27.104",
+            "id": "T58TEnz6WgZ",
+            "created": "2018-08-29T11:05:46.111",
+            "name": "Nurses not further defined Stock (Subnational)",
+            "shortName": "Nurses not further defined stock (Subnational)",
+            "aggregationType": "SUM",
+            "domainType": "AGGREGATE",
+            "displayName": "Nurses not further defined Stock (Subnational)",
+            "publicAccess": "--------",
+            "displayShortName": "Nurses not further defined stock (Subnational)",
+            "externalAccess": false,
+            "valueType": "INTEGER_ZERO_OR_POSITIVE",
+            "dimensionItem": "T58TEnz6WgZ",
+            "displayFormName": "Nurses not further defined Stock (Subnational)",
+            "zeroIsSignificant": true,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "user": {
+                "id": "dKttJLRSiIl"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "T58TEnz6WgZ"
+                    },
+                    "dataSet": {
+                        "id": "Humg4HbkmJg"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "gucuWTSL91y",
+                    "displayName": "NHWA _DATA Capture Module 1",
+                    "id": "gucuWTSL91y"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "fxyLXZ10TXC",
+                    "displayName": "NHWA Team (formerly health workforce team)",
+                    "id": "fxyLXZ10TXC"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+    {
+            "metadataType": "dataElements",
+            "lastUpdated": "2019-06-21T13:23:48.400",
+            "id": "OgG8wQ6Zajq",
+            "created": "2018-08-29T12:09:52.644",
+            "name": "Nurses not further defined composition and distribution source type (Subnational)",
+            "shortName": "Nurses NFD Comp src type (Subnational)",
+            "aggregationType": "SUM",
+            "domainType": "AGGREGATE",
+            "displayName": "Nurses not further defined composition and distribution source type (Subnational)",
+            "publicAccess": "--------",
+            "displayShortName": "Nurses NFD Comp src type (Subnational)",
+            "externalAccess": false,
+            "valueType": "TRUE_ONLY",
+            "dimensionItem": "OgG8wQ6Zajq",
+            "displayFormName": "Nurses not further defined composition and distribution source type (Subnational)",
+            "zeroIsSignificant": true,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "wywD4cOewZX"
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "user": {
+                "id": "dKttJLRSiIl"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "categoryCombo": {
+                        "id": "wywD4cOewZX"
+                    },
+                    "dataElement": {
+                        "id": "OgG8wQ6Zajq"
+                    },
+                    "dataSet": {
+                        "id": "Humg4HbkmJg"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "gucuWTSL91y",
+                    "displayName": "NHWA _DATA Capture Module 1",
+                    "id": "gucuWTSL91y"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "fxyLXZ10TXC",
+                    "displayName": "NHWA Team (formerly health workforce team)",
+                    "id": "fxyLXZ10TXC"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+    {
+            "metadataType": "dataElements",
+            "code": "M01_2222 (Subnational)",
+            "lastUpdated": "2019-06-21T13:37:17.863",
+            "id": "QC2yRZy5Fn7",
+            "created": "2018-08-29T11:07:41.026",
+            "name": "Midwives not further defined Stock (Subnational)",
+            "shortName": "Midwives not further defined stock (Subnational)",
+            "aggregationType": "SUM",
+            "domainType": "AGGREGATE",
+            "displayName": "Midwives not further defined Stock (Subnational)",
+            "publicAccess": "--------",
+            "displayShortName": "Midwives not further defined stock (Subnational)",
+            "externalAccess": false,
+            "valueType": "INTEGER_ZERO_OR_POSITIVE",
+            "dimensionItem": "QC2yRZy5Fn7",
+            "displayFormName": "Midwives not further defined Stock (Subnational)",
+            "zeroIsSignificant": true,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "user": {
+                "id": "dKttJLRSiIl"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "QC2yRZy5Fn7"
+                    },
+                    "dataSet": {
+                        "id": "Humg4HbkmJg"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "gucuWTSL91y",
+                    "displayName": "NHWA _DATA Capture Module 1",
+                    "id": "gucuWTSL91y"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "fxyLXZ10TXC",
+                    "displayName": "NHWA Team (formerly health workforce team)",
+                    "id": "fxyLXZ10TXC"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+    {
+            "metadataType": "dataElements",
+            "lastUpdated": "2019-06-21T13:39:27.471",
+            "id": "lJEqAtOXtsG",
+            "created": "2018-08-29T12:11:54.377",
+            "name": "Midwives not further defined composition and distribution source type (Subnational)",
+            "shortName": "Midwives NFD cmp src type (Subnational)",
+            "aggregationType": "SUM",
+            "domainType": "AGGREGATE",
+            "displayName": "Midwives not further defined composition and distribution source type (Subnational)",
+            "publicAccess": "--------",
+            "displayShortName": "Midwives NFD cmp src type (Subnational)",
+            "externalAccess": false,
+            "valueType": "TRUE_ONLY",
+            "dimensionItem": "lJEqAtOXtsG",
+            "displayFormName": "Midwives not further defined composition and distribution source type (Subnational)",
+            "zeroIsSignificant": true,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "wywD4cOewZX"
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "user": {
+                "id": "dKttJLRSiIl"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "categoryCombo": {
+                        "id": "wywD4cOewZX"
+                    },
+                    "dataElement": {
+                        "id": "lJEqAtOXtsG"
+                    },
+                    "dataSet": {
+                        "id": "Humg4HbkmJg"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "gucuWTSL91y",
+                    "displayName": "NHWA _DATA Capture Module 1",
+                    "id": "gucuWTSL91y"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "fxyLXZ10TXC",
+                    "displayName": "NHWA Team (formerly health workforce team)",
+                    "id": "fxyLXZ10TXC"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
     {
       "aggregationLevels": [],
       "aggregationType": "SUM",
