@@ -122,12 +122,6 @@
         },
         {
           "access": "r-------",
-          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
-          "id": "Nf36FKd5cXD",
-          "userGroupUid": "Nf36FKd5cXD"
-        },
-        {
-          "access": "r-------",
           "displayName": "HEP Cascade of Cure/care Data Entry",
           "id": "OSHcVu6XSUL",
           "userGroupUid": "OSHcVu6XSUL"
@@ -140,15 +134,21 @@
         },
         {
           "access": "r-------",
-          "displayName": "HEP Cascade of Cure/care subnational (view only)",
-          "id": "sBNpNlNViH0",
-          "userGroupUid": "sBNpNlNViH0"
-        },
-        {
-          "access": "r-------",
           "displayName": "HEP WHO estimations",
           "id": "xd7g9c1ZpgN",
           "userGroupUid": "xd7g9c1ZpgN"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -328,6 +328,18 @@
           "displayName": "HEP Subnational",
           "id": "Mtn5MzMraqc",
           "userGroupUid": "Mtn5MzMraqc"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -386,6 +398,18 @@
           "displayName": "HEP Subnational",
           "id": "Mtn5MzMraqc",
           "userGroupUid": "Mtn5MzMraqc"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -447,194 +471,6 @@
           "displayName": "HEP Policy uptake Data Entry",
           "id": "uMCylDhyzRr",
           "userGroupUid": "uMCylDhyzRr"
-        }
-      ]
-    },
-    {
-      "access": {
-        "delete": true,
-        "externalize": true,
-        "manage": true,
-        "read": true,
-        "update": true,
-        "write": true
-      },
-      "attributeValues": [],
-      "categories": [
-        {
-          "id": "DMyxTSpvKOp"
-        }
-      ],
-      "categoryOptionCombos": [
-        {
-          "id": "Xr12mI7VPn3"
-        }
-      ],
-      "code": "default",
-      "created": "2017-05-10T17:53:55.156",
-      "dataDimensionType": "DISAGGREGATION",
-      "displayName": "default",
-      "externalAccess": false,
-      "favorite": false,
-      "favorites": [],
-      "id": "JzvGfLYkX17",
-      "isDefault": true,
-      "lastUpdated": "2019-02-20T16:22:55.336",
-      "lastUpdatedBy": {
-        "id": "eK26I7dRbC4"
-      },
-      "name": "default",
-      "publicAccess": "rw------",
-      "skipTotal": false,
-      "translations": [],
-      "user": {
-        "id": "eK26I7dRbC4"
-      },
-      "userAccesses": [],
-      "userGroupAccesses": [
-        {
-          "access": "rwr-----",
-          "displayName": "Leishmaniasis_MonthlyStock_HQ",
-          "id": "BMxt1NZML9e",
-          "userGroupUid": "BMxt1NZML9e"
-        },
-        {
-          "access": "r-r-----",
-          "displayName": "HEP",
-          "id": "C0BrlroHnLZ",
-          "userGroupUid": "C0BrlroHnLZ"
-        },
-        {
-          "access": "r-r-----",
-          "displayName": "NTD_Skin NTDs_AFRO_Ghana",
-          "id": "CoxTaSDd4Bz",
-          "userGroupUid": "CoxTaSDd4Bz"
-        },
-        {
-          "access": "r-r-----",
-          "displayName": "NTD_Leish_Kenya_VL_Admin",
-          "id": "DHWlFaXI0Sy",
-          "userGroupUid": "DHWlFaXI0Sy"
-        },
-        {
-          "access": "r-r-----",
-          "displayName": "NTD_Leishmaniasis_demo",
-          "id": "Fs9vCVCHjlE",
-          "userGroupUid": "Fs9vCVCHjlE"
-        },
-        {
-          "access": "rwr-----",
-          "displayName": "Leishmaniasis_Dispatch_HQ",
-          "id": "I95k8bm5q5J",
-          "userGroupUid": "I95k8bm5q5J"
-        },
-        {
-          "access": "r-r-----",
-          "displayName": "NTD_SkinNTDs_Mycetoma_HQ",
-          "id": "IPzz6wlkIp0",
-          "userGroupUid": "IPzz6wlkIp0"
-        },
-        {
-          "access": "r-r-----",
-          "displayName": "NTD_EMRO",
-          "id": "K40P7b1JFdc",
-          "userGroupUid": "K40P7b1JFdc"
-        },
-        {
-          "access": "rwr-----",
-          "displayName": "HEP Admins",
-          "id": "KU3n9ZHLJBE",
-          "userGroupUid": "KU3n9ZHLJBE"
-        },
-        {
-          "access": "r-r-----",
-          "displayName": "Leishmaniasis_MonthlyStock",
-          "id": "LCs79RaVi0a",
-          "userGroupUid": "LCs79RaVi0a"
-        },
-        {
-          "access": "r-r-----",
-          "displayName": "Leishmaniasis_MonthlyStock_HQPublish",
-          "id": "MYa3lh5k0Yq",
-          "userGroupUid": "MYa3lh5k0Yq"
-        },
-        {
-          "access": "r-r-----",
-          "displayName": "NTD_Leishmaniasis_EURO_Armenia",
-          "id": "TNA9oGI43e4",
-          "userGroupUid": "TNA9oGI43e4"
-        },
-        {
-          "access": "r-r-----",
-          "displayName": "NTD_Leishmaniasis_Admin",
-          "id": "Un2GLxeuVZ2",
-          "userGroupUid": "Un2GLxeuVZ2"
-        },
-        {
-          "access": "r-r-----",
-          "displayName": "NTD_Skin NTDs_HQ",
-          "id": "XqznB7ROzB3",
-          "userGroupUid": "XqznB7ROzB3"
-        },
-        {
-          "access": "r-r-----",
-          "displayName": "NTD_Leish_Kenya_VL_Aggregated",
-          "id": "ZuT9b32Dhv5",
-          "userGroupUid": "ZuT9b32Dhv5"
-        },
-        {
-          "access": "r-r-----",
-          "displayName": "NTD_SkinNTDs_Yaws_WHO",
-          "id": "ZvxncLTan3w",
-          "userGroupUid": "ZvxncLTan3w"
-        },
-        {
-          "access": "rwr-----",
-          "displayName": "NTD_SkinNTDs_BU_HQ",
-          "id": "ZyQlPOL3aSD",
-          "userGroupUid": "ZyQlPOL3aSD"
-        },
-        {
-          "access": "rwr-----",
-          "displayName": "NTD admin team",
-          "id": "irooBniCRle",
-          "userGroupUid": "irooBniCRle"
-        },
-        {
-          "access": "r-r-----",
-          "displayName": "NTD_Leishmaniasis_EMRO_Somalia",
-          "id": "phezIKUxlC2",
-          "userGroupUid": "phezIKUxlC2"
-        },
-        {
-          "access": "r-r-----",
-          "displayName": "NTD_Leish_Kenya_VL_LabCM",
-          "id": "sXNyAgGyHSK",
-          "userGroupUid": "sXNyAgGyHSK"
-        },
-        {
-          "access": "r-r-----",
-          "displayName": "NTD_EURO",
-          "id": "tEOUdu1ala4",
-          "userGroupUid": "tEOUdu1ala4"
-        },
-        {
-          "access": "r-r-----",
-          "displayName": "HEP Data Entry",
-          "id": "uEYpW1usu0E",
-          "userGroupUid": "uEYpW1usu0E"
-        },
-        {
-          "access": "r-r-----",
-          "displayName": "HEP Data Analysis",
-          "id": "xCbfjheBM6t",
-          "userGroupUid": "xCbfjheBM6t"
-        },
-        {
-          "access": "r-r-----",
-          "displayName": "NTD_Leishmaniasis_HQ",
-          "id": "yBUSIP5IhrF",
-          "userGroupUid": "yBUSIP5IhrF"
         }
       ]
     }
@@ -972,6 +808,18 @@
           "displayName": "HEP WHO estimations",
           "id": "xd7g9c1ZpgN",
           "userGroupUid": "xd7g9c1ZpgN"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     }
@@ -1132,6 +980,18 @@
           "displayName": "HEP WHO estimations",
           "id": "xd7g9c1ZpgN",
           "userGroupUid": "xd7g9c1ZpgN"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -1226,6 +1086,18 @@
           "displayName": "HEP WHO estimations",
           "id": "xd7g9c1ZpgN",
           "userGroupUid": "xd7g9c1ZpgN"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     }
@@ -8007,6 +7879,18 @@
           "displayName": "HEP Cascade of Cure/care (view only)",
           "id": "f31IM13BgwJ",
           "userGroupUid": "f31IM13BgwJ"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -8082,6 +7966,18 @@
           "displayName": "HEP Cascade of Cure/care (view only)",
           "id": "f31IM13BgwJ",
           "userGroupUid": "f31IM13BgwJ"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -8157,6 +8053,18 @@
           "displayName": "HEP Cascade of Cure/care (view only)",
           "id": "f31IM13BgwJ",
           "userGroupUid": "f31IM13BgwJ"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -8300,6 +8208,18 @@
           "displayName": "HEP Cascade of Cure/care (view only)",
           "id": "f31IM13BgwJ",
           "userGroupUid": "f31IM13BgwJ"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -8437,6 +8357,18 @@
           "displayName": "HEP Cascade of Cure/care (view only)",
           "id": "f31IM13BgwJ",
           "userGroupUid": "f31IM13BgwJ"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -8574,6 +8506,18 @@
           "displayName": "HEP Cascade of Cure/care (view only)",
           "id": "f31IM13BgwJ",
           "userGroupUid": "f31IM13BgwJ"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -8710,6 +8654,18 @@
           "displayName": "HEP Cascade of Cure/care (view only)",
           "id": "f31IM13BgwJ",
           "userGroupUid": "f31IM13BgwJ"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -8846,6 +8802,18 @@
           "displayName": "HEP Cascade of Cure/care (view only)",
           "id": "f31IM13BgwJ",
           "userGroupUid": "f31IM13BgwJ"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -8982,6 +8950,18 @@
           "displayName": "HEP Cascade of Cure/care (view only)",
           "id": "f31IM13BgwJ",
           "userGroupUid": "f31IM13BgwJ"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -9124,6 +9104,18 @@
           "displayName": "HEP Cascade of Cure/care (view only)",
           "id": "f31IM13BgwJ",
           "userGroupUid": "f31IM13BgwJ"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -9261,6 +9253,18 @@
           "displayName": "HEP Cascade of Cure/care (view only)",
           "id": "f31IM13BgwJ",
           "userGroupUid": "f31IM13BgwJ"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -9398,6 +9402,18 @@
           "displayName": "HEP Cascade of Cure/care (view only)",
           "id": "f31IM13BgwJ",
           "userGroupUid": "f31IM13BgwJ"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -9467,6 +9483,18 @@
           "displayName": "HEP Cascade of Cure/care (view only)",
           "id": "f31IM13BgwJ",
           "userGroupUid": "f31IM13BgwJ"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -9573,6 +9601,18 @@
           "displayName": "HEP Cascade of Cure/care (view only)",
           "id": "f31IM13BgwJ",
           "userGroupUid": "f31IM13BgwJ"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -9679,6 +9719,18 @@
           "displayName": "HEP Cascade of Cure/care (view only)",
           "id": "f31IM13BgwJ",
           "userGroupUid": "f31IM13BgwJ"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -9785,6 +9837,18 @@
           "displayName": "HEP Cascade of Cure/care (view only)",
           "id": "f31IM13BgwJ",
           "userGroupUid": "f31IM13BgwJ"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -9854,6 +9918,18 @@
           "displayName": "HEP Cascade of Cure/care (view only)",
           "id": "f31IM13BgwJ",
           "userGroupUid": "f31IM13BgwJ"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -9923,6 +9999,18 @@
           "displayName": "HEP Cascade of Cure/care (view only)",
           "id": "f31IM13BgwJ",
           "userGroupUid": "f31IM13BgwJ"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -9992,6 +10080,18 @@
           "displayName": "HEP Cascade of Cure/care (view only)",
           "id": "f31IM13BgwJ",
           "userGroupUid": "f31IM13BgwJ"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -10061,6 +10161,18 @@
           "displayName": "HEP Cascade of Cure/care (view only)",
           "id": "f31IM13BgwJ",
           "userGroupUid": "f31IM13BgwJ"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -10130,6 +10242,18 @@
           "displayName": "HEP Cascade of Cure/care (view only)",
           "id": "f31IM13BgwJ",
           "userGroupUid": "f31IM13BgwJ"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -10199,6 +10323,18 @@
           "displayName": "HEP Cascade of Cure/care (view only)",
           "id": "f31IM13BgwJ",
           "userGroupUid": "f31IM13BgwJ"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -10268,6 +10404,18 @@
           "displayName": "HEP Cascade of Cure/care (view only)",
           "id": "f31IM13BgwJ",
           "userGroupUid": "f31IM13BgwJ"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -10337,6 +10485,18 @@
           "displayName": "HEP Cascade of Cure/care (view only)",
           "id": "f31IM13BgwJ",
           "userGroupUid": "f31IM13BgwJ"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -10406,6 +10566,18 @@
           "displayName": "HEP Cascade of Cure/care (view only)",
           "id": "f31IM13BgwJ",
           "userGroupUid": "f31IM13BgwJ"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -10475,6 +10647,18 @@
           "displayName": "HEP Cascade of Cure/care (view only)",
           "id": "f31IM13BgwJ",
           "userGroupUid": "f31IM13BgwJ"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -10547,6 +10731,18 @@
           "displayName": "HEP Cascade of Cure/care (view only)",
           "id": "f31IM13BgwJ",
           "userGroupUid": "f31IM13BgwJ"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -10619,6 +10815,18 @@
           "displayName": "HEP Cascade of Cure/care (view only)",
           "id": "f31IM13BgwJ",
           "userGroupUid": "f31IM13BgwJ"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -10691,6 +10899,18 @@
           "displayName": "HEP Cascade of Cure/care (view only)",
           "id": "f31IM13BgwJ",
           "userGroupUid": "f31IM13BgwJ"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -10760,6 +10980,18 @@
           "displayName": "HEP WHO estimations",
           "id": "xd7g9c1ZpgN",
           "userGroupUid": "xd7g9c1ZpgN"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -10832,6 +11064,18 @@
           "displayName": "HEP Cascade of Cure/care (view only)",
           "id": "f31IM13BgwJ",
           "userGroupUid": "f31IM13BgwJ"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -10901,6 +11145,18 @@
           "displayName": "HEP GAM reporting",
           "id": "pIyWU5bT6q7",
           "userGroupUid": "pIyWU5bT6q7"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -10970,6 +11226,18 @@
           "displayName": "HEP GAM reporting",
           "id": "pIyWU5bT6q7",
           "userGroupUid": "pIyWU5bT6q7"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -11039,6 +11307,18 @@
           "displayName": "HEP WHO estimations",
           "id": "xd7g9c1ZpgN",
           "userGroupUid": "xd7g9c1ZpgN"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -11108,6 +11388,18 @@
           "displayName": "HEP GAM reporting",
           "id": "pIyWU5bT6q7",
           "userGroupUid": "pIyWU5bT6q7"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -11177,6 +11469,18 @@
           "displayName": "HEP GAM reporting",
           "id": "pIyWU5bT6q7",
           "userGroupUid": "pIyWU5bT6q7"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -11246,6 +11550,18 @@
           "displayName": "HEP WHO estimations",
           "id": "xd7g9c1ZpgN",
           "userGroupUid": "xd7g9c1ZpgN"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -11315,6 +11631,18 @@
           "displayName": "HEP GAM reporting",
           "id": "pIyWU5bT6q7",
           "userGroupUid": "pIyWU5bT6q7"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -11387,6 +11715,18 @@
           "displayName": "HEP Cascade of Cure/care (view only)",
           "id": "f31IM13BgwJ",
           "userGroupUid": "f31IM13BgwJ"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -11459,6 +11799,18 @@
           "displayName": "HEP Cascade of Cure/care (view only)",
           "id": "f31IM13BgwJ",
           "userGroupUid": "f31IM13BgwJ"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -11531,6 +11883,18 @@
           "displayName": "HEP Cascade of Cure/care (view only)",
           "id": "f31IM13BgwJ",
           "userGroupUid": "f31IM13BgwJ"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     },
@@ -11603,6 +11967,18 @@
           "displayName": "HEP Cascade of Cure/care (view only)",
           "id": "f31IM13BgwJ",
           "userGroupUid": "f31IM13BgwJ"
+        },
+        {
+          "access": "r-rw----",
+          "displayName": "HEP Cascade of Cure/care subnational Data Entry",
+          "id": "Nf36FKd5cXD",
+          "userGroupUid": "Nf36FKd5cXD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HEP Cascade of Cure/care subnational (view only)",
+          "id": "sBNpNlNViH0",
+          "userGroupUid": "sBNpNlNViH0"
         }
       ]
     }
@@ -13177,179 +13553,6 @@
       ],
       "userAccesses": [],
       "userGroupAccesses": []
-    }
-  ],
-  "userGroups": [
-    {
-      "access": {
-        "delete": true,
-        "externalize": true,
-        "manage": true,
-        "read": true,
-        "update": true,
-        "write": true
-      },
-      "attributeValues": [],
-      "created": "2018-06-09T01:30:51.167",
-      "displayName": "HEP Admins",
-      "externalAccess": false,
-      "favorite": false,
-      "favorites": [],
-      "id": "KU3n9ZHLJBE",
-      "lastUpdated": "2019-03-08T19:36:12.184",
-      "lastUpdatedBy": {
-        "id": "kD52FGwJgDF"
-      },
-      "managedByGroups": [
-        {
-          "id": "C0BrlroHnLZ"
-        },
-        {
-          "id": "HMX94MFdNQr"
-        },
-        {
-          "id": "Nf36FKd5cXD"
-        },
-        {
-          "id": "OSHcVu6XSUL"
-        },
-        {
-          "id": "SPq0Owobgbs"
-        },
-        {
-          "id": "f31IM13BgwJ"
-        },
-        {
-          "id": "pIyWU5bT6q7"
-        },
-        {
-          "id": "sBNpNlNViH0"
-        },
-        {
-          "id": "uMCylDhyzRr"
-        },
-        {
-          "id": "xd7g9c1ZpgN"
-        }
-      ],
-      "managedGroups": [],
-      "metadataType": "userGroups",
-      "name": "HEP Admins",
-      "publicAccess": "rw------",
-      "translations": [],
-      "user": {
-        "id": "kD52FGwJgDF"
-      },
-      "userAccesses": [],
-      "userGroupAccesses": [],
-      "users": []
-    },
-    {
-      "access": {
-        "delete": true,
-        "externalize": true,
-        "manage": true,
-        "read": true,
-        "update": true,
-        "write": true
-      },
-      "attributeValues": [],
-      "created": "2019-03-08T19:54:27.854",
-      "displayName": "HEP Cascade of Cure/care subnational (view only)",
-      "externalAccess": false,
-      "favorite": false,
-      "favorites": [],
-      "id": "sBNpNlNViH0",
-      "lastUpdated": "2019-03-08T20:38:31.837",
-      "lastUpdatedBy": {
-        "id": "kD52FGwJgDF"
-      },
-      "managedByGroups": [],
-      "managedGroups": [
-        {
-          "id": "KU3n9ZHLJBE"
-        }
-      ],
-      "metadataType": "userGroups",
-      "name": "HEP Cascade of Cure/care subnational (view only)",
-      "publicAccess": "rw------",
-      "translations": [],
-      "user": {
-        "id": "kD52FGwJgDF"
-      },
-      "userAccesses": [],
-      "userGroupAccesses": [],
-      "users": []
-    },
-    {
-      "access": {
-        "delete": true,
-        "externalize": true,
-        "manage": true,
-        "read": true,
-        "update": true,
-        "write": true
-      },
-      "attributeValues": [],
-      "created": "2019-03-08T19:54:15.885",
-      "displayName": "HEP Cascade of Cure/care subnational Data Entry",
-      "externalAccess": false,
-      "favorite": false,
-      "favorites": [],
-      "id": "Nf36FKd5cXD",
-      "lastUpdated": "2019-03-08T20:18:32.501",
-      "lastUpdatedBy": {
-        "id": "kD52FGwJgDF"
-      },
-      "managedByGroups": [],
-      "managedGroups": [
-        {
-          "id": "KU3n9ZHLJBE"
-        }
-      ],
-      "metadataType": "userGroups",
-      "name": "HEP Cascade of Cure/care subnational Data Entry",
-      "publicAccess": "rw------",
-      "translations": [],
-      "user": {
-        "id": "kD52FGwJgDF"
-      },
-      "userAccesses": [],
-      "userGroupAccesses": [],
-      "users": []
-    },
-    {
-      "access": {
-        "delete": true,
-        "externalize": true,
-        "manage": true,
-        "read": true,
-        "update": true,
-        "write": true
-      },
-      "attributeValues": [],
-      "created": "2019-02-22T16:10:49.738",
-      "displayName": "HEP Subnational",
-      "externalAccess": false,
-      "favorite": false,
-      "favorites": [],
-      "id": "Mtn5MzMraqc",
-      "lastUpdated": "2019-03-08T20:38:31.838",
-      "lastUpdatedBy": {
-        "id": "kD52FGwJgDF"
-      },
-      "managedByGroups": [],
-      "managedGroups": [],
-      "metadataType": "userGroups",
-      "name": "HEP Subnational",
-      "publicAccess": "rw------",
-      "translations": [],
-      "user": {
-        "id": "kD52FGwJgDF"
-      },
-      "userAccesses": [],
-      "userGroupAccesses": [],
-      "users": []
     }
   ]
 }
