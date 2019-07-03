@@ -1,0 +1,3151 @@
+{
+  "dataElementGroups": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2017-07-05T18:28:38.413",
+      "dataElements": [
+        {
+          "id": "FZYvE3Jdf8L"
+        },
+        {
+          "id": "IidAimBSgEf"
+        },
+        {
+          "id": "RHokurJAbjS"
+        },
+        {
+          "id": "f87mpByuPub"
+        },
+        {
+          "id": "hR7B1ITcCMe"
+        },
+        {
+          "id": "q8CUMlpFLtJ"
+        },
+        {
+          "id": "qNxAIa6jvmm"
+        },
+        {
+          "id": "w8SWd1reRm8"
+        }
+      ],
+      "dimensionItem": "NEmqX9NucGg",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "NHWA Module 10: HRHIS",
+      "displayShortName": "NHWA Module 10: HRHIS",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "id": "NEmqX9NucGg",
+      "lastUpdated": "2018-03-15T23:08:00.477",
+      "lastUpdatedBy": {
+        "id": "Iu6HPiXVTNX"
+      },
+      "legendSets": [],
+      "metadataType": "dataElementGroups",
+      "name": "NHWA Module 10: HRHIS",
+      "publicAccess": "--------",
+      "shortName": "NHWA Module 10: HRHIS",
+      "translations": [],
+      "user": {
+        "id": "Iu6HPiXVTNX"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2019-01-21T07:36:11.175",
+      "dataElements": [
+        {
+          "id": "A8qvwcGQ7oR"
+        },
+        {
+          "id": "ABy98AXLIvi"
+        },
+        {
+          "id": "AVOrdyQXSal"
+        },
+        {
+          "id": "AZCkBzUZgTr"
+        },
+        {
+          "id": "AlxUCNc8gwW"
+        },
+        {
+          "id": "AtZVwbugSqv"
+        },
+        {
+          "id": "BbvMZojIbKI"
+        },
+        {
+          "id": "BgJoMJEnaO1"
+        },
+        {
+          "id": "BnCaf6ZXM1P"
+        },
+        {
+          "id": "BrtoXLjA4pi"
+        },
+        {
+          "id": "ByA5wj8IJyQ"
+        },
+        {
+          "id": "ByXuVj0h8L4"
+        },
+        {
+          "id": "C1oMSkmD5am"
+        },
+        {
+          "id": "C7jmannlc7B"
+        },
+        {
+          "id": "CPmuUXWouRA"
+        },
+        {
+          "id": "CUmZXLC1FrK"
+        },
+        {
+          "id": "CVhecwG7dZH"
+        },
+        {
+          "id": "ChqxKtGrHVA"
+        },
+        {
+          "id": "CnreQmZbCwP"
+        },
+        {
+          "id": "CpUti69L5aW"
+        },
+        {
+          "id": "D2MFGJKtc1Y"
+        },
+        {
+          "id": "D2jYg0gfya0"
+        },
+        {
+          "id": "DC17owNKnOo"
+        },
+        {
+          "id": "DCAJyToy1TA"
+        },
+        {
+          "id": "DeDi7rft4BB"
+        },
+        {
+          "id": "DgWsmHVv1JM"
+        },
+        {
+          "id": "DiZ4xWoiBwI"
+        },
+        {
+          "id": "DqCmuPyyEKP"
+        },
+        {
+          "id": "DqZNrSSZ2S0"
+        },
+        {
+          "id": "Dzsq1pwIHqF"
+        },
+        {
+          "id": "E6yC5xp14iQ"
+        },
+        {
+          "id": "EEZGLQRHQDr"
+        },
+        {
+          "id": "EHRN1PJaEfH"
+        },
+        {
+          "id": "EIh0f0A4G1N"
+        },
+        {
+          "id": "EKWgav1YgFc"
+        },
+        {
+          "id": "ERAgsIEBM5o"
+        },
+        {
+          "id": "EiN0OWdHFxO"
+        },
+        {
+          "id": "EnoivPEWUMM"
+        },
+        {
+          "id": "EojH3xtSttx"
+        },
+        {
+          "id": "Et2p1cf7EeZ"
+        },
+        {
+          "id": "F8ml1qKvZIY"
+        },
+        {
+          "id": "FA3nDd4psmk"
+        },
+        {
+          "id": "FAoaZdPdq90"
+        },
+        {
+          "id": "FU6JZtf1IOo"
+        },
+        {
+          "id": "FXGfkCMrBqo"
+        },
+        {
+          "id": "FZmk1UVPIqJ"
+        },
+        {
+          "id": "Fgp2erpoOMQ"
+        },
+        {
+          "id": "Fm2HakleZ27"
+        },
+        {
+          "id": "G34jrX7TcVv"
+        },
+        {
+          "id": "G4NTIrtM8sA"
+        },
+        {
+          "id": "GJUbT5P29ol"
+        },
+        {
+          "id": "GKnY5V4PkhM"
+        },
+        {
+          "id": "GXDCQoGj6T3"
+        },
+        {
+          "id": "GYmXWDOK6w7"
+        },
+        {
+          "id": "GeB8aO0VMdh"
+        },
+        {
+          "id": "Gi4BzUhTjYb"
+        },
+        {
+          "id": "Gi5YLztjtyB"
+        },
+        {
+          "id": "Gt3WTdWYUeJ"
+        },
+        {
+          "id": "H68Cr5CXfUE"
+        },
+        {
+          "id": "H9hyUA3QPdl"
+        },
+        {
+          "id": "H9tYjJ0nzgU"
+        },
+        {
+          "id": "HENe5Xv6B7j"
+        },
+        {
+          "id": "HLgQXol1EPh"
+        },
+        {
+          "id": "HSgxaTyJ0kK"
+        },
+        {
+          "id": "HU1QlB34WcG"
+        },
+        {
+          "id": "HamZOQ3wtl5"
+        },
+        {
+          "id": "HdK1N3rPeZ1"
+        },
+        {
+          "id": "HeI3osYsbQa"
+        },
+        {
+          "id": "HhQgAcNaKUv"
+        },
+        {
+          "id": "HmC6k52OuR4"
+        },
+        {
+          "id": "I5C27Tsoc8I"
+        },
+        {
+          "id": "I5EztFwNzC0"
+        },
+        {
+          "id": "I5v0SqhcWvK"
+        },
+        {
+          "id": "ISnx1WJdoMN"
+        },
+        {
+          "id": "IT332UM0Eyd"
+        },
+        {
+          "id": "ITHN93Jce9l"
+        },
+        {
+          "id": "IgzM67pvha5"
+        },
+        {
+          "id": "It06Qq2EzsF"
+        },
+        {
+          "id": "Izaihcp5imV"
+        },
+        {
+          "id": "J1gsCnLV1C6"
+        },
+        {
+          "id": "J6Zk3SfpHfM"
+        },
+        {
+          "id": "J8m9vtLVo2G"
+        },
+        {
+          "id": "JBCKANhdTX4"
+        },
+        {
+          "id": "JPklATr7DCt"
+        },
+        {
+          "id": "JQL0onXq6ge"
+        },
+        {
+          "id": "JQkVqnP5kCq"
+        },
+        {
+          "id": "JRLY2XBpopS"
+        },
+        {
+          "id": "JXZp3qBlqKP"
+        },
+        {
+          "id": "K3UcvN3sbDf"
+        },
+        {
+          "id": "KAU5IPKoIgx"
+        },
+        {
+          "id": "KHL0TSASQzg"
+        },
+        {
+          "id": "KHgbn4zfgrB"
+        },
+        {
+          "id": "KLbSi3CJxSo"
+        },
+        {
+          "id": "KnNekvrEI5f"
+        },
+        {
+          "id": "KwIlxiiBBjV"
+        },
+        {
+          "id": "L9jYzVsoc9L"
+        },
+        {
+          "id": "LJ8KCWU8OOV"
+        },
+        {
+          "id": "LKiTYPmaOhj"
+        },
+        {
+          "id": "LO5oNfvohPx"
+        },
+        {
+          "id": "LPTrylkVM4Q"
+        },
+        {
+          "id": "LX2QltISk5s"
+        },
+        {
+          "id": "LaQe20TdHvH"
+        },
+        {
+          "id": "Lbkg2I4JTgG"
+        },
+        {
+          "id": "Lir6kztSRZ7"
+        },
+        {
+          "id": "Lkjp0MFLDov"
+        },
+        {
+          "id": "LrDRewV80hv"
+        },
+        {
+          "id": "LrG8CqG0mhV"
+        },
+        {
+          "id": "Ls5uiJRlx9L"
+        },
+        {
+          "id": "Lsnc4RViH9F"
+        },
+        {
+          "id": "M0jk7fncrWU"
+        },
+        {
+          "id": "M1ZpUXbo7Ql"
+        },
+        {
+          "id": "M1hZV0c1jpw"
+        },
+        {
+          "id": "M22mM4UEDjy"
+        },
+        {
+          "id": "M6upUqnFt2Z"
+        },
+        {
+          "id": "MFUxfSaYW2e"
+        },
+        {
+          "id": "MIa6TVKj2xo"
+        },
+        {
+          "id": "MNblETb62a7"
+        },
+        {
+          "id": "MRM0ZIZFfVP"
+        },
+        {
+          "id": "MXXzDDuba8n"
+        },
+        {
+          "id": "MaejJOaJVXy"
+        },
+        {
+          "id": "Ml6HBooImtM"
+        },
+        {
+          "id": "MlBtet7M3rs"
+        },
+        {
+          "id": "MxK9mbc2OMv"
+        },
+        {
+          "id": "N6pEEiEpNS1"
+        },
+        {
+          "id": "NC58vY6UBEk"
+        },
+        {
+          "id": "NI4NAaV0hSh"
+        },
+        {
+          "id": "NVuew7FtnQS"
+        },
+        {
+          "id": "Nb8Gg5ZiX5c"
+        },
+        {
+          "id": "Nf5yWoOEfSm"
+        },
+        {
+          "id": "Ngzlv0PnZHM"
+        },
+        {
+          "id": "Ni2b6zYWjjT"
+        },
+        {
+          "id": "Nv40tdMXtFC"
+        },
+        {
+          "id": "NxQueFeUfa3"
+        },
+        {
+          "id": "O2vEtUZRIRh"
+        },
+        {
+          "id": "O3JfrNS9Ewj"
+        },
+        {
+          "id": "O7xuokSXg4m"
+        },
+        {
+          "id": "O9FGiWCttH4"
+        },
+        {
+          "id": "OAaXg7NvGcx"
+        },
+        {
+          "id": "OFsiDpAC34b"
+        },
+        {
+          "id": "OJVKXPCUetq"
+        },
+        {
+          "id": "OMS7a4cxTLo"
+        },
+        {
+          "id": "ON8DBreBXlt"
+        },
+        {
+          "id": "OYoY16njQBO"
+        },
+        {
+          "id": "OfROf5GmY2U"
+        },
+        {
+          "id": "OpJzru7UHuG"
+        },
+        {
+          "id": "Osqz2NJoO0h"
+        },
+        {
+          "id": "P5RXZZXrLGM"
+        },
+        {
+          "id": "P6Si86K02do"
+        },
+        {
+          "id": "PDI1LOtG5mD"
+        },
+        {
+          "id": "PRFVamHB0VQ"
+        },
+        {
+          "id": "PUaHSbd6T5T"
+        },
+        {
+          "id": "PXZbVlkKwcw"
+        },
+        {
+          "id": "PebkMQ9WtnK"
+        },
+        {
+          "id": "PhGYsKg6Z64"
+        },
+        {
+          "id": "PmJk7pg8ZH7"
+        },
+        {
+          "id": "Pmr5vKV0JhS"
+        },
+        {
+          "id": "Psx8w32IjKA"
+        },
+        {
+          "id": "PtCFMK7nBkR"
+        },
+        {
+          "id": "Q7AJ1ykq09H"
+        },
+        {
+          "id": "QLqvnN57uaj"
+        },
+        {
+          "id": "QPtnjdoIqnH"
+        },
+        {
+          "id": "QQIXTkQuD9z"
+        },
+        {
+          "id": "QayMME14lE1"
+        },
+        {
+          "id": "Qf4UX9h7VHw"
+        },
+        {
+          "id": "QtxlZLxjuRg"
+        },
+        {
+          "id": "QvnSCGMRuiV"
+        },
+        {
+          "id": "QxPGLy2DUhG"
+        },
+        {
+          "id": "Qy71EkOy7om"
+        },
+        {
+          "id": "RCcjOgia5lC"
+        },
+        {
+          "id": "RK9mngtJtTL"
+        },
+        {
+          "id": "RLUq9bhLRJW"
+        },
+        {
+          "id": "RNCFRfcGsEq"
+        },
+        {
+          "id": "RZezdwRO5a8"
+        },
+        {
+          "id": "RfqYbGs8Za9"
+        },
+        {
+          "id": "SOU2X25z1dq"
+        },
+        {
+          "id": "SPcq2CZFyzT"
+        },
+        {
+          "id": "SRSiY1qW6W8"
+        },
+        {
+          "id": "Sbk9iH85Ltm"
+        },
+        {
+          "id": "T10hGZHcK7q"
+        },
+        {
+          "id": "T7KjtN9SenL"
+        },
+        {
+          "id": "TE5sao73qRm"
+        },
+        {
+          "id": "TRB0RlFABNw"
+        },
+        {
+          "id": "TTLIv7PVhKo"
+        },
+        {
+          "id": "TTQ6WgBHZUZ"
+        },
+        {
+          "id": "TTWJ58v2frD"
+        },
+        {
+          "id": "Ta8ifRxwOmP"
+        },
+        {
+          "id": "TcSxFdjVWEh"
+        },
+        {
+          "id": "Tp6ETHHL2va"
+        },
+        {
+          "id": "Tu64Vt7gv8M"
+        },
+        {
+          "id": "TxYXq9qqMJt"
+        },
+        {
+          "id": "U0YDqrjO4sv"
+        },
+        {
+          "id": "U30oYXdSWTe"
+        },
+        {
+          "id": "UJw5MYbIpv9"
+        },
+        {
+          "id": "UN1GGvFlETF"
+        },
+        {
+          "id": "UTEeOMyhBoY"
+        },
+        {
+          "id": "UVmyzENvSiy"
+        },
+        {
+          "id": "UcfAgoEEjT2"
+        },
+        {
+          "id": "VCVhaAxv3AP"
+        },
+        {
+          "id": "VDeI2btrNih"
+        },
+        {
+          "id": "VIMlhSMF1Yl"
+        },
+        {
+          "id": "VIWOOPfPUnX"
+        },
+        {
+          "id": "VLSa4evEl7A"
+        },
+        {
+          "id": "VZnZ8xJoaIW"
+        },
+        {
+          "id": "Va9QjeOhGZa"
+        },
+        {
+          "id": "ViLbVtzGWM5"
+        },
+        {
+          "id": "VmhSidKIxMp"
+        },
+        {
+          "id": "W1OgOlx2UPS"
+        },
+        {
+          "id": "W4IjHlh3nqi"
+        },
+        {
+          "id": "WAA3Uun62pk"
+        },
+        {
+          "id": "WPM1HkXyf6Z"
+        },
+        {
+          "id": "WVEV44P6jtl"
+        },
+        {
+          "id": "WXgZfcbtl5R"
+        },
+        {
+          "id": "WzTFiecwTNZ"
+        },
+        {
+          "id": "XAFQH7WySNo"
+        },
+        {
+          "id": "XB5JA2zOjnB"
+        },
+        {
+          "id": "XCSnh8ISj81"
+        },
+        {
+          "id": "XCsof9AN6rv"
+        },
+        {
+          "id": "XI9W6umECmC"
+        },
+        {
+          "id": "XIHIwocWj9J"
+        },
+        {
+          "id": "XMzAw0vw5Ep"
+        },
+        {
+          "id": "XOuEbu7a0Fn"
+        },
+        {
+          "id": "XVRPTXuJBQe"
+        },
+        {
+          "id": "XyCaF8fUivl"
+        },
+        {
+          "id": "Xya97JPAwJP"
+        },
+        {
+          "id": "Y0Al3lbaiSd"
+        },
+        {
+          "id": "Y5XqolkuMAw"
+        },
+        {
+          "id": "YFD6ZCWbKXZ"
+        },
+        {
+          "id": "YLgpCsLXIoM"
+        },
+        {
+          "id": "YSl2WAd1E5g"
+        },
+        {
+          "id": "YkjANXB0C7q"
+        },
+        {
+          "id": "YvRkyv7LXzq"
+        },
+        {
+          "id": "Yxkvq7nmosQ"
+        },
+        {
+          "id": "Yz371d8I7vi"
+        },
+        {
+          "id": "ZaQ394eW9pZ"
+        },
+        {
+          "id": "ZtjIuqdv5S7"
+        },
+        {
+          "id": "Zu69ozCInhL"
+        },
+        {
+          "id": "ZzxjmR8ys0i"
+        },
+        {
+          "id": "a0csXCPXx1W"
+        },
+        {
+          "id": "a5ii3ZTvZJl"
+        },
+        {
+          "id": "a7y6M6RSlfA"
+        },
+        {
+          "id": "aBKbsKeMhM6"
+        },
+        {
+          "id": "aOYOo12rVAs"
+        },
+        {
+          "id": "aVL32L9ycAJ"
+        },
+        {
+          "id": "aZKKBa26tmF"
+        },
+        {
+          "id": "abfQV1VOf3t"
+        },
+        {
+          "id": "ae8CH5krsam"
+        },
+        {
+          "id": "ahER1ix3fxr"
+        },
+        {
+          "id": "aotiqu4EAWq"
+        },
+        {
+          "id": "arZWO8Ag3iO"
+        },
+        {
+          "id": "atZNVujwdt4"
+        },
+        {
+          "id": "aurZ2kUa2St"
+        },
+        {
+          "id": "bSvvw3Ms4BE"
+        },
+        {
+          "id": "bUGq4WaBHUD"
+        },
+        {
+          "id": "bYXQMVmauLD"
+        },
+        {
+          "id": "bcIh7bdXz7D"
+        },
+        {
+          "id": "blaeng4GF8s"
+        },
+        {
+          "id": "bmaxDrrFSqz"
+        },
+        {
+          "id": "bq00aLH9OPk"
+        },
+        {
+          "id": "brISQQxW1xp"
+        },
+        {
+          "id": "bs0ARZBxDgC"
+        },
+        {
+          "id": "c4JWYSERnO2"
+        },
+        {
+          "id": "cDnBDmJhson"
+        },
+        {
+          "id": "cIyw7ChjlgG"
+        },
+        {
+          "id": "cROoQk16jlH"
+        },
+        {
+          "id": "cSqX4ymZmHA"
+        },
+        {
+          "id": "cTz9crtzdvU"
+        },
+        {
+          "id": "cfTgv8GDYXQ"
+        },
+        {
+          "id": "cg1DEEIeZ9N"
+        },
+        {
+          "id": "chzRB2FreBe"
+        },
+        {
+          "id": "cnxVb8H17tm"
+        },
+        {
+          "id": "cs7H0NFWgV1"
+        },
+        {
+          "id": "cukiq4gvnKu"
+        },
+        {
+          "id": "cxmJyqa1T5C"
+        },
+        {
+          "id": "cyNh11xykuJ"
+        },
+        {
+          "id": "d3IcPgQbeH5"
+        },
+        {
+          "id": "dFWlhArOcXj"
+        },
+        {
+          "id": "dTCOMljlITC"
+        },
+        {
+          "id": "dYKAIYSnLue"
+        },
+        {
+          "id": "dm67bKt2Veu"
+        },
+        {
+          "id": "dutH7uvTAut"
+        },
+        {
+          "id": "dvNINMJZS3V"
+        },
+        {
+          "id": "dxbj7q8MNNf"
+        },
+        {
+          "id": "e0qvyzapmu3"
+        },
+        {
+          "id": "e2G8l2GXMCi"
+        },
+        {
+          "id": "e32KJz6JDNr"
+        },
+        {
+          "id": "e3ba55rLVTZ"
+        },
+        {
+          "id": "e7mFNsyiTtQ"
+        },
+        {
+          "id": "e9thFQZbFg5"
+        },
+        {
+          "id": "eA4qiSbPKdb"
+        },
+        {
+          "id": "eEQkLvHHoSU"
+        },
+        {
+          "id": "eOwKCkmSUOO"
+        },
+        {
+          "id": "eP4EDcfclsH"
+        },
+        {
+          "id": "eWlZ0JPdgiX"
+        },
+        {
+          "id": "eXmcYNVuuUY"
+        },
+        {
+          "id": "ec8BXAwrBTh"
+        },
+        {
+          "id": "ejrzC4bEJ5R"
+        },
+        {
+          "id": "ez5XnYzGvay"
+        },
+        {
+          "id": "ezAgi6u5Qta"
+        },
+        {
+          "id": "f75GbjjbQo6"
+        },
+        {
+          "id": "fUCZtV4BiIH"
+        },
+        {
+          "id": "fmNedNy1Dz4"
+        },
+        {
+          "id": "fn91BEPSaGY"
+        },
+        {
+          "id": "fqPqYs1WW22"
+        },
+        {
+          "id": "g9WyLxpr1E2"
+        },
+        {
+          "id": "gEnofzKU8FV"
+        },
+        {
+          "id": "gLjLQFU5iGR"
+        },
+        {
+          "id": "gWxbpG09atk"
+        },
+        {
+          "id": "gXsLaaEjWb4"
+        },
+        {
+          "id": "gm3SPYN1Kox"
+        },
+        {
+          "id": "goxjwhLBh98"
+        },
+        {
+          "id": "gybBvP7vbBl"
+        },
+        {
+          "id": "h0mNqlvj5B0"
+        },
+        {
+          "id": "h13bMS86rtI"
+        },
+        {
+          "id": "h3kClMEpMAy"
+        },
+        {
+          "id": "h6VJJu0W8U7"
+        },
+        {
+          "id": "h7A8N2QpOkV"
+        },
+        {
+          "id": "h7OW3TrJ61e"
+        },
+        {
+          "id": "hH5gFw01p2g"
+        },
+        {
+          "id": "hTbGyO8zzbu"
+        },
+        {
+          "id": "hTgpqkx2MAb"
+        },
+        {
+          "id": "hYvVhwa2Frr"
+        },
+        {
+          "id": "hd3EEwIBQ9P"
+        },
+        {
+          "id": "hhiYH7hH3xx"
+        },
+        {
+          "id": "hiSNbC7WWAb"
+        },
+        {
+          "id": "hnFSVoNKKBM"
+        },
+        {
+          "id": "i54ywgixjhp"
+        },
+        {
+          "id": "iDHwJraJp3Y"
+        },
+        {
+          "id": "iGP92WgNuVf"
+        },
+        {
+          "id": "iJzGpY38k41"
+        },
+        {
+          "id": "idY7moseTTD"
+        },
+        {
+          "id": "j9SOCeGryr9"
+        },
+        {
+          "id": "jBu0lozRMGR"
+        },
+        {
+          "id": "jC51Spxta9C"
+        },
+        {
+          "id": "jD7f0DfCi3d"
+        },
+        {
+          "id": "jLhYGG8YfpL"
+        },
+        {
+          "id": "jY9ia5NLA77"
+        },
+        {
+          "id": "ja0fxo22OTu"
+        },
+        {
+          "id": "jj5ZtVGdcwd"
+        },
+        {
+          "id": "jnfm7mwyTcb"
+        },
+        {
+          "id": "jwpUKqza5tE"
+        },
+        {
+          "id": "jxUmQ1pAqyo"
+        },
+        {
+          "id": "jzhphQ54S88"
+        },
+        {
+          "id": "kNKgbh9K2Ni"
+        },
+        {
+          "id": "kRrGCtqloph"
+        },
+        {
+          "id": "kWzye8GtVeb"
+        },
+        {
+          "id": "kkOw6gPK2OK"
+        },
+        {
+          "id": "klIqXXMQ1AF"
+        },
+        {
+          "id": "klKaUMVsHxb"
+        },
+        {
+          "id": "ksZnJo3iKXT"
+        },
+        {
+          "id": "kv8QLREJZk6"
+        },
+        {
+          "id": "l6nbxFm0CO4"
+        },
+        {
+          "id": "l7UXvoiTgEX"
+        },
+        {
+          "id": "l91qM3cJTek"
+        },
+        {
+          "id": "lT2PXXEtNc0"
+        },
+        {
+          "id": "lTZshHjGQEe"
+        },
+        {
+          "id": "lZa8WGsBpZt"
+        },
+        {
+          "id": "ldpEanGgRnU"
+        },
+        {
+          "id": "lduI45hYMv5"
+        },
+        {
+          "id": "lguPmuZBWDk"
+        },
+        {
+          "id": "loSyLnRwwBi"
+        },
+        {
+          "id": "lzuWRVfUjkQ"
+        },
+        {
+          "id": "m4Yz9Nz5Eir"
+        },
+        {
+          "id": "m4eOcU1zHtL"
+        },
+        {
+          "id": "m5NFJ1IxYaq"
+        },
+        {
+          "id": "m5vdq5UM3B2"
+        },
+        {
+          "id": "m7MTceflWz3"
+        },
+        {
+          "id": "mEaeC6W4Oga"
+        },
+        {
+          "id": "mM3VtbRdurN"
+        },
+        {
+          "id": "mNiSSk0Sfgz"
+        },
+        {
+          "id": "mSHa8SypYaJ"
+        },
+        {
+          "id": "mZVNxEL1OKd"
+        },
+        {
+          "id": "maFtwxdHWuZ"
+        },
+        {
+          "id": "mnfnutsHsxh"
+        },
+        {
+          "id": "mx3f7jzRUn6"
+        },
+        {
+          "id": "mzBQp5cOihy"
+        },
+        {
+          "id": "n7GyaiCn7uH"
+        },
+        {
+          "id": "nBLlavpOdkF"
+        },
+        {
+          "id": "nNmvfTuUhng"
+        },
+        {
+          "id": "nOKbmhjyCYA"
+        },
+        {
+          "id": "nS0ZJGJUX0u"
+        },
+        {
+          "id": "nW6KgPEVLIt"
+        },
+        {
+          "id": "nWqgnOkihzf"
+        },
+        {
+          "id": "nXfMiK28avb"
+        },
+        {
+          "id": "nhAPWwIgUCL"
+        },
+        {
+          "id": "nkvvH6QuQ8t"
+        },
+        {
+          "id": "nlUAhvWIgOU"
+        },
+        {
+          "id": "nsI6nzlSumR"
+        },
+        {
+          "id": "o2tDeZ7tB0l"
+        },
+        {
+          "id": "oDP0YtPBOVQ"
+        },
+        {
+          "id": "oFXCMBtu71f"
+        },
+        {
+          "id": "oNyG3X3DPbz"
+        },
+        {
+          "id": "oWqVbrpimjf"
+        },
+        {
+          "id": "olAQlCURSQR"
+        },
+        {
+          "id": "ot3GyBTHeKe"
+        },
+        {
+          "id": "pOUpImrRlyS"
+        },
+        {
+          "id": "pRrlf6NYYmU"
+        },
+        {
+          "id": "pS9QqWeC7OO"
+        },
+        {
+          "id": "pSRNRBuOBi8"
+        },
+        {
+          "id": "pWXXIlhZ8PI"
+        },
+        {
+          "id": "pZph18i0E3N"
+        },
+        {
+          "id": "pl4ewykGEd1"
+        },
+        {
+          "id": "pmcCjSU7an3"
+        },
+        {
+          "id": "psjx0PchSPj"
+        },
+        {
+          "id": "ptLuUHEellT"
+        },
+        {
+          "id": "pulohYIR6jX"
+        },
+        {
+          "id": "puzqoVkC9bH"
+        },
+        {
+          "id": "qKf4eMvqKqq"
+        },
+        {
+          "id": "qScWuUGR5yF"
+        },
+        {
+          "id": "qg3FIv25BEt"
+        },
+        {
+          "id": "qiy19S7ih95"
+        },
+        {
+          "id": "qpN0r5UFcPn"
+        },
+        {
+          "id": "qr8RGsOOdXn"
+        },
+        {
+          "id": "r2DSRRcdILk"
+        },
+        {
+          "id": "rBKkHNAdzhB"
+        },
+        {
+          "id": "rQbVIOyPNHb"
+        },
+        {
+          "id": "rRfHbsBLHRx"
+        },
+        {
+          "id": "rhcIHVJ1RxM"
+        },
+        {
+          "id": "rhltpqitzC9"
+        },
+        {
+          "id": "rjQiZlCjHp6"
+        },
+        {
+          "id": "rotANIe2GHX"
+        },
+        {
+          "id": "rr5X0uhJKl5"
+        },
+        {
+          "id": "rsGK1D0Xkfj"
+        },
+        {
+          "id": "rsmgY2HkHEf"
+        },
+        {
+          "id": "rsyymElP56r"
+        },
+        {
+          "id": "rvsb7MLMUbV"
+        },
+        {
+          "id": "ry2NWNkjLq3"
+        },
+        {
+          "id": "rzOMBqJQhrD"
+        },
+        {
+          "id": "s10VCchdlnY"
+        },
+        {
+          "id": "s92LZ9RuhaG"
+        },
+        {
+          "id": "sFlo2nMKUjV"
+        },
+        {
+          "id": "sRVnECfvFs7"
+        },
+        {
+          "id": "sRfhRRpv2rH"
+        },
+        {
+          "id": "sV8cE4AX2yl"
+        },
+        {
+          "id": "sW496bvfky8"
+        },
+        {
+          "id": "sYJkQfzW1BG"
+        },
+        {
+          "id": "sbIyFRN4j0N"
+        },
+        {
+          "id": "sdCYhjOxnoD"
+        },
+        {
+          "id": "smlHQk2gqIf"
+        },
+        {
+          "id": "sn72zXVjAF8"
+        },
+        {
+          "id": "srcYifXOgXq"
+        },
+        {
+          "id": "t5jOlOCqSr3"
+        },
+        {
+          "id": "tPCE4uhj0hy"
+        },
+        {
+          "id": "tWbJWEUNu2F"
+        },
+        {
+          "id": "tWmFeJagj87"
+        },
+        {
+          "id": "tZ3CM9qXx2R"
+        },
+        {
+          "id": "tejOvb3YNOT"
+        },
+        {
+          "id": "tjT8FgtoZmV"
+        },
+        {
+          "id": "tkCXuIKxKvK"
+        },
+        {
+          "id": "tnPO3Tkofqr"
+        },
+        {
+          "id": "tqciYTsRsV1"
+        },
+        {
+          "id": "tu2P5ALJRow"
+        },
+        {
+          "id": "tyyxKXZbYjI"
+        },
+        {
+          "id": "u1aymSGFTqA"
+        },
+        {
+          "id": "u3t1gIXW3Bh"
+        },
+        {
+          "id": "u4evyxHktVP"
+        },
+        {
+          "id": "u7WSQpbLBGs"
+        },
+        {
+          "id": "u8eW1I03rvW"
+        },
+        {
+          "id": "uHCDEltKEA6"
+        },
+        {
+          "id": "uQaaJtnfFWM"
+        },
+        {
+          "id": "uQe1J0rpnwS"
+        },
+        {
+          "id": "uTwQaiIEDk6"
+        },
+        {
+          "id": "ud6YiQ9ekgi"
+        },
+        {
+          "id": "ugQXiXF3q1v"
+        },
+        {
+          "id": "uj0O9RhtzD8"
+        },
+        {
+          "id": "uoqUo1n2Bbr"
+        },
+        {
+          "id": "uqzqgaYByJq"
+        },
+        {
+          "id": "uuHjvQ3uSjS"
+        },
+        {
+          "id": "uzy03WEvMkk"
+        },
+        {
+          "id": "v6OkaCDmX5Y"
+        },
+        {
+          "id": "v8Xnaigda7O"
+        },
+        {
+          "id": "vCOrIolhyxP"
+        },
+        {
+          "id": "vCaW1uucv0A"
+        },
+        {
+          "id": "vDp3u0DJlrK"
+        },
+        {
+          "id": "vTu1WOspiNq"
+        },
+        {
+          "id": "vZfb8jHv6hE"
+        },
+        {
+          "id": "vhjxKd80p4D"
+        },
+        {
+          "id": "viM9AeYtFV6"
+        },
+        {
+          "id": "vnulYqEDjxA"
+        },
+        {
+          "id": "vnwzR6DohHp"
+        },
+        {
+          "id": "vtidz1k9BOw"
+        },
+        {
+          "id": "vtjakFLImYg"
+        },
+        {
+          "id": "w9b8i3HljgB"
+        },
+        {
+          "id": "wFsm98Bnf40"
+        },
+        {
+          "id": "wJ4GvUwxS9G"
+        },
+        {
+          "id": "wP7Lmrb01c3"
+        },
+        {
+          "id": "wQ1FfvMZU9a"
+        },
+        {
+          "id": "wSbrjoq0URr"
+        },
+        {
+          "id": "wTnjwDdCIrS"
+        },
+        {
+          "id": "wXKdiD7gHdx"
+        },
+        {
+          "id": "wbE8v4xoinz"
+        },
+        {
+          "id": "weJ3sYiNE8D"
+        },
+        {
+          "id": "weKsEzlw3cl"
+        },
+        {
+          "id": "wichhHKwKBi"
+        },
+        {
+          "id": "wp6tV9if1us"
+        },
+        {
+          "id": "wvIYNx8b7rt"
+        },
+        {
+          "id": "xTOiNS0zd6y"
+        },
+        {
+          "id": "xUbrx2VHCy1"
+        },
+        {
+          "id": "xVfmJLKTvoj"
+        },
+        {
+          "id": "xY8dqpdkFDy"
+        },
+        {
+          "id": "xpa2vZRWT7M"
+        },
+        {
+          "id": "xxeHTOGKpCJ"
+        },
+        {
+          "id": "xz2VQl9nOPd"
+        },
+        {
+          "id": "y18n64afzoH"
+        },
+        {
+          "id": "y2QmWTVJ0F0"
+        },
+        {
+          "id": "y44lwVkMgYI"
+        },
+        {
+          "id": "yKNKfokBA9x"
+        },
+        {
+          "id": "yRAQ7e6fhhL"
+        },
+        {
+          "id": "yWUBDj8Vyha"
+        },
+        {
+          "id": "yelUZHtyQ3J"
+        },
+        {
+          "id": "yj5jWkUtBa9"
+        },
+        {
+          "id": "yoh1AojJqBm"
+        },
+        {
+          "id": "ywCZ6qdZsCX"
+        },
+        {
+          "id": "z6awB2DkDD5"
+        },
+        {
+          "id": "zGNcDLRXn25"
+        },
+        {
+          "id": "zVBLVa1TCTI"
+        },
+        {
+          "id": "zWqYNMlrEgt"
+        },
+        {
+          "id": "zgEzHh22TAi"
+        },
+        {
+          "id": "zmJu31AVVts"
+        },
+        {
+          "id": "zpak4f1pJTR"
+        },
+        {
+          "id": "zs2x5LAeI3t"
+        },
+        {
+          "id": "zv4Jk259Ks7"
+        }
+      ],
+      "dimensionItem": "mloiitN0wXx",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "NHWA Module 1: Stock",
+      "displayShortName": "NHWA Module 1: Stock",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "id": "mloiitN0wXx",
+      "lastUpdated": "2019-06-26T11:03:51.328",
+      "lastUpdatedBy": {
+        "id": "qHKSCtqDl3I"
+      },
+      "legendSets": [],
+      "metadataType": "dataElementGroups",
+      "name": "NHWA Module 1: Stock",
+      "publicAccess": "--------",
+      "shortName": "NHWA Module 1: Stock",
+      "translations": [],
+      "user": {
+        "id": "Iu6HPiXVTNX"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2017-06-15T04:42:44.025",
+      "dataElements": [
+        {
+          "id": "A8qvwcGQ7oR"
+        },
+        {
+          "id": "AdDFDID6k9W"
+        },
+        {
+          "id": "AwitV0Jocja"
+        },
+        {
+          "id": "BGrgjrIX5Ri"
+        },
+        {
+          "id": "BgJoMJEnaO1"
+        },
+        {
+          "id": "D2MFGJKtc1Y"
+        },
+        {
+          "id": "E6yC5xp14iQ"
+        },
+        {
+          "id": "EojH3xtSttx"
+        },
+        {
+          "id": "FhXwIMSsSe6"
+        },
+        {
+          "id": "FjX1rlm2TtA"
+        },
+        {
+          "id": "Fu7dDl4ppl7"
+        },
+        {
+          "id": "Gi4BzUhTjYb"
+        },
+        {
+          "id": "HB5zWlG33mm"
+        },
+        {
+          "id": "HLgQXol1EPh"
+        },
+        {
+          "id": "HeI3osYsbQa"
+        },
+        {
+          "id": "HhQgAcNaKUv"
+        },
+        {
+          "id": "HmC6k52OuR4"
+        },
+        {
+          "id": "JyiJRmOLy5X"
+        },
+        {
+          "id": "KAU5IPKoIgx"
+        },
+        {
+          "id": "L1afctF08GD"
+        },
+        {
+          "id": "LDcUDhFFhPE"
+        },
+        {
+          "id": "LKiTYPmaOhj"
+        },
+        {
+          "id": "LO5oNfvohPx"
+        },
+        {
+          "id": "Lkjp0MFLDov"
+        },
+        {
+          "id": "Ls5uiJRlx9L"
+        },
+        {
+          "id": "M1hZV0c1jpw"
+        },
+        {
+          "id": "MFUxfSaYW2e"
+        },
+        {
+          "id": "MPXGGAuhL0X"
+        },
+        {
+          "id": "NARmt1jLp0H"
+        },
+        {
+          "id": "Ngzlv0PnZHM"
+        },
+        {
+          "id": "Ni2b6zYWjjT"
+        },
+        {
+          "id": "ODDLeZOcCSb"
+        },
+        {
+          "id": "ON8DBreBXlt"
+        },
+        {
+          "id": "OZJdy5ZrHQA"
+        },
+        {
+          "id": "P5RXZZXrLGM"
+        },
+        {
+          "id": "PDaxfrOTNbP"
+        },
+        {
+          "id": "PXZbVlkKwcw"
+        },
+        {
+          "id": "PYdi9KKaylg"
+        },
+        {
+          "id": "RK9mngtJtTL"
+        },
+        {
+          "id": "RfqYbGs8Za9"
+        },
+        {
+          "id": "SRSiY1qW6W8"
+        },
+        {
+          "id": "SVNenUYsHL8"
+        },
+        {
+          "id": "SeU3FMqECnf"
+        },
+        {
+          "id": "TcSxFdjVWEh"
+        },
+        {
+          "id": "TwMqJkdt6AV"
+        },
+        {
+          "id": "TxLHP8S50Fn"
+        },
+        {
+          "id": "Txswej5dG2x"
+        },
+        {
+          "id": "U9S9LefGuER"
+        },
+        {
+          "id": "UsC3BMF3UfH"
+        },
+        {
+          "id": "VSGJ4q08rpF"
+        },
+        {
+          "id": "VZnZ8xJoaIW"
+        },
+        {
+          "id": "Va9QjeOhGZa"
+        },
+        {
+          "id": "WAoZKKHmAcj"
+        },
+        {
+          "id": "WbKGNRLpmwG"
+        },
+        {
+          "id": "XIHIwocWj9J"
+        },
+        {
+          "id": "ZCSyNruyHGx"
+        },
+        {
+          "id": "ZP7hy3u68BE"
+        },
+        {
+          "id": "ZtjIuqdv5S7"
+        },
+        {
+          "id": "a8439elcS8L"
+        },
+        {
+          "id": "bGv5noQTa4j"
+        },
+        {
+          "id": "bSvvw3Ms4BE"
+        },
+        {
+          "id": "bYXQMVmauLD"
+        },
+        {
+          "id": "brISQQxW1xp"
+        },
+        {
+          "id": "c1RM22xq3EV"
+        },
+        {
+          "id": "caegWa7kQkh"
+        },
+        {
+          "id": "cbKXNee3ph3"
+        },
+        {
+          "id": "cnxVb8H17tm"
+        },
+        {
+          "id": "cs7H0NFWgV1"
+        },
+        {
+          "id": "cxmJyqa1T5C"
+        },
+        {
+          "id": "dutH7uvTAut"
+        },
+        {
+          "id": "e3ba55rLVTZ"
+        },
+        {
+          "id": "eA4qiSbPKdb"
+        },
+        {
+          "id": "eP4EDcfclsH"
+        },
+        {
+          "id": "gArgUMQ0JUa"
+        },
+        {
+          "id": "gNfIYju3TGx"
+        },
+        {
+          "id": "ggvVrPZWZkH"
+        },
+        {
+          "id": "h3kClMEpMAy"
+        },
+        {
+          "id": "h6VJJu0W8U7"
+        },
+        {
+          "id": "hTbGyO8zzbu"
+        },
+        {
+          "id": "hUEUvVTNJ9P"
+        },
+        {
+          "id": "hiSNbC7WWAb"
+        },
+        {
+          "id": "idY7moseTTD"
+        },
+        {
+          "id": "j2ZNUH6erBa"
+        },
+        {
+          "id": "jVLDy3aFtFT"
+        },
+        {
+          "id": "jxUmQ1pAqyo"
+        },
+        {
+          "id": "l91qM3cJTek"
+        },
+        {
+          "id": "m4eOcU1zHtL"
+        },
+        {
+          "id": "mED3GxEO9og"
+        },
+        {
+          "id": "mnfnutsHsxh"
+        },
+        {
+          "id": "nS0ZJGJUX0u"
+        },
+        {
+          "id": "o6gD9w1myBu"
+        },
+        {
+          "id": "oFFxlqJwPh9"
+        },
+        {
+          "id": "opYyTkO07JI"
+        },
+        {
+          "id": "oxd7sTFC9BS"
+        },
+        {
+          "id": "pSRNRBuOBi8"
+        },
+        {
+          "id": "rC0WqacbfQH"
+        },
+        {
+          "id": "rsmgY2HkHEf"
+        },
+        {
+          "id": "rzSycgkn9X0"
+        },
+        {
+          "id": "sV8cE4AX2yl"
+        },
+        {
+          "id": "szTSFmcna7O"
+        },
+        {
+          "id": "tWmFeJagj87"
+        },
+        {
+          "id": "tZ3CM9qXx2R"
+        },
+        {
+          "id": "tu2P5ALJRow"
+        },
+        {
+          "id": "u6TBGqwClnr"
+        },
+        {
+          "id": "uQe1J0rpnwS"
+        },
+        {
+          "id": "ud6YiQ9ekgi"
+        },
+        {
+          "id": "vgh8zEz1WpS"
+        },
+        {
+          "id": "vnulYqEDjxA"
+        },
+        {
+          "id": "vtidz1k9BOw"
+        },
+        {
+          "id": "xJURWgPOCWP"
+        },
+        {
+          "id": "xhYksqRC3Mq"
+        },
+        {
+          "id": "y67a0RW6wUa"
+        },
+        {
+          "id": "yxxg9fnb8Wn"
+        },
+        {
+          "id": "zTdT8BRGwE2"
+        },
+        {
+          "id": "zVBLVa1TCTI"
+        },
+        {
+          "id": "zmJu31AVVts"
+        }
+      ],
+      "dimensionItem": "ieAkkiHieXx",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "NHWA Module 1: Stock_old",
+      "displayShortName": "NHWA Module 1: Stock_old",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "id": "ieAkkiHieXx",
+      "lastUpdated": "2019-06-26T10:52:44.040",
+      "lastUpdatedBy": {
+        "id": "qHKSCtqDl3I"
+      },
+      "legendSets": [],
+      "metadataType": "dataElementGroups",
+      "name": "NHWA Module 1: Stock_old",
+      "publicAccess": "--------",
+      "shortName": "NHWA Module 1: Stock_old",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "CNPS Module 1: Effectifs"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "CNPS Module 1: Effectifs"
+        }
+      ],
+      "user": {
+        "id": "Iu6HPiXVTNX"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2017-08-09T13:26:59.610",
+      "dataElements": [
+        {
+          "id": "AeURkaiQxjy"
+        },
+        {
+          "id": "Ca8zQsc1xjC"
+        },
+        {
+          "id": "GAikjDurEiF"
+        },
+        {
+          "id": "GHRcigiFyO0"
+        },
+        {
+          "id": "GZZ2BDHZX5w"
+        },
+        {
+          "id": "HVOexl8T1Tv"
+        },
+        {
+          "id": "LaGVF6RjtGc"
+        },
+        {
+          "id": "OJIzrlkgQh8"
+        },
+        {
+          "id": "RnxSxiLePqc"
+        },
+        {
+          "id": "Tu7mmoVDSFh"
+        },
+        {
+          "id": "W3hjWF2zAkt"
+        },
+        {
+          "id": "WBxm9A5Qkea"
+        },
+        {
+          "id": "ZeF4Zhl5iSz"
+        },
+        {
+          "id": "aPAnpOx79jA"
+        },
+        {
+          "id": "b5Y5ttOan5u"
+        },
+        {
+          "id": "bXegTxbu4XB"
+        },
+        {
+          "id": "baxzJnblwIA"
+        },
+        {
+          "id": "d9aRkLridyB"
+        },
+        {
+          "id": "dOdILuGzOCT"
+        },
+        {
+          "id": "f9lz93NUbMQ"
+        },
+        {
+          "id": "h0MrvKyI3Nk"
+        },
+        {
+          "id": "ljMIY6HvkD6"
+        },
+        {
+          "id": "lvkcxdk6ewE"
+        },
+        {
+          "id": "orhcprpuyDa"
+        },
+        {
+          "id": "utIBHSRqgVj"
+        },
+        {
+          "id": "uwBMy7jAOzr"
+        },
+        {
+          "id": "vERGKxg4ky5"
+        },
+        {
+          "id": "xW9MAkUek3E"
+        },
+        {
+          "id": "xpBCkAdPXni"
+        }
+      ],
+      "dimensionItem": "l3W0lI6hN4P",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "NHWA Module 2: education and training",
+      "displayShortName": "NHWA Module 2: education and training",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "id": "l3W0lI6hN4P",
+      "lastUpdated": "2019-01-21T07:59:12.919",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "metadataType": "dataElementGroups",
+      "name": "NHWA Module 2: education and training",
+      "publicAccess": "--------",
+      "shortName": "NHWA Module 2: education and training",
+      "translations": [],
+      "user": {
+        "id": "Iu6HPiXVTNX"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2017-07-05T22:10:45.320",
+      "dataElements": [
+        {
+          "id": "GuVpRPGCTK4"
+        },
+        {
+          "id": "HZci3ozLEL4"
+        },
+        {
+          "id": "I7m7EOrcrNa"
+        },
+        {
+          "id": "J9kRmc46Slz"
+        },
+        {
+          "id": "N2cOrvYlDJJ"
+        },
+        {
+          "id": "Qj97xn0ejxd"
+        },
+        {
+          "id": "U5S2sbEnGT9"
+        },
+        {
+          "id": "U9JXvMTuigM"
+        },
+        {
+          "id": "VCZsq4EzHM1"
+        },
+        {
+          "id": "YacgcRFGe70"
+        },
+        {
+          "id": "aEDrisPWh6i"
+        },
+        {
+          "id": "afgPWA9EO9d"
+        },
+        {
+          "id": "eizhjSo5svd"
+        },
+        {
+          "id": "j4pHY4ToKPi"
+        },
+        {
+          "id": "m8xYEbXD3Ee"
+        },
+        {
+          "id": "nwlPIKGV1gP"
+        },
+        {
+          "id": "ubXH2Mko823"
+        }
+      ],
+      "dimensionItem": "G0UuoShmQy8",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "NHWA Module 3:Education regulation",
+      "displayShortName": "NHWA Module 3:Education regulation",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "id": "G0UuoShmQy8",
+      "lastUpdated": "2018-03-15T23:09:52.502",
+      "lastUpdatedBy": {
+        "id": "Iu6HPiXVTNX"
+      },
+      "legendSets": [],
+      "metadataType": "dataElementGroups",
+      "name": "NHWA Module 3:Education regulation",
+      "publicAccess": "--------",
+      "shortName": "NHWA Module 3:Education regulation",
+      "translations": [],
+      "user": {
+        "id": "Iu6HPiXVTNX"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2017-07-05T19:07:54.187",
+      "dataElements": [
+        {
+          "id": "A2DdaTmf6Ud"
+        },
+        {
+          "id": "BMJGeU5QjPU"
+        },
+        {
+          "id": "EI6IOp5v4dR"
+        },
+        {
+          "id": "FFmtJFFISjz"
+        },
+        {
+          "id": "FM20fzfsNov"
+        },
+        {
+          "id": "FQpontg7YBJ"
+        },
+        {
+          "id": "FhipFemkCD6"
+        },
+        {
+          "id": "KzzMv68cifG"
+        },
+        {
+          "id": "LiIAZRiHerP"
+        },
+        {
+          "id": "Rx0MR32LJoK"
+        },
+        {
+          "id": "T6CoTrwDx30"
+        },
+        {
+          "id": "VGwyxy87JTn"
+        },
+        {
+          "id": "VbeNbk9aZpF"
+        },
+        {
+          "id": "Ybz3qUCWYKC"
+        },
+        {
+          "id": "Z6Wd8wiIAfz"
+        },
+        {
+          "id": "eHX3CD9w5XG"
+        },
+        {
+          "id": "go9xficYy4f"
+        },
+        {
+          "id": "hUqp2FZFNGA"
+        },
+        {
+          "id": "ie5rMMLaKoX"
+        },
+        {
+          "id": "k31vRXPe1UA"
+        },
+        {
+          "id": "mQh8RpY2ccw"
+        },
+        {
+          "id": "qLiR6JcUdmr"
+        },
+        {
+          "id": "qwZoBgLRrQf"
+        },
+        {
+          "id": "tsRGEPI6G9W"
+        },
+        {
+          "id": "uEqspl3rRlH"
+        },
+        {
+          "id": "ueq331C93KZ"
+        }
+      ],
+      "dimensionItem": "Q9FMJDmH71O",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "NHWA Module 4:Education finance",
+      "displayShortName": "NHWA Module 4:Education finance",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "id": "Q9FMJDmH71O",
+      "lastUpdated": "2019-03-25T08:53:31.220",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "metadataType": "dataElementGroups",
+      "name": "NHWA Module 4:Education finance",
+      "publicAccess": "--------",
+      "shortName": "NHWA Module 4:Education finance",
+      "translations": [],
+      "user": {
+        "id": "Iu6HPiXVTNX"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2017-07-07T12:25:16.940",
+      "dataElements": [
+        {
+          "id": "AZqsANkZRnD"
+        },
+        {
+          "id": "BOPZbzxOfSA"
+        },
+        {
+          "id": "DwYaOZuilM8"
+        },
+        {
+          "id": "NNQYgAf2Cj8"
+        },
+        {
+          "id": "OI5vu4jG4Rf"
+        },
+        {
+          "id": "P9FK7e2Ngsz"
+        },
+        {
+          "id": "SSzpjcForGt"
+        },
+        {
+          "id": "Xr81a9iOAyC"
+        },
+        {
+          "id": "aeGGK8bRvmr"
+        },
+        {
+          "id": "ek4BsT4iUo8"
+        },
+        {
+          "id": "ftfTDf31OnN"
+        },
+        {
+          "id": "gvkPV8aqP39"
+        },
+        {
+          "id": "h1S7GCkmvVn"
+        },
+        {
+          "id": "kcoQHDRTi4E"
+        },
+        {
+          "id": "qNRERx0Icjw"
+        },
+        {
+          "id": "qQBFc1FSZBd"
+        },
+        {
+          "id": "sF1LtVEqk6Y"
+        },
+        {
+          "id": "sdNHn8qmokO"
+        },
+        {
+          "id": "sw0lh63wqsA"
+        },
+        {
+          "id": "yazrkuSMGHD"
+        }
+      ],
+      "dimensionItem": "vcj8DxRCtvt",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "NHWA Module 5:Market Flows",
+      "displayShortName": "NHWA Module 5:Market Flows",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "id": "vcj8DxRCtvt",
+      "lastUpdated": "2019-03-19T16:12:37.437",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "metadataType": "dataElementGroups",
+      "name": "NHWA Module 5:Market Flows",
+      "publicAccess": "--------",
+      "shortName": "NHWA Module 5:Market Flows",
+      "translations": [],
+      "user": {
+        "id": "Iu6HPiXVTNX"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "AVERAGE",
+      "attributeValues": [],
+      "created": "2017-07-06T12:22:21.904",
+      "dataElements": [
+        {
+          "id": "C8MvR5CNwpG"
+        },
+        {
+          "id": "GeY6o2BMvp1"
+        },
+        {
+          "id": "Ii26DODuUbB"
+        },
+        {
+          "id": "KlsBVkjtkkV"
+        },
+        {
+          "id": "LUVRqQq2NLE"
+        },
+        {
+          "id": "LYjT01KiTTw"
+        },
+        {
+          "id": "N6VNhZ2PCG7"
+        },
+        {
+          "id": "ViuQB9CLltC"
+        },
+        {
+          "id": "YpvMwP4LgpH"
+        },
+        {
+          "id": "cV7DhKFPk3R"
+        },
+        {
+          "id": "di91e0qZijs"
+        },
+        {
+          "id": "fNWDIhx3ZQO"
+        },
+        {
+          "id": "iM5NIZBqAUL"
+        },
+        {
+          "id": "iS6Vzt6PPjr"
+        },
+        {
+          "id": "lvs1RCQOOp4"
+        },
+        {
+          "id": "qqVKuhK0RgY"
+        },
+        {
+          "id": "wsmvhizfctg"
+        }
+      ],
+      "dimensionItem": "FmcINGctyey",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "NHWA Module 6:Working conditions",
+      "displayShortName": "NHWA Module 6:Working conditions",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "id": "FmcINGctyey",
+      "lastUpdated": "2019-01-21T09:37:07.066",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "metadataType": "dataElementGroups",
+      "name": "NHWA Module 6:Working conditions",
+      "publicAccess": "--------",
+      "shortName": "NHWA Module 6:Working conditions",
+      "translations": [],
+      "user": {
+        "id": "Iu6HPiXVTNX"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2017-07-06T11:13:19.840",
+      "dataElements": [
+        {
+          "id": "BOsqct4iCpa"
+        },
+        {
+          "id": "CvaGFNVhuQl"
+        },
+        {
+          "id": "FVANVRToxVF"
+        },
+        {
+          "id": "H6pdAoosHWN"
+        },
+        {
+          "id": "M7R7LVsXlAN"
+        },
+        {
+          "id": "Wgfv9IaDiWM"
+        },
+        {
+          "id": "X2FXsNBTisV"
+        },
+        {
+          "id": "gNDFctqpNyv"
+        },
+        {
+          "id": "kOWad32u5xr"
+        },
+        {
+          "id": "l5RPrypr3Wg"
+        },
+        {
+          "id": "oTcSBrUk1hs"
+        },
+        {
+          "id": "xWfKWoc4ggg"
+        }
+      ],
+      "dimensionItem": "mF4ksSQJaO6",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "NHWA Module 7:Remuneration",
+      "displayShortName": "NHWA Module 7:Remuneration",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "id": "mF4ksSQJaO6",
+      "lastUpdated": "2019-02-24T11:15:56.484",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "metadataType": "dataElementGroups",
+      "name": "NHWA Module 7:Remuneration",
+      "publicAccess": "--------",
+      "shortName": "NHWA Module 7:Remuneration",
+      "translations": [],
+      "user": {
+        "id": "Iu6HPiXVTNX"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "NONE",
+      "attributeValues": [],
+      "created": "2017-07-06T10:53:23.223",
+      "dataElements": [
+        {
+          "id": "EVairjAiRv6"
+        },
+        {
+          "id": "EWJZZN7T9IW"
+        },
+        {
+          "id": "LW954y3FqL8"
+        },
+        {
+          "id": "XEj0ILIlbWO"
+        },
+        {
+          "id": "fxBC5D01Iem"
+        },
+        {
+          "id": "tKr3k3lbnJJ"
+        },
+        {
+          "id": "u6F6nBWeomT"
+        },
+        {
+          "id": "zozZbvSo4Bz"
+        }
+      ],
+      "dimensionItem": "cu7aIUiRoDi",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "NHWA Module 8:Skill mix",
+      "displayShortName": "NHWA Module 8:Skill mix",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "id": "cu7aIUiRoDi",
+      "lastUpdated": "2019-02-24T10:59:47.388",
+      "lastUpdatedBy": {
+        "id": "dKttJLRSiIl"
+      },
+      "legendSets": [],
+      "metadataType": "dataElementGroups",
+      "name": "NHWA Module 8:Skill mix",
+      "publicAccess": "--------",
+      "shortName": "NHWA Module 8:Skill mix",
+      "translations": [],
+      "user": {
+        "id": "Iu6HPiXVTNX"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "AVERAGE",
+      "attributeValues": [],
+      "created": "2017-08-13T00:03:51.268",
+      "dataElements": [
+        {
+          "id": "HgQ76w0VONy"
+        },
+        {
+          "id": "ROVoulCcT0j"
+        },
+        {
+          "id": "tdwemEgGckz"
+        },
+        {
+          "id": "wDaqByzsz7p"
+        },
+        {
+          "id": "yqQBUxeuga4"
+        }
+      ],
+      "dimensionItem": "fwPN0tzlFBz",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "NHWA Module 9: Governance",
+      "displayShortName": "NHWA Module 9: Governance",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "id": "fwPN0tzlFBz",
+      "lastUpdated": "2018-03-15T23:11:00.107",
+      "lastUpdatedBy": {
+        "id": "Iu6HPiXVTNX"
+      },
+      "legendSets": [],
+      "metadataType": "dataElementGroups",
+      "name": "NHWA Module 9: Governance",
+      "publicAccess": "--------",
+      "shortName": "NHWA Module 9: Governance",
+      "translations": [],
+      "user": {
+        "id": "Iu6HPiXVTNX"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "AVERAGE",
+      "attributeValues": [],
+      "created": "2017-07-25T05:11:58.640",
+      "dataElements": [
+        {
+          "id": "A2DdaTmf6Ud"
+        },
+        {
+          "id": "AfjKW34xUWU"
+        },
+        {
+          "id": "Aj4fGYzwBLb"
+        },
+        {
+          "id": "BVG63Bdwa2k"
+        },
+        {
+          "id": "BvOxQpI7835"
+        },
+        {
+          "id": "Bw7ogAkFWi3"
+        },
+        {
+          "id": "ByoT7j2RwBS"
+        },
+        {
+          "id": "C84PanlvtYk"
+        },
+        {
+          "id": "CXe0NLZCSaT"
+        },
+        {
+          "id": "DW5FnYghMpC"
+        },
+        {
+          "id": "EO7D5Dw22Lo"
+        },
+        {
+          "id": "FnzydrUQTry"
+        },
+        {
+          "id": "GsZm6eMckvC"
+        },
+        {
+          "id": "H51iDfYi4p8"
+        },
+        {
+          "id": "H9UxZIpa0bB"
+        },
+        {
+          "id": "HDvIn2o5rz9"
+        },
+        {
+          "id": "HZGSWx3M0lF"
+        },
+        {
+          "id": "I2BUNt2JVgJ"
+        },
+        {
+          "id": "IuOJYFZ5IN4"
+        },
+        {
+          "id": "JVz61MyElVT"
+        },
+        {
+          "id": "Lr8R699hKAS"
+        },
+        {
+          "id": "MZJvCAWDZT8"
+        },
+        {
+          "id": "NGdNP9wlO4F"
+        },
+        {
+          "id": "OCbtQLdg0NH"
+        },
+        {
+          "id": "PTDSm6Ubi80"
+        },
+        {
+          "id": "PllFh96b9g2"
+        },
+        {
+          "id": "RX2rmizsaNU"
+        },
+        {
+          "id": "RsdXOIqJgnI"
+        },
+        {
+          "id": "SIlGin3j0Cc"
+        },
+        {
+          "id": "SQUyd5zg5cl"
+        },
+        {
+          "id": "TZdrYuQ7NSh"
+        },
+        {
+          "id": "UKB5px4flo2"
+        },
+        {
+          "id": "UNN8znqiFNp"
+        },
+        {
+          "id": "UPspE4Yy9ba"
+        },
+        {
+          "id": "VlEHWBTiE7J"
+        },
+        {
+          "id": "Vz4Ap01IjCE"
+        },
+        {
+          "id": "W3UCugudNTh"
+        },
+        {
+          "id": "WJ2OpegBGF2"
+        },
+        {
+          "id": "WLXOO5m79AD"
+        },
+        {
+          "id": "Wbse5Tws7Mr"
+        },
+        {
+          "id": "XSVLb8H6gdG"
+        },
+        {
+          "id": "Xg7QtcUbOkV"
+        },
+        {
+          "id": "YBdnPZ9GDtL"
+        },
+        {
+          "id": "Ye4bvEQZ5h1"
+        },
+        {
+          "id": "ZOmnnYsANLv"
+        },
+        {
+          "id": "c0vPgBRecFU"
+        },
+        {
+          "id": "cOrfko1WUk6"
+        },
+        {
+          "id": "cZ8yvkZMACN"
+        },
+        {
+          "id": "czpt5tWFnzi"
+        },
+        {
+          "id": "eCmdIyls43S"
+        },
+        {
+          "id": "ek0PRO5zyCz"
+        },
+        {
+          "id": "fLnrFeKkbgH"
+        },
+        {
+          "id": "fdGWaLemlUv"
+        },
+        {
+          "id": "fjaJWpYKJjB"
+        },
+        {
+          "id": "gDMGjQF2Xci"
+        },
+        {
+          "id": "gNRNLQvuGmq"
+        },
+        {
+          "id": "hJsIyqW25na"
+        },
+        {
+          "id": "iPRTMMGNF6u"
+        },
+        {
+          "id": "iT2ofbm80QI"
+        },
+        {
+          "id": "jHzqWLJTDwd"
+        },
+        {
+          "id": "jzQLzPE3D0b"
+        },
+        {
+          "id": "kAwuJ7H9dyH"
+        },
+        {
+          "id": "kIS6VB55Qyd"
+        },
+        {
+          "id": "kK50QvwFFJk"
+        },
+        {
+          "id": "m0Ud8X6WvwN"
+        },
+        {
+          "id": "mOjFMXuLaFx"
+        },
+        {
+          "id": "nZ6eChinzEN"
+        },
+        {
+          "id": "nzNDU8qNG8g"
+        },
+        {
+          "id": "oDsiCImsVOg"
+        },
+        {
+          "id": "onH88cUawhf"
+        },
+        {
+          "id": "qZnPXnJ5SGN"
+        },
+        {
+          "id": "rb6KC5QbFTm"
+        },
+        {
+          "id": "rvXGYnAGna3"
+        },
+        {
+          "id": "sJ9ffGrKvvJ"
+        },
+        {
+          "id": "vpGio3VuQBN"
+        },
+        {
+          "id": "wDvhi9fCXyg"
+        },
+        {
+          "id": "wSiB4FIav1y"
+        },
+        {
+          "id": "wWtbuUoO3pC"
+        },
+        {
+          "id": "yMkhCiHkQGZ"
+        },
+        {
+          "id": "yv57WnhQdk0"
+        },
+        {
+          "id": "z7agY5vOFxJ"
+        },
+        {
+          "id": "zKC0Y2dZXTw"
+        }
+      ],
+      "dimensionItem": "rN3oyHKKreG",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "NHWA Module Baseline",
+      "displayShortName": "NHWA Module Baseline",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "id": "rN3oyHKKreG",
+      "lastUpdated": "2019-05-07T11:08:36.461",
+      "lastUpdatedBy": {
+        "id": "kD52FGwJgDF"
+      },
+      "legendSets": [],
+      "metadataType": "dataElementGroups",
+      "name": "NHWA Module Baseline",
+      "publicAccess": "--------",
+      "shortName": "NHWA Module Baseline",
+      "translations": [],
+      "user": {
+        "id": "Iu6HPiXVTNX"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    }
+  ],
+  "date": "2019-07-03T10:38:47.291Z"
+}
