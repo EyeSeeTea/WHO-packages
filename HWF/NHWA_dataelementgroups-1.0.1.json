@@ -1761,7 +1761,7 @@
             "shortName": "NHWA Module 1 (Subnational)",
             "aggregationType": "SUM",
             "displayName": "NHWA Module 1 (Subnational)",
-            "publicAccess": "rw------",
+            "publicAccess": "--------",
             "displayShortName": "NHWA Module 1 (Subnational)",
             "externalAccess": false,
             "dimensionItem": "OGX89hsbgno",
@@ -2139,7 +2139,14 @@
                     "id": "OlR0fMhjX0m"
                 }
             ],
-            "userGroupAccesses": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rwr-----",
+                    "userGroupUid": "fxyLXZ10TXC",
+                    "displayName": "NHWA Team (formerly health workforce team)",
+                    "id": "fxyLXZ10TXC"
+                }
+            ],
             "attributeValues": [],
             "groupSets": [],
             "userAccesses": [],
