@@ -340,27 +340,7 @@
     } );
      $('#alert-error').hide();
      function complete(){
-         var found = false;
-         var li = "";
-         values.forEach(function(value){
-             if($('#' +value.id+ '-Xr12mI7VPn3-val').val() == ""){
-                 found = true;
-                 li = li.replace(' and ',", ")
-                 if(li.length > 0){
-                     li += ' and '
-                 }
-
-                 li += value.name.replace(" Stock","");
-             }
-         });
-         console.log("What:",found);
-         if(!found){
-             registerCompleteDataSet();
-         }else{
-             $('#alert-error').show();
-             $('#li').empty();
-             $('#li').append(li);
-         }
+        registerCompleteDataSet();
      }
 
 </script>
