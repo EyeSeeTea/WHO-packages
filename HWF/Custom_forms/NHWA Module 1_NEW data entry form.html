@@ -334,12 +334,12 @@
         },
 		//2 - Nursing Personnel
 		{
-			id: "wrceD1un08Y-F3kCvhpDnMM-val",
-			children: ["ejrzC4bEJ5R-sAC6z2IMFrR-val","oWqVbrpimjf-sAC6z2IMFrR-val","VIWOOPfPUnX-F3kCvhpDnMM-val"]
+			id: "wrceD1un08Y-sAC6z2IMFrR-val",
+			children: ["ejrzC4bEJ5R-sAC6z2IMFrR-val","oWqVbrpimjf-sAC6z2IMFrR-val","VIWOOPfPUnX-sAC6z2IMFrR-val"]
         },
 		{
-			id: "wrceD1un08Y-sAC6z2IMFrR-val",
-			children: ["ejrzC4bEJ5R-F3kCvhpDnMM-val","oWqVbrpimjf-F3kCvhpDnMM-val","VIWOOPfPUnX-sAC6z2IMFrR-val"]
+			id: "wrceD1un08Y-F3kCvhpDnMM-val",
+			children: ["ejrzC4bEJ5R-F3kCvhpDnMM-val","oWqVbrpimjf-F3kCvhpDnMM-val","VIWOOPfPUnX-F3kCvhpDnMM-val"]
         },
 		{
 			id: "o1HqfAPcWtK-StFfGxHbuDF-val",
@@ -884,27 +884,7 @@
     } );
     $('#alert-error').hide();
     function complete(){
-        var found = false;
-        var li = "";
-        values.forEach(function(value){
-            if($('#' +value.id+ '-Xr12mI7VPn3-val').val() == ""){
-                found = true;
-                li = li.replace(' and ',", ")
-                if(li.length > 0){
-                    li += ' and '
-                }
-
-                li += value.name.replace(" Stock","");
-            }
-        });
-        console.log("What:",found);
-        if(!found){
-            registerCompleteDataSet();
-        }else{
-            $('#alert-error').show();
-            $('#li').empty();
-            $('#li').append(li);
-        }
+        registerCompleteDataSet();
     }
 
 </script>
@@ -2943,8 +2923,8 @@ button[disabled], html input[disabled] {color: graytext !important;}
 			<th scope="row">2</th>
 			<th colspan="3" scope="row" style="text-align: left;">Nursing Personnel</th>
 			<th scope="row" style="text-align: left;">&nbsp;</th>
-			<td scope="row" style="text-align: left;"><input id="wrceD1un08Y-F3kCvhpDnMM-val" name="entryfield" title="Nursing  Personnel Stock By Sex Female" value="[ Nursing  Personnel Stock By Sex Female ]" /></td>
-			<td scope="row" style="text-align: left;"><input id="wrceD1un08Y-sAC6z2IMFrR-val" name="entryfield" title="Nursing  Personnel Stock By Sex Male" value="[ Nursing  Personnel Stock By Sex Male ]" /></td>
+			<td scope="row" style="text-align: left;"><input id="wrceD1un08Y-sAC6z2IMFrRval" name="entryfield" title="Nursing  Personnel Stock By Sex Male" value="[ Nursing  Personnel Stock By Sex Male ]" /></td>
+			<td scope="row" style="text-align: left;"><input id="wrceD1un08Y-F3kCvhpDnMM--val" name="entryfield" title="Nursing  Personnel Stock By Sex Female" value="[ Nursing  Personnel Stock By Sex Female ]" /></td>
 			<td scope="row" style="text-align: left;"><input id="o1HqfAPcWtK-StFfGxHbuDF-val" name="entryfield" title="Nursing  Personnel Stock By Age Group &lt; 25 yrs" value="[ Nursing  Personnel Stock By Age Group &lt; 25 yrs ]" /></td>
 			<td scope="row" style="text-align: left;"><input id="o1HqfAPcWtK-unqbIiA0uir-val" name="entryfield" title="Nursing  Personnel Stock By Age Group 25-34 yrs" value="[ Nursing  Personnel Stock By Age Group 25-34 yrs ]" /></td>
 			<td scope="row" style="text-align: left;"><input id="o1HqfAPcWtK-cMLHJtYTW40-val" name="entryfield" title="Nursing  Personnel Stock By Age Group 35-44 yrs" value="[ Nursing  Personnel Stock By Age Group 35-44 yrs ]" /></td>
@@ -3018,8 +2998,8 @@ button[disabled], html input[disabled] {color: graytext !important;}
 			<p style="text-align: left; margin-left: 20px;">Nurses not further defined</p>
 			</th>
 			<th scope="row" style="text-align: left;">&nbsp;</th>
-			<td scope="row" style="text-align: left;"><input id="VIWOOPfPUnX-F3kCvhpDnMM-val" name="entryfield" title="Nurses not further defined Stock By Sex Female" value="[ Nurses not further defined Stock By Sex Female ]" /></td>
 			<td scope="row" style="text-align: left;"><input id="VIWOOPfPUnX-sAC6z2IMFrR-val" name="entryfield" title="Nurses not further defined Stock By Sex Male" value="[ Nurses not further defined Stock By Sex Male ]" /></td>
+			<td scope="row" style="text-align: left;"><input id="VIWOOPfPUnX-F3kCvhpDnMM-val" name="entryfield" title="Nurses not further defined Stock By Sex Female" value="[ Nurses not further defined Stock By Sex Female ]" /></td>
 			<td scope="row" style="text-align: left;"><input id="xpa2vZRWT7M-StFfGxHbuDF-val" name="entryfield" title="Nurses not further defined Stock By Age Group &lt; 25 yrs" value="[ Nurses not further defined Stock By Age Group &lt; 25 yrs ]" /></td>
 			<td scope="row" style="text-align: left;"><input id="xpa2vZRWT7M-unqbIiA0uir-val" name="entryfield" title="Nurses not further defined Stock By Age Group 25-34 yrs" value="[ Nurses not further defined Stock By Age Group 25-34 yrs ]" /></td>
 			<td scope="row" style="text-align: left;"><input id="xpa2vZRWT7M-cMLHJtYTW40-val" name="entryfield" title="Nurses not further defined Stock By Age Group 35-44 yrs" value="[ Nurses not further defined Stock By Age Group 35-44 yrs ]" /></td>
