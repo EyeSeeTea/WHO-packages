@@ -1,5 +1,95 @@
 {
-    "date": "2019-08-08T10:46:55.208Z",
+    "date": "2019-08-08T11:16:00.872Z",
+    "dataSets": [
+        {
+            "metadataType": "dataSets",
+            "lastUpdated": "2019-08-08T11:27:32.240",
+            "id": "C47NApwU2kc",
+            "created": "2019-08-08T08:48:38.596",
+            "name": "ADMIN_Analytics_Check",
+            "validCompleteOnly": false,
+            "publicAccess": "--------",
+            "skipOffline": false,
+            "compulsoryFieldsCompleteOnly": false,
+            "formType": "DEFAULT",
+            "version": 2,
+            "timelyDays": 15,
+            "favorite": false,
+            "dimensionItemType": "REPORTING_RATE",
+            "dataElementDecoration": false,
+            "displayName": "ADMIN_Analytics_Check",
+            "notifyCompletingUser": false,
+            "noValueRequiresComment": false,
+            "externalAccess": false,
+            "fieldCombinationRequired": false,
+            "renderHorizontally": false,
+            "renderAsTabs": false,
+            "dimensionItem": "C47NApwU2kc",
+            "mobile": false,
+            "periodType": "Daily",
+            "openFuturePeriods": 1,
+            "expiryDays": 0,
+            "lastUpdatedBy": {
+                "id": "kD52FGwJgDF"
+            },
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true,
+                "data": {
+                    "read": true,
+                    "write": true
+                }
+            },
+            "user": {
+                "id": "H4atNsEuKxP"
+            },
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "iBDyhSHSk1K"
+                    },
+                    "dataSet": {
+                        "id": "C47NApwU2kc"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "z0JzzSTL65T"
+                    },
+                    "dataSet": {
+                        "id": "C47NApwU2kc"
+                    }
+                }
+            ],
+            "translations": [],
+            "dataInputPeriods": [],
+            "interpretations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "attributeValues": [],
+            "indicators": [],
+            "sections": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "favorites": [],
+            "compulsoryDataElementOperands": [],
+            "organisationUnits": [
+                {
+                    "id": "H8RixfF8ugH"
+                }
+            ]
+        }
+    ],
     "dashboards": [
         {
             "metadataType": "dashboards",
@@ -76,6 +166,130 @@
                 }
             ],
             "userAccesses": []
+        }
+    ],
+    "dataElements": [
+        {
+            "metadataType": "dataElements",
+            "lastUpdated": "2019-08-08T08:51:51.136",
+            "id": "iBDyhSHSk1K",
+            "created": "2019-08-08T08:51:51.136",
+            "name": "ADMIN_Analytics_Execution_2",
+            "shortName": "ADMIN_Analytics_Execution_2",
+            "aggregationType": "SUM",
+            "domainType": "AGGREGATE",
+            "displayName": "ADMIN_Analytics_Execution_2",
+            "publicAccess": "--------",
+            "displayShortName": "ADMIN_Analytics_Execution_2",
+            "externalAccess": false,
+            "valueType": "TRUE_ONLY",
+            "formName": "Analytics run at 12h",
+            "dimensionItem": "iBDyhSHSk1K",
+            "displayFormName": "Analytics run at 12h",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "user": {
+                "id": "H4atNsEuKxP"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "iBDyhSHSk1K"
+                    },
+                    "dataSet": {
+                        "id": "C47NApwU2kc"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "lastUpdated": "2019-08-08T08:51:34.609",
+            "id": "z0JzzSTL65T",
+            "created": "2019-08-08T08:51:15.806",
+            "name": "ADMIN_Analytics_Execution_1",
+            "shortName": "ADMIN_Analytics_Execution_1",
+            "aggregationType": "SUM",
+            "domainType": "AGGREGATE",
+            "displayName": "ADMIN_Analytics_Execution_1",
+            "publicAccess": "--------",
+            "displayShortName": "ADMIN_Analytics_Execution_1",
+            "externalAccess": false,
+            "valueType": "TRUE_ONLY",
+            "formName": "Analytics run at 0h",
+            "dimensionItem": "z0JzzSTL65T",
+            "displayFormName": "Analytics run at 0h",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "user": {
+                "id": "H4atNsEuKxP"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "z0JzzSTL65T"
+                    },
+                    "dataSet": {
+                        "id": "C47NApwU2kc"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
         }
     ],
     "reportTables": [
@@ -206,9 +420,9 @@
                 {
                     "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
                     "dataElementOperand": {
-                        "lastUpdated": "2019-08-08T12:46:47.318",
+                        "lastUpdated": "2019-08-08T13:15:58.330",
                         "id": "z0JzzSTL65T",
-                        "created": "2019-08-08T12:46:47.318",
+                        "created": "2019-08-08T13:15:58.330",
                         "name": "ADMIN_Analytics_Execution_1",
                         "shortName": "ADMIN_Analytics_Execution_1",
                         "displayName": "ADMIN_Analytics_Execution_1",
@@ -239,9 +453,9 @@
                 {
                     "dataDimensionItemType": "DATA_ELEMENT_OPERAND",
                     "dataElementOperand": {
-                        "lastUpdated": "2019-08-08T12:46:47.318",
+                        "lastUpdated": "2019-08-08T13:15:58.330",
                         "id": "iBDyhSHSk1K",
-                        "created": "2019-08-08T12:46:47.318",
+                        "created": "2019-08-08T13:15:58.330",
                         "name": "ADMIN_Analytics_Execution_2",
                         "shortName": "ADMIN_Analytics_Execution_2",
                         "displayName": "ADMIN_Analytics_Execution_2",
@@ -287,130 +501,6 @@
             "rowDimensions": [
                 "pe"
             ]
-        }
-    ],
-    "dataElements": [
-        {
-            "metadataType": "dataElements",
-            "lastUpdated": "2019-08-08T08:51:34.609",
-            "id": "z0JzzSTL65T",
-            "created": "2019-08-08T08:51:15.806",
-            "name": "ADMIN_Analytics_Execution_1",
-            "shortName": "ADMIN_Analytics_Execution_1",
-            "aggregationType": "SUM",
-            "domainType": "AGGREGATE",
-            "displayName": "ADMIN_Analytics_Execution_1",
-            "publicAccess": "--------",
-            "displayShortName": "ADMIN_Analytics_Execution_1",
-            "externalAccess": false,
-            "valueType": "TRUE_ONLY",
-            "formName": "Analytics run at 0h",
-            "dimensionItem": "z0JzzSTL65T",
-            "displayFormName": "Analytics run at 0h",
-            "zeroIsSignificant": false,
-            "favorite": false,
-            "optionSetValue": false,
-            "dimensionItemType": "DATA_ELEMENT",
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "user": {
-                "id": "H4atNsEuKxP"
-            },
-            "favorites": [],
-            "dataSetElements": [
-                {
-                    "dataElement": {
-                        "id": "z0JzzSTL65T"
-                    },
-                    "dataSet": {
-                        "id": "C47NApwU2kc"
-                    }
-                }
-            ],
-            "translations": [],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "userGroupUid": "UfhhwZK73Lg",
-                    "displayName": "WIDP IT team",
-                    "id": "UfhhwZK73Lg"
-                }
-            ],
-            "dataElementGroups": [],
-            "attributeValues": [],
-            "userAccesses": [],
-            "legendSets": [],
-            "aggregationLevels": []
-        },
-        {
-            "metadataType": "dataElements",
-            "lastUpdated": "2019-08-08T08:51:51.136",
-            "id": "iBDyhSHSk1K",
-            "created": "2019-08-08T08:51:51.136",
-            "name": "ADMIN_Analytics_Execution_2",
-            "shortName": "ADMIN_Analytics_Execution_2",
-            "aggregationType": "SUM",
-            "domainType": "AGGREGATE",
-            "displayName": "ADMIN_Analytics_Execution_2",
-            "publicAccess": "--------",
-            "displayShortName": "ADMIN_Analytics_Execution_2",
-            "externalAccess": false,
-            "valueType": "TRUE_ONLY",
-            "formName": "Analytics run at 12h",
-            "dimensionItem": "iBDyhSHSk1K",
-            "displayFormName": "Analytics run at 12h",
-            "zeroIsSignificant": false,
-            "favorite": false,
-            "optionSetValue": false,
-            "dimensionItemType": "DATA_ELEMENT",
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "user": {
-                "id": "H4atNsEuKxP"
-            },
-            "favorites": [],
-            "dataSetElements": [
-                {
-                    "dataElement": {
-                        "id": "iBDyhSHSk1K"
-                    },
-                    "dataSet": {
-                        "id": "C47NApwU2kc"
-                    }
-                }
-            ],
-            "translations": [],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "userGroupUid": "UfhhwZK73Lg",
-                    "displayName": "WIDP IT team",
-                    "id": "UfhhwZK73Lg"
-                }
-            ],
-            "dataElementGroups": [],
-            "attributeValues": [],
-            "userAccesses": [],
-            "legendSets": [],
-            "aggregationLevels": []
         }
     ]
 }
