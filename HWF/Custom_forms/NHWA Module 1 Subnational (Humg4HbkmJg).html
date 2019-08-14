@@ -340,7 +340,27 @@
     } );
      $('#alert-error').hide();
      function complete(){
-        registerCompleteDataSet();
+         var found = false;
+         var li = "";
+         values.forEach(function(value){
+             if($('#' +value.id+ '-Xr12mI7VPn3-val').val() == ""){
+                 found = true;
+                 li = li.replace(' and ',", ")
+                 if(li.length > 0){
+                     li += ' and '
+                 }
+
+                 li += value.name.replace(" Stock","");
+             }
+         });
+         console.log("What:",found);
+         if(!found){
+             registerCompleteDataSet();
+         }else{
+             $('#alert-error').show();
+             $('#li').empty();
+             $('#li').append(li);
+         }
      }
 
 </script>
@@ -605,12 +625,12 @@
 			</div>
 			</div>
 			</td>
-        </tr>
-        <tr>
-		<th scope="row">1.3</th>
-            <th colspan="3" rowspan="1" scope="row">
-                <p style="text-align: left; margin-left: 20px;">Medical doctors not further defined</p>
-                </th>
+		</tr>
+		<tr>
+			<th scope="row">1.3</th>
+			<th colspan="3" rowspan="1" scope="row">
+			<p style="text-align: left; margin-left: 20px;">Medical doctors not further defined</p>
+			</th>
 			<th style="text-align: center;"><input id="ePgUyGHxJuI-Xr12mI7VPn3-val" name="entryfield" title="Medical doctors not further defined Stock (Subnational)" value="[ Medical doctors not further defined Stock (Subnational) ]" /></th>
 			<td style="text-align: left;">
 			<div class="multiselect">
@@ -623,7 +643,7 @@
 				<tbody>
 					<tr style="text-align: left;">
 						<td><label><input id="y8MA1BOZ3OO-bj9TvyIDtwi-val" name="entryfield" title="Medical doctors not further defined composition and distribution source type  (Subnational) Academia" value="[ Medical doctors not further defined composition and distribution source type  (Subnational) Academia ]" />Academia</label><label><input id="y8MA1BOZ3OO-lcB0UtS4nuB-val" name="entryfield" title="Medical doctors not further defined composition and distribution source type  (Subnational) International organisations" value="[ Medical doctors not further defined composition and distribution source type  (Subnational) International organisations ]" />International organisation</label> <label for="two"><input id="y8MA1BOZ3OO-LvGn3KFEzvA-val" name="entryfield" title="Medical doctors not further defined composition and distribution source type  (Subnational) Ministry of Health" value="[ Medical doctors not further defined composition and distribution source type  (Subnational) Ministry of Health ]" />Ministry of Health</label> <label for="three"><input id="y8MA1BOZ3OO-wcnRf5LJrnK-val" name="entryfield" title="Medical doctors not further defined composition and distribution source type  (Subnational) Ministry of Internal or External Affairs" value="[ Medical doctors not further defined composition and distribution source type  (Subnational) Ministry of Internal or External Affairs ]" />Ministry of Internal or External Affairs</label> <label for="four"><input id="y8MA1BOZ3OO-MXfWGD11wLh-val" name="entryfield" title="Medical doctors not further defined composition and distribution source type  (Subnational) Ministry of Labour" value="[ Medical doctors not further defined composition and distribution source type  (Subnational) Ministry of Labour ]" />Ministry of Labour</label></td>
-						<td><label><input id="y8MA1BOZ3OO-P5jMO9Y0SRn-val" name="entryfield" title="Medical doctors not further defined composition and distribution source type  (Subnational) Multi Agency organisations" value="[Medical doctors not further defined composition and distribution source type  (Subnational) Multi Agency organisations ]" />Multi Agency organisations</label> <label for="six"><input id="y8MA1BOZ3OO-eWjpUQpzWKX-val" name="entryfield" title="Medical doctors not further defined composition and distribution source type  (Subnational) National HRH Observatory" value="[ Medical doctors not further defined composition and distribution source type  (Subnational) National HRH Observatory ]" />National HRH Observatory</label> <label for="seven"><input id="y8MA1BOZ3OO-hC2N9T8F5JD-val" name="entryfield" title="Medical doctors not further defined composition and distribution source type  (Subnational) National/Central Statistical Office" value="[ Medical doctors not further defined composition and distribution source type  (Subnational) National/Central Statistical Office ]" />National/Central Statistical Office</label> <label for="eight"><input id="y8MA1BOZ3OO-xgbBSeyiDWp-val" name="entryfield" title="Medical doctors not further defined composition and distribution source type  (Subnational) Other multi Agency databases" value="[ Medical doctors not further defined composition and distribution source type  (Subnational) Other multi Agency databases ]" />Other multi Agency databases</label></td>
+						<td><label><input id="y8MA1BOZ3OO-P5jMO9Y0SRn-val" name="entryfield" title="Medical doctors not further defined composition and distribution source type  (Subnational) Multi Agency organisations" value="[ Medical doctors not further defined composition and distribution source type  (Subnational) Multi Agency organisations ]" />Multi Agency organisations</label> <label for="six"><input id="y8MA1BOZ3OO-eWjpUQpzWKX-val" name="entryfield" title="Medical doctors not further defined composition and distribution source type  (Subnational) National HRH Observatory" value="[ Medical doctors not further defined composition and distribution source type  (Subnational) National HRH Observatory ]" />National HRH Observatory</label> <label for="seven"><input id="y8MA1BOZ3OO-hC2N9T8F5JD-val" name="entryfield" title="Medical doctors not further defined composition and distribution source type  (Subnational) National/Central Statistical Office" value="[ Medical doctors not further defined composition and distribution source type  (Subnational) National/Central Statistical Office ]" />National/Central Statistical Office</label> <label for="eight"><input id="y8MA1BOZ3OO-xgbBSeyiDWp-val" name="entryfield" title="Medical doctors not further defined composition and distribution source type  (Subnational) Other multi Agency databases" value="[ Medical doctors not further defined composition and distribution source type  (Subnational) Other multi Agency databases ]" />Other multi Agency databases</label></td>
 						<td><label><input id="y8MA1BOZ3OO-IhnQTXo2sCi-val" name="entryfield" title="Medical doctors not further defined composition and distribution source type  (Subnational) Other WHO Regional databases" value="[ Medical doctors not further defined composition and distribution source type  (Subnational) Other WHO Regional databases ]" />Other WHO Regional databases</label> <label for="ten"><input id="y8MA1BOZ3OO-rEUC186wftQ-val" name="entryfield" title="Medical doctors not further defined composition and distribution source type  (Subnational) Professional association" value="[ Medical doctors not further defined composition and distribution source type  (Subnational) Professional association ]" />Professional association</label><label for="eleven"><input id="y8MA1BOZ3OO-s5mo8EjeKiY-val" name="entryfield" title="Medical doctors not further defined composition and distribution source type  (Subnational) Regional HRH Observatory" value="[ Medical doctors not further defined composition and distribution source type  (Subnational) Regional HRH Observatory ]" />Regional HRH Observatory</label> <label for="tweleve"><input id="y8MA1BOZ3OO-ADfCJWnnU2O-val" name="entryfield" title="Medical doctors not further defined composition and distribution source type  (Subnational) Regulatory bodies" value="[ Medical doctors not further defined composition and distribution source type  (Subnational) Regulatory bodies ]" />Regulatory bodies</label></td>
 					</tr>
 				</tbody>
@@ -707,12 +727,12 @@
 			</div>
 			</div>
 			</td>
-        </tr>
-        <tr>
-		<th scope="row">2.3</th>
-            <th colspan="3" scope="row" style="text-align: left;">
-                <p style="text-align: left; margin-left: 20px;">Nurses not further defined</p>
-                </th>
+		</tr>
+		<tr>
+			<th scope="row">2.3</th>
+			<th colspan="3" scope="row" style="text-align: left;">
+			<p style="text-align: left; margin-left: 20px;">Nurses not further defined</p>
+			</th>
 			<th style="text-align: center;"><input id="T58TEnz6WgZ-Xr12mI7VPn3-val" name="entryfield" title="Nurses not further defined Stock (Subnational)" value="[ Nurses not further defined Stock (Subnational) ]" /></th>
 			<td colspan="3" style="text-align: left;">
 			<div class="multiselect">
@@ -809,10 +829,10 @@
 			</div>
 			</div>
 			</td>
-        </tr>
-        <tr>
-        <th scope="row">3.3</th>
-        <th colspan="3" scope="row" style="text-align: left;">
+		</tr>
+		<tr>
+			<th scope="row">3.3</th>
+			<th colspan="3" scope="row" style="text-align: left;">
 			<p style="text-align: left; margin-left: 20px;">Midwives not further defined</p>
 			</th>
 			<th style="text-align: center;"><input id="QC2yRZy5Fn7-Xr12mI7VPn3-val" name="entryfield" title="Midwives not further defined Stock (Subnational)" value="[ Midwives not further defined Stock (Subnational) ]" /></th>
