@@ -1,603 +1,979 @@
 <script type="text/javascript">
-    $(document).ready(function () {
-        $(function () {
-            $("#mod2_tabs").tabs();
-        });
-        var yespartialno = ['lvs1RCQOOp4', 'LYjT01KiTTw', 'gGSJZCN2L8C', 'FDUFnJmPb2t', 'DVyhvgkJrXg', 'Uyxr85SOJiI', 'I5m9Dl43XO2', 'gDinmRT6Pqb', 'LUVRqQq2NLE'];
-        var categoryIssues = ['I93t0K7b1oN', 'Xgr3PJxcWfJ', 'Y7EAGQA1bfv'];
-        function changeListener(element, category, object) {
-            if (object.is(':checked')) {
-                console.log(object.attr('id'));
-                var dataValues = [];
-                var sel = dhis2.de.api.getSelections();
-                categoryIssues.forEach(function (id) {
-                    if (id !== category) {
-                        //var str = "input[name='" + dv.de +'-' + id + "-val'][value='false']";
-                        var str = "#" + element + '-' + id + "-val";
-                        console.log('str:', str);
-                        $(str).prop('checked', false);
-                        dataValues.push({ "dataElement": element, "categoryOptionCombo": id, "period": sel["pe"], "orgUnit": sel["ou"] })
-                    }
-                })
-                $.ajax({
-                    type: "POST",
-                    url: '../api/dataValueSets',
-                    contentType: 'application/json',
-                    data: JSON.stringify({
-                        "dataValues": dataValues
-                    }),
-                    success: function (data1) {
-                        console.log("COunt:", data1[0].count);
-                        total = data1[0].count;
-
-                    }
-                });
-            } else {
-                console.log("Not Checked")
-            }
-        }
-        yespartialno.forEach(function (element) {
-            categoryIssues.forEach(function (category) {
-                $('#' + element + "-" + category + '-val').change(
-                    function () {
-                        console.log('Changes taken place')
-                        changeListener(element, category, $(this));
-
-                    });
-            })
-        })
+  $(document).ready(function() {
+    $(function() {
+      $("#mod2_tabs").tabs();
     });
-
+    var yespartialno = [
+      "lvs1RCQOOp4",
+      "LYjT01KiTTw",
+      "gGSJZCN2L8C",
+      "FDUFnJmPb2t",
+      "DVyhvgkJrXg",
+      "Uyxr85SOJiI",
+      "I5m9Dl43XO2",
+      "gDinmRT6Pqb",
+      "LUVRqQq2NLE"
+    ];
+    var categoryIssues = ["I93t0K7b1oN", "Xgr3PJxcWfJ", "Y7EAGQA1bfv"];
+    function changeListener(element, category, object) {
+      if (object.is(":checked")) {
+        console.log(object.attr("id"));
+        var dataValues = [];
+        var sel = dhis2.de.api.getSelections();
+        categoryIssues.forEach(function(id) {
+          if (id !== category) {
+            //var str = "input[name='" + dv.de +'-' + id + "-val'][value='false']";
+            var str = "#" + element + "-" + id + "-val";
+            console.log("str:", str);
+            $(str).prop("checked", false);
+            dataValues.push({
+              dataElement: element,
+              categoryOptionCombo: id,
+              period: sel["pe"],
+              orgUnit: sel["ou"]
+            });
+          }
+        });
+        $.ajax({
+          type: "POST",
+          url: "../api/dataValueSets",
+          contentType: "application/json",
+          data: JSON.stringify({
+            dataValues: dataValues
+          }),
+          success: function(data1) {
+            console.log("COunt:", data1[0].count);
+            total = data1[0].count;
+          }
+        });
+      } else {
+        console.log("Not Checked");
+      }
+    }
+    yespartialno.forEach(function(element) {
+      categoryIssues.forEach(function(category) {
+        $("#" + element + "-" + category + "-val").change(function() {
+          console.log("Changes taken place");
+          changeListener(element, category, $(this));
+        });
+      });
+    });
+  });
 </script>
 <style type="text/css">
-    #cde table {
-        border-collapse: collapse;
-    }
+  #cde table {
+    border-collapse: collapse;
+  }
 
-    #cde table,
-    #cde th,
-    #cde td {
-        border: 1px solid #c0c0c0;
-    }
+  #cde table,
+  #cde th,
+  #cde td {
+    border: 1px solid #c0c0c0;
+  }
 
-    #cde td,
-    #cde th {
-        height: 30px;
-        padding: 10px;
-        margin: 10px;
-    }
+  #cde td,
+  #cde th {
+    height: 30px;
+    padding: 10px;
+    margin: 10px;
+  }
 
-    .cde-greyfield {
-        background-color: #e0e0e0;
-    }
+  .cde-greyfield {
+    background-color: #e0e0e0;
+  }
 </style>
-<h3 style="text-align: center;"><strong>Health Workforce Employment characteristics and working conditions</strong></h3>
+<h3 style="text-align: center;">
+  <strong
+    >Health Workforce Employment characteristics and working conditions</strong
+  >
+</h3>
 
-<h4 style="text-align: right;"><a href="../api/documents/p6IINqTYv2f/data" target="_blank">Access the NHWA
-        HANDBOOK</a><br />
-    <br />
-    <a href="../api/documents/OCoAAGYwapP/data" target="_blank">Access the NHWA USER GUIDE</a></h4>
+<h4 style="text-align: right;">
+  <a href="../api/documents/p6IINqTYv2f/data" target="_blank"
+    >Access the NHWA HANDBOOK</a
+  ><br />
+  <br />
+  <a href="../api/documents/OCoAAGYwapP/data" target="_blank"
+    >Access the NHWA USER GUIDE</a
+  >
+</h4>
 
 <div id="mod2_tabs">
-    <ul>
-        <li><a href="#tab0">Characteristics</a></li>
-        <li><a href="#tab1">Conditions</a></li>
-        <li><a href="#tab2">Regulations</a></li>
-        <li><a href="#tab3">Other Resources</a></li>
-    </ul>
+  <ul>
+    <li><a href="#tab0">Characteristics</a></li>
+    <li><a href="#tab1">Conditions</a></li>
+    <li><a href="#tab2">Regulations</a></li>
+    <li><a href="#tab3">Other Resources</a></li>
+  </ul>
 
-    <div id="tab0">
-        <h2>SECTION 1: HWF Working CharacteristicsYes</h2>
+  <div id="tab0">
+    <h2>SECTION 1: HWF Working CharacteristicsYes</h2>
 
-        <div id="cde">
-            <table cellpadding="0" cellspacing="0">
-                <thead>
-                    <tr>
-                        <th>SN</th>
-                        <th style="text-align: center;">Item</th>
-                        <th style="text-align: center;">Value</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Standard working hours as per the national law</td>
-                        <td><input id="iM5NIZBqAUL-Xr12mI7VPn3-val" name="entryfield"
-                                title="Standard working hours as per the national law"
-                                value="[ Standard working hours as per the national law ]" /></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-
-        <div id="cde">&nbsp;
-            <table cellpadding="0" cellspacing="0">
-                <thead>
-                    <tr>
-                        <th colspan="1" rowspan="3">SN</th>
-                        <th colspan="1" rowspan="3" style="text-align: center;">Occupation</th>
-                        <th colspan="1" rowspan="3" style="text-align: center;">Standard Working<br />
-                            Hours in a week</th>
-                        <th colspan="3" style="text-align: center;">Health Work Force with Part<br />
-                            Time Contract</th>
-                        <th colspan="1" rowspan="3" style="text-align: center;">Self employed<br />
-                            workers</th>
-                    </tr>
-                    <tr>
-                        <th rowspan="2" style="text-align: center;">Public Owned Facilities</th>
-                        <th rowspan="2" style="text-align: center;">Not for Profit Private Facilities</th>
-                        <th rowspan="2" style="text-align: center;">For Profit Private Facilities</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Medical Doctors</td>
-                        <td><input id="GeY6o2BMvp1-aBpbcEgtzgw-val" name="entryfield"
-                                title="Standard Working Hours in a week Medical Doctors"
-                                value="[ Standard Working Hours in a week Medical Doctors ]" /></td>
-                        <td><input id="C8MvR5CNwpG-aBpbcEgtzgw-val" name="entryfield"
-                                title="Health workforce with Part Time Contract in a public owned facilities Medical Doctors"
-                                value="[ Health workforce with Part Time Contract in a public owned facilities Medical Doctors ]" />
-                        </td>
-                        <td><input id="wsmvhizfctg-aBpbcEgtzgw-val" name="entryfield"
-                                title="Health workforce with Part Time Contract in a Not-for-profit privately owned facilities Medical Doctors"
-                                value="[ Health workforce with Part Time Contract in a Not-for-profit privately owned facilities Medical Doctors ]" />
-                        </td>
-                        <td><input id="KlsBVkjtkkV-aBpbcEgtzgw-val" name="entryfield"
-                                title="Health workforce with Part Time Contract in a For-profit privately owned owned facilities Medical Doctors"
-                                value="[ Health workforce with Part Time Contract in a For-profit privately owned owned facilities Medical Doctors ]" />
-                        </td>
-                        <td><input id="N6VNhZ2PCG7-aBpbcEgtzgw-val" name="entryfield"
-                                title="Health workforce Self employed Medical Doctors"
-                                value="[ Health workforce Self employed Medical Doctors ]" /></td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>
-                            <p style="margin-left: 20px; text-align: left;">General Medical Practitioner</p>
-                        </td>
-                        <td><input id="GeY6o2BMvp1-LHbCtHlZr3Y-val" name="entryfield"
-                                title="Standard Working Hours in a week General Medical Practitioner"
-                                value="[ Standard Working Hours in a week General Medical Practitioner ]" /></td>
-                        <td><input id="C8MvR5CNwpG-LHbCtHlZr3Y-val" name="entryfield"
-                                title="Health workforce with Part Time Contract in a public owned facilities General Medical Practitioner"
-                                value="[ Health workforce with Part Time Contract in a public owned facilities General Medical Practitioner ]" />
-                        </td>
-                        <td><input id="wsmvhizfctg-LHbCtHlZr3Y-val" name="entryfield"
-                                title="Health workforce with Part Time Contract in a Not-for-profit privately owned facilities General Medical Practitioner"
-                                value="[ Health workforce with Part Time Contract in a Not-for-profit privately owned facilities General Medical Practitioner ]" />
-                        </td>
-                        <td><input id="KlsBVkjtkkV-LHbCtHlZr3Y-val" name="entryfield"
-                                title="Health workforce with Part Time Contract in a For-profit privately owned owned facilities General Medical Practitioner"
-                                value="[ Health workforce with Part Time Contract in a For-profit privately owned owned facilities General Medical Practitioner ]" />
-                        </td>
-                        <td><input id="N6VNhZ2PCG7-LHbCtHlZr3Y-val" name="entryfield"
-                                title="Health workforce Self employed General Medical Practitioner"
-                                value="[ Health workforce Self employed General Medical Practitioner ]" /></td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>
-                            <p style="margin-left: 20px; text-align: left;">Specialist Medical Practitioner</p>
-                        </td>
-                        <td><input id="GeY6o2BMvp1-VtVkbvygJnm-val" name="entryfield"
-                                title="Standard Working Hours in a week Specialist Medical Practitioner"
-                                value="[ Standard Working Hours in a week Specialist Medical Practitioner ]" /></td>
-                        <td><input id="C8MvR5CNwpG-VtVkbvygJnm-val" name="entryfield"
-                                title="Health workforce with Part Time Contract in a public owned facilities Specialist Medical Practitioner"
-                                value="[ Health workforce with Part Time Contract in a public owned facilities Specialist Medical Practitioner ]" />
-                        </td>
-                        <td><input id="wsmvhizfctg-VtVkbvygJnm-val" name="entryfield"
-                                title="Health workforce with Part Time Contract in a Not-for-profit privately owned facilities Specialist Medical Practitioner"
-                                value="[ Health workforce with Part Time Contract in a Not-for-profit privately owned facilities Specialist Medical Practitioner ]" />
-                        </td>
-                        <td><input id="KlsBVkjtkkV-VtVkbvygJnm-val" name="entryfield"
-                                title="Health workforce with Part Time Contract in a For-profit privately owned owned facilities Specialist Medical Practitioner"
-                                value="[ Health workforce with Part Time Contract in a For-profit privately owned owned facilities Specialist Medical Practitioner ]" />
-                        </td>
-                        <td><input id="N6VNhZ2PCG7-VtVkbvygJnm-val" name="entryfield"
-                                title="Health workforce Self employed Specialist Medical Practitioner"
-                                value="[ Health workforce Self employed Specialist Medical Practitioner ]" /></td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>Nursing Professional</td>
-                        <td><input id="GeY6o2BMvp1-fGOgbIqsxDn-val" name="entryfield"
-                                title="Standard Working Hours in a week Nursing Professional"
-                                value="[ Standard Working Hours in a week Nursing Professional ]" /></td>
-                        <td><input id="C8MvR5CNwpG-fGOgbIqsxDn-val" name="entryfield"
-                                title="Health workforce with Part Time Contract in a public owned facilities Nursing Professional"
-                                value="[ Health workforce with Part Time Contract in a public owned facilities Nursing Professional ]" />
-                        </td>
-                        <td><input id="wsmvhizfctg-fGOgbIqsxDn-val" name="entryfield"
-                                title="Health workforce with Part Time Contract in a Not-for-profit privately owned facilities Nursing Professional"
-                                value="[ Health workforce with Part Time Contract in a Not-for-profit privately owned facilities Nursing Professional ]" />
-                        </td>
-                        <td><input id="KlsBVkjtkkV-fGOgbIqsxDn-val" name="entryfield"
-                                title="Health workforce with Part Time Contract in a For-profit privately owned owned facilities Nursing Professional"
-                                value="[ Health workforce with Part Time Contract in a For-profit privately owned owned facilities Nursing Professional ]" />
-                        </td>
-                        <td><input id="N6VNhZ2PCG7-fGOgbIqsxDn-val" name="entryfield"
-                                title="Health workforce Self employed Nursing Professional"
-                                value="[ Health workforce Self employed Nursing Professional ]" /></td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>Midwifery Professional</td>
-                        <td><input id="GeY6o2BMvp1-MPzyVWiSFF2-val" name="entryfield"
-                                title="Standard Working Hours in a week Midwifery Professional"
-                                value="[ Standard Working Hours in a week Midwifery Professional ]" /></td>
-                        <td><input id="C8MvR5CNwpG-MPzyVWiSFF2-val" name="entryfield"
-                                title="Health workforce with Part Time Contract in a public owned facilities Midwifery Professional"
-                                value="[ Health workforce with Part Time Contract in a public owned facilities Midwifery Professional ]" />
-                        </td>
-                        <td><input id="wsmvhizfctg-MPzyVWiSFF2-val" name="entryfield"
-                                title="Health workforce with Part Time Contract in a Not-for-profit privately owned facilities Midwifery Professional"
-                                value="[ Health workforce with Part Time Contract in a Not-for-profit privately owned facilities Midwifery Professional ]" />
-                        </td>
-                        <td><input id="KlsBVkjtkkV-MPzyVWiSFF2-val" name="entryfield"
-                                title="Health workforce with Part Time Contract in a For-profit privately owned owned facilities Midwifery Professional"
-                                value="[ Health workforce with Part Time Contract in a For-profit privately owned owned facilities Midwifery Professional ]" />
-                        </td>
-                        <td><input id="N6VNhZ2PCG7-MPzyVWiSFF2-val" name="entryfield"
-                                title="Health workforce Self employed Midwifery Professional"
-                                value="[ Health workforce Self employed Midwifery Professional ]" /></td>
-                    </tr>
-                    <tr>
-                        <td>6</td>
-                        <td>Dentist</td>
-                        <td><input id="GeY6o2BMvp1-ALBRKpJsddQ-val" name="entryfield"
-                                title="Standard Working Hours in a week Dentist"
-                                value="[ Standard Working Hours in a week Dentist ]" /></td>
-                        <td><input id="C8MvR5CNwpG-ALBRKpJsddQ-val" name="entryfield"
-                                title="Health workforce with Part Time Contract in a public owned facilities Dentist"
-                                value="[ Health workforce with Part Time Contract in a public owned facilities Dentist ]" />
-                        </td>
-                        <td><input id="wsmvhizfctg-ALBRKpJsddQ-val" name="entryfield"
-                                title="Health workforce with Part Time Contract in a Not-for-profit privately owned facilities Dentist"
-                                value="[ Health workforce with Part Time Contract in a Not-for-profit privately owned facilities Dentist ]" />
-                        </td>
-                        <td><input id="KlsBVkjtkkV-ALBRKpJsddQ-val" name="entryfield"
-                                title="Health workforce with Part Time Contract in a For-profit privately owned owned facilities Dentist"
-                                value="[ Health workforce with Part Time Contract in a For-profit privately owned owned facilities Dentist ]" />
-                        </td>
-                        <td><input id="N6VNhZ2PCG7-ALBRKpJsddQ-val" name="entryfield"
-                                title="Health workforce Self employed Dentist"
-                                value="[ Health workforce Self employed Dentist ]" /></td>
-                    </tr>
-                    <tr>
-                        <td>7</td>
-                        <td>Pharmacist</td>
-                        <td><input id="GeY6o2BMvp1-iWRW6jXAzvP-val" name="entryfield"
-                                title="Standard Working Hours in a week Pharmacist"
-                                value="[ Standard Working Hours in a week Pharmacist ]" /></td>
-                        <td><input id="C8MvR5CNwpG-iWRW6jXAzvP-val" name="entryfield"
-                                title="Health workforce with Part Time Contract in a public owned facilities Pharmacist"
-                                value="[ Health workforce with Part Time Contract in a public owned facilities Pharmacist ]" />
-                        </td>
-                        <td><input id="wsmvhizfctg-iWRW6jXAzvP-val" name="entryfield"
-                                title="Health workforce with Part Time Contract in a Not-for-profit privately owned facilities Pharmacist"
-                                value="[ Health workforce with Part Time Contract in a Not-for-profit privately owned facilities Pharmacist ]" />
-                        </td>
-                        <td><input id="KlsBVkjtkkV-iWRW6jXAzvP-val" name="entryfield"
-                                title="Health workforce with Part Time Contract in a For-profit privately owned owned facilities Pharmacist"
-                                value="[ Health workforce with Part Time Contract in a For-profit privately owned owned facilities Pharmacist ]" />
-                        </td>
-                        <td><input id="N6VNhZ2PCG7-iWRW6jXAzvP-val" name="entryfield"
-                                title="Health workforce Self employed Pharmacist"
-                                value="[ Health workforce Self employed Pharmacist ]" /></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+    <div id="cde">
+      <table cellpadding="0" cellspacing="0">
+        <thead>
+          <tr>
+            <th>SN</th>
+            <th style="text-align: center;">Item</th>
+            <th style="text-align: center;">Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Standard working hours as per the national law</td>
+            <td>
+              <input
+                id="iM5NIZBqAUL-Xr12mI7VPn3-val"
+                name="entryfield"
+                title="Standard working hours as per the national law"
+                value="[ Standard working hours as per the national law ]"
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
-    <div id="tab1">
-        <h2>SECTION 2: HWF Working Conditions</h2>
+    <div id="cde">
+      &nbsp;
+      <table cellpadding="0" cellspacing="0">
+        <thead>
+          <tr>
+            <th colspan="1" rowspan="3">SN</th>
+            <th colspan="1" rowspan="3" style="text-align: center;">
+              Occupation
+            </th>
+            <th colspan="1" rowspan="3" style="text-align: center;">
+              Standard Working<br />
+              Hours in a week
+            </th>
+            <th colspan="3" style="text-align: center;">
+              Health Work Force with Part<br />
+              Time Contract
+            </th>
+            <th colspan="1" rowspan="3" style="text-align: center;">
+              Self employed<br />
+              workers
+            </th>
+          </tr>
+          <tr>
+            <th rowspan="2" style="text-align: center;">
+              Public Owned Facilities
+            </th>
+            <th rowspan="2" style="text-align: center;">
+              Not for Profit Private Facilities
+            </th>
+            <th rowspan="2" style="text-align: center;">
+              For Profit Private Facilities
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Medical Doctors</td>
+            <td>
+              <input
+                id="GeY6o2BMvp1-aBpbcEgtzgw-val"
+                name="entryfield"
+                title="Standard Working Hours in a week Medical Doctors"
+                value="[ Standard Working Hours in a week Medical Doctors ]"
+              />
+            </td>
+            <td>
+              <input
+                id="C8MvR5CNwpG-aBpbcEgtzgw-val"
+                name="entryfield"
+                title="Health workforce with Part Time Contract in a public owned facilities Medical Doctors"
+                value="[ Health workforce with Part Time Contract in a public owned facilities Medical Doctors ]"
+              />
+            </td>
+            <td>
+              <input
+                id="wsmvhizfctg-aBpbcEgtzgw-val"
+                name="entryfield"
+                title="Health workforce with Part Time Contract in a Not-for-profit privately owned facilities Medical Doctors"
+                value="[ Health workforce with Part Time Contract in a Not-for-profit privately owned facilities Medical Doctors ]"
+              />
+            </td>
+            <td>
+              <input
+                id="KlsBVkjtkkV-aBpbcEgtzgw-val"
+                name="entryfield"
+                title="Health workforce with Part Time Contract in a For-profit privately owned owned facilities Medical Doctors"
+                value="[ Health workforce with Part Time Contract in a For-profit privately owned owned facilities Medical Doctors ]"
+              />
+            </td>
+            <td>
+              <input
+                id="N6VNhZ2PCG7-aBpbcEgtzgw-val"
+                name="entryfield"
+                title="Health workforce Self employed Medical Doctors"
+                value="[ Health workforce Self employed Medical Doctors ]"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>
+              <p style="margin-left: 20px; text-align: left;">
+                General Medical Practitioner
+              </p>
+            </td>
+            <td>
+              <input
+                id="GeY6o2BMvp1-LHbCtHlZr3Y-val"
+                name="entryfield"
+                title="Standard Working Hours in a week General Medical Practitioner"
+                value="[ Standard Working Hours in a week General Medical Practitioner ]"
+              />
+            </td>
+            <td>
+              <input
+                id="C8MvR5CNwpG-LHbCtHlZr3Y-val"
+                name="entryfield"
+                title="Health workforce with Part Time Contract in a public owned facilities General Medical Practitioner"
+                value="[ Health workforce with Part Time Contract in a public owned facilities General Medical Practitioner ]"
+              />
+            </td>
+            <td>
+              <input
+                id="wsmvhizfctg-LHbCtHlZr3Y-val"
+                name="entryfield"
+                title="Health workforce with Part Time Contract in a Not-for-profit privately owned facilities General Medical Practitioner"
+                value="[ Health workforce with Part Time Contract in a Not-for-profit privately owned facilities General Medical Practitioner ]"
+              />
+            </td>
+            <td>
+              <input
+                id="KlsBVkjtkkV-LHbCtHlZr3Y-val"
+                name="entryfield"
+                title="Health workforce with Part Time Contract in a For-profit privately owned owned facilities General Medical Practitioner"
+                value="[ Health workforce with Part Time Contract in a For-profit privately owned owned facilities General Medical Practitioner ]"
+              />
+            </td>
+            <td>
+              <input
+                id="N6VNhZ2PCG7-LHbCtHlZr3Y-val"
+                name="entryfield"
+                title="Health workforce Self employed General Medical Practitioner"
+                value="[ Health workforce Self employed General Medical Practitioner ]"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>
+              <p style="margin-left: 20px; text-align: left;">
+                Specialist Medical Practitioner
+              </p>
+            </td>
+            <td>
+              <input
+                id="GeY6o2BMvp1-VtVkbvygJnm-val"
+                name="entryfield"
+                title="Standard Working Hours in a week Specialist Medical Practitioner"
+                value="[ Standard Working Hours in a week Specialist Medical Practitioner ]"
+              />
+            </td>
+            <td>
+              <input
+                id="C8MvR5CNwpG-VtVkbvygJnm-val"
+                name="entryfield"
+                title="Health workforce with Part Time Contract in a public owned facilities Specialist Medical Practitioner"
+                value="[ Health workforce with Part Time Contract in a public owned facilities Specialist Medical Practitioner ]"
+              />
+            </td>
+            <td>
+              <input
+                id="wsmvhizfctg-VtVkbvygJnm-val"
+                name="entryfield"
+                title="Health workforce with Part Time Contract in a Not-for-profit privately owned facilities Specialist Medical Practitioner"
+                value="[ Health workforce with Part Time Contract in a Not-for-profit privately owned facilities Specialist Medical Practitioner ]"
+              />
+            </td>
+            <td>
+              <input
+                id="KlsBVkjtkkV-VtVkbvygJnm-val"
+                name="entryfield"
+                title="Health workforce with Part Time Contract in a For-profit privately owned owned facilities Specialist Medical Practitioner"
+                value="[ Health workforce with Part Time Contract in a For-profit privately owned owned facilities Specialist Medical Practitioner ]"
+              />
+            </td>
+            <td>
+              <input
+                id="N6VNhZ2PCG7-VtVkbvygJnm-val"
+                name="entryfield"
+                title="Health workforce Self employed Specialist Medical Practitioner"
+                value="[ Health workforce Self employed Specialist Medical Practitioner ]"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Nursing Professional</td>
+            <td>
+              <input
+                id="GeY6o2BMvp1-fGOgbIqsxDn-val"
+                name="entryfield"
+                title="Standard Working Hours in a week Nursing Professional"
+                value="[ Standard Working Hours in a week Nursing Professional ]"
+              />
+            </td>
+            <td>
+              <input
+                id="C8MvR5CNwpG-fGOgbIqsxDn-val"
+                name="entryfield"
+                title="Health workforce with Part Time Contract in a public owned facilities Nursing Professional"
+                value="[ Health workforce with Part Time Contract in a public owned facilities Nursing Professional ]"
+              />
+            </td>
+            <td>
+              <input
+                id="wsmvhizfctg-fGOgbIqsxDn-val"
+                name="entryfield"
+                title="Health workforce with Part Time Contract in a Not-for-profit privately owned facilities Nursing Professional"
+                value="[ Health workforce with Part Time Contract in a Not-for-profit privately owned facilities Nursing Professional ]"
+              />
+            </td>
+            <td>
+              <input
+                id="KlsBVkjtkkV-fGOgbIqsxDn-val"
+                name="entryfield"
+                title="Health workforce with Part Time Contract in a For-profit privately owned owned facilities Nursing Professional"
+                value="[ Health workforce with Part Time Contract in a For-profit privately owned owned facilities Nursing Professional ]"
+              />
+            </td>
+            <td>
+              <input
+                id="N6VNhZ2PCG7-fGOgbIqsxDn-val"
+                name="entryfield"
+                title="Health workforce Self employed Nursing Professional"
+                value="[ Health workforce Self employed Nursing Professional ]"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Midwifery Professional</td>
+            <td>
+              <input
+                id="GeY6o2BMvp1-MPzyVWiSFF2-val"
+                name="entryfield"
+                title="Standard Working Hours in a week Midwifery Professional"
+                value="[ Standard Working Hours in a week Midwifery Professional ]"
+              />
+            </td>
+            <td>
+              <input
+                id="C8MvR5CNwpG-MPzyVWiSFF2-val"
+                name="entryfield"
+                title="Health workforce with Part Time Contract in a public owned facilities Midwifery Professional"
+                value="[ Health workforce with Part Time Contract in a public owned facilities Midwifery Professional ]"
+              />
+            </td>
+            <td>
+              <input
+                id="wsmvhizfctg-MPzyVWiSFF2-val"
+                name="entryfield"
+                title="Health workforce with Part Time Contract in a Not-for-profit privately owned facilities Midwifery Professional"
+                value="[ Health workforce with Part Time Contract in a Not-for-profit privately owned facilities Midwifery Professional ]"
+              />
+            </td>
+            <td>
+              <input
+                id="KlsBVkjtkkV-MPzyVWiSFF2-val"
+                name="entryfield"
+                title="Health workforce with Part Time Contract in a For-profit privately owned owned facilities Midwifery Professional"
+                value="[ Health workforce with Part Time Contract in a For-profit privately owned owned facilities Midwifery Professional ]"
+              />
+            </td>
+            <td>
+              <input
+                id="N6VNhZ2PCG7-MPzyVWiSFF2-val"
+                name="entryfield"
+                title="Health workforce Self employed Midwifery Professional"
+                value="[ Health workforce Self employed Midwifery Professional ]"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Dentist</td>
+            <td>
+              <input
+                id="GeY6o2BMvp1-ALBRKpJsddQ-val"
+                name="entryfield"
+                title="Standard Working Hours in a week Dentist"
+                value="[ Standard Working Hours in a week Dentist ]"
+              />
+            </td>
+            <td>
+              <input
+                id="C8MvR5CNwpG-ALBRKpJsddQ-val"
+                name="entryfield"
+                title="Health workforce with Part Time Contract in a public owned facilities Dentist"
+                value="[ Health workforce with Part Time Contract in a public owned facilities Dentist ]"
+              />
+            </td>
+            <td>
+              <input
+                id="wsmvhizfctg-ALBRKpJsddQ-val"
+                name="entryfield"
+                title="Health workforce with Part Time Contract in a Not-for-profit privately owned facilities Dentist"
+                value="[ Health workforce with Part Time Contract in a Not-for-profit privately owned facilities Dentist ]"
+              />
+            </td>
+            <td>
+              <input
+                id="KlsBVkjtkkV-ALBRKpJsddQ-val"
+                name="entryfield"
+                title="Health workforce with Part Time Contract in a For-profit privately owned owned facilities Dentist"
+                value="[ Health workforce with Part Time Contract in a For-profit privately owned owned facilities Dentist ]"
+              />
+            </td>
+            <td>
+              <input
+                id="N6VNhZ2PCG7-ALBRKpJsddQ-val"
+                name="entryfield"
+                title="Health workforce Self employed Dentist"
+                value="[ Health workforce Self employed Dentist ]"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Pharmacist</td>
+            <td>
+              <input
+                id="GeY6o2BMvp1-iWRW6jXAzvP-val"
+                name="entryfield"
+                title="Standard Working Hours in a week Pharmacist"
+                value="[ Standard Working Hours in a week Pharmacist ]"
+              />
+            </td>
+            <td>
+              <input
+                id="C8MvR5CNwpG-iWRW6jXAzvP-val"
+                name="entryfield"
+                title="Health workforce with Part Time Contract in a public owned facilities Pharmacist"
+                value="[ Health workforce with Part Time Contract in a public owned facilities Pharmacist ]"
+              />
+            </td>
+            <td>
+              <input
+                id="wsmvhizfctg-iWRW6jXAzvP-val"
+                name="entryfield"
+                title="Health workforce with Part Time Contract in a Not-for-profit privately owned facilities Pharmacist"
+                value="[ Health workforce with Part Time Contract in a Not-for-profit privately owned facilities Pharmacist ]"
+              />
+            </td>
+            <td>
+              <input
+                id="KlsBVkjtkkV-iWRW6jXAzvP-val"
+                name="entryfield"
+                title="Health workforce with Part Time Contract in a For-profit privately owned owned facilities Pharmacist"
+                value="[ Health workforce with Part Time Contract in a For-profit privately owned owned facilities Pharmacist ]"
+              />
+            </td>
+            <td>
+              <input
+                id="N6VNhZ2PCG7-iWRW6jXAzvP-val"
+                name="entryfield"
+                title="Health workforce Self employed Pharmacist"
+                value="[ Health workforce Self employed Pharmacist ]"
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 
-        <div id="cde">&nbsp;
-            <table cellpadding="0" cellspacing="0">
-                <thead>
-                    <tr>
-                        <th>SN</th>
-                        <th style="text-align: center;">Item</th>
-                        <th style="text-align: center;">Exitence</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Existence of national/sub-national policies/laws for prevention of attacks on health workers
-                        </td>
-                        <td>
-                            <!--<input id="LUVRqQq2NLE-Xr12mI7VPn3-val" name="entryfield" title="undefined" value="[ undefined ]" style=width:3.5em;>--><input
-                                id="LUVRqQq2NLE-I93t0K7b1oN-val" name="entryfield"
-                                title="Existence of national/sub-national policies/laws for prevention of attacks on health workers Yes"
-                                value="[ Existence of national/sub-national policies/laws for prevention of attacks on health workers Yes ]" />
-                            Yes <input id="LUVRqQq2NLE-Xgr3PJxcWfJ-val" name="entryfield"
-                                title="Existence of national/sub-national policies/laws for prevention of attacks on health workers Partial"
-                                value="[ Existence of national/sub-national policies/laws for prevention of attacks on health workers Partial ]" />
-                            Partial <input id="LUVRqQq2NLE-Y7EAGQA1bfv-val" name="entryfield"
-                                title="Existence of national/sub-national policies/laws for prevention of attacks on health workers No"
-                                value="[ Existence of national/sub-national policies/laws for prevention of attacks on health workers No ]" />
-                            No</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Existence of national/subnational policies for regulating compulsory service</td>
-                        <td><input id="Ii26DODuUbB-Xr12mI7VPn3-val" name="entryfield"
-                                style="width:3.5em;"
-                                title="Existence of national/subnational policies for regulating compulsory service"
-                                value="[ Existence of national/subnational policies for regulating compulsory service ]" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Existence of national/sub-national policies/laws regulating dual practice</td>
-                        <td><input id="cV7DhKFPk3R-Xr12mI7VPn3-val" name="entryfield"
-                                style="width:3.5em;"
-                                title="Existence of national/sub-national policies/laws regulating dual practice"
-                                value="[ Existence of national/sub-national policies/laws regulating dual practice ]" />
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+  <div id="tab1">
+    <h2>SECTION 2: HWF Working Conditions</h2>
 
-            <p>&nbsp;</p>
+    <div id="cde">
+      &nbsp;
+      <table cellpadding="0" cellspacing="0">
+        <thead>
+          <tr>
+            <th>SN</th>
+            <th style="text-align: center;">Item</th>
+            <th style="text-align: center;">Exitence</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>
+              Existence of national/sub-national policies/laws for prevention of
+              attacks on health workers
+            </td>
+            <td>
+              <!--<input id="LUVRqQq2NLE-Xr12mI7VPn3-val" name="entryfield" title="undefined" value="[ undefined ]" style=width:3.5em;>--><input
+                id="LUVRqQq2NLE-I93t0K7b1oN-val"
+                name="entryfield"
+                title="Existence of national/sub-national policies/laws for prevention of attacks on health workers Yes"
+                value="[ Existence of national/sub-national policies/laws for prevention of attacks on health workers Yes ]"
+              />
+              Yes
+              <input
+                id="LUVRqQq2NLE-Xgr3PJxcWfJ-val"
+                name="entryfield"
+                title="Existence of national/sub-national policies/laws for prevention of attacks on health workers Partial"
+                value="[ Existence of national/sub-national policies/laws for prevention of attacks on health workers Partial ]"
+              />
+              Partial
+              <input
+                id="LUVRqQq2NLE-Y7EAGQA1bfv-val"
+                name="entryfield"
+                title="Existence of national/sub-national policies/laws for prevention of attacks on health workers No"
+                value="[ Existence of national/sub-national policies/laws for prevention of attacks on health workers No ]"
+              />
+              No
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>
+              Existence of national/subnational policies for regulating
+              compulsory service
+            </td>
+            <td>
+              <input
+                id="Ii26DODuUbB-Xr12mI7VPn3-val"
+                name="entryfield"
+                style="width:3.5em;"
+                title="Existence of national/subnational policies for regulating compulsory service"
+                value="[ Existence of national/subnational policies for regulating compulsory service ]"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>
+              Existence of national/sub-national policies/laws regulating dual
+              practice
+            </td>
+            <td>
+              <input
+                id="cV7DhKFPk3R-Xr12mI7VPn3-val"
+                name="entryfield"
+                style="width:3.5em;"
+                title="Existence of national/sub-national policies/laws regulating dual practice"
+                value="[ Existence of national/sub-national policies/laws regulating dual practice ]"
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
 
-            <table border="1" cellpadding="1" cellspacing="1" style="width:500px;">
-                <tbody>
-                    <tr>
-                        <th colspan="1" rowspan="2">SN</th>
-                        <th colspan="1" rowspan="2">Item</th>
-                        <th colspan="1" rowspan="2">Total</th>
-                        <th colspan="4" rowspan="1">Primary object of attack</th>
-                    </tr>
-                    <tr>
-                        <th>Facility</th>
-                        <th>Health care Provider</th>
-                        <th>Transport</th>
-                        <th>Patient</th>
-                    </tr>
-                    <tr>
-                        <th>1</th>
-                        <th style="text-align: left;">Number of violent attacks on health workers</th>
-                        <td><input id="qqVKuhK0RgY-Xr12mI7VPn3-val" name="entryfield"
-                                title="Violent attacks on health workers"
-                                value="[ Violent attacks on health workers ]" /></td>
-                        <td><input id="iS6Vzt6PPjr-OYOzRJlu3B5-val" name="entryfield"
-                                title="Violent attacks on health workers by primary object of attack Facility"
-                                value="[ Violent attacks on health workers by primary object of attack Facility ]" />
-                        </td>
-                        <td><input id="iS6Vzt6PPjr-JfxMvAwKsR7-val" name="entryfield"
-                                title="Violent attacks on health workers by primary object of attack Health-care provider"
-                                value="[ Violent attacks on health workers by primary object of attack Health-care provider ]" />
-                        </td>
-                        <td><input id="iS6Vzt6PPjr-MfcVRlA41v6-val" name="entryfield"
-                                title="Violent attacks on health workers by primary object of attack Transport"
-                                value="[ Violent attacks on health workers by primary object of attack Transport ]" />
-                        </td>
-                        <td><input id="iS6Vzt6PPjr-xeQGICllTPa-val" name="entryfield"
-                                title="Violent attacks on health workers by primary object of attack Patient"
-                                value="[ Violent attacks on health workers by primary object of attack Patient ]" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td colspan="2" rowspan="1">&nbsp;</td>
-                        <th colspan="2" rowspan="1">Physical attacks</th>
-                        <th colspan="2" rowspan="1">Psychological attacks</th>
-                    </tr>
-                    <tr>
-                        <th>2</th>
-                        <th colspan="2" rowspan="1" style="text-align: left;">Number of violent attacks on health care
-                            providers</th>
-                        <td colspan="2" rowspan="1"><input id="fNWDIhx3ZQO-AcYy9PESCS4-val" name="entryfield"
-                                title="Violent attacks on health care worker by attack type Physical attacks"
-                                value="[ Violent attacks on health care worker by attack type Physical attacks ]" />
-                        </td>
-                        <td colspan="2" rowspan="1"><input id="fNWDIhx3ZQO-tVlGzmqqeWo-val" name="entryfield"
-                                title="Violent attacks on health care worker by attack type Psychological attacks"
-                                value="[ Violent attacks on health care worker by attack type Psychological attacks ]" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>3</th>
-                        <th colspan="2" rowspan="1" style="text-align: left;">Number of violent attacks on patients</th>
-                        <td colspan="2" rowspan="1"><input id="ViuQB9CLltC-AcYy9PESCS4-val" name="entryfield"
-                                title="Violent attacks on patient by attack type Physical attacks"
-                                value="[ Violent attacks on patient by attack type Physical attacks ]" /></td>
-                        <td colspan="2" rowspan="1"><input id="ViuQB9CLltC-tVlGzmqqeWo-val" name="entryfield"
-                                title="Violent attacks on patient by attack type Psychological attacks"
-                                value="[ Violent attacks on patient by attack type Psychological attacks ]" /></td>
-                    </tr>
-                </tbody>
-            </table>
+      <p>&nbsp;</p>
 
-            <p>&nbsp;</p>
-        </div>
+      <table border="1" cellpadding="1" cellspacing="1" style="width:500px;">
+        <tbody>
+          <tr>
+            <th colspan="1" rowspan="2">SN</th>
+            <th colspan="1" rowspan="2">Item</th>
+            <th colspan="1" rowspan="2">Total</th>
+            <th colspan="4" rowspan="1">Primary object of attack</th>
+          </tr>
+          <tr>
+            <th>Facility</th>
+            <th>Health care Provider</th>
+            <th>Transport</th>
+            <th>Patient</th>
+          </tr>
+          <tr>
+            <th>1</th>
+            <th style="text-align: left;">
+              Number of violent attacks on health workers
+            </th>
+            <td>
+              <input
+                id="qqVKuhK0RgY-Xr12mI7VPn3-val"
+                name="entryfield"
+                title="Violent attacks on health workers"
+                value="[ Violent attacks on health workers ]"
+              />
+            </td>
+            <td>
+              <input
+                id="iS6Vzt6PPjr-OYOzRJlu3B5-val"
+                name="entryfield"
+                title="Violent attacks on health workers by primary object of attack Facility"
+                value="[ Violent attacks on health workers by primary object of attack Facility ]"
+              />
+            </td>
+            <td>
+              <input
+                id="iS6Vzt6PPjr-JfxMvAwKsR7-val"
+                name="entryfield"
+                title="Violent attacks on health workers by primary object of attack Health-care provider"
+                value="[ Violent attacks on health workers by primary object of attack Health-care provider ]"
+              />
+            </td>
+            <td>
+              <input
+                id="iS6Vzt6PPjr-MfcVRlA41v6-val"
+                name="entryfield"
+                title="Violent attacks on health workers by primary object of attack Transport"
+                value="[ Violent attacks on health workers by primary object of attack Transport ]"
+              />
+            </td>
+            <td>
+              <input
+                id="iS6Vzt6PPjr-xeQGICllTPa-val"
+                name="entryfield"
+                title="Violent attacks on health workers by primary object of attack Patient"
+                value="[ Violent attacks on health workers by primary object of attack Patient ]"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td colspan="2" rowspan="1">&nbsp;</td>
+            <th colspan="2" rowspan="1">Physical attacks</th>
+            <th colspan="2" rowspan="1">Psychological attacks</th>
+          </tr>
+          <tr>
+            <th>2</th>
+            <th colspan="2" rowspan="1" style="text-align: left;">
+              Number of violent attacks on health care providers
+            </th>
+            <td colspan="2" rowspan="1">
+              <input
+                id="fNWDIhx3ZQO-AcYy9PESCS4-val"
+                name="entryfield"
+                title="Violent attacks on health care worker by attack type Physical attacks"
+                value="[ Violent attacks on health care worker by attack type Physical attacks ]"
+              />
+            </td>
+            <td colspan="2" rowspan="1">
+              <input
+                id="fNWDIhx3ZQO-tVlGzmqqeWo-val"
+                name="entryfield"
+                title="Violent attacks on health care worker by attack type Psychological attacks"
+                value="[ Violent attacks on health care worker by attack type Psychological attacks ]"
+              />
+            </td>
+          </tr>
+          <tr>
+            <th>3</th>
+            <th colspan="2" rowspan="1" style="text-align: left;">
+              Number of violent attacks on patients
+            </th>
+            <td colspan="2" rowspan="1">
+              <input
+                id="ViuQB9CLltC-AcYy9PESCS4-val"
+                name="entryfield"
+                title="Violent attacks on patient by attack type Physical attacks"
+                value="[ Violent attacks on patient by attack type Physical attacks ]"
+              />
+            </td>
+            <td colspan="2" rowspan="1">
+              <input
+                id="ViuQB9CLltC-tVlGzmqqeWo-val"
+                name="entryfield"
+                title="Violent attacks on patient by attack type Psychological attacks"
+                value="[ Violent attacks on patient by attack type Psychological attacks ]"
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>&nbsp;</p>
+    </div>
+  </div>
+
+  <div id="tab2">
+    <h2>SECTION 3:Regulations</h2>
+
+    <div id="cde">
+      &nbsp;
+      <table cellpadding="0" cellspacing="0">
+        <thead>
+          <tr>
+            <th colspan="1" rowspan="2">SN</th>
+            <th colspan="1" rowspan="2" style="text-align: center;">
+              Occupation
+            </th>
+            <th colspan="1" rowspan="2" style="text-align: center;">
+              Existence of national law on regulating&nbsp;<br />
+              Working hours<br />
+              and conditions
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Medical Doctors</td>
+            <td style="text-align: center;">
+              <!--<input id="LYjT01KiTTw-aBpbcEgtzgw-val" name="entryfield" title="Existence of national law on regulating working hours and conditions for medical doctors Medical Doctors" value="[ Existence of national law on regulating working hours and conditions for medical doctors Medical Doctors ]"/>--><input
+                id="LYjT01KiTTw-I93t0K7b1oN-val"
+                name="entryfield"
+                title="undefined"
+                value="[ undefined ]"
+              />Yes
+              <input
+                id="LYjT01KiTTw-Xgr3PJxcWfJ-val"
+                name="entryfield"
+                title="undefined"
+                value="[ undefined ]"
+              />Partial
+              <input
+                id="LYjT01KiTTw-Y7EAGQA1bfv-val"
+                name="entryfield"
+                title="undefined"
+                value="[ undefined ]"
+              />No
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>
+              <p style="margin-left: 20px; text-align: left;">
+                General Medical Practitioner
+              </p>
+            </td>
+            <td style="text-align: center;">
+              <input
+                id="gGSJZCN2L8C-I93t0K7b1oN-val"
+                name="entryfield"
+                title="Existence of national law on regulating working hours and conditions for General Medical Practitioner Yes"
+                value="[ Existence of national law on regulating working hours and conditions for General Medical Practitioner Yes ]"
+              />Yes
+              <input
+                id="gGSJZCN2L8C-Xgr3PJxcWfJ-val"
+                name="entryfield"
+                title="Existence of national law on regulating working hours and conditions for General Medical Practitioner Partial"
+                value="[ Existence of national law on regulating working hours and conditions for General Medical Practitioner Partial ]"
+              />Partial
+              <input
+                id="gGSJZCN2L8C-Y7EAGQA1bfv-val"
+                name="entryfield"
+                title="Existence of national law on regulating working hours and conditions for General Medical Practitioner No"
+                value="[ Existence of national law on regulating working hours and conditions for General Medical Practitioner No ]"
+              />No
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>
+              <p style="margin-left: 20px; text-align: left;">
+                Specialist Medical Practitioner
+              </p>
+            </td>
+            <td style="text-align: center;">
+              <input
+                id="FDUFnJmPb2t-I93t0K7b1oN-val"
+                name="entryfield"
+                title="Existence of national law on regulating working hours and conditions for Specialist Medical Practitioner Yes"
+                value="[ Existence of national law on regulating working hours and conditions for Specialist Medical Practitioner Yes ]"
+              />Yes
+              <input
+                id="FDUFnJmPb2t-Xgr3PJxcWfJ-val"
+                name="entryfield"
+                title="Existence of national law on regulating working hours and conditions for Specialist Medical Practitioner Partial"
+                value="[ Existence of national law on regulating working hours and conditions for Specialist Medical Practitioner Partial ]"
+              />Partial
+              <input
+                id="FDUFnJmPb2t-Y7EAGQA1bfv-val"
+                name="entryfield"
+                title="Existence of national law on regulating working hours and conditions for Specialist Medical Practitioner No"
+                value="[ Existence of national law on regulating working hours and conditions for Specialist Medical Practitioner No ]"
+              />No
+            </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Nursing Professional</td>
+            <td style="text-align: center;">
+              <input
+                id="DVyhvgkJrXg-I93t0K7b1oN-val"
+                name="entryfield"
+                title="Existence of national law on regulating working hours and conditions for Nursing Professional Yes"
+                value="[ Existence of national law on regulating working hours and conditions for Nursing Professional Yes ]"
+              />Yes
+              <input
+                id="DVyhvgkJrXg-Xgr3PJxcWfJ-val"
+                name="entryfield"
+                title="Existence of national law on regulating working hours and conditions for Nursing Professional Partial"
+                value="[ Existence of national law on regulating working hours and conditions for Nursing Professional Partial ]"
+              />Partial
+              <input
+                id="DVyhvgkJrXg-Y7EAGQA1bfv-val"
+                name="entryfield"
+                title="Existence of national law on regulating working hours and conditions for Nursing Professional No"
+                value="[ Existence of national law on regulating working hours and conditions for Nursing Professional No ]"
+              />No
+            </td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Midwifery Professional</td>
+            <td style="text-align: center;">
+              <input
+                id="Uyxr85SOJiI-I93t0K7b1oN-val"
+                name="entryfield"
+                title="Existence of national law on regulating working hours and conditions for Midwifery Professional Yes"
+                value="[ Existence of national law on regulating working hours and conditions for Midwifery Professional Yes ]"
+              />Yes
+              <input
+                id="Uyxr85SOJiI-Xgr3PJxcWfJ-val"
+                name="entryfield"
+                title="Existence of national law on regulating working hours and conditions for Midwifery Professional Partial"
+                value="[ Existence of national law on regulating working hours and conditions for Midwifery Professional Partial ]"
+              />Partial
+              <input
+                id="Uyxr85SOJiI-Y7EAGQA1bfv-val"
+                name="entryfield"
+                title="Existence of national law on regulating working hours and conditions for Midwifery Professional No"
+                value="[ Existence of national law on regulating working hours and conditions for Midwifery Professional No ]"
+              />No
+            </td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Dentist</td>
+            <td style="text-align: center;">
+              <input
+                id="I5m9Dl43XO2-I93t0K7b1oN-val"
+                name="entryfield"
+                title="Existence of national law on regulating working hours and conditions for Dentist Yes"
+                value="[ Existence of national law on regulating working hours and conditions for Dentist Yes ]"
+              />Yes
+              <input
+                id="I5m9Dl43XO2-Xgr3PJxcWfJ-val"
+                name="entryfield"
+                title="Existence of national law on regulating working hours and conditions for Dentist Partial"
+                value="[ Existence of national law on regulating working hours and conditions for Dentist Partial ]"
+              />Partial
+              <input
+                id="I5m9Dl43XO2-Y7EAGQA1bfv-val"
+                name="entryfield"
+                title="Existence of national law on regulating working hours and conditions for Dentist No"
+                value="[ Existence of national law on regulating working hours and conditions for Dentist No ]"
+              />No
+            </td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Pharmacist</td>
+            <td style="text-align: center;">
+              <input
+                id="gDinmRT6Pqb-I93t0K7b1oN-val"
+                name="entryfield"
+                title="Existence of national law on regulating working hours and conditions for Pharmacist Yes"
+                value="[ Existence of national law on regulating working hours and conditions for Pharmacist Yes ]"
+              />Yes
+              <input
+                id="gDinmRT6Pqb-Xgr3PJxcWfJ-val"
+                name="entryfield"
+                title="Existence of national law on regulating working hours and conditions for Pharmacist Partial"
+                value="[ Existence of national law on regulating working hours and conditions for Pharmacist Partial ]"
+              />Partial
+              <input
+                id="gDinmRT6Pqb-Y7EAGQA1bfv-val"
+                name="entryfield"
+                title="Existence of national law on regulating working hours and conditions for Pharmacist No"
+                value="[ Existence of national law on regulating working hours and conditions for Pharmacist No ]"
+              />No
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
-    <div id="tab2">
-        <h2>SECTION 3:Regulations</h2>
-
-        <div id="cde">&nbsp;
-            <table cellpadding="0" cellspacing="0">
-                <thead>
-                    <tr>
-                        <th colspan="1" rowspan="2">SN</th>
-                        <th colspan="1" rowspan="2" style="text-align: center;">Occupation</th>
-                        <th colspan="1" rowspan="2" style="text-align: center;">Existence of national law on
-                            regulating&nbsp;<br />
-                            Working hours<br />
-                            and conditions</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Medical Doctors</td>
-                        <td style="text-align: center;">
-                            <!--<input id="LYjT01KiTTw-aBpbcEgtzgw-val" name="entryfield" title="Existence of national law on regulating working hours and conditions for medical doctors Medical Doctors" value="[ Existence of national law on regulating working hours and conditions for medical doctors Medical Doctors ]"/>--><input
-                                id="LYjT01KiTTw-I93t0K7b1oN-val" name="entryfield" title="undefined"
-                                value="[ undefined ]" />Yes <input id="LYjT01KiTTw-Xgr3PJxcWfJ-val" name="entryfield"
-                                title="undefined" value="[ undefined ]" />Partial <input
-                                id="LYjT01KiTTw-Y7EAGQA1bfv-val" name="entryfield" title="undefined"
-                                value="[ undefined ]" />No</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>
-                            <p style="margin-left: 20px; text-align: left;">General Medical Practitioner</p>
-                        </td>
-                        <td style="text-align: center;"><input id="gGSJZCN2L8C-I93t0K7b1oN-val" name="entryfield"
-                                title="Existence of national law on regulating working hours and conditions for General Medical Practitioner Yes"
-                                value="[ Existence of national law on regulating working hours and conditions for General Medical Practitioner Yes ]" />Yes
-                            <input id="gGSJZCN2L8C-Xgr3PJxcWfJ-val" name="entryfield"
-                                title="Existence of national law on regulating working hours and conditions for General Medical Practitioner Partial"
-                                value="[ Existence of national law on regulating working hours and conditions for General Medical Practitioner Partial ]" />Partial
-                            <input id="gGSJZCN2L8C-Y7EAGQA1bfv-val" name="entryfield"
-                                title="Existence of national law on regulating working hours and conditions for General Medical Practitioner No"
-                                value="[ Existence of national law on regulating working hours and conditions for General Medical Practitioner No ]" />No
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>
-                            <p style="margin-left: 20px; text-align: left;">Specialist Medical Practitioner</p>
-                        </td>
-                        <td style="text-align: center;"><input id="FDUFnJmPb2t-I93t0K7b1oN-val" name="entryfield"
-                                title="Existence of national law on regulating working hours and conditions for Specialist Medical Practitioner Yes"
-                                value="[ Existence of national law on regulating working hours and conditions for Specialist Medical Practitioner Yes ]" />Yes
-                            <input id="FDUFnJmPb2t-Xgr3PJxcWfJ-val" name="entryfield"
-                                title="Existence of national law on regulating working hours and conditions for Specialist Medical Practitioner Partial"
-                                value="[ Existence of national law on regulating working hours and conditions for Specialist Medical Practitioner Partial ]" />Partial
-                            <input id="FDUFnJmPb2t-Y7EAGQA1bfv-val" name="entryfield"
-                                title="Existence of national law on regulating working hours and conditions for Specialist Medical Practitioner No"
-                                value="[ Existence of national law on regulating working hours and conditions for Specialist Medical Practitioner No ]" />No
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>Nursing Professional</td>
-                        <td style="text-align: center;"><input id="DVyhvgkJrXg-I93t0K7b1oN-val" name="entryfield"
-                                title="Existence of national law on regulating working hours and conditions for Nursing Professional Yes"
-                                value="[ Existence of national law on regulating working hours and conditions for Nursing Professional Yes ]" />Yes
-                            <input id="DVyhvgkJrXg-Xgr3PJxcWfJ-val" name="entryfield"
-                                title="Existence of national law on regulating working hours and conditions for Nursing Professional Partial"
-                                value="[ Existence of national law on regulating working hours and conditions for Nursing Professional Partial ]" />Partial
-                            <input id="DVyhvgkJrXg-Y7EAGQA1bfv-val" name="entryfield"
-                                title="Existence of national law on regulating working hours and conditions for Nursing Professional No"
-                                value="[ Existence of national law on regulating working hours and conditions for Nursing Professional No ]" />No
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>Midwifery Professional</td>
-                        <td style="text-align: center;"><input id="Uyxr85SOJiI-I93t0K7b1oN-val" name="entryfield"
-                                title="Existence of national law on regulating working hours and conditions for Midwifery Professional Yes"
-                                value="[ Existence of national law on regulating working hours and conditions for Midwifery Professional Yes ]" />Yes
-                            <input id="Uyxr85SOJiI-Xgr3PJxcWfJ-val" name="entryfield"
-                                title="Existence of national law on regulating working hours and conditions for Midwifery Professional Partial"
-                                value="[ Existence of national law on regulating working hours and conditions for Midwifery Professional Partial ]" />Partial
-                            <input id="Uyxr85SOJiI-Y7EAGQA1bfv-val" name="entryfield"
-                                title="Existence of national law on regulating working hours and conditions for Midwifery Professional No"
-                                value="[ Existence of national law on regulating working hours and conditions for Midwifery Professional No ]" />No
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>6</td>
-                        <td>Dentist</td>
-                        <td style="text-align: center;"><input id="I5m9Dl43XO2-I93t0K7b1oN-val" name="entryfield"
-                                title="Existence of national law on regulating working hours and conditions for Dentist Yes"
-                                value="[ Existence of national law on regulating working hours and conditions for Dentist Yes ]" />Yes
-                            <input id="I5m9Dl43XO2-Xgr3PJxcWfJ-val" name="entryfield"
-                                title="Existence of national law on regulating working hours and conditions for Dentist Partial"
-                                value="[ Existence of national law on regulating working hours and conditions for Dentist Partial ]" />Partial
-                            <input id="I5m9Dl43XO2-Y7EAGQA1bfv-val" name="entryfield"
-                                title="Existence of national law on regulating working hours and conditions for Dentist No"
-                                value="[ Existence of national law on regulating working hours and conditions for Dentist No ]" />No
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>7</td>
-                        <td>Pharmacist</td>
-                        <td style="text-align: center;"><input id="gDinmRT6Pqb-I93t0K7b1oN-val" name="entryfield"
-                                title="Existence of national law on regulating working hours and conditions for Pharmacist Yes"
-                                value="[ Existence of national law on regulating working hours and conditions for Pharmacist Yes ]" />Yes
-                            <input id="gDinmRT6Pqb-Xgr3PJxcWfJ-val" name="entryfield"
-                                title="Existence of national law on regulating working hours and conditions for Pharmacist Partial"
-                                value="[ Existence of national law on regulating working hours and conditions for Pharmacist Partial ]" />Partial
-                            <input id="gDinmRT6Pqb-Y7EAGQA1bfv-val" name="entryfield"
-                                title="Existence of national law on regulating working hours and conditions for Pharmacist No"
-                                value="[ Existence of national law on regulating working hours and conditions for Pharmacist No ]" />No
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-
-        <div id="cde">&nbsp;
-            <table cellpadding="0" cellspacing="0">
-                <thead>
-                    <tr>
-                        <th>SN</th>
-                        <th style="text-align: center;">Item</th>
-                        <th style="text-align: center;">Exitence</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Existence of national/sub-national policies/laws regulating minimum wages</td>
-                        <td><input id="di91e0qZijs-Xr12mI7VPn3-val" name="entryfield"
-                                title="Existence of national/sub-national policies/laws regulating minimum wages"
-                                value="[ Existence of national/sub-national policies/laws regulating minimum wages ]" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Existence of national/sub-national policies/laws regulating social protection</td>
-                        <td>
-                            <!--<input id="lvs1RCQOOp4-Xr12mI7VPn3-val" name="entryfield" title="undefined" value="[ undefined ]"/>--><input
-                                id="lvs1RCQOOp4-I93t0K7b1oN-val" name="entryfield"
-                                title="Existence of national/sub-national policies/laws regulating social protection Yes"
-                                value="[ Existence of national/sub-national policies/laws regulating social protection Yes ]" />
-                            Yes<input id="lvs1RCQOOp4-Xgr3PJxcWfJ-val" name="entryfield"
-                                title="Existence of national/sub-national policies/laws regulating social protection Partial"
-                                value="[ Existence of national/sub-national policies/laws regulating social protection Partial ]" />Partial
-                            <input id="lvs1RCQOOp4-Y7EAGQA1bfv-val" name="entryfield"
-                                title="Existence of national/sub-national policies/laws regulating social protection No"
-                                value="[ Existence of national/sub-national policies/laws regulating social protection No ]" />No
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+    <div id="cde">
+      &nbsp;
+      <table cellpadding="0" cellspacing="0">
+        <thead>
+          <tr>
+            <th>SN</th>
+            <th style="text-align: center;">Item</th>
+            <th style="text-align: center;">Exitence</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>
+              Existence of national/sub-national policies/laws regulating
+              minimum wages
+            </td>
+            <td>
+              <input
+                id="di91e0qZijs-Xr12mI7VPn3-val"
+                name="entryfield"
+                title="Existence of national/sub-national policies/laws regulating minimum wages"
+                value="[ Existence of national/sub-national policies/laws regulating minimum wages ]"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>
+              Existence of national/sub-national policies/laws regulating social
+              protection
+            </td>
+            <td>
+              <!--<input id="lvs1RCQOOp4-Xr12mI7VPn3-val" name="entryfield" title="undefined" value="[ undefined ]"/>--><input
+                id="lvs1RCQOOp4-I93t0K7b1oN-val"
+                name="entryfield"
+                title="Existence of national/sub-national policies/laws regulating social protection Yes"
+                value="[ Existence of national/sub-national policies/laws regulating social protection Yes ]"
+              />
+              Yes<input
+                id="lvs1RCQOOp4-Xgr3PJxcWfJ-val"
+                name="entryfield"
+                title="Existence of national/sub-national policies/laws regulating social protection Partial"
+                value="[ Existence of national/sub-national policies/laws regulating social protection Partial ]"
+              />Partial
+              <input
+                id="lvs1RCQOOp4-Y7EAGQA1bfv-val"
+                name="entryfield"
+                title="Existence of national/sub-national policies/laws regulating social protection No"
+                value="[ Existence of national/sub-national policies/laws regulating social protection No ]"
+              />No
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
+  </div>
 
-    <div id="tab3">
-        <h2>SECTION 4: HWF OTHER RESOURCES</h2>
+  <div id="tab3">
+    <h2>SECTION 4: HWF OTHER RESOURCES</h2>
 
-        <div id="cde">
-            <table cellpadding="0" cellspacing="0">
-                <thead>
-                    <tr>
-                        <th>SN</th>
-                        <th>Item</th>
-                        <th>Value</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td style="text-align: Left;">Upload other resources</td>
-                        <td><input id="YpvMwP4LgpH-Xr12mI7VPn3-val" name="entryfield" title="HWF Module 6 File upload"
-                                value="[ HWF Module 6 File upload ]" /></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+    <div id="cde">
+      <table cellpadding="0" cellspacing="0">
+        <thead>
+          <tr>
+            <th>SN</th>
+            <th>Item</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td style="text-align: Left;">Upload other resources</td>
+            <td>
+              <input
+                id="YpvMwP4LgpH-Xr12mI7VPn3-val"
+                name="entryfield"
+                title="HWF Module 6 File upload"
+                value="[ HWF Module 6 File upload ]"
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
+  </div>
 </div>
