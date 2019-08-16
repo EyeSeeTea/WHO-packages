@@ -1,25 +1,5 @@
 # NHWA Custom forms
 
-## Custom forms list
-
-### NHWA Module 1 (Tu81BTLUuCT)
-
-### NHWA Module 1 Subnational (Humg4HbkmJg)
-
-### NHWA Module 2 (m5MiTPdlK17)
-
-### NHWA Module 3 (pZ3XRBi9gYE)
-
-### NHWA Module 4 (HtZb6Cg7TXo)
-
-### NHWA Module 5 (cxfAcMbSZe1)
-
-### NHWA Module 6 (WDyQKfAvY3V)
-
-### NHWA Module 7 (ZRsZdd2AvAR)
-
-### NHWA Module 8-10 (p5z7F51v1ag)
-
 ## Developer tooltips and knowledge base
 
 ### Prettify the code
