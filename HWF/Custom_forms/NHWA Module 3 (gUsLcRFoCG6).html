@@ -67,27 +67,24 @@
       "cemAvj8TkMX"
     ];
     var categoryIssues = ["I93t0K7b1oN", "Xgr3PJxcWfJ", "Y7EAGQA1bfv"];
-    function changeListener(element, category, object) {
-      if (object.is(":checked")) {
-        var id = object.attr("id");
-        console.log("Performing logic for id", id);
-        categoryIssues.forEach(function(id) {
-          if (id !== category) {
-            var str = "#" + element + "-" + id + "-val";
-            console.log("str:", str);
-            var isChecked = $(str).is(":checked");
-            if (isChecked) $(str).click();
+    yespartialno.forEach(function(dataElement) {
+      categoryIssues.forEach(function(option) {
+        $("#" + dataElement + "-" + option + "-val").on("click", function() {
+          var id = $(this).attr("id");
+          console.log("Performing logic for id", id);
+
+          if ($(this).is(":checked")) {
+            categoryIssues.forEach(function(id) {
+              if (id !== option) {
+                var str = "#" + dataElement + "-" + id + "-val";
+                console.log("str:", str);
+                var isChecked = $(str).is(":checked");
+                if (isChecked) $(str).click();
+              }
+            });
+          } else {
+            console.log("Not Checked");
           }
-        });
-      } else {
-        console.log("Not Checked");
-      }
-    }
-    yespartialno.forEach(function(element) {
-      categoryIssues.forEach(function(category) {
-        $("#" + element + "-" + category + "-val").change(function() {
-          console.log("Changes taken place");
-          changeListener(element, category, $(this));
         });
       });
     });
