@@ -10689,6 +10689,37 @@
       },
       "attributeValues": [],
       "authorities": [
+        "M_Data_Dictionary"
+      ],
+      "created": "2019-08-21T09:50:06.425",
+      "description": "APP - This roles gives access to the data dictionary",
+      "displayName": "Data dictionary",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "id": "jHtBHH1Nsrg",
+      "lastUpdated": "2019-08-21T09:50:06.425",
+      "lastUpdatedBy": {},
+      "metadataType": "userRoles",
+      "name": "Data dictionary",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {},
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "authorities": [
         "M_dhis-web-dataentry"
       ],
       "created": "2019-07-22T11:10:35.429",
