@@ -23,15 +23,15 @@
           },
           "attributeValues": [],
           "contentCount": 1,
-          "created": "2019-08-08T08:55:18.786",
+          "created": "2019-08-19T11:25:34.644",
           "externalAccess": false,
           "favorite": false,
           "favorites": [],
-          "height": 14,
+          "height": 15,
           "id": "z70upCJikFL",
           "interpretationCount": 0,
           "interpretationLikeCount": 0,
-          "lastUpdated": "2019-08-08T08:55:18.827",
+          "lastUpdated": "2019-08-19T11:25:34.690",
           "reportTable": {
             "id": "l3jbYJsXRy5"
           },
@@ -57,7 +57,7 @@
       ],
       "id": "oxL3TCuRhqM",
       "itemCount": 1,
-      "lastUpdated": "2019-08-12T11:46:25.481",
+      "lastUpdated": "2019-08-19T11:25:34.687",
       "lastUpdatedBy": {
         "id": "H4atNsEuKxP"
       },
@@ -101,6 +101,14 @@
       "created": "2019-08-08T08:51:15.806",
       "dataElementGroups": [],
       "dataSetElements": [
+        {
+          "dataElement": {
+            "id": "z0JzzSTL65T"
+          },
+          "dataSet": {
+            "id": "Psf9CW4BSHM"
+          }
+        },
         {
           "dataElement": {
             "id": "z0JzzSTL65T"
@@ -168,6 +176,14 @@
       "created": "2019-08-08T08:51:51.136",
       "dataElementGroups": [],
       "dataSetElements": [
+        {
+          "dataElement": {
+            "id": "iBDyhSHSk1K"
+          },
+          "dataSet": {
+            "id": "Psf9CW4BSHM"
+          }
+        },
         {
           "dataElement": {
             "id": "iBDyhSHSk1K"
@@ -244,7 +260,7 @@
       "dataSetElements": [
         {
           "dataElement": {
-            "id": "z0JzzSTL65T"
+            "id": "iBDyhSHSk1K"
           },
           "dataSet": {
             "id": "C47NApwU2kc"
@@ -252,7 +268,7 @@
         },
         {
           "dataElement": {
-            "id": "iBDyhSHSk1K"
+            "id": "z0JzzSTL65T"
           },
           "dataSet": {
             "id": "C47NApwU2kc"
@@ -311,7 +327,7 @@
       "version": 2
     }
   ],
-  "date": "2019-08-12T20:37:57.898Z",
+  "date": "2019-08-21T08:41:14.862Z",
   "reportTables": [
     {
       "access": {
@@ -349,7 +365,7 @@
               "write": true
             },
             "attributeValues": [],
-            "created": "2019-08-12T22:35:19.801",
+            "created": "2019-08-21T10:24:37.566",
             "dataElement": {
               "id": "z0JzzSTL65T"
             },
@@ -361,7 +377,7 @@
             "favorite": false,
             "favorites": [],
             "id": "z0JzzSTL65T",
-            "lastUpdated": "2019-08-12T22:35:19.801",
+            "lastUpdated": "2019-08-21T10:24:37.566",
             "legendSets": [],
             "name": "ADMIN_Analytics_Execution_1",
             "shortName": "ADMIN_Analytics_Execution_1",
@@ -382,7 +398,7 @@
               "write": true
             },
             "attributeValues": [],
-            "created": "2019-08-12T22:35:19.801",
+            "created": "2019-08-21T10:24:37.566",
             "dataElement": {
               "id": "iBDyhSHSk1K"
             },
@@ -394,7 +410,7 @@
             "favorite": false,
             "favorites": [],
             "id": "iBDyhSHSk1K",
-            "lastUpdated": "2019-08-12T22:35:19.801",
+            "lastUpdated": "2019-08-21T10:24:37.566",
             "legendSets": [],
             "name": "ADMIN_Analytics_Execution_2",
             "shortName": "ADMIN_Analytics_Execution_2",
@@ -582,9 +598,6 @@
         },
         {
           "id": "yRI7BszlIQ3"
-        },
-        {
-          "id": "yfCYQrcdWgr"
         },
         {
           "id": "yikGEcqMkHw"
