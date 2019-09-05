@@ -27,6 +27,19 @@
       });
     });
 
+    var comments = ["aAuKVcYFTB8"];
+    comments.forEach(function(comment) {
+      var textfield = $("#" + comment + "-Xr12mI7VPn3-val");
+      if (textfield.val() !== "") $(".comments").toggle(true);
+
+      $("#selectedPeriodId").on("change", function() {
+        window.setTimeout(function() {
+          var textfield = $("#" + comment + "-Xr12mI7VPn3-val");
+          $(".comments").toggle(textfield.val() !== "");
+        }, 100);
+      });
+    });
+
     $("#comment-bubble").on("click", function() {
       $(".comments").toggle();
     });
