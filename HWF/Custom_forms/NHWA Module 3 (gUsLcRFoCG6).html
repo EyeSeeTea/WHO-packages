@@ -90,6 +90,17 @@
         });
       });
     });
+
+    $(".comment-bubble").on("click", function() {
+      let $activeTab = $(".ui-tabs-active > a")[0].hash;
+
+      console.log("Active tab: " + $activeTab);
+
+      let col = $(this).parent()[0].cellIndex + 1;
+
+      console.log("Active col: " +col);
+      $($activeTab + " table tr > *:nth-child(" + (col +1) + ")").toggle();
+    });
   });
 </script>
 <style type="text/css">
@@ -156,6 +167,7 @@
                 and training (3-01)</b
               >
             </th>
+            <th></th>
           </tr>
           <tr>
             <td>1</td>
@@ -185,6 +197,9 @@
                 title="View comment"
                 style="cursor: pointer; margin-left: 10px;"
               />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
             </td>
           </tr>
           <tr>
@@ -220,6 +235,9 @@
                 style="cursor: pointer; margin-left: 10px;"
               />
             </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
+            </td>
           </tr>
           <tr>
             <td>3</td>
@@ -254,6 +272,9 @@
                 style="cursor: pointer; margin-left: 10px;"
               />
             </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
+            </td>
           </tr>
           <tr>
             <td>4</td>
@@ -283,6 +304,9 @@
                 title="View comment"
                 style="cursor: pointer; margin-left: 10px;"
               />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
             </td>
           </tr>
           <tr>
@@ -314,6 +338,9 @@
                 style="cursor: pointer; margin-left: 10px;"
               />
             </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
+            </td>
           </tr>
           <tr>
             <td>6</td>
@@ -343,6 +370,9 @@
                 title="View comment"
                 style="cursor: pointer; margin-left: 10px;"
               />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
             </td>
           </tr>
           <tr>
@@ -374,6 +404,9 @@
                 style="cursor: pointer; margin-left: 10px;"
               />
             </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
+            </td>
           </tr>
         </thead>
         <tbody></tbody>
@@ -398,24 +431,30 @@
               for accreditation of education and training institutions<br />
               and their programmes, by programme, by occupation (3-02)
             </th>
+            <th></th>
             <th style="text-align: center;">
               Existence of national and/or subnational mechanism<br />
               on social accountability in accreditation (3-03)
             </th>
+            <th></th>
             <th style="text-align: center;">Effective implementation (3-04)</th>
+            <th></th>
             <th style="text-align: center;">
               Existence of national and/or sub-national standards<br />
               for the Social Determinants of Health (3-05)
             </th>
+            <th></th>
             <th style="text-align: center;">
               Existence of national and/or sub-national standards on<br />
               interprofessional education in accreditation standards (3-06)
             </th>
+            <th></th>
             <th style="text-align: center;">
               Existence of cooperation between education and training<br />
               institutions and health professional regulators to agree on the
               standards (3-07)
             </th>
+            <th></th>
           </tr>
           <tr>
             <td>1</td>
@@ -446,6 +485,9 @@
                 style="cursor: pointer; margin-left: 10px;"
               />
             </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
+            </td>
             <td style="text-align: center;">
               <input
                 id="aEDrisPWh6i-I93t0K7b1oN-val"
@@ -471,6 +513,9 @@
                 title="View comment"
                 style="cursor: pointer; margin-left: 10px;"
               />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -498,6 +543,9 @@
                 style="cursor: pointer; margin-left: 10px;"
               />
             </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
+            </td>
             <td style="text-align: center;">
               <input
                 id="U5S2sbEnGT9-I93t0K7b1oN-val"
@@ -523,6 +571,9 @@
                 title="View comment"
                 style="cursor: pointer; margin-left: 10px;"
               />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -550,6 +601,9 @@
                 style="cursor: pointer; margin-left: 10px;"
               />
             </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
+            </td>
             <td style="text-align: center;">
               <input
                 id="j4pHY4ToKPi-I93t0K7b1oN-val"
@@ -575,6 +629,9 @@
                 title="View comment"
                 style="cursor: pointer; margin-left: 10px;"
               />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
             </td>
           </tr>
           <tr>
@@ -610,6 +667,9 @@
                 style="cursor: pointer; margin-left: 10px;"
               />
             </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
+            </td>
             <td style="text-align: center;">
               <input
                 id="KcDPaDGLf9P-I93t0K7b1oN-val"
@@ -635,6 +695,9 @@
                 title="View comment"
                 style="cursor: pointer; margin-left: 10px;"
               />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -662,6 +725,9 @@
                 style="cursor: pointer; margin-left: 10px;"
               />
             </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
+            </td>
             <td style="text-align: center;">
               <input
                 id="o64uNjIuRXr-I93t0K7b1oN-val"
@@ -687,6 +753,9 @@
                 title="View comment"
                 style="cursor: pointer; margin-left: 10px;"
               />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -714,6 +783,9 @@
                 style="cursor: pointer; margin-left: 10px;"
               />
             </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
+            </td>
             <td style="text-align: center;">
               <input
                 id="Mx06wOF9Edi-I93t0K7b1oN-val"
@@ -739,6 +811,9 @@
                 title="View comment"
                 style="cursor: pointer; margin-left: 10px;"
               />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
             </td>
           </tr>
           <tr>
@@ -774,6 +849,9 @@
                 style="cursor: pointer; margin-left: 10px;"
               />
             </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
+            </td>
             <td style="text-align: center;">
               <input
                 id="zHNwRzmyOeL-I93t0K7b1oN-val"
@@ -799,6 +877,9 @@
                 title="View comment"
                 style="cursor: pointer; margin-left: 10px;"
               />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -826,6 +907,9 @@
                 style="cursor: pointer; margin-left: 10px;"
               />
             </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
+            </td>
             <td style="text-align: center;">
               <input
                 id="XQgL1GHsnrT-I93t0K7b1oN-val"
@@ -851,6 +935,9 @@
                 title="View comment"
                 style="cursor: pointer; margin-left: 10px;"
               />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -878,6 +965,9 @@
                 style="cursor: pointer; margin-left: 10px;"
               />
             </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
+            </td>
             <td style="text-align: center;">
               <input
                 id="hJJOo4gRjQA-I93t0K7b1oN-val"
@@ -903,6 +993,9 @@
                 title="View comment"
                 style="cursor: pointer; margin-left: 10px;"
               />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
             </td>
           </tr>
           <tr>
@@ -934,6 +1027,9 @@
                 style="cursor: pointer; margin-left: 10px;"
               />
             </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
+            </td>
             <td style="text-align: center;">
               <input
                 id="PE5XG7ZZgdc-I93t0K7b1oN-val"
@@ -959,6 +1055,9 @@
                 title="View comment"
                 style="cursor: pointer; margin-left: 10px;"
               />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -986,6 +1085,9 @@
                 style="cursor: pointer; margin-left: 10px;"
               />
             </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
+            </td>
             <td style="text-align: center;">
               <input
                 id="Dn2P7GXFCTr-I93t0K7b1oN-val"
@@ -1011,6 +1113,9 @@
                 title="View comment"
                 style="cursor: pointer; margin-left: 10px;"
               />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -1038,6 +1143,9 @@
                 style="cursor: pointer; margin-left: 10px;"
               />
             </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
+            </td>
             <td style="text-align: center;">
               <input
                 id="GNErbB4poQO-I93t0K7b1oN-val"
@@ -1063,6 +1171,9 @@
                 title="View comment"
                 style="cursor: pointer; margin-left: 10px;"
               />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
             </td>
           </tr>
           <tr>
@@ -1094,6 +1205,9 @@
                 style="cursor: pointer; margin-left: 10px;"
               />
             </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
+            </td>
             <td style="text-align: center;">
               <input
                 id="qZ9h4jv9cgO-I93t0K7b1oN-val"
@@ -1119,6 +1233,9 @@
                 title="View comment"
                 style="cursor: pointer; margin-left: 10px;"
               />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -1146,6 +1263,9 @@
                 style="cursor: pointer; margin-left: 10px;"
               />
             </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
+            </td>
             <td style="text-align: center;">
               <input
                 id="pnySnJ6om1A-I93t0K7b1oN-val"
@@ -1171,6 +1291,9 @@
                 title="View comment"
                 style="cursor: pointer; margin-left: 10px;"
               />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -1198,6 +1321,9 @@
                 style="cursor: pointer; margin-left: 10px;"
               />
             </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
+            </td>
             <td style="text-align: center;">
               <input
                 id="bq7cDa5kIgG-I93t0K7b1oN-val"
@@ -1223,6 +1349,9 @@
                 title="View comment"
                 style="cursor: pointer; margin-left: 10px;"
               />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
             </td>
           </tr>
           <tr>
@@ -1254,6 +1383,9 @@
                 style="cursor: pointer; margin-left: 10px;"
               />
             </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
+            </td>
             <td style="text-align: center;">
               <input
                 id="TdnUj1l3Z4i-I93t0K7b1oN-val"
@@ -1279,6 +1411,9 @@
                 title="View comment"
                 style="cursor: pointer; margin-left: 10px;"
               />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -1306,6 +1441,9 @@
                 style="cursor: pointer; margin-left: 10px;"
               />
             </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
+            </td>
             <td style="text-align: center;">
               <input
                 id="fhe12emlYec-I93t0K7b1oN-val"
@@ -1331,6 +1469,9 @@
                 title="View comment"
                 style="cursor: pointer; margin-left: 10px;"
               />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -1358,6 +1499,9 @@
                 style="cursor: pointer; margin-left: 10px;"
               />
             </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
+            </td>
             <td style="text-align: center;">
               <input
                 id="Fu0P8tj6k3M-I93t0K7b1oN-val"
@@ -1383,6 +1527,9 @@
                 title="View comment"
                 style="cursor: pointer; margin-left: 10px;"
               />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
             </td>
           </tr>
           <tr>
@@ -1414,6 +1561,9 @@
                 style="cursor: pointer; margin-left: 10px;"
               />
             </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
+            </td>
             <td style="text-align: center;">
               <input
                 id="WsHpge8yVZM-I93t0K7b1oN-val"
@@ -1439,6 +1589,9 @@
                 title="View comment"
                 style="cursor: pointer; margin-left: 10px;"
               />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -1466,6 +1619,9 @@
                 style="cursor: pointer; margin-left: 10px;"
               />
             </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
+            </td>
             <td style="text-align: center;">
               <input
                 id="wTTVz32PAOn-I93t0K7b1oN-val"
@@ -1491,6 +1647,9 @@
                 title="View comment"
                 style="cursor: pointer; margin-left: 10px;"
               />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -1518,6 +1677,9 @@
                 style="cursor: pointer; margin-left: 10px;"
               />
             </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
+            </td>
             <td style="text-align: center;">
               <input
                 id="v6O0oWTXY34-I93t0K7b1oN-val"
@@ -1544,6 +1706,9 @@
                 style="cursor: pointer; margin-left: 10px;"
               />
             </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
+            </td>
           </tr>
         </thead>
         <tbody></tbody>
@@ -1569,10 +1734,12 @@
               Existence of national and/or subnational mechanism<br />
               on continuing professional development (3-08)
             </th>
+            <th></th>
             <th style="text-align: center;">
               Existence of in-service training as an element of<br />
               national education plans for health workers (3-09)
             </th>
+            <th></th>
           </tr>
           <tr>
             <td>1</td>
@@ -1603,6 +1770,9 @@
                 style="cursor: pointer; margin-left: 10px;"
               />
             </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
+            </td>
             <td style="text-align: center;">
               <input
                 id="m8xYEbXD3Ee-I93t0K7b1oN-val"
@@ -1628,6 +1798,9 @@
                 title="View comment"
                 style="cursor: pointer; margin-left: 10px;"
               />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
             </td>
           </tr>
           <tr>
@@ -1663,6 +1836,9 @@
                 style="cursor: pointer; margin-left: 10px;"
               />
             </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
+            </td>
             <td style="text-align: center;">
               <input
                 id="pWAGDlaDi7y-I93t0K7b1oN-val"
@@ -1688,6 +1864,9 @@
                 title="View comment"
                 style="cursor: pointer; margin-left: 10px;"
               />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
             </td>
           </tr>
           <tr>
@@ -1723,6 +1902,9 @@
                 style="cursor: pointer; margin-left: 10px;"
               />
             </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
+            </td>
             <td style="text-align: center;">
               <input
                 id="H4L8KbENVVk-I93t0K7b1oN-val"
@@ -1748,6 +1930,9 @@
                 title="View comment"
                 style="cursor: pointer; margin-left: 10px;"
               />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
             </td>
           </tr>
           <tr>
@@ -1779,6 +1964,9 @@
                 style="cursor: pointer; margin-left: 10px;"
               />
             </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
+            </td>
             <td style="text-align: center;">
               <input
                 id="KPlsuTaezlc-I93t0K7b1oN-val"
@@ -1804,6 +1992,9 @@
                 title="View comment"
                 style="cursor: pointer; margin-left: 10px;"
               />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
             </td>
           </tr>
           <tr>
@@ -1835,6 +2026,9 @@
                 style="cursor: pointer; margin-left: 10px;"
               />
             </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
+            </td>
             <td style="text-align: center;">
               <input
                 id="Pf77Sb5TYCR-I93t0K7b1oN-val"
@@ -1860,6 +2054,9 @@
                 title="View comment"
                 style="cursor: pointer; margin-left: 10px;"
               />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
             </td>
           </tr>
           <tr>
@@ -1891,6 +2088,9 @@
                 style="cursor: pointer; margin-left: 10px;"
               />
             </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
+            </td>
             <td style="text-align: center;">
               <input
                 id="LJNl2upvs8S-I93t0K7b1oN-val"
@@ -1916,6 +2116,9 @@
                 title="View comment"
                 style="cursor: pointer; margin-left: 10px;"
               />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
             </td>
           </tr>
           <tr>
@@ -1947,6 +2150,9 @@
                 style="cursor: pointer; margin-left: 10px;"
               />
             </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
+            </td>
             <td style="text-align: center;">
               <input
                 id="vKV2AVBhstz-I93t0K7b1oN-val"
@@ -1972,6 +2178,9 @@
                 title="View comment"
                 style="cursor: pointer; margin-left: 10px;"
               />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea name="entryfield" id=""></textarea>
             </td>
           </tr>
         </thead>
