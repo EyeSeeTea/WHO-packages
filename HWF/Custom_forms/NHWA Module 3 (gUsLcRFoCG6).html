@@ -91,6 +91,29 @@
       });
     });
 
+    var comments = [
+      "slfNDnwGD4i",
+      "KM3j2qURZvm",
+      "IRewF07UDgW",
+      "IS6oWwtsElu",
+      "S0cJazBoB9r",
+      "ZVZnw9CazmI",
+      "RBkF8N37tQl"
+    ];
+
+    dhis2.util.on("dhis2.de.event.dataValuesLoaded", function() {
+      $(".comments").toggle(false);
+      comments.forEach(function(comment) {
+        let $textfield = $("#" + comment + "-Xr12mI7VPn3-val");
+        if ($textfield.val() !== ""){
+          let commentColumn = $textfield.parent()[0].cellIndex + 1;
+          let $tab = "#" + $textfield.closest(".ui-tabs-panel")[0].id;
+
+          $($tab + " table tr > *:nth-child(" + commentColumn + ")").toggle(true);
+        }
+      });
+    });
+
     $(".comment-bubble").on("click", function() {
       let $activeTab = $(".ui-tabs-active > a")[0].hash;
 
@@ -98,10 +121,18 @@
 
       let col = $(this).parent()[0].cellIndex + 1;
 
-      console.log("Active col: " +col);
-      $($activeTab + " table tr > *:nth-child(" + (col +1) + ")").toggle();
+      console.log("Active col: " + col);
+      $($activeTab + " table tr > *:nth-child(" + (col + 1) + ")").toggle();
     });
   });
+
+  function showHideColumn(tab, col) {
+    $(tab + " table tr > *:nth-child(" + col + ")").toggle();
+  }
+
+  function showColumn(tab, col) {
+    $(tab + " table tr > *:nth-child(" + col + ")").toggle(true);
+  }
 </script>
 <style type="text/css">
   #cde table {
@@ -124,6 +155,10 @@
 
   .cde-greyfield {
     background-color: #e0e0e0;
+  }
+
+  .comments textarea{
+    text-align: left;
   }
 </style>
 <h3 style="text-align: center;">
@@ -167,7 +202,9 @@
                 and training (3-01)</b
               >
             </th>
-            <th></th>
+            <th class="comments" scope="row" style="text-align: center;">
+              Comment
+            </th>
           </tr>
           <tr>
             <td>1</td>
@@ -199,7 +236,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="slfNDnwGD4i-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard on the duration and contents of education and training for General Medical Practitioner"
+                value="[ Comment of existence of national standard on the duration and contents of education and training for General Medical Practitioner ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -236,7 +280,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="KM3j2qURZvm-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard on the duration and contents of education and training for General Medical Practitioner"
+                value="[ Comment of existence of national standard on the duration and contents of education and training for General Medical Practitioner ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -273,7 +324,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="IRewF07UDgW-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard on the duration and contents of education and training for Specialist Medical Practitioner"
+                value="[ Comment of existence of national standard on the duration and contents of education and training for Specialist Medical Practitioner ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -306,7 +364,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="IS6oWwtsElu-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard on the duration and contents of education and training for Nursing Professional"
+                value="[ Comment of existence of national standard on the duration and contents of education and training for Nursing Professional ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -339,7 +404,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="S0cJazBoB9r-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard on the duration and contents of education and training for Midwifery Professional"
+                value="[ Comment of existence of national standard on the duration and contents of education and training for Midwifery Professional ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -372,7 +444,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="ZVZnw9CazmI-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard on the duration and contents of education and training for Dentist"
+                value="[ Comment of existence of national standard on the duration and contents of education and training for Dentist ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -405,7 +484,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="RBkF8N37tQl-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard on the duration and contents of education and training for Pharmacist"
+                value="[ Comment of existence of national standard on the duration and contents of education and training for Pharmacist ]"
+              >
+              </textarea>
             </td>
           </tr>
         </thead>
@@ -431,30 +517,42 @@
               for accreditation of education and training institutions<br />
               and their programmes, by programme, by occupation (3-02)
             </th>
-            <th></th>
+            <th class="comments" scope="row" style="text-align: center;">
+              Comment
+            </th>
             <th style="text-align: center;">
               Existence of national and/or subnational mechanism<br />
               on social accountability in accreditation (3-03)
             </th>
-            <th></th>
+            <th class="comments" scope="row" style="text-align: center;">
+              Comment
+            </th>
             <th style="text-align: center;">Effective implementation (3-04)</th>
-            <th></th>
+            <th class="comments" scope="row" style="text-align: center;">
+              Comment
+            </th>
             <th style="text-align: center;">
               Existence of national and/or sub-national standards<br />
               for the Social Determinants of Health (3-05)
             </th>
-            <th></th>
+            <th class="comments" scope="row" style="text-align: center;">
+              Comment
+            </th>
             <th style="text-align: center;">
               Existence of national and/or sub-national standards on<br />
               interprofessional education in accreditation standards (3-06)
             </th>
-            <th></th>
+            <th class="comments" scope="row" style="text-align: center;">
+              Comment
+            </th>
             <th style="text-align: center;">
               Existence of cooperation between education and training<br />
               institutions and health professional regulators to agree on the
               standards (3-07)
             </th>
-            <th></th>
+            <th class="comments" scope="row" style="text-align: center;">
+              Comment
+            </th>
           </tr>
           <tr>
             <td>1</td>
@@ -1734,12 +1832,16 @@
               Existence of national and/or subnational mechanism<br />
               on continuing professional development (3-08)
             </th>
-            <th></th>
+            <th class="comments" scope="row" style="text-align: center;">
+              Comment
+            </th>
             <th style="text-align: center;">
               Existence of in-service training as an element of<br />
               national education plans for health workers (3-09)
             </th>
-            <th></th>
+            <th class="comments" scope="row" style="text-align: center;">
+              Comment
+            </th>
           </tr>
           <tr>
             <td>1</td>
