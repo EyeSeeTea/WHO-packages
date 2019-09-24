@@ -2,6 +2,23 @@
   $(document).ready(function() {
     $(function() {
       $("#mod2_tabs").tabs();
+
+      var comments = ["cXn60b9eotz"];
+      comments.forEach(function(comment) {
+        var textfield = $("#" + comment + "-Xr12mI7VPn3-val");
+        if (textfield.val() !== "") $(".comments").toggle(true);
+
+        $("#selectedPeriodId").on("change", function() {
+          window.setTimeout(function() {
+            var textfield = $("#" + comment + "-Xr12mI7VPn3-val");
+            $(".comments").toggle(textfield.val() !== "");
+          }, 100);
+        });
+      });
+
+      $("#comment-bubble").on("click", function() {
+        $(".comments").toggle();
+      });
     });
   });
 </script>
@@ -104,6 +121,10 @@
   .tooltip:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
+  }
+
+  .commentlink {
+    display: none;
   }
 </style>
 <h3 style="text-align: center;">
@@ -804,7 +825,10 @@
           <tr>
             <th>SN</th>
             <th>Item</th>
-            <th style="text-align: center;">Exitence</th>
+            <th style="text-align: center;">Existence</th>
+            <th class="comments" scope="row" style="text-align: center;" hidden>
+              Comment
+            </th>
           </tr>
           <tr></tr>
         </thead>
@@ -824,6 +848,22 @@
                 title="Existence of national/subnational policies or standards on public sector wage ceiling"
                 value="[ Existence of national/subnational policies or standards on public sector wage ceiling ]"
               />
+              <img
+                id="comment-bubble"
+                src="../images/comment.png"
+                title="View comment"
+                style="cursor: pointer; margin-left: 10px;"
+              />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;" hidden>
+              <textarea
+                name="entryfield"
+                class="entryfield entryarea"
+                id="cXn60b9eotz-Xr12mI7VPn3-val"
+                tabindex="1"
+                style="background-color: rgb(255, 255, 255); border: 1px solid rgb(170, 170, 170);"
+              >
+              </textarea>
             </td>
           </tr>
         </tbody>
