@@ -98,18 +98,76 @@
       "IS6oWwtsElu",
       "S0cJazBoB9r",
       "ZVZnw9CazmI",
-      "RBkF8N37tQl"
+      "RBkF8N37tQl",
+      "xIdJZgy5GSy",
+      "oTTeFlxkljB",
+      "TVuwNm1PyRC",
+      "SUvvKWCJO5S",
+      "GRpQAAvLFM6",
+      "Bvwo2Tnwg6K",
+      "BAYPJS2PaYa",
+      "AuztI35M2eU",
+      "CHeEETUlnlu",
+      "hUTcFeRUFve",
+      "aNkwiAZwM7f",
+      "adhcUwpwjrt",
+      "EUuaZTsVCUP",
+      "HHu5mmkn9nI",
+      "SvnuCPrV3m8",
+      "M09xmOtGx9r",
+      "W1nqjNXF8t7",
+      "vVPyD60zs2c",
+      "qDrIfDpZQzJ",
+      "oBOgUPGLDM8",
+      "K9YrD3rxhIm",
+      "s6Rrf01L045",
+      "KI35YVBqwOH",
+      "Iz9uNISIBW5",
+      "BABcY9z1yhJ",
+      "kf5mAEgzRro",
+      "Px7yHDZGBQS",
+      "Jo5JCqQn6a4",
+      "HfUw03ynsgX",
+      "FbLuOUxYtvW",
+      "sIxOvk6qfU2",
+      "dNdiNzgxEAO",
+      "H7lhdWUUWxH",
+      "grFSq6NI6Rv",
+      "d5tEbnmf2Yl",
+      "zJNTztzEUjf",
+      "klUdBljsnYT",
+      "Ye7wRY6LeT4",
+      "OJ2BPEwWYG9",
+      "el5QnfrCW5R",
+      "w3Lz42yCAiU",
+      "uEt3e82IzsK",
+      "zAN1yQdYbcB",
+      "wTJuvXKZCrz",
+      "Z6c1T3O7q0S",
+      "GrZXd4osOGW",
+      "XQajU8YgbXg",
+      "ejraR8DfZPf",
+      "jQ05qNtE9HB",
+      "CPexoOTnUQZ",
+      "BK0kijGEWMy",
+      "EgaLdA1UaEV",
+      "gytTkeQWyoA",
+      "vRh6cPENAgr",
+      "kfQaLeZLepq",
+      "L8r8I4WDRUp"
     ];
 
     dhis2.util.on("dhis2.de.event.dataValuesLoaded", function() {
       $(".comments").toggle(false);
       comments.forEach(function(comment) {
         let $textfield = $("#" + comment + "-Xr12mI7VPn3-val");
-        if ($textfield.val() !== ""){
+        if ($textfield.val() !== "") {
           let commentColumn = $textfield.parent()[0].cellIndex + 1;
           let $tab = "#" + $textfield.closest(".ui-tabs-panel")[0].id;
 
-          $($tab + " table tr > *:nth-child(" + commentColumn + ")").toggle(true);
+          $($tab + " table tr > *:nth-child(" + commentColumn + ")").toggle(
+            true
+          );
         }
       });
     });
@@ -125,14 +183,6 @@
       $($activeTab + " table tr > *:nth-child(" + (col + 1) + ")").toggle();
     });
   });
-
-  function showHideColumn(tab, col) {
-    $(tab + " table tr > *:nth-child(" + col + ")").toggle();
-  }
-
-  function showColumn(tab, col) {
-    $(tab + " table tr > *:nth-child(" + col + ")").toggle(true);
-  }
 </script>
 <style type="text/css">
   #cde table {
@@ -157,7 +207,7 @@
     background-color: #e0e0e0;
   }
 
-  .comments textarea{
+  .comments textarea {
     text-align: left;
   }
 </style>
@@ -584,7 +634,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="xIdJZgy5GSy-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard on mechanisms for accreditation of education and training institutions and their programmes Medical Doctor"
+                value="[ Comment of existence of national standard on mechanisms for accreditation of education and training institutions and their programmes Medical Doctor ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -613,7 +670,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="oTTeFlxkljB-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard on mechanism on social accountability Medical Doctors"
+                value="[ Comment of existence of national standard on mechanism on social accountability Medical Doctors ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -642,7 +706,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="TVuwNm1PyRC-Xr12mI7VPn3-val"
+                title="Comment of effective implementation of national standards on social accountability Medical Doctors"
+                value="[ Comment of effective implementation of national standards on social accountability Medical Doctors ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -671,7 +742,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="SUvvKWCJO5S-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard for considering social determinants of health accreditation for Medical Doctors"
+                value="[ Comment of existence of national standard for considering social determinants of health accreditation for Medical Doctors ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -700,7 +778,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="GRpQAAvLFM6-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard on interprofessional education in accreditation standards Medical Doctors"
+                value="[ Comment of existence of national standard on interprofessional education in accreditation standards Medical Doctors ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -729,7 +814,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="Bvwo2Tnwg6K-Xr12mI7VPn3-val"
+                title="Comment of Existence of cooperation between education and training institutions and health professional regulators to agree on the standards Medical Doctors"
+                value="[ Comment of Existence of cooperation between education and training institutions and health professional regulators to agree on the standards Medical Doctors ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -766,7 +858,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="BAYPJS2PaYa-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard on mechanisms for accreditation of education and training institutions and their programmes General Medical Practitioner"
+                value="[ Comment of existence of national standard on mechanisms for accreditation of education and training institutions and their programmes General Medical Practitioner ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -795,7 +894,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="AuztI35M2eU-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard on mechanism on social accountability General Medical Practitioner"
+                value="[ Comment of existence of national standard on mechanism on social accountability General Medical Practitioner ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -824,7 +930,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="CHeEETUlnlu-Xr12mI7VPn3-val"
+                title="Comment of effective implementation of national standards on social accountability General Medical Practitioner"
+                value="[ Comment of effective implementation of national standards on social accountability General Medical Practitioner ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -853,7 +966,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="hUTcFeRUFve-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard for considering social determinants of health accreditation for Generalist Medical Practitioner"
+                value="[ Comment of existence of national standard for considering social determinants of health accreditation for Generalist Medical Practitioner ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -882,7 +1002,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="aNkwiAZwM7f-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard on interprofessional education in accreditation standards Generalist Medical Practitioner"
+                value="[ Comment of existence of national standard on interprofessional education in accreditation standards Generalist Medical Practitioner ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -911,7 +1038,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="adhcUwpwjrt-Xr12mI7VPn3-val"
+                title="Comment of existence of cooperation between education and training institutions and health professional regulators to agree on the standards General Medical Practitioner"
+                value="[ Comment of existence of cooperation between education and training institutions and health professional regulators to agree on the standards General Medical Practitioner ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -948,7 +1082,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="EUuaZTsVCUP-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard on mechanisms for accreditation of education and training institutions and their programmes Specialist Medical Practitioner"
+                value="[ Comment of existence of national standard on mechanisms for accreditation of education and training institutions and their programmes Specialist Medical Practitioner ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -977,7 +1118,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="HHu5mmkn9nI-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard on mechanism on social accountability Specialist Medical Practitioner"
+                value="[ Comment of existence of national standard on mechanism on social accountability Specialist Medical Practitioner ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -1006,7 +1154,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="SvnuCPrV3m8-Xr12mI7VPn3-val"
+                title="Comment of effective implementation of national standards on social accountability Specialist Medical Practitioner"
+                value="[ Comment of effective implementation of national standards on social accountability Specialist Medical Practitioner ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -1035,7 +1190,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="M09xmOtGx9r-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard for considering social determinants of health accreditation for Specialist Medical Practitioner"
+                value="[ Comment of existence of national standard for considering social determinants of health accreditation for Specialist Medical Practitioner ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -1064,7 +1226,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="W1nqjNXF8t7-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard on interprofessional education in accreditation standards Specialist Medical Practitioner"
+                value="[ Comment of existence of national standard for considering social determinants of health accreditation for Specialist Medical Practitioner ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -1093,7 +1262,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="vVPyD60zs2c-Xr12mI7VPn3-val"
+                title="Comment of existence of cooperation between education and training institutions and health professional regulators to agree on the standards Specialist Medical Practitioner"
+                value="[ Comment of existence of cooperation between education and training institutions and health professional regulators to agree on the standards Specialist Medical Practitioner ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -1126,7 +1302,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="qDrIfDpZQzJ-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard on mechanisms for accreditation of education and training institutions and their programmes Nursing Professional"
+                value="[ Comment of existence of national standard on mechanisms for accreditation of education and training institutions and their programmes Nursing Professional ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -1155,7 +1338,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="oBOgUPGLDM8-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard on mechanism on social accountability Nursing Professional"
+                value="[ Comment of existence of national standard on mechanism on social accountability Nursing Professional ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -1184,7 +1374,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="K9YrD3rxhIm-Xr12mI7VPn3-val"
+                title="Comment of effective implementation of national standards on social accountability Nursing Professional"
+                value="[ Comment of effective implementation of national standards on social accountability Nursing Professional ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -1213,7 +1410,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="s6Rrf01L045-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard for considering social determinants of health accreditation for Nursing Professional"
+                value="[ Comment of existence of national standard for considering social determinants of health accreditation for Nursing Professional ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -1242,7 +1446,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="KI35YVBqwOH-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard on interprofessional education in accreditation standards Nursing Professional"
+                value="[ Comment of existence of national standard on interprofessional education in accreditation standards Nursing Professional ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -1271,7 +1482,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="Iz9uNISIBW5-Xr12mI7VPn3-val"
+                title="Comment of existence of cooperation between education and training institutions and health professional regulators to agree on the standards Nursing Professional"
+                value="[ Comment of existence of cooperation between education and training institutions and health professional regulators to agree on the standards Nursing Professional ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -1304,7 +1522,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="BABcY9z1yhJ-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard on mechanisms for accreditation of education and training institutions and their programmes Midwifery Professional"
+                value="[ Comment of existence of national standard on mechanisms for accreditation of education and training institutions and their programmes Midwifery Professional ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -1333,7 +1558,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="kf5mAEgzRro-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard on mechanism on social accountability Midwifery Professional"
+                value="[ Comment of existence of national standard on mechanism on social accountability Midwifery Professional ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -1362,7 +1594,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="Px7yHDZGBQS-Xr12mI7VPn3-val"
+                title="Comment of effective implementation of national standards on social accountability Midwifery Professional"
+                value="[ Comment of effective implementation of national standards on social accountability Midwifery Professional ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -1391,7 +1630,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="Jo5JCqQn6a4-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard for considering social determinants of health accreditation for Midwifery Professional"
+                value="[ Comment of existence of national standard for considering social determinants of health accreditation for Midwifery Professional ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -1420,7 +1666,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="HfUw03ynsgX-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard on interprofessional education in accreditation standards Midwifery Professional"
+                value="[Comment of existence of national standard on interprofessional education in accreditation standards Midwifery Professional ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -1449,7 +1702,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="FbLuOUxYtvW-Xr12mI7VPn3-val"
+                title="Comment of existence of cooperation between education and training institutions and health professional regulators to agree on the standards Midwifery Professional"
+                value="[Comment of existence of cooperation between education and training institutions and health professional regulators to agree on the standards Midwifery Professional ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -1482,7 +1742,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="sIxOvk6qfU2-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard on mechanisms for accreditation of education and training institutions and their programmes Dentist"
+                value="[ Comment of existence of national standard on mechanisms for accreditation of education and training institutions and their programmes Dentist ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -1511,7 +1778,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="dNdiNzgxEAO-Xr12mI7VPn3-val"
+                title="Comment of Existence of national standard on mechanism on social accountability Dentist"
+                value="[ Comment of Existence of national standard on mechanism on social accountability Dentist ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -1540,7 +1814,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="H7lhdWUUWxH-Xr12mI7VPn3-val"
+                title="Comment of Effective implementation of national standards on social accountability Dentist"
+                value="[ Comment of Effective implementation of national standards on social accountability Dentist ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -1569,7 +1850,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="grFSq6NI6Rv-Xr12mI7VPn3-val"
+                title="Comment of Existence of national standard for considering social determinants of health accreditation for Dentist"
+                value="[ Comment of Existence of national standard for considering social determinants of health accreditation for Dentist ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -1598,7 +1886,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="d5tEbnmf2Yl-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard on interprofessional education in accreditation standards Dentist"
+                value="[ Comment of existence of national standard on interprofessional education in accreditation standards Dentist ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -1627,7 +1922,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="zJNTztzEUjf-Xr12mI7VPn3-val"
+                title="Comment of Existence of cooperation between education and training institutions and health professional regulators to agree on the standards Dentist"
+                value="[ Comment of Existence of cooperation between education and training institutions and health professional regulators to agree on the standards Dentist ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -1660,7 +1962,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="klUdBljsnYT-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard on mechanisms for accreditation of education and training institutions and their programmes Pharmacist"
+                value="[ Comment of existence of national standard on mechanisms for accreditation of education and training institutions and their programmes Pharmacist ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -1689,7 +1998,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="Ye7wRY6LeT4-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard on mechanism on social accountability Pharmacist"
+                value="[ Comment of existence of national standard on mechanism on social accountability Pharmacist ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -1718,7 +2034,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="OJ2BPEwWYG9-Xr12mI7VPn3-val"
+                title="Comment of effective implementation of national standards on social accountability Pharmacist"
+                value="[ Comment of effective implementation of national standards on social accountability Pharmacist ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -1747,7 +2070,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="el5QnfrCW5R-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard for considering social determinants of health accreditation for Pharmacist"
+                value="[ Comment of existence of national standard for considering social determinants of health accreditation for Pharmacist ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -1776,7 +2106,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="w3Lz42yCAiU-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard on interprofessional education in accreditation standards Pharmacist"
+                value="[ Comment of existence of national standard on interprofessional education in accreditation standards Pharmacist ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -1805,7 +2142,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="uEt3e82IzsK-Xr12mI7VPn3-val"
+                title="Comment of Existence of cooperation between education and training institutions and health professional regulators to agree on the standards Pharmacist"
+                value="[ Comment of Existence of cooperation between education and training institutions and health professional regulators to agree on the standards Pharmacist ]"
+              >
+              </textarea>
             </td>
           </tr>
         </thead>
@@ -1873,7 +2217,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="zAN1yQdYbcB-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard for Continuing Professional Development for Medical Doctors"
+                value="[ Comment of existence of national standard for Continuing Professional Development for Medical Doctors ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -1902,7 +2253,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="wTJuvXKZCrz-Xr12mI7VPn3-val"
+                title="Comment of existence of in-service training as an element of national education plans for the health workforce Medical Doctorss"
+                value="[ Comment of existence of in-service training as an element of national education plans for the health workforce Medical Doctors ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -1939,7 +2297,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="Z6c1T3O7q0S-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard for Continuing Professional Development for General Medical Practitioner"
+                value="[ Comment of existence of national standard for Continuing Professional Development for General Medical Practitioner ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -1968,7 +2333,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="GrZXd4osOGW-Xr12mI7VPn3-val"
+                title="Comment of existence of in-service training as an element of national education plans for the health workforce General Medical Practitioner"
+                value="[ Comment of existence of in-service training as an element of national education plans for the health workforce General Medical Practitioner ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -2005,7 +2377,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="XQajU8YgbXg-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard for Continuing Professional Development for Specialist Medical Practitioner"
+                value="[ Comment of existence of national standard for Continuing Professional Development for Specialist Medical Practitioner ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -2034,7 +2413,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="ejraR8DfZPf-Xr12mI7VPn3-val"
+                title="Comment of existence of in-service training as an element of national education plans for the health workforce Specialist Medical Practitioner"
+                value="[ Comment of existence of in-service training as an element of national education plans for the health workforce Specialist Medical Practitioner ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -2067,7 +2453,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="jQ05qNtE9HB-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard for Continuing Professional Development for Nursing Professional"
+                value="[ Comment of existence of national standard for Continuing Professional Development for Nursing Professional ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -2096,7 +2489,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="CPexoOTnUQZ-Xr12mI7VPn3-val"
+                title="Comment of existence of in-service training as an element of national education plans for the health workforce Nursing Professional"
+                value="[ Comment of existence of in-service training as an element of national education plans for the health workforce Nursing Professional ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -2129,7 +2529,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="BK0kijGEWMy-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard for Continuing Professional Development for Midwifery Professional"
+                value="[ Comment of existence of national standard for Continuing Professional Development for Midwifery Professional ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -2158,7 +2565,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="EgaLdA1UaEV-Xr12mI7VPn3-val"
+                title="Comment of existence of in-service training as an element of national education plans for the health workforce Midwifery Professional"
+                value="[ Comment of existence of in-service training as an element of national education plans for the health workforce Midwifery Professional ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -2191,7 +2605,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="gytTkeQWyoA-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard for Continuing Professional Development for Dentist"
+                value="[ Comment of existence of national standard for Continuing Professional Development for Dentist ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -2220,7 +2641,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="vRh6cPENAgr-Xr12mI7VPn3-val"
+                title="Comment of existence of in-service training as an element of national education plans for the health workforce Dentist"
+                value="[ Comment of existence of in-service training as an element of national education plans for the health workforce Dentist ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -2253,7 +2681,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="kfQaLeZLepq-Xr12mI7VPn3-val"
+                title="Comment of existence of national standard for Continuing Professional Development for Pharmacist"
+                value="[ Comment of existence of national standard for Continuing Professional Development for Pharmacist ]"
+              >
+              </textarea>
             </td>
             <td style="text-align: center;">
               <input
@@ -2282,7 +2717,14 @@
               />
             </td>
             <td class="comments" scope="row" style="text-align: center;">
-              <textarea name="entryfield" id=""></textarea>
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="L8r8I4WDRUp-Xr12mI7VPn3-val"
+                title="Comment of existence of in-service training as an element of national education plans for the health workforce Pharmacist"
+                value="[ Comment of existence of in-service training as an element of national education plans for the health workforce Pharmacist ]"
+              >
+              </textarea>
             </td>
           </tr>
         </thead>
