@@ -26,6 +26,22 @@
         });
       });
     });
+
+    var comments = ["fXxS36qL9Vt"];
+
+    dhis2.util.on("dhis2.de.event.dataValuesLoaded", function() {
+      $(".comments").toggle(false);
+      comments.forEach(function(comment) {
+        let $textfield = $("#" + comment + "-Xr12mI7VPn3-val");
+        if ($textfield.val() !== "") {
+          $(".comments").toggle(true);
+        }
+      });
+    });
+
+    $(".comment-bubble").on("click", function() {
+      $(".comments").toggle();
+    });
   });
 </script>
 <style type="text/css">
@@ -48,6 +64,17 @@
 
   .cde-greyfield {
     background-color: #e0e0e0;
+  }
+
+  .yespartialno {
+    min-width: 170px;
+  }
+  
+  .comments textarea {
+    min-width: 264px;
+    min-height: 45px;
+    text-align: left;
+    padding: 4px;
   }
 </style>
 <h3 style="text-align: center;">
@@ -91,6 +118,8 @@
             <th style="text-align: center;">Official Development Assistance</th>
             <th style="text-align: center;">Others</th>
           </tr>
+        </thead>
+        <body>
           <tr>
             <td>1</td>
             <td>
@@ -171,27 +200,36 @@
               />
             </td>
           </tr>
+        </body>
+      </table>
+    </div>
+
+    <div id="cde">
+      &nbsp;
+      <table cellpadding="0" cellspacing="0">
+        <head>
           <tr>
-            <td colspan="6">&nbsp;</td>
-          </tr>
-          <tr>
-            <td><strong>SN</strong></td>
-            <td style="text-align: center;"><strong>Item</strong></td>
-            <th colspan="2" rowspan="1" style="text-align: center;">
-              Pre-service Training
+            <th><strong>SN</strong></th>
+            <th style="text-align: center;"><strong>Item</strong></th>
+            <th style="text-align: center;">
+              Value
             </th>
-            <th colspan="2" rowspan="1" style="text-align: center;">
-              In-service training
+            <th class="comments" scope="row" style="text-align: center;">
+              Comment
             </th>
           </tr>
+        </head>
+
+        <body>
           <tr>
             <td>1</td>
             <td>
               Existence of national health workforce strategies and national
-              institutional financing reforms that identify and commit adequate
-              budgetary resources for transformative education&nbsp;(4-04)
+              institutional financing reforms that identify and <br />commit
+              adequate budgetary resources for transformative
+              education&nbsp;(4-04)
             </td>
-            <td colspan="4" rowspan="1" style="text-align: center;">
+            <td class="yespartialno" style="text-align: center;">
               <!--<input id="Ybz3qUCWYKC-Xr12mI7VPn3-val" name="entryfield" title="undefined" value="[ undefined ]"/>--><input
                 id="Ybz3qUCWYKC-I93t0K7b1oN-val"
                 name="entryfield"
@@ -210,9 +248,25 @@
                 title="Existence of national health workforce strategies and national institutional financing reforms that identify and commit adequate budgetary resources for transformative education No"
                 value="[ Existence of national health workforce strategies and national institutional financing reforms that identify and commit adequate budgetary resources for transformative education No ]"
               />No
+              <img
+                class="comment-bubble"
+                src="../images/comment.png"
+                title="View comment"
+                style="cursor: pointer; margin-left: 10px;"
+              />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="fXxS36qL9Vt-Xr12mI7VPn3-val"
+                title="Comment of Existence of national health workforce strategies and national institutional financing reforms that identify and commit adequate budgetary resources for transformative education"
+                value="[ Comment of Existence of national health workforce strategies and national institutional financing reforms that identify and commit adequate budgetary resources for transformative education ]"
+              >
+              </textarea>
             </td>
           </tr>
-        </thead>
+        </body>
       </table>
     </div>
   </div>
