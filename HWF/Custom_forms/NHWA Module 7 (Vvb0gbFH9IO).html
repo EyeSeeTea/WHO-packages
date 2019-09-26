@@ -2,6 +2,23 @@
   $(document).ready(function() {
     $(function() {
       $("#mod2_tabs").tabs();
+
+      var comments = ["cXn60b9eotz"];
+      comments.forEach(function(comment) {
+        var textfield = $("#" + comment + "-Xr12mI7VPn3-val");
+        if (textfield.val() !== "") $(".comments").toggle(true);
+
+        $("#selectedPeriodId").on("change", function() {
+          window.setTimeout(function() {
+            var textfield = $("#" + comment + "-Xr12mI7VPn3-val");
+            $(".comments").toggle(textfield.val() !== "");
+          }, 100);
+        });
+      });
+
+      $("#comment-bubble").on("click", function() {
+        $(".comments").toggle();
+      });
     });
   });
 </script>
@@ -104,6 +121,10 @@
   .tooltip:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
+  }
+
+  .commentlink {
+    display: none;
   }
 </style>
 <h3 style="text-align: center;">
@@ -407,17 +428,17 @@
                 salaries excluding Social Contributions&nbsp;(USD)&nbsp;(7-05)
               </p>
             </th>
-            <th colspan="1" rowspan="2" style="text-align: center;">
-              Median earning-men
-            </th>
-            <th colspan="1" rowspan="2" style="text-align: center;">
-              Median earning -women
+            <th colspan="3" rowspan="1" style="text-align: center;">
+              Median earning
             </th>
           </tr>
           <tr>
             <th style="text-align: center;">Public</th>
             <th style="text-align: center;">Private not for Profit</th>
             <th style="text-align: center;">Private for Profit</th>
+            <th style="text-align: center;">Total</th>
+            <th style="text-align: center;">Men</th>
+            <th style="text-align: center;">Women</th>
           </tr>
         </thead>
         <tbody>
@@ -446,6 +467,14 @@
                 name="entryfield"
                 title="Average of Entry-level wages and salaries excluding Social Contributions in Private Facilities Medical Doctors"
                 value="[ Average of Entry-level wages and salaries excluding Social Contributions in Private Facilities Medical Doctors ]"
+              />
+            </td>
+            <td style="text-align: center;">
+              <input
+                id="BCjjT4Xujzu-aBpbcEgtzgw-val"
+                name="entryfield"
+                title="total earnings of men HWF Medical Doctors"
+                value="[ total median earnings HWF Medical Doctors ]"
               />
             </td>
             <td style="text-align: center;">
@@ -498,6 +527,14 @@
             </td>
             <td style="text-align: center;">
               <input
+                id="BCjjT4Xujzu-LHbCtHlZr3Y-val"
+                name="entryfield"
+                title="total median earnings HWF General Medical Practitioner"
+                value="[ total median earnings HWF General Medical Practitioner ]"
+              />
+            </td>
+            <td style="text-align: center;">
+              <input
                 id="oTcSBrUk1hs-LHbCtHlZr3Y-val"
                 name="entryfield"
                 title="median earnings of men HWF General Medical Practitioner"
@@ -546,6 +583,14 @@
             </td>
             <td style="text-align: center;">
               <input
+                id="BCjjT4Xujzu-VtVkbvygJnm-val"
+                name="entryfield"
+                title="total median earnings HWF Specialist Medical Practitioner"
+                value="[ total median earnings HWF Specialist Medical Practitioner ]"
+              />
+            </td>
+            <td style="text-align: center;">
+              <input
                 id="oTcSBrUk1hs-VtVkbvygJnm-val"
                 name="entryfield"
                 title="median earnings of men HWF Specialist Medical Practitioner"
@@ -586,6 +631,14 @@
                 name="entryfield"
                 title="Average of Entry-level wages and salaries excluding Social Contributions in Private Facilities Nursing Professional"
                 value="[ Average of Entry-level wages and salaries excluding Social Contributions in Private Facilities Nursing Professional ]"
+              />
+            </td>
+            <td style="text-align: center;">
+              <input
+                id="BCjjT4Xujzu-fGOgbIqsxDn-val"
+                name="entryfield"
+                title="total median earnings HWF Nursing Professional"
+                value="[ total median earnings HWF Nursing Professional ]"
               />
             </td>
             <td style="text-align: center;">
@@ -634,6 +687,14 @@
             </td>
             <td style="text-align: center;">
               <input
+                id="BCjjT4Xujzu-MPzyVWiSFF2-val"
+                name="entryfield"
+                title="total median earnings HWF Midwifery Professional"
+                value="[ total median earnings HWF Midwifery Professional ]"
+              />
+            </td>
+            <td style="text-align: center;">
+              <input
                 id="oTcSBrUk1hs-MPzyVWiSFF2-val"
                 name="entryfield"
                 title="median earnings of men HWF Midwifery Professional"
@@ -674,6 +735,14 @@
                 name="entryfield"
                 title="Average of Entry-level wages and salaries excluding Social Contributions in Private Facilities Dentist"
                 value="[ Average of Entry-level wages and salaries excluding Social Contributions in Private Facilities Dentist ]"
+              />
+            </td>
+            <td style="text-align: center;">
+              <input
+                id="BCjjT4Xujzu-ALBRKpJsddQ-val"
+                name="entryfield"
+                title="total median earnings HWF Dentist"
+                value="[ total median earnings HWF Dentist ]"
               />
             </td>
             <td style="text-align: center;">
@@ -722,6 +791,14 @@
             </td>
             <td style="text-align: center;">
               <input
+                id="BCjjT4Xujzu-iWRW6jXAzvP-val"
+                name="entryfield"
+                title="total median earnings HWF Pharmacist"
+                value="[ total median earnings HWF Pharmacist ]"
+              />
+            </td>
+            <td style="text-align: center;">
+              <input
                 id="oTcSBrUk1hs-iWRW6jXAzvP-val"
                 name="entryfield"
                 title="median earnings of men HWF Pharmacist"
@@ -748,7 +825,10 @@
           <tr>
             <th>SN</th>
             <th>Item</th>
-            <th style="text-align: center;">Exitence</th>
+            <th style="text-align: center;">Existence</th>
+            <th class="comments" scope="row" style="text-align: center;" hidden>
+              Comment
+            </th>
           </tr>
           <tr></tr>
         </thead>
@@ -768,6 +848,22 @@
                 title="Existence of national/subnational policies or standards on public sector wage ceiling"
                 value="[ Existence of national/subnational policies or standards on public sector wage ceiling ]"
               />
+              <img
+                id="comment-bubble"
+                src="../images/comment.png"
+                title="View comment"
+                style="cursor: pointer; margin-left: 10px;"
+              />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;" hidden>
+              <textarea
+                name="entryfield"
+                class="entryfield entryarea"
+                id="cXn60b9eotz-Xr12mI7VPn3-val"
+                tabindex="1"
+                style="background-color: rgb(255, 255, 255); border: 1px solid rgb(170, 170, 170);"
+              >
+              </textarea>
             </td>
           </tr>
         </tbody>

@@ -18,3 +18,5 @@ http PUT "$DHIS2_URL/api/dataEntryForms/$FORM_UID" \
     "name"="$FORM_NAME" \
     "htmlCode"=@"$FORM_FILE_NAME" \
     "style"="NONE"
+
+http PUT "$DHIS2_URL/api/maintenance/cacheClear"
