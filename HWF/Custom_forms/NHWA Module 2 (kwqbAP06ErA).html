@@ -28,19 +28,18 @@
     });
 
     var comments = ["aAuKVcYFTB8"];
-    comments.forEach(function(comment) {
-      var textfield = $("#" + comment + "-Xr12mI7VPn3-val");
-      if (textfield.val() !== "") $(".comments").toggle(true);
 
-      $("#selectedPeriodId").on("change", function() {
-        window.setTimeout(function() {
-          var textfield = $("#" + comment + "-Xr12mI7VPn3-val");
-          $(".comments").toggle(textfield.val() !== "");
-        }, 100);
+    dhis2.util.on("dhis2.de.event.dataValuesLoaded", function() {
+      $(".comments").toggle(false);
+      comments.forEach(function(comment) {
+        let $textfield = $("#" + comment + "-Xr12mI7VPn3-val");
+        if ($textfield.val() !== "") {
+          $(".comments").toggle(true);
+        }
       });
     });
 
-    $("#comment-bubble").on("click", function() {
+    $(".comment-bubble").on("click", function() {
       $(".comments").toggle();
     });
   });
@@ -221,17 +220,29 @@
             </td>
             <td style="text-align: left;">
               <input
-                id="GHRcigiFyO0-dYLYgidzGd0-val"
-                name="entryfield"
-                title="Medical Doctors in education and training source type Ministry of Education"
-                value="[ Medical Doctors in education and training source type Ministry of Education ]"
-              />Ministry of Education &nbsp;
-              <input
                 id="GHRcigiFyO0-ukju4pkJeXV-val"
                 name="entryfield"
                 title="Medical Doctors in education and training source type Regulatory bodies"
                 value="[ Medical Doctors in education and training source type Regulatory bodies ]"
               />Regulatory Bodies
+              <input
+                id="GHRcigiFyO0-dYLYgidzGd0-val"
+                name="entryfield"
+                title="Medical Doctors in education and training source type Ministry of Education"
+                value="[ Medical Doctors in education and training source type Ministry of Education ]"
+              />Ministry of Education<br />
+              <input
+                id="GHRcigiFyO0-mGDxxaXpJHJ-val"
+                name="entryfield"
+                title="Medical Doctors in education and training source type Training Institutes"
+                value="[ Medical Doctors in education and training source type Training Institutes ]"
+              />Training Institutes &nbsp;
+              <input
+                id="GHRcigiFyO0-UlBKV2VkYP6-val"
+                name="entryfield"
+                title="Medical Doctors in education and training source type Other Databases"
+                value="[ Medical Doctors in education and training source type Other Databases ]"
+              />Other Databases
             </td>
           </tr>
           <tr>
@@ -324,18 +335,29 @@
             </td>
             <td style="text-align: left;">
               <input
-                id="uwBMy7jAOzr-dYLYgidzGd0-val"
+                id="GHRcigiFyO0-ukju4pkJeXV-val"
                 name="entryfield"
-                style="width:3.5em;"
-                title="General Medical Practitioners in education and training source type Ministry of Education"
-                value="[ General Medical Practitioners in education and training source type Ministry of Education ]"
-              />Ministry of Education &nbsp;<input
-                id="uwBMy7jAOzr-ukju4pkJeXV-val"
+                title="Medical Doctors in education and training source type Regulatory bodies"
+                value="[ Medical Doctors in education and training source type Regulatory bodies ]"
+              />Regulatory Bodies
+              <input
+                id="GHRcigiFyO0-dYLYgidzGd0-val"
                 name="entryfield"
-                style="width:3.5em;"
-                title="General Medical Practitioners in education and training source type Regulatory bodies"
-                value="[ General Medical Practitioners in education and training source type Regulatory bodies ]"
-              />&nbsp;Regulatory Bodies
+                title="Medical Doctors in education and training source type Ministry of Education"
+                value="[ Medical Doctors in education and training source type Ministry of Education ]"
+              />Ministry of Education<br />
+              <input
+                id="GHRcigiFyO0-mGDxxaXpJHJ-val"
+                name="entryfield"
+                title="Medical Doctors in education and training source type Training Institutes"
+                value="[ Medical Doctors in education and training source type Training Institutes ]"
+              />Training Institutes &nbsp;
+              <input
+                id="GHRcigiFyO0-UlBKV2VkYP6-val"
+                name="entryfield"
+                title="Medical Doctors in education and training source type Other Databases"
+                value="[ Medical Doctors in education and training source type Other Databases ]"
+              />Other Databases
             </td>
           </tr>
           <tr>
@@ -428,18 +450,29 @@
             </td>
             <td style="text-align: left;">
               <input
-                id="lvkcxdk6ewE-dYLYgidzGd0-val"
+                id="GHRcigiFyO0-ukju4pkJeXV-val"
                 name="entryfield"
-                style="width:3.5em;"
-                title="Specialist Medical Practitioners in education and training source type Ministry of Education"
-                value="[ Specialist Medical Practitioners in education and training source type Ministry of Education ]"
-              />Ministry of Education &nbsp;<input
-                id="lvkcxdk6ewE-ukju4pkJeXV-val"
+                title="Medical Doctors in education and training source type Regulatory bodies"
+                value="[ Medical Doctors in education and training source type Regulatory bodies ]"
+              />Regulatory Bodies
+              <input
+                id="GHRcigiFyO0-dYLYgidzGd0-val"
                 name="entryfield"
-                style="width:3.5em;"
-                title="Specialist Medical Practitioners in education and training source type Regulatory bodies"
-                value="[ Specialist Medical Practitioners in education and training source type Regulatory bodies ]"
-              />&nbsp;Regulatory Bodies
+                title="Medical Doctors in education and training source type Ministry of Education"
+                value="[ Medical Doctors in education and training source type Ministry of Education ]"
+              />Ministry of Education<br />
+              <input
+                id="GHRcigiFyO0-mGDxxaXpJHJ-val"
+                name="entryfield"
+                title="Medical Doctors in education and training source type Training Institutes"
+                value="[ Medical Doctors in education and training source type Training Institutes ]"
+              />Training Institutes &nbsp;
+              <input
+                id="GHRcigiFyO0-UlBKV2VkYP6-val"
+                name="entryfield"
+                title="Medical Doctors in education and training source type Other Databases"
+                value="[ Medical Doctors in education and training source type Other Databases ]"
+              />Other Databases
             </td>
           </tr>
           <tr>
@@ -534,18 +567,29 @@
             </td>
             <td style="text-align: left;">
               <input
-                id="Tu7mmoVDSFh-dYLYgidzGd0-val"
+                id="GHRcigiFyO0-ukju4pkJeXV-val"
                 name="entryfield"
-                style="width:3.5em;"
-                title="Nursing Professionals in education and training source type Ministry of Education"
-                value="[ Nursing Professionals in education and training source type Ministry of Education ]"
-              />Ministry of Education &nbsp;<input
-                id="Tu7mmoVDSFh-ukju4pkJeXV-val"
+                title="Medical Doctors in education and training source type Regulatory bodies"
+                value="[ Medical Doctors in education and training source type Regulatory bodies ]"
+              />Regulatory Bodies
+              <input
+                id="GHRcigiFyO0-dYLYgidzGd0-val"
                 name="entryfield"
-                style="width:3.5em;"
-                title="Nursing Professionals in education and training source type Regulatory bodies"
-                value="[ Nursing Professionals in education and training source type Regulatory bodies ]"
-              />&nbsp;Regulatory Bodies
+                title="Medical Doctors in education and training source type Ministry of Education"
+                value="[ Medical Doctors in education and training source type Ministry of Education ]"
+              />Ministry of Education<br />
+              <input
+                id="GHRcigiFyO0-mGDxxaXpJHJ-val"
+                name="entryfield"
+                title="Medical Doctors in education and training source type Training Institutes"
+                value="[ Medical Doctors in education and training source type Training Institutes ]"
+              />Training Institutes &nbsp;
+              <input
+                id="GHRcigiFyO0-UlBKV2VkYP6-val"
+                name="entryfield"
+                title="Medical Doctors in education and training source type Other Databases"
+                value="[ Medical Doctors in education and training source type Other Databases ]"
+              />Other Databases
             </td>
           </tr>
           <tr>
@@ -640,18 +684,29 @@
             </td>
             <td style="text-align: left;">
               <input
-                id="baxzJnblwIA-dYLYgidzGd0-val"
+                id="GHRcigiFyO0-ukju4pkJeXV-val"
                 name="entryfield"
-                style="width:3.5em;"
-                title="Midwifery Professionals in education and training source type Ministry of Education"
-                value="[ Midwifery Professionals in education and training source type Ministry of Education ]"
-              />Ministry of Education &nbsp;<input
-                id="baxzJnblwIA-ukju4pkJeXV-val"
+                title="Medical Doctors in education and training source type Regulatory bodies"
+                value="[ Medical Doctors in education and training source type Regulatory bodies ]"
+              />Regulatory Bodies
+              <input
+                id="GHRcigiFyO0-dYLYgidzGd0-val"
                 name="entryfield"
-                style="width:3.5em;"
-                title="Midwifery Professionals in education and training source type Regulatory bodies"
-                value="[ Midwifery Professionals in education and training source type Regulatory bodies ]"
-              />&nbsp;Regulatory Bodies
+                title="Medical Doctors in education and training source type Ministry of Education"
+                value="[ Medical Doctors in education and training source type Ministry of Education ]"
+              />Ministry of Education<br />
+              <input
+                id="GHRcigiFyO0-mGDxxaXpJHJ-val"
+                name="entryfield"
+                title="Medical Doctors in education and training source type Training Institutes"
+                value="[ Medical Doctors in education and training source type Training Institutes ]"
+              />Training Institutes &nbsp;
+              <input
+                id="GHRcigiFyO0-UlBKV2VkYP6-val"
+                name="entryfield"
+                title="Medical Doctors in education and training source type Other Databases"
+                value="[ Medical Doctors in education and training source type Other Databases ]"
+              />Other Databases
             </td>
           </tr>
           <tr>
@@ -740,18 +795,29 @@
             </td>
             <td style="text-align: left;">
               <input
-                id="vERGKxg4ky5-dYLYgidzGd0-val"
+                id="GHRcigiFyO0-ukju4pkJeXV-val"
                 name="entryfield"
-                style="width:3.5em;"
-                title="Dentists in education and training source type Ministry of Education"
-                value="[ Dentists in education and training source type Ministry of Education ]"
-              />Ministry of Education &nbsp;<input
-                id="vERGKxg4ky5-ukju4pkJeXV-val"
+                title="Medical Doctors in education and training source type Regulatory bodies"
+                value="[ Medical Doctors in education and training source type Regulatory bodies ]"
+              />Regulatory Bodies
+              <input
+                id="GHRcigiFyO0-dYLYgidzGd0-val"
                 name="entryfield"
-                style="width:3.5em;"
-                title="Dentists in education and training source type Regulatory bodies"
-                value="[ Dentists in education and training source type Regulatory bodies ]"
-              />&nbsp;Regulatory Bodies
+                title="Medical Doctors in education and training source type Ministry of Education"
+                value="[ Medical Doctors in education and training source type Ministry of Education ]"
+              />Ministry of Education<br />
+              <input
+                id="GHRcigiFyO0-mGDxxaXpJHJ-val"
+                name="entryfield"
+                title="Medical Doctors in education and training source type Training Institutes"
+                value="[ Medical Doctors in education and training source type Training Institutes ]"
+              />Training Institutes &nbsp;
+              <input
+                id="GHRcigiFyO0-UlBKV2VkYP6-val"
+                name="entryfield"
+                title="Medical Doctors in education and training source type Other Databases"
+                value="[ Medical Doctors in education and training source type Other Databases ]"
+              />Other Databases
             </td>
           </tr>
           <tr>
@@ -842,18 +908,29 @@
             </td>
             <td style="text-align: left;">
               <input
-                id="ZeF4Zhl5iSz-dYLYgidzGd0-val"
+                id="GHRcigiFyO0-ukju4pkJeXV-val"
                 name="entryfield"
-                style="width:3.5em;"
-                title="Pharmacists in education and training source type Ministry of Education"
-                value="[ Pharmacists in education and training source type Ministry of Education ]"
-              />Ministry of Education &nbsp;<input
-                id="ZeF4Zhl5iSz-ukju4pkJeXV-val"
-                name="entryfield"
-                style="width:3.5em;"
-                title="Pharmacists in education and training source type Regulatory bodies"
-                value="[ Pharmacists in education and training source type Regulatory bodies ]"
+                title="Medical Doctors in education and training source type Regulatory bodies"
+                value="[ Medical Doctors in education and training source type Regulatory bodies ]"
               />Regulatory Bodies
+              <input
+                id="GHRcigiFyO0-dYLYgidzGd0-val"
+                name="entryfield"
+                title="Medical Doctors in education and training source type Ministry of Education"
+                value="[ Medical Doctors in education and training source type Ministry of Education ]"
+              />Ministry of Education<br />
+              <input
+                id="GHRcigiFyO0-mGDxxaXpJHJ-val"
+                name="entryfield"
+                title="Medical Doctors in education and training source type Training Institutes"
+                value="[ Medical Doctors in education and training source type Training Institutes ]"
+              />Training Institutes &nbsp;
+              <input
+                id="GHRcigiFyO0-UlBKV2VkYP6-val"
+                name="entryfield"
+                title="Medical Doctors in education and training source type Other Databases"
+                value="[ Medical Doctors in education and training source type Other Databases ]"
+              />Other Databases
             </td>
           </tr>
         </tbody>
@@ -1609,7 +1686,12 @@
               Item
             </th>
             <th scope="row" style="text-align: center;">Value</th>
-            <th class="comments" scope="row" style="text-align: center;" hidden>
+            <th
+              class="comments"
+              hidden=""
+              scope="row"
+              style="text-align: center;"
+            >
               Comment
             </th>
           </tr>
@@ -1618,14 +1700,14 @@
             <td colspan="1" scope="row">1</td>
             <td colspan="3" scope="row" style="text-align: center;">
               <p class="western" style="margin-bottom:0in">
-                <span style="line-height:100%"
-                  ><font size="2"
-                    ><font style="font-size: 10pt"
+                <span style="line-height:100%">
+                  <font size="2">
+                    <font style="font-size: 10pt"
                       >Is your master list of accredited education institutions
                       up to date and available in the public domain?</font
-                    ></font
-                  ></span
-                >
+                    >
+                  </font>
+                </span>
               </p>
             </td>
             <td scope="row" style="text-align: center;">
@@ -1651,19 +1733,24 @@
               />
               No
               <img
-                id="comment-bubble"
+                class="comment-bubble"
                 src="../images/comment.png"
-                title="View comment"
                 style="cursor: pointer; margin-left: 10px;"
+                title="View comment"
               />
             </td>
-            <td class="comments" scope="row" style="text-align: center;" hidden>
+            <td
+              class="comments"
+              hidden=""
+              scope="row"
+              style="text-align: center;"
+            >
               <textarea
-                name="entryfield"
                 class="entryfield entryarea"
                 id="aAuKVcYFTB8-Xr12mI7VPn3-val"
-                tabindex="1"
+                name="entryfield"
                 style="background-color: rgb(255, 255, 255); border: 1px solid rgb(170, 170, 170);"
+                tabindex="1"
               >
               </textarea>
             </td>
