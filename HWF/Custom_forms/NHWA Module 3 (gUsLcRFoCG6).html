@@ -174,12 +174,7 @@
 
     $(".comment-bubble").on("click", function() {
       let $activeTab = $(".ui-tabs-active > a")[0].hash;
-
-      console.log("Active tab: " + $activeTab);
-
       let col = $(this).parent()[0].cellIndex + 1;
-
-      console.log("Active col: " + col);
       $($activeTab + " table tr > *:nth-child(" + (col + 1) + ")").toggle();
     });
   });
