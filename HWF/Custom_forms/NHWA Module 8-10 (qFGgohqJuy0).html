@@ -42,6 +42,42 @@
       });
     });
   });
+
+  var comments = [
+    "jlJcFRt3mmg",
+    "xtrKmZJKljq",
+    "R6JXOAVTsay",
+    "risbLwkLwW5",
+    "oLpoOT6tO7g",
+    "RM1vy8bSPE8",
+    "jieOOtItEQg",
+    "tASpRJWiyvN",
+    "aAaUMHvUPv1",
+    "mwwpy9cyOGy",
+    "AK5r5VIXYOW",
+    "QuUK6IgR9oZ",
+    "bGA2GtwhrC9",
+    "cWUu9JeMtg7"
+  ];
+
+  dhis2.util.on("dhis2.de.event.dataValuesLoaded", function() {
+    $(".comments").toggle(false);
+    comments.forEach(function(comment) {
+      let $textfield = $("#" + comment + "-Xr12mI7VPn3-val");
+      if ($textfield.val() !== "") {
+        let commentColumn = $textfield.parent()[0].cellIndex + 1;
+        let $tab = "#" + $textfield.closest(".ui-tabs-panel")[0].id;
+
+        $($tab + " table tr > *:nth-child(" + commentColumn + ")").toggle(true);
+      }
+    });
+  });
+
+  $(".comment-bubble").on("click", function() {
+    let $activeTab = $(".ui-tabs-active > a")[0].hash;
+    let col = $(this).parent()[0].cellIndex + 1;
+    $($activeTab + " table tr > *:nth-child(" + (col + 1) + ")").toggle();
+  });
 </script>
 <style type="text/css">
   #cde table {
@@ -91,6 +127,10 @@
     border: 1px #dadada solid;
   }
 
+  .commentlink {
+    display: none;
+  }
+
   label {
     display: block;
     text-align: left;
@@ -128,22 +168,26 @@
             <th>SN</th>
             <th style="text-align: center;">Item</th>
             <th style="text-align: center; width:30px">Existance</th>
+            <th class="comments" scope="row" style="text-align: center;">
+              Comment
+            </th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <th scope="row">1</th>
             <td style="text-align: left;">
-              Percentage of HWF at the primary health care level/facilities
+              Percentage of HWF at the hospitals
             </td>
             <td style="text-align: center;">
               <input
                 id="LW954y3FqL8-Xr12mI7VPn3-val"
                 name="entryfield"
-                title="Percentage of HWF at the primary health care level/facilities"
-                value="[ Percentage of HWF at the primary health care level/facilities ]"
+                title="Percentage of HWF at the hospitals"
+                value="[ Percentage of HWF at the hospitals ]"
               />
             </td>
+            <td class="comments"></td>
           </tr>
           <tr>
             <th scope="row">2</th>
@@ -159,6 +203,7 @@
                 value="[ Percentage of HWF working in residential long-term care facilities ]"
               />
             </td>
+            <td class="comments"></td>
           </tr>
           <tr>
             <th scope="row">3</th>
@@ -173,6 +218,7 @@
                 value="[ Percentage of HWF working in ambulatory health care ]"
               />
             </td>
+            <td class="comments"></td>
           </tr>
           <tr>
             <th scope="row">4</th>
@@ -187,6 +233,7 @@
                 value="[ Number of specialist surgical workers ]"
               />
             </td>
+            <td class="comments"></td>
           </tr>
           <tr>
             <th scope="row">5</th>
@@ -201,6 +248,7 @@
                 value="[ Number of family medicine practioners ]"
               />
             </td>
+            <td class="comments"></td>
           </tr>
           <tr>
             <th scope="row">6</th>
@@ -226,6 +274,22 @@
                 title="Existence of advanced nursing roles No"
                 value="[ Existence of advanced nursing roles No ]"
               />No
+              <img
+                class="comment-bubble"
+                src="../images/comment.png"
+                title="View comment"
+                style="cursor: pointer; margin-left: 10px;"
+              />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="jlJcFRt3mmg-Xr12mI7VPn3-val"
+                title="Comment of existence of advanced nursing roles"
+                value="[ Comment of existence of advanced nursing roles ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -241,6 +305,7 @@
                 value="[ Availability of human resources to implement IHR ]"
               />
             </td>
+            <td class="comments"></td>
           </tr>
           <tr>
             <th scope="row">8</th>
@@ -255,6 +320,7 @@
                 value="[ Applied epidemiology training programme ]"
               />
             </td>
+            <td class="comments"></td>
           </tr>
         </tbody>
       </table>
@@ -271,6 +337,9 @@
             <th>SN</th>
             <th style="text-align: center;">Item</th>
             <th style="text-align: center;">Existance</th>
+            <th class="comments" scope="row" style="text-align: center;">
+              Comment
+            </th>
           </tr>
         </thead>
         <tbody>
@@ -301,6 +370,22 @@
                 title="Existence of institutional mechanisms to coordinate an intersectoral health workforce agenda No"
                 value="[ Existence of institutional mechanisms to coordinate an intersectoral health workforce agenda No ]"
               />No
+              <img
+                class="comment-bubble"
+                src="../images/comment.png"
+                title="View comment"
+                style="cursor: pointer; margin-left: 10px;"
+              />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="xtrKmZJKljq-Xr12mI7VPn3-val"
+                title="Comment of existence of institutional mechanisms to coordinate an intersectoral health workforce agenda"
+                value="[ Comment of existence of institutional mechanisms to coordinate an intersectoral health workforce agenda ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -328,6 +413,22 @@
                 title="Existence of a health workforce unit responsible for developing and monitoring policies and plans on health workforce No"
                 value="[ Existence of a health workforce unit responsible for developing and monitoring policies and plans on health workforce No ]"
               />No
+              <img
+                class="comment-bubble"
+                src="../images/comment.png"
+                title="View comment"
+                style="cursor: pointer; margin-left: 10px;"
+              />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="R6JXOAVTsay-Xr12mI7VPn3-val"
+                title="Comment of existence of a health workforce unit responsible for developing and monitoring policies and plans on health workforce"
+                value="[ Comment of existence of a health workforce unit responsible for developing and monitoring policies and plans on health workforce ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -354,6 +455,22 @@
                 title="Existence of mechanisms and models for health workforce planning No"
                 value="[ Existence of mechanisms and models for health workforce planning No ]"
               />No
+              <img
+                class="comment-bubble"
+                src="../images/comment.png"
+                title="View comment"
+                style="cursor: pointer; margin-left: 10px;"
+              />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="risbLwkLwW5-Xr12mI7VPn3-val"
+                title="Comment of existence of mechanisms and models for health workforce planning"
+                value="[ Comment of existence of mechanisms and models for health workforce planning ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -382,6 +499,22 @@
                 title="Existence of national education plans for the health workforce, aligned with the national health plan and the national health workforce strategy No"
                 value="[ Existence of national education plans for the health workforce, aligned with the national health plan and the national health workforce strategy No ]"
               />No
+              <img
+                class="comment-bubble"
+                src="../images/comment.png"
+                title="View comment"
+                style="cursor: pointer; margin-left: 10px;"
+              />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="oLpoOT6tO7g-Xr12mI7VPn3-val"
+                title="Comment of national education plans for the health workforce, aligned with the national health plan and the national health workforce strategy"
+                value="[ Comment of national education plans for the health workforce, aligned with the national health plan and the national health workforce strategy ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -409,6 +542,22 @@
                 title="undefined"
                 value="[ undefined ]"
               />No
+              <img
+                class="comment-bubble"
+                src="../images/comment.png"
+                title="View comment"
+                style="cursor: pointer; margin-left: 10px;"
+              />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="RM1vy8bSPE8-Xr12mI7VPn3-val"
+                title="Comment of Existence of institutional models for assessing and monitoring staffing needs for health service delivery"
+                value="[ Comment of Existence of institutional models for assessing and monitoring staffing needs for health service delivery ]"
+              >
+              </textarea>
             </td>
           </tr>
         </tbody>
@@ -426,6 +575,9 @@
             <th>SN</th>
             <th style="text-align: center;">Item</th>
             <th style="text-align: center;">Existance</th>
+            <th class="comments" scope="row" style="text-align: center;">
+              Comment
+            </th>
           </tr>
         </thead>
         <tbody>
@@ -454,6 +606,22 @@
                 title="Existence of HRHIS for reporting on International Health Regulations No"
                 value="[ Existence of HRHIS for reporting on International Health Regulations No ]"
               />No
+              <img
+                class="comment-bubble"
+                src="../images/comment.png"
+                title="View comment"
+                style="cursor: pointer; margin-left: 10px;"
+              />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="jieOOtItEQg-Xr12mI7VPn3-val"
+                title="Comment of Existence of HRHIS for reporting on International Health Regulations"
+                value="[ Comment of Existence of HRHIS for reporting on International Health Regulations ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -482,6 +650,22 @@
                 title="Existence of HRHIS for reporting on  the WHO Global Code of Practice on the International Recruitment of Health Personnel  No"
                 value="[ Existence of HRHIS for reporting on  the WHO Global Code of Practice on the International Recruitment of Health Personnel  No ]"
               />No
+              <img
+                class="comment-bubble"
+                src="../images/comment.png"
+                title="View comment"
+                style="cursor: pointer; margin-left: 10px;"
+              />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="tASpRJWiyvN-Xr12mI7VPn3-val"
+                title="Comment of Existance of HRHIS for reporting on  the WHO Global Code of Practice on the International Recruitment of Health Personnel"
+                value="[ Comment of Existance of HRHIS for reporting on  the WHO Global Code of Practice on the International Recruitment of Health Personnel ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -509,6 +693,22 @@
                 title="Existence of HRHIS for reporting on Skilled Attendance at Birth requirements No"
                 value="[ Existence of HRHIS for reporting on Skilled Attendance at Birth requirements No ]"
               />No
+              <img
+                class="comment-bubble"
+                src="../images/comment.png"
+                title="View comment"
+                style="cursor: pointer; margin-left: 10px;"
+              />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="aAaUMHvUPv1-Xr12mI7VPn3-val"
+                title="Comment of Existence of HRHIS for reporting on Skilled Attendance at Birth requirements"
+                value="[ Comment of Existence of HRHIS for reporting on Skilled Attendance at Birth requirements ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -536,6 +736,22 @@
                 title="Existence of HRHIS for reporting on outputs from education and training institutions No"
                 value="[ Existence of HRHIS for reporting on outputs from education and training institutions No ]"
               />No
+              <img
+                class="comment-bubble"
+                src="../images/comment.png"
+                title="View comment"
+                style="cursor: pointer; margin-left: 10px;"
+              />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="mwwpy9cyOGy-Xr12mI7VPn3-val"
+                title="Comment of Existence of HRHIS for reporting on outputs from education and training institutions"
+                value="[ Comment of Existence of HRHIS for reporting on outputs from education and training institutions ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -562,6 +778,22 @@
                 title="Existence of HRHIS to track entrants to the labour market No"
                 value="[ Existence of HRHIS to track entrants to the labour market No ]"
               />No
+              <img
+                class="comment-bubble"
+                src="../images/comment.png"
+                title="View comment"
+                style="cursor: pointer; margin-left: 10px;"
+              />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="AK5r5VIXYOW-Xr12mI7VPn3-val"
+                title="Comment of Existence of HRHIS to track entrants to the labour market"
+                value="[ Comment of Existence of HRHIS to track entrants to the labour market ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -588,6 +820,22 @@
                 title="Existence of HRHIS to track the number of active stock per year No"
                 value="[ Existence of HRHIS to track the number of active stock per year No ]"
               />No
+              <img
+                class="comment-bubble"
+                src="../images/comment.png"
+                title="View comment"
+                style="cursor: pointer; margin-left: 10px;"
+              />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="QuUK6IgR9oZ-Xr12mI7VPn3-val"
+                title="Comment of Existence of HRHIS to track the number of active stock per year"
+                value="[ Comment of Existence of HRHIS to track the number of active stock per year ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -614,6 +862,22 @@
                 title="Existence of HRHIS to track the number of exits per year No"
                 value="[ Existence of HRHIS to track the number of exits per year No ]"
               />No
+              <img
+                class="comment-bubble"
+                src="../images/comment.png"
+                title="View comment"
+                style="cursor: pointer; margin-left: 10px;"
+              />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="bGA2GtwhrC9-Xr12mI7VPn3-val"
+                title="Comment of Existence of HRHIS to track the number of exits per year"
+                value="[ Comment of Existence of HRHIS to track the number of exits per year ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -641,6 +905,22 @@
                 title="Existence of HRHIS to produce geo-coded location of health facilities No"
                 value="[ Existence of HRHIS to produce geo-coded location of health facilities No ]"
               />No
+              <img
+                class="comment-bubble"
+                src="../images/comment.png"
+                title="View comment"
+                style="cursor: pointer; margin-left: 10px;"
+              />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea
+                name="entryfield"
+                class="entryfield"
+                id="cWUu9JeMtg7-Xr12mI7VPn3-val"
+                title="Comment of Existence of HRHIS to produce geo-coded location of health facilities"
+                value="[ Comment of Existence of HRHIS to produce geo-coded location of health facilities ]"
+              >
+              </textarea>
             </td>
           </tr>
         </tbody>
