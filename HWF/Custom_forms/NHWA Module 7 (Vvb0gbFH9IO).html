@@ -4,19 +4,18 @@
       $("#mod2_tabs").tabs();
 
       var comments = ["cXn60b9eotz"];
-      comments.forEach(function(comment) {
-        var textfield = $("#" + comment + "-Xr12mI7VPn3-val");
-        if (textfield.val() !== "") $(".comments").toggle(true);
 
-        $("#selectedPeriodId").on("change", function() {
-          window.setTimeout(function() {
-            var textfield = $("#" + comment + "-Xr12mI7VPn3-val");
-            $(".comments").toggle(textfield.val() !== "");
-          }, 100);
+      dhis2.util.on("dhis2.de.event.dataValuesLoaded", function() {
+        $(".comments").toggle(false);
+        comments.forEach(function(comment) {
+          let $textfield = $("#" + comment + "-Xr12mI7VPn3-val");
+          if ($textfield.val() !== "") {
+            $(".comments").toggle(true);
+          }
         });
       });
 
-      $("#comment-bubble").on("click", function() {
+      $(".comment-bubble").on("click", function() {
         $(".comments").toggle();
       });
     });
@@ -849,7 +848,7 @@
                 value="[ Existence of national/subnational policies or standards on public sector wage ceiling ]"
               />
               <img
-                id="comment-bubble"
+                class="comment-bubble"
                 src="../images/comment.png"
                 title="View comment"
                 style="cursor: pointer; margin-left: 10px;"

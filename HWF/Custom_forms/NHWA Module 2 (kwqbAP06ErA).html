@@ -3,44 +3,73 @@
     $(function() {
       $("#mod2_tabs").tabs();
     });
+
+    function updateCommentVisibility($textfield) {
+      const $checkboxes = $textfield
+        .closest("td")
+        .prev()
+        .find("input");
+      if ($checkboxes.is(":checked")) {
+        $textfield.removeAttr("disabled");
+        $textfield.css("background-color", "rgb(255, 255, 255)");
+      } else {
+        $textfield.prop("disabled", true);
+        $textfield.css("background-color", "rgb(204, 204, 204)");
+      }
+    }
+
+    function disableCommentLogic() {
+      const comments = ["aAuKVcYFTB8"];
+
+      $(".comments").toggle(false);
+      comments.forEach(function(comment) {
+        const $textfield = $("#" + comment + "-Xr12mI7VPn3-val");
+        updateCommentVisibility($textfield);
+        if ($textfield.val() !== "") {
+          $textfield
+            .closest("table")
+            .find(".comments")
+            .toggle(true);
+        }
+      });
+    }
+
     var yespartialno = ["EtX7FWQ8HOf"];
     var categoryIssues = ["I93t0K7b1oN", "Xgr3PJxcWfJ", "Y7EAGQA1bfv"];
     yespartialno.forEach(function(dataElement) {
       categoryIssues.forEach(function(option) {
         $("#" + dataElement + "-" + option + "-val").on("click", function() {
-          var id = $(this).attr("id");
-          console.log("Performing logic for id", id);
+          const id = $(this).attr("id");
+          updateCommentVisibility(
+            $(this)
+              .closest("td")
+              .next()
+              .find("textarea")
+          );
 
           if ($(this).is(":checked")) {
             categoryIssues.forEach(function(id) {
               if (id !== option) {
-                var str = "#" + dataElement + "-" + id + "-val";
-                console.log("str:", str);
-                var isChecked = $(str).is(":checked");
-                if (isChecked) $(str).click();
+                const str = "#" + dataElement + "-" + id + "-val";
+                if ($(str).is(":checked")) {
+                  $(str).click();
+                }
               }
             });
-          } else {
-            console.log("Not Checked");
           }
         });
       });
     });
 
-    var comments = ["aAuKVcYFTB8"];
-
-    dhis2.util.on("dhis2.de.event.dataValuesLoaded", function() {
-      $(".comments").toggle(false);
-      comments.forEach(function(comment) {
-        let $textfield = $("#" + comment + "-Xr12mI7VPn3-val");
-        if ($textfield.val() !== "") {
-          $(".comments").toggle(true);
-        }
-      });
-    });
+    disableCommentLogic();
+    dhis2.util.on("dhis2.de.event.dataValuesLoaded", disableCommentLogic);
 
     $(".comment-bubble").on("click", function() {
-      $(".comments").toggle();
+      const col = $(this).parent()[0].cellIndex + 1;
+      $(this)
+        .closest("table")
+        .find("tr > *:nth-child(" + (col + 1) + ")")
+        .toggle();
     });
   });
 </script>
@@ -101,22 +130,28 @@
               HWF Education and Training Programme
             </th>
             <th colspan="1" rowspan="2" scope="col" style="text-align: center;">
-              Applications
+              <p>Applications</p>
+
+              <p>(2-03)</p>
             </th>
             <th colspan="2" rowspan="1" scope="col" style="text-align: center;">
-              Applications By Gender
+              Applications By Gender&nbsp;(2-03)
             </th>
             <th rowspan="2" scope="col" style="text-align: center;">
-              Admissions
+              <p>Admissions</p>
+
+              <p>(2-04)</p>
             </th>
             <th colspan="2" rowspan="1" scope="col" style="text-align: center;">
-              Admissions By Gender
+              Admissions By Gender&nbsp;(2-04)
             </th>
             <th colspan="1" rowspan="2" scope="col" style="text-align: center;">
-              Entrants
+              <p>Enrolled</p>
+
+              <p>(2-05)</p>
             </th>
             <th colspan="2" rowspan="1" scope="col" style="text-align: center;">
-              Entrants By Gender
+              Enrolled By Gender&nbsp;(2-05)
             </th>
             <th colspan="3" rowspan="2" scope="col" style="text-align: center;">
               Source Type
@@ -220,25 +255,25 @@
             </td>
             <td style="text-align: left;">
               <input
-                id="GHRcigiFyO0-ukju4pkJeXV-val"
-                name="entryfield"
-                title="Medical Doctors in education and training source type Regulatory bodies"
-                value="[ Medical Doctors in education and training source type Regulatory bodies ]"
-              />Regulatory Bodies
-              <input
                 id="GHRcigiFyO0-dYLYgidzGd0-val"
                 name="entryfield"
                 title="Medical Doctors in education and training source type Ministry of Education"
                 value="[ Medical Doctors in education and training source type Ministry of Education ]"
-              />Ministry of Education<br />
+              />Ministry of Education &nbsp;
+              <input
+                id="GHRcigiFyO0-ukju4pkJeXV-val"
+                name="entryfield"
+                title="Medical Doctors in education and training source type Regulatory bodies"
+                value="[ Medical Doctors in education and training source type Regulatory bodies ]"
+              />Regulatory Bodies<br />
               <input
                 id="GHRcigiFyO0-mGDxxaXpJHJ-val"
                 name="entryfield"
                 title="Medical Doctors in education and training source type Training Institutes"
                 value="[ Medical Doctors in education and training source type Training Institutes ]"
-              />Training Institutes &nbsp;
+              />Training Institutes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <input
-                id="GHRcigiFyO0-UlBKV2VkYP6-val"
+                id="GHRcigiFyO0-h0uO1nflznJ-val"
                 name="entryfield"
                 title="Medical Doctors in education and training source type Other Databases"
                 value="[ Medical Doctors in education and training source type Other Databases ]"
@@ -335,28 +370,28 @@
             </td>
             <td style="text-align: left;">
               <input
-                id="GHRcigiFyO0-ukju4pkJeXV-val"
+                id="uwBMy7jAOzr-dYLYgidzGd0-val"
                 name="entryfield"
-                title="Medical Doctors in education and training source type Regulatory bodies"
-                value="[ Medical Doctors in education and training source type Regulatory bodies ]"
-              />Regulatory Bodies
+                title="General Medical Practitioners in education and training source type Ministry of Education"
+                value="[ General Medical Practitioners in education and training source type Ministry of Education ]"
+              />Ministry of Education &nbsp;
               <input
-                id="GHRcigiFyO0-dYLYgidzGd0-val"
+                id="uwBMy7jAOzr-ukju4pkJeXV-val"
                 name="entryfield"
-                title="Medical Doctors in education and training source type Ministry of Education"
-                value="[ Medical Doctors in education and training source type Ministry of Education ]"
-              />Ministry of Education<br />
+                title="General Medical Practitioners in education and training source type Regulatory bodies"
+                value="[ General Medical Practitioners in education and training source type Regulatory bodies ]"
+              />Regulatory Bodies<br />
               <input
-                id="GHRcigiFyO0-mGDxxaXpJHJ-val"
+                id="uwBMy7jAOzr-mGDxxaXpJHJ-val"
                 name="entryfield"
-                title="Medical Doctors in education and training source type Training Institutes"
-                value="[ Medical Doctors in education and training source type Training Institutes ]"
-              />Training Institutes &nbsp;
+                title="General Medical Practitioners in education and training source type Training Institutes"
+                value="[ General Medical Practitioners in education and training source type Training Institutes ]"
+              />Training Institutes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <input
-                id="GHRcigiFyO0-UlBKV2VkYP6-val"
+                id="uwBMy7jAOzr-h0uO1nflznJ-val"
                 name="entryfield"
-                title="Medical Doctors in education and training source type Other Databases"
-                value="[ Medical Doctors in education and training source type Other Databases ]"
+                title="General Medical Practitioners in education and training source type Other Databases"
+                value="[ General Medical Practitioners in education and training source type Other Databases ]"
               />Other Databases
             </td>
           </tr>
@@ -450,28 +485,28 @@
             </td>
             <td style="text-align: left;">
               <input
-                id="GHRcigiFyO0-ukju4pkJeXV-val"
+                id="lvkcxdk6ewE-dYLYgidzGd0-val"
                 name="entryfield"
-                title="Medical Doctors in education and training source type Regulatory bodies"
-                value="[ Medical Doctors in education and training source type Regulatory bodies ]"
-              />Regulatory Bodies
+                title="Specialist Medical Practitioners in education and training source type Ministry of Education"
+                value="[ Specialist Medical Practitioners in education and training source type Ministry of Education ]"
+              />Ministry of Education &nbsp;
               <input
-                id="GHRcigiFyO0-dYLYgidzGd0-val"
+                id="lvkcxdk6ewE-ukju4pkJeXV-val"
                 name="entryfield"
-                title="Medical Doctors in education and training source type Ministry of Education"
-                value="[ Medical Doctors in education and training source type Ministry of Education ]"
-              />Ministry of Education<br />
+                title="Specialist Medical Practitioners in education and training source type Regulatory bodies"
+                value="[ Specialist Medical Practitioners in education and training source type Regulatory bodies ]"
+              />Regulatory Bodies<br />
               <input
-                id="GHRcigiFyO0-mGDxxaXpJHJ-val"
+                id="lvkcxdk6ewE-mGDxxaXpJHJ-val"
                 name="entryfield"
-                title="Medical Doctors in education and training source type Training Institutes"
-                value="[ Medical Doctors in education and training source type Training Institutes ]"
-              />Training Institutes &nbsp;
+                title="Specialist Medical Practitioners in education and training source type Training Institutes"
+                value="[ Specialist Medical Practitioners in education and training source type Training Institutes ]"
+              />Training Institutes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <input
-                id="GHRcigiFyO0-UlBKV2VkYP6-val"
+                id="lvkcxdk6ewE-h0uO1nflznJ-val"
                 name="entryfield"
-                title="Medical Doctors in education and training source type Other Databases"
-                value="[ Medical Doctors in education and training source type Other Databases ]"
+                title="Specialist Medical Practitioners in education and training source type Other Databases"
+                value="[ Specialist Medical Practitioners in education and training source type Other Databases ]"
               />Other Databases
             </td>
           </tr>
@@ -567,28 +602,28 @@
             </td>
             <td style="text-align: left;">
               <input
-                id="GHRcigiFyO0-ukju4pkJeXV-val"
+                id="Tu7mmoVDSFh-dYLYgidzGd0-val"
                 name="entryfield"
-                title="Medical Doctors in education and training source type Regulatory bodies"
-                value="[ Medical Doctors in education and training source type Regulatory bodies ]"
-              />Regulatory Bodies
+                title="Nursing Professionals in education and training source type Ministry of Education"
+                value="[ Nursing Professionals in education and training source type Ministry of Education ]"
+              />Ministry of Education &nbsp;
               <input
-                id="GHRcigiFyO0-dYLYgidzGd0-val"
+                id="Tu7mmoVDSFh-ukju4pkJeXV-val"
                 name="entryfield"
-                title="Medical Doctors in education and training source type Ministry of Education"
-                value="[ Medical Doctors in education and training source type Ministry of Education ]"
-              />Ministry of Education<br />
+                title="Nursing Professionals in education and training source type Regulatory bodies"
+                value="[ Nursing Professionals in education and training source type Regulatory bodies ]"
+              />Regulatory Bodies<br />
               <input
-                id="GHRcigiFyO0-mGDxxaXpJHJ-val"
+                id="Tu7mmoVDSFh-mGDxxaXpJHJ-val"
                 name="entryfield"
-                title="Medical Doctors in education and training source type Training Institutes"
-                value="[ Medical Doctors in education and training source type Training Institutes ]"
-              />Training Institutes &nbsp;
+                title="Nursing Professionals in education and training source type Training Institutes"
+                value="[ Nursing Professionals in education and training source type Training Institutes ]"
+              />Training Institutes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <input
-                id="GHRcigiFyO0-UlBKV2VkYP6-val"
+                id="Tu7mmoVDSFh-h0uO1nflznJ-val"
                 name="entryfield"
-                title="Medical Doctors in education and training source type Other Databases"
-                value="[ Medical Doctors in education and training source type Other Databases ]"
+                title="Nursing Professionals in education and training source type Other Databases"
+                value="[ Nursing Professionals in education and training source type Other Databases ]"
               />Other Databases
             </td>
           </tr>
@@ -684,28 +719,28 @@
             </td>
             <td style="text-align: left;">
               <input
-                id="GHRcigiFyO0-ukju4pkJeXV-val"
+                id="baxzJnblwIA-dYLYgidzGd0-val"
                 name="entryfield"
-                title="Medical Doctors in education and training source type Regulatory bodies"
-                value="[ Medical Doctors in education and training source type Regulatory bodies ]"
-              />Regulatory Bodies
+                title="Midwifery Professionals in education and training source type Ministry of Education"
+                value="[ Midwifery Professionals in education and training source type Ministry of Education ]"
+              />Ministry of Education &nbsp;
               <input
-                id="GHRcigiFyO0-dYLYgidzGd0-val"
+                id="baxzJnblwIA-ukju4pkJeXV-val"
                 name="entryfield"
-                title="Medical Doctors in education and training source type Ministry of Education"
-                value="[ Medical Doctors in education and training source type Ministry of Education ]"
-              />Ministry of Education<br />
+                title="Midwifery Professionals in education and training source type Regulatory bodies"
+                value="[ Midwifery Professionals in education and training source type Regulatory bodies ]"
+              />Regulatory Bodies<br />
               <input
-                id="GHRcigiFyO0-mGDxxaXpJHJ-val"
+                id="baxzJnblwIA-mGDxxaXpJHJ-val"
                 name="entryfield"
-                title="Medical Doctors in education and training source type Training Institutes"
-                value="[ Medical Doctors in education and training source type Training Institutes ]"
-              />Training Institutes &nbsp;
+                title="Midwifery Professionals in education and training source type Training Institutes"
+                value="[ Midwifery Professionals in education and training source type Training Institutes ]"
+              />Training Institutes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <input
-                id="GHRcigiFyO0-UlBKV2VkYP6-val"
+                id="baxzJnblwIA-h0uO1nflznJ-val"
                 name="entryfield"
-                title="Medical Doctors in education and training source type Other Databases"
-                value="[ Medical Doctors in education and training source type Other Databases ]"
+                title="Midwifery Professionals in education and training source type Other Databases"
+                value="[ Midwifery Professionals in education and training source type Other Databases ]"
               />Other Databases
             </td>
           </tr>
@@ -795,28 +830,28 @@
             </td>
             <td style="text-align: left;">
               <input
-                id="GHRcigiFyO0-ukju4pkJeXV-val"
+                id="vERGKxg4ky5-dYLYgidzGd0-val"
                 name="entryfield"
-                title="Medical Doctors in education and training source type Regulatory bodies"
-                value="[ Medical Doctors in education and training source type Regulatory bodies ]"
-              />Regulatory Bodies
+                title="Dentists in education and training source type Ministry of Education"
+                value="[ Dentists in education and training source type Ministry of Education ]"
+              />Ministry of Education &nbsp;
               <input
-                id="GHRcigiFyO0-dYLYgidzGd0-val"
+                id="vERGKxg4ky5-ukju4pkJeXV-val"
                 name="entryfield"
-                title="Medical Doctors in education and training source type Ministry of Education"
-                value="[ Medical Doctors in education and training source type Ministry of Education ]"
-              />Ministry of Education<br />
+                title="Dentists in education and training source type Regulatory bodies"
+                value="[ Dentists in education and training source type Regulatory bodies ]"
+              />Regulatory Bodies<br />
               <input
-                id="GHRcigiFyO0-mGDxxaXpJHJ-val"
+                id="vERGKxg4ky5-mGDxxaXpJHJ-val"
                 name="entryfield"
-                title="Medical Doctors in education and training source type Training Institutes"
-                value="[ Medical Doctors in education and training source type Training Institutes ]"
-              />Training Institutes &nbsp;
+                title="Dentists in education and training source type Training Institutes"
+                value="[ Dentists in education and training source type Training Institutes ]"
+              />Training Institutes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <input
-                id="GHRcigiFyO0-UlBKV2VkYP6-val"
+                id="vERGKxg4ky5-h0uO1nflznJ-val"
                 name="entryfield"
-                title="Medical Doctors in education and training source type Other Databases"
-                value="[ Medical Doctors in education and training source type Other Databases ]"
+                title="Dentists in education and training source type Other Databases"
+                value="[ Dentists in education and training source type Other Databases ]"
               />Other Databases
             </td>
           </tr>
@@ -908,28 +943,28 @@
             </td>
             <td style="text-align: left;">
               <input
-                id="GHRcigiFyO0-ukju4pkJeXV-val"
+                id="ZeF4Zhl5iSz-dYLYgidzGd0-val"
                 name="entryfield"
-                title="Medical Doctors in education and training source type Regulatory bodies"
-                value="[ Medical Doctors in education and training source type Regulatory bodies ]"
-              />Regulatory Bodies
+                title="Pharmacists in education and training source type Ministry of Education"
+                value="[ Pharmacists in education and training source type Ministry of Education ]"
+              />Ministry of Education &nbsp;
               <input
-                id="GHRcigiFyO0-dYLYgidzGd0-val"
+                id="ZeF4Zhl5iSz-ukju4pkJeXV-val"
                 name="entryfield"
-                title="Medical Doctors in education and training source type Ministry of Education"
-                value="[ Medical Doctors in education and training source type Ministry of Education ]"
-              />Ministry of Education<br />
+                title="Pharmacists in education and training source type Regulatory bodies"
+                value="[ Pharmacists in education and training source type Regulatory bodies ]"
+              />Regulatory Bodies<br />
               <input
-                id="GHRcigiFyO0-mGDxxaXpJHJ-val"
+                id="ZeF4Zhl5iSz-mGDxxaXpJHJ-val"
                 name="entryfield"
-                title="Medical Doctors in education and training source type Training Institutes"
-                value="[ Medical Doctors in education and training source type Training Institutes ]"
-              />Training Institutes &nbsp;
+                title="Pharmacists in education and training source type Training Institutes"
+                value="[ Pharmacists in education and training source type Training Institutes ]"
+              />Training Institutes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <input
-                id="GHRcigiFyO0-UlBKV2VkYP6-val"
+                id="ZeF4Zhl5iSz-h0uO1nflznJ-val"
                 name="entryfield"
-                title="Medical Doctors in education and training source type Other Databases"
-                value="[ Medical Doctors in education and training source type Other Databases ]"
+                title="Pharmacists in education and training source type Other Databases"
+                value="[ Pharmacists in education and training source type Other Databases ]"
               />Other Databases
             </td>
           </tr>
@@ -951,7 +986,9 @@
               HWF Education and Training Programme
             </th>
             <th rowspan="2" scope="col" style="text-align: center;">
-              Graduates
+              <p>Graduates</p>
+
+              <p>(2-07)</p>
             </th>
             <th colspan="2" rowspan="1" scope="col" style="text-align: center;">
               Graduates By Gender
@@ -959,8 +996,8 @@
             <th colspan="2" rowspan="1" scope="col" style="text-align: center;">
               Graduates By Ownership
             </th>
-            <th colspan="1" rowspan="2" scope="col" style="text-align: center;">
-              Students quitting
+            <th colspan="3" rowspan="1" scope="col" style="text-align: center;">
+              <p>Student drop-outs (2-06)</p>
             </th>
           </tr>
           <tr>
@@ -968,6 +1005,9 @@
             <th scope="col">Female</th>
             <th scope="col">Public</th>
             <th scope="col">Private</th>
+            <th scope="col">Total</th>
+            <th scope="col">Male</th>
+            <th scope="col">Female</th>
           </tr>
         </thead>
         <tbody>
@@ -1026,8 +1066,26 @@
                 id="GAikjDurEiF-aBpbcEgtzgw-val"
                 name="entryfield"
                 style="width:3.5em;"
-                title="Male students absconding in HWF Education and Training centers Medical Doctors"
-                value="[ Male students absconding in HWF Education and Training centers Medical Doctors ]"
+                title="Drop-outs in HWF Education and Training centers Medical Doctors"
+                value="[ Drop-outs in HWF Education and Training centers Medical Doctors ]"
+              />
+            </td>
+            <td style="text-align: center;">
+              <input
+                id="GrRfteXDhyS-aBpbcEgtzgw-val"
+                name="entryfield"
+                style="width:3.5em;"
+                title="Male drop-outs in HWF Education and Training centers Medical Doctors"
+                value="[ Male drop-outs in HWF Education and Training centers Medical Doctors ]"
+              />
+            </td>
+            <td style="text-align: center;">
+              <input
+                id="f9lz93NUbMQ-aBpbcEgtzgw-val"
+                name="entryfield"
+                style="width:3.5em;"
+                title="Female drop-outs in HWF Education and Training centers Medical Doctors"
+                value="[ Female drop-outs in HWF Education and Training centers Medical Doctors ]"
               />
             </td>
           </tr>
@@ -1088,8 +1146,26 @@
                 id="GAikjDurEiF-LHbCtHlZr3Y-val"
                 name="entryfield"
                 style="width:3.5em;"
-                title="Male students absconding in HWF Education and Training centers General Medical Practitioner"
-                value="[ Male students absconding in HWF Education and Training centers General Medical Practitioner ]"
+                title="Drop-outs in HWF Education and Training centers General Medical Practitioner"
+                value="[ Drop-outs in HWF Education and Training centers General Medical Practitioner ]"
+              />
+            </td>
+            <td style="text-align: center;">
+              <input
+                id="GrRfteXDhyS-LHbCtHlZr3Y-val"
+                name="entryfield"
+                style="width:3.5em;"
+                title="Male drop-outs in HWF Education and Training centers General Medical Practitioner"
+                value="[ Male drop-outs in HWF Education and Training centers General Medical Practitioner ]"
+              />
+            </td>
+            <td style="text-align: center;">
+              <input
+                id="f9lz93NUbMQ-LHbCtHlZr3Y-val"
+                name="entryfield"
+                style="width:3.5em;"
+                title="Female drop-outs in HWF Education and Training centers General Medical Practitioner"
+                value="[ Female drop-outs in HWF Education and Training centers General Medical Practitioner ]"
               />
             </td>
           </tr>
@@ -1150,8 +1226,26 @@
                 id="GAikjDurEiF-VtVkbvygJnm-val"
                 name="entryfield"
                 style="width:3.5em;"
-                title="Male students absconding in HWF Education and Training centers Specialist Medical Practitioner"
-                value="[ Male students absconding in HWF Education and Training centers Specialist Medical Practitioner ]"
+                title="Drop-outs in HWF Education and Training centers Specialist Medical Practitioner"
+                value="[ Drop-outs in HWF Education and Training centers Specialist Medical Practitioner ]"
+              />
+            </td>
+            <td style="text-align: center;">
+              <input
+                id="GrRfteXDhyS-VtVkbvygJnm-val"
+                name="entryfield"
+                style="width:3.5em;"
+                title="Male drop-outs in HWF Education and Training centers Specialist Medical Practitioner"
+                value="[ Male drop-outs in HWF Education and Training centers Specialist Medical Practitioner ]"
+              />
+            </td>
+            <td style="text-align: center;">
+              <input
+                id="f9lz93NUbMQ-VtVkbvygJnm-val"
+                name="entryfield"
+                style="width:3.5em;"
+                title="Female drop-outs in HWF Education and Training centers Specialist Medical Practitioner"
+                value="[ Female drop-outs in HWF Education and Training centers Specialist Medical Practitioner ]"
               />
             </td>
           </tr>
@@ -1214,8 +1308,26 @@
                 id="GAikjDurEiF-fGOgbIqsxDn-val"
                 name="entryfield"
                 style="width:3.5em;"
-                title="Male students absconding in HWF Education and Training centers Nursing Professional"
-                value="[ Male students absconding in HWF Education and Training centers Nursing Professional ]"
+                title="Drop-outs in HWF Education and Training centers Nursing Professional"
+                value="[ Drop-outs in HWF Education and Training centers Nursing Professional ]"
+              />
+            </td>
+            <td style="text-align: center;">
+              <input
+                id="GrRfteXDhyS-fGOgbIqsxDn-val"
+                name="entryfield"
+                style="width:3.5em;"
+                title="Male drop-outs in HWF Education and Training centers Nursing Professional"
+                value="[ Male drop-outs in HWF Education and Training centers Nursing Professional ]"
+              />
+            </td>
+            <td style="text-align: center;">
+              <input
+                id="f9lz93NUbMQ-fGOgbIqsxDn-val"
+                name="entryfield"
+                style="width:3.5em;"
+                title="Female drop-outs in HWF Education and Training centers Nursing Professional"
+                value="[ Female drop-outs in HWF Education and Training centers Nursing Professional ]"
               />
             </td>
           </tr>
@@ -1278,8 +1390,26 @@
                 id="GAikjDurEiF-MPzyVWiSFF2-val"
                 name="entryfield"
                 style="width:3.5em;"
-                title="Male students absconding in HWF Education and Training centers Midwifery Professional"
-                value="[ Male students absconding in HWF Education and Training centers Midwifery Professional ]"
+                title="Drop-outs in HWF Education and Training centers Midwifery Professional"
+                value="[ Drop-outs in HWF Education and Training centers Midwifery Professional ]"
+              />
+            </td>
+            <td style="text-align: center;">
+              <input
+                id="GrRfteXDhyS-MPzyVWiSFF2-val"
+                name="entryfield"
+                style="width:3.5em;"
+                title="Male drop-outs in HWF Education and Training centers Midwifery Professional"
+                value="[ Male drop-outs in HWF Education and Training centers Midwifery Professional ]"
+              />
+            </td>
+            <td style="text-align: center;">
+              <input
+                id="f9lz93NUbMQ-MPzyVWiSFF2-val"
+                name="entryfield"
+                style="width:3.5em;"
+                title="Female drop-outs in HWF Education and Training centers Midwifery Professional"
+                value="[ Female drop-outs in HWF Education and Training centers Midwifery Professional ]"
               />
             </td>
           </tr>
@@ -1336,8 +1466,26 @@
                 id="GAikjDurEiF-ALBRKpJsddQ-val"
                 name="entryfield"
                 style="width:3.5em;"
-                title="Male students absconding in HWF Education and Training centers Dentist"
-                value="[ Male students absconding in HWF Education and Training centers Dentist ]"
+                title="Drop-outs in HWF Education and Training centers Dentist"
+                value="[ Drop-outs in HWF Education and Training centers Dentist ]"
+              />
+            </td>
+            <td style="text-align: center;">
+              <input
+                id="GrRfteXDhyS-ALBRKpJsddQ-val"
+                name="entryfield"
+                style="width:3.5em;"
+                title="Male drop-outs in HWF Education and Training centers Dentist"
+                value="[ Male drop-outs in HWF Education and Training centers Dentist ]"
+              />
+            </td>
+            <td style="text-align: center;">
+              <input
+                id="f9lz93NUbMQ-ALBRKpJsddQ-val"
+                name="entryfield"
+                style="width:3.5em;"
+                title="Female drop-outs in HWF Education and Training centers Dentist"
+                value="[ Female drop-outs in HWF Education and Training centers Dentist ]"
               />
             </td>
           </tr>
@@ -1396,8 +1544,26 @@
                 id="GAikjDurEiF-iWRW6jXAzvP-val"
                 name="entryfield"
                 style="width:3.5em;"
-                title="Male students absconding in HWF Education and Training centers Pharmacist"
-                value="[ Male students absconding in HWF Education and Training centers Pharmacist ]"
+                title="Drop-outs in HWF Education and Training centers Pharmacist"
+                value="[ Drop-outs in HWF Education and Training centers Pharmacist ]"
+              />
+            </td>
+            <td style="text-align: center;">
+              <input
+                id="GrRfteXDhyS-iWRW6jXAzvP-val"
+                name="entryfield"
+                style="width:3.5em;"
+                title="Male drop-outs in HWF Education and Training centers Pharmacist"
+                value="[ Male drop-outs in HWF Education and Training centers Pharmacist ]"
+              />
+            </td>
+            <td style="text-align: center;">
+              <input
+                id="f9lz93NUbMQ-iWRW6jXAzvP-val"
+                name="entryfield"
+                style="width:3.5em;"
+                title="Female drop-outs in HWF Education and Training centers Pharmacist"
+                value="[ Female drop-outs in HWF Education and Training centers Pharmacist ]"
               />
             </td>
           </tr>
@@ -1419,13 +1585,13 @@
               HWF Education and Training Programme
             </th>
             <th rowspan="2" scope="row" style="text-align: center;">
-              Educators
+              <p>Educators (2-05)</p>
             </th>
             <th colspan="1" rowspan="2" scope="col" style="text-align: center;">
-              Education &amp; training capacity (places)
+              Education &amp; training capacity (places)&nbsp;(2-03)
             </th>
             <th rowspan="2" scope="col" style="text-align: center;">
-              Training Duration (years)
+              Training Duration (years) (2-02)
             </th>
           </tr>
           <tr></tr>
@@ -1751,6 +1917,7 @@
                 name="entryfield"
                 style="background-color: rgb(255, 255, 255); border: 1px solid rgb(170, 170, 170);"
                 tabindex="1"
+                disabled=""
               >
               </textarea>
             </td>
