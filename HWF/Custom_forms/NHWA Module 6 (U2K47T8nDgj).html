@@ -3,6 +3,7 @@
     $(function() {
       $("#mod2_tabs").tabs();
     });
+
     var yespartialno = [
       "lvs1RCQOOp4",
       "LYjT01KiTTw",
@@ -15,26 +16,105 @@
       "LUVRqQq2NLE"
     ];
     var categoryIssues = ["I93t0K7b1oN", "Xgr3PJxcWfJ", "Y7EAGQA1bfv"];
+    var yesno = ["Ii26DODuUbB"];
+    var comments = [
+      "FXC8HIEHwHI",
+      "d7hKlZbQARX",
+      "TiqoQCq1BL4",
+      "p9tpHX1KEpx",
+      "Vgrwxohqyex",
+      "diMX6HJrY20",
+      "Z8z72QAYDaj",
+      "MSX8eTjkneO",
+      "pp4mjoKsU50",
+      "OejaVtMvR4x",
+      "NI5EQM6hHmc",
+      "OX7yvkLP2Uj"
+    ];
+
+    function updateCommentVisibility($textfield) {
+      const $checkboxes = $textfield
+        .closest("td")
+        .prev()
+        .find("input");
+      if ($checkboxes.is(":checked")) {
+        $textfield.removeAttr("disabled");
+        $textfield.css("background-color", "rgb(255, 255, 255)");
+      } else {
+        $textfield.prop("disabled", true);
+        $textfield.css("background-color", "rgb(204, 204, 204)");
+      }
+    }
+
+    function disableCommentLogic() {
+      $(".comments").toggle(false);
+      comments.forEach(function(comment) {
+        const $textfield = $("#" + comment + "-Xr12mI7VPn3-val");
+        updateCommentVisibility($textfield);
+        if ($textfield.val() !== "") {
+          $textfield
+            .closest("table")
+            .find(".comments")
+            .toggle(true);
+        }
+      });
+    }
+
     yespartialno.forEach(function(dataElement) {
       categoryIssues.forEach(function(option) {
         $("#" + dataElement + "-" + option + "-val").on("click", function() {
-          var id = $(this).attr("id");
-          console.log("Performing logic for id", id);
+          const id = $(this).attr("id");
+          updateCommentVisibility(
+            $(this)
+              .closest("td")
+              .next()
+              .find("textarea")
+          );
 
           if ($(this).is(":checked")) {
             categoryIssues.forEach(function(id) {
               if (id !== option) {
-                var str = "#" + dataElement + "-" + id + "-val";
-                console.log("str:", str);
-                var isChecked = $(str).is(":checked");
-                if (isChecked) $(str).click();
+                const str = "#" + dataElement + "-" + id + "-val";
+                if ($(str).is(":checked")) {
+                  $(str).click();
+                }
               }
             });
-          } else {
-            console.log("Not Checked");
           }
         });
       });
+    });
+
+    yesno.forEach(function(dataElement) {
+      ["true", "false"].forEach(function(value) {
+        $("#" + dataElement + "-Xr12mI7VPn3-val[value='" + value + "']").on(
+          "click",
+          function() {
+            const $textfield = $(this)
+              .closest("td")
+              .next()
+              .find("textarea");
+            if ($(this).is(":checked")) {
+              $textfield.removeAttr("disabled");
+              $textfield.css("background-color", "rgb(255, 255, 255)");
+            } else {
+              $textfield.prop("disabled", true);
+              $textfield.css("background-color", "rgb(204, 204, 204)");
+            }
+          }
+        );
+      });
+    });
+
+    disableCommentLogic();
+    dhis2.util.on("dhis2.de.event.dataValuesLoaded", disableCommentLogic);
+
+    $(".comment-bubble").on("click", function() {
+      const col = $(this).parent()[0].cellIndex + 1;
+      $(this)
+        .closest("table")
+        .find("tr > *:nth-child(" + (col + 1) + ")")
+        .toggle();
     });
   });
 </script>
@@ -54,6 +134,10 @@
     height: 30px;
     padding: 10px;
     margin: 10px;
+  }
+
+  .commentlink {
+    display: none;
   }
 
   .cde-greyfield {
@@ -480,6 +564,9 @@
             <th>SN</th>
             <th style="text-align: center;">Item</th>
             <th style="text-align: center;">Exitence</th>
+            <th class="comments" scope="row" style="text-align: center;">
+              Comment
+            </th>
           </tr>
         </thead>
         <tbody>
@@ -511,6 +598,22 @@
                 value="[ Existence of national/sub-national policies/laws for prevention of attacks on health workers No ]"
               />
               No
+              <img
+                class="comment-bubble"
+                src="../images/comment.png"
+                style="cursor: pointer; margin-left: 10px;"
+                title="View comment"
+              />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea
+                class="entryfield"
+                id="FXC8HIEHwHI-Xr12mI7VPn3-val"
+                name="entryfield"
+                title="Comment of Existence of national/sub-national policies/laws for prevention of attacks on health workers"
+                value="[ Comment of Existence of national/sub-national policies/laws for prevention of attacks on health workers ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -527,6 +630,22 @@
                 title="Existence of national/subnational policies for regulating compulsory service"
                 value="[ Existence of national/subnational policies for regulating compulsory service ]"
               />
+              <img
+                class="comment-bubble"
+                src="../images/comment.png"
+                style="cursor: pointer; margin-left: 10px;"
+                title="View comment"
+              />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea
+                class="entryfield"
+                id="d7hKlZbQARX-Xr12mI7VPn3-val"
+                name="entryfield"
+                title="Comment of Existence of national/subnational policies for regulating compulsory service"
+                value="[ Comment of Existence of national/subnational policies for regulating compulsory service ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -543,6 +662,22 @@
                 title="Existence of national/sub-national policies/laws regulating dual practice"
                 value="[ Existence of national/sub-national policies/laws regulating dual practice ]"
               />
+              <img
+                class="comment-bubble"
+                src="../images/comment.png"
+                style="cursor: pointer; margin-left: 10px;"
+                title="View comment"
+              />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea
+                class="entryfield"
+                id="TiqoQCq1BL4-Xr12mI7VPn3-val"
+                name="entryfield"
+                title="Comment of xistence of national/sub-national policies/laws regulating dual practice"
+                value="[ Comment of xistence of national/sub-national policies/laws regulating dual practice ]"
+              >
+              </textarea>
             </td>
           </tr>
         </tbody>
@@ -684,6 +819,9 @@
               Working hours<br />
               and conditions
             </th>
+            <th class="comments" scope="row" style="text-align: center;">
+              Comment
+            </th>
           </tr>
         </thead>
         <tbody>
@@ -709,6 +847,22 @@
                 title="Existence of national law on regulating working hours and conditions for medical doctors No"
                 value="[ Existence of national law on regulating working hours and conditions for medical doctors No ]"
               />No
+              <img
+                class="comment-bubble"
+                src="../images/comment.png"
+                style="cursor: pointer; margin-left: 10px;"
+                title="View comment"
+              />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea
+                class="entryfield"
+                id="p9tpHX1KEpx-Xr12mI7VPn3-val"
+                name="entryfield"
+                title="Comment of Existence of national law on regulating working hours and conditions - Medical Doctors"
+                value="[ Comment of Existence of national law on regulating working hours and conditions - Medical Doctors ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -737,6 +891,22 @@
                 title="Existence of national law on regulating working hours and conditions for General Medical Practitioner No"
                 value="[ Existence of national law on regulating working hours and conditions for General Medical Practitioner No ]"
               />No
+              <img
+                class="comment-bubble"
+                src="../images/comment.png"
+                style="cursor: pointer; margin-left: 10px;"
+                title="View comment"
+              />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea
+                class="entryfield"
+                id="Vgrwxohqyex-Xr12mI7VPn3-val"
+                name="entryfield"
+                title="Comment of Existence of national law on regulating working hours and conditions - General Medical Practitioner"
+                value="[ Comment of Existence of national law on regulating working hours and conditions - General Medical Practitioner ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -765,6 +935,22 @@
                 title="Existence of national law on regulating working hours and conditions for Specialist Medical Practitioner No"
                 value="[ Existence of national law on regulating working hours and conditions for Specialist Medical Practitioner No ]"
               />No
+              <img
+                class="comment-bubble"
+                src="../images/comment.png"
+                style="cursor: pointer; margin-left: 10px;"
+                title="View comment"
+              />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea
+                class="entryfield"
+                id="diMX6HJrY20-Xr12mI7VPn3-val"
+                name="entryfield"
+                title="Comment of Existence of national law on regulating working hours and conditions - Specialist Medical Practitioner"
+                value="[ Comment of Existence of national law on regulating working hours and conditions - Specialist Medical Practitioner ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -789,6 +975,22 @@
                 title="Existence of national law on regulating working hours and conditions for Nursing Professional No"
                 value="[ Existence of national law on regulating working hours and conditions for Nursing Professional No ]"
               />No
+              <img
+                class="comment-bubble"
+                src="../images/comment.png"
+                style="cursor: pointer; margin-left: 10px;"
+                title="View comment"
+              />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea
+                class="entryfield"
+                id="Z8z72QAYDaj-Xr12mI7VPn3-val"
+                name="entryfield"
+                title="Comment of Existence of national law on regulating working hours and conditions - Nursing Professional"
+                value="[ Comment of Existence of national law on regulating working hours and conditions - Nursing Professional ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -813,6 +1015,22 @@
                 title="Existence of national law on regulating working hours and conditions for Midwifery Professional No"
                 value="[ Existence of national law on regulating working hours and conditions for Midwifery Professional No ]"
               />No
+              <img
+                class="comment-bubble"
+                src="../images/comment.png"
+                style="cursor: pointer; margin-left: 10px;"
+                title="View comment"
+              />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea
+                class="entryfield"
+                id="MSX8eTjkneO-Xr12mI7VPn3-val"
+                name="entryfield"
+                title="Comment of Existence of national law on regulating working hours and conditions - Midwifery Professional"
+                value="[ Comment of Existence of national law on regulating working hours and conditions - Midwifery Professional ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -837,6 +1055,22 @@
                 title="Existence of national law on regulating working hours and conditions for Dentist No"
                 value="[ Existence of national law on regulating working hours and conditions for Dentist No ]"
               />No
+              <img
+                class="comment-bubble"
+                src="../images/comment.png"
+                style="cursor: pointer; margin-left: 10px;"
+                title="View comment"
+              />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea
+                class="entryfield"
+                id="pp4mjoKsU50-Xr12mI7VPn3-val"
+                name="entryfield"
+                title="Comment of Existence of national law on regulating working hours and conditions - Dentist"
+                value="[ Comment of Existence of national law on regulating working hours and conditions - Dentist ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -861,6 +1095,22 @@
                 title="Existence of national law on regulating working hours and conditions for Pharmacist No"
                 value="[ Existence of national law on regulating working hours and conditions for Pharmacist No ]"
               />No
+              <img
+                class="comment-bubble"
+                src="../images/comment.png"
+                style="cursor: pointer; margin-left: 10px;"
+                title="View comment"
+              />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea
+                class="entryfield"
+                id="OejaVtMvR4x-Xr12mI7VPn3-val"
+                name="entryfield"
+                title="Comment of Existence of national law on regulating working hours and conditions - Pharmacist"
+                value="[ Comment of Existence of national law on regulating working hours and conditions - Pharmacist ]"
+              >
+              </textarea>
             </td>
           </tr>
         </tbody>
@@ -875,6 +1125,9 @@
             <th>SN</th>
             <th style="text-align: center;">Item</th>
             <th style="text-align: center;">Exitence</th>
+            <th class="comments" scope="row" style="text-align: center;">
+              Comment
+            </th>
           </tr>
         </thead>
         <tbody>
@@ -891,6 +1144,22 @@
                 title="Existence of national/sub-national policies/laws regulating minimum wages"
                 value="[ Existence of national/sub-national policies/laws regulating minimum wages ]"
               />
+              <img
+                class="comment-bubble"
+                src="../images/comment.png"
+                style="cursor: pointer; margin-left: 10px;"
+                title="View comment"
+              />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea
+                class="entryfield"
+                id="NI5EQM6hHmc-Xr12mI7VPn3-val"
+                name="entryfield"
+                title="Comment of Existence of national/sub-national policies/laws regulating minimum wages"
+                value="[ Comment of Existence of national/sub-national policies/laws regulating minimum wages ]"
+              >
+              </textarea>
             </td>
           </tr>
           <tr>
@@ -918,6 +1187,22 @@
                 title="Existence of national/sub-national policies/laws regulating social protection No"
                 value="[ Existence of national/sub-national policies/laws regulating social protection No ]"
               />No
+              <img
+                class="comment-bubble"
+                src="../images/comment.png"
+                style="cursor: pointer; margin-left: 10px;"
+                title="View comment"
+              />
+            </td>
+            <td class="comments" scope="row" style="text-align: center;">
+              <textarea
+                class="entryfield"
+                id="OX7yvkLP2Uj-Xr12mI7VPn3-val"
+                name="entryfield"
+                title="Comment of Existence of national/sub-national policies/laws regulating social protection"
+                value="[ Comment of Existence of national/sub-national policies/laws regulating social protection ]"
+              >
+              </textarea>
             </td>
           </tr>
         </tbody>

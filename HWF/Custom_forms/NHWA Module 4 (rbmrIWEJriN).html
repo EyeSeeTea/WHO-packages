@@ -3,44 +3,73 @@
     $(function() {
       $("#mod2_tabs").tabs();
     });
+
     var yespartialno = ["Ybz3qUCWYKC"];
     var categoryIssues = ["I93t0K7b1oN", "Xgr3PJxcWfJ", "Y7EAGQA1bfv"];
+    var comments = ["fXxS36qL9Vt"];
+
+    function updateCommentVisibility($textfield) {
+      const $checkboxes = $textfield
+        .closest("td")
+        .prev()
+        .find("input");
+      if ($checkboxes.is(":checked")) {
+        $textfield.removeAttr("disabled");
+        $textfield.css("background-color", "rgb(255, 255, 255)");
+      } else {
+        $textfield.prop("disabled", true);
+        $textfield.css("background-color", "rgb(204, 204, 204)");
+      }
+    }
+
+    function disableCommentLogic() {
+      $(".comments").toggle(false);
+      comments.forEach(function(comment) {
+        const $textfield = $("#" + comment + "-Xr12mI7VPn3-val");
+        updateCommentVisibility($textfield);
+        if ($textfield.val() !== "") {
+          $textfield
+            .closest("table")
+            .find(".comments")
+            .toggle(true);
+        }
+      });
+    }
+
     yespartialno.forEach(function(dataElement) {
       categoryIssues.forEach(function(option) {
         $("#" + dataElement + "-" + option + "-val").on("click", function() {
-          var id = $(this).attr("id");
-          console.log("Performing logic for id", id);
+          const id = $(this).attr("id");
+          updateCommentVisibility(
+            $(this)
+              .closest("td")
+              .next()
+              .find("textarea")
+          );
 
           if ($(this).is(":checked")) {
             categoryIssues.forEach(function(id) {
               if (id !== option) {
-                var str = "#" + dataElement + "-" + id + "-val";
-                console.log("str:", str);
-                var isChecked = $(str).is(":checked");
-                if (isChecked) $(str).click();
+                const str = "#" + dataElement + "-" + id + "-val";
+                if ($(str).is(":checked")) {
+                  $(str).click();
+                }
               }
             });
-          } else {
-            console.log("Not Checked");
           }
         });
       });
     });
 
-    var comments = ["fXxS36qL9Vt"];
-
-    dhis2.util.on("dhis2.de.event.dataValuesLoaded", function() {
-      $(".comments").toggle(false);
-      comments.forEach(function(comment) {
-        let $textfield = $("#" + comment + "-Xr12mI7VPn3-val");
-        if ($textfield.val() !== "") {
-          $(".comments").toggle(true);
-        }
-      });
-    });
+    disableCommentLogic();
+    dhis2.util.on("dhis2.de.event.dataValuesLoaded", disableCommentLogic);
 
     $(".comment-bubble").on("click", function() {
-      $(".comments").toggle();
+      const col = $(this).parent()[0].cellIndex + 1;
+      $(this)
+        .closest("table")
+        .find("tr > *:nth-child(" + (col + 1) + ")")
+        .toggle();
     });
   });
 </script>
