@@ -1,45 +1,4 @@
 {
-    "categoryOptionCombos": [
-        {
-            "metadataType": "categoryOptionCombos",
-            "lastUpdated": "2019-10-04T08:16:01.061",
-            "id": "HQPWV8cT7li",
-            "created": "2017-07-05T18:57:02.866",
-            "name": "NHWA_Public expenditure",
-            "shortName": "NHWA_Public expenditure",
-            "displayName": "NHWA_Public expenditure",
-            "displayShortName": "NHWA_Public expenditure",
-            "externalAccess": false,
-            "ignoreApproval": false,
-            "dimensionItem": "HQPWV8cT7li",
-            "favorite": false,
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "categoryCombo": {
-                "id": "h93FZvJnB12"
-            },
-            "lastUpdatedBy": {
-                "id": "s5EVHUwoFKu"
-            },
-            "favorites": [],
-            "translations": [],
-            "categoryOptions": [
-                {
-                    "id": "Ai5BPQQvz1k"
-                }
-            ],
-            "userGroupAccesses": [],
-            "attributeValues": [],
-            "userAccesses": [],
-            "legendSets": []
-        }
-    ],
     "categoryOptions": [
         {
             "metadataType": "categoryOptions",
