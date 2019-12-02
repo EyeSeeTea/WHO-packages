@@ -2882,6 +2882,427 @@
         },
         {
             "metadataType": "categories",
+            "lastUpdated": "2019-10-23T12:52:33.508",
+            "id": "BGi4lPgaJ07",
+            "created": "2018-10-09T22:22:31.919",
+            "name": "NHWA_Yes Partial No",
+            "shortName": "NHWA_Yes Partial No",
+            "dataDimensionType": "DISAGGREGATION",
+            "dimensionType": "CATEGORY",
+            "displayName": "NHWA_Yes Partial No",
+            "publicAccess": "--------",
+            "displayShortName": "NHWA_Yes Partial No",
+            "externalAccess": false,
+            "dimension": "BGi4lPgaJ07",
+            "allItems": false,
+            "dataDimension": true,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "kD52FGwJgDF"
+            },
+            "user": {
+                "id": "dKttJLRSiIl"
+            },
+            "favorites": [],
+            "translations": [],
+            "categoryCombos": [
+                {
+                    "id": "sNmNyudrFxw"
+                }
+            ],
+            "categoryOptions": [
+                {
+                    "id": "B9p76UEP9T6"
+                },
+                {
+                    "id": "KKBsggVfCTv"
+                },
+                {
+                    "id": "KyFesytPvpt"
+                }
+            ],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "fxyLXZ10TXC",
+                    "displayName": "NHWA Team (formerly health workforce team)",
+                    "id": "fxyLXZ10TXC"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "vP9XN5kQOUS",
+                    "displayName": "NHWA _DATA Capture Module 6",
+                    "id": "vP9XN5kQOUS"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "qas5p6OQu1F",
+                    "displayName": "NHWA _DATA Capture Module 2-4",
+                    "id": "qas5p6OQu1F"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "cXTWPVpochS",
+                    "displayName": "NHWA _DATA Capture Module 8-10",
+                    "id": "cXTWPVpochS"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "ypluz7jgVRe",
+                    "displayName": "NHWA checker",
+                    "id": "ypluz7jgVRe"
+                }
+            ],
+            "attributeValues": [],
+            "userAccesses": [],
+            "items": [
+                {
+                    "id": "B9p76UEP9T6"
+                },
+                {
+                    "id": "KKBsggVfCTv"
+                },
+                {
+                    "id": "KyFesytPvpt"
+                }
+            ]
+        },
+        {
+            "metadataType": "categories",
+            "lastUpdated": "2019-10-23T12:52:33.507",
+            "id": "vFHz3MkTm0K",
+            "created": "2019-01-17T06:01:07.199",
+            "name": "NHWA_Working Facility Type",
+            "shortName": "NHWA_Working Facility Type",
+            "dataDimensionType": "DISAGGREGATION",
+            "dimensionType": "CATEGORY",
+            "displayName": "NHWA_Working Facility Type",
+            "publicAccess": "--------",
+            "displayShortName": "NHWA_Working Facility Type",
+            "externalAccess": false,
+            "dimension": "vFHz3MkTm0K",
+            "allItems": false,
+            "dataDimension": false,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "kD52FGwJgDF"
+            },
+            "user": {
+                "id": "dKttJLRSiIl"
+            },
+            "favorites": [],
+            "translations": [],
+            "categoryCombos": [
+                {
+                    "id": "U5QaBXGsFlJ"
+                }
+            ],
+            "categoryOptions": [
+                {
+                    "id": "FxGf8jMM8D1"
+                },
+                {
+                    "id": "I5Fl6OAe8n6"
+                },
+                {
+                    "id": "SGeK38mtNgA"
+                },
+                {
+                    "id": "coCbn8mJeHv"
+                },
+                {
+                    "id": "qzgmWRFev5J"
+                },
+                {
+                    "id": "vwjIQ9qMI2Y"
+                }
+            ],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "gucuWTSL91y",
+                    "displayName": "NHWA _DATA Capture Module 1",
+                    "id": "gucuWTSL91y"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "fxyLXZ10TXC",
+                    "displayName": "NHWA Team (formerly health workforce team)",
+                    "id": "fxyLXZ10TXC"
+                }
+            ],
+            "attributeValues": [],
+            "userAccesses": [],
+            "items": [
+                {
+                    "id": "FxGf8jMM8D1"
+                },
+                {
+                    "id": "I5Fl6OAe8n6"
+                },
+                {
+                    "id": "SGeK38mtNgA"
+                },
+                {
+                    "id": "coCbn8mJeHv"
+                },
+                {
+                    "id": "qzgmWRFev5J"
+                },
+                {
+                    "id": "vwjIQ9qMI2Y"
+                }
+            ]
+        },
+        {
+            "metadataType": "categories",
+            "lastUpdated": "2019-10-23T12:52:33.506",
+            "id": "t6z9en1VZ6i",
+            "created": "2017-08-12T23:54:03.410",
+            "name": "NHWA_Source Type Mod 4",
+            "shortName": "NHWA_Source Type Mod 4",
+            "dataDimensionType": "DISAGGREGATION",
+            "dimensionType": "CATEGORY",
+            "displayName": "NHWA_Source Type Mod 4",
+            "publicAccess": "--------",
+            "displayShortName": "NHWA_Source Type Mod 4",
+            "externalAccess": false,
+            "dimension": "t6z9en1VZ6i",
+            "allItems": false,
+            "dataDimension": false,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "kD52FGwJgDF"
+            },
+            "user": {
+                "id": "dKttJLRSiIl"
+            },
+            "favorites": [],
+            "translations": [],
+            "categoryCombos": [
+                {
+                    "id": "A25M5muzm04"
+                }
+            ],
+            "categoryOptions": [
+                {
+                    "id": "ZPpJ9xeJN6C"
+                }
+            ],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "fxyLXZ10TXC",
+                    "displayName": "NHWA Team (formerly health workforce team)",
+                    "id": "fxyLXZ10TXC"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "ypluz7jgVRe",
+                    "displayName": "NHWA checker",
+                    "id": "ypluz7jgVRe"
+                }
+            ],
+            "attributeValues": [],
+            "userAccesses": [],
+            "items": [
+                {
+                    "id": "ZPpJ9xeJN6C"
+                }
+            ]
+        },
+        {
+            "metadataType": "categories",
+            "lastUpdated": "2019-10-23T12:52:33.504",
+            "id": "IPThC4rBaja",
+            "created": "2017-08-12T23:51:57.870",
+            "name": "NHWA_Source Type Mod 3",
+            "shortName": "NHWA_Source Type Mod 3",
+            "dataDimensionType": "DISAGGREGATION",
+            "dimensionType": "CATEGORY",
+            "displayName": "NHWA_Source Type Mod 3",
+            "publicAccess": "--------",
+            "displayShortName": "NHWA_Source Type Mod 3",
+            "externalAccess": false,
+            "dimension": "IPThC4rBaja",
+            "allItems": false,
+            "dataDimension": false,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "kD52FGwJgDF"
+            },
+            "user": {
+                "id": "dKttJLRSiIl"
+            },
+            "favorites": [],
+            "translations": [],
+            "categoryCombos": [
+                {
+                    "id": "sRswNwJvzd2"
+                }
+            ],
+            "categoryOptions": [
+                {
+                    "id": "ZPpJ9xeJN6C"
+                },
+                {
+                    "id": "wurYrdkfzFD"
+                }
+            ],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "fxyLXZ10TXC",
+                    "displayName": "NHWA Team (formerly health workforce team)",
+                    "id": "fxyLXZ10TXC"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "qas5p6OQu1F",
+                    "displayName": "NHWA _DATA Capture Module 2-4",
+                    "id": "qas5p6OQu1F"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "ypluz7jgVRe",
+                    "displayName": "NHWA checker",
+                    "id": "ypluz7jgVRe"
+                }
+            ],
+            "attributeValues": [],
+            "userAccesses": [],
+            "items": [
+                {
+                    "id": "ZPpJ9xeJN6C"
+                },
+                {
+                    "id": "wurYrdkfzFD"
+                }
+            ]
+        },
+        {
+            "metadataType": "categories",
+            "lastUpdated": "2019-11-28T15:38:49.785",
+            "id": "T2ZEFwEDjtR",
+            "created": "2017-08-12T23:51:20.248",
+            "name": "NHWA_Source Type Mod 2",
+            "shortName": "NHWA_Source Type Mod 2",
+            "dataDimensionType": "DISAGGREGATION",
+            "dimensionType": "CATEGORY",
+            "displayName": "NHWA_Source Type Mod 2",
+            "publicAccess": "--------",
+            "displayShortName": "NHWA_Source Type Mod 2",
+            "externalAccess": false,
+            "dimension": "T2ZEFwEDjtR",
+            "allItems": false,
+            "dataDimension": false,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "user": {
+                "id": "dKttJLRSiIl"
+            },
+            "favorites": [],
+            "translations": [],
+            "categoryCombos": [
+                {
+                    "id": "CdCO4B6ocfW"
+                }
+            ],
+            "categoryOptions": [
+                {
+                    "id": "SDcGmbcJtvd"
+                },
+                {
+                    "id": "ZPpJ9xeJN6C"
+                },
+                {
+                    "id": "wZhrcYrffI6"
+                },
+                {
+                    "id": "HKZ3MIBg3KE"
+                }
+            ],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "fxyLXZ10TXC",
+                    "displayName": "NHWA Team (formerly health workforce team)",
+                    "id": "fxyLXZ10TXC"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "qas5p6OQu1F",
+                    "displayName": "NHWA _DATA Capture Module 2-4",
+                    "id": "qas5p6OQu1F"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "ypluz7jgVRe",
+                    "displayName": "NHWA checker",
+                    "id": "ypluz7jgVRe"
+                }
+            ],
+            "attributeValues": [],
+            "userAccesses": [],
+            "items": [
+                {
+                    "id": "SDcGmbcJtvd"
+                },
+                {
+                    "id": "ZPpJ9xeJN6C"
+                },
+                {
+                    "id": "wZhrcYrffI6"
+                },
+                {
+                    "id": "HKZ3MIBg3KE"
+                }
+            ]
+        },
+        {
+            "metadataType": "categories",
             "lastUpdated": "2019-10-23T12:52:33.502",
             "id": "T1B1YJROUum",
             "created": "2017-06-15T03:53:34.199",
@@ -3014,415 +3435,6 @@
                 },
                 {
                     "id": "wZhrcYrffI6"
-                }
-            ]
-        },
-        {
-            "metadataType": "categories",
-            "lastUpdated": "2019-10-23T12:52:33.503",
-            "id": "T2ZEFwEDjtR",
-            "created": "2017-08-12T23:51:20.248",
-            "name": "NHWA_Source Type Mod 2",
-            "shortName": "NHWA_Source Type Mod 2",
-            "dataDimensionType": "DISAGGREGATION",
-            "dimensionType": "CATEGORY",
-            "displayName": "NHWA_Source Type Mod 2",
-            "publicAccess": "--------",
-            "displayShortName": "NHWA_Source Type Mod 2",
-            "externalAccess": false,
-            "dimension": "T2ZEFwEDjtR",
-            "allItems": false,
-            "dataDimension": false,
-            "favorite": false,
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "lastUpdatedBy": {
-                "id": "kD52FGwJgDF"
-            },
-            "user": {
-                "id": "dKttJLRSiIl"
-            },
-            "favorites": [],
-            "translations": [],
-            "categoryCombos": [
-                {
-                    "id": "CdCO4B6ocfW"
-                }
-            ],
-            "categoryOptions": [
-                {
-                    "id": "SDcGmbcJtvd"
-                },
-                {
-                    "id": "ZPpJ9xeJN6C"
-                }
-            ],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "userGroupUid": "fxyLXZ10TXC",
-                    "displayName": "NHWA Team (formerly health workforce team)",
-                    "id": "fxyLXZ10TXC"
-                },
-                {
-                    "access": "rw------",
-                    "userGroupUid": "qas5p6OQu1F",
-                    "displayName": "NHWA _DATA Capture Module 2-4",
-                    "id": "qas5p6OQu1F"
-                },
-                {
-                    "access": "r-------",
-                    "userGroupUid": "ypluz7jgVRe",
-                    "displayName": "NHWA checker",
-                    "id": "ypluz7jgVRe"
-                }
-            ],
-            "attributeValues": [],
-            "userAccesses": [],
-            "items": [
-                {
-                    "id": "SDcGmbcJtvd"
-                },
-                {
-                    "id": "ZPpJ9xeJN6C"
-                }
-            ]
-        },
-        {
-            "metadataType": "categories",
-            "lastUpdated": "2019-10-23T12:52:33.504",
-            "id": "IPThC4rBaja",
-            "created": "2017-08-12T23:51:57.870",
-            "name": "NHWA_Source Type Mod 3",
-            "shortName": "NHWA_Source Type Mod 3",
-            "dataDimensionType": "DISAGGREGATION",
-            "dimensionType": "CATEGORY",
-            "displayName": "NHWA_Source Type Mod 3",
-            "publicAccess": "--------",
-            "displayShortName": "NHWA_Source Type Mod 3",
-            "externalAccess": false,
-            "dimension": "IPThC4rBaja",
-            "allItems": false,
-            "dataDimension": false,
-            "favorite": false,
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "lastUpdatedBy": {
-                "id": "kD52FGwJgDF"
-            },
-            "user": {
-                "id": "dKttJLRSiIl"
-            },
-            "favorites": [],
-            "translations": [],
-            "categoryCombos": [
-                {
-                    "id": "sRswNwJvzd2"
-                }
-            ],
-            "categoryOptions": [
-                {
-                    "id": "ZPpJ9xeJN6C"
-                },
-                {
-                    "id": "wurYrdkfzFD"
-                }
-            ],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "userGroupUid": "fxyLXZ10TXC",
-                    "displayName": "NHWA Team (formerly health workforce team)",
-                    "id": "fxyLXZ10TXC"
-                },
-                {
-                    "access": "rw------",
-                    "userGroupUid": "qas5p6OQu1F",
-                    "displayName": "NHWA _DATA Capture Module 2-4",
-                    "id": "qas5p6OQu1F"
-                },
-                {
-                    "access": "r-------",
-                    "userGroupUid": "ypluz7jgVRe",
-                    "displayName": "NHWA checker",
-                    "id": "ypluz7jgVRe"
-                }
-            ],
-            "attributeValues": [],
-            "userAccesses": [],
-            "items": [
-                {
-                    "id": "ZPpJ9xeJN6C"
-                },
-                {
-                    "id": "wurYrdkfzFD"
-                }
-            ]
-        },
-        {
-            "metadataType": "categories",
-            "lastUpdated": "2019-10-23T12:52:33.506",
-            "id": "t6z9en1VZ6i",
-            "created": "2017-08-12T23:54:03.410",
-            "name": "NHWA_Source Type Mod 4",
-            "shortName": "NHWA_Source Type Mod 4",
-            "dataDimensionType": "DISAGGREGATION",
-            "dimensionType": "CATEGORY",
-            "displayName": "NHWA_Source Type Mod 4",
-            "publicAccess": "--------",
-            "displayShortName": "NHWA_Source Type Mod 4",
-            "externalAccess": false,
-            "dimension": "t6z9en1VZ6i",
-            "allItems": false,
-            "dataDimension": false,
-            "favorite": false,
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "lastUpdatedBy": {
-                "id": "kD52FGwJgDF"
-            },
-            "user": {
-                "id": "dKttJLRSiIl"
-            },
-            "favorites": [],
-            "translations": [],
-            "categoryCombos": [
-                {
-                    "id": "A25M5muzm04"
-                }
-            ],
-            "categoryOptions": [
-                {
-                    "id": "ZPpJ9xeJN6C"
-                }
-            ],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "userGroupUid": "fxyLXZ10TXC",
-                    "displayName": "NHWA Team (formerly health workforce team)",
-                    "id": "fxyLXZ10TXC"
-                },
-                {
-                    "access": "r-------",
-                    "userGroupUid": "ypluz7jgVRe",
-                    "displayName": "NHWA checker",
-                    "id": "ypluz7jgVRe"
-                }
-            ],
-            "attributeValues": [],
-            "userAccesses": [],
-            "items": [
-                {
-                    "id": "ZPpJ9xeJN6C"
-                }
-            ]
-        },
-        {
-            "metadataType": "categories",
-            "lastUpdated": "2019-10-23T12:52:33.507",
-            "id": "vFHz3MkTm0K",
-            "created": "2019-01-17T06:01:07.199",
-            "name": "NHWA_Working Facility Type",
-            "shortName": "NHWA_Working Facility Type",
-            "dataDimensionType": "DISAGGREGATION",
-            "dimensionType": "CATEGORY",
-            "displayName": "NHWA_Working Facility Type",
-            "publicAccess": "--------",
-            "displayShortName": "NHWA_Working Facility Type",
-            "externalAccess": false,
-            "dimension": "vFHz3MkTm0K",
-            "allItems": false,
-            "dataDimension": false,
-            "favorite": false,
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "lastUpdatedBy": {
-                "id": "kD52FGwJgDF"
-            },
-            "user": {
-                "id": "dKttJLRSiIl"
-            },
-            "favorites": [],
-            "translations": [],
-            "categoryCombos": [
-                {
-                    "id": "U5QaBXGsFlJ"
-                }
-            ],
-            "categoryOptions": [
-                {
-                    "id": "FxGf8jMM8D1"
-                },
-                {
-                    "id": "I5Fl6OAe8n6"
-                },
-                {
-                    "id": "SGeK38mtNgA"
-                },
-                {
-                    "id": "coCbn8mJeHv"
-                },
-                {
-                    "id": "qzgmWRFev5J"
-                },
-                {
-                    "id": "vwjIQ9qMI2Y"
-                }
-            ],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "userGroupUid": "gucuWTSL91y",
-                    "displayName": "NHWA _DATA Capture Module 1",
-                    "id": "gucuWTSL91y"
-                },
-                {
-                    "access": "rw------",
-                    "userGroupUid": "fxyLXZ10TXC",
-                    "displayName": "NHWA Team (formerly health workforce team)",
-                    "id": "fxyLXZ10TXC"
-                }
-            ],
-            "attributeValues": [],
-            "userAccesses": [],
-            "items": [
-                {
-                    "id": "FxGf8jMM8D1"
-                },
-                {
-                    "id": "I5Fl6OAe8n6"
-                },
-                {
-                    "id": "SGeK38mtNgA"
-                },
-                {
-                    "id": "coCbn8mJeHv"
-                },
-                {
-                    "id": "qzgmWRFev5J"
-                },
-                {
-                    "id": "vwjIQ9qMI2Y"
-                }
-            ]
-        },
-        {
-            "metadataType": "categories",
-            "lastUpdated": "2019-10-23T12:52:33.508",
-            "id": "BGi4lPgaJ07",
-            "created": "2018-10-09T22:22:31.919",
-            "name": "NHWA_Yes Partial No",
-            "shortName": "NHWA_Yes Partial No",
-            "dataDimensionType": "DISAGGREGATION",
-            "dimensionType": "CATEGORY",
-            "displayName": "NHWA_Yes Partial No",
-            "publicAccess": "--------",
-            "displayShortName": "NHWA_Yes Partial No",
-            "externalAccess": false,
-            "dimension": "BGi4lPgaJ07",
-            "allItems": false,
-            "dataDimension": true,
-            "favorite": false,
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "lastUpdatedBy": {
-                "id": "kD52FGwJgDF"
-            },
-            "user": {
-                "id": "dKttJLRSiIl"
-            },
-            "favorites": [],
-            "translations": [],
-            "categoryCombos": [
-                {
-                    "id": "sNmNyudrFxw"
-                }
-            ],
-            "categoryOptions": [
-                {
-                    "id": "B9p76UEP9T6"
-                },
-                {
-                    "id": "KKBsggVfCTv"
-                },
-                {
-                    "id": "KyFesytPvpt"
-                }
-            ],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "userGroupUid": "fxyLXZ10TXC",
-                    "displayName": "NHWA Team (formerly health workforce team)",
-                    "id": "fxyLXZ10TXC"
-                },
-                {
-                    "access": "rw------",
-                    "userGroupUid": "qas5p6OQu1F",
-                    "displayName": "NHWA _DATA Capture Module 2-4",
-                    "id": "qas5p6OQu1F"
-                },
-                {
-                    "access": "rw------",
-                    "userGroupUid": "vP9XN5kQOUS",
-                    "displayName": "NHWA _DATA Capture Module 6",
-                    "id": "vP9XN5kQOUS"
-                },
-                {
-                    "access": "rw------",
-                    "userGroupUid": "cXTWPVpochS",
-                    "displayName": "NHWA _DATA Capture Module 8-10",
-                    "id": "cXTWPVpochS"
-                },
-                {
-                    "access": "r-------",
-                    "userGroupUid": "ypluz7jgVRe",
-                    "displayName": "NHWA checker",
-                    "id": "ypluz7jgVRe"
-                }
-            ],
-            "attributeValues": [],
-            "userAccesses": [],
-            "items": [
-                {
-                    "id": "B9p76UEP9T6"
-                },
-                {
-                    "id": "KKBsggVfCTv"
-                },
-                {
-                    "id": "KyFesytPvpt"
                 }
             ]
         }

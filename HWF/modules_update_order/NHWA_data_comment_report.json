@@ -1,0 +1,115 @@
+{
+    "reports": [
+        {
+            "metadataType": "reports",
+            "lastUpdated": "2019-11-06T11:29:09.565",
+            "id": "VD202DpKfYf",
+            "created": "2017-09-11T08:09:05.194",
+            "name": "NHWA Data Comments",
+            "designContent": "<!DOCTYPE html>\n<html id=\"comments\" lang=\"en\" ng-app=\"report\">\n  <head>\n    <!-- Basic Page Needs -->\n    <meta charset=\"utf-8\" />\n    <title>NHWA Data Comments</title>\n    <meta name=\"description\" content=\"\" />\n    <meta name=\"author\" content=\"\" />\n\n    <!-- Mobile Specific Metas -->\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n\n    <!-- FONT -->\n    <link\n      href=\"https://fonts.googleapis.com/css?family=Raleway:400,300,600\"\n      rel=\"stylesheet\"\n      type=\"text/css\"\n    />\n\n    <!-- CSS -->\n    <link\n      rel=\"stylesheet\"\n      href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\"\n    />\n\n    <!-- Favicon -->\n    <link rel=\"icon\" type=\"image/png\" href=\"images/favicon.png\" />\n    <script src=\"https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js\"></script>\n\n    <style>\n      [ng\\:cloak],\n      [ng-cloak],\n      [data-ng-cloak],\n      [x-ng-cloak],\n      .ng-cloak,\n      .x-ng-cloak {\n        display: none !important;\n      }\n      .onprint {\n        display: none;\n      }\n      @media print {\n        .navbar {\n          display: block;\n          border-width: 0 !important;\n        }\n\n        .navbar-toggle {\n          display: none;\n        }\n\n        body {\n          margin: 0;\n        }\n\n        .col-sm-4 {\n          width: 400;\n        }\n        .onprint {\n          display: block;\n        }\n        * {\n          font-size: 101%;\n        }\n      }\n      table {\n        table-layout: fixed;\n      }\n    </style>\n    <script>\n      function printDiv(divName) {\n        var printContents = document.getElementById(divName).innerHTML;\n        var originalContents = document.body.innerHTML;\n\n        document.body.innerHTML = printContents;\n\n        window.print();\n\n        document.body.innerHTML = originalContents;\n      }\n      angular\n        .module(\"report\", [])\n        .filter(\"name\", function() {\n          return function(name) {\n            if (name == \"name\") {\n              return \"Data Element Name\";\n            } else if (name == \"Stored By\") {\n              return \"User\";\n            } else if (name == \"comment\") {\n              return \"Comment\";\n            } else if (name == \"lastupdated\") {\n              return \"Updated On\";\n            } else {\n              return name;\n            }\n          };\n        })\n        .controller(\"comments\", function($scope, $http) {\n          $scope.todaysDate = new Date();\n          $scope.dhis2 = {\n            report: dhis2.report\n          };\n          $scope.dataSets = [\n            {\n              id: \"Tu81BTLUuCT\",\n              name: \"NHWA Module 1\"\n            },\n            {\n              id: \"m5MiTPdlK17\",\n              name: \"NHWA Module 2\"\n            },\n            {\n              id: \"pZ3XRBi9gYE\",\n              name: \"NHWA Module 3\"\n            },\n            {\n              id: \"HtZb6Cg7TXo\",\n              name: \"NHWA Module 4\"\n            },\n            {\n              id: \"cxfAcMbSZe1\",\n              name: \"NHWA Module 5\"\n            },\n            {\n              id: \"WDyQKfAvY3V\",\n              name: \"NHWA Module 6\"\n            },\n            {\n              id: \"ZRsZdd2AvAR\",\n              name: \"NHWA Module 7\"\n            },\n            {\n              id: \"p5z7F51v1ag\",\n              name: \"NHWA Module 8-10\"\n            },\n            {\n              id: \"yMoTWVrYvwM\",\n              name: \"NHWA Maturity data collection\"\n            }\n          ];\n          $scope.update = function(data) {\n            $scope.loading = true;\n            $http\n              .get(\n                \"../api/sqlViews/tGbtM7Oxwjk/data?var=ou:\" +\n                  dhis2.report.organisationUnit.id +\n                  \"&var=pe:\" +\n                  dhis2.report.date.substr(0, 4) +\n                  \"&var=dataset:\" +\n                  data\n              )\n              .then(function(results) {\n                $scope.loading = false;\n                $scope.data = results.data.listGrid;\n              });\n          };\n        });\n    </script>\n  </head>\n  <body>\n    <!-- Primary Page Layout -->\n\n    <div class=\"container-fluid\" ng-controller=\"comments\" ng-cloak>\n      <div class=\"row\">\n        <div class=\"col-sm-12\">\n          <h3>\n            Comments made on NHWA for\n            {{ dhis2.report.organisationUnit.name }} on\n            {{ dhis2.report.date.substr(0, 4) }}\n          </h3>\n        </div>\n      </div>\n      <div class=\"row\">\n        <div class=\"col-sm-4\">\n          <select\n            class=\"form-control\"\n            ng-model=\"selectedDataSet\"\n            ng-change=\"update(selectedDataSet)\"\n          >\n            <option value=\"\">Select Dataset</option>\n            <option ng-repeat=\"dataSet in dataSets\" value=\"{{ dataSet.id }}\">{{\n              dataSet.name\n            }}</option>\n          </select>\n        </div>\n      </div>\n      <div ng-if=\"!loading && data\" class=\"row\">\n        <div class=\"col-sm-12\">\n          <table class=\"table table-bordered\">\n            <tr>\n              <th\n                ng-if=\"!(header.name == 'Country' && dhis2.report.organisationUnitHierarchy.length == 3)\"\n                ng-repeat=\"header in data.headers\"\n              >\n                {{ header.name | name }}\n              </th>\n            </tr>\n            <tr ng-repeat=\"row in data.rows\">\n              <td\n                ng-if=\"!(header.name == 'Country' && dhis2.report.organisationUnitHierarchy.length == 3)\"\n                ng-repeat=\"header in data.headers\"\n              >\n                {{ row[$index] }}\n              </td>\n            </tr>\n            <tr ng-if=\"data.rows.length == 0\">\n              <td\n                ng-if=\"dhis2.report.organisationUnitHierarchy.length < 3\"\n                colspan=\"{{ data.headers.length }}\"\n              >\n                There are no comments on the data\n              </td>\n              <td\n                ng-if=\"dhis2.report.organisationUnitHierarchy.length == 3\"\n                colspan=\"{{ data.headers.length - 1 }}\"\n              >\n                There are no comments on the data\n              </td>\n            </tr>\n          </table>\n        </div>\n      </div>\n      <div class=\"row\" ng-if=\"loading\" style=\"text-align: center\">\n        <svg\n          width=\"120px\"\n          height=\"120px\"\n          xmlns=\"http://www.w3.org/2000/svg\"\n          viewBox=\"0 0 100 100\"\n          preserveAspectRatio=\"xMidYMid\"\n          class=\"uil-balls\"\n        >\n          <rect\n            x=\"0\"\n            y=\"0\"\n            width=\"100\"\n            height=\"100\"\n            fill=\"none\"\n            class=\"bk\"\n          ></rect>\n          <g transform=\"rotate(0 50 50)\">\n            <circle r=\"5\" cx=\"30\" cy=\"50\">\n              <animateTransform\n                attributeName=\"transform\"\n                type=\"translate\"\n                begin=\"0s\"\n                repeatCount=\"indefinite\"\n                dur=\"0.5s\"\n                values=\"0 0;29.999999999999996 -17.320508075688775\"\n                keyTimes=\"0;1\"\n              />\n              <animate\n                attributeName=\"fill\"\n                dur=\"0.5s\"\n                begin=\"0s\"\n                repeatCount=\"indefinite\"\n                keyTimes=\"0;1\"\n                values=\"#c5523f;#f2b736\"\n              />\n            </circle>\n          </g>\n          <g transform=\"rotate(120 50 50)\">\n            <circle r=\"5\" cx=\"30\" cy=\"50\">\n              <animateTransform\n                attributeName=\"transform\"\n                type=\"translate\"\n                begin=\"0s\"\n                repeatCount=\"indefinite\"\n                dur=\"0.5s\"\n                values=\"0 0;29.999999999999996 -17.320508075688775\"\n                keyTimes=\"0;1\"\n              />\n              <animate\n                attributeName=\"fill\"\n                dur=\"0.5s\"\n                begin=\"0s\"\n                repeatCount=\"indefinite\"\n                keyTimes=\"0;1\"\n                values=\"#f2b736;#499255\"\n              />\n            </circle>\n          </g>\n          <g transform=\"rotate(240 50 50)\">\n            <circle r=\"5\" cx=\"30\" cy=\"50\">\n              <animateTransform\n                attributeName=\"transform\"\n                type=\"translate\"\n                begin=\"0s\"\n                repeatCount=\"indefinite\"\n                dur=\"0.5s\"\n                values=\"0 0;29.999999999999996 -17.320508075688775\"\n                keyTimes=\"0;1\"\n              />\n              <animate\n                attributeName=\"fill\"\n                dur=\"0.5s\"\n                begin=\"0s\"\n                repeatCount=\"indefinite\"\n                keyTimes=\"0;1\"\n                values=\"#499255;#c5523f\"\n              />\n            </circle>\n          </g>\n        </svg>\n      </div>\n    </div>\n  </body>\n</html>\n",
+            "displayName": "NHWA Data Comments",
+            "publicAccess": "--------",
+            "type": "HTML",
+            "externalAccess": false,
+            "cacheStrategy": "NO_CACHE",
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "relativePeriods": {
+                "thisYear": false,
+                "quartersLastYear": false,
+                "last52Weeks": false,
+                "thisWeek": false,
+                "lastMonth": false,
+                "last14Days": false,
+                "biMonthsThisYear": false,
+                "monthsThisYear": false,
+                "last2SixMonths": false,
+                "yesterday": false,
+                "thisQuarter": false,
+                "last12Months": false,
+                "last5FinancialYears": false,
+                "thisSixMonth": false,
+                "lastQuarter": false,
+                "thisFinancialYear": false,
+                "last4Weeks": false,
+                "last3Months": false,
+                "thisDay": false,
+                "thisMonth": false,
+                "last5Years": false,
+                "last6BiMonths": false,
+                "last4BiWeeks": false,
+                "lastFinancialYear": false,
+                "lastBiWeek": false,
+                "weeksThisYear": false,
+                "last6Months": false,
+                "last3Days": false,
+                "quartersThisYear": false,
+                "monthsLastYear": false,
+                "lastWeek": false,
+                "last7Days": false,
+                "thisBimonth": false,
+                "lastBimonth": false,
+                "lastSixMonth": false,
+                "thisBiWeek": false,
+                "lastYear": false,
+                "last12Weeks": false,
+                "last4Quarters": false
+            },
+            "reportParams": {
+                "paramGrandParentOrganisationUnit": false,
+                "paramReportingPeriod": true,
+                "paramOrganisationUnit": true,
+                "paramParentOrganisationUnit": false
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "user": {
+                "id": "dKttJLRSiIl"
+            },
+            "favorites": [],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "r-------",
+                    "userGroupUid": "DWWxlpQi9M8",
+                    "displayName": "NHWA Data Clerk",
+                    "id": "DWWxlpQi9M8"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "r7QSG6UcnDW",
+                    "displayName": "NHWA Data Viewer",
+                    "id": "r7QSG6UcnDW"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "EX00r2JNlQo",
+                    "displayName": "NHWA administrators",
+                    "id": "EX00r2JNlQo"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "xcDZeClzdse",
+                    "displayName": "NHWA Data Managers",
+                    "id": "xcDZeClzdse"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "attributeValues": [],
+            "userAccesses": []
+        }
+    ]
+}
