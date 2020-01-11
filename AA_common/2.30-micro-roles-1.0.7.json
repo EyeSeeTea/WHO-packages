@@ -2,45 +2,6 @@
   "date": "2019-07-22T10:23:45.517Z",
   "userRoles": [
     {
-      "created": "2019-07-22T10:23:39.150",
-      "lastUpdated": "2019-08-14T23:06:43.615",
-      "name": "Bulk Load - App",
-      "href": "https://extranet.who.int/dhis2-dev/api/userRoles/vYywB1pqDum",
-      "id": "vYywB1pqDum",
-      "displayName": "Bulk Load - App",
-      "publicAccess": "rw------",
-      "description": "APP - This role gives access to the Bulk Load",
-      "externalAccess": false,
-      "favorite": false,
-      "lastUpdatedBy": {
-        "id": "s5EVHUwoFKu"
-      },
-      "access": {
-        "read": true,
-        "update": true,
-        "externalize": true,
-        "delete": true,
-        "write": true,
-        "manage": true
-      },
-      "user": {
-        "id": "kD52FGwJgDF"
-      },
-      "favorites": [],
-      "userGroupAccesses": [],
-      "attributeValues": [],
-      "authorities": [
-        "M_Bulk_Load"
-      ],
-      "users": [
-        {
-          "id": "s8BzVnw50Di"
-        }
-      ],
-      "translations": [],
-      "userAccesses": []
-    },
-    {
       "access": {
         "delete": true,
         "externalize": true,
@@ -7109,6 +7070,45 @@
         },
         {
           "id": "zw43hSotvye"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "authorities": [
+        "M_Bulk_Load"
+      ],
+      "created": "2019-07-22T10:23:39.150",
+      "description": "APP - This role gives access to the Bulk Load",
+      "displayName": "Bulk Load - App",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "https://extranet.who.int/dhis2-dev/api/userRoles/vYywB1pqDum",
+      "id": "vYywB1pqDum",
+      "lastUpdated": "2019-08-14T23:06:43.615",
+      "lastUpdatedBy": {
+        "id": "s5EVHUwoFKu"
+      },
+      "name": "Bulk Load - App",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "kD52FGwJgDF"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "s8BzVnw50Di"
         }
       ]
     },
@@ -15579,6 +15579,42 @@
       },
       "attributeValues": [],
       "authorities": [
+        "F_LEGEND_SET_PRIVATE_ADD",
+        "F_PERFORM_MAINTENANCE",
+        "M_dhis-web-maintenance"
+      ],
+      "created": "2019-12-12T17:38:12.159",
+      "description": "AUTHORITIES - This role enables to add/update private legends",
+      "displayName": "Maintenance - Legends Add/Update",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "id": "c11cVqAvAS1",
+      "lastUpdated": "2019-12-12T17:38:12.159",
+      "lastUpdatedBy": {},
+      "name": "Maintenance - Legends Add/Update",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {},
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "S2nLN8m0JP9"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "authorities": [
         "F_ORGUNITGROUP_PRIVATE_ADD",
         "M_dhis-web-maintenance"
       ],
@@ -17700,42 +17736,6 @@
       "userAccesses": [],
       "userGroupAccesses": [],
       "users": []
-    },
-    	{
-      	"created": "2019-12-12T17:38:12.159",
-      	"lastUpdated": "2019-12-12T17:38:12.159",
-      "name": "Maintenance - Legends Add/Update",
-      "id": "c11cVqAvAS1",
-      "displayName": "Maintenance - Legends Add/Update",
-      "publicAccess": "rw------",
-      "description": "AUTHORITIES - This role enables to add/update private legends",
-      "externalAccess": false,
-      "favorite": false,
-      "lastUpdatedBy": {},
-      "access": {
-        "read": true,
-        "update": true,
-        "externalize": true,
-        "delete": true,
-        "write": true,
-        "manage": true
-      },
-      "user": {},
-      "favorites": [],
-      "userGroupAccesses": [],
-      "attributeValues": [],
-      "authorities": [
-        "M_dhis-web-maintenance",
-        "F_LEGEND_SET_PRIVATE_ADD",
-        "F_PERFORM_MAINTENANCE"
-      ],
-      "users": [
-        {
-          "id": "S2nLN8m0JP9"
-        }
-      ],
-      "translations": [],
-      "userAccesses": []
     }
   ]
 }
