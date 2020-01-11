@@ -1,5 +1,5 @@
 {
-  "date": "2019-07-22T10:23:45.517Z",
+  "date": "2020-01-11T17:59:58.705Z2019-07-22T10:23:45.517Z",
   "userRoles": [
     {
       "access": {
@@ -15338,6 +15338,64 @@
         "write": true
       },
       "attributeValues": [],
+      "authorities": [],
+      "created": "2019-10-16T20:37:04.254",
+      "description": "APP - This role allows to create new instances and synchronization rules in the Metadata Sync app",
+      "displayName": "METADATA_SYNC_CONFIGURATOR",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "id": "x0TtjEsq92c",
+      "lastUpdated": "2019-10-16T20:37:04.254",
+      "lastUpdatedBy": {},
+      "metadataType": "userRoles",
+      "name": "METADATA_SYNC_CONFIGURATOR",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {},
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "authorities": [],
+      "created": "2019-10-16T20:37:04.655",
+      "description": "APP - This role allows to execute synchronization rules in the Metadata Sync app",
+      "displayName": "METADATA_SYNC_EXECUTOR",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "id": "Plo3cWpmp0P",
+      "lastUpdated": "2019-10-16T20:37:04.655",
+      "lastUpdatedBy": {},
+      "metadataType": "userRoles",
+      "name": "METADATA_SYNC_EXECUTOR",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {},
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
       "authorities": [
         "F_DATASET_DELETE",
         "F_DATASET_PRIVATE_ADD",
@@ -15973,6 +16031,37 @@
           "id": "uxrfJ88hrVO"
         }
       ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "authorities": [
+        "M_Metadata_Synchronization"
+      ],
+      "created": "2020-01-11T18:47:30.567",
+      "description": "APP - This role gives access to the MetaData Sync App",
+      "displayName": "MetaData Sync - App",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "id": "atyxlnj0lCb",
+      "lastUpdated": "2020-01-11T18:47:30.567",
+      "lastUpdatedBy": {},
+      "metadataType": "userRoles",
+      "name": "MetaData Sync - App",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {},
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": []
     },
     {
       "access": {
