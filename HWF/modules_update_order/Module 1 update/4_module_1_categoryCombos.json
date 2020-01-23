@@ -1,0 +1,1326 @@
+{
+    "categoryCombos": [
+        {
+            "metadataType": "categoryCombos",
+            "created": "2019-01-17T05:53:04.781",
+            "lastUpdated": "2019-11-09T18:14:30.166",
+            "name": "NHWA_Place of Training",
+            "id": "pTF4zHINsQO",
+            "dataDimensionType": "DISAGGREGATION",
+            "displayName": "NHWA_Place of Training",
+            "publicAccess": "--------",
+            "externalAccess": false,
+            "isDefault": false,
+            "skipTotal": false,
+            "favorite": false,
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "user": {
+                "id": "dKttJLRSiIl"
+            },
+            "favorites": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "gucuWTSL91y",
+                    "displayName": "NHWA _DATA Capture Module 1",
+                    "id": "gucuWTSL91y"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "fxyLXZ10TXC",
+                    "displayName": "NHWA Team (formerly health workforce team)",
+                    "id": "fxyLXZ10TXC"
+                }
+            ],
+            "attributeValues": [],
+            "categoryOptionCombos": [
+                {
+                    "id": "VxD9oa7UFFY"
+                },
+                {
+                    "id": "GSHgapGzSnl"
+                },
+                {
+                    "id": "Ot71GbygcHf"
+                }
+            ],
+            "translations": [],
+            "userAccesses": [],
+            "categories": [
+                {
+                    "id": "pDcP5F8H0hR"
+                }
+            ]
+        },
+        {
+            "metadataType": "categoryCombos",
+            "created": "2019-01-17T05:29:25.325",
+            "lastUpdated": "2019-11-09T18:14:29.857",
+            "name": "NHWA_Sex",
+            "id": "uAB8kfk7I3z",
+            "dataDimensionType": "DISAGGREGATION",
+            "displayName": "NHWA_Sex",
+            "publicAccess": "--------",
+            "externalAccess": false,
+            "isDefault": false,
+            "skipTotal": false,
+            "favorite": false,
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "user": {
+                "id": "dKttJLRSiIl"
+            },
+            "favorites": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "gucuWTSL91y",
+                    "displayName": "NHWA _DATA Capture Module 1",
+                    "id": "gucuWTSL91y"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "fxyLXZ10TXC",
+                    "displayName": "NHWA Team (formerly health workforce team)",
+                    "id": "fxyLXZ10TXC"
+                }
+            ],
+            "attributeValues": [],
+            "categoryOptionCombos": [
+                {
+                    "id": "sAC6z2IMFrR"
+                },
+                {
+                    "id": "F3kCvhpDnMM"
+                }
+            ],
+            "translations": [],
+            "userAccesses": [],
+            "categories": [
+                {
+                    "id": "o2PYOw8PSBa"
+                }
+            ]
+        },
+        {
+            "metadataType": "categoryCombos",
+            "created": "2019-01-17T06:00:19.275",
+            "lastUpdated": "2019-11-09T18:14:31.280",
+            "name": "NHWA_HF Ownership",
+            "id": "swjTZ93dg4h",
+            "dataDimensionType": "DISAGGREGATION",
+            "displayName": "NHWA_HF Ownership",
+            "publicAccess": "--------",
+            "externalAccess": false,
+            "isDefault": false,
+            "skipTotal": false,
+            "favorite": false,
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "user": {
+                "id": "dKttJLRSiIl"
+            },
+            "favorites": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "fxyLXZ10TXC",
+                    "displayName": "NHWA Team (formerly health workforce team)",
+                    "id": "fxyLXZ10TXC"
+                }
+            ],
+            "attributeValues": [],
+            "categoryOptionCombos": [
+                {
+                    "id": "N3nYJ6ScaYx"
+                },
+                {
+                    "id": "IMqululFzhP"
+                },
+                {
+                    "id": "UKbfaRlqkpY"
+                }
+            ],
+            "translations": [],
+            "userAccesses": [],
+            "categories": [
+                {
+                    "id": "ac1IouPLQqe"
+                }
+            ]
+        },
+        {
+            "metadataType": "categoryCombos",
+            "created": "2019-01-17T05:49:00.973",
+            "lastUpdated": "2019-11-09T18:14:29.835",
+            "name": "NHWA_Age Group (<25,25-34,35-44,45-54,55-64,>65) yrs",
+            "id": "b4XQdI8eqUZ",
+            "dataDimensionType": "DISAGGREGATION",
+            "displayName": "NHWA_Age Group (<25,25-34,35-44,45-54,55-64,>65) yrs",
+            "publicAccess": "--------",
+            "externalAccess": false,
+            "isDefault": false,
+            "skipTotal": false,
+            "favorite": false,
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "user": {
+                "id": "dKttJLRSiIl"
+            },
+            "favorites": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "gucuWTSL91y",
+                    "displayName": "NHWA _DATA Capture Module 1",
+                    "id": "gucuWTSL91y"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "fxyLXZ10TXC",
+                    "displayName": "NHWA Team (formerly health workforce team)",
+                    "id": "fxyLXZ10TXC"
+                }
+            ],
+            "attributeValues": [],
+            "categoryOptionCombos": [
+                {
+                    "id": "cMLHJtYTW40"
+                },
+                {
+                    "id": "StFfGxHbuDF"
+                },
+                {
+                    "id": "MYvkD09xyeq"
+                },
+                {
+                    "id": "xIJxneZjiWm"
+                },
+                {
+                    "id": "VioJV8V3lMO"
+                },
+                {
+                    "id": "unqbIiA0uir"
+                }
+            ],
+            "translations": [],
+            "userAccesses": [],
+            "categories": [
+                {
+                    "id": "RZ7aFEnVbGT"
+                }
+            ]
+        },
+        {
+            "metadataType": "categoryCombos",
+            "created": "2019-01-17T05:51:32.736",
+            "lastUpdated": "2019-11-09T18:14:30.094",
+            "name": "NHWA_Place of Birth",
+            "id": "A5bhyAmcZKV",
+            "dataDimensionType": "DISAGGREGATION",
+            "displayName": "NHWA_Place of Birth",
+            "publicAccess": "--------",
+            "externalAccess": false,
+            "isDefault": false,
+            "skipTotal": false,
+            "favorite": false,
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "user": {
+                "id": "dKttJLRSiIl"
+            },
+            "favorites": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "gucuWTSL91y",
+                    "displayName": "NHWA _DATA Capture Module 1",
+                    "id": "gucuWTSL91y"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "fxyLXZ10TXC",
+                    "displayName": "NHWA Team (formerly health workforce team)",
+                    "id": "fxyLXZ10TXC"
+                }
+            ],
+            "attributeValues": [],
+            "categoryOptionCombos": [
+                {
+                    "id": "XTvbzm2HwCZ"
+                },
+                {
+                    "id": "uBsAlWtPLFK"
+                }
+            ],
+            "translations": [],
+            "userAccesses": [],
+            "categories": [
+                {
+                    "id": "EOdyM2Jq6eh"
+                }
+            ]
+        },
+        {
+            "metadataType": "categoryCombos",
+            "created": "2019-01-17T06:01:19.573",
+            "lastUpdated": "2019-11-09T18:14:30.439",
+            "name": "NHWA_Working Facility Type",
+            "id": "U5QaBXGsFlJ",
+            "dataDimensionType": "DISAGGREGATION",
+            "displayName": "NHWA_Working Facility Type",
+            "publicAccess": "--------",
+            "externalAccess": false,
+            "isDefault": false,
+            "skipTotal": false,
+            "favorite": false,
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "user": {
+                "id": "dKttJLRSiIl"
+            },
+            "favorites": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "gucuWTSL91y",
+                    "displayName": "NHWA _DATA Capture Module 1",
+                    "id": "gucuWTSL91y"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "fxyLXZ10TXC",
+                    "displayName": "NHWA Team (formerly health workforce team)",
+                    "id": "fxyLXZ10TXC"
+                }
+            ],
+            "attributeValues": [],
+            "categoryOptionCombos": [
+                {
+                    "id": "Vy4zROU78hr"
+                },
+                {
+                    "id": "TCVfWydCsa4"
+                },
+                {
+                    "id": "SbearYuCfX5"
+                },
+                {
+                    "id": "fJBWZdiQ1Vj"
+                },
+                {
+                    "id": "DyPeahMx1ww"
+                },
+                {
+                    "id": "p3raMKTiHsj"
+                }
+            ],
+            "translations": [],
+            "userAccesses": [],
+            "categories": [
+                {
+                    "id": "vFHz3MkTm0K"
+                }
+            ]
+        },
+        {
+            "metadataType": "categoryCombos",
+            "created": "2019-01-17T05:50:24.238",
+            "lastUpdated": "2019-11-09T18:14:29.871",
+            "name": "NHWA_Activity Level",
+            "id": "ihsAfRE2H0G",
+            "dataDimensionType": "DISAGGREGATION",
+            "displayName": "NHWA_Activity Level",
+            "publicAccess": "--------",
+            "externalAccess": false,
+            "isDefault": false,
+            "skipTotal": false,
+            "favorite": false,
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "user": {
+                "id": "dKttJLRSiIl"
+            },
+            "favorites": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "gucuWTSL91y",
+                    "displayName": "NHWA _DATA Capture Module 1",
+                    "id": "gucuWTSL91y"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "fxyLXZ10TXC",
+                    "displayName": "NHWA Team (formerly health workforce team)",
+                    "id": "fxyLXZ10TXC"
+                }
+            ],
+            "attributeValues": [],
+            "categoryOptionCombos": [
+                {
+                    "id": "VPShWMVpQkb"
+                },
+                {
+                    "id": "xcotqxKxwlL"
+                },
+                {
+                    "id": "drJDZnHzeBH"
+                }
+            ],
+            "translations": [],
+            "userAccesses": [],
+            "categories": [
+                {
+                    "id": "xh8g6j8SEXR"
+                }
+            ]
+        },
+        {
+            "metadataType": "categoryCombos",
+            "created": "2017-06-15T03:53:50.054",
+            "lastUpdated": "2019-11-09T18:14:31.231",
+            "name": "NHWA_Source Type Mod 1",
+            "id": "wywD4cOewZX",
+            "dataDimensionType": "DISAGGREGATION",
+            "displayName": "NHWA_Source Type Mod 1",
+            "publicAccess": "--------",
+            "externalAccess": false,
+            "isDefault": false,
+            "skipTotal": true,
+            "favorite": false,
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "user": {
+                "id": "dKttJLRSiIl"
+            },
+            "favorites": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "gucuWTSL91y",
+                    "displayName": "NHWA _DATA Capture Module 1",
+                    "id": "gucuWTSL91y"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "fxyLXZ10TXC",
+                    "displayName": "NHWA Team (formerly health workforce team)",
+                    "id": "fxyLXZ10TXC"
+                }
+            ],
+            "attributeValues": [],
+            "categoryOptionCombos": [
+                {
+                    "id": "xgbBSeyiDWp"
+                },
+                {
+                    "id": "bj9TvyIDtwi"
+                },
+                {
+                    "id": "hC2N9T8F5JD"
+                },
+                {
+                    "id": "IhnQTXo2sCi"
+                },
+                {
+                    "id": "eWjpUQpzWKX"
+                },
+                {
+                    "id": "lcB0UtS4nuB"
+                },
+                {
+                    "id": "MXfWGD11wLh"
+                },
+                {
+                    "id": "wcnRf5LJrnK"
+                },
+                {
+                    "id": "LvGn3KFEzvA"
+                },
+                {
+                    "id": "s5mo8EjeKiY"
+                },
+                {
+                    "id": "ADfCJWnnU2O"
+                },
+                {
+                    "id": "rEUC186wftQ"
+                },
+                {
+                    "id": "P5jMO9Y0SRn"
+                }
+            ],
+            "translations": [],
+            "userAccesses": [],
+            "categories": [
+                {
+                    "id": "T1B1YJROUum"
+                }
+            ]
+        },
+        {
+            "metadataType": "categoryCombos",
+            "created": "2017-06-20T05:48:08.305",
+            "lastUpdated": "2019-11-09T18:14:29.980",
+            "name": "NHWA_Foreing Trained HWF",
+            "id": "sPP5gqI4TC8",
+            "dataDimensionType": "DISAGGREGATION",
+            "displayName": "NHWA_Foreing Trained HWF",
+            "publicAccess": "--------",
+            "externalAccess": false,
+            "isDefault": false,
+            "skipTotal": false,
+            "favorite": false,
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "user": {
+                "id": "dKttJLRSiIl"
+            },
+            "favorites": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "gucuWTSL91y",
+                    "displayName": "NHWA _DATA Capture Module 1",
+                    "id": "gucuWTSL91y"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "fxyLXZ10TXC",
+                    "displayName": "NHWA Team (formerly health workforce team)",
+                    "id": "fxyLXZ10TXC"
+                }
+            ],
+            "attributeValues": [],
+            "categoryOptionCombos": [
+                {
+                    "id": "ZqdYTyLLuyL"
+                },
+                {
+                    "id": "yDEKhOz2lvV"
+                },
+                {
+                    "id": "jIuMMPDV6by"
+                },
+                {
+                    "id": "Lpvf0YxPz6h"
+                },
+                {
+                    "id": "k8RfzK41pD4"
+                },
+                {
+                    "id": "fAb4itKc1ZM"
+                },
+                {
+                    "id": "DSefi5x6sWB"
+                },
+                {
+                    "id": "GVeTUYRwWNF"
+                },
+                {
+                    "id": "Agh3IhNPIxF"
+                },
+                {
+                    "id": "rJSdwEyXgfh"
+                },
+                {
+                    "id": "f2XAafiQede"
+                },
+                {
+                    "id": "xsXII0TZ5TD"
+                },
+                {
+                    "id": "Z0aVan7vD82"
+                },
+                {
+                    "id": "zg6B0qb5NY3"
+                },
+                {
+                    "id": "slhvGcmFwtM"
+                },
+                {
+                    "id": "kPgF27h5Zao"
+                },
+                {
+                    "id": "RJERO5G7Od7"
+                },
+                {
+                    "id": "rIchxlzx0E0"
+                },
+                {
+                    "id": "GkT2M3jxh7F"
+                },
+                {
+                    "id": "V5rMEsxYhaF"
+                },
+                {
+                    "id": "Kr3g14QtHqR"
+                },
+                {
+                    "id": "uIUcjj7o0UF"
+                },
+                {
+                    "id": "y99mLrfSDOg"
+                },
+                {
+                    "id": "Mv3kaUwZXRq"
+                },
+                {
+                    "id": "Uubd1dIoT4W"
+                },
+                {
+                    "id": "nHiJwDVwoBi"
+                },
+                {
+                    "id": "gb8YWtxeYVR"
+                },
+                {
+                    "id": "JRUk55kvbrE"
+                },
+                {
+                    "id": "pqnXfUagaiY"
+                },
+                {
+                    "id": "wlPajJhqkui"
+                },
+                {
+                    "id": "oDBd4Mj0Oc2"
+                },
+                {
+                    "id": "KvI6UnlCWE8"
+                },
+                {
+                    "id": "EugP2KVsM7Q"
+                },
+                {
+                    "id": "DOa51SvSShy"
+                },
+                {
+                    "id": "JPBLCDK3H2x"
+                },
+                {
+                    "id": "X2GCXVmZeEF"
+                },
+                {
+                    "id": "blA5KNE6nZO"
+                },
+                {
+                    "id": "ix4kFHxwYTd"
+                },
+                {
+                    "id": "HzK449Z1Mop"
+                },
+                {
+                    "id": "mQOrGsSPzBX"
+                },
+                {
+                    "id": "zA5RHKBta1T"
+                },
+                {
+                    "id": "g2hJEzpZfH1"
+                },
+                {
+                    "id": "sj4i9BflXvh"
+                },
+                {
+                    "id": "uNIgpV4l21k"
+                },
+                {
+                    "id": "gvFoQrCkLc2"
+                },
+                {
+                    "id": "hPJQaP7PdYq"
+                },
+                {
+                    "id": "hsNootK2YBV"
+                },
+                {
+                    "id": "xl2h6v1N72r"
+                },
+                {
+                    "id": "cEeWRyOhOqP"
+                },
+                {
+                    "id": "ibxHVF1IOea"
+                },
+                {
+                    "id": "ANELZaDsI6L"
+                },
+                {
+                    "id": "dAREsnanSp5"
+                },
+                {
+                    "id": "BKNhBq1RiwZ"
+                },
+                {
+                    "id": "ZmHQN5npDGX"
+                },
+                {
+                    "id": "QhZPfMYBla6"
+                },
+                {
+                    "id": "BE32i8A9IOr"
+                },
+                {
+                    "id": "Kh9ikyodKnN"
+                },
+                {
+                    "id": "efCfb5edDjv"
+                },
+                {
+                    "id": "JvWTmXsCHJj"
+                },
+                {
+                    "id": "rJ2dfIqC23R"
+                },
+                {
+                    "id": "dkORIS1sEMv"
+                },
+                {
+                    "id": "sHcFoPbjSrP"
+                },
+                {
+                    "id": "GSwM6L4ZPsB"
+                },
+                {
+                    "id": "pbip5m1yf5Y"
+                },
+                {
+                    "id": "RdP4lkM83cM"
+                },
+                {
+                    "id": "B3fcwYE45w6"
+                },
+                {
+                    "id": "Ua4F7QDEr8y"
+                },
+                {
+                    "id": "JgcDpU82eRk"
+                },
+                {
+                    "id": "gxepwyvRxbV"
+                },
+                {
+                    "id": "CFWkO0BIhm8"
+                },
+                {
+                    "id": "HP50SIF4Fby"
+                },
+                {
+                    "id": "QdpBLugMtqQ"
+                },
+                {
+                    "id": "YuLaFfZxTwJ"
+                },
+                {
+                    "id": "dyBI6HTR04N"
+                },
+                {
+                    "id": "Exg37zi5bC6"
+                },
+                {
+                    "id": "UTDBwK73RlG"
+                },
+                {
+                    "id": "c9WexKHjrHc"
+                },
+                {
+                    "id": "H9TZE490EpE"
+                },
+                {
+                    "id": "YDDLRoVNxAB"
+                },
+                {
+                    "id": "GKkncWAOs8H"
+                },
+                {
+                    "id": "feoDuRjZweV"
+                },
+                {
+                    "id": "K3EI0GwfkG8"
+                },
+                {
+                    "id": "LE4fsk3RYza"
+                },
+                {
+                    "id": "QUUTx1RNwpi"
+                },
+                {
+                    "id": "n1ptipI0iZU"
+                },
+                {
+                    "id": "LBtaidI5G2z"
+                },
+                {
+                    "id": "St1b2AfFxLb"
+                },
+                {
+                    "id": "BkdpZQISAQE"
+                },
+                {
+                    "id": "zexkIIZrZ3B"
+                },
+                {
+                    "id": "KioZypAqUxc"
+                },
+                {
+                    "id": "tsd2otYofQa"
+                },
+                {
+                    "id": "rdiq6QPpJC7"
+                },
+                {
+                    "id": "dplV0gzW0ea"
+                },
+                {
+                    "id": "HvDcrobmiCy"
+                },
+                {
+                    "id": "Vlqc8aT5PAo"
+                },
+                {
+                    "id": "S8oIZdNn50G"
+                },
+                {
+                    "id": "cxRqR2lVtM7"
+                },
+                {
+                    "id": "MFwYpsgHToP"
+                },
+                {
+                    "id": "MaLbWT81P7Q"
+                },
+                {
+                    "id": "zdnpGy5G70E"
+                },
+                {
+                    "id": "CaEJOAbJqM8"
+                },
+                {
+                    "id": "IttDSHJE3tY"
+                },
+                {
+                    "id": "btcWCYP4hid"
+                },
+                {
+                    "id": "DNEZnY8mN9a"
+                },
+                {
+                    "id": "XbTx2aGNiKd"
+                },
+                {
+                    "id": "qdxpgnOUeam"
+                },
+                {
+                    "id": "OyaYCadoBtb"
+                },
+                {
+                    "id": "qV0jUJzFUER"
+                },
+                {
+                    "id": "yYCFsDkV7gN"
+                },
+                {
+                    "id": "XW4cMFJ3IPd"
+                },
+                {
+                    "id": "VOFBd8mUdSi"
+                },
+                {
+                    "id": "LddbYuuaWf7"
+                },
+                {
+                    "id": "ROyKFEvDgAp"
+                },
+                {
+                    "id": "SZ3nIBbJDHd"
+                },
+                {
+                    "id": "MSX2ncxe0gF"
+                },
+                {
+                    "id": "RsBAd46LBnm"
+                },
+                {
+                    "id": "npSh7oFwczs"
+                },
+                {
+                    "id": "poDz4wDp6J0"
+                },
+                {
+                    "id": "zOt4KjY6v7C"
+                },
+                {
+                    "id": "tWMp2gMdZVY"
+                },
+                {
+                    "id": "AGWxyqGhgfk"
+                },
+                {
+                    "id": "F59E3s3oEOr"
+                },
+                {
+                    "id": "Nq0rzj9aWEV"
+                },
+                {
+                    "id": "JrSwky5tYzt"
+                },
+                {
+                    "id": "ES9xDNLOKtZ"
+                },
+                {
+                    "id": "hIrci8ms28E"
+                },
+                {
+                    "id": "sjuX99wm7IZ"
+                },
+                {
+                    "id": "B8UngZ8uwD2"
+                },
+                {
+                    "id": "LRoVMRyVmrE"
+                },
+                {
+                    "id": "kYO6lFqgkUO"
+                },
+                {
+                    "id": "IArireTHAtu"
+                },
+                {
+                    "id": "A8ZYkf5BTQ1"
+                },
+                {
+                    "id": "H8DnO52iMD9"
+                },
+                {
+                    "id": "JMWzvzwgToC"
+                },
+                {
+                    "id": "qfXgWkacWGi"
+                },
+                {
+                    "id": "HankECMMB6D"
+                },
+                {
+                    "id": "fPDuFoFWUr3"
+                },
+                {
+                    "id": "ysEbNJwwJUO"
+                },
+                {
+                    "id": "Y8Hqecy92p5"
+                },
+                {
+                    "id": "QUXnEwBKOCt"
+                },
+                {
+                    "id": "CduVOiDWxlt"
+                },
+                {
+                    "id": "rgozN0dmixB"
+                },
+                {
+                    "id": "GZTChYSePoP"
+                },
+                {
+                    "id": "A7vlGlMOCQi"
+                },
+                {
+                    "id": "q4n8NzDkE7D"
+                },
+                {
+                    "id": "lh9mjPVQgUs"
+                },
+                {
+                    "id": "CqGT5VjDx2p"
+                },
+                {
+                    "id": "x01fgjhSf20"
+                },
+                {
+                    "id": "IzLrdmSQGZs"
+                },
+                {
+                    "id": "aoq4jeGV5NM"
+                },
+                {
+                    "id": "ESi2uY4Gqn1"
+                },
+                {
+                    "id": "NojSG8rZDfq"
+                },
+                {
+                    "id": "GC5rlUksCqm"
+                },
+                {
+                    "id": "uNJCzPnnWNW"
+                },
+                {
+                    "id": "jhV8D0Dvbvz"
+                },
+                {
+                    "id": "Zgk5mud8930"
+                },
+                {
+                    "id": "w5pFdpuCUW7"
+                },
+                {
+                    "id": "sL6GUzUS18c"
+                },
+                {
+                    "id": "VjdgVLwPWfZ"
+                },
+                {
+                    "id": "aLiNAjoAsDt"
+                },
+                {
+                    "id": "b6rUObqK3w6"
+                },
+                {
+                    "id": "vwj0hgJQQ8O"
+                },
+                {
+                    "id": "IGq57K2U3et"
+                },
+                {
+                    "id": "aeEH9WsPkWk"
+                },
+                {
+                    "id": "enrjtKkx6PG"
+                },
+                {
+                    "id": "pjDDwNroUiK"
+                },
+                {
+                    "id": "LkiHwqqYnxV"
+                },
+                {
+                    "id": "POUZYADWUp1"
+                },
+                {
+                    "id": "mVxpfBydPB7"
+                },
+                {
+                    "id": "Ak4QGxirDXg"
+                },
+                {
+                    "id": "iHzbU9M01XV"
+                },
+                {
+                    "id": "i14E8ggjzvt"
+                },
+                {
+                    "id": "sJuInXfi09r"
+                },
+                {
+                    "id": "a2xwzp8oVHw"
+                },
+                {
+                    "id": "EPjTph0oE8r"
+                },
+                {
+                    "id": "SlA9m2ZX9XS"
+                },
+                {
+                    "id": "LPbH3n77lxu"
+                },
+                {
+                    "id": "z5MSkYMyUDA"
+                },
+                {
+                    "id": "jfXGOQwsmKq"
+                },
+                {
+                    "id": "WtrglwVLwRf"
+                },
+                {
+                    "id": "z8JPjc7MYwc"
+                },
+                {
+                    "id": "ZO5braqROk6"
+                },
+                {
+                    "id": "RRV32wU5Sk1"
+                },
+                {
+                    "id": "J1xdPkLQqgn"
+                },
+                {
+                    "id": "XxT1SCRuVDD"
+                },
+                {
+                    "id": "EDPtZbCSShb"
+                },
+                {
+                    "id": "L3f8EEO2QTn"
+                },
+                {
+                    "id": "HdwPlhpIWce"
+                },
+                {
+                    "id": "ZyDNe6r8Rcu"
+                },
+                {
+                    "id": "Y1v6mwcswYO"
+                },
+                {
+                    "id": "hjdFz4fLLzw"
+                },
+                {
+                    "id": "gsbHTvgB2ve"
+                },
+                {
+                    "id": "Wl6fGTpQ2aN"
+                },
+                {
+                    "id": "Jx6oc5hMVvO"
+                },
+                {
+                    "id": "EhXjWmnNPjO"
+                }
+            ],
+            "translations": [],
+            "userAccesses": [],
+            "categories": [
+                {
+                    "id": "F9DOHQaJYfU"
+                }
+            ]
+        },
+        {
+            "metadataType": "categoryCombos",
+            "created": "2017-06-07T09:48:46.072",
+            "lastUpdated": "2019-11-09T18:14:30.122",
+            "name": "NHWA_Module 1",
+            "id": "GnSld4jDJ86",
+            "dataDimensionType": "DISAGGREGATION",
+            "displayName": "NHWA_Module 1",
+            "publicAccess": "--------",
+            "externalAccess": false,
+            "isDefault": false,
+            "skipTotal": true,
+            "favorite": false,
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "user": {
+                "id": "dKttJLRSiIl"
+            },
+            "favorites": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "gucuWTSL91y",
+                    "displayName": "NHWA _DATA Capture Module 1",
+                    "id": "gucuWTSL91y"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "fxyLXZ10TXC",
+                    "displayName": "NHWA Team (formerly health workforce team)",
+                    "id": "fxyLXZ10TXC"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "ypluz7jgVRe",
+                    "displayName": "NHWA checker",
+                    "id": "ypluz7jgVRe"
+                }
+            ],
+            "attributeValues": [],
+            "categoryOptionCombos": [
+                {
+                    "id": "vfYnv3I3FDV"
+                },
+                {
+                    "id": "jJhzlGR2SlX"
+                },
+                {
+                    "id": "cqnAMSSOQTI"
+                },
+                {
+                    "id": "rUTQylkIqmR"
+                },
+                {
+                    "id": "oJnH6dMmSlZ"
+                },
+                {
+                    "id": "utUfP53Luzx"
+                },
+                {
+                    "id": "nrZJCkxLVcu"
+                },
+                {
+                    "id": "QNfHryvecQa"
+                },
+                {
+                    "id": "qUyuv0pANEV"
+                },
+                {
+                    "id": "khZl3qndPSt"
+                },
+                {
+                    "id": "M8PdBNFmpS0"
+                },
+                {
+                    "id": "YOZwz1YiXw3"
+                },
+                {
+                    "id": "mOSkWl93wE1"
+                },
+                {
+                    "id": "WLYREfmGgG6"
+                },
+                {
+                    "id": "DD4iF67QMRr"
+                },
+                {
+                    "id": "zP9vN3kIkCS"
+                },
+                {
+                    "id": "mlP1VIKDhAB"
+                },
+                {
+                    "id": "aM8Io01xr2l"
+                },
+                {
+                    "id": "eHaz9Q3lZLd"
+                },
+                {
+                    "id": "gqbloAW0isi"
+                },
+                {
+                    "id": "P6MDj0TTH0l"
+                },
+                {
+                    "id": "L73tmAA5Z6B"
+                },
+                {
+                    "id": "RDx8Bc7ogyB"
+                },
+                {
+                    "id": "YBO4NTK8IVj"
+                },
+                {
+                    "id": "sD0jTXBQqCk"
+                },
+                {
+                    "id": "in8I2tvJPMN"
+                },
+                {
+                    "id": "Wuc5P73LdXe"
+                },
+                {
+                    "id": "J6R41yq0UwP"
+                },
+                {
+                    "id": "m69SG7kMo61"
+                },
+                {
+                    "id": "k7Sf0C7kOUm"
+                },
+                {
+                    "id": "Cdnp37HXBuW"
+                }
+            ],
+            "translations": [],
+            "userAccesses": [],
+            "categories": [
+                {
+                    "id": "za25uP7yetv"
+                }
+            ]
+        }
+    ]
+}
