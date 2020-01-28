@@ -12522,6 +12522,112 @@
       },
       "attributeValues": [],
       "authorities": [
+        "F_EXPORT_DATA",
+        "M_dhis-web-importexport"
+      ],
+      "created": "2020-01-27T12:39:30.391",
+      "description": "AUTHORITIES - This role enables to export data through Import/Export App",
+      "displayName": "Export Aggregated data through Import/Export App",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "id": "BWZqMiae4mt",
+      "lastUpdated": "2020-01-27T12:39:30.391",
+      "lastUpdatedBy": {
+        "id": "kD52FGwJgDF"
+      },
+      "name": "Export Aggregated data through Import/Export App",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "kD52FGwJgDF"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "authorities": [
+        "F_EXPORT_EVENTS",
+        "M_dhis-web-importexport"
+      ],
+      "created": "2020-01-27T12:40:15.073",
+      "description": "AUTHORITIES - This role enables to export Invidivual data through Import/Export App",
+      "displayName": "Export Invidivual data through Import/Export App",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "id": "EW1KlyaVlXd",
+      "lastUpdated": "2020-01-27T12:40:15.073",
+      "lastUpdatedBy": {
+        "id": "kD52FGwJgDF"
+      },
+      "name": "Export Invidivual data through Import/Export App",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "kD52FGwJgDF"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "authorities": [
+        "F_METADATA_EXPORT",
+        "M_dhis-web-importexport"
+      ],
+      "created": "2020-01-28T12:43:18.982",
+      "description": "AUTHORITIES - This role enables to export Invidivual data through Import/Export App",
+      "displayName": "Export metadata",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "https://extranet.who.int/dhis2-dev/api/userRoles/cdcIu3s6RW6",
+      "id": "cdcIu3s6RW6",
+      "lastUpdated": "2020-01-28T12:43:18.982",
+      "lastUpdatedBy": {
+        "id": "kD52FGwJgDF"
+      },
+      "name": "Export metadata",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "kD52FGwJgDF"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "authorities": [
         "M_dhis-web-mapping"
       ],
       "created": "2017-11-02T17:44:33.586",
@@ -15815,6 +15921,40 @@
       },
       "attributeValues": [],
       "authorities": [
+        "F_SQLVIEW_PRIVATE_ADD"
+      ],
+      "created": "2020-01-28T12:11:39.351",
+      "description": "AUTHORITIES - This role enables to add/update private SQL views",
+      "displayName": "Maintenance - SQL views Add/update",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "id": "MG4dggVGiuz",
+      "lastUpdated": "2020-01-28T12:11:39.351",
+      "lastUpdatedBy": {
+        "id": "kD52FGwJgDF"
+      },
+      "name": "Maintenance - SQL views Add/update",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "kD52FGwJgDF"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "authorities": [
         "F_CATEGORY_OPTION_GROUP_PUBLIC_ADD",
         "F_CATEGORY_OPTION_GROUP_SET_PUBLIC_ADD",
         "F_CATEGORY_OPTION_PUBLIC_ADD",
@@ -15907,6 +16047,38 @@
           "id": "ui9gaTxXdAT"
         }
       ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "authorities": [],
+      "created": "2020-01-27T12:36:49.823",
+      "description": "APP - This roles gives access to the Malaria Country Profile app",
+      "displayName": "Malaria Country Profile app",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "id": "u2Zy8kc2zeD",
+      "lastUpdated": "2020-01-27T12:36:49.823",
+      "lastUpdatedBy": {
+        "id": "kD52FGwJgDF"
+      },
+      "name": "Malaria Country Profile app",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "kD52FGwJgDF"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": []
     },
     {
       "access": {
@@ -16545,6 +16717,40 @@
           "id": "yRI7BszlIQ3"
         }
       ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "authorities": [
+        "F_PREDICTOR_RUN"
+      ],
+      "created": "2020-01-28T12:06:33.740",
+      "description": "AUTHORITIES - This role enables to manually run predictor",
+      "displayName": "Run predictor",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "id": "WbpxL6LZdYj",
+      "lastUpdated": "2020-01-28T12:06:33.740",
+      "lastUpdatedBy": {
+        "id": "kD52FGwJgDF"
+      },
+      "name": "Run predictor",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "kD52FGwJgDF"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": []
     },
     {
       "access": {
