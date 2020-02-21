@@ -1,5 +1,5 @@
 {
-  "date": "2020-01-11T17:59:58.705Z2019-07-22T10:23:45.517Z",
+  "date": "2020-01-11T17:59:58.705Z2019-07-22T10:23:45.517Z2020-02-21T16:43:03.857Z2020-02-21T15:52:49.129Z2020-02-21T17:08:41.805Z",
   "userRoles": [
     {
       "access": {
@@ -21,17 +21,13 @@
       "favorite": false,
       "favorites": [],
       "id": "VH50El9GzkD",
-      "lastUpdated": "2019-07-22T10:42:07.603",
-      "lastUpdatedBy": {
-        "id": "kD52FGwJgDF"
-      },
+      "lastUpdated": "2019-08-14T23:06:43.603",
+      "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Advanced Export - App",
       "publicAccess": "rw------",
       "translations": [],
-      "user": {
-        "id": "kD52FGwJgDF"
-      },
+      "user": {},
       "userAccesses": [],
       "userGroupAccesses": [],
       "users": []
@@ -12522,26 +12518,22 @@
       },
       "attributeValues": [],
       "authorities": [
-        "F_EXPORT_DATA",
-        "M_dhis-web-importexport"
+        "F_EXPORT_DATA"
       ],
-      "created": "2020-01-27T12:39:30.391",
+      "created": "2020-02-21T15:45:09.465",
       "description": "AUTHORITIES - This role enables to export data through Import/Export App",
       "displayName": "Export Aggregated data through Import/Export App",
       "externalAccess": false,
       "favorite": false,
       "favorites": [],
       "id": "BWZqMiae4mt",
-      "lastUpdated": "2020-01-27T12:39:30.391",
-      "lastUpdatedBy": {
-        "id": "kD52FGwJgDF"
-      },
+      "lastUpdated": "2020-02-21T15:45:09.465",
+      "lastUpdatedBy": {},
+      "metadataType": "userRoles",
       "name": "Export Aggregated data through Import/Export App",
       "publicAccess": "rw------",
       "translations": [],
-      "user": {
-        "id": "kD52FGwJgDF"
-      },
+      "user": {},
       "userAccesses": [],
       "userGroupAccesses": [],
       "users": []
@@ -12557,62 +12549,22 @@
       },
       "attributeValues": [],
       "authorities": [
-        "F_EXPORT_EVENTS",
-        "M_dhis-web-importexport"
+        "F_EXPORT_EVENTS"
       ],
-      "created": "2020-01-27T12:40:15.073",
+      "created": "2020-02-21T15:46:11.822",
       "description": "AUTHORITIES - This role enables to export Invidivual data through Import/Export App",
       "displayName": "Export Invidivual data through Import/Export App",
       "externalAccess": false,
       "favorite": false,
       "favorites": [],
       "id": "EW1KlyaVlXd",
-      "lastUpdated": "2020-01-27T12:40:15.073",
-      "lastUpdatedBy": {
-        "id": "kD52FGwJgDF"
-      },
+      "lastUpdated": "2020-02-21T15:46:11.822",
+      "lastUpdatedBy": {},
+      "metadataType": "userRoles",
       "name": "Export Invidivual data through Import/Export App",
       "publicAccess": "rw------",
       "translations": [],
-      "user": {
-        "id": "kD52FGwJgDF"
-      },
-      "userAccesses": [],
-      "userGroupAccesses": [],
-      "users": []
-    },
-    {
-      "access": {
-        "delete": true,
-        "externalize": true,
-        "manage": true,
-        "read": true,
-        "update": true,
-        "write": true
-      },
-      "attributeValues": [],
-      "authorities": [
-        "F_METADATA_EXPORT",
-        "M_dhis-web-importexport"
-      ],
-      "created": "2020-01-28T12:43:18.982",
-      "description": "AUTHORITIES - This role enables to export Invidivual data through Import/Export App",
-      "displayName": "Export metadata",
-      "externalAccess": false,
-      "favorite": false,
-      "favorites": [],
-      "href": "https://extranet.who.int/dhis2-dev/api/userRoles/cdcIu3s6RW6",
-      "id": "cdcIu3s6RW6",
-      "lastUpdated": "2020-01-28T12:43:18.982",
-      "lastUpdatedBy": {
-        "id": "kD52FGwJgDF"
-      },
-      "name": "Export metadata",
-      "publicAccess": "rw------",
-      "translations": [],
-      "user": {
-        "id": "kD52FGwJgDF"
-      },
+      "user": {},
       "userAccesses": [],
       "userGroupAccesses": [],
       "users": []
@@ -12906,391 +12858,25 @@
       },
       "attributeValues": [],
       "authorities": [
-        "F_IMPORT_DATA",
-        "M_dhis-web-importexport"
+        "F_IMPORT_DATA"
       ],
-      "created": "2018-04-30T15:06:43.804",
+      "created": "2020-02-21T15:46:34.513",
       "description": "AUTHORITIES - This role enables to import data through Import/Export App",
       "displayName": "Import Aggregated data through Import/Export App",
       "externalAccess": false,
       "favorite": false,
       "favorites": [],
       "id": "Aql05ptFd0o",
-      "lastUpdated": "2018-11-15T10:24:37.029",
-      "lastUpdatedBy": {
-        "id": "eK26I7dRbC4"
-      },
+      "lastUpdated": "2020-02-21T15:46:34.513",
+      "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Import Aggregated data through Import/Export App",
       "publicAccess": "rw------",
       "translations": [],
-      "user": {
-        "id": "ilJDyuqlwDC"
-      },
+      "user": {},
       "userAccesses": [],
       "userGroupAccesses": [],
-      "users": [
-        {
-          "id": "ALoCOhqrbrl"
-        },
-        {
-          "id": "AXjsm4ykDRa"
-        },
-        {
-          "id": "AacIuxCHiQd"
-        },
-        {
-          "id": "Ae7AP49YfKm"
-        },
-        {
-          "id": "B8DCSrl9dZL"
-        },
-        {
-          "id": "BW3x4jTuCoG"
-        },
-        {
-          "id": "BjlfwSAa8Q1"
-        },
-        {
-          "id": "CCXfueeu2zT"
-        },
-        {
-          "id": "CSCiSUXLmIf"
-        },
-        {
-          "id": "CSpz0YUvhW3"
-        },
-        {
-          "id": "DDoqJ7JfQTm"
-        },
-        {
-          "id": "DVqL8lJyfjP"
-        },
-        {
-          "id": "F5oC3nViACU"
-        },
-        {
-          "id": "FNy4UiOi9yq"
-        },
-        {
-          "id": "FTgTBWja9ur"
-        },
-        {
-          "id": "FV0qGqOQSzN"
-        },
-        {
-          "id": "Frf2aBMAMND"
-        },
-        {
-          "id": "HJ4WsYw0oJ9"
-        },
-        {
-          "id": "IEJSUJN0TOh"
-        },
-        {
-          "id": "IHFqRDWT3zY"
-        },
-        {
-          "id": "IUG9XuYzTRB"
-        },
-        {
-          "id": "IwIKQJyd0R7"
-        },
-        {
-          "id": "JxW6LWg1XcD"
-        },
-        {
-          "id": "KwEzmWtPlmZ"
-        },
-        {
-          "id": "LKhyeQxk9ZB"
-        },
-        {
-          "id": "M11LgIuDVxj"
-        },
-        {
-          "id": "MSsIaz3YGDk"
-        },
-        {
-          "id": "N2acS5NsCGB"
-        },
-        {
-          "id": "NTSUZrMziCK"
-        },
-        {
-          "id": "NYGJJirj2FR"
-        },
-        {
-          "id": "Nr4Q99YvYeB"
-        },
-        {
-          "id": "OGA6VXX8CQZ"
-        },
-        {
-          "id": "OpD8okO8s1L"
-        },
-        {
-          "id": "PrpBeangj6R"
-        },
-        {
-          "id": "Qs3SOr1oeXE"
-        },
-        {
-          "id": "Qv4QMEe5wM9"
-        },
-        {
-          "id": "RDbycp2IPCj"
-        },
-        {
-          "id": "RWQzlf1uZDF"
-        },
-        {
-          "id": "RsxpBXu8wpn"
-        },
-        {
-          "id": "Rz1CTNCaIBZ"
-        },
-        {
-          "id": "SqMCXzJsO00"
-        },
-        {
-          "id": "SsCgam65Jjw"
-        },
-        {
-          "id": "T2IJsNJgzbx"
-        },
-        {
-          "id": "TH1Pv7FPkOT"
-        },
-        {
-          "id": "TR997YUg0k8"
-        },
-        {
-          "id": "U1YI1OAmelx"
-        },
-        {
-          "id": "U6UboYrQYmI"
-        },
-        {
-          "id": "UsEZYwWuhqn"
-        },
-        {
-          "id": "VGSKqXwxQmQ"
-        },
-        {
-          "id": "VNY3EuwSmu6"
-        },
-        {
-          "id": "VfXV7r4zNen"
-        },
-        {
-          "id": "VqQZK0Kny6z"
-        },
-        {
-          "id": "VtVaC5Be4Q3"
-        },
-        {
-          "id": "Vzd5raXOpYl"
-        },
-        {
-          "id": "WJ5SSjwIXcR"
-        },
-        {
-          "id": "WenVMdSk1Ij"
-        },
-        {
-          "id": "WkUry0wvVc5"
-        },
-        {
-          "id": "X9W1Yydwihj"
-        },
-        {
-          "id": "XGsMf3bmjmG"
-        },
-        {
-          "id": "XsgItWKy9mZ"
-        },
-        {
-          "id": "Y7rO1Vzvsiy"
-        },
-        {
-          "id": "YykzGN6Dh5M"
-        },
-        {
-          "id": "ZEA2aTQ9ArQ"
-        },
-        {
-          "id": "aJ9dFRhhb5p"
-        },
-        {
-          "id": "amyhyhPBTP8"
-        },
-        {
-          "id": "bjkMNQVTD8N"
-        },
-        {
-          "id": "bkaZBPi70Ki"
-        },
-        {
-          "id": "cGq4h4j35h1"
-        },
-        {
-          "id": "ciygS2PIUBM"
-        },
-        {
-          "id": "cmdobynAi47"
-        },
-        {
-          "id": "d11jWIhVVB4"
-        },
-        {
-          "id": "df7zbZnX6IZ"
-        },
-        {
-          "id": "eK26I7dRbC4"
-        },
-        {
-          "id": "eLmONT4A1A5"
-        },
-        {
-          "id": "eO6wk27o6tM"
-        },
-        {
-          "id": "eRfEp8QPBOq"
-        },
-        {
-          "id": "fN6iFaXJwDC"
-        },
-        {
-          "id": "fTcctdqMccE"
-        },
-        {
-          "id": "ftK4yAri5oM"
-        },
-        {
-          "id": "fw67LVGZJ1F"
-        },
-        {
-          "id": "g0INhzr6Qhh"
-        },
-        {
-          "id": "gFZKnZ7UryS"
-        },
-        {
-          "id": "glEogzSlc66"
-        },
-        {
-          "id": "hoVrLUhulUS"
-        },
-        {
-          "id": "i0ELFonrc58"
-        },
-        {
-          "id": "i9BSP9O6qgO"
-        },
-        {
-          "id": "inLFxWfepgz"
-        },
-        {
-          "id": "iw4Y5PnHyrW"
-        },
-        {
-          "id": "jnIPcM9hm8t"
-        },
-        {
-          "id": "ju3HgALpSYb"
-        },
-        {
-          "id": "k6LW35Lslit"
-        },
-        {
-          "id": "kTCrgrbbY8t"
-        },
-        {
-          "id": "lSQ0lR4Vq5o"
-        },
-        {
-          "id": "lcSGNvRdQlg"
-        },
-        {
-          "id": "lio7SLZy2z3"
-        },
-        {
-          "id": "lqeyzByiK7i"
-        },
-        {
-          "id": "mP8pF98Mvqz"
-        },
-        {
-          "id": "n4ewRweHEkJ"
-        },
-        {
-          "id": "o8yWY4ogzCk"
-        },
-        {
-          "id": "q8EL6jjdh4p"
-        },
-        {
-          "id": "qMWmuWl4vd9"
-        },
-        {
-          "id": "r5mDXYqJMqR"
-        },
-        {
-          "id": "r8CEaJXVICA"
-        },
-        {
-          "id": "rR9G0iNQNZQ"
-        },
-        {
-          "id": "s3yCO4k57k9"
-        },
-        {
-          "id": "uhZSPvM07me"
-        },
-        {
-          "id": "vA2vzVI5hDD"
-        },
-        {
-          "id": "vU1J72zzkUS"
-        },
-        {
-          "id": "vr2wq4QQVAg"
-        },
-        {
-          "id": "vrNEanKQd3n"
-        },
-        {
-          "id": "wni0cQJgo0c"
-        },
-        {
-          "id": "wnkl11D6SWS"
-        },
-        {
-          "id": "xHULWSTauZy"
-        },
-        {
-          "id": "xQOeiJVoLoi"
-        },
-        {
-          "id": "yRI7BszlIQ3"
-        },
-        {
-          "id": "yxIsR3HGv0N"
-        },
-        {
-          "id": "z89NL3opgPV"
-        },
-        {
-          "id": "zIjmo3fKTDY"
-        },
-        {
-          "id": "zYifOsCQMMv"
-        },
-        {
-          "id": "zsQ9GWRwmZe"
-        }
-      ]
+      "users": []
     },
     {
       "access": {
@@ -13303,64 +12889,56 @@
       },
       "attributeValues": [],
       "authorities": [
-        "F_IMPORT_EVENTS",
-        "M_dhis-web-importexport"
+        "F_IMPORT_EVENTS"
       ],
-      "created": "2018-11-05T18:11:39.300",
+      "created": "2020-02-21T15:46:57.867",
       "description": "AUTHORITIES - This role enables to import Invidivual data through Import/Export App",
       "displayName": "Import Invidivual data through Import/Export App",
       "externalAccess": false,
       "favorite": false,
       "favorites": [],
       "id": "vCcr6MhKtBB",
-      "lastUpdated": "2018-11-15T10:24:36.688",
-      "lastUpdatedBy": {
-        "id": "eK26I7dRbC4"
-      },
+      "lastUpdated": "2020-02-21T15:46:57.867",
+      "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Import Invidivual data through Import/Export App",
       "publicAccess": "rw------",
       "translations": [],
-      "user": {
-        "id": "H4atNsEuKxP"
-      },
+      "user": {},
       "userAccesses": [],
       "userGroupAccesses": [],
-      "users": [
-        {
-          "id": "Boxi4Ga71FU"
-        },
-        {
-          "id": "CSpz0YUvhW3"
-        },
-        {
-          "id": "GJyWfCGJ0kP"
-        },
-        {
-          "id": "HcETeZhLuSl"
-        },
-        {
-          "id": "U1YI1OAmelx"
-        },
-        {
-          "id": "eK26I7dRbC4"
-        },
-        {
-          "id": "k6LW35Lslit"
-        },
-        {
-          "id": "vA2vzVI5hDD"
-        },
-        {
-          "id": "yRI7BszlIQ3"
-        },
-        {
-          "id": "zewadrgDvIa"
-        },
-        {
-          "id": "zkXQGIjW0Lv"
-        }
-      ]
+      "users": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "authorities": [
+        "M_dhis-web-importexport"
+      ],
+      "created": "2020-02-21T16:51:23.723",
+      "description": "APP - This role gives access to the App Import/Export",
+      "displayName": "Import/Export - App",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "id": "Ms3iMofQec4",
+      "lastUpdated": "2020-02-21T16:51:23.723",
+      "lastUpdatedBy": {},
+      "metadataType": "userRoles",
+      "name": "Import/Export - App",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {},
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": []
     },
     {
       "access": {
@@ -16559,6 +16137,38 @@
       "user": {
         "id": "kD52FGwJgDF"
       },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "authorities": [
+        "F_PUSH_ANALYSIS_ADD",
+        "F_PUSH_ANALYSIS_DELETE"
+      ],
+      "created": "2020-02-21T18:06:00.791",
+      "description": "AUTHORITIES - The role enables to add/delete push analysis",
+      "displayName": "Push analysis",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "id": "mhjWIYJj1DI",
+      "lastUpdated": "2020-02-21T18:06:00.791",
+      "lastUpdatedBy": {},
+      "metadataType": "userRoles",
+      "name": "Push analysis",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {},
       "userAccesses": [],
       "userGroupAccesses": [],
       "users": []
