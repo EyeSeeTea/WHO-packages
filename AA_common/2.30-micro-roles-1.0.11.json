@@ -1,5 +1,5 @@
 {
-  "date": "2020-01-11T17:59:58.705Z2019-07-22T10:23:45.517Z2020-02-21T16:43:03.857Z2020-02-21T15:52:49.129Z2020-02-21T17:08:41.805Z",
+  "date": "2020-02-25T14:12:48.031Z2020-01-11T17:59:58.705Z2019-07-22T10:23:45.517Z2020-02-21T16:43:03.857Z2020-02-21T15:52:49.129Z2020-02-21T17:08:41.805Z",
   "userRoles": [
     {
       "access": {
@@ -17120,6 +17120,37 @@
           "id": "s9gwJuRfyQB"
         }
       ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "authorities": [
+        "M_dhis-web-translations"
+      ],
+      "created": "2019-07-22T11:39:54.078",
+      "description": "APP - This role gives access to the Translations ",
+      "displayName": "Translations - App",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "id": "oz9wpkis1yK",
+      "lastUpdated": "2019-08-14T23:06:43.654",
+      "lastUpdatedBy": {},
+      "metadataType": "userRoles",
+      "name": "Translations - App",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {},
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": []
     },
     {
       "access": {
