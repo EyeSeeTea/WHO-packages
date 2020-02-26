@@ -1,6 +1,5 @@
 {
-    "categoryOptions": [
-        {
+    "categoryOptions": [ {
             "metadataType": "categoryOptions",
             "lastUpdated": "2019-11-09T18:21:54.291",
             "id": "Ai5BPQQvz1k",
@@ -59,5 +58,46 @@
             "userAccesses": [],
             "legendSets": []
         }
-    ]
+    ],
+  "categoryOptionCombos": [
+        {
+            "metadataType": "categoryOptionCombos",
+            "lastUpdated": "2019-10-04T08:16:01.060",
+            "id": "eWjpUQpzWKX",
+            "created": "2017-06-15T03:53:50.089",
+            "name": "NHWA_National HRH Observatory",
+            "shortName": "NHWA_National HRH Observatory",
+            "displayName": "NHWA_National HRH Observatory",
+            "displayShortName": "NHWA_National HRH Observatory",
+            "externalAccess": false,
+            "ignoreApproval": false,
+            "dimensionItem": "eWjpUQpzWKX",
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "wywD4cOewZX"
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "n28aEFrTuRE"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": []
+        }
+  ]
 }
