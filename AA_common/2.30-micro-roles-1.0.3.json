@@ -25,11 +25,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Advanced Export - App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -60,11 +60,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Aggregated data approval",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -97,11 +97,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Aggregated data entry",
-      "publicAccess": "--------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -141,7 +141,7 @@
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -174,11 +174,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Aggregated data validation",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -205,11 +205,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "App management - App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -241,11 +241,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Basic Access (mandatory)",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -276,7 +276,7 @@
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -303,11 +303,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Bulk Load - App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -334,11 +334,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "DHIS2 Swiss Knife - App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -370,11 +370,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Dashboard - Aggregated data",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -407,11 +407,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Dashboard - All",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -444,11 +444,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Dashboard - All except Event report",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -475,11 +475,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Data Collection Reminder - App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -506,11 +506,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Data administration app",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -537,11 +537,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Data dictionary",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -568,11 +568,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Data entry - App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -599,11 +599,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Data quality - App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -630,11 +630,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Data quality check - WHO App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -661,11 +661,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Data visualizer - App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -692,11 +692,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Datastore - App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -723,11 +723,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Event capture - App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -758,11 +758,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Event capture - data entry Role",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -789,11 +789,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Event reports - App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -820,11 +820,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Event visualizer - App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -851,11 +851,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Excel Data Importer - Unlimited Flexible - App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -882,11 +882,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Excel data importer",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -914,11 +914,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Export Aggregated data through Import/Export App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -946,11 +946,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Export Invidivual data through Import/Export App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -978,11 +978,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Export metadata",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -1009,11 +1009,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "GIS",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -1040,11 +1040,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "HMIS Dictionary",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -1071,11 +1071,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "IDS Locator - App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -1102,11 +1102,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Import Aggregated data through Import/Export App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -1133,11 +1133,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Import Invidivual data through Import/Export App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -1164,11 +1164,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Import/Export - App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -1195,11 +1195,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Individual data entry",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -1227,11 +1227,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Individual data use",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -1258,11 +1258,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Interactive Dashboard 2 - App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -1289,11 +1289,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Interpretation app - App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -1322,11 +1322,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Landing page access",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -1351,11 +1351,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "METADATA_SYNC_CONFIGURATOR",
-      "publicAccess": "--------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -1380,11 +1380,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "METADATA_SYNC_EXECUTOR",
-      "publicAccess": "--------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -1416,11 +1416,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Maintenance - DataSet - WIDP admin only",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -1454,11 +1454,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Maintenance - Indicators - WIDP admin only",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -1487,11 +1487,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Maintenance - Indicators Add/Update",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -1518,11 +1518,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Maintenance - Legends Add/Update",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -1549,11 +1549,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Maintenance - OrgUnitGroup Editor",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -1599,11 +1599,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Maintenance - Program - WIDP Admin only",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -1630,11 +1630,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Maintenance - SQL views Add/update",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -1672,11 +1672,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Maintenance - dataElements - WIDP admin only",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -1703,11 +1703,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Maintenance App - View",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -1732,11 +1732,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Malaria Country Profile app",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -1763,11 +1763,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Maps - App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -1794,11 +1794,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Menu Management - App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -1825,11 +1825,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Messaging",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -1857,11 +1857,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "MetaData Sync - App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -1888,11 +1888,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Metadata Management - App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -1919,11 +1919,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Mobile Maintenance - App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -1951,11 +1951,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "NHWA Data Importer App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -1982,11 +1982,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "NTD - Leish - Monthly Importer - App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -2013,11 +2013,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "NTD - Leish - Stock warehouse App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -2044,11 +2044,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "NTD Utils tool - App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -2075,11 +2075,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "OrgUnit Tree Flatter - App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -2106,11 +2106,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Pivot table - App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -2138,11 +2138,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Push analysis",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -2169,11 +2169,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Report - App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -2203,11 +2203,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Run analytics - WIDP admin only",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -2234,11 +2234,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Run predictor",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -2265,11 +2265,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Scheduler - App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -2296,11 +2296,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Settings - App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -2327,11 +2327,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Sharing Settings - App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -2620,11 +2620,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Superuser - WIDP IT team only",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -2651,11 +2651,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Tracker capture - App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -2694,11 +2694,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Tracker capture - Data entry role",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -2725,11 +2725,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Tracker capture - View",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -2756,11 +2756,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Translations - App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -2787,11 +2787,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Usage Analytics - App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -2822,11 +2822,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "User App - Delete with managed groups",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -2858,11 +2858,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "User App - Read",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -2901,11 +2901,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "Users App authorities - except delete",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -2932,11 +2932,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "VL Kenya Monthly App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     },
     {
@@ -2963,11 +2963,11 @@
       "lastUpdatedBy": {},
       "metadataType": "userRoles",
       "name": "WHO Metadata browser - App",
-      "publicAccess": "rw------",
+      "publicAccess": "r-------",
       "translations": [],
       "user": {},
       "userAccesses": [],
-      "userGroupAccesses": [],
+      "userGroupAccesses": [{"access": "rw------", "userGroupUid": "UfhhwZK73Lg", "displayName": "WIDP IT team", "id": "UfhhwZK73Lg"}],
       "users": []
     }
   ]
