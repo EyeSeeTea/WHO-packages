@@ -1,0 +1,226 @@
+{
+    "date": "2020-05-13T09:11:05.682Z",
+   "optionSets": [
+        {
+            "metadataType": "optionSets",
+            "code": "MAL_IR_STATUS",
+            "created": "2018-03-16T14:59:29.000",
+            "lastUpdated": "2020-05-13T11:09:18.974",
+            "name": "MAL - Insecticide resistance status",
+            "id": "e0dZRPUFTY9",
+            "displayName": "MAL - Insecticide resistance status",
+            "publicAccess": "--------",
+            "version": 7,
+            "externalAccess": false,
+            "valueType": "TEXT",
+            "favorite": false,
+            "lastUpdatedBy": {
+                "id": "YdBcEIZpRHo"
+            },
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": false,
+                "delete": false,
+                "write": true,
+                "manage": true
+            },
+            "user": {
+                "id": "YdBcEIZpRHo"
+            },
+            "favorites": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "suMb19wGXPR",
+                    "displayName": "MAL_Malaria admin",
+                    "id": "suMb19wGXPR"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "ZXEVDM9XRea",
+                    "displayName": "MAL_Malaria access",
+                    "id": "ZXEVDM9XRea"
+                }
+            ],
+            "attributeValues": [],
+            "translations": [],
+            "userAccesses": [],
+            "options": [
+                {
+                    "id": "DmJyDy7aaeH"
+                },
+                {
+                    "id": "S02Btv2fOHB"
+                },
+                {
+                    "id": "xEw2fWvdv6O"
+                },
+                {
+                    "id": "tDSFiyfs1CS"
+                },
+                {
+                    "id": "K33sxnzqqLb"
+                }
+            ]
+        }
+    ],
+    "options": [
+        {
+            "metadataType": "options",
+            "code": "Confirmed",
+            "created": "2019-04-09T20:37:55.492",
+            "lastUpdated": "2020-05-13T11:04:54.964",
+            "name": "Confirmed resistance",
+            "id": "DmJyDy7aaeH",
+            "displayName": "Confirmed resistance",
+            "externalAccess": false,
+            "sortOrder": 6,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": false,
+                "delete": false,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "e0dZRPUFTY9"
+            },
+            "favorites": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Resistencia confirmada"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": "Resistência confirmada"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Résistance confirmée"
+                }
+            ],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "options",
+            "code": "Susceptible",
+            "created": "2018-12-18T22:02:10.000",
+            "lastUpdated": "2020-05-13T11:04:54.964",
+            "name": "Susceptible",
+            "id": "S02Btv2fOHB",
+            "displayName": "Susceptible",
+            "externalAccess": false,
+            "sortOrder": 7,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": false,
+                "delete": false,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "e0dZRPUFTY9"
+            },
+            "favorites": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "translations": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "options",
+            "code": "Possible",
+            "created": "2019-04-09T20:37:55.492",
+            "lastUpdated": "2020-05-13T11:04:54.964",
+            "name": "Possible resistance",
+            "id": "xEw2fWvdv6O",
+            "displayName": "Possible resistance",
+            "externalAccess": false,
+            "sortOrder": 8,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": false,
+                "delete": false,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "e0dZRPUFTY9"
+            },
+            "favorites": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "translations": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "options",
+            "code": "Not monitored",
+            "created": "2018-12-18T22:03:29.000",
+            "lastUpdated": "2020-05-13T11:04:54.964",
+            "name": "Not monitored",
+            "id": "tDSFiyfs1CS",
+            "displayName": "Not monitored",
+            "externalAccess": false,
+            "sortOrder": 9,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": false,
+                "delete": false,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "e0dZRPUFTY9"
+            },
+            "favorites": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "translations": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "options",
+            "code": "Not confirmed",
+            "created": "2018-12-18T22:03:40.000",
+            "lastUpdated": "2020-05-13T11:04:54.964",
+            "name": "Not confirmed",
+            "id": "K33sxnzqqLb",
+            "displayName": "Not confirmed",
+            "externalAccess": false,
+            "sortOrder": 10,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": false,
+                "delete": false,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "e0dZRPUFTY9"
+            },
+            "favorites": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "translations": [],
+            "userAccesses": []
+        }
+    ]
+}

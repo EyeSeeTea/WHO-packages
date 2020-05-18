@@ -1,0 +1,403 @@
+{
+ "categoryOptions": [
+  {
+   "code": "ENTO_MoH",
+   "lastUpdated": "2020-04-14T19:28:22.282",
+   "id": "adHe8ZqTLGQ",
+   "href": "https://extranet.who.int/dhis2/api/categoryOptions/adHe8ZqTLGQ",
+   "created": "2019-03-19T14:46:57.650",
+   "name": "MoH",
+   "shortName": "MoH",
+   "displayName": "MoH",
+   "publicAccess": "--------",
+   "displayShortName": "MoH",
+   "externalAccess": false,
+   "dimensionItem": "adHe8ZqTLGQ",
+   "isDefault": false,
+   "favorite": false,
+   "dimensionItemType": "CATEGORY_OPTION",
+   "access": {
+    "read": true,
+    "update": true,
+    "externalize": true,
+    "delete": true,
+    "write": true,
+    "manage": true,
+    "data": {
+     "read": true,
+     "write": true
+    }
+   },
+   "lastUpdatedBy": {
+    "id": "kD52FGwJgDF"
+   },
+   "user": {
+    "id": "I77r2A5xemt"
+   },
+   "favorites": [],
+   "translations": [
+    {
+     "property": "NAME",
+     "locale": "fr",
+     "value": "Ministère de la Santé"
+    },
+    {
+     "property": "SHORT_NAME",
+     "locale": "es",
+     "value": "Ministerio de la Salud"
+    },
+    {
+     "property": "NAME",
+     "locale": "pt",
+     "value": "Ministerio da Saúde "
+    },
+    {
+     "property": "SHORT_NAME",
+     "locale": "fr",
+     "value": "Ministère de la Santé"
+    },
+    {
+     "property": "SHORT_NAME",
+     "locale": "pt",
+     "value": "Ministerio da Saúde "
+    },
+    {
+     "property": "NAME",
+     "locale": "es",
+     "value": "Ministerio de la Salud"
+    }
+   ],
+   "categories": [
+    {
+     "id": "lIBiiq34QJE"
+    }
+   ],
+   "organisationUnits": [],
+   "userGroupAccesses": [
+    {
+     "access": "r-rw----",
+     "userGroupUid": "k25lFNtgiJw",
+     "displayName": "MAL_RegionRole",
+     "id": "k25lFNtgiJw"
+    },
+    {
+     "access": "r-rw----",
+     "userGroupUid": "ZXEVDM9XRea",
+     "displayName": "MAL_Malaria access",
+     "id": "ZXEVDM9XRea"
+    },
+    {
+     "access": "r-------",
+     "userGroupUid": "e752p4JZr7j",
+     "displayName": "MAL_HQ Data export",
+     "id": "e752p4JZr7j"
+    },
+    {
+     "access": "r-rw----",
+     "userGroupUid": "suMb19wGXPR",
+     "displayName": "MAL_Malaria admin",
+     "id": "suMb19wGXPR"
+    },
+    {
+     "access": "r-rw----",
+     "userGroupUid": "xdJjyqMxaZq",
+     "displayName": "MAL_CountryRole",
+     "id": "xdJjyqMxaZq"
+    },
+    {
+     "access": "r-rw----",
+     "userGroupUid": "npqzYHv7dIT",
+     "displayName": "MAL_IST Role",
+     "id": "npqzYHv7dIT"
+    },
+    {
+     "access": "rw------",
+     "userGroupUid": "IjkBBqf9MKt",
+     "displayName": "MAL_HQ WMR Reports",
+     "id": "IjkBBqf9MKt"
+    },
+    {
+     "access": "r-rw----",
+     "userGroupUid": "u8l4uj732QH",
+     "displayName": "MAL_Country Approver",
+     "id": "u8l4uj732QH"
+    }
+   ],
+   "attributeValues": [],
+   "categoryOptionCombos": [
+    {
+     "id": "VIsmG1pMMgI"
+    }
+   ],
+   "categoryOptionGroups": [],
+   "userAccesses": [],
+   "legendSets": []
+  },
+  {
+   "code": "ENTO_PARTNERT",
+   "lastUpdated": "2020-04-14T19:28:22.283",
+   "id": "U9ryfMWEJwI",
+   "href": "https://extranet.who.int/dhis2/api/categoryOptions/U9ryfMWEJwI",
+   "created": "2019-03-19T14:46:57.651",
+   "name": "Partner",
+   "shortName": "Partner",
+   "displayName": "Partner",
+   "publicAccess": "--------",
+   "displayShortName": "Partner",
+   "externalAccess": false,
+   "dimensionItem": "U9ryfMWEJwI",
+   "isDefault": false,
+   "favorite": false,
+   "dimensionItemType": "CATEGORY_OPTION",
+   "access": {
+    "read": true,
+    "update": true,
+    "externalize": true,
+    "delete": true,
+    "write": true,
+    "manage": true,
+    "data": {
+     "read": true,
+     "write": true
+    }
+   },
+   "lastUpdatedBy": {
+    "id": "kD52FGwJgDF"
+   },
+   "user": {
+    "id": "I77r2A5xemt"
+   },
+   "favorites": [],
+   "translations": [
+    {
+     "property": "NAME",
+     "locale": "fr",
+     "value": "Partenaire"
+    },
+    {
+     "property": "SHORT_NAME",
+     "locale": "pr",
+     "value": "Parceiro"
+    },
+    {
+     "property": "NAME",
+     "locale": "es",
+     "value": "Colaborador"
+    },
+    {
+     "property": "SHORT_NAME",
+     "locale": "fr",
+     "value": "Partenaire"
+    },
+    {
+     "property": "NAME",
+     "locale": "pr",
+     "value": "Parceiro"
+    },
+    {
+     "property": "SHORT_NAME",
+     "locale": "es",
+     "value": "Colaborador"
+    }
+   ],
+   "categories": [
+    {
+     "id": "lIBiiq34QJE"
+    }
+   ],
+   "organisationUnits": [],
+   "userGroupAccesses": [
+    {
+     "access": "r-rw----",
+     "userGroupUid": "k25lFNtgiJw",
+     "displayName": "MAL_RegionRole",
+     "id": "k25lFNtgiJw"
+    },
+    {
+     "access": "r-rw----",
+     "userGroupUid": "ZXEVDM9XRea",
+     "displayName": "MAL_Malaria access",
+     "id": "ZXEVDM9XRea"
+    },
+    {
+     "access": "r-------",
+     "userGroupUid": "e752p4JZr7j",
+     "displayName": "MAL_HQ Data export",
+     "id": "e752p4JZr7j"
+    },
+    {
+     "access": "r-rw----",
+     "userGroupUid": "xdJjyqMxaZq",
+     "displayName": "MAL_CountryRole",
+     "id": "xdJjyqMxaZq"
+    },
+    {
+     "access": "r-rw----",
+     "userGroupUid": "npqzYHv7dIT",
+     "displayName": "MAL_IST Role",
+     "id": "npqzYHv7dIT"
+    },
+    {
+     "access": "rw------",
+     "userGroupUid": "suMb19wGXPR",
+     "displayName": "MAL_Malaria admin",
+     "id": "suMb19wGXPR"
+    },
+    {
+     "access": "r-------",
+     "userGroupUid": "IjkBBqf9MKt",
+     "displayName": "MAL_HQ WMR Reports",
+     "id": "IjkBBqf9MKt"
+    },
+    {
+     "access": "r-rw----",
+     "userGroupUid": "u8l4uj732QH",
+     "displayName": "MAL_Country Approver",
+     "id": "u8l4uj732QH"
+    }
+   ],
+   "attributeValues": [],
+   "categoryOptionCombos": [
+    {
+     "id": "OVcRgB8Fe13"
+    }
+   ],
+   "categoryOptionGroups": [],
+   "userAccesses": [],
+   "legendSets": []
+  },
+  {
+   "code": "ENTO_PUBLICATION",
+   "lastUpdated": "2020-04-14T19:28:22.283",
+   "id": "MFYaHarMqU1",
+   "href": "https://extranet.who.int/dhis2/api/categoryOptions/MFYaHarMqU1",
+   "created": "2019-03-19T14:46:57.652",
+   "name": "Publication",
+   "shortName": "Publication",
+   "displayName": "Publication",
+   "publicAccess": "--------",
+   "displayShortName": "Publication",
+   "externalAccess": false,
+   "dimensionItem": "MFYaHarMqU1",
+   "isDefault": false,
+   "favorite": false,
+   "dimensionItemType": "CATEGORY_OPTION",
+   "access": {
+    "read": true,
+    "update": true,
+    "externalize": true,
+    "delete": true,
+    "write": true,
+    "manage": true,
+    "data": {
+     "read": true,
+     "write": true
+    }
+   },
+   "lastUpdatedBy": {
+    "id": "kD52FGwJgDF"
+   },
+   "user": {
+    "id": "I77r2A5xemt"
+   },
+   "favorites": [],
+   "translations": [
+    {
+     "property": "SHORT_NAME",
+     "locale": "fr",
+     "value": "Publication"
+    },
+    {
+     "property": "NAME",
+     "locale": "es",
+     "value": "Publicación"
+    },
+    {
+     "property": "SHORT_NAME",
+     "locale": "es",
+     "value": "Publicación"
+    },
+    {
+     "property": "NAME",
+     "locale": "fr",
+     "value": "Publication"
+    },
+    {
+     "property": "SHORT_NAME",
+     "locale": "pt",
+     "value": "Publicação"
+    },
+    {
+     "property": "NAME",
+     "locale": "pt",
+     "value": "Publicação"
+    }
+   ],
+   "categories": [
+    {
+     "id": "lIBiiq34QJE"
+    }
+   ],
+   "organisationUnits": [],
+   "userGroupAccesses": [
+    {
+     "access": "r-rw----",
+     "userGroupUid": "k25lFNtgiJw",
+     "displayName": "MAL_RegionRole",
+     "id": "k25lFNtgiJw"
+    },
+    {
+     "access": "r-rw----",
+     "userGroupUid": "ZXEVDM9XRea",
+     "displayName": "MAL_Malaria access",
+     "id": "ZXEVDM9XRea"
+    },
+    {
+     "access": "r-------",
+     "userGroupUid": "e752p4JZr7j",
+     "displayName": "MAL_HQ Data export",
+     "id": "e752p4JZr7j"
+    },
+    {
+     "access": "r-rw----",
+     "userGroupUid": "xdJjyqMxaZq",
+     "displayName": "MAL_CountryRole",
+     "id": "xdJjyqMxaZq"
+    },
+    {
+     "access": "r-rw----",
+     "userGroupUid": "npqzYHv7dIT",
+     "displayName": "MAL_IST Role",
+     "id": "npqzYHv7dIT"
+    },
+    {
+     "access": "r-------",
+     "userGroupUid": "suMb19wGXPR",
+     "displayName": "MAL_Malaria admin",
+     "id": "suMb19wGXPR"
+    },
+    {
+     "access": "rw------",
+     "userGroupUid": "IjkBBqf9MKt",
+     "displayName": "MAL_HQ WMR Reports",
+     "id": "IjkBBqf9MKt"
+    },
+    {
+     "access": "r-rw----",
+     "userGroupUid": "u8l4uj732QH",
+     "displayName": "MAL_Country Approver",
+     "id": "u8l4uj732QH"
+    }
+   ],
+   "attributeValues": [],
+   "categoryOptionCombos": [
+    {
+     "id": "PR1plsTJJER"
+    }
+   ],
+   "categoryOptionGroups": [],
+   "userAccesses": [],
+   "legendSets": []
+  }
+ ]
+}
