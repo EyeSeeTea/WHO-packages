@@ -1,0 +1,4819 @@
+{
+    "date": "2020-05-27T11:21:11.070Z",
+    "dataSets": [
+        {
+            "metadataType": "dataSets",
+            "lastUpdated": "2020-02-05T11:08:40.539",
+            "id": "FnYgTt843G2",
+            "created": "2019-09-07T16:00:31.496",
+            "name": "ADMIN - Duty day platform administration - Daily",
+            "shortName": "ADMIN - Duty day platform administration",
+            "code": "ADMIN_DUTY_DS_DAILY",
+            "validCompleteOnly": false,
+            "publicAccess": "--------",
+            "skipOffline": false,
+            "compulsoryFieldsCompleteOnly": false,
+            "formType": "SECTION",
+            "version": 60,
+            "timelyDays": 15,
+            "favorite": false,
+            "dimensionItemType": "REPORTING_RATE",
+            "dataElementDecoration": false,
+            "displayName": "ADMIN - Duty day platform administration - Daily",
+            "notifyCompletingUser": false,
+            "noValueRequiresComment": false,
+            "displayShortName": "ADMIN - Duty day platform administration",
+            "externalAccess": false,
+            "fieldCombinationRequired": false,
+            "renderHorizontally": true,
+            "renderAsTabs": true,
+            "dimensionItem": "FnYgTt843G2",
+            "mobile": false,
+            "periodType": "Daily",
+            "openFuturePeriods": 8,
+            "expiryDays": 0,
+            "lastUpdatedBy": {
+                "id": "kD52FGwJgDF"
+            },
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true,
+                "data": {
+                    "read": true,
+                    "write": true
+                }
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "sFLQxZe72Ym"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "Dx70nNMP3mB"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "BCytw0TARJ0"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "nN6za0sVirK"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "mjDgqDPsT4J"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "pPyNTfJE0PG"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "UdVGMNKksVU"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "tCxs6EgMIo6"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "XtznMFZssKc"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "HF0iZZ0NqDE"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "DZmTHrT9JPg"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "crQfKtNHSHB"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "Em7yGYvgAU3"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "ulfI0WDmW92"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "fjMS4MkPcEQ"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "K9IzaTNqEXa"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "qpgGXrkTrgj"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "dnzBDLlnSZs"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "tHGRW9Zwyxh"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "CTbBS3ArglV"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "RsZWioTWyYa"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "CufSsSZAUme"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "F5cEZ7QM03v"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "vde072gdxKY"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "gfRkAIfJ2eO"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "kDL0aoZKYfV"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "EvRMsyVW63b"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "Dvx3NSCzImT"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "lXknxysDVIL"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "XrDIy4Gg3YR"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                }
+            ],
+            "translations": [],
+            "dataInputPeriods": [],
+            "interpretations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rwrw----",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "attributeValues": [],
+            "indicators": [],
+            "sections": [
+                {
+                    "id": "FAiD9yYVNUD"
+                },
+                {
+                    "id": "NuxyY2XJPhZ"
+                },
+                {
+                    "id": "aTewMAn9H4J"
+                },
+                {
+                    "id": "flhHBsC1cUi"
+                },
+                {
+                    "id": "DCs4RcHnJVE"
+                },
+                {
+                    "id": "d6i3UcpWuBG"
+                }
+            ],
+            "userAccesses": [],
+            "legendSets": [],
+            "favorites": [],
+            "compulsoryDataElementOperands": [],
+            "organisationUnits": [
+                {
+                    "id": "H8RixfF8ugH"
+                }
+            ]
+        }
+    ],
+    "dataElements": [
+        {
+            "metadataType": "dataElements",
+            "code": "ADMIN_DUTY_DE_STATUS_CLONING_LOGS",
+            "lastUpdated": "2019-09-16T06:15:34.954",
+            "id": "sFLQxZe72Ym",
+            "created": "2019-09-16T06:14:44.611",
+            "name": "ADMIN_DUTY_DE_STATUS_CLONING_LOGS",
+            "shortName": "ADMIN_DUTY_DE_STATUS_CLONING_LOGS",
+            "aggregationType": "NONE",
+            "domainType": "AGGREGATE",
+            "displayName": "ADMIN_DUTY_DE_STATUS_CLONING_LOGS",
+            "publicAccess": "--------",
+            "displayShortName": "ADMIN_DUTY_DE_STATUS_CLONING_LOGS",
+            "externalAccess": false,
+            "valueType": "LONG_TEXT",
+            "formName": "Error logs on the cloning of the instances",
+            "dimensionItem": "sFLQxZe72Ym",
+            "displayFormName": "Error logs on the cloning of the instances",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "Fkyud1WKXWo"
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "sFLQxZe72Ym"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "code": "ADMIN_DUTY_DE_ANALYTICS_COMMENTS",
+            "lastUpdated": "2019-09-12T09:30:16.748",
+            "id": "Dx70nNMP3mB",
+            "created": "2019-09-07T16:27:49.546",
+            "name": "ADMIN_DUTY_DE_ANALYTICS_COMMENTS",
+            "shortName": "ADMIN_DUTY_DE_ANALYTICS_COMMENTS",
+            "aggregationType": "NONE",
+            "domainType": "AGGREGATE",
+            "displayName": "ADMIN_DUTY_DE_ANALYTICS_COMMENTS",
+            "publicAccess": "--------",
+            "displayShortName": "ADMIN_DUTY_DE_ANALYTICS_COMMENTS",
+            "externalAccess": false,
+            "valueType": "LONG_TEXT",
+            "formName": "Comments about the analytics",
+            "dimensionItem": "Dx70nNMP3mB",
+            "displayFormName": "Comments about the analytics",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "Fkyud1WKXWo"
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "Dx70nNMP3mB"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "code": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_LOGS",
+            "lastUpdated": "2019-09-16T06:12:49.178",
+            "id": "BCytw0TARJ0",
+            "created": "2019-09-16T06:12:04.486",
+            "name": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_LOGS",
+            "shortName": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_LOGS",
+            "aggregationType": "NONE",
+            "domainType": "AGGREGATE",
+            "displayName": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_LOGS",
+            "publicAccess": "--------",
+            "displayShortName": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_LOGS",
+            "externalAccess": false,
+            "valueType": "LONG_TEXT",
+            "formName": "Error logs on database backup",
+            "dimensionItem": "BCytw0TARJ0",
+            "displayFormName": "Error logs on database backup",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "Fkyud1WKXWo"
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "BCytw0TARJ0"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "code": "ADMIN_DUTY_DE_TASKS_MAIL_RUN",
+            "lastUpdated": "2019-09-09T08:20:26.890",
+            "id": "nN6za0sVirK",
+            "created": "2019-09-07T16:29:39.215",
+            "name": "ADMIN_DUTY_DE_TASKS_MAIL_RUN",
+            "shortName": "ADMIN_DUTY_DE_TASKS_MAIL_RUN",
+            "aggregationType": "NONE",
+            "domainType": "AGGREGATE",
+            "displayName": "ADMIN_DUTY_DE_TASKS_MAIL_RUN",
+            "publicAccess": "--------",
+            "displayShortName": "ADMIN_DUTY_DE_TASKS_MAIL_RUN",
+            "externalAccess": false,
+            "valueType": "TRUE_ONLY",
+            "formName": "Did you check the integrated mailbox?",
+            "dimensionItem": "nN6za0sVirK",
+            "displayFormName": "Did you check the integrated mailbox?",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "nN6za0sVirK"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "code": "ADMIN_DUTY_DE_ANALYTICS_RUN",
+            "lastUpdated": "2019-09-12T09:27:29.766",
+            "id": "mjDgqDPsT4J",
+            "created": "2019-09-07T16:24:19.762",
+            "name": "ADMIN_DUTY_DE_ANALYTICS_RUN",
+            "shortName": "ADMIN_DUTY_DE_ANALYTICS_RUN",
+            "aggregationType": "NONE",
+            "domainType": "AGGREGATE",
+            "displayName": "ADMIN_DUTY_DE_ANALYTICS_RUN",
+            "publicAccess": "--------",
+            "displayShortName": "ADMIN_DUTY_DE_ANALYTICS_RUN",
+            "externalAccess": false,
+            "valueType": "TRUE_ONLY",
+            "formName": "Did you check the analytics status?",
+            "dimensionItem": "mjDgqDPsT4J",
+            "displayFormName": "Did you check the analytics status?",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "Fkyud1WKXWo"
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "mjDgqDPsT4J"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "code": "ADMIN_DUTY_DE_TASKS_CLOSE_COMMENT",
+            "lastUpdated": "2019-09-09T08:20:26.891",
+            "id": "pPyNTfJE0PG",
+            "created": "2019-09-07T16:33:20.750",
+            "name": "ADMIN_DUTY_DE_TASKS_CLOSE_COMMENT",
+            "shortName": "ADMIN_DUTY_DE_TASKS_CLOSE_COMMENT",
+            "aggregationType": "NONE",
+            "domainType": "AGGREGATE",
+            "displayName": "ADMIN_DUTY_DE_TASKS_CLOSE_COMMENT",
+            "publicAccess": "--------",
+            "displayShortName": "ADMIN_DUTY_DE_TASKS_CLOSE_COMMENT",
+            "externalAccess": false,
+            "valueType": "LONG_TEXT",
+            "formName": "Comments about the issues that should be closed (30 days) on redmine",
+            "dimensionItem": "pPyNTfJE0PG",
+            "displayFormName": "Comments about the issues that should be closed (30 days) on redmine",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "pPyNTfJE0PG"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "code": "ADMIN_DUTY_DE_TASKS_RESOLVED_RUN",
+            "lastUpdated": "2019-09-09T08:20:26.887",
+            "id": "UdVGMNKksVU",
+            "created": "2019-09-07T16:32:08.443",
+            "name": "ADMIN_DUTY_DE_TASKS_RESOLVED_RUN",
+            "shortName": "ADMIN_DUTY_DE_TASKS_RESOLVED_RUN",
+            "aggregationType": "NONE",
+            "domainType": "AGGREGATE",
+            "displayName": "ADMIN_DUTY_DE_TASKS_RESOLVED_RUN",
+            "publicAccess": "--------",
+            "displayShortName": "ADMIN_DUTY_DE_TASKS_RESOLVED_RUN",
+            "externalAccess": false,
+            "valueType": "TRUE_ONLY",
+            "formName": "Did you review the resolved issues on redmine?",
+            "dimensionItem": "UdVGMNKksVU",
+            "displayFormName": "Did you review the resolved issues on redmine?",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "UdVGMNKksVU"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "code": "ADMIN_DUTY_DE_TASKS_MAIL_COMMENT",
+            "lastUpdated": "2019-09-09T08:20:26.887",
+            "id": "tCxs6EgMIo6",
+            "created": "2019-09-07T16:30:08.001",
+            "name": "ADMIN_DUTY_DE_TASKS_MAIL_COMMENT",
+            "shortName": "ADMIN_DUTY_DE_TASKS_MAIL_COMMENT",
+            "aggregationType": "NONE",
+            "domainType": "AGGREGATE",
+            "displayName": "ADMIN_DUTY_DE_TASKS_MAIL_COMMENT",
+            "publicAccess": "--------",
+            "displayShortName": "ADMIN_DUTY_DE_TASKS_MAIL_COMMENT",
+            "externalAccess": false,
+            "valueType": "LONG_TEXT",
+            "formName": "Comments about the integrated mailbox",
+            "dimensionItem": "tCxs6EgMIo6",
+            "displayFormName": "Comments about the integrated mailbox",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "tCxs6EgMIo6"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "code": "ADMIN_DUTY_DE_GENERAL_COMMENTS",
+            "lastUpdated": "2019-09-09T08:20:26.890",
+            "id": "XtznMFZssKc",
+            "created": "2019-09-07T16:07:03.672",
+            "name": "ADMIN_DUTY_DE_GENERAL_COMMENTS",
+            "shortName": "ADMIN_DUTY_DE_GENERAL_COMMENTS",
+            "aggregationType": "NONE",
+            "domainType": "AGGREGATE",
+            "displayName": "ADMIN_DUTY_DE_GENERAL_COMMENTS",
+            "publicAccess": "--------",
+            "displayShortName": "ADMIN_DUTY_DE_GENERAL_COMMENTS",
+            "externalAccess": false,
+            "valueType": "LONG_TEXT",
+            "formName": "Comments of the duty day",
+            "dimensionItem": "XtznMFZssKc",
+            "displayFormName": "Comments of the duty day",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "XtznMFZssKc"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "code": "ADMIN_DUTY_DE_TASKS_PUBLIC_OBJECTS_COUNT",
+            "lastUpdated": "2020-04-13T10:04:43.442",
+            "id": "HF0iZZ0NqDE",
+            "created": "2020-02-05T11:05:29.726",
+            "name": "ADMIN_DUTY_DE_TASKS_PUBLIC_OBJECTS_COUNT",
+            "shortName": "ADMIN_DUTY_DE_TASKS_PUBLIC_OBJECTS_COUNT",
+            "aggregationType": "NONE",
+            "domainType": "AGGREGATE",
+            "displayName": "ADMIN_DUTY_DE_TASKS_PUBLIC_OBJECTS_COUNT",
+            "publicAccess": "--------",
+            "displayShortName": "ADMIN_DUTY_DE_TASKS_PUBLIC_OBJECTS_COUNT",
+            "externalAccess": false,
+            "valueType": "NUMBER",
+            "formName": "Number of public objects",
+            "dimensionItem": "HF0iZZ0NqDE",
+            "displayFormName": "Number of public objects",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "Fkyud1WKXWo"
+            },
+            "lastUpdatedBy": {
+                "id": "kD52FGwJgDF"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "HF0iZZ0NqDE"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "code": "ADMIN_DUTY_DE_GENERAL_ASSIGNEE",
+            "lastUpdated": "2019-09-09T08:20:26.889",
+            "id": "DZmTHrT9JPg",
+            "created": "2019-09-07T16:05:25.606",
+            "name": "ADMIN_DUTY_DE_GENERAL_ASSIGNEE",
+            "shortName": "ADMIN_DUTY_DE_GENERAL_ASSIGNEE",
+            "aggregationType": "NONE",
+            "domainType": "AGGREGATE",
+            "displayName": "ADMIN_DUTY_DE_GENERAL_ASSIGNEE",
+            "publicAccess": "--------",
+            "displayShortName": "ADMIN_DUTY_DE_GENERAL_ASSIGNEE",
+            "externalAccess": false,
+            "valueType": "TEXT",
+            "formName": "Assignee of the duty day",
+            "dimensionItem": "DZmTHrT9JPg",
+            "displayFormName": "Assignee of the duty day",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": true,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "wsWZHTuG77p"
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "DZmTHrT9JPg"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "code": "ADMIN_DUTY_DE_ANALYTICS_CORRECTLY_DASHBOARD",
+            "lastUpdated": "2019-09-12T09:26:00.926",
+            "id": "crQfKtNHSHB",
+            "created": "2019-09-12T09:26:00.926",
+            "name": "ADMIN_DUTY_DE_ANALYTICS_CORRECTLY_DASHBOARD",
+            "shortName": "ADMIN_DUTY_DE_ANALYTICS_CORRECTLY_DASHBOARD",
+            "aggregationType": "NONE",
+            "domainType": "AGGREGATE",
+            "displayName": "ADMIN_DUTY_DE_ANALYTICS_CORRECTLY_DASHBOARD",
+            "publicAccess": "--------",
+            "displayShortName": "ADMIN_DUTY_DE_ANALYTICS_CORRECTLY_DASHBOARD",
+            "externalAccess": false,
+            "valueType": "TRUE_ONLY",
+            "formName": "Did the analytics run as per the dashboard? ",
+            "dimensionItem": "crQfKtNHSHB",
+            "displayFormName": "Did the analytics run as per the dashboard? ",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "Fkyud1WKXWo"
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "crQfKtNHSHB"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "code": "ADMIN_DUTY_DE_TASKS_CLOSE_RUN",
+            "lastUpdated": "2019-09-09T08:20:26.888",
+            "id": "Em7yGYvgAU3",
+            "created": "2019-09-07T16:33:45.824",
+            "name": "ADMIN_DUTY_DE_TASKS_CLOSE_RUN",
+            "shortName": "ADMIN_DUTY_DE_TASKS_CLOSE_RUN",
+            "aggregationType": "NONE",
+            "domainType": "AGGREGATE",
+            "displayName": "ADMIN_DUTY_DE_TASKS_CLOSE_RUN",
+            "publicAccess": "--------",
+            "displayShortName": "ADMIN_DUTY_DE_TASKS_CLOSE_RUN",
+            "externalAccess": false,
+            "valueType": "TRUE_ONLY",
+            "formName": "Did you assign the issues that should be closed (30 days) on redmine?",
+            "dimensionItem": "Em7yGYvgAU3",
+            "displayFormName": "Did you assign the issues that should be closed (30 days) on redmine?",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "Em7yGYvgAU3"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "code": "ADMIN_DUTY_DE_TASKS_PUBLIC_OBJECTS_COMMENT",
+            "lastUpdated": "2020-04-13T10:04:31.030",
+            "id": "ulfI0WDmW92",
+            "created": "2020-02-05T11:06:05.458",
+            "name": "ADMIN_DUTY_DE_TASKS_PUBLIC_OBJECTS_COMMENT",
+            "shortName": "ADMIN_DUTY_DE_TASKS_PUBLIC_OBJECTS_COMMENT",
+            "aggregationType": "NONE",
+            "domainType": "AGGREGATE",
+            "displayName": "ADMIN_DUTY_DE_TASKS_PUBLIC_OBJECTS_COMMENT",
+            "publicAccess": "--------",
+            "displayShortName": "ADMIN_DUTY_DE_TASKS_PUBLIC_OBJECTS_COMMENT",
+            "externalAccess": false,
+            "valueType": "LONG_TEXT",
+            "formName": "Comments about the public objects",
+            "dimensionItem": "ulfI0WDmW92",
+            "displayFormName": "Comments about the public objects",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "Fkyud1WKXWo"
+            },
+            "lastUpdatedBy": {
+                "id": "kD52FGwJgDF"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "ulfI0WDmW92"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "code": "ADMIN_DUTY_DE_STATUS_SERVER_UP",
+            "lastUpdated": "2019-09-09T08:20:26.889",
+            "id": "fjMS4MkPcEQ",
+            "created": "2019-09-07T16:20:22.633",
+            "name": "ADMIN_DUTY_DE_STATUS_SERVER_UP",
+            "shortName": "ADMIN_DUTY_DE_STATUS_SERVER_UP",
+            "aggregationType": "NONE",
+            "domainType": "AGGREGATE",
+            "displayName": "ADMIN_DUTY_DE_STATUS_SERVER_UP",
+            "publicAccess": "--------",
+            "displayShortName": "ADMIN_DUTY_DE_STATUS_SERVER_UP",
+            "externalAccess": false,
+            "valueType": "TRUE_ONLY",
+            "formName": "Is the instance up and running?",
+            "dimensionItem": "fjMS4MkPcEQ",
+            "displayFormName": "Is the instance up and running?",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "Fkyud1WKXWo"
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "fjMS4MkPcEQ"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "code": "ADMIN_DUTY_DE_STATUS_CLONING_DONE",
+            "lastUpdated": "2019-09-16T06:15:15.566",
+            "id": "K9IzaTNqEXa",
+            "created": "2019-09-16T06:15:15.566",
+            "name": "ADMIN_DUTY_DE_STATUS_CLONING_DONE",
+            "shortName": "ADMIN_DUTY_DE_STATUS_CLONING_DONE",
+            "aggregationType": "NONE",
+            "domainType": "AGGREGATE",
+            "displayName": "ADMIN_DUTY_DE_STATUS_CLONING_DONE",
+            "publicAccess": "--------",
+            "displayShortName": "ADMIN_DUTY_DE_STATUS_CLONING_DONE",
+            "externalAccess": false,
+            "valueType": "TRUE_ONLY",
+            "formName": "Did you check the cloning of the instance?",
+            "dimensionItem": "K9IzaTNqEXa",
+            "displayFormName": "Did you check the cloning of the instance?",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "Fkyud1WKXWo"
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "K9IzaTNqEXa"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "code": "ADMIN_DUTY_DE_ANALYTICS_LOGS",
+            "lastUpdated": "2019-09-12T09:31:27.018",
+            "id": "qpgGXrkTrgj",
+            "created": "2019-09-12T09:31:27.018",
+            "name": "ADMIN_DUTY_DE_ANALYTICS_LOGS",
+            "shortName": "ADMIN_DUTY_DE_ANALYTICS_LOGS",
+            "aggregationType": "NONE",
+            "domainType": "AGGREGATE",
+            "displayName": "ADMIN_DUTY_DE_ANALYTICS_LOGS",
+            "publicAccess": "--------",
+            "displayShortName": "ADMIN_DUTY_DE_ANALYTICS_LOGS",
+            "externalAccess": false,
+            "valueType": "LONG_TEXT",
+            "formName": "Relevant logs of the analytics run",
+            "dimensionItem": "qpgGXrkTrgj",
+            "displayFormName": "Relevant logs of the analytics run",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "Fkyud1WKXWo"
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "qpgGXrkTrgj"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "code": "ADMIN_DUTY_DE_TASKS_RESOLVED_COMMENT",
+            "lastUpdated": "2019-09-09T08:20:26.886",
+            "id": "dnzBDLlnSZs",
+            "created": "2019-09-07T16:31:37.739",
+            "name": "ADMIN_DUTY_DE_TASKS_RESOLVED_COMMENT",
+            "shortName": "ADMIN_DUTY_DE_TASKS_RESOLVED_COMMENT",
+            "aggregationType": "NONE",
+            "domainType": "AGGREGATE",
+            "displayName": "ADMIN_DUTY_DE_TASKS_RESOLVED_COMMENT",
+            "publicAccess": "--------",
+            "displayShortName": "ADMIN_DUTY_DE_TASKS_RESOLVED_COMMENT",
+            "externalAccess": false,
+            "valueType": "LONG_TEXT",
+            "formName": "Comments about the resolved issues on redmine",
+            "dimensionItem": "dnzBDLlnSZs",
+            "displayFormName": "Comments about the resolved issues on redmine",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "dnzBDLlnSZs"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "code": "ADMIN_DUTY_DE_ANALYTICS_EXECUTION",
+            "lastUpdated": "2019-09-12T09:27:51.256",
+            "id": "tHGRW9Zwyxh",
+            "created": "2019-09-07T16:27:04.436",
+            "name": "ADMIN_DUTY_DE_ANALYTICS_EXECUTION",
+            "shortName": "ADMIN_DUTY_DE_ANALYTICS_EXECUTION",
+            "aggregationType": "NONE",
+            "domainType": "AGGREGATE",
+            "displayName": "ADMIN_DUTY_DE_ANALYTICS_EXECUTION",
+            "publicAccess": "--------",
+            "displayShortName": "ADMIN_DUTY_DE_ANALYTICS_EXECUTION",
+            "externalAccess": false,
+            "valueType": "TEXT",
+            "formName": "How did the analytics run?",
+            "dimensionItem": "tHGRW9Zwyxh",
+            "displayFormName": "How did the analytics run?",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": true,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "YFZsozOszeV"
+            },
+            "categoryCombo": {
+                "id": "Fkyud1WKXWo"
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "tHGRW9Zwyxh"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "code": "ADMIN_DUTY_DE_ANALYTICS_CORRECTLY_LOGS",
+            "lastUpdated": "2019-09-12T09:26:12.419",
+            "id": "CTbBS3ArglV",
+            "created": "2019-09-12T09:13:35.840",
+            "name": "ADMIN_DUTY_DE_ANALYTICS_CORRECTLY_LOGS",
+            "shortName": "ADMIN_DUTY_DE_ANALYTICS_CORRECTLY_LOGS",
+            "aggregationType": "NONE",
+            "domainType": "AGGREGATE",
+            "displayName": "ADMIN_DUTY_DE_ANALYTICS_CORRECTLY_LOGS",
+            "publicAccess": "--------",
+            "displayShortName": "ADMIN_DUTY_DE_ANALYTICS_CORRECTLY_LOGS",
+            "externalAccess": false,
+            "valueType": "TRUE_ONLY",
+            "formName": "Did the analytics run as per the logs? ",
+            "dimensionItem": "CTbBS3ArglV",
+            "displayFormName": "Did the analytics run as per the logs? ",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "Fkyud1WKXWo"
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "CTbBS3ArglV"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "code": "ADMIN_DUTY_DE_STATUS_COMMENTS",
+            "lastUpdated": "2019-09-09T08:20:26.886",
+            "id": "RsZWioTWyYa",
+            "created": "2019-09-07T16:22:12.647",
+            "name": "ADMIN_DUTY_DE_STATUS_COMMENTS",
+            "shortName": "ADMIN_DUTY_DE_STATUS_COMMENTS",
+            "aggregationType": "NONE",
+            "domainType": "AGGREGATE",
+            "displayName": "ADMIN_DUTY_DE_STATUS_COMMENTS",
+            "publicAccess": "--------",
+            "displayShortName": "ADMIN_DUTY_DE_STATUS_COMMENTS",
+            "externalAccess": false,
+            "valueType": "LONG_TEXT",
+            "formName": "Comments about the server status",
+            "dimensionItem": "RsZWioTWyYa",
+            "displayFormName": "Comments about the server status",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "Fkyud1WKXWo"
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "RsZWioTWyYa"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "code": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_DONE",
+            "lastUpdated": "2019-09-16T06:11:22.559",
+            "id": "CufSsSZAUme",
+            "created": "2019-09-16T06:11:22.559",
+            "name": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_DONE",
+            "shortName": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_DONE",
+            "aggregationType": "NONE",
+            "domainType": "AGGREGATE",
+            "displayName": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_DONE",
+            "publicAccess": "--------",
+            "displayShortName": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_DONE",
+            "externalAccess": false,
+            "valueType": "TRUE_ONLY",
+            "formName": "Did you check the database backup?",
+            "dimensionItem": "CufSsSZAUme",
+            "displayFormName": "Did you check the database backup?",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "Fkyud1WKXWo"
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "CufSsSZAUme"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "code": "ADMIN_DUTY_DE_STATUS_FAILURE_COUNT",
+            "lastUpdated": "2019-09-12T09:48:36.332",
+            "id": "F5cEZ7QM03v",
+            "created": "2019-09-07T16:21:16.224",
+            "name": "ADMIN_DUTY_DE_STATUS_FAILURE_COUNT",
+            "shortName": "ADMIN_DUTY_DE_STATUS_FAILURE_COUNT",
+            "aggregationType": "NONE",
+            "domainType": "AGGREGATE",
+            "displayName": "ADMIN_DUTY_DE_STATUS_FAILURE_COUNT",
+            "publicAccess": "--------",
+            "displayShortName": "ADMIN_DUTY_DE_STATUS_FAILURE_COUNT",
+            "externalAccess": false,
+            "valueType": "INTEGER_ZERO_OR_POSITIVE",
+            "formName": "Number of failures in the current day",
+            "dimensionItem": "F5cEZ7QM03v",
+            "displayFormName": "Number of failures in the current day",
+            "zeroIsSignificant": true,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "Fkyud1WKXWo"
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "F5cEZ7QM03v"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "code": "ADMIN_DUTY_DE_TASKS_BACKLOG_COMMENT",
+            "lastUpdated": "2019-09-09T08:20:26.887",
+            "id": "vde072gdxKY",
+            "created": "2019-09-07T16:31:13.785",
+            "name": "ADMIN_DUTY_DE_TASKS_BACKLOG_COMMENT",
+            "shortName": "ADMIN_DUTY_DE_TASKS_BACKLOG_COMMENT",
+            "aggregationType": "NONE",
+            "domainType": "AGGREGATE",
+            "displayName": "ADMIN_DUTY_DE_TASKS_BACKLOG_COMMENT",
+            "publicAccess": "--------",
+            "displayShortName": "ADMIN_DUTY_DE_TASKS_BACKLOG_COMMENT",
+            "externalAccess": false,
+            "valueType": "LONG_TEXT",
+            "formName": "Comments about the backlog issues on redmine",
+            "dimensionItem": "vde072gdxKY",
+            "displayFormName": "Comments about the backlog issues on redmine",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "vde072gdxKY"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "code": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_COMMENTS",
+            "lastUpdated": "2019-09-16T06:12:35.695",
+            "id": "gfRkAIfJ2eO",
+            "created": "2019-09-16T06:12:35.695",
+            "name": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_COMMENTS",
+            "shortName": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_COMMENTS",
+            "aggregationType": "NONE",
+            "domainType": "AGGREGATE",
+            "displayName": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_COMMENTS",
+            "publicAccess": "--------",
+            "displayShortName": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_COMMENTS",
+            "externalAccess": false,
+            "valueType": "LONG_TEXT",
+            "formName": "Comments on database backup",
+            "dimensionItem": "gfRkAIfJ2eO",
+            "displayFormName": "Comments on database backup",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "Fkyud1WKXWo"
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "gfRkAIfJ2eO"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "code": "ADMIN_DUTY_DE_STATUS_FAILURE_LOGS",
+            "lastUpdated": "2019-09-09T08:20:26.891",
+            "id": "kDL0aoZKYfV",
+            "created": "2019-09-07T16:21:58.469",
+            "name": "ADMIN_DUTY_DE_STATUS_FAILURE_LOGS",
+            "shortName": "ADMIN_DUTY_DE_STATUS_FAILURE_LOGS",
+            "aggregationType": "NONE",
+            "domainType": "AGGREGATE",
+            "displayName": "ADMIN_DUTY_DE_STATUS_FAILURE_LOGS",
+            "publicAccess": "--------",
+            "displayShortName": "ADMIN_DUTY_DE_STATUS_FAILURE_LOGS",
+            "externalAccess": false,
+            "valueType": "LONG_TEXT",
+            "formName": "Failure logs",
+            "dimensionItem": "kDL0aoZKYfV",
+            "displayFormName": "Failure logs",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "Fkyud1WKXWo"
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "kDL0aoZKYfV"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "code": "ADMIN_DUTY_DE_GENERAL_PENDING_TASKS",
+            "lastUpdated": "2019-09-09T08:20:26.888",
+            "id": "EvRMsyVW63b",
+            "created": "2019-09-07T16:10:19.581",
+            "name": "ADMIN_DUTY_DE_GENERAL_PENDING_TASKS",
+            "shortName": "ADMIN_DUTY_DE_GENERAL_PENDING_TASKS",
+            "aggregationType": "NONE",
+            "domainType": "AGGREGATE",
+            "displayName": "ADMIN_DUTY_DE_GENERAL_PENDING_TASKS",
+            "publicAccess": "--------",
+            "displayShortName": "ADMIN_DUTY_DE_GENERAL_PENDING_TASKS",
+            "externalAccess": false,
+            "valueType": "LONG_TEXT",
+            "formName": "Pending tasks of the duty day",
+            "dimensionItem": "EvRMsyVW63b",
+            "displayFormName": "Pending tasks of the duty day",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "EvRMsyVW63b"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "code": "ADMIN_DUTY_DE_TASKS_PUBLIC_OBJECTS_CHK",
+            "lastUpdated": "2020-04-13T10:04:12.137",
+            "id": "Dvx3NSCzImT",
+            "created": "2020-02-05T11:04:52.379",
+            "name": "ADMIN_DUTY_DE_TASKS_PUBLIC_OBJECTS_CHK",
+            "shortName": "ADMIN_DUTY_DE_TASKS_PUBLIC_OBJECTS_CHK",
+            "aggregationType": "NONE",
+            "domainType": "AGGREGATE",
+            "displayName": "ADMIN_DUTY_DE_TASKS_PUBLIC_OBJECTS_CHK",
+            "publicAccess": "--------",
+            "displayShortName": "ADMIN_DUTY_DE_TASKS_PUBLIC_OBJECTS_CHK",
+            "externalAccess": false,
+            "valueType": "TRUE_ONLY",
+            "formName": "Did you check the public objects?",
+            "dimensionItem": "Dvx3NSCzImT",
+            "displayFormName": "Did you check the public objects?",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "Fkyud1WKXWo"
+            },
+            "lastUpdatedBy": {
+                "id": "kD52FGwJgDF"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "Dvx3NSCzImT"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "code": "ADMIN_DUTY_DE_TASKS_BACKLOG_RUN",
+            "lastUpdated": "2019-09-09T08:20:26.891",
+            "id": "lXknxysDVIL",
+            "created": "2019-09-07T16:30:52.035",
+            "name": "ADMIN_DUTY_DE_TASKS_BACKLOG_RUN",
+            "shortName": "ADMIN_DUTY_DE_TASKS_BACKLOG_RUN",
+            "aggregationType": "NONE",
+            "domainType": "AGGREGATE",
+            "displayName": "ADMIN_DUTY_DE_TASKS_BACKLOG_RUN",
+            "publicAccess": "--------",
+            "displayShortName": "ADMIN_DUTY_DE_TASKS_BACKLOG_RUN",
+            "externalAccess": false,
+            "valueType": "TRUE_ONLY",
+            "formName": "Did you assign the backlog issues on redmine?",
+            "dimensionItem": "lXknxysDVIL",
+            "displayFormName": "Did you assign the backlog issues on redmine?",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "lXknxysDVIL"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "code": "ADMIN_DUTY_DE_STATUS_CLONING_COMMENTS",
+            "lastUpdated": "2019-09-16T06:15:46.676",
+            "id": "XrDIy4Gg3YR",
+            "created": "2019-09-16T06:14:07.937",
+            "name": "ADMIN_DUTY_DE_STATUS_CLONING_COMMENTS",
+            "shortName": "ADMIN_DUTY_DE_STATUS_CLONING_COMMENTS",
+            "aggregationType": "NONE",
+            "domainType": "AGGREGATE",
+            "displayName": "ADMIN_DUTY_DE_STATUS_CLONING_COMMENTS",
+            "publicAccess": "--------",
+            "displayShortName": "ADMIN_DUTY_DE_STATUS_CLONING_COMMENTS",
+            "externalAccess": false,
+            "valueType": "LONG_TEXT",
+            "formName": "Comments on the cloning of the instances",
+            "dimensionItem": "XrDIy4Gg3YR",
+            "displayFormName": "Comments on the cloning of the instances",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "Fkyud1WKXWo"
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "XrDIy4Gg3YR"
+                    },
+                    "dataSet": {
+                        "id": "FnYgTt843G2"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        }
+    ],
+    "sections": [
+        {
+            "metadataType": "sections",
+            "code": "ADMIN_DUTY_SECTION_GENERAL",
+            "lastUpdated": "2019-10-10T12:46:25.912",
+            "id": "FAiD9yYVNUD",
+            "created": "2019-09-07T16:08:14.045",
+            "name": "General",
+            "displayName": "General",
+            "externalAccess": false,
+            "showColumnTotals": false,
+            "sortOrder": 1,
+            "showRowTotals": false,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "dataSet": {
+                "id": "FnYgTt843G2"
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "greyedFields": [],
+            "translations": [],
+            "categoryCombos": [],
+            "dataElements": [
+                {
+                    "id": "DZmTHrT9JPg"
+                },
+                {
+                    "id": "XtznMFZssKc"
+                },
+                {
+                    "id": "EvRMsyVW63b"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicators": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "sections",
+            "code": "ADMIN_DUTY_SECTION_SERVER_STATUS",
+            "lastUpdated": "2020-04-30T09:19:46.151",
+            "id": "NuxyY2XJPhZ",
+            "created": "2019-09-07T16:08:45.341",
+            "name": "Server status",
+            "displayName": "Server status",
+            "externalAccess": false,
+            "showColumnTotals": false,
+            "sortOrder": 2,
+            "showRowTotals": false,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "dataSet": {
+                "id": "FnYgTt843G2"
+            },
+            "lastUpdatedBy": {
+                "id": "kD52FGwJgDF"
+            },
+            "favorites": [],
+            "greyedFields": [
+                {
+                    "lastUpdated": "2020-05-27T13:21:06.599",
+                    "id": "CufSsSZAUme.SvcP5ROAff3",
+                    "created": "2020-05-27T13:21:06.599",
+                    "name": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_DONE WHO_MALARIA",
+                    "shortName": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_DONE WHO_MALARIA",
+                    "displayName": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_DONE WHO_MALARIA",
+                    "displayShortName": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_DONE WHO_MALARIA",
+                    "externalAccess": false,
+                    "dimensionItem": "CufSsSZAUme.SvcP5ROAff3",
+                    "favorite": false,
+                    "dimensionItemType": "DATA_ELEMENT_OPERAND",
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "categoryOptionCombo": {
+                        "id": "SvcP5ROAff3"
+                    },
+                    "dataElement": {
+                        "id": "CufSsSZAUme"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "legendSets": []
+                },
+                {
+                    "lastUpdated": "2020-05-27T13:21:06.599",
+                    "id": "XrDIy4Gg3YR.jnNy9wEOvyu",
+                    "created": "2020-05-27T13:21:06.599",
+                    "name": "ADMIN_DUTY_DE_STATUS_CLONING_COMMENTS WHO_PREPROD-VIS",
+                    "shortName": "ADMIN_DUTY_DE_STATUS_CLONING_COMMENTS WHO_PREPROD-VIS",
+                    "displayName": "ADMIN_DUTY_DE_STATUS_CLONING_COMMENTS WHO_PREPROD-VIS",
+                    "displayShortName": "ADMIN_DUTY_DE_STATUS_CLONING_COMMENTS WHO_PREPROD-VIS",
+                    "externalAccess": false,
+                    "dimensionItem": "XrDIy4Gg3YR.jnNy9wEOvyu",
+                    "favorite": false,
+                    "dimensionItemType": "DATA_ELEMENT_OPERAND",
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "categoryOptionCombo": {
+                        "id": "jnNy9wEOvyu"
+                    },
+                    "dataElement": {
+                        "id": "XrDIy4Gg3YR"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "legendSets": []
+                },
+                {
+                    "lastUpdated": "2020-05-27T13:21:06.599",
+                    "id": "gfRkAIfJ2eO.SvcP5ROAff3",
+                    "created": "2020-05-27T13:21:06.599",
+                    "name": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_COMMENTS WHO_MALARIA",
+                    "shortName": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_COMMENTS WHO_MALARIA",
+                    "displayName": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_COMMENTS WHO_MALARIA",
+                    "displayShortName": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_COMMENTS WHO_MALARIA",
+                    "externalAccess": false,
+                    "dimensionItem": "gfRkAIfJ2eO.SvcP5ROAff3",
+                    "favorite": false,
+                    "dimensionItemType": "DATA_ELEMENT_OPERAND",
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "categoryOptionCombo": {
+                        "id": "SvcP5ROAff3"
+                    },
+                    "dataElement": {
+                        "id": "gfRkAIfJ2eO"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "legendSets": []
+                },
+                {
+                    "lastUpdated": "2020-05-27T13:21:06.599",
+                    "id": "gfRkAIfJ2eO.jnNy9wEOvyu",
+                    "created": "2020-05-27T13:21:06.599",
+                    "name": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_COMMENTS WHO_PREPROD-VIS",
+                    "shortName": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_COMMENTS WHO_PREPROD-VIS",
+                    "displayName": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_COMMENTS WHO_PREPROD-VIS",
+                    "displayShortName": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_COMMENTS WHO_PREPROD-VIS",
+                    "externalAccess": false,
+                    "dimensionItem": "gfRkAIfJ2eO.jnNy9wEOvyu",
+                    "favorite": false,
+                    "dimensionItemType": "DATA_ELEMENT_OPERAND",
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "categoryOptionCombo": {
+                        "id": "jnNy9wEOvyu"
+                    },
+                    "dataElement": {
+                        "id": "gfRkAIfJ2eO"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "legendSets": []
+                },
+                {
+                    "lastUpdated": "2020-05-27T13:21:06.599",
+                    "id": "F5cEZ7QM03v.SvcP5ROAff3",
+                    "created": "2020-05-27T13:21:06.599",
+                    "name": "ADMIN_DUTY_DE_STATUS_FAILURE_COUNT WHO_MALARIA",
+                    "shortName": "ADMIN_DUTY_DE_STATUS_FAILURE_COUNT WHO_MALARIA",
+                    "displayName": "ADMIN_DUTY_DE_STATUS_FAILURE_COUNT WHO_MALARIA",
+                    "displayShortName": "ADMIN_DUTY_DE_STATUS_FAILURE_COUNT WHO_MALARIA",
+                    "externalAccess": false,
+                    "dimensionItem": "F5cEZ7QM03v.SvcP5ROAff3",
+                    "favorite": false,
+                    "dimensionItemType": "DATA_ELEMENT_OPERAND",
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "categoryOptionCombo": {
+                        "id": "SvcP5ROAff3"
+                    },
+                    "dataElement": {
+                        "id": "F5cEZ7QM03v"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "legendSets": []
+                },
+                {
+                    "lastUpdated": "2020-05-27T13:21:06.599",
+                    "id": "RsZWioTWyYa.jnNy9wEOvyu",
+                    "created": "2020-05-27T13:21:06.599",
+                    "name": "ADMIN_DUTY_DE_STATUS_COMMENTS WHO_PREPROD-VIS",
+                    "shortName": "ADMIN_DUTY_DE_STATUS_COMMENTS WHO_PREPROD-VIS",
+                    "displayName": "ADMIN_DUTY_DE_STATUS_COMMENTS WHO_PREPROD-VIS",
+                    "displayShortName": "ADMIN_DUTY_DE_STATUS_COMMENTS WHO_PREPROD-VIS",
+                    "externalAccess": false,
+                    "dimensionItem": "RsZWioTWyYa.jnNy9wEOvyu",
+                    "favorite": false,
+                    "dimensionItemType": "DATA_ELEMENT_OPERAND",
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "categoryOptionCombo": {
+                        "id": "jnNy9wEOvyu"
+                    },
+                    "dataElement": {
+                        "id": "RsZWioTWyYa"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "legendSets": []
+                },
+                {
+                    "lastUpdated": "2020-05-27T13:21:06.599",
+                    "id": "fjMS4MkPcEQ.SvcP5ROAff3",
+                    "created": "2020-05-27T13:21:06.599",
+                    "name": "ADMIN_DUTY_DE_STATUS_SERVER_UP WHO_MALARIA",
+                    "shortName": "ADMIN_DUTY_DE_STATUS_SERVER_UP WHO_MALARIA",
+                    "displayName": "ADMIN_DUTY_DE_STATUS_SERVER_UP WHO_MALARIA",
+                    "displayShortName": "ADMIN_DUTY_DE_STATUS_SERVER_UP WHO_MALARIA",
+                    "externalAccess": false,
+                    "dimensionItem": "fjMS4MkPcEQ.SvcP5ROAff3",
+                    "favorite": false,
+                    "dimensionItemType": "DATA_ELEMENT_OPERAND",
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "categoryOptionCombo": {
+                        "id": "SvcP5ROAff3"
+                    },
+                    "dataElement": {
+                        "id": "fjMS4MkPcEQ"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "legendSets": []
+                },
+                {
+                    "lastUpdated": "2020-05-27T13:21:06.599",
+                    "id": "RsZWioTWyYa.SvcP5ROAff3",
+                    "created": "2020-05-27T13:21:06.599",
+                    "name": "ADMIN_DUTY_DE_STATUS_COMMENTS WHO_MALARIA",
+                    "shortName": "ADMIN_DUTY_DE_STATUS_COMMENTS WHO_MALARIA",
+                    "displayName": "ADMIN_DUTY_DE_STATUS_COMMENTS WHO_MALARIA",
+                    "displayShortName": "ADMIN_DUTY_DE_STATUS_COMMENTS WHO_MALARIA",
+                    "externalAccess": false,
+                    "dimensionItem": "RsZWioTWyYa.SvcP5ROAff3",
+                    "favorite": false,
+                    "dimensionItemType": "DATA_ELEMENT_OPERAND",
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "categoryOptionCombo": {
+                        "id": "SvcP5ROAff3"
+                    },
+                    "dataElement": {
+                        "id": "RsZWioTWyYa"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "legendSets": []
+                },
+                {
+                    "lastUpdated": "2020-05-27T13:21:06.599",
+                    "id": "CufSsSZAUme.jnNy9wEOvyu",
+                    "created": "2020-05-27T13:21:06.599",
+                    "name": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_DONE WHO_PREPROD-VIS",
+                    "shortName": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_DONE WHO_PREPROD-VIS",
+                    "displayName": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_DONE WHO_PREPROD-VIS",
+                    "displayShortName": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_DONE WHO_PREPROD-VIS",
+                    "externalAccess": false,
+                    "dimensionItem": "CufSsSZAUme.jnNy9wEOvyu",
+                    "favorite": false,
+                    "dimensionItemType": "DATA_ELEMENT_OPERAND",
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "categoryOptionCombo": {
+                        "id": "jnNy9wEOvyu"
+                    },
+                    "dataElement": {
+                        "id": "CufSsSZAUme"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "legendSets": []
+                },
+                {
+                    "lastUpdated": "2020-05-27T13:21:06.599",
+                    "id": "XrDIy4Gg3YR.SvcP5ROAff3",
+                    "created": "2020-05-27T13:21:06.599",
+                    "name": "ADMIN_DUTY_DE_STATUS_CLONING_COMMENTS WHO_MALARIA",
+                    "shortName": "ADMIN_DUTY_DE_STATUS_CLONING_COMMENTS WHO_MALARIA",
+                    "displayName": "ADMIN_DUTY_DE_STATUS_CLONING_COMMENTS WHO_MALARIA",
+                    "displayShortName": "ADMIN_DUTY_DE_STATUS_CLONING_COMMENTS WHO_MALARIA",
+                    "externalAccess": false,
+                    "dimensionItem": "XrDIy4Gg3YR.SvcP5ROAff3",
+                    "favorite": false,
+                    "dimensionItemType": "DATA_ELEMENT_OPERAND",
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "categoryOptionCombo": {
+                        "id": "SvcP5ROAff3"
+                    },
+                    "dataElement": {
+                        "id": "XrDIy4Gg3YR"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "legendSets": []
+                },
+                {
+                    "lastUpdated": "2020-05-27T13:21:06.599",
+                    "id": "K9IzaTNqEXa.SvcP5ROAff3",
+                    "created": "2020-05-27T13:21:06.599",
+                    "name": "ADMIN_DUTY_DE_STATUS_CLONING_DONE WHO_MALARIA",
+                    "shortName": "ADMIN_DUTY_DE_STATUS_CLONING_DONE WHO_MALARIA",
+                    "displayName": "ADMIN_DUTY_DE_STATUS_CLONING_DONE WHO_MALARIA",
+                    "displayShortName": "ADMIN_DUTY_DE_STATUS_CLONING_DONE WHO_MALARIA",
+                    "externalAccess": false,
+                    "dimensionItem": "K9IzaTNqEXa.SvcP5ROAff3",
+                    "favorite": false,
+                    "dimensionItemType": "DATA_ELEMENT_OPERAND",
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "categoryOptionCombo": {
+                        "id": "SvcP5ROAff3"
+                    },
+                    "dataElement": {
+                        "id": "K9IzaTNqEXa"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "legendSets": []
+                },
+                {
+                    "lastUpdated": "2020-05-27T13:21:06.599",
+                    "id": "fjMS4MkPcEQ.jnNy9wEOvyu",
+                    "created": "2020-05-27T13:21:06.599",
+                    "name": "ADMIN_DUTY_DE_STATUS_SERVER_UP WHO_PREPROD-VIS",
+                    "shortName": "ADMIN_DUTY_DE_STATUS_SERVER_UP WHO_PREPROD-VIS",
+                    "displayName": "ADMIN_DUTY_DE_STATUS_SERVER_UP WHO_PREPROD-VIS",
+                    "displayShortName": "ADMIN_DUTY_DE_STATUS_SERVER_UP WHO_PREPROD-VIS",
+                    "externalAccess": false,
+                    "dimensionItem": "fjMS4MkPcEQ.jnNy9wEOvyu",
+                    "favorite": false,
+                    "dimensionItemType": "DATA_ELEMENT_OPERAND",
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "categoryOptionCombo": {
+                        "id": "jnNy9wEOvyu"
+                    },
+                    "dataElement": {
+                        "id": "fjMS4MkPcEQ"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "legendSets": []
+                },
+                {
+                    "lastUpdated": "2020-05-27T13:21:06.599",
+                    "id": "sFLQxZe72Ym.jnNy9wEOvyu",
+                    "created": "2020-05-27T13:21:06.599",
+                    "name": "ADMIN_DUTY_DE_STATUS_CLONING_LOGS WHO_PREPROD-VIS",
+                    "shortName": "ADMIN_DUTY_DE_STATUS_CLONING_LOGS WHO_PREPROD-VIS",
+                    "displayName": "ADMIN_DUTY_DE_STATUS_CLONING_LOGS WHO_PREPROD-VIS",
+                    "displayShortName": "ADMIN_DUTY_DE_STATUS_CLONING_LOGS WHO_PREPROD-VIS",
+                    "externalAccess": false,
+                    "dimensionItem": "sFLQxZe72Ym.jnNy9wEOvyu",
+                    "favorite": false,
+                    "dimensionItemType": "DATA_ELEMENT_OPERAND",
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "categoryOptionCombo": {
+                        "id": "jnNy9wEOvyu"
+                    },
+                    "dataElement": {
+                        "id": "sFLQxZe72Ym"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "legendSets": []
+                },
+                {
+                    "lastUpdated": "2020-05-27T13:21:06.599",
+                    "id": "F5cEZ7QM03v.jnNy9wEOvyu",
+                    "created": "2020-05-27T13:21:06.599",
+                    "name": "ADMIN_DUTY_DE_STATUS_FAILURE_COUNT WHO_PREPROD-VIS",
+                    "shortName": "ADMIN_DUTY_DE_STATUS_FAILURE_COUNT WHO_PREPROD-VIS",
+                    "displayName": "ADMIN_DUTY_DE_STATUS_FAILURE_COUNT WHO_PREPROD-VIS",
+                    "displayShortName": "ADMIN_DUTY_DE_STATUS_FAILURE_COUNT WHO_PREPROD-VIS",
+                    "externalAccess": false,
+                    "dimensionItem": "F5cEZ7QM03v.jnNy9wEOvyu",
+                    "favorite": false,
+                    "dimensionItemType": "DATA_ELEMENT_OPERAND",
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "categoryOptionCombo": {
+                        "id": "jnNy9wEOvyu"
+                    },
+                    "dataElement": {
+                        "id": "F5cEZ7QM03v"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "legendSets": []
+                },
+                {
+                    "lastUpdated": "2020-05-27T13:21:06.599",
+                    "id": "sFLQxZe72Ym.SvcP5ROAff3",
+                    "created": "2020-05-27T13:21:06.599",
+                    "name": "ADMIN_DUTY_DE_STATUS_CLONING_LOGS WHO_MALARIA",
+                    "shortName": "ADMIN_DUTY_DE_STATUS_CLONING_LOGS WHO_MALARIA",
+                    "displayName": "ADMIN_DUTY_DE_STATUS_CLONING_LOGS WHO_MALARIA",
+                    "displayShortName": "ADMIN_DUTY_DE_STATUS_CLONING_LOGS WHO_MALARIA",
+                    "externalAccess": false,
+                    "dimensionItem": "sFLQxZe72Ym.SvcP5ROAff3",
+                    "favorite": false,
+                    "dimensionItemType": "DATA_ELEMENT_OPERAND",
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "categoryOptionCombo": {
+                        "id": "SvcP5ROAff3"
+                    },
+                    "dataElement": {
+                        "id": "sFLQxZe72Ym"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "legendSets": []
+                },
+                {
+                    "lastUpdated": "2020-05-27T13:21:06.599",
+                    "id": "kDL0aoZKYfV.SvcP5ROAff3",
+                    "created": "2020-05-27T13:21:06.599",
+                    "name": "ADMIN_DUTY_DE_STATUS_FAILURE_LOGS WHO_MALARIA",
+                    "shortName": "ADMIN_DUTY_DE_STATUS_FAILURE_LOGS WHO_MALARIA",
+                    "displayName": "ADMIN_DUTY_DE_STATUS_FAILURE_LOGS WHO_MALARIA",
+                    "displayShortName": "ADMIN_DUTY_DE_STATUS_FAILURE_LOGS WHO_MALARIA",
+                    "externalAccess": false,
+                    "dimensionItem": "kDL0aoZKYfV.SvcP5ROAff3",
+                    "favorite": false,
+                    "dimensionItemType": "DATA_ELEMENT_OPERAND",
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "categoryOptionCombo": {
+                        "id": "SvcP5ROAff3"
+                    },
+                    "dataElement": {
+                        "id": "kDL0aoZKYfV"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "legendSets": []
+                },
+                {
+                    "lastUpdated": "2020-05-27T13:21:06.599",
+                    "id": "kDL0aoZKYfV.jnNy9wEOvyu",
+                    "created": "2020-05-27T13:21:06.599",
+                    "name": "ADMIN_DUTY_DE_STATUS_FAILURE_LOGS WHO_PREPROD-VIS",
+                    "shortName": "ADMIN_DUTY_DE_STATUS_FAILURE_LOGS WHO_PREPROD-VIS",
+                    "displayName": "ADMIN_DUTY_DE_STATUS_FAILURE_LOGS WHO_PREPROD-VIS",
+                    "displayShortName": "ADMIN_DUTY_DE_STATUS_FAILURE_LOGS WHO_PREPROD-VIS",
+                    "externalAccess": false,
+                    "dimensionItem": "kDL0aoZKYfV.jnNy9wEOvyu",
+                    "favorite": false,
+                    "dimensionItemType": "DATA_ELEMENT_OPERAND",
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "categoryOptionCombo": {
+                        "id": "jnNy9wEOvyu"
+                    },
+                    "dataElement": {
+                        "id": "kDL0aoZKYfV"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "legendSets": []
+                },
+                {
+                    "lastUpdated": "2020-05-27T13:21:06.599",
+                    "id": "BCytw0TARJ0.SvcP5ROAff3",
+                    "created": "2020-05-27T13:21:06.599",
+                    "name": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_LOGS WHO_MALARIA",
+                    "shortName": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_LOGS WHO_MALARIA",
+                    "displayName": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_LOGS WHO_MALARIA",
+                    "displayShortName": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_LOGS WHO_MALARIA",
+                    "externalAccess": false,
+                    "dimensionItem": "BCytw0TARJ0.SvcP5ROAff3",
+                    "favorite": false,
+                    "dimensionItemType": "DATA_ELEMENT_OPERAND",
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "categoryOptionCombo": {
+                        "id": "SvcP5ROAff3"
+                    },
+                    "dataElement": {
+                        "id": "BCytw0TARJ0"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "legendSets": []
+                },
+                {
+                    "lastUpdated": "2020-05-27T13:21:06.599",
+                    "id": "K9IzaTNqEXa.jnNy9wEOvyu",
+                    "created": "2020-05-27T13:21:06.599",
+                    "name": "ADMIN_DUTY_DE_STATUS_CLONING_DONE WHO_PREPROD-VIS",
+                    "shortName": "ADMIN_DUTY_DE_STATUS_CLONING_DONE WHO_PREPROD-VIS",
+                    "displayName": "ADMIN_DUTY_DE_STATUS_CLONING_DONE WHO_PREPROD-VIS",
+                    "displayShortName": "ADMIN_DUTY_DE_STATUS_CLONING_DONE WHO_PREPROD-VIS",
+                    "externalAccess": false,
+                    "dimensionItem": "K9IzaTNqEXa.jnNy9wEOvyu",
+                    "favorite": false,
+                    "dimensionItemType": "DATA_ELEMENT_OPERAND",
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "categoryOptionCombo": {
+                        "id": "jnNy9wEOvyu"
+                    },
+                    "dataElement": {
+                        "id": "K9IzaTNqEXa"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "legendSets": []
+                },
+                {
+                    "lastUpdated": "2020-05-27T13:21:06.599",
+                    "id": "BCytw0TARJ0.jnNy9wEOvyu",
+                    "created": "2020-05-27T13:21:06.599",
+                    "name": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_LOGS WHO_PREPROD-VIS",
+                    "shortName": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_LOGS WHO_PREPROD-VIS",
+                    "displayName": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_LOGS WHO_PREPROD-VIS",
+                    "displayShortName": "ADMIN_DUTY_DE_STATUS_DB_BACKUP_LOGS WHO_PREPROD-VIS",
+                    "externalAccess": false,
+                    "dimensionItem": "BCytw0TARJ0.jnNy9wEOvyu",
+                    "favorite": false,
+                    "dimensionItemType": "DATA_ELEMENT_OPERAND",
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "categoryOptionCombo": {
+                        "id": "jnNy9wEOvyu"
+                    },
+                    "dataElement": {
+                        "id": "BCytw0TARJ0"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "legendSets": []
+                }
+            ],
+            "translations": [],
+            "categoryCombos": [
+                {
+                    "id": "Fkyud1WKXWo"
+                }
+            ],
+            "dataElements": [
+                {
+                    "id": "fjMS4MkPcEQ"
+                },
+                {
+                    "id": "F5cEZ7QM03v"
+                },
+                {
+                    "id": "kDL0aoZKYfV"
+                },
+                {
+                    "id": "RsZWioTWyYa"
+                },
+                {
+                    "id": "CufSsSZAUme"
+                },
+                {
+                    "id": "gfRkAIfJ2eO"
+                },
+                {
+                    "id": "BCytw0TARJ0"
+                },
+                {
+                    "id": "K9IzaTNqEXa"
+                },
+                {
+                    "id": "XrDIy4Gg3YR"
+                },
+                {
+                    "id": "sFLQxZe72Ym"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicators": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "sections",
+            "code": "ADMIN_DUTY_SECTION_SERVER_ANALYTICS_MIDNIGHT",
+            "lastUpdated": "2020-04-30T09:19:55.317",
+            "id": "aTewMAn9H4J",
+            "created": "2019-09-07T16:09:01.724",
+            "name": "Server analytics",
+            "displayName": "Server analytics",
+            "externalAccess": false,
+            "showColumnTotals": false,
+            "sortOrder": 3,
+            "showRowTotals": false,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "dataSet": {
+                "id": "FnYgTt843G2"
+            },
+            "lastUpdatedBy": {
+                "id": "kD52FGwJgDF"
+            },
+            "favorites": [],
+            "greyedFields": [
+                {
+                    "lastUpdated": "2020-05-27T13:21:06.598",
+                    "id": "Dx70nNMP3mB.SvcP5ROAff3",
+                    "created": "2020-05-27T13:21:06.598",
+                    "name": "ADMIN_DUTY_DE_ANALYTICS_COMMENTS WHO_MALARIA",
+                    "shortName": "ADMIN_DUTY_DE_ANALYTICS_COMMENTS WHO_MALARIA",
+                    "displayName": "ADMIN_DUTY_DE_ANALYTICS_COMMENTS WHO_MALARIA",
+                    "displayShortName": "ADMIN_DUTY_DE_ANALYTICS_COMMENTS WHO_MALARIA",
+                    "externalAccess": false,
+                    "dimensionItem": "Dx70nNMP3mB.SvcP5ROAff3",
+                    "favorite": false,
+                    "dimensionItemType": "DATA_ELEMENT_OPERAND",
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "categoryOptionCombo": {
+                        "id": "SvcP5ROAff3"
+                    },
+                    "dataElement": {
+                        "id": "Dx70nNMP3mB"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "legendSets": []
+                },
+                {
+                    "lastUpdated": "2020-05-27T13:21:06.598",
+                    "id": "mjDgqDPsT4J.SvcP5ROAff3",
+                    "created": "2020-05-27T13:21:06.598",
+                    "name": "ADMIN_DUTY_DE_ANALYTICS_RUN WHO_MALARIA",
+                    "shortName": "ADMIN_DUTY_DE_ANALYTICS_RUN WHO_MALARIA",
+                    "displayName": "ADMIN_DUTY_DE_ANALYTICS_RUN WHO_MALARIA",
+                    "displayShortName": "ADMIN_DUTY_DE_ANALYTICS_RUN WHO_MALARIA",
+                    "externalAccess": false,
+                    "dimensionItem": "mjDgqDPsT4J.SvcP5ROAff3",
+                    "favorite": false,
+                    "dimensionItemType": "DATA_ELEMENT_OPERAND",
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "categoryOptionCombo": {
+                        "id": "SvcP5ROAff3"
+                    },
+                    "dataElement": {
+                        "id": "mjDgqDPsT4J"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "legendSets": []
+                },
+                {
+                    "lastUpdated": "2020-05-27T13:21:06.598",
+                    "id": "Dx70nNMP3mB.jnNy9wEOvyu",
+                    "created": "2020-05-27T13:21:06.598",
+                    "name": "ADMIN_DUTY_DE_ANALYTICS_COMMENTS WHO_PREPROD-VIS",
+                    "shortName": "ADMIN_DUTY_DE_ANALYTICS_COMMENTS WHO_PREPROD-VIS",
+                    "displayName": "ADMIN_DUTY_DE_ANALYTICS_COMMENTS WHO_PREPROD-VIS",
+                    "displayShortName": "ADMIN_DUTY_DE_ANALYTICS_COMMENTS WHO_PREPROD-VIS",
+                    "externalAccess": false,
+                    "dimensionItem": "Dx70nNMP3mB.jnNy9wEOvyu",
+                    "favorite": false,
+                    "dimensionItemType": "DATA_ELEMENT_OPERAND",
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "categoryOptionCombo": {
+                        "id": "jnNy9wEOvyu"
+                    },
+                    "dataElement": {
+                        "id": "Dx70nNMP3mB"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "legendSets": []
+                },
+                {
+                    "lastUpdated": "2020-05-27T13:21:06.598",
+                    "id": "tHGRW9Zwyxh.jnNy9wEOvyu",
+                    "created": "2020-05-27T13:21:06.598",
+                    "name": "ADMIN_DUTY_DE_ANALYTICS_EXECUTION WHO_PREPROD-VIS",
+                    "shortName": "ADMIN_DUTY_DE_ANALYTICS_EXECUTION WHO_PREPROD-VIS",
+                    "displayName": "ADMIN_DUTY_DE_ANALYTICS_EXECUTION WHO_PREPROD-VIS",
+                    "displayShortName": "ADMIN_DUTY_DE_ANALYTICS_EXECUTION WHO_PREPROD-VIS",
+                    "externalAccess": false,
+                    "dimensionItem": "tHGRW9Zwyxh.jnNy9wEOvyu",
+                    "favorite": false,
+                    "dimensionItemType": "DATA_ELEMENT_OPERAND",
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "categoryOptionCombo": {
+                        "id": "jnNy9wEOvyu"
+                    },
+                    "dataElement": {
+                        "id": "tHGRW9Zwyxh"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "legendSets": []
+                },
+                {
+                    "lastUpdated": "2020-05-27T13:21:06.598",
+                    "id": "tHGRW9Zwyxh.SvcP5ROAff3",
+                    "created": "2020-05-27T13:21:06.598",
+                    "name": "ADMIN_DUTY_DE_ANALYTICS_EXECUTION WHO_MALARIA",
+                    "shortName": "ADMIN_DUTY_DE_ANALYTICS_EXECUTION WHO_MALARIA",
+                    "displayName": "ADMIN_DUTY_DE_ANALYTICS_EXECUTION WHO_MALARIA",
+                    "displayShortName": "ADMIN_DUTY_DE_ANALYTICS_EXECUTION WHO_MALARIA",
+                    "externalAccess": false,
+                    "dimensionItem": "tHGRW9Zwyxh.SvcP5ROAff3",
+                    "favorite": false,
+                    "dimensionItemType": "DATA_ELEMENT_OPERAND",
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "categoryOptionCombo": {
+                        "id": "SvcP5ROAff3"
+                    },
+                    "dataElement": {
+                        "id": "tHGRW9Zwyxh"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "legendSets": []
+                },
+                {
+                    "lastUpdated": "2020-05-27T13:21:06.598",
+                    "id": "CTbBS3ArglV.SvcP5ROAff3",
+                    "created": "2020-05-27T13:21:06.598",
+                    "name": "ADMIN_DUTY_DE_ANALYTICS_CORRECTLY_LOGS WHO_MALARIA",
+                    "shortName": "ADMIN_DUTY_DE_ANALYTICS_CORRECTLY_LOGS WHO_MALARIA",
+                    "displayName": "ADMIN_DUTY_DE_ANALYTICS_CORRECTLY_LOGS WHO_MALARIA",
+                    "displayShortName": "ADMIN_DUTY_DE_ANALYTICS_CORRECTLY_LOGS WHO_MALARIA",
+                    "externalAccess": false,
+                    "dimensionItem": "CTbBS3ArglV.SvcP5ROAff3",
+                    "favorite": false,
+                    "dimensionItemType": "DATA_ELEMENT_OPERAND",
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "categoryOptionCombo": {
+                        "id": "SvcP5ROAff3"
+                    },
+                    "dataElement": {
+                        "id": "CTbBS3ArglV"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "legendSets": []
+                },
+                {
+                    "lastUpdated": "2020-05-27T13:21:06.598",
+                    "id": "mjDgqDPsT4J.jnNy9wEOvyu",
+                    "created": "2020-05-27T13:21:06.598",
+                    "name": "ADMIN_DUTY_DE_ANALYTICS_RUN WHO_PREPROD-VIS",
+                    "shortName": "ADMIN_DUTY_DE_ANALYTICS_RUN WHO_PREPROD-VIS",
+                    "displayName": "ADMIN_DUTY_DE_ANALYTICS_RUN WHO_PREPROD-VIS",
+                    "displayShortName": "ADMIN_DUTY_DE_ANALYTICS_RUN WHO_PREPROD-VIS",
+                    "externalAccess": false,
+                    "dimensionItem": "mjDgqDPsT4J.jnNy9wEOvyu",
+                    "favorite": false,
+                    "dimensionItemType": "DATA_ELEMENT_OPERAND",
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "categoryOptionCombo": {
+                        "id": "jnNy9wEOvyu"
+                    },
+                    "dataElement": {
+                        "id": "mjDgqDPsT4J"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "legendSets": []
+                },
+                {
+                    "lastUpdated": "2020-05-27T13:21:06.598",
+                    "id": "crQfKtNHSHB.SvcP5ROAff3",
+                    "created": "2020-05-27T13:21:06.598",
+                    "name": "ADMIN_DUTY_DE_ANALYTICS_CORRECTLY_DASHBOARD WHO_MALARIA",
+                    "shortName": "ADMIN_DUTY_DE_ANALYTICS_CORRECTLY_DASHBOARD WHO_MALARIA",
+                    "displayName": "ADMIN_DUTY_DE_ANALYTICS_CORRECTLY_DASHBOARD WHO_MALARIA",
+                    "displayShortName": "ADMIN_DUTY_DE_ANALYTICS_CORRECTLY_DASHBOARD WHO_MALARIA",
+                    "externalAccess": false,
+                    "dimensionItem": "crQfKtNHSHB.SvcP5ROAff3",
+                    "favorite": false,
+                    "dimensionItemType": "DATA_ELEMENT_OPERAND",
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "categoryOptionCombo": {
+                        "id": "SvcP5ROAff3"
+                    },
+                    "dataElement": {
+                        "id": "crQfKtNHSHB"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "legendSets": []
+                },
+                {
+                    "lastUpdated": "2020-05-27T13:21:06.598",
+                    "id": "qpgGXrkTrgj.jnNy9wEOvyu",
+                    "created": "2020-05-27T13:21:06.598",
+                    "name": "ADMIN_DUTY_DE_ANALYTICS_LOGS WHO_PREPROD-VIS",
+                    "shortName": "ADMIN_DUTY_DE_ANALYTICS_LOGS WHO_PREPROD-VIS",
+                    "displayName": "ADMIN_DUTY_DE_ANALYTICS_LOGS WHO_PREPROD-VIS",
+                    "displayShortName": "ADMIN_DUTY_DE_ANALYTICS_LOGS WHO_PREPROD-VIS",
+                    "externalAccess": false,
+                    "dimensionItem": "qpgGXrkTrgj.jnNy9wEOvyu",
+                    "favorite": false,
+                    "dimensionItemType": "DATA_ELEMENT_OPERAND",
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "categoryOptionCombo": {
+                        "id": "jnNy9wEOvyu"
+                    },
+                    "dataElement": {
+                        "id": "qpgGXrkTrgj"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "legendSets": []
+                },
+                {
+                    "lastUpdated": "2020-05-27T13:21:06.598",
+                    "id": "qpgGXrkTrgj.SvcP5ROAff3",
+                    "created": "2020-05-27T13:21:06.598",
+                    "name": "ADMIN_DUTY_DE_ANALYTICS_LOGS WHO_MALARIA",
+                    "shortName": "ADMIN_DUTY_DE_ANALYTICS_LOGS WHO_MALARIA",
+                    "displayName": "ADMIN_DUTY_DE_ANALYTICS_LOGS WHO_MALARIA",
+                    "displayShortName": "ADMIN_DUTY_DE_ANALYTICS_LOGS WHO_MALARIA",
+                    "externalAccess": false,
+                    "dimensionItem": "qpgGXrkTrgj.SvcP5ROAff3",
+                    "favorite": false,
+                    "dimensionItemType": "DATA_ELEMENT_OPERAND",
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "categoryOptionCombo": {
+                        "id": "SvcP5ROAff3"
+                    },
+                    "dataElement": {
+                        "id": "qpgGXrkTrgj"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "legendSets": []
+                },
+                {
+                    "lastUpdated": "2020-05-27T13:21:06.598",
+                    "id": "crQfKtNHSHB.jnNy9wEOvyu",
+                    "created": "2020-05-27T13:21:06.598",
+                    "name": "ADMIN_DUTY_DE_ANALYTICS_CORRECTLY_DASHBOARD WHO_PREPROD-VIS",
+                    "shortName": "ADMIN_DUTY_DE_ANALYTICS_CORRECTLY_DASHBOARD WHO_PREPROD-VIS",
+                    "displayName": "ADMIN_DUTY_DE_ANALYTICS_CORRECTLY_DASHBOARD WHO_PREPROD-VIS",
+                    "displayShortName": "ADMIN_DUTY_DE_ANALYTICS_CORRECTLY_DASHBOARD WHO_PREPROD-VIS",
+                    "externalAccess": false,
+                    "dimensionItem": "crQfKtNHSHB.jnNy9wEOvyu",
+                    "favorite": false,
+                    "dimensionItemType": "DATA_ELEMENT_OPERAND",
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "categoryOptionCombo": {
+                        "id": "jnNy9wEOvyu"
+                    },
+                    "dataElement": {
+                        "id": "crQfKtNHSHB"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "legendSets": []
+                },
+                {
+                    "lastUpdated": "2020-05-27T13:21:06.598",
+                    "id": "CTbBS3ArglV.jnNy9wEOvyu",
+                    "created": "2020-05-27T13:21:06.598",
+                    "name": "ADMIN_DUTY_DE_ANALYTICS_CORRECTLY_LOGS WHO_PREPROD-VIS",
+                    "shortName": "ADMIN_DUTY_DE_ANALYTICS_CORRECTLY_LOGS WHO_PREPROD-VIS",
+                    "displayName": "ADMIN_DUTY_DE_ANALYTICS_CORRECTLY_LOGS WHO_PREPROD-VIS",
+                    "displayShortName": "ADMIN_DUTY_DE_ANALYTICS_CORRECTLY_LOGS WHO_PREPROD-VIS",
+                    "externalAccess": false,
+                    "dimensionItem": "CTbBS3ArglV.jnNy9wEOvyu",
+                    "favorite": false,
+                    "dimensionItemType": "DATA_ELEMENT_OPERAND",
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "categoryOptionCombo": {
+                        "id": "jnNy9wEOvyu"
+                    },
+                    "dataElement": {
+                        "id": "CTbBS3ArglV"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "legendSets": []
+                }
+            ],
+            "translations": [],
+            "categoryCombos": [
+                {
+                    "id": "Fkyud1WKXWo"
+                }
+            ],
+            "dataElements": [
+                {
+                    "id": "mjDgqDPsT4J"
+                },
+                {
+                    "id": "CTbBS3ArglV"
+                },
+                {
+                    "id": "crQfKtNHSHB"
+                },
+                {
+                    "id": "tHGRW9Zwyxh"
+                },
+                {
+                    "id": "Dx70nNMP3mB"
+                },
+                {
+                    "id": "qpgGXrkTrgj"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicators": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "sections",
+            "code": "ADMIN_DUTY_SECTION_PUBLIC_OBJECTS",
+            "lastUpdated": "2020-04-30T09:20:01.615",
+            "id": "flhHBsC1cUi",
+            "created": "2020-04-13T10:08:46.467",
+            "name": "Public objects",
+            "displayName": "Public objects",
+            "externalAccess": false,
+            "showColumnTotals": false,
+            "sortOrder": 5,
+            "showRowTotals": false,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "dataSet": {
+                "id": "FnYgTt843G2"
+            },
+            "lastUpdatedBy": {
+                "id": "kD52FGwJgDF"
+            },
+            "favorites": [],
+            "greyedFields": [
+                {
+                    "lastUpdated": "2020-05-27T13:21:06.597",
+                    "id": "Dvx3NSCzImT.SvcP5ROAff3",
+                    "created": "2020-05-27T13:21:06.597",
+                    "name": "ADMIN_DUTY_DE_TASKS_PUBLIC_OBJECTS_CHK WHO_MALARIA",
+                    "shortName": "ADMIN_DUTY_DE_TASKS_PUBLIC_OBJECTS_CHK WHO_MALARIA",
+                    "displayName": "ADMIN_DUTY_DE_TASKS_PUBLIC_OBJECTS_CHK WHO_MALARIA",
+                    "displayShortName": "ADMIN_DUTY_DE_TASKS_PUBLIC_OBJECTS_CHK WHO_MALARIA",
+                    "externalAccess": false,
+                    "dimensionItem": "Dvx3NSCzImT.SvcP5ROAff3",
+                    "favorite": false,
+                    "dimensionItemType": "DATA_ELEMENT_OPERAND",
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "categoryOptionCombo": {
+                        "id": "SvcP5ROAff3"
+                    },
+                    "dataElement": {
+                        "id": "Dvx3NSCzImT"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "legendSets": []
+                },
+                {
+                    "lastUpdated": "2020-05-27T13:21:06.598",
+                    "id": "HF0iZZ0NqDE.SvcP5ROAff3",
+                    "created": "2020-05-27T13:21:06.598",
+                    "name": "ADMIN_DUTY_DE_TASKS_PUBLIC_OBJECTS_COUNT WHO_MALARIA",
+                    "shortName": "ADMIN_DUTY_DE_TASKS_PUBLIC_OBJECTS_COUNT WHO_MALARIA",
+                    "displayName": "ADMIN_DUTY_DE_TASKS_PUBLIC_OBJECTS_COUNT WHO_MALARIA",
+                    "displayShortName": "ADMIN_DUTY_DE_TASKS_PUBLIC_OBJECTS_COUNT WHO_MALARIA",
+                    "externalAccess": false,
+                    "dimensionItem": "HF0iZZ0NqDE.SvcP5ROAff3",
+                    "favorite": false,
+                    "dimensionItemType": "DATA_ELEMENT_OPERAND",
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "categoryOptionCombo": {
+                        "id": "SvcP5ROAff3"
+                    },
+                    "dataElement": {
+                        "id": "HF0iZZ0NqDE"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "legendSets": []
+                },
+                {
+                    "lastUpdated": "2020-05-27T13:21:06.598",
+                    "id": "ulfI0WDmW92.SvcP5ROAff3",
+                    "created": "2020-05-27T13:21:06.598",
+                    "name": "ADMIN_DUTY_DE_TASKS_PUBLIC_OBJECTS_COMMENT WHO_MALARIA",
+                    "shortName": "ADMIN_DUTY_DE_TASKS_PUBLIC_OBJECTS_COMMENT WHO_MALARIA",
+                    "displayName": "ADMIN_DUTY_DE_TASKS_PUBLIC_OBJECTS_COMMENT WHO_MALARIA",
+                    "displayShortName": "ADMIN_DUTY_DE_TASKS_PUBLIC_OBJECTS_COMMENT WHO_MALARIA",
+                    "externalAccess": false,
+                    "dimensionItem": "ulfI0WDmW92.SvcP5ROAff3",
+                    "favorite": false,
+                    "dimensionItemType": "DATA_ELEMENT_OPERAND",
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "categoryOptionCombo": {
+                        "id": "SvcP5ROAff3"
+                    },
+                    "dataElement": {
+                        "id": "ulfI0WDmW92"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": [],
+                    "legendSets": []
+                }
+            ],
+            "translations": [],
+            "categoryCombos": [
+                {
+                    "id": "Fkyud1WKXWo"
+                }
+            ],
+            "dataElements": [
+                {
+                    "id": "Dvx3NSCzImT"
+                },
+                {
+                    "id": "HF0iZZ0NqDE"
+                },
+                {
+                    "id": "ulfI0WDmW92"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicators": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "sections",
+            "code": "ADMIN_DUTY_SECTION_COORDINATION_TASKS",
+            "lastUpdated": "2020-04-13T10:09:27.254",
+            "id": "DCs4RcHnJVE",
+            "created": "2019-09-07T16:09:21.109",
+            "name": "Coordination tasks",
+            "displayName": "Coordination tasks",
+            "externalAccess": false,
+            "showColumnTotals": false,
+            "sortOrder": 6,
+            "showRowTotals": false,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "dataSet": {
+                "id": "FnYgTt843G2"
+            },
+            "lastUpdatedBy": {
+                "id": "kD52FGwJgDF"
+            },
+            "favorites": [],
+            "greyedFields": [],
+            "translations": [],
+            "categoryCombos": [],
+            "dataElements": [
+                {
+                    "id": "nN6za0sVirK"
+                },
+                {
+                    "id": "tCxs6EgMIo6"
+                },
+                {
+                    "id": "lXknxysDVIL"
+                },
+                {
+                    "id": "vde072gdxKY"
+                },
+                {
+                    "id": "UdVGMNKksVU"
+                },
+                {
+                    "id": "dnzBDLlnSZs"
+                },
+                {
+                    "id": "Em7yGYvgAU3"
+                },
+                {
+                    "id": "pPyNTfJE0PG"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicators": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "sections",
+            "code": "ADMIN_DUTY_SECTION_STATS",
+            "lastUpdated": "2020-04-13T10:09:24.322",
+            "id": "d6i3UcpWuBG",
+            "created": "2019-09-07T16:09:38.592",
+            "name": "Platform statistics",
+            "displayName": "Platform statistics",
+            "externalAccess": false,
+            "showColumnTotals": false,
+            "sortOrder": 7,
+            "showRowTotals": false,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "dataSet": {
+                "id": "FnYgTt843G2"
+            },
+            "lastUpdatedBy": {
+                "id": "kD52FGwJgDF"
+            },
+            "favorites": [],
+            "greyedFields": [],
+            "translations": [],
+            "categoryCombos": [],
+            "dataElements": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicators": [],
+            "userAccesses": []
+        }
+    ],
+    "categoryCombos": [
+        {
+            "metadataType": "categoryCombos",
+            "code": "ADMIN_DUTY_CC_SERVER_INSTANCES",
+            "created": "2019-09-07T16:20:01.763",
+            "lastUpdated": "2019-09-10T16:35:30.548",
+            "name": "ADMIN_DUTY_CC_SERVER_INSTANCES",
+            "id": "Fkyud1WKXWo",
+            "dataDimensionType": "DISAGGREGATION",
+            "displayName": "ADMIN_DUTY_CC_SERVER_INSTANCES",
+            "publicAccess": "--------",
+            "externalAccess": false,
+            "isDefault": false,
+            "skipTotal": false,
+            "favorite": false,
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "attributeValues": [],
+            "categoryOptionCombos": [
+                {
+                    "id": "SvcP5ROAff3"
+                },
+                {
+                    "id": "qpRs0fsxSeB"
+                },
+                {
+                    "id": "jnNy9wEOvyu"
+                },
+                {
+                    "id": "JhrMD8OMFyf"
+                },
+                {
+                    "id": "hHIs5QYHbQP"
+                },
+                {
+                    "id": "irkK9eyChrC"
+                },
+                {
+                    "id": "YkqDSFqJw7G"
+                }
+            ],
+            "translations": [],
+            "userAccesses": [],
+            "categories": [
+                {
+                    "id": "dL4wpziK7qW"
+                }
+            ]
+        }
+    ],
+    "optionSets": [
+        {
+            "metadataType": "optionSets",
+            "code": "ADMIN_DUTY_OS_EXECUTION",
+            "created": "2019-09-07T16:25:48.068",
+            "lastUpdated": "2019-09-16T06:24:10.410",
+            "name": "ADMIN_DUTY_OS_EXECUTION",
+            "id": "YFZsozOszeV",
+            "displayName": "ADMIN_DUTY_OS_EXECUTION",
+            "publicAccess": "--------",
+            "version": 4,
+            "externalAccess": false,
+            "valueType": "TEXT",
+            "favorite": false,
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "attributeValues": [],
+            "translations": [],
+            "userAccesses": [],
+            "options": [
+                {
+                    "id": "SE6Aj9WR7dD"
+                },
+                {
+                    "id": "rLojINCgwbi"
+                },
+                {
+                    "id": "Fk33B9detC3"
+                }
+            ]
+        },
+        {
+            "metadataType": "optionSets",
+            "code": "ADMIN_DUTY_OS_ASSIGNEE",
+            "created": "2019-09-07T16:03:06.414",
+            "lastUpdated": "2019-09-16T06:22:42.354",
+            "name": "ADMIN_DUTY_OS_ASSIGNEE",
+            "id": "wsWZHTuG77p",
+            "displayName": "ADMIN_DUTY_OS_ASSIGNEE",
+            "publicAccess": "--------",
+            "version": 5,
+            "externalAccess": false,
+            "valueType": "TEXT",
+            "favorite": false,
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "attributeValues": [],
+            "translations": [],
+            "userAccesses": [],
+            "options": [
+                {
+                    "id": "fKLt8V7YHct"
+                },
+                {
+                    "id": "visof66qA5i"
+                },
+                {
+                    "id": "wfetyLNtn4V"
+                }
+            ]
+        }
+    ],
+    "options": [
+        {
+            "metadataType": "options",
+            "code": "ADMIN_DUTY_OS_ASSIGNEE_EST",
+            "created": "2019-09-07T16:03:30.022",
+            "lastUpdated": "2019-09-09T08:20:24.233",
+            "name": "EyeSeeTea",
+            "id": "fKLt8V7YHct",
+            "displayName": "EyeSeeTea",
+            "externalAccess": false,
+            "sortOrder": 1,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "wsWZHTuG77p"
+            },
+            "favorites": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "translations": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "options",
+            "code": "ADMIN_DUTY_OS_ASSIGNEE_PETAR",
+            "created": "2019-09-07T16:04:00.726",
+            "lastUpdated": "2019-09-09T08:20:24.233",
+            "name": "Petar Jovanovic",
+            "id": "visof66qA5i",
+            "displayName": "Petar Jovanovic",
+            "externalAccess": false,
+            "sortOrder": 2,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "wsWZHTuG77p"
+            },
+            "favorites": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "translations": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "options",
+            "code": "ADMIN_DUTY_OS_ASSIGNEE_RAMON",
+            "created": "2019-09-07T16:04:34.499",
+            "lastUpdated": "2019-09-09T08:20:24.233",
+            "name": "Ramon Jiménez Pomareta",
+            "id": "wfetyLNtn4V",
+            "displayName": "Ramon Jiménez Pomareta",
+            "externalAccess": false,
+            "sortOrder": 3,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "wsWZHTuG77p"
+            },
+            "favorites": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "translations": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "options",
+            "code": "ADMIN_DUTY_OS_EXECUTION_NOT_EXECUTED",
+            "created": "2019-09-07T16:26:11.003",
+            "lastUpdated": "2019-09-09T08:20:24.233",
+            "name": "Not executed",
+            "id": "SE6Aj9WR7dD",
+            "displayName": "Not executed",
+            "externalAccess": false,
+            "sortOrder": 1,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "YFZsozOszeV"
+            },
+            "favorites": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "translations": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "options",
+            "code": "ADMIN_DUTY_OS_EXECUTION_MANUAL",
+            "created": "2019-09-07T16:26:21.011",
+            "lastUpdated": "2019-09-09T08:20:24.234",
+            "name": "Manual",
+            "id": "rLojINCgwbi",
+            "displayName": "Manual",
+            "externalAccess": false,
+            "sortOrder": 2,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "YFZsozOszeV"
+            },
+            "favorites": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "translations": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "options",
+            "code": "ADMIN_DUTY_OS_EXECUTION_AUTOMATED",
+            "created": "2019-09-07T16:26:31.328",
+            "lastUpdated": "2019-09-09T08:20:24.234",
+            "name": "Automated",
+            "id": "Fk33B9detC3",
+            "displayName": "Automated",
+            "externalAccess": false,
+            "sortOrder": 3,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "YFZsozOszeV"
+            },
+            "favorites": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "translations": [],
+            "userAccesses": []
+        }
+    ],
+    "categoryOptionCombos": [
+        {
+            "metadataType": "categoryOptionCombos",
+            "lastUpdated": "2019-09-10T16:35:30.534",
+            "id": "SvcP5ROAff3",
+            "created": "2019-09-10T16:35:30.534",
+            "name": "WHO_MALARIA",
+            "shortName": "WHO_MALARIA",
+            "displayName": "WHO_MALARIA",
+            "displayShortName": "WHO_MALARIA",
+            "externalAccess": false,
+            "ignoreApproval": false,
+            "dimensionItem": "SvcP5ROAff3",
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "Fkyud1WKXWo"
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "favorites": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "RkYSGG4MNhT"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "categoryOptionCombos",
+            "lastUpdated": "2019-09-09T08:20:26.496",
+            "id": "qpRs0fsxSeB",
+            "created": "2019-09-07T16:20:01.809",
+            "name": "WHO_TRAINING",
+            "shortName": "WHO_TRAINING",
+            "displayName": "WHO_TRAINING",
+            "displayShortName": "WHO_TRAINING",
+            "externalAccess": false,
+            "ignoreApproval": false,
+            "dimensionItem": "qpRs0fsxSeB",
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "Fkyud1WKXWo"
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "buv02XljUjE"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "categoryOptionCombos",
+            "lastUpdated": "2019-09-10T16:35:30.521",
+            "id": "jnNy9wEOvyu",
+            "created": "2019-09-10T16:35:30.521",
+            "name": "WHO_PREPROD-VIS",
+            "shortName": "WHO_PREPROD-VIS",
+            "displayName": "WHO_PREPROD-VIS",
+            "displayShortName": "WHO_PREPROD-VIS",
+            "externalAccess": false,
+            "ignoreApproval": false,
+            "dimensionItem": "jnNy9wEOvyu",
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "Fkyud1WKXWo"
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "favorites": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "OgGW61Izy8Y"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "categoryOptionCombos",
+            "lastUpdated": "2019-09-10T16:35:30.507",
+            "id": "JhrMD8OMFyf",
+            "created": "2019-09-10T16:35:30.507",
+            "name": "WHO_DEV-CONT",
+            "shortName": "WHO_DEV-CONT",
+            "displayName": "WHO_DEV-CONT",
+            "displayShortName": "WHO_DEV-CONT",
+            "externalAccess": false,
+            "ignoreApproval": false,
+            "dimensionItem": "JhrMD8OMFyf",
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "Fkyud1WKXWo"
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "favorites": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "BclrlHiDxv1"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "categoryOptionCombos",
+            "lastUpdated": "2019-09-09T08:20:26.496",
+            "id": "hHIs5QYHbQP",
+            "created": "2019-09-07T16:20:01.807",
+            "name": "WHO_PROD",
+            "shortName": "WHO_PROD",
+            "displayName": "WHO_PROD",
+            "displayShortName": "WHO_PROD",
+            "externalAccess": false,
+            "ignoreApproval": false,
+            "dimensionItem": "hHIs5QYHbQP",
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "Fkyud1WKXWo"
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "rhGywpV4vXF"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "categoryOptionCombos",
+            "lastUpdated": "2019-09-09T08:20:26.496",
+            "id": "irkK9eyChrC",
+            "created": "2019-09-07T16:20:01.804",
+            "name": "WHO_PREPROD",
+            "shortName": "WHO_PREPROD",
+            "displayName": "WHO_PREPROD",
+            "displayShortName": "WHO_PREPROD",
+            "externalAccess": false,
+            "ignoreApproval": false,
+            "dimensionItem": "irkK9eyChrC",
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "Fkyud1WKXWo"
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "QllodPhxVeb"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "categoryOptionCombos",
+            "lastUpdated": "2019-09-09T08:20:26.496",
+            "id": "YkqDSFqJw7G",
+            "created": "2019-09-07T16:20:01.797",
+            "name": "WHO_DEV",
+            "shortName": "WHO_DEV",
+            "displayName": "WHO_DEV",
+            "displayShortName": "WHO_DEV",
+            "externalAccess": false,
+            "ignoreApproval": false,
+            "dimensionItem": "YkqDSFqJw7G",
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "Fkyud1WKXWo"
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "jFwR5mUrvAM"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": []
+        }
+    ],
+    "categoryOptions": [
+        {
+            "metadataType": "categoryOptions",
+            "code": "ADMIN_DUTY_CO_SERVER_INSTANCES_DEV",
+            "lastUpdated": "2019-09-09T08:20:25.113",
+            "id": "jFwR5mUrvAM",
+            "created": "2019-09-07T16:17:34.811",
+            "name": "WHO_DEV",
+            "shortName": "WHO_DEV",
+            "displayName": "WHO_DEV",
+            "publicAccess": "--------",
+            "displayShortName": "WHO_DEV",
+            "externalAccess": false,
+            "dimensionItem": "jFwR5mUrvAM",
+            "isDefault": false,
+            "favorite": false,
+            "dimensionItemType": "CATEGORY_OPTION",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true,
+                "data": {
+                    "read": true,
+                    "write": true
+                }
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "translations": [],
+            "categories": [
+                {
+                    "id": "dL4wpziK7qW"
+                }
+            ],
+            "organisationUnits": [
+                {
+                    "id": "H8RixfF8ugH"
+                }
+            ],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "attributeValues": [],
+            "categoryOptionCombos": [
+                {
+                    "id": "YkqDSFqJw7G"
+                }
+            ],
+            "categoryOptionGroups": [],
+            "userAccesses": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "categoryOptions",
+            "code": "ADMIN_DUTY_CO_SERVER_INSTANCES_DEV-CONT",
+            "lastUpdated": "2019-09-10T16:31:58.313",
+            "id": "BclrlHiDxv1",
+            "created": "2019-09-10T16:31:58.313",
+            "name": "WHO_DEV-CONT",
+            "shortName": "WHO_DEV-CONT",
+            "displayName": "WHO_DEV-CONT",
+            "publicAccess": "--------",
+            "displayShortName": "WHO_DEV-CONT",
+            "externalAccess": false,
+            "dimensionItem": "BclrlHiDxv1",
+            "isDefault": false,
+            "favorite": false,
+            "dimensionItemType": "CATEGORY_OPTION",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true,
+                "data": {
+                    "read": true,
+                    "write": true
+                }
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "translations": [],
+            "categories": [
+                {
+                    "id": "dL4wpziK7qW"
+                }
+            ],
+            "organisationUnits": [
+                {
+                    "id": "H8RixfF8ugH"
+                }
+            ],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "attributeValues": [],
+            "categoryOptionCombos": [
+                {
+                    "id": "JhrMD8OMFyf"
+                }
+            ],
+            "categoryOptionGroups": [],
+            "userAccesses": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "categoryOptions",
+            "code": "ADMIN_DUTY_CO_SERVER_INSTANCES_MALARIA",
+            "lastUpdated": "2019-09-10T16:32:46.127",
+            "id": "RkYSGG4MNhT",
+            "created": "2019-09-10T16:32:46.127",
+            "name": "WHO_MALARIA",
+            "shortName": "WHO_MALARIA",
+            "displayName": "WHO_MALARIA",
+            "publicAccess": "--------",
+            "displayShortName": "WHO_MALARIA",
+            "externalAccess": false,
+            "dimensionItem": "RkYSGG4MNhT",
+            "isDefault": false,
+            "favorite": false,
+            "dimensionItemType": "CATEGORY_OPTION",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true,
+                "data": {
+                    "read": true,
+                    "write": true
+                }
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "translations": [],
+            "categories": [
+                {
+                    "id": "dL4wpziK7qW"
+                }
+            ],
+            "organisationUnits": [
+                {
+                    "id": "H8RixfF8ugH"
+                }
+            ],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "attributeValues": [],
+            "categoryOptionCombos": [
+                {
+                    "id": "SvcP5ROAff3"
+                }
+            ],
+            "categoryOptionGroups": [],
+            "userAccesses": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "categoryOptions",
+            "code": "ADMIN_DUTY_CO_SERVER_INSTANCES_PREPROD",
+            "lastUpdated": "2019-09-09T08:20:25.113",
+            "id": "QllodPhxVeb",
+            "created": "2019-09-07T16:18:31.803",
+            "name": "WHO_PREPROD",
+            "shortName": "WHO_PREPROD",
+            "displayName": "WHO_PREPROD",
+            "publicAccess": "--------",
+            "displayShortName": "WHO_PREPROD",
+            "externalAccess": false,
+            "dimensionItem": "QllodPhxVeb",
+            "isDefault": false,
+            "favorite": false,
+            "dimensionItemType": "CATEGORY_OPTION",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true,
+                "data": {
+                    "read": true,
+                    "write": true
+                }
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "translations": [],
+            "categories": [
+                {
+                    "id": "dL4wpziK7qW"
+                }
+            ],
+            "organisationUnits": [
+                {
+                    "id": "H8RixfF8ugH"
+                }
+            ],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "attributeValues": [],
+            "categoryOptionCombos": [
+                {
+                    "id": "irkK9eyChrC"
+                }
+            ],
+            "categoryOptionGroups": [],
+            "userAccesses": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "categoryOptions",
+            "code": "ADMIN_DUTY_CO_SERVER_INSTANCES_PREPROD-VIS",
+            "lastUpdated": "2019-09-10T16:32:19.140",
+            "id": "OgGW61Izy8Y",
+            "created": "2019-09-10T16:32:19.140",
+            "name": "WHO_PREPROD-VIS",
+            "shortName": "WHO_PREPROD-VIS",
+            "displayName": "WHO_PREPROD-VIS",
+            "publicAccess": "--------",
+            "displayShortName": "WHO_PREPROD-VIS",
+            "externalAccess": false,
+            "dimensionItem": "OgGW61Izy8Y",
+            "isDefault": false,
+            "favorite": false,
+            "dimensionItemType": "CATEGORY_OPTION",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true,
+                "data": {
+                    "read": true,
+                    "write": true
+                }
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "translations": [],
+            "categories": [],
+            "organisationUnits": [
+                {
+                    "id": "H8RixfF8ugH"
+                }
+            ],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "attributeValues": [],
+            "categoryOptionCombos": [
+                {
+                    "id": "jnNy9wEOvyu"
+                }
+            ],
+            "categoryOptionGroups": [],
+            "userAccesses": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "categoryOptions",
+            "code": "ADMIN_DUTY_CO_SERVER_INSTANCES_PROD",
+            "lastUpdated": "2019-09-09T08:20:25.113",
+            "id": "rhGywpV4vXF",
+            "created": "2019-09-07T16:18:16.992",
+            "name": "WHO_PROD",
+            "shortName": "WHO_PROD",
+            "displayName": "WHO_PROD",
+            "publicAccess": "--------",
+            "displayShortName": "WHO_PROD",
+            "externalAccess": false,
+            "dimensionItem": "rhGywpV4vXF",
+            "isDefault": false,
+            "favorite": false,
+            "dimensionItemType": "CATEGORY_OPTION",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true,
+                "data": {
+                    "read": true,
+                    "write": true
+                }
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "translations": [],
+            "categories": [
+                {
+                    "id": "dL4wpziK7qW"
+                }
+            ],
+            "organisationUnits": [
+                {
+                    "id": "H8RixfF8ugH"
+                }
+            ],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "attributeValues": [],
+            "categoryOptionCombos": [
+                {
+                    "id": "hHIs5QYHbQP"
+                }
+            ],
+            "categoryOptionGroups": [],
+            "userAccesses": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "categoryOptions",
+            "code": "ADMIN_DUTY_CO_SERVER_INSTANCES_TRAINING",
+            "lastUpdated": "2019-09-09T08:20:25.113",
+            "id": "buv02XljUjE",
+            "created": "2019-09-07T16:18:46.637",
+            "name": "WHO_TRAINING",
+            "shortName": "WHO_TRAINING",
+            "displayName": "WHO_TRAINING",
+            "publicAccess": "--------",
+            "displayShortName": "WHO_TRAINING",
+            "externalAccess": false,
+            "dimensionItem": "buv02XljUjE",
+            "isDefault": false,
+            "favorite": false,
+            "dimensionItemType": "CATEGORY_OPTION",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true,
+                "data": {
+                    "read": true,
+                    "write": true
+                }
+            },
+            "lastUpdatedBy": {
+                "id": "s5EVHUwoFKu"
+            },
+            "user": {
+                "id": "s5EVHUwoFKu"
+            },
+            "favorites": [],
+            "translations": [],
+            "categories": [
+                {
+                    "id": "dL4wpziK7qW"
+                }
+            ],
+            "organisationUnits": [
+                {
+                    "id": "H8RixfF8ugH"
+                }
+            ],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "attributeValues": [],
+            "categoryOptionCombos": [
+                {
+                    "id": "qpRs0fsxSeB"
+                }
+            ],
+            "categoryOptionGroups": [],
+            "userAccesses": [],
+            "legendSets": []
+        }
+    ]
+}

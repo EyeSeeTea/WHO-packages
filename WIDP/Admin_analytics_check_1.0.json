@@ -1,0 +1,279 @@
+{
+    "date": "2020-05-27T11:21:59.477Z",
+    "dataSets": [
+        {
+            "metadataType": "dataSets",
+            "lastUpdated": "2019-08-08T11:27:32.240",
+            "id": "C47NApwU2kc",
+            "created": "2019-08-08T08:48:38.596",
+            "name": "ADMIN_Analytics_Check",
+            "validCompleteOnly": false,
+            "publicAccess": "--------",
+            "skipOffline": false,
+            "compulsoryFieldsCompleteOnly": false,
+            "formType": "DEFAULT",
+            "version": 2,
+            "timelyDays": 15,
+            "favorite": false,
+            "dimensionItemType": "REPORTING_RATE",
+            "dataElementDecoration": false,
+            "displayName": "ADMIN_Analytics_Check",
+            "notifyCompletingUser": false,
+            "noValueRequiresComment": false,
+            "externalAccess": false,
+            "fieldCombinationRequired": false,
+            "renderHorizontally": false,
+            "renderAsTabs": false,
+            "dimensionItem": "C47NApwU2kc",
+            "mobile": false,
+            "periodType": "Daily",
+            "openFuturePeriods": 1,
+            "expiryDays": 0,
+            "lastUpdatedBy": {
+                "id": "kD52FGwJgDF"
+            },
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true,
+                "data": {
+                    "read": true,
+                    "write": true
+                }
+            },
+            "user": {
+                "id": "H4atNsEuKxP"
+            },
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "z0JzzSTL65T"
+                    },
+                    "dataSet": {
+                        "id": "C47NApwU2kc"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "iBDyhSHSk1K"
+                    },
+                    "dataSet": {
+                        "id": "C47NApwU2kc"
+                    }
+                }
+            ],
+            "translations": [],
+            "dataInputPeriods": [],
+            "interpretations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                }
+            ],
+            "attributeValues": [],
+            "indicators": [],
+            "sections": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "favorites": [],
+            "compulsoryDataElementOperands": [],
+            "organisationUnits": [
+                {
+                    "id": "H8RixfF8ugH"
+                }
+            ]
+        }
+    ],
+    "dataElements": [
+        {
+            "metadataType": "dataElements",
+            "lastUpdated": "2020-03-31T17:12:58.505",
+            "id": "z0JzzSTL65T",
+            "created": "2019-08-08T08:51:15.806",
+            "name": "MAL - ADMIN_Analytics_Execution_1",
+            "shortName": "ADMIN_Analytics_Execution_1",
+            "aggregationType": "SUM",
+            "domainType": "AGGREGATE",
+            "displayName": "MAL - ADMIN_Analytics_Execution_1",
+            "publicAccess": "--------",
+            "displayShortName": "ADMIN_Analytics_Execution_1",
+            "externalAccess": false,
+            "valueType": "TRUE_ONLY",
+            "formName": "Analytics run at 0h",
+            "dimensionItem": "z0JzzSTL65T",
+            "displayFormName": "Analytics run at 0h",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "kD52FGwJgDF"
+            },
+            "user": {
+                "id": "YdBcEIZpRHo"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "z0JzzSTL65T"
+                    },
+                    "dataSet": {
+                        "id": "C47NApwU2kc"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "r-------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "UhRUGTBad7l",
+                    "displayName": "SS_NTD_CH_Healthcare_AggrData_Entry",
+                    "id": "UhRUGTBad7l"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "GcNXOjowdL7",
+                    "displayName": "SS_NTD_CH_Healthcare_AggrData_View",
+                    "id": "GcNXOjowdL7"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "urN5y60pAuu",
+                    "displayName": "NTD_CH_HQ",
+                    "id": "urN5y60pAuu"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "irooBniCRle",
+                    "displayName": "NTD admin team",
+                    "id": "irooBniCRle"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [
+                {
+                    "access": "r-------",
+                    "displayName": "NTD Check",
+                    "id": "xgKMFzwPLs6",
+                    "userUid": "xgKMFzwPLs6"
+                }
+            ],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "lastUpdated": "2020-03-31T17:13:13.661",
+            "id": "iBDyhSHSk1K",
+            "created": "2019-08-08T08:51:51.136",
+            "name": "MAL - ADMIN_Analytics_Execution_2",
+            "shortName": "ADMIN_Analytics_Execution_2",
+            "aggregationType": "SUM",
+            "domainType": "AGGREGATE",
+            "displayName": "MAL - ADMIN_Analytics_Execution_2",
+            "publicAccess": "--------",
+            "displayShortName": "ADMIN_Analytics_Execution_2",
+            "externalAccess": false,
+            "valueType": "TRUE_ONLY",
+            "formName": "Analytics run at 12h",
+            "dimensionItem": "iBDyhSHSk1K",
+            "displayFormName": "Analytics run at 12h",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "kD52FGwJgDF"
+            },
+            "user": {
+                "id": "YdBcEIZpRHo"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "iBDyhSHSk1K"
+                    },
+                    "dataSet": {
+                        "id": "C47NApwU2kc"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "r-------",
+                    "userGroupUid": "UfhhwZK73Lg",
+                    "displayName": "WIDP IT team",
+                    "id": "UfhhwZK73Lg"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "UhRUGTBad7l",
+                    "displayName": "SS_NTD_CH_Healthcare_AggrData_Entry",
+                    "id": "UhRUGTBad7l"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "GcNXOjowdL7",
+                    "displayName": "SS_NTD_CH_Healthcare_AggrData_View",
+                    "id": "GcNXOjowdL7"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "urN5y60pAuu",
+                    "displayName": "NTD_CH_HQ",
+                    "id": "urN5y60pAuu"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "irooBniCRle",
+                    "displayName": "NTD admin team",
+                    "id": "irooBniCRle"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [
+                {
+                    "access": "r-------",
+                    "displayName": "NTD Check",
+                    "id": "xgKMFzwPLs6",
+                    "userUid": "xgKMFzwPLs6"
+                }
+            ],
+            "legendSets": [],
+            "aggregationLevels": []
+        }
+    ]
+}
