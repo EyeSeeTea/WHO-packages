@@ -1,0 +1,91 @@
+{
+    "date": "2020-05-16T18:29:22.375Z",
+    "sqlViews": [
+        {
+            "metadataType": "sqlViews",
+            "created": "2020-05-05T19:28:15.824",
+            "lastUpdated": "2020-05-05T19:28:15.824",
+            "name": "MAL - Sub-national data file uploaded to WMR Form",
+            "id": "tVYd3WFpRH5",
+            "sqlQuery": "Select\n  organisationunit.code,\n  organisationunit.uid,\n  organisationunit.organisationunitid As OrgId,\n  organisationunit.name As OrgName,\n  datavalue.value\nFrom\n  datavalue Inner Join\n  organisationunit On datavalue.sourceid =\n    organisationunit.organisationunitid\nWhere\n  datavalue.dataelementid in (SELECT dataelementid FROM dataelement wHERE uid='c9p5aky1SCy') And\n  datavalue.periodid = (SELECT periodid FROM period WHERE periodtypeid=8 AND eXTRACT(YEAR from startdate) = 2019 and eXTRACT(YEAR from enddate) = 2019)\nOrder By\n  organisationunit.code",
+            "displayName": "Sub-national data file uploaded to WMR Form",
+            "publicAccess": "--------",
+            "description": "Sub-national data file uploaded to WMR Form",
+            "type": "VIEW",
+            "externalAccess": false,
+            "cacheStrategy": "RESPECT_SYSTEM_SETTING",
+            "favorite": false,
+            "lastUpdatedBy": {},
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "user": {},
+            "favorites": [],"userGroupAccesses":[{"access":"r-------","userGroupUid":"OviFXqdot0H","displayName":"MAL_Malaria users","id":"OviFXqdot0H"},{"access":"rw------","userGroupUid":"suMb19wGXPR","displayName":"MAL_Malaria admin","id":"suMb19wGXPR"}],
+            "attributeValues": [],
+            "translations": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "sqlViews",
+            "created": "2020-05-05T19:10:49.973",
+            "lastUpdated": "2020-05-13T16:24:22.835",
+            "name": "MAL - Countries datavalues lastest update",
+            "id": "pgWw2aakZKk",
+            "sqlQuery": "SELECT\n\torganisationunit.code, \n\tmax(datavalue.lastupdated) AS latest\nFROM\n\tdatavalue\n\tINNER JOIN\n\torganisationunit\n\tON \n\t\tdatavalue.sourceid = organisationunit.organisationunitid\nWHERE\n\torganisationunit.hierarchylevel = 3 AND\n\tdatavalue.storedby NOT IN ('ryan','olavpo','chanyc') AND\n\tdatavalue.dataelementid in (SELECT dataelementid FROM datasetelement wHERE datasetid =5047689)\nGROUP BY\n\torganisationunit.code",
+            "displayName": "Countries datavalues lastest update",
+            "publicAccess": "--------",
+            "description": "Countries datavalues lastest update",
+            "type": "VIEW",
+            "externalAccess": false,
+            "cacheStrategy": "RESPECT_SYSTEM_SETTING",
+            "favorite": false,
+            "lastUpdatedBy": {},
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "user": {},
+            "favorites": [],"userGroupAccesses":[{"access":"r-------","userGroupUid":"OviFXqdot0H","displayName":"MAL_Malaria users","id":"OviFXqdot0H"},{"access":"rw------","userGroupUid":"suMb19wGXPR","displayName":"MAL_Malaria admin","id":"suMb19wGXPR"}],
+            "attributeValues": [],
+            "translations": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "sqlViews",
+            "created": "2020-05-05T19:27:20.705",
+            "lastUpdated": "2020-05-13T17:00:25.576",
+            "name": "MAL - IR Events",
+            "id": "fdkWfXGkQoC",
+            "sqlQuery": "SELECT POrg.code, 'XX' as ISO2, organisationunit.code as ISO3, organisationunit.code as OrgUID, organisationunit.uid, programstage.name, programstageinstance.programstageid, programstage.uid as progStageUID, status, \n POrg.code as ISOCode\nFROM programstageinstance \nLEFT JOIN programstage ON (programstageinstance.programstageid = programstage.programstageid)\nLEFT JOIN organisationunit ON (programstageinstance.organisationunitid = organisationunit.organisationunitid)\nLEFT JOIN organisationunit as POrg ON (POrg.organisationunitid = organisationunit.parentid)\nWHERE programstageinstance.created >= '2020.04.01' AND\nprogramstageinstance.storedby <> 'fernandezl'\nORDER BY  POrg.code",
+            "displayName": "MAL - IR Events lastest updates",
+            "publicAccess": "--------",
+            "type": "VIEW",
+            "externalAccess": false,
+            "cacheStrategy": "RESPECT_SYSTEM_SETTING",
+            "favorite": false,
+            "lastUpdatedBy": {},
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "user": {},
+            "favorites": [],"userGroupAccesses":[{"access":"r-------","userGroupUid":"OviFXqdot0H","displayName":"MAL_Malaria users","id":"OviFXqdot0H"},{"access":"rw------","userGroupUid":"suMb19wGXPR","displayName":"MAL_Malaria admin","id":"suMb19wGXPR"}],
+            "attributeValues": [],
+            "translations": [],
+            "userAccesses": []
+        }
+    ]
+}
