@@ -1272,42 +1272,37 @@
       "users": []
     },
     {
-      "access": {
-        "delete": true,
-        "externalize": true,
-        "manage": true,
-        "read": true,
-        "update": true,
-        "write": true
-      },
-      "attributeValues": [],
-      "authorities": [
-        "M_IDS_Locator"
-      ],
-      "created": "2019-07-22T10:22:57.070",
-      "description": "APP - This role gives access to the IDS Locator",
-      "displayName": "IDS Locator - App",
+      "created": "2020-06-22T15:47:26.895",
+      "lastUpdated": "2020-06-22T15:47:26.895",
+      "name": "UID Locator - App",
+      "id": "ryoozDDoEZo",
+      "displayName": "UID Locator - App",
+      "publicAccess": "r-------",
+      "description": "APP - This role gives access to the UID Locator",
       "externalAccess": false,
       "favorite": false,
+      "lastUpdatedBy": {
+        "id": "eK26I7dRbC4"
+      },
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "user": {
+        "id": "eK26I7dRbC4"
+      },
       "favorites": [],
-      "id": "ryoozDDoEZo",
-      "lastUpdated": "2019-08-14T23:06:43.630",
-      "lastUpdatedBy": {},
-      "metadataType": "userRoles",
-      "name": "IDS Locator - App",
-      "publicAccess": "r-------",
-      "translations": [],
-      "user": {},
-      "userAccesses": [],
-      "userGroupAccesses": [
-        {
-          "access": "rw------",
-          "displayName": "WIDP IT team",
-          "id": "UfhhwZK73Lg",
-          "userGroupUid": "UfhhwZK73Lg"
-        }
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "authorities": [
+        "M_UID_Locator"
       ],
-      "users": []
+      "translations": [],
+      "userAccesses": []
     },
     {
       "access": {
