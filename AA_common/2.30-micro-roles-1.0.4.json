@@ -1695,10 +1695,15 @@
       "attributeValues": [],
       "authorities": [
         "F_CATEGORY_COMBO_PRIVATE_ADD",
-        "F_CATEGORY_OPTION_GROUP_PRIVATE_ADD",
         "F_CATEGORY_OPTION_GROUP_SET_PRIVATE_ADD",
+        "F_CATEGORY_OPTION_GROUP_SET_DELETE",
+        "F_CATEGORY_PRIVATE_ADD",
+        "F_CATEGORY_OPTION_GROUP_DELETE",
+        "F_CATEGORY_DELETE",
         "F_CATEGORY_OPTION_PRIVATE_ADD",
-        "F_CATEGORY_PRIVATE_ADD"
+        "F_CATEGORY_COMBO_DELETE",
+        "F_CATEGORY_OPTION_DELETE",
+        "F_CATEGORY_OPTION_GROUP_PRIVATE_ADD"
       ],
       "created": "2020-06-18T08:27:03.912",
       "description": "AUTHORITIES - WIDP admin only - This role enables to perform all maintenance tasks on categories - WIDP admin only",
