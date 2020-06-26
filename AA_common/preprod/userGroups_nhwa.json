@@ -1,0 +1,873 @@
+{
+  "userGroups": [
+    {
+      "attributeValues": [],
+      "created": "2017-06-23T04:42:08.383",
+      "displayName": "NHWA Country Team",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8083/api/userGroups/vNDwT7P6thq",
+      "id": "vNDwT7P6thq",
+      "lastUpdated": "2020-06-23T10:24:51.850",
+      "lastUpdatedBy": {
+        "id": "H8IFYZ4ZkLw"
+      },
+      "managedByGroups": [
+        {
+          "id": "EX00r2JNlQo"
+        }
+      ],
+      "managedGroups": [],
+      "name": "NHWA Country Team",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "H8IFYZ4ZkLw"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2019-03-19T11:17:28.673",
+      "displayName": "NHWA Data Clerk",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8083/api/userGroups/DWWxlpQi9M8",
+      "id": "DWWxlpQi9M8",
+      "lastUpdated": "2020-06-24T11:19:26.670",
+      "lastUpdatedBy": {
+        "id": "H8IFYZ4ZkLw"
+      },
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "NHWA Data Clerk",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "H8IFYZ4ZkLw"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2019-02-04T10:12:41.678",
+      "displayName": "NHWA Data Completion",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8083/api/userGroups/z6TJVUnop02",
+      "id": "z6TJVUnop02",
+      "lastUpdated": "2020-06-25T08:51:50.990",
+      "lastUpdatedBy": {
+        "id": "kD52FGwJgDF"
+      },
+      "managedByGroups": [
+        {
+          "id": "EX00r2JNlQo"
+        }
+      ],
+      "managedGroups": [],
+      "name": "NHWA Data Completion",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "kD52FGwJgDF"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2019-03-19T11:20:11.507",
+      "displayName": "NHWA Data Managers",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8083/api/userGroups/xcDZeClzdse",
+      "id": "xcDZeClzdse",
+      "lastUpdated": "2020-06-25T08:51:50.990",
+      "lastUpdatedBy": {
+        "id": "kD52FGwJgDF"
+      },
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "NHWA Data Managers",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "kD52FGwJgDF"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2019-09-19T13:08:01.202",
+      "displayName": "NHWA Data Viewer",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8083/api/userGroups/r7QSG6UcnDW",
+      "id": "r7QSG6UcnDW",
+      "lastUpdated": "2020-05-04T15:32:23.433",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "NHWA Data Viewer",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "H4atNsEuKxP"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2017-06-23T04:41:45.251",
+      "displayName": "NHWA Global Team",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8083/api/userGroups/MVWS4lpbPo2",
+      "id": "MVWS4lpbPo2",
+      "lastUpdated": "2020-06-25T08:51:50.990",
+      "lastUpdatedBy": {
+        "id": "kD52FGwJgDF"
+      },
+      "managedByGroups": [
+        {
+          "id": "EX00r2JNlQo"
+        }
+      ],
+      "managedGroups": [],
+      "name": "NHWA Global Team",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "kD52FGwJgDF"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2017-06-25T08:46:20.473",
+      "displayName": "NHWA Regional Team",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8083/api/userGroups/ZWeEK9iBnEi",
+      "id": "ZWeEK9iBnEi",
+      "lastUpdated": "2020-05-04T15:32:03.868",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "managedByGroups": [
+        {
+          "id": "EX00r2JNlQo"
+        }
+      ],
+      "managedGroups": [],
+      "name": "NHWA Regional Team",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "H4atNsEuKxP"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2019-09-24T17:45:16.160",
+      "displayName": "NHWA SEAR team",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8083/api/userGroups/Ua0RkZtejvc",
+      "id": "Ua0RkZtejvc",
+      "lastUpdated": "2019-12-04T18:05:15.279",
+      "lastUpdatedBy": {
+        "id": "kD52FGwJgDF"
+      },
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "NHWA SEAR team",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "kD52FGwJgDF"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2019-01-16T05:53:05.565",
+      "displayName": "NHWA Team (formerly health workforce team)",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8083/api/userGroups/fxyLXZ10TXC",
+      "id": "fxyLXZ10TXC",
+      "lastUpdated": "2020-06-25T08:51:50.990",
+      "lastUpdatedBy": {
+        "id": "kD52FGwJgDF"
+      },
+      "managedByGroups": [
+        {
+          "id": "EX00r2JNlQo"
+        }
+      ],
+      "managedGroups": [],
+      "name": "NHWA Team (formerly health workforce team)",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "kD52FGwJgDF"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2019-01-24T13:59:46.796",
+      "displayName": "NHWA _DATA Capture Module 1",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8083/api/userGroups/gucuWTSL91y",
+      "id": "gucuWTSL91y",
+      "lastUpdated": "2020-06-25T08:51:50.990",
+      "lastUpdatedBy": {
+        "id": "kD52FGwJgDF"
+      },
+      "managedByGroups": [
+        {
+          "id": "gucuWTSL91y"
+        }
+      ],
+      "managedGroups": [
+        {
+          "id": "gucuWTSL91y"
+        }
+      ],
+      "name": "NHWA _DATA Capture Module 1",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "kD52FGwJgDF"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2019-01-21T08:09:00.513",
+      "displayName": "NHWA _DATA Capture Module 2-4",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8083/api/userGroups/qas5p6OQu1F",
+      "id": "qas5p6OQu1F",
+      "lastUpdated": "2020-06-25T08:51:50.990",
+      "lastUpdatedBy": {
+        "id": "kD52FGwJgDF"
+      },
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "NHWA _DATA Capture Module 2-4",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "kD52FGwJgDF"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2019-01-21T08:09:38.731",
+      "displayName": "NHWA _DATA Capture Module 5-7",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8083/api/userGroups/D7hWY1YuAy5",
+      "id": "D7hWY1YuAy5",
+      "lastUpdated": "2020-06-25T08:51:50.990",
+      "lastUpdatedBy": {
+        "id": "kD52FGwJgDF"
+      },
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "NHWA _DATA Capture Module 5-7",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "kD52FGwJgDF"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2019-01-24T14:01:50.573",
+      "displayName": "NHWA _DATA Capture Module 6",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8083/api/userGroups/vP9XN5kQOUS",
+      "id": "vP9XN5kQOUS",
+      "lastUpdated": "2020-06-25T08:51:50.990",
+      "lastUpdatedBy": {
+        "id": "kD52FGwJgDF"
+      },
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "NHWA _DATA Capture Module 6",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "kD52FGwJgDF"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2019-01-16T05:45:49.025",
+      "displayName": "NHWA _DATA Capture Module 8-10",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8083/api/userGroups/cXTWPVpochS",
+      "id": "cXTWPVpochS",
+      "lastUpdated": "2020-06-25T08:51:50.990",
+      "lastUpdatedBy": {
+        "id": "kD52FGwJgDF"
+      },
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "NHWA _DATA Capture Module 8-10",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "kD52FGwJgDF"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2019-01-16T05:46:03.546",
+      "displayName": "NHWA _DATA Capture NHWA Maturity assessment",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8083/api/userGroups/RFBWNXFVvS3",
+      "id": "RFBWNXFVvS3",
+      "lastUpdated": "2020-06-25T08:51:50.990",
+      "lastUpdatedBy": {
+        "id": "kD52FGwJgDF"
+      },
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "NHWA _DATA Capture NHWA Maturity assessment",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "kD52FGwJgDF"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2019-02-04T10:17:35.557",
+      "displayName": "NHWA _DATA Capture Population UN",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8083/api/userGroups/Y0ylnlnjSNk",
+      "id": "Y0ylnlnjSNk",
+      "lastUpdated": "2020-06-25T08:51:50.990",
+      "lastUpdatedBy": {
+        "id": "kD52FGwJgDF"
+      },
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "NHWA _DATA Capture Population UN",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "kD52FGwJgDF"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2019-08-28T12:50:20.547",
+      "displayName": "NHWA administrators",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8083/api/userGroups/EX00r2JNlQo",
+      "id": "EX00r2JNlQo",
+      "lastUpdated": "2020-06-25T08:51:50.990",
+      "lastUpdatedBy": {
+        "id": "kD52FGwJgDF"
+      },
+      "managedByGroups": [],
+      "managedGroups": [
+        {
+          "id": "GB9KEtGDecy"
+        },
+        {
+          "id": "MVWS4lpbPo2"
+        },
+        {
+          "id": "ZWeEK9iBnEi"
+        },
+        {
+          "id": "fxyLXZ10TXC"
+        },
+        {
+          "id": "vNDwT7P6thq"
+        },
+        {
+          "id": "z6TJVUnop02"
+        }
+      ],
+      "name": "NHWA administrators",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "kD52FGwJgDF"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "code": "NHWA checker",
+      "created": "2018-12-14T16:56:28.273",
+      "displayName": "NHWA checker",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8083/api/userGroups/ypluz7jgVRe",
+      "id": "ypluz7jgVRe",
+      "lastUpdated": "2019-06-18T11:11:57.547",
+      "lastUpdatedBy": {
+        "id": "kD52FGwJgDF"
+      },
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "NHWA checker",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "kD52FGwJgDF"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2018-05-16T09:45:50.786",
+      "displayName": "NHWA web portal",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8083/api/userGroups/GB9KEtGDecy",
+      "id": "GB9KEtGDecy",
+      "lastUpdated": "2020-05-04T15:32:03.867",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "managedByGroups": [
+        {
+          "id": "EX00r2JNlQo"
+        }
+      ],
+      "managedGroups": [],
+      "name": "NHWA web portal",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "H4atNsEuKxP"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "NHWA administrators",
+          "id": "EX00r2JNlQo",
+          "userGroupUid": "EX00r2JNlQo"
+        },
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "r-------",
+          "displayName": "NHWA Team (formerly health workforce team)",
+          "id": "fxyLXZ10TXC",
+          "userGroupUid": "fxyLXZ10TXC"
+        }
+      ]
+    }
+  ]
+}

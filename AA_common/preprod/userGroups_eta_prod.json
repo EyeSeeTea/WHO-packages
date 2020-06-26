@@ -1,0 +1,551 @@
+{
+  "userGroups": [
+    {
+      "attributeValues": [],
+      "created": "2017-10-11T09:17:30.143",
+      "displayName": "ETA",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8083/api/userGroups/tUfZyQ0oJOI",
+      "id": "tUfZyQ0oJOI",
+      "lastUpdated": "2020-06-23T15:32:27.088",
+      "lastUpdatedBy": {
+        "id": "kD52FGwJgDF"
+      },
+      "managedByGroups": [
+        {
+          "id": "Urx6COfeLkm"
+        }
+      ],
+      "managedGroups": [],
+      "name": "ETA",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "kD52FGwJgDF"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "ETA administrators",
+          "id": "Urx6COfeLkm",
+          "userGroupUid": "Urx6COfeLkm"
+        },
+        {
+          "access": "r-------",
+          "displayName": "ETA - GETI Data Collection",
+          "id": "mggnmoLxWOe",
+          "userGroupUid": "mggnmoLxWOe"
+        },
+        {
+          "access": "r-------",
+          "displayName": "ETA Users",
+          "id": "y4eVE0uT9yz",
+          "userGroupUid": "y4eVE0uT9yz"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2020-06-02T09:40:31.751",
+      "displayName": "ETA - GETI Data Collection",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8083/api/userGroups/mggnmoLxWOe",
+      "id": "mggnmoLxWOe",
+      "lastUpdated": "2020-06-23T19:26:19.473",
+      "lastUpdatedBy": {
+        "id": "kD52FGwJgDF"
+      },
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "ETA - GETI Data Collection",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "kD52FGwJgDF"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "ETA administrators",
+          "id": "Urx6COfeLkm",
+          "userGroupUid": "Urx6COfeLkm"
+        },
+        {
+          "access": "r-------",
+          "displayName": "ETA - GETI Data Collection",
+          "id": "mggnmoLxWOe",
+          "userGroupUid": "mggnmoLxWOe"
+        },
+        {
+          "access": "r-------",
+          "displayName": "ETA Users",
+          "id": "y4eVE0uT9yz",
+          "userGroupUid": "y4eVE0uT9yz"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2018-01-22T16:20:56.938",
+      "displayName": "ETA Data Entry",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8083/api/userGroups/GjnWefzEY20",
+      "id": "GjnWefzEY20",
+      "lastUpdated": "2020-06-23T15:32:27.088",
+      "lastUpdatedBy": {
+        "id": "kD52FGwJgDF"
+      },
+      "managedByGroups": [
+        {
+          "id": "Urx6COfeLkm"
+        }
+      ],
+      "managedGroups": [],
+      "name": "ETA Data Entry",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "kD52FGwJgDF"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "ETA administrators",
+          "id": "Urx6COfeLkm",
+          "userGroupUid": "Urx6COfeLkm"
+        },
+        {
+          "access": "r-------",
+          "displayName": "ETA - GETI Data Collection",
+          "id": "mggnmoLxWOe",
+          "userGroupUid": "mggnmoLxWOe"
+        },
+        {
+          "access": "r-------",
+          "displayName": "ETA Users",
+          "id": "y4eVE0uT9yz",
+          "userGroupUid": "y4eVE0uT9yz"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2019-08-29T13:31:00.258",
+      "displayName": "ETA Data Entry - Events",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8083/api/userGroups/c8sN59GDJpC",
+      "id": "c8sN59GDJpC",
+      "lastUpdated": "2020-06-23T00:36:15.741",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "managedByGroups": [
+        {
+          "id": "Urx6COfeLkm"
+        }
+      ],
+      "managedGroups": [],
+      "name": "ETA Data Entry - Events",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "H4atNsEuKxP"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "ETA administrators",
+          "id": "Urx6COfeLkm",
+          "userGroupUid": "Urx6COfeLkm"
+        },
+        {
+          "access": "r-------",
+          "displayName": "ETA - GETI Data Collection",
+          "id": "mggnmoLxWOe",
+          "userGroupUid": "mggnmoLxWOe"
+        },
+        {
+          "access": "r-------",
+          "displayName": "ETA Users",
+          "id": "y4eVE0uT9yz",
+          "userGroupUid": "y4eVE0uT9yz"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2018-12-07T10:48:16.703",
+      "displayName": "ETA Facility Analysis Only",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8083/api/userGroups/uNJOBaIvuNw",
+      "id": "uNJOBaIvuNw",
+      "lastUpdated": "2020-06-23T15:32:27.088",
+      "lastUpdatedBy": {
+        "id": "kD52FGwJgDF"
+      },
+      "managedByGroups": [
+        {
+          "id": "Urx6COfeLkm"
+        }
+      ],
+      "managedGroups": [],
+      "name": "ETA Facility Analysis Only",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "kD52FGwJgDF"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "ETA administrators",
+          "id": "Urx6COfeLkm",
+          "userGroupUid": "Urx6COfeLkm"
+        },
+        {
+          "access": "r-------",
+          "displayName": "ETA - GETI Data Collection",
+          "id": "mggnmoLxWOe",
+          "userGroupUid": "mggnmoLxWOe"
+        },
+        {
+          "access": "r-------",
+          "displayName": "ETA Users",
+          "id": "y4eVE0uT9yz",
+          "userGroupUid": "y4eVE0uT9yz"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2019-08-29T10:23:34.820",
+      "displayName": "ETA Facility Analysis Only - Events",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8083/api/userGroups/J68LnyQufb9",
+      "id": "J68LnyQufb9",
+      "lastUpdated": "2020-06-23T00:36:15.741",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "managedByGroups": [
+        {
+          "id": "Urx6COfeLkm"
+        }
+      ],
+      "managedGroups": [],
+      "name": "ETA Facility Analysis Only - Events",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "H4atNsEuKxP"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "ETA administrators",
+          "id": "Urx6COfeLkm",
+          "userGroupUid": "Urx6COfeLkm"
+        },
+        {
+          "access": "r-------",
+          "displayName": "ETA - GETI Data Collection",
+          "id": "mggnmoLxWOe",
+          "userGroupUid": "mggnmoLxWOe"
+        },
+        {
+          "access": "r-------",
+          "displayName": "ETA Users",
+          "id": "y4eVE0uT9yz",
+          "userGroupUid": "y4eVE0uT9yz"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2018-12-07T12:10:28.121",
+      "displayName": "ETA Ministry Analysis Only",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8083/api/userGroups/QhhxtdJ8HL7",
+      "id": "QhhxtdJ8HL7",
+      "lastUpdated": "2020-06-23T00:36:15.741",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "managedByGroups": [
+        {
+          "id": "Urx6COfeLkm"
+        }
+      ],
+      "managedGroups": [],
+      "name": "ETA Ministry Analysis Only",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "H4atNsEuKxP"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "ETA administrators",
+          "id": "Urx6COfeLkm",
+          "userGroupUid": "Urx6COfeLkm"
+        },
+        {
+          "access": "r-------",
+          "displayName": "ETA - GETI Data Collection",
+          "id": "mggnmoLxWOe",
+          "userGroupUid": "mggnmoLxWOe"
+        },
+        {
+          "access": "r-------",
+          "displayName": "ETA Users",
+          "id": "y4eVE0uT9yz",
+          "userGroupUid": "y4eVE0uT9yz"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2019-08-29T13:19:41.348",
+      "displayName": "ETA Ministry Analysis Only - Events",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8083/api/userGroups/x8Tk2UMgpAd",
+      "id": "x8Tk2UMgpAd",
+      "lastUpdated": "2020-06-23T00:36:15.741",
+      "lastUpdatedBy": {
+        "id": "H4atNsEuKxP"
+      },
+      "managedByGroups": [
+        {
+          "id": "Urx6COfeLkm"
+        }
+      ],
+      "managedGroups": [],
+      "name": "ETA Ministry Analysis Only - Events",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "H4atNsEuKxP"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "ETA administrators",
+          "id": "Urx6COfeLkm",
+          "userGroupUid": "Urx6COfeLkm"
+        },
+        {
+          "access": "r-------",
+          "displayName": "ETA - GETI Data Collection",
+          "id": "mggnmoLxWOe",
+          "userGroupUid": "mggnmoLxWOe"
+        },
+        {
+          "access": "r-------",
+          "displayName": "ETA Users",
+          "id": "y4eVE0uT9yz",
+          "userGroupUid": "y4eVE0uT9yz"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2020-06-01T14:19:41.001",
+      "displayName": "ETA Users",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8083/api/userGroups/y4eVE0uT9yz",
+      "id": "y4eVE0uT9yz",
+      "lastUpdated": "2020-06-23T15:32:27.088",
+      "lastUpdatedBy": {
+        "id": "kD52FGwJgDF"
+      },
+      "managedByGroups": [
+        {
+          "id": "Urx6COfeLkm"
+        }
+      ],
+      "managedGroups": [],
+      "name": "ETA Users",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "kD52FGwJgDF"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "ETA administrators",
+          "id": "Urx6COfeLkm",
+          "userGroupUid": "Urx6COfeLkm"
+        },
+        {
+          "access": "r-------",
+          "displayName": "ETA - GETI Data Collection",
+          "id": "mggnmoLxWOe",
+          "userGroupUid": "mggnmoLxWOe"
+        },
+        {
+          "access": "r-------",
+          "displayName": "ETA Users",
+          "id": "y4eVE0uT9yz",
+          "userGroupUid": "y4eVE0uT9yz"
+        }
+      ]
+    },
+    {
+      "attributeValues": [],
+      "created": "2019-10-17T17:46:00.164",
+      "displayName": "ETA administrators",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8083/api/userGroups/Urx6COfeLkm",
+      "id": "Urx6COfeLkm",
+      "lastUpdated": "2020-06-23T15:32:27.088",
+      "lastUpdatedBy": {
+        "id": "kD52FGwJgDF"
+      },
+      "managedByGroups": [],
+      "managedGroups": [
+        {
+          "id": "GjnWefzEY20"
+        },
+        {
+          "id": "J68LnyQufb9"
+        },
+        {
+          "id": "QhhxtdJ8HL7"
+        },
+        {
+          "id": "c8sN59GDJpC"
+        },
+        {
+          "id": "tUfZyQ0oJOI"
+        },
+        {
+          "id": "uNJOBaIvuNw"
+        },
+        {
+          "id": "x8Tk2UMgpAd"
+        },
+        {
+          "id": "y4eVE0uT9yz"
+        }
+      ],
+      "name": "ETA administrators",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "kD52FGwJgDF"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "WIDP IT team",
+          "id": "UfhhwZK73Lg",
+          "userGroupUid": "UfhhwZK73Lg"
+        },
+        {
+          "access": "rw------",
+          "displayName": "ETA administrators",
+          "id": "Urx6COfeLkm",
+          "userGroupUid": "Urx6COfeLkm"
+        },
+        {
+          "access": "r-------",
+          "displayName": "ETA - GETI Data Collection",
+          "id": "mggnmoLxWOe",
+          "userGroupUid": "mggnmoLxWOe"
+        },
+        {
+          "access": "r-------",
+          "displayName": "ETA Users",
+          "id": "y4eVE0uT9yz",
+          "userGroupUid": "y4eVE0uT9yz"
+        }
+      ]
+    }
+  ]
+}
