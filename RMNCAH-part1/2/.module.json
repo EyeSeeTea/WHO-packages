@@ -1,0 +1,9 @@
+{
+    "id": "EMtTxSkoOsN",
+    "name": "RMNCAH-part1/2",
+    "instance": "http://172.16.0.3:8080",
+    "department": {
+        "id": "ZVwme9hQo0c",
+        "name": "MCA - MCA"
+    }
+}
