@@ -1,0 +1,4776 @@
+{
+    "package": {
+        "id": "LPNU53OsTUO",
+        "name": "RMNCAH-part2/2",
+        "user": {
+            "id": "Qu9goywu6cV",
+            "name": "Pablo Foche"
+        },
+        "module": {
+            "id": "jvqboB3HzUW",
+            "name": "catoptioncombos.json",
+            "instance": "http://172.16.0.3:8080",
+            "department": {
+                "id": "ZVwme9hQo0c",
+                "name": "MCA - MCA"
+            }
+        },
+        "created": "2022-07-27T10:16:35.970Z",
+        "deleted": false,
+        "version": "1.0.0",
+        "description": "",
+        "dhisVersion": "2.36",
+        "lastUpdated": "2022-07-27T10:16:53.538Z",
+        "lastUpdatedBy": {
+            "id": "Qu9goywu6cV",
+            "name": "Pablo Foche"
+        }
+    },
+    "categories": [
+        {
+            "id": "avoOKxQrkPC",
+            "code": "AGE_0_9_YEARS",
+            "name": "Age (0-9 years)",
+            "created": "2020-12-21T10:33:26.482",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "shortName": "Age (0-9 years)",
+            "lastUpdated": "2021-01-02T05:55:10.162",
+            "publicAccess": "r-------",
+            "translations": [],
+            "userAccesses": [],
+            "dataDimension": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "UPvKbcqTEY3"
+                },
+                {
+                    "id": "J205eXYNH7q"
+                }
+            ],
+            "dataDimensionType": "DISAGGREGATION",
+            "userGroupAccesses": []
+        },
+        {
+            "id": "FJyR8L7xjGS",
+            "name": "Pregnant women/others",
+            "created": "2015-10-07T14:31:02.006",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "shortName": "Pregnant women/others",
+            "lastUpdated": "2021-02-08T13:23:04.175",
+            "publicAccess": "r-------",
+            "translations": [
+                {
+                    "value": "Těhotné ženy / ostatní",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Mujeres embarazadas/otros",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Femmes enceintes/autres",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "wanita hamil/lainnya",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Gravide kvinner/andre",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Gestantes/outros",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Беременные женщины/другие",
+                    "locale": "ru",
+                    "property": "NAME"
+                }
+            ],
+            "userAccesses": [],
+            "dataDimension": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "DI2XEyHejPP"
+                },
+                {
+                    "id": "I0kOLNtdqRM"
+                }
+            ],
+            "dataDimensionType": "DISAGGREGATION",
+            "userGroupAccesses": []
+        },
+        {
+            "id": "FRwO58KwwJt",
+            "code": "SEX",
+            "name": "Sex",
+            "created": "2020-03-18T09:45:29.587",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "shortName": "Sex",
+            "lastUpdated": "2021-02-08T13:23:03.741",
+            "publicAccess": "r-------",
+            "translations": [
+                {
+                    "value": "الجنس",
+                    "locale": "ar",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Pohlaví",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Sexo",
+                    "locale": "de",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Sexo",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Sexe",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Jenis Kelamin",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Kjønn",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Sexo",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Пол",
+                    "locale": "ru",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Жинси",
+                    "locale": "uz",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Jinsi",
+                    "locale": "uz_UZ",
+                    "property": "NAME"
+                }
+            ],
+            "userAccesses": [],
+            "dataDimension": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "MP15bHaQh2x"
+                },
+                {
+                    "id": "FFA9e1yIXCT"
+                }
+            ],
+            "dataDimensionType": "DISAGGREGATION",
+            "userGroupAccesses": []
+        },
+        {
+            "id": "HbwpUIPcu6E",
+            "name": "FP Methods",
+            "created": "2020-04-02T14:20:00.283",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "shortName": "FP Methods",
+            "lastUpdated": "2020-04-03T13:10:03.359",
+            "publicAccess": "r-------",
+            "translations": [],
+            "userAccesses": [],
+            "dataDimension": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "fcIGIZgrkdB"
+                },
+                {
+                    "id": "AJi4a1ldMqS"
+                },
+                {
+                    "id": "ic0uMjTGsQ7"
+                },
+                {
+                    "id": "Yflh1WPEwcp"
+                },
+                {
+                    "id": "dqDowxdlyvs"
+                },
+                {
+                    "id": "vs63zVUVG5D"
+                }
+            ],
+            "dataDimensionType": "DISAGGREGATION",
+            "userGroupAccesses": []
+        },
+        {
+            "id": "J53uyepZLU8",
+            "code": "AGE_10_19_YEARS_2",
+            "name": "Age (10-19 years)(2)",
+            "created": "2020-04-07T13:09:33.980",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "shortName": "Age (10-19 years)(2)",
+            "lastUpdated": "2021-03-22T14:03:14.050",
+            "publicAccess": "r-------",
+            "translations": [],
+            "userAccesses": [],
+            "dataDimension": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "ftXCKvbuGgj"
+                },
+                {
+                    "id": "dENFBee17Oi"
+                }
+            ],
+            "dataDimensionType": "DISAGGREGATION",
+            "userGroupAccesses": []
+        },
+        {
+            "id": "mFoasCYViMW",
+            "name": "Age (malaria)",
+            "created": "2015-09-14T08:27:04.761",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "shortName": "Age (malaria)",
+            "lastUpdated": "2019-06-29T07:44:39.194",
+            "publicAccess": "r-------",
+            "translations": [],
+            "userAccesses": [],
+            "dataDimension": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "UPvKbcqTEY3"
+                },
+                {
+                    "id": "pa0cY66MrG6"
+                },
+                {
+                    "id": "wTpH7wugXzZ"
+                }
+            ],
+            "dataDimensionType": "DISAGGREGATION",
+            "userGroupAccesses": []
+        },
+        {
+            "id": "Q3xIIv2LDJF",
+            "name": "Age (TB)",
+            "created": "2018-01-30T13:21:00.729",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "shortName": "Age (TB)",
+            "lastUpdated": "2021-02-08T13:24:46.892",
+            "publicAccess": "r-------",
+            "translations": [
+                {
+                    "value": "Věk (TB)",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Edad (TB)",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "âge (TB)",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Usia (TB)",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Idade (Tuberculose)",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Возраст (ТБ)",
+                    "locale": "ru",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Ёши (ТБ)",
+                    "locale": "uz",
+                    "property": "NAME"
+                }
+            ],
+            "userAccesses": [],
+            "dataDimension": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "UPvKbcqTEY3"
+                },
+                {
+                    "id": "pa0cY66MrG6"
+                },
+                {
+                    "id": "ls9vGYWbvwG"
+                },
+                {
+                    "id": "O6UJSfL4psp"
+                },
+                {
+                    "id": "utyLRFta4ie"
+                },
+                {
+                    "id": "nkQw9lhkbGV"
+                },
+                {
+                    "id": "Lo1gxiS8zap"
+                },
+                {
+                    "id": "OGo8Nqa4e6V"
+                },
+                {
+                    "id": "WNPpyVkVaL3"
+                }
+            ],
+            "dataDimensionType": "DISAGGREGATION",
+            "userGroupAccesses": []
+        },
+        {
+            "id": "xocjlnNuDzU",
+            "name": "Age (reproductive and maternal)",
+            "created": "2019-04-12T19:13:27.908",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "shortName": "Age (reproductive and maternal)",
+            "lastUpdated": "2021-02-08T13:23:04.368",
+            "publicAccess": "r-------",
+            "translations": [
+                {
+                    "value": "Věk (reprodukční a mateřský)",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Edad (reproductiva y materna)",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Age (maternel et reproductif)",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Usia (reproduksi dan maternal)",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Idade (reprodutiva e materna)",
+                    "locale": "pt",
+                    "property": "NAME"
+                }
+            ],
+            "userAccesses": [],
+            "dataDimension": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "ftXCKvbuGgj"
+                },
+                {
+                    "id": "dENFBee17Oi"
+                },
+                {
+                    "id": "aeQKV9Y2Ium"
+                }
+            ],
+            "dataDimensionType": "DISAGGREGATION",
+            "userGroupAccesses": []
+        }
+    ],
+    "categoryCombos": [
+        {
+            "id": "B3erFZxkcPq",
+            "name": "Age and sex (reproductive and maternal)",
+            "created": "2019-04-23T19:14:50.275",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "skipTotal": false,
+            "categories": [
+                {
+                    "id": "xocjlnNuDzU"
+                },
+                {
+                    "id": "FRwO58KwwJt"
+                }
+            ],
+            "lastUpdated": "2021-02-08T13:23:04.976",
+            "publicAccess": "r-------",
+            "translations": [
+                {
+                    "value": "Věk a pohlaví (reprodukční a mateřské)",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Edad y sexo (reproductiva y materna)",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Age et sexe (maternel et reproductif)",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Usia dan jenis kelamin(reproduksi dan maternal)",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Idade e sexo (reprodutivo e materno)",
+                    "locale": "pt",
+                    "property": "NAME"
+                }
+            ],
+            "userAccesses": [],
+            "dataDimensionType": "DISAGGREGATION",
+            "userGroupAccesses": []
+        },
+        {
+            "id": "BwnnrV1AkNj",
+            "name": "Age (malaria)",
+            "created": "2015-09-14T08:48:50.928",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "skipTotal": false,
+            "categories": [
+                {
+                    "id": "mFoasCYViMW"
+                }
+            ],
+            "lastUpdated": "2020-05-11T08:29:36.691",
+            "publicAccess": "r-------",
+            "translations": [
+                {
+                    "value": "Edad (malaria)",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Idade (malária)",
+                    "locale": "pt",
+                    "property": "NAME"
+                }
+            ],
+            "userAccesses": [],
+            "dataDimensionType": "DISAGGREGATION",
+            "userGroupAccesses": []
+        },
+        {
+            "id": "doNNP8ODJC1",
+            "name": "FP Methods",
+            "created": "2020-04-02T14:20:31.924",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "skipTotal": false,
+            "categories": [
+                {
+                    "id": "HbwpUIPcu6E"
+                }
+            ],
+            "lastUpdated": "2020-04-11T15:54:29.918",
+            "publicAccess": "r-------",
+            "translations": [],
+            "userAccesses": [],
+            "dataDimensionType": "DISAGGREGATION",
+            "userGroupAccesses": []
+        },
+        {
+            "id": "jGaNULROqin",
+            "name": "Age (reproductive and maternal)",
+            "created": "2019-04-12T19:15:04.334",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "skipTotal": false,
+            "categories": [
+                {
+                    "id": "xocjlnNuDzU"
+                }
+            ],
+            "lastUpdated": "2021-02-08T13:23:05.295",
+            "publicAccess": "r-------",
+            "translations": [
+                {
+                    "value": "Věk (reprodukční a mateřský)",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Edad (reproductiva y materna)",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Age (maternel et reproductif)",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Usia (reproduksi dan maternal)",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Idade (reprodutiva e materna)",
+                    "locale": "pt",
+                    "property": "NAME"
+                }
+            ],
+            "userAccesses": [],
+            "dataDimensionType": "DISAGGREGATION",
+            "userGroupAccesses": []
+        },
+        {
+            "id": "K8lIoJKlffu",
+            "name": "Age and sex (Adolescent)",
+            "created": "2020-04-07T13:10:31.965",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "skipTotal": false,
+            "categories": [
+                {
+                    "id": "J53uyepZLU8"
+                },
+                {
+                    "id": "FRwO58KwwJt"
+                }
+            ],
+            "lastUpdated": "2020-04-07T13:10:32.001",
+            "publicAccess": "r-------",
+            "translations": [],
+            "userAccesses": [],
+            "dataDimensionType": "DISAGGREGATION",
+            "userGroupAccesses": []
+        },
+        {
+            "id": "M6gYl5gALzC",
+            "code": "AGE_0_9_YEARS",
+            "name": "Age (0-9 years)",
+            "created": "2019-04-12T19:13:44.219",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "skipTotal": false,
+            "categories": [
+                {
+                    "id": "avoOKxQrkPC"
+                }
+            ],
+            "lastUpdated": "2021-01-02T05:56:13.473",
+            "publicAccess": "r-------",
+            "translations": [
+                {
+                    "value": "Edad (Salud infantil)",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Idade (saúde infantil)",
+                    "locale": "pt",
+                    "property": "NAME"
+                }
+            ],
+            "userAccesses": [],
+            "dataDimensionType": "DISAGGREGATION",
+            "userGroupAccesses": []
+        },
+        {
+            "id": "Ow8ltIsRQKX",
+            "name": "Age and sex (TB)",
+            "created": "2018-01-30T13:22:27.475",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "skipTotal": false,
+            "categories": [
+                {
+                    "id": "Q3xIIv2LDJF"
+                },
+                {
+                    "id": "FRwO58KwwJt"
+                }
+            ],
+            "lastUpdated": "2021-02-08T13:24:47.281",
+            "publicAccess": "r-------",
+            "translations": [
+                {
+                    "value": "Věk a pohlaví (TB)",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Edad y sexo (TB)",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Age et sexe (TB)",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Usia dan jenis kelamin (TB)",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Idade e sexo (TB)",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Возраст и пол (ТБ)",
+                    "locale": "ru",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Ёши ва жинси (ТБ)",
+                    "locale": "uz",
+                    "property": "NAME"
+                }
+            ],
+            "userAccesses": [],
+            "dataDimensionType": "DISAGGREGATION",
+            "userGroupAccesses": []
+        },
+        {
+            "id": "TS4Ik8MkKNv",
+            "name": "Pregnant women/others",
+            "created": "2015-10-07T14:31:16.911",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "skipTotal": false,
+            "categories": [
+                {
+                    "id": "FJyR8L7xjGS"
+                }
+            ],
+            "lastUpdated": "2021-02-08T13:23:04.782",
+            "publicAccess": "r-------",
+            "translations": [
+                {
+                    "value": "Těhotné ženy / ostatní",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Mujeres embarazadas/otros",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Femmes enceintes/autres",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Wanita Hamil/lainnya",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Gravide kvinner/andre",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Gestantes/outros",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Беременные женщины/другие",
+                    "locale": "ru",
+                    "property": "NAME"
+                }
+            ],
+            "userAccesses": [],
+            "dataDimensionType": "DISAGGREGATION",
+            "userGroupAccesses": []
+        }
+    ],
+    "categoryOptions": [
+        {
+            "id": "aeQKV9Y2Ium",
+            "code": "P20Y--P9999Y",
+            "name": "20+ years",
+            "created": "2020-12-21T12:21:48.664",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "shortName": "20+ y",
+            "lastUpdated": "2021-03-22T14:03:13.016",
+            "publicAccess": "r-------",
+            "translations": [
+                {
+                    "value": "20+ let",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "20 a více let",
+                    "locale": "cs",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "20+ años",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "20+ a",
+                    "locale": "es",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "20 ans et plus",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "20 ans et plus",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "20+ Tahun",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "20+ Tahun",
+                    "locale": "id",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "20+ år",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "20+ år",
+                    "locale": "nb",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "20+ anos",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "20+ a",
+                    "locale": "pt",
+                    "property": "SHORT_NAME"
+                }
+            ],
+            "userAccesses": [],
+            "attributeValues": [],
+            "organisationUnits": [],
+            "userGroupAccesses": []
+        },
+        {
+            "id": "AJi4a1ldMqS",
+            "code": "PILL",
+            "name": "Pill",
+            "created": "2020-12-21T12:21:48.664",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "shortName": "Pill",
+            "lastUpdated": "2020-12-21T12:21:48.664",
+            "publicAccess": "r-------",
+            "translations": [],
+            "userAccesses": [],
+            "attributeValues": [],
+            "organisationUnits": [],
+            "userGroupAccesses": []
+        },
+        {
+            "id": "dENFBee17Oi",
+            "code": "P15Y--P20Y",
+            "name": "15-19 years (MCA)",
+            "created": "2020-12-21T12:21:48.664",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "shortName": "15-19 y MCA",
+            "lastUpdated": "2021-03-22T14:03:13.017",
+            "publicAccess": "r-------",
+            "translations": [
+                {
+                    "value": "15-19 let",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-19 r",
+                    "locale": "cs",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "15-19 años",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-19 a",
+                    "locale": "es",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "15-19 ans",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-19 ans",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "15-19 Tahun",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-19 Tahun",
+                    "locale": "id",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "15-19 år",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-19 år",
+                    "locale": "nb",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "15-19 anos",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-19 anos",
+                    "locale": "pt",
+                    "property": "SHORT_NAME"
+                }
+            ],
+            "userAccesses": [],
+            "attributeValues": [],
+            "organisationUnits": [],
+            "userGroupAccesses": []
+        },
+        {
+            "id": "DI2XEyHejPP",
+            "code": "PREG",
+            "name": "Pregnant",
+            "created": "2020-12-21T12:21:48.664",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "shortName": "Pregnant",
+            "lastUpdated": "2021-03-22T14:03:13.016",
+            "publicAccess": "r-------",
+            "translations": [
+                {
+                    "value": "Těhotná",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Těhotná",
+                    "locale": "cs",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Embarazada",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Embarazada",
+                    "locale": "es",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Grossesse",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Grossesse",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Hamil",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Hamil",
+                    "locale": "id",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Graviditet",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Graviditet",
+                    "locale": "nb",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Grávida",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Grávida",
+                    "locale": "pt",
+                    "property": "SHORT_NAME"
+                }
+            ],
+            "userAccesses": [],
+            "attributeValues": [],
+            "organisationUnits": [],
+            "userGroupAccesses": []
+        },
+        {
+            "id": "dqDowxdlyvs",
+            "code": "IUD",
+            "name": "IUD",
+            "created": "2020-04-02T14:14:43.454",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "shortName": "IUD",
+            "lastUpdated": "2020-04-02T14:15:23.393",
+            "publicAccess": "r-------",
+            "translations": [],
+            "userAccesses": [],
+            "attributeValues": [],
+            "organisationUnits": [],
+            "userGroupAccesses": []
+        },
+        {
+            "id": "fcIGIZgrkdB",
+            "code": "C",
+            "name": "Condom",
+            "created": "2020-04-02T14:13:30.768",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "shortName": "Condom",
+            "lastUpdated": "2020-04-02T14:13:30.768",
+            "publicAccess": "r-------",
+            "translations": [],
+            "userAccesses": [],
+            "attributeValues": [],
+            "organisationUnits": [],
+            "userGroupAccesses": []
+        },
+        {
+            "id": "FFA9e1yIXCT",
+            "code": "F",
+            "name": "Female (MCA)",
+            "created": "2020-12-21T12:21:48.663",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "shortName": "Female MCA",
+            "lastUpdated": "2021-03-22T14:03:13.017",
+            "publicAccess": "r-------",
+            "translations": [
+                {
+                    "value": "إناث",
+                    "locale": "ar",
+                    "property": "NAME"
+                },
+                {
+                    "value": "إناث",
+                    "locale": "ar",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "ženský",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "ženský",
+                    "locale": "cs",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Femenino",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Femenino",
+                    "locale": "es",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Femme",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Femme",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Perempuan",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Perempuan",
+                    "locale": "id",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Kvinne",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Kvinne",
+                    "locale": "nb",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Feminino",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Feminino",
+                    "locale": "pt",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "женский",
+                    "locale": "ru",
+                    "property": "NAME"
+                },
+                {
+                    "value": "женский",
+                    "locale": "ru",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Аёл",
+                    "locale": "uz",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Аёл",
+                    "locale": "uz",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Аyol",
+                    "locale": "uz_UZ",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Аyol",
+                    "locale": "uz_UZ",
+                    "property": "SHORT_NAME"
+                }
+            ],
+            "userAccesses": [],
+            "attributeValues": [],
+            "organisationUnits": [],
+            "userGroupAccesses": []
+        },
+        {
+            "id": "ftXCKvbuGgj",
+            "code": "P10Y--P15Y",
+            "name": "10-14 years (MCA)",
+            "created": "2020-12-21T12:21:48.664",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "shortName": "10-14 y",
+            "lastUpdated": "2021-03-22T14:03:13.016",
+            "publicAccess": "r-------",
+            "translations": [
+                {
+                    "value": "10-14 let",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "10-14 let",
+                    "locale": "cs",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "10-14 años",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "10-14 a",
+                    "locale": "es",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "10-14 ans",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "10-14 ans ",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "10-14 tahun",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "10-14 Tahun",
+                    "locale": "id",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "10-14 år",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "10-14 år",
+                    "locale": "nb",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "10-14 anos",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "10-14 a",
+                    "locale": "pt",
+                    "property": "SHORT_NAME"
+                }
+            ],
+            "userAccesses": [],
+            "attributeValues": [],
+            "organisationUnits": [],
+            "userGroupAccesses": []
+        },
+        {
+            "id": "I0kOLNtdqRM",
+            "code": "OTHER",
+            "name": "Other (MCA)",
+            "created": "2020-12-21T12:21:48.664",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "shortName": "Other MCA",
+            "lastUpdated": "2021-03-22T14:03:13.017",
+            "publicAccess": "r-------",
+            "translations": [
+                {
+                    "value": "أخرى",
+                    "locale": "ar",
+                    "property": "NAME"
+                },
+                {
+                    "value": "أخرى",
+                    "locale": "ar",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Ostatní",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Ostatní",
+                    "locale": "cs",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Otro",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Otro",
+                    "locale": "es",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Autre",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Autre",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Lain-lain",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Lain-lain",
+                    "locale": "id",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Andre",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Andre",
+                    "locale": "nb",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Outros",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Outros",
+                    "locale": "pt",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Другой",
+                    "locale": "ru",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Другой",
+                    "locale": "ru",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Бошқалар",
+                    "locale": "uz",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Бошқалар",
+                    "locale": "uz",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Boshqalar",
+                    "locale": "uz_UZ",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Boshqalar",
+                    "locale": "uz_UZ",
+                    "property": "SHORT_NAME"
+                }
+            ],
+            "userAccesses": [],
+            "attributeValues": [],
+            "organisationUnits": [],
+            "userGroupAccesses": []
+        },
+        {
+            "id": "ic0uMjTGsQ7",
+            "code": "IMP",
+            "name": "Implant",
+            "created": "2020-04-02T14:14:18.187",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "shortName": "Implant",
+            "lastUpdated": "2020-04-02T14:14:18.187",
+            "publicAccess": "r-------",
+            "translations": [],
+            "userAccesses": [],
+            "attributeValues": [],
+            "organisationUnits": [],
+            "userGroupAccesses": []
+        },
+        {
+            "id": "J205eXYNH7q",
+            "code": "P5Y--P10Y",
+            "name": "5-9 years (MCA)",
+            "created": "2020-12-21T12:21:48.664",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "shortName": "5-9 y MCA",
+            "lastUpdated": "2021-03-22T14:03:13.015",
+            "publicAccess": "r-------",
+            "translations": [
+                {
+                    "value": "5-9 let",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-9 r",
+                    "locale": "cs",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "5-9 años",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-9 a",
+                    "locale": "es",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "5-9 ans",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-9 ans ",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "5-9 Tahun",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-9 Tahun",
+                    "locale": "id",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "5-9 år",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-9 år",
+                    "locale": "nb",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "5-9 anos",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-9 a",
+                    "locale": "pt",
+                    "property": "SHORT_NAME"
+                }
+            ],
+            "userAccesses": [],
+            "attributeValues": [],
+            "organisationUnits": [],
+            "userGroupAccesses": []
+        },
+        {
+            "id": "Lo1gxiS8zap",
+            "code": "P55Y--P65Y",
+            "name": "55-64 years",
+            "created": "2020-11-05T07:07:47.650",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "shortName": "55-64 y",
+            "lastUpdated": "2021-02-08T13:24:58.971",
+            "publicAccess": "r-------",
+            "translations": [
+                {
+                    "value": "55-64 let",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "55-64 let",
+                    "locale": "cs",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "55-64 años",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "55-64 a",
+                    "locale": "es",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "55-64 ans",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "55-64",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "55-64 Tahun",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "55-64 Tahun",
+                    "locale": "id",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "55-64 år",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "55-64 år",
+                    "locale": "nb",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "55-64 anos",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "55-64 a",
+                    "locale": "pt",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "55-64 лет",
+                    "locale": "ru",
+                    "property": "NAME"
+                },
+                {
+                    "value": "55-64 ёш",
+                    "locale": "uz",
+                    "property": "NAME"
+                },
+                {
+                    "value": "55-64 ёш",
+                    "locale": "uz",
+                    "property": "SHORT_NAME"
+                }
+            ],
+            "userAccesses": [],
+            "attributeValues": [],
+            "organisationUnits": [],
+            "userGroupAccesses": []
+        },
+        {
+            "id": "ls9vGYWbvwG",
+            "code": "P15Y--P25Y",
+            "name": "15-24 years",
+            "created": "2020-11-05T07:07:47.649",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "shortName": "15-24 y",
+            "lastUpdated": "2021-02-08T13:25:00.107",
+            "publicAccess": "r-------",
+            "translations": [
+                {
+                    "value": "15-24 let",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-24 let",
+                    "locale": "cs",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "15-24 años",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-24 a",
+                    "locale": "es",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "15-24 ans",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-24",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "15-24 Tahun",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-24 Thn",
+                    "locale": "id",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "15-24 år",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-24 år",
+                    "locale": "nb",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "15-24 anos",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-24 a",
+                    "locale": "pt",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "15-24 лет",
+                    "locale": "ru",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-24 ёш",
+                    "locale": "uz",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-24 ёш",
+                    "locale": "uz",
+                    "property": "SHORT_NAME"
+                }
+            ],
+            "userAccesses": [],
+            "attributeValues": [],
+            "organisationUnits": [],
+            "userGroupAccesses": []
+        },
+        {
+            "id": "MP15bHaQh2x",
+            "code": "M",
+            "name": "Male (MCA)",
+            "created": "2020-12-21T12:21:48.663",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "shortName": "Male MCA",
+            "lastUpdated": "2021-03-22T14:03:13.017",
+            "publicAccess": "r-------",
+            "translations": [
+                {
+                    "value": "ذكور",
+                    "locale": "ar",
+                    "property": "NAME"
+                },
+                {
+                    "value": "ذكور",
+                    "locale": "ar",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "muž",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "muž",
+                    "locale": "cs",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Masculino",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Masculino",
+                    "locale": "es",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Masculin",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Masculin",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Laki-laki",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Laki-laki",
+                    "locale": "id",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Mann",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Mann",
+                    "locale": "nb",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Masculino",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Masculino",
+                    "locale": "pt",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "мужской",
+                    "locale": "ru",
+                    "property": "NAME"
+                },
+                {
+                    "value": "мужской",
+                    "locale": "ru",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Эркак",
+                    "locale": "uz",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Эркак",
+                    "locale": "uz",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Erkak",
+                    "locale": "uz_UZ",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Erkak",
+                    "locale": "uz_UZ",
+                    "property": "SHORT_NAME"
+                }
+            ],
+            "userAccesses": [],
+            "attributeValues": [],
+            "organisationUnits": [],
+            "userGroupAccesses": []
+        },
+        {
+            "id": "nkQw9lhkbGV",
+            "code": "P45Y--P55Y",
+            "name": "45-54 years",
+            "created": "2020-11-05T07:07:47.649",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "shortName": "45-54 y",
+            "lastUpdated": "2021-02-08T13:25:00.300",
+            "publicAccess": "r-------",
+            "translations": [
+                {
+                    "value": "45-54 let",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "45-54 let",
+                    "locale": "cs",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "45-54 años",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "45-54 a",
+                    "locale": "es",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "45-54 ans",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "45-54",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "45-54 Tahun",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "45-54 Thn",
+                    "locale": "id",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "45-54 år",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "45-54 år",
+                    "locale": "nb",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "45-54 anos",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "45-54 a",
+                    "locale": "pt",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "45-54 лет",
+                    "locale": "ru",
+                    "property": "NAME"
+                },
+                {
+                    "value": "45-54 ёш",
+                    "locale": "uz",
+                    "property": "NAME"
+                },
+                {
+                    "value": "45-54 ёш",
+                    "locale": "uz",
+                    "property": "SHORT_NAME"
+                }
+            ],
+            "userAccesses": [],
+            "attributeValues": [],
+            "organisationUnits": [],
+            "userGroupAccesses": []
+        },
+        {
+            "id": "O6UJSfL4psp",
+            "code": "P25Y--P35Y",
+            "name": "25-34 years",
+            "created": "2020-11-05T07:07:47.649",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "shortName": "25-34 y",
+            "lastUpdated": "2021-02-08T13:24:59.148",
+            "publicAccess": "r-------",
+            "translations": [
+                {
+                    "value": "25-34 let",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "25-34 let",
+                    "locale": "cs",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "25-34 años",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "25-34 a",
+                    "locale": "es",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "25-34 ans",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "25-34",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "25-34 Tahun",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "25-34 Tahun",
+                    "locale": "id",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "25-34 år",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "25-34 år",
+                    "locale": "nb",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "25-34 anos",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "25-34 a",
+                    "locale": "pt",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "25-34 лет",
+                    "locale": "ru",
+                    "property": "NAME"
+                },
+                {
+                    "value": "25-34 ёш",
+                    "locale": "uz",
+                    "property": "NAME"
+                },
+                {
+                    "value": "25-34 ёш",
+                    "locale": "uz",
+                    "property": "SHORT_NAME"
+                }
+            ],
+            "userAccesses": [],
+            "attributeValues": [],
+            "organisationUnits": [],
+            "userGroupAccesses": []
+        },
+        {
+            "id": "OGo8Nqa4e6V",
+            "code": "P65Y--P999Y",
+            "name": "65+ years",
+            "created": "2020-11-05T07:07:47.650",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "shortName": "65+ y",
+            "lastUpdated": "2021-02-08T13:24:59.336",
+            "publicAccess": "r-------",
+            "translations": [
+                {
+                    "value": "65+ let",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "65+ r",
+                    "locale": "cs",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "65+ años",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "65+ a",
+                    "locale": "es",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "65+ ans",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "65+ ans",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "65+ Tahun",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "65+ Tahun",
+                    "locale": "id",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "65+ år",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "65+ år",
+                    "locale": "nb",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "65+ anos",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "65+ a",
+                    "locale": "pt",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "65+ лет",
+                    "locale": "ru",
+                    "property": "NAME"
+                },
+                {
+                    "value": "65+ ёш",
+                    "locale": "uz",
+                    "property": "NAME"
+                },
+                {
+                    "value": "65+ ёш",
+                    "locale": "uz",
+                    "property": "SHORT_NAME"
+                }
+            ],
+            "userAccesses": [],
+            "attributeValues": [],
+            "organisationUnits": [],
+            "userGroupAccesses": []
+        },
+        {
+            "id": "pa0cY66MrG6",
+            "code": "P5Y--P15Y",
+            "name": "5-14 years",
+            "created": "2020-11-05T07:07:47.649",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "shortName": "5-14 y",
+            "lastUpdated": "2021-02-08T13:24:58.365",
+            "publicAccess": "r-------",
+            "translations": [
+                {
+                    "value": "5-14 سنوات",
+                    "locale": "ar",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-14 let",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-14 let",
+                    "locale": "cs",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "5-14 años",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-14 a",
+                    "locale": "es",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "5-14 ans",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-14",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "5-14 Tahun",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-14 Thn",
+                    "locale": "id",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "5-14 år",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-14 år",
+                    "locale": "nb",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "5-14 anos",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-14 a",
+                    "locale": "pt",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "5-14 лет",
+                    "locale": "ru",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-14 лет",
+                    "locale": "ru",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "5-14 ёш",
+                    "locale": "uz",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-14 ёш",
+                    "locale": "uz",
+                    "property": "SHORT_NAME"
+                }
+            ],
+            "userAccesses": [],
+            "attributeValues": [],
+            "organisationUnits": [],
+            "userGroupAccesses": []
+        },
+        {
+            "id": "UPvKbcqTEY3",
+            "code": "P0Y--P5Y",
+            "name": "0-4 years",
+            "created": "2020-12-21T12:21:48.664",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "shortName": "0-4 y",
+            "lastUpdated": "2021-05-04T09:39:17.828",
+            "publicAccess": "r-------",
+            "translations": [
+                {
+                    "value": "0-4 roky",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "0-4 r",
+                    "locale": "cs",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "0-4 años",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "0-4 a",
+                    "locale": "es",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "0-4 ans",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "0-4",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "0-4 tahun",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "0-4 t",
+                    "locale": "id",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "0-4 år",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "0-4 år",
+                    "locale": "nb",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "0-4 anos",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "0-4 a",
+                    "locale": "pt",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "0-4 лет",
+                    "locale": "ru",
+                    "property": "NAME"
+                },
+                {
+                    "value": "0-4 ёш",
+                    "locale": "uz",
+                    "property": "NAME"
+                },
+                {
+                    "value": "0-4 ёш",
+                    "locale": "uz",
+                    "property": "SHORT_NAME"
+                }
+            ],
+            "userAccesses": [],
+            "attributeValues": [],
+            "organisationUnits": [],
+            "userGroupAccesses": []
+        },
+        {
+            "id": "utyLRFta4ie",
+            "code": "P35Y--P45Y",
+            "name": "35-44 years",
+            "created": "2020-11-05T07:07:47.649",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "shortName": "35-44 y",
+            "lastUpdated": "2021-02-08T13:25:00.845",
+            "publicAccess": "r-------",
+            "translations": [
+                {
+                    "value": "35-44 let",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "35-44 let",
+                    "locale": "cs",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "35-44 años",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "35-44 a",
+                    "locale": "es",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "35-44 ans",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "35-44 ans",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "35-44 Tahun",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "35-44 Thn",
+                    "locale": "id",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "35-44 år",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "35-44 år",
+                    "locale": "nb",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "35-44 anos",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "35-44 a",
+                    "locale": "pt",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "35-44 лет",
+                    "locale": "ru",
+                    "property": "NAME"
+                },
+                {
+                    "value": "35-44 ёш",
+                    "locale": "uz",
+                    "property": "NAME"
+                },
+                {
+                    "value": "35-44 ёш",
+                    "locale": "uz",
+                    "property": "SHORT_NAME"
+                }
+            ],
+            "userAccesses": [],
+            "attributeValues": [],
+            "organisationUnits": [],
+            "userGroupAccesses": []
+        },
+        {
+            "id": "vs63zVUVG5D",
+            "code": "OTHER_FP",
+            "name": "Other FP Method",
+            "created": "2020-04-03T13:08:24.875",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "shortName": "Other FP Method",
+            "lastUpdated": "2020-04-03T13:08:24.875",
+            "publicAccess": "r-------",
+            "translations": [],
+            "userAccesses": [],
+            "attributeValues": [],
+            "organisationUnits": [],
+            "userGroupAccesses": []
+        },
+        {
+            "id": "WNPpyVkVaL3",
+            "code": "UNK_AGE",
+            "name": "Unknown Age",
+            "created": "2020-12-21T12:21:48.664",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "shortName": "Unk age",
+            "lastUpdated": "2021-03-22T14:03:13.017",
+            "publicAccess": "r-------",
+            "translations": [
+                {
+                    "value": "Âge inconnu",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Âge inconnu",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                }
+            ],
+            "userAccesses": [],
+            "attributeValues": [],
+            "organisationUnits": [],
+            "userGroupAccesses": []
+        },
+        {
+            "id": "wTpH7wugXzZ",
+            "code": "P15Y--P999Y",
+            "name": "15+ years",
+            "created": "2020-11-05T07:07:47.650",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "shortName": "15+ y",
+            "lastUpdated": "2021-02-08T13:25:01.019",
+            "publicAccess": "r-------",
+            "translations": [
+                {
+                    "value": "15+ let",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15+ r",
+                    "locale": "cs",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "15+ años",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15+ a",
+                    "locale": "es",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "15+ ans",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15+ ans",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "15+ Tahun",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15+ Thn",
+                    "locale": "id",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "15+ år",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15+ år",
+                    "locale": "nb",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "15+ anos",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15+ y",
+                    "locale": "pt",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "15+ лет",
+                    "locale": "ru",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15+ ёш",
+                    "locale": "uz",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15+ ёш",
+                    "locale": "uz",
+                    "property": "SHORT_NAME"
+                }
+            ],
+            "userAccesses": [],
+            "attributeValues": [],
+            "organisationUnits": [],
+            "userGroupAccesses": []
+        },
+        {
+            "id": "Yflh1WPEwcp",
+            "code": "INJ",
+            "name": "Injectable",
+            "created": "2020-12-21T12:21:48.663",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "users": {},
+                "public": "r-------",
+                "external": false,
+                "userGroups": {}
+            },
+            "createdBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "shortName": "Injectable",
+            "lastUpdated": "2020-12-21T12:21:48.663",
+            "publicAccess": "r-------",
+            "translations": [],
+            "userAccesses": [],
+            "attributeValues": [],
+            "organisationUnits": [],
+            "userGroupAccesses": []
+        }
+    ],
+    "categoryOptionCombos": [
+        {
+            "id": "BcTmquO9Vhw",
+            "code": "RMH-1014Y",
+            "name": "10-14 years",
+            "created": "2020-06-22T10:00:51.034",
+            "lastUpdated": "2021-02-08T13:23:06.512",
+            "translations": [
+                {
+                    "value": "10-14 let",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "10-14 años",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "10-14 ans",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "10-14 tahun",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "10-14 år",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "10-14 anos",
+                    "locale": "pt",
+                    "property": "NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "jGaNULROqin"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "ftXCKvbuGgj"
+                }
+            ]
+        },
+        {
+            "id": "C3SNsiCa2Sd",
+            "code": "AH-1519YM",
+            "name": "15-19 years, Male",
+            "created": "2020-06-22T10:00:51.034",
+            "lastUpdated": "2020-06-22T10:00:51.034",
+            "translations": [],
+            "categoryCombo": {
+                "id": "K8lIoJKlffu"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "MP15bHaQh2x"
+                },
+                {
+                    "id": "dENFBee17Oi"
+                }
+            ]
+        },
+        {
+            "id": "CsjPSglpsHe",
+            "code": "RH-PILL",
+            "name": "Pill",
+            "created": "2020-06-22T10:00:51.034",
+            "lastUpdated": "2020-06-22T10:00:51.034",
+            "translations": [],
+            "categoryCombo": {
+                "id": "doNNP8ODJC1"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "AJi4a1ldMqS"
+                }
+            ]
+        },
+        {
+            "id": "CzbhUfOZVxl",
+            "code": "RMH-20PLUSYF",
+            "name": "20+ years, Female",
+            "created": "2020-06-22T10:00:51.035",
+            "lastUpdated": "2021-02-08T13:23:06.725",
+            "translations": [
+                {
+                    "value": "20+ let, Žena",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "20+ años, Femenino",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "20 ans et plus, féminin",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "20+ tahun, Perempuan",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "20+ år, Kvinne",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "20+ anos, Feminino",
+                    "locale": "pt",
+                    "property": "NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "B3erFZxkcPq"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "aeQKV9Y2Ium"
+                },
+                {
+                    "id": "FFA9e1yIXCT"
+                }
+            ]
+        },
+        {
+            "id": "CZmXtASxluI",
+            "code": "RH-IMP",
+            "name": "Implant",
+            "created": "2020-06-22T10:00:51.034",
+            "lastUpdated": "2020-06-22T10:00:51.034",
+            "translations": [],
+            "categoryCombo": {
+                "id": "doNNP8ODJC1"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "ic0uMjTGsQ7"
+                }
+            ]
+        },
+        {
+            "id": "fGPIkhFU9gZ",
+            "code": "TB-1524YM",
+            "name": "15-24 years, Male",
+            "created": "2020-06-22T10:00:51.035",
+            "lastUpdated": "2021-02-08T13:24:52.578",
+            "translations": [
+                {
+                    "value": "15-24 let, muž",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-24 años, Masculino",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-24 ans, masculin",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-24 Tahun, Laki-laki",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-24 år, mann",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-24 anos, Masculino",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-24 лет, Мужчины",
+                    "locale": "ru",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-24 ёш, Эркак",
+                    "locale": "uz",
+                    "property": "NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "Ow8ltIsRQKX"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "MP15bHaQh2x"
+                },
+                {
+                    "id": "ls9vGYWbvwG"
+                }
+            ]
+        },
+        {
+            "id": "fQ59eeXTE19",
+            "code": "TB-0004YF",
+            "name": "0-4 years, Female",
+            "created": "2020-06-22T10:00:51.035",
+            "lastUpdated": "2021-02-08T13:24:52.958",
+            "translations": [
+                {
+                    "value": "0-4 let, žena",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "0-4 años, Femenino",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "0-4 ans, féminin",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "0-4 Tahun, Perempuan",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "0-4 år, kvinne",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "0-4 anos, Feminino",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "0-4 лет, Женщины",
+                    "locale": "ru",
+                    "property": "NAME"
+                },
+                {
+                    "value": "0-4 ёш, Аёл",
+                    "locale": "uz",
+                    "property": "NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "Ow8ltIsRQKX"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "UPvKbcqTEY3"
+                },
+                {
+                    "id": "FFA9e1yIXCT"
+                }
+            ]
+        },
+        {
+            "id": "FSfiNaXYBpm",
+            "code": "EPI-OTHER",
+            "name": "Other",
+            "created": "2020-06-22T10:00:51.034",
+            "lastUpdated": "2021-02-08T13:23:05.714",
+            "translations": [
+                {
+                    "value": "أخرى",
+                    "locale": "ar",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Ostatní",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Otro",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Autre",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Lain-lain",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Andre",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Outros",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Другой",
+                    "locale": "ru",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Бошқалар",
+                    "locale": "uz",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Boshqalar",
+                    "locale": "uz_UZ",
+                    "property": "NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "TS4Ik8MkKNv"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "I0kOLNtdqRM"
+                }
+            ]
+        },
+        {
+            "id": "gQFIQV6abt6",
+            "code": "CH-0004Y",
+            "name": "0-4 years",
+            "created": "2020-06-22T10:00:51.034",
+            "lastUpdated": "2021-02-08T13:23:06.092",
+            "translations": [
+                {
+                    "value": "0-4 roky",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "0-4 años",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "0-4 ans",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "0-4 tahun",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "0-4 år",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "0-4 anos",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "0-4 лет",
+                    "locale": "ru",
+                    "property": "NAME"
+                },
+                {
+                    "value": "0-4 ёш",
+                    "locale": "uz",
+                    "property": "NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "M6gYl5gALzC"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "UPvKbcqTEY3"
+                }
+            ]
+        },
+        {
+            "id": "hF0pQZIn6Ch",
+            "code": "MAL-15PLUSY",
+            "name": "15+ years",
+            "created": "2020-06-22T10:00:51.034",
+            "lastUpdated": "2020-06-22T10:00:51.034",
+            "translations": [
+                {
+                    "value": "15+ ans",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "BwnnrV1AkNj"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "wTpH7wugXzZ"
+                }
+            ]
+        },
+        {
+            "id": "hPYqkYBn6xT",
+            "code": "RH-CDM",
+            "name": "Condom",
+            "created": "2020-06-22T10:00:51.034",
+            "lastUpdated": "2020-06-22T10:00:51.034",
+            "translations": [],
+            "categoryCombo": {
+                "id": "doNNP8ODJC1"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "fcIGIZgrkdB"
+                }
+            ]
+        },
+        {
+            "id": "hTTSLrG15qa",
+            "code": "TB-3544YF",
+            "name": "35-44 years, Female",
+            "created": "2020-06-22T10:00:51.035",
+            "lastUpdated": "2021-02-08T13:24:53.147",
+            "translations": [
+                {
+                    "value": "35–44 let, žena",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "35-44 años, Femenino",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "35-44 ans, féminin",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "35-44 Tahun, Perempuan",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "35-44 år, kvinne",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "35-44 anos, Feminino",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "35-44 лет, Женщины",
+                    "locale": "ru",
+                    "property": "NAME"
+                },
+                {
+                    "value": "35-44 ёш, Аёл",
+                    "locale": "uz",
+                    "property": "NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "Ow8ltIsRQKX"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "utyLRFta4ie"
+                },
+                {
+                    "id": "FFA9e1yIXCT"
+                }
+            ]
+        },
+        {
+            "id": "i2ZxgolQtwL",
+            "code": "RMH-1519YM",
+            "name": "15-19 years, Male",
+            "created": "2020-06-22T10:00:51.034",
+            "lastUpdated": "2021-02-08T13:23:07.507",
+            "translations": [
+                {
+                    "value": "15-19 let, Muž",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-19 años, Masculino",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-19 ans, masculin",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-19 tahun",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-19 år, Mann",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-19 anos, Masculino",
+                    "locale": "pt",
+                    "property": "NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "B3erFZxkcPq"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "MP15bHaQh2x"
+                },
+                {
+                    "id": "dENFBee17Oi"
+                }
+            ]
+        },
+        {
+            "id": "jmEg4Oonrzz",
+            "code": "RH-INJ",
+            "name": "Injectable",
+            "created": "2020-06-22T10:00:51.034",
+            "lastUpdated": "2020-06-22T10:00:51.034",
+            "translations": [],
+            "categoryCombo": {
+                "id": "doNNP8ODJC1"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "Yflh1WPEwcp"
+                }
+            ]
+        },
+        {
+            "id": "kprxF3rp7G0",
+            "code": "RMH-1519Y",
+            "name": "15-19 years",
+            "created": "2020-06-22T10:00:51.034",
+            "lastUpdated": "2021-02-08T13:23:07.693",
+            "translations": [
+                {
+                    "value": "15-19 let",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-19 años",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-19 ans",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-19 Tahun",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-19 år",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-19 anos",
+                    "locale": "pt",
+                    "property": "NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "jGaNULROqin"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "dENFBee17Oi"
+                }
+            ]
+        },
+        {
+            "id": "KuHpVjsOQKx",
+            "code": "TB-65PLUSYM",
+            "name": "65+ years, Male",
+            "created": "2020-06-22T10:00:51.035",
+            "lastUpdated": "2021-02-08T13:24:49.528",
+            "translations": [
+                {
+                    "value": "65+ let, Muž",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "65+ años, Masculino",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "65 ans et plus, masculin",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "65+ Tahun, Laki-laki",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "65+ år, Mann",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "65+ anos, Masculino",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "65+ лет, Мужчины",
+                    "locale": "ru",
+                    "property": "NAME"
+                },
+                {
+                    "value": "65+ ёш, Эркак",
+                    "locale": "uz",
+                    "property": "NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "Ow8ltIsRQKX"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "MP15bHaQh2x"
+                },
+                {
+                    "id": "OGo8Nqa4e6V"
+                }
+            ]
+        },
+        {
+            "id": "LKgmRuovjop",
+            "code": "TB-5564YF",
+            "name": "55-64 years, Female",
+            "created": "2020-06-22T10:00:51.035",
+            "lastUpdated": "2021-02-08T13:24:49.727",
+            "translations": [
+                {
+                    "value": "55-64 let, žena",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "55-64 años, Femenino",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "55-64 ans, féminin",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "55-64 Tahun, Perempuan",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "55-64 år, kvinne",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "55-64 anos, Feminino",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "55-64 лет, Женщины",
+                    "locale": "ru",
+                    "property": "NAME"
+                },
+                {
+                    "value": "55-64 ёш, Аёл",
+                    "locale": "uz",
+                    "property": "NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "Ow8ltIsRQKX"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "Lo1gxiS8zap"
+                },
+                {
+                    "id": "FFA9e1yIXCT"
+                }
+            ]
+        },
+        {
+            "id": "MCWLRNrBBOq",
+            "code": "TB-65PLUSYF",
+            "name": "65+ years, Female",
+            "created": "2020-06-22T10:00:51.035",
+            "lastUpdated": "2021-02-08T13:24:50.109",
+            "translations": [
+                {
+                    "value": "65+ let, Žena",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "65+ años, Femenino",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "65 ans et plus, féminin",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "65+ Tahun, Perempuan",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "65+ år, Kvinne",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "65+ anos, Feminino",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "65+ лет, Женщины",
+                    "locale": "ru",
+                    "property": "NAME"
+                },
+                {
+                    "value": "65+ ёш, Аёл",
+                    "locale": "uz",
+                    "property": "NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "Ow8ltIsRQKX"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "OGo8Nqa4e6V"
+                },
+                {
+                    "id": "FFA9e1yIXCT"
+                }
+            ]
+        },
+        {
+            "id": "MhS0mKLqv9I",
+            "code": "RMH-20PLUSY",
+            "name": "20+ years",
+            "created": "2020-06-22T10:00:51.035",
+            "lastUpdated": "2021-02-08T13:23:06.945",
+            "translations": [
+                {
+                    "value": "20+ let",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "20+ años",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "20 ans et plus",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "20+ Tahun",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "20+ år",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "20+ anos",
+                    "locale": "pt",
+                    "property": "NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "jGaNULROqin"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "aeQKV9Y2Ium"
+                }
+            ]
+        },
+        {
+            "id": "o10H9LYYGZX",
+            "code": "AH-1014YM",
+            "name": "10-14 years, Male",
+            "created": "2020-06-22T10:00:51.034",
+            "lastUpdated": "2020-06-22T10:00:51.034",
+            "translations": [],
+            "categoryCombo": {
+                "id": "K8lIoJKlffu"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "MP15bHaQh2x"
+                },
+                {
+                    "id": "ftXCKvbuGgj"
+                }
+            ]
+        },
+        {
+            "id": "o5PajQ9JTHa",
+            "code": "RH-OTHER",
+            "name": "Other",
+            "created": "2020-06-22T10:00:51.034",
+            "lastUpdated": "2020-06-22T10:00:51.034",
+            "translations": [],
+            "categoryCombo": {
+                "id": "doNNP8ODJC1"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "I0kOLNtdqRM"
+                }
+            ]
+        },
+        {
+            "id": "oPcWGgS2Liz",
+            "code": "MAL-0004Y",
+            "name": "0-4 years",
+            "created": "2020-06-22T10:00:51.034",
+            "lastUpdated": "2020-06-22T10:00:51.034",
+            "translations": [
+                {
+                    "value": "0-4 ans",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "BwnnrV1AkNj"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "UPvKbcqTEY3"
+                }
+            ]
+        },
+        {
+            "id": "PcXvX2I0Z1b",
+            "code": "TB-0004YM",
+            "name": "0-4 years, Male",
+            "created": "2020-06-22T10:00:51.035",
+            "lastUpdated": "2021-02-08T13:24:50.690",
+            "translations": [
+                {
+                    "value": "0-4 roky, muž",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "0-4 años, Masculino",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "0-4 ans, masculin",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "0-4 Tahun, Laki-laki",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "0-4 år, mann",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "0-4 anos, Masculino",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "0-4 лет, Мужчины",
+                    "locale": "ru",
+                    "property": "NAME"
+                },
+                {
+                    "value": "0-4 ёш, Эркак",
+                    "locale": "uz",
+                    "property": "NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "Ow8ltIsRQKX"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "MP15bHaQh2x"
+                },
+                {
+                    "id": "UPvKbcqTEY3"
+                }
+            ]
+        },
+        {
+            "id": "pU8Ajn46iwe",
+            "code": "AH-1519YF",
+            "name": "15-19 years, Female",
+            "created": "2020-06-22T10:00:51.034",
+            "lastUpdated": "2020-06-22T10:00:51.034",
+            "translations": [],
+            "categoryCombo": {
+                "id": "K8lIoJKlffu"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "dENFBee17Oi"
+                },
+                {
+                    "id": "FFA9e1yIXCT"
+                }
+            ]
+        },
+        {
+            "id": "PwBF9kiGSTp",
+            "code": "TB-3544YM",
+            "name": "35-44 years, Male",
+            "created": "2020-06-22T10:00:51.035",
+            "lastUpdated": "2021-02-08T13:24:50.891",
+            "translations": [
+                {
+                    "value": "35–44 let, muž",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "35-44 años, Masculino",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "35-44 ans, masculin",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "35-44 Tahun, Laki-laki",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "35-44 år, mann",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "35-44 anos, Masculino",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "35-44 лет, Мужчины",
+                    "locale": "ru",
+                    "property": "NAME"
+                },
+                {
+                    "value": "35-44 ёш, Эркак",
+                    "locale": "uz",
+                    "property": "NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "Ow8ltIsRQKX"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "MP15bHaQh2x"
+                },
+                {
+                    "id": "utyLRFta4ie"
+                }
+            ]
+        },
+        {
+            "id": "PWh3RWTZSRH",
+            "code": "TB-1524YF",
+            "name": "15-24 years, Female",
+            "created": "2020-06-22T10:00:51.035",
+            "lastUpdated": "2021-02-08T13:24:50.475",
+            "translations": [
+                {
+                    "value": "15–24 let, žena",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-24 años, Femenino",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-24 ans, féminin",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-24 Tahun, Perempuan",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-24 år, kvinne",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-24 anos, Feminino",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-24 лет, Женщины",
+                    "locale": "ru",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-24 ёш, Аёл",
+                    "locale": "uz",
+                    "property": "NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "Ow8ltIsRQKX"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "FFA9e1yIXCT"
+                },
+                {
+                    "id": "ls9vGYWbvwG"
+                }
+            ]
+        },
+        {
+            "id": "qFz7OICuv0Z",
+            "code": "TB-4554YM",
+            "name": "45-54 years, Male",
+            "created": "2020-06-22T10:00:51.035",
+            "lastUpdated": "2021-02-08T13:24:54.839",
+            "translations": [
+                {
+                    "value": "45–54 let, muž",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "45-54 años, Masculino",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "45-54 ans, masculin",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "45-54 Tahun, Laki-laki",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "45-54 år, kvinne",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "45-54 anos, Masculino",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "45-54 лет, Мужчины",
+                    "locale": "ru",
+                    "property": "NAME"
+                },
+                {
+                    "value": "45-54 ёш, Эркак",
+                    "locale": "uz",
+                    "property": "NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "Ow8ltIsRQKX"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "MP15bHaQh2x"
+                },
+                {
+                    "id": "nkQw9lhkbGV"
+                }
+            ]
+        },
+        {
+            "id": "QjDAlkj4CYa",
+            "code": "RH-IUD",
+            "name": "IUD",
+            "created": "2020-06-22T10:00:51.034",
+            "lastUpdated": "2020-06-22T10:00:51.034",
+            "translations": [],
+            "categoryCombo": {
+                "id": "doNNP8ODJC1"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "dqDowxdlyvs"
+                }
+            ]
+        },
+        {
+            "id": "Qn5veUbjFlC",
+            "code": "RH-OTHERFP",
+            "name": "Other FP Method",
+            "created": "2020-06-22T10:00:51.034",
+            "lastUpdated": "2020-06-22T10:00:51.034",
+            "translations": [],
+            "categoryCombo": {
+                "id": "doNNP8ODJC1"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "vs63zVUVG5D"
+                }
+            ]
+        },
+        {
+            "id": "qwn0KjcDNEL",
+            "code": "AH-1014YF",
+            "name": "10-14 years, Female",
+            "created": "2020-06-22T10:00:51.034",
+            "lastUpdated": "2020-06-22T10:00:51.034",
+            "translations": [],
+            "categoryCombo": {
+                "id": "K8lIoJKlffu"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "ftXCKvbuGgj"
+                },
+                {
+                    "id": "FFA9e1yIXCT"
+                }
+            ]
+        },
+        {
+            "id": "rDzmnH2ECiL",
+            "code": "TB-0514YF",
+            "name": "5-14 years, Female",
+            "created": "2020-06-22T10:00:51.035",
+            "lastUpdated": "2021-02-08T13:24:48.249",
+            "translations": [
+                {
+                    "value": "5-14 سنوات، إناث",
+                    "locale": "ar",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-14 let, žena",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-14 años, Femenino",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-14 ans, Féminin",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-14 Tahun, Perempuan",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-14 år, kvinne",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-14 anos, Feminino",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-14 лет, жен.",
+                    "locale": "ru",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-14 ёш, Аёл",
+                    "locale": "uz",
+                    "property": "NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "Ow8ltIsRQKX"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "pa0cY66MrG6"
+                },
+                {
+                    "id": "FFA9e1yIXCT"
+                }
+            ]
+        },
+        {
+            "id": "rN5oMG7RVrR",
+            "code": "RMH-20PLUSYM",
+            "name": "20+ years, Male",
+            "created": "2020-06-22T10:00:51.035",
+            "lastUpdated": "2021-02-08T13:23:07.885",
+            "translations": [
+                {
+                    "value": "20+ let, Muž",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "20+ años, Masculino",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "20 ans et plus, masculin",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "20+ Tahun, Laki-laki",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "20+ år, Mann",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "20+ anos, Masculino",
+                    "locale": "pt",
+                    "property": "NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "B3erFZxkcPq"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "MP15bHaQh2x"
+                },
+                {
+                    "id": "aeQKV9Y2Ium"
+                }
+            ]
+        },
+        {
+            "id": "rOEwFMdYGU3",
+            "code": "RMH-1014YM",
+            "name": "10-14 years, Male",
+            "created": "2020-06-22T10:00:51.034",
+            "lastUpdated": "2021-02-08T13:23:08.070",
+            "translations": [
+                {
+                    "value": "10-14 let, Muž",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "10-14 años, Masculino",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "10-14 ans, masculin",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "10-14 Tahun, Laki-laki",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "10-14 år, Mann",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "10-14 anos, Masculino",
+                    "locale": "pt",
+                    "property": "NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "B3erFZxkcPq"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "MP15bHaQh2x"
+                },
+                {
+                    "id": "ftXCKvbuGgj"
+                }
+            ]
+        },
+        {
+            "id": "rtfSaMjPyq6",
+            "code": "MAL-0514Y",
+            "name": "5-14 years",
+            "created": "2020-06-22T10:00:51.034",
+            "lastUpdated": "2020-06-22T10:00:51.034",
+            "translations": [
+                {
+                    "value": "5-14 años",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-14 ans",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-14 anos",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-14 лет",
+                    "locale": "ru",
+                    "property": "NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "BwnnrV1AkNj"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "pa0cY66MrG6"
+                }
+            ]
+        },
+        {
+            "id": "slONe528O2f",
+            "code": "CH-0509Y",
+            "name": "5-9 years",
+            "created": "2020-06-22T10:00:51.034",
+            "lastUpdated": "2021-02-08T13:23:08.261",
+            "translations": [
+                {
+                    "value": "5-9 let",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-9 años",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-9 ans",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-9 Tahun",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-9 år",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-9 anos",
+                    "locale": "pt",
+                    "property": "NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "M6gYl5gALzC"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "J205eXYNH7q"
+                }
+            ]
+        },
+        {
+            "id": "t9r0WNolYN2",
+            "code": "TB-4554YF",
+            "name": "45-54 years, Female",
+            "created": "2020-06-22T10:00:51.035",
+            "lastUpdated": "2021-02-08T13:24:55.203",
+            "translations": [
+                {
+                    "value": "45-54 let, žena",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "45-54 años, Femenino",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "45-54 ans, féminin",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "45-54 Tahun, Perempuan",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "45-54 år, kvinne",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "45-54 anos, Feminino",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "45-54 лет, Женщины",
+                    "locale": "ru",
+                    "property": "NAME"
+                },
+                {
+                    "value": "45-54 ёш, Аёл",
+                    "locale": "uz",
+                    "property": "NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "Ow8ltIsRQKX"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "nkQw9lhkbGV"
+                },
+                {
+                    "id": "FFA9e1yIXCT"
+                }
+            ]
+        },
+        {
+            "id": "UdKHt4kcT0M",
+            "code": "TB-2534YM",
+            "name": "25-34 years, Male",
+            "created": "2020-06-22T10:00:51.035",
+            "lastUpdated": "2021-02-08T13:24:51.484",
+            "translations": [
+                {
+                    "value": "25-34 let, Muž",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "25-34 años, masculino",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "25-34 ans, masculin",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "25-34 Tahun, Laki-laki",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "25-34 år, mann",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "25-34 anos, Masculino",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "25-34 лет, Мужчины",
+                    "locale": "ru",
+                    "property": "NAME"
+                },
+                {
+                    "value": "25-34 ёш, Эркак",
+                    "locale": "uz",
+                    "property": "NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "Ow8ltIsRQKX"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "MP15bHaQh2x"
+                },
+                {
+                    "id": "O6UJSfL4psp"
+                }
+            ]
+        },
+        {
+            "id": "W1kARiaNM3w",
+            "code": "EPI-PREG",
+            "name": "Pregnant",
+            "created": "2020-06-22T10:00:51.034",
+            "lastUpdated": "2021-02-08T13:23:07.146",
+            "translations": [
+                {
+                    "value": "Těhotná",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Embarazada",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Grossesse",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Hamil",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Graviditet",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Grávida",
+                    "locale": "pt",
+                    "property": "NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "TS4Ik8MkKNv"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "DI2XEyHejPP"
+                }
+            ]
+        },
+        {
+            "id": "W2TUD82Alhb",
+            "code": "RMH-1519YF",
+            "name": "15-19 years, Female",
+            "created": "2020-06-22T10:00:51.034",
+            "lastUpdated": "2021-02-08T13:23:07.326",
+            "translations": [
+                {
+                    "value": "15-19 let, Žena",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-19 años, Femenino",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-19 ans, féminin",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-19 Tahun, Perempuan",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-19 år, Kvinne",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "15-19 anos, Feminino",
+                    "locale": "pt",
+                    "property": "NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "B3erFZxkcPq"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "dENFBee17Oi"
+                },
+                {
+                    "id": "FFA9e1yIXCT"
+                }
+            ]
+        },
+        {
+            "id": "WrTcXFoa5TX",
+            "code": "TB-UNKAGEM",
+            "name": "Unknown Age, Male",
+            "created": "2020-06-22T10:00:51.035",
+            "lastUpdated": "2020-06-22T10:00:51.035",
+            "translations": [],
+            "categoryCombo": {
+                "id": "Ow8ltIsRQKX"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "MP15bHaQh2x"
+                },
+                {
+                    "id": "WNPpyVkVaL3"
+                }
+            ]
+        },
+        {
+            "id": "xiwHk098SAw",
+            "code": "RMH-1014YF",
+            "name": "10-14 years, Female",
+            "created": "2020-06-22T10:00:51.034",
+            "lastUpdated": "2021-02-08T13:23:08.446",
+            "translations": [
+                {
+                    "value": "10-14 let, Žena",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "10-14 años, Femenino",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "10-14 ans, féminin",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "10-14 Tahun, Perempuan",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "10-14 år, Kvinne",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "10-14 anos, Feminino",
+                    "locale": "pt",
+                    "property": "NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "B3erFZxkcPq"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "ftXCKvbuGgj"
+                },
+                {
+                    "id": "FFA9e1yIXCT"
+                }
+            ]
+        },
+        {
+            "id": "YEgJBndPbIM",
+            "code": "TB-0514YM",
+            "name": "5-14 years, Male",
+            "created": "2020-06-22T10:00:51.035",
+            "lastUpdated": "2021-02-08T13:24:48.035",
+            "translations": [
+                {
+                    "value": "5-14 سنوات، ذكور",
+                    "locale": "ar",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-14 let, Muž",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-14 años, Masculino",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-14 ans, Masculin",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-14 Tahun, Laki-laki",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-14 år, mann",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-14 anos, Masculino",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-14 лет, муж.",
+                    "locale": "ru",
+                    "property": "NAME"
+                },
+                {
+                    "value": "5-14 ёш, Эркак",
+                    "locale": "uz",
+                    "property": "NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "Ow8ltIsRQKX"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "MP15bHaQh2x"
+                },
+                {
+                    "id": "pa0cY66MrG6"
+                }
+            ]
+        },
+        {
+            "id": "YSXeQGEdt0M",
+            "code": "TB-2534YF",
+            "name": "25-34 years, Female",
+            "created": "2020-06-22T10:00:51.035",
+            "lastUpdated": "2021-02-08T13:24:51.862",
+            "translations": [
+                {
+                    "value": "25–34 let, žena",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "25-34 años, Femenino",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "25-34 ans, féminin",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "25-34 Tahun, Perempuan",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "25-34 år, kvinne",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "25-34 anos, Feminino",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "25-34 лет, Женщины",
+                    "locale": "ru",
+                    "property": "NAME"
+                },
+                {
+                    "value": "25-34 ёш, Аёл",
+                    "locale": "uz",
+                    "property": "NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "Ow8ltIsRQKX"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "O6UJSfL4psp"
+                },
+                {
+                    "id": "FFA9e1yIXCT"
+                }
+            ]
+        },
+        {
+            "id": "z7mHVm62pEJ",
+            "code": "TB-UNKAGEF",
+            "name": "Unknown Age, Female",
+            "created": "2020-06-22T10:00:51.035",
+            "lastUpdated": "2020-06-22T10:00:51.035",
+            "translations": [],
+            "categoryCombo": {
+                "id": "Ow8ltIsRQKX"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "WNPpyVkVaL3"
+                },
+                {
+                    "id": "FFA9e1yIXCT"
+                }
+            ]
+        },
+        {
+            "id": "ZJFWAWtxBVA",
+            "code": "TB-5564YM",
+            "name": "55-64 years, Male",
+            "created": "2020-06-22T10:00:51.035",
+            "lastUpdated": "2021-02-08T13:24:52.039",
+            "translations": [
+                {
+                    "value": "55-64 let, Muž",
+                    "locale": "cs",
+                    "property": "NAME"
+                },
+                {
+                    "value": "55-64 años, Masculino",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "55-64 ans, masculin",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "55-64 Tahun, Laki-laki",
+                    "locale": "id",
+                    "property": "NAME"
+                },
+                {
+                    "value": "55-64 år, mann",
+                    "locale": "nb",
+                    "property": "NAME"
+                },
+                {
+                    "value": "55-64 anos, Masculino",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "55-64 лет, Мужчины",
+                    "locale": "ru",
+                    "property": "NAME"
+                },
+                {
+                    "value": "55-64 ёш, Эркак",
+                    "locale": "uz",
+                    "property": "NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "Ow8ltIsRQKX"
+            },
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "MP15bHaQh2x"
+                },
+                {
+                    "id": "Lo1gxiS8zap"
+                }
+            ]
+        }
+    ]
+}
